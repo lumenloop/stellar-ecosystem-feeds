@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
+    <meta name="description" content="RSS-Bridge" />
+    <title>On the Flipside</title>
+    <link href="static/style.css?2023-03-24" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"
+            title="Atom"
+            rel="alternate"
+            type="application/atom+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Json"
+            title="Json"
+            rel="alternate"
+            type="application/json"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Mrss"
+            title="Mrss"
+            rel="alternate"
+            type="application/rss+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Plaintext"
+            title="Plaintext"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Sfeed"
+            title="Sfeed"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+    <meta name="robots" content="noindex, follow">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="pagetitle">
+            <a href="https://blog.flipsidecrypto.com/" target="_blank">On the Flipside</a>
+        </h1>
+
+        <div class="buttons">
+            <a href="./#bridge-FeedFinderBridge">
+                <button class="backbutton">← back to rss-bridge</button>
+            </a>
+
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom">
+                    <button class="rss-feed">
+                        Atom                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Json">
+                    <button class="rss-feed">
+                        Json                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Mrss">
+                    <button class="rss-feed">
+                        Mrss                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Plaintext">
+                    <button class="rss-feed">
+                        Plaintext                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fblog.flipsidecrypto.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Sfeed">
+                    <button class="rss-feed">
+                        Sfeed                    </button>
+                </a>
+            
+                    </div>
+
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/coming-soon-to-flipside-solana-data-bounties/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=coming-soon-to-flipside-solana-data-bounties"
+                    >Coming SOON to Flipside: Solana Data & Bounties  </a>
+                </h2>
+
+                                    <time datetime="2021-12-20 20:53:51">
+                        2021-12-20 20:53:51                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Rochelle Guillou</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+In the next few weeks, Solana’s on-chain data will be made available for free on the Flipside platform, and analytics bounties paid out in $SOL will be launched weekly!
+
+
+
+
+Keep me Posted!
+
+
+
+
+A Major Step Towards a Multi-Chain Future
+
+
+
+As Zhu Su and Hasu explain in a recent episode of Uncommon Core (and well summarized here by @isaac_mung), the future of crypto is multi-chain. Ethereum is no longer the only relevant smart contract blockchain, and is in fact having a hard time keeping up with faster and cheaper Proof-of-Stake alternatives like Terra, Algorand and of course – Solana.
+
+
+
+Solana is the scaling solution for blockchains. Its technology is highlighting the benefits of low transaction costs and incredibly fast transactions for driving mass adoption, the success of which can be seen in the exponential growth of its NFT and gaming communities. Solana has also successfully integrated (via Wormhole) with other leading layer 1s, which positions them at the forefront of a multi-chain future.
+
+
+
+In this multi-chain space, cross-chain analytics is key. Flipside already provides curated Terra and Ethereum blockchain data. Adding Solana data dramatically amplifies the range and power of the analysis that anyone can perform.
+
+
+
+Community members have built amazing things on other chains, like this LUNAtic score to rank Terra addresses and this THORchain console with key metrics.
+
+
+
+
+
+
+
+Solana Bounties for Tools, Analytics and New Users
+
+
+
+Solana bounties will be used to reward the creation of tools and analytics from the community, for the community. What would you like to know about Solana? We’re sourcing bounty ideas here.
+
+
+
+There’s a hunger for new tools that empower users to make more informed decisions when it comes to crypto (see these calculators for Uniswap V3 and Anchor as examples), and for quality real-time analytics accessible to all, for free. Solana bounties will empower analysts to use Flipside’s labeled on-chain data to work on crowd-sourced projects, from simple dashboards that update in real-time, to more complex tooling, adjustable for curated insights.
+
+
+
+Bounties are also a great way to expose new users to the ecosystem. Over 500 people have completed our intro to Solana scavenger hunt (re-opening this December, stay tuned on Discord!). We understand that learning about a completely new crypto project can be tricky, and that taking the time to do so should be rewarded as well.
+
+
+
+We’re incredibly excited to start delivering Solana data for you to dive into in a few short weeks. We’re already sourcing questions from the community so feel free to submit your ideas using our question vault!
+
+
+
+Buckle in. It’s going to be a wild 2022 for Solana, and we’re here to take that journey with you!
+The post Coming SOON to Flipside: Solana Data &#038; Bounties   appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/abracadabra-bounties/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=abracadabra-bounties"
+                    >Just Launched: Abracadabra Bounties</a>
+                </h2>
+
+                                    <time datetime="2021-12-17 20:00:00">
+                        2021-12-17 20:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Just launched: Abracadabra Bounties at Flipside Crypto.
+
+
+
+It&#8217;s our latest magic trick.  Starting right now, bringing community-enabled analytics to the Abracadabra ecosystem, in the form of new bounties, on-chain data, and more.
+
+
+
+Abracadabra Bounties are here
+
+
+
+Our bounty program is all about supporting the Abracadabra community with on-chain analytics, including free structured and labeled data. But we need your help to offer the insights the ecosystem needs to grow.
+
+
+
+So, we’re giving out 1.26 LUNA to the first 25 correct submissions to our easy questions, and 4.19 LUNA for hard questions. The best response to each question will also receive the grand prize of 3.78 LUNA for easy questions and 12.57 LUNA for hard questions.
+
+
+
+To get started, sign up for an account with Velocity. Then, get to work on your submission and send it in by 11:59pm UTC/ 6:59pm EST on Wednesday 12/22
+
+
+
+
+SEE ALL ABRACADABRA BOUNTIES HERE
+
+
+
+
+Learn more
+
+
+
+Join our community on Discord, and subscribe to our weekly newsletter, the Bounty Brief. That way you won’t miss out on any of our bounties, educational content, and more. You can also check out Flipside Crypto’s video tutorials. They&#8217;ll help you get started with Velocity and learn how to get paid for solving crypto bounties.
+The post Just Launched: Abracadabra Bounties appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/ust-universe/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ust-universe"
+                    >Just Launched: UST Universe</a>
+                </h2>
+
+                                    <time datetime="2021-12-16 23:00:00">
+                        2021-12-16 23:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+Just launched: the UST Calculator, created by @AngelaMinster.
+
+
+
+
+$UST flipped the market cap of $DAI. More people — and protocols — are using it than ever.So who&#39;s got the , how much, + what are they using it for?@flipsidecrypto has the answer. Check out our  #UST Universe, built by @angelaminster @terra_money https://t.co/ow9c1U5Rgo pic.twitter.com/LdDnNFLLoS&mdash; Flipside Crypto (@flipsidecrypto) December 16, 2021
+
+
+
+
+After the success of Columbus-5 and the rising popularity of the Terra protocol, more people — and more protocols — are using UST than ever before. The stablecoin is becoming the center of the crypto universe. The currency is now even available to be used not just on the Terra blockchain, but in a wide range of other blockchains and ecosystems.
+
+
+
+So, who owns all that UST circulating around various ecosystems? How much do they have? And what are they doing with it? The Flipside Crypto community has the answer, thanks to a new tool created by @AngelaMinster.
+
+
+
+
+
+
+
+With this tool, users instantly understand who owns UST, how they’re using it, and what ecosystem it’s being used in. And the best part?
+
+
+
+All of the data in this universe is available for free via Flipside Crypto&#8217;s app. You can also come join the conversation on Terra and learn more about community-enabled analytics on the  Flipside Crypto discord server.
+
+
+
+
+
+
+
+
+USE THE UST UNIVERSE TOOL NOW
+
+
+
+
+Want to learn more about Terra? Join the conversation in our Discord community. Plus, join us at 12 pm ET/ 5 PM UTC on Friday, December 17 for our Validator Community Call!
+The post Just Launched: UST Universe appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/thorchain-a-story-of-rolling-thunder%ef%bf%bc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=thorchain-a-story-of-rolling-thunder%25ef%25bf%25bc"
+                    >THORChain | A Story of Rolling Thunder￼</a>
+                </h2>
+
+                                    <time datetime="2021-12-16 15:15:24">
+                        2021-12-16 15:15:24                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Rochelle Guillou</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                		
+						
+						
+					
+			
+						
+				
+									
+THORChain stands at the forefront of blockchain innovation, working to solve the most challenging problems that our industry faces.
+
+By enabling the direct exchange of assets across L1 blockchains, THORChain provides the foundation for a truly revolutionary financial ecosystem&#8230;and people are noticing.
+
+A network with this level of trajectory needs in-depth data and analytics to drive growth, attract users, and turn skeptics into believers…
+
+And the results are compelling. The THORChain ecosystem is growing at insane rates, and the Flipside data community has stepped in to support this growth by providing key analytics &amp; research to showcase the rise.
+
+Let’s take a look at what thunder is rolling through the THORChain ecosystem!
+
+
+
+Earn $RUNE for Analytics
+
+
+
+
+◆By the Hammer of THOR: Essential On-Chain Analytics◆
+
+CROSS-CHAIN ACTIVITY REMAINS SIGNIFICANT
+
+With swapping active across BTC, ETH, BCH, LTC, and BNB, the ecosystem continues to thrive. The THORChain Console dives deep into the details.
+
+
+
+
+
+USER GROWTH HAS BEEN UP ONLY
+
+
+24k users and counting have been onboarded to the ecosystem between April and December of this year alone. Check out this comprehensive report diving deep into user growth metrics on the network:
+
+
+647k swaps to date, with 367k since the network halt in July
+$17.21M in rewards distributed to LP-ers to date
+8,357 unique LP addresses LP-ing 41 different tokens across 5 different chains
+24k Unique THORChain Wallet Addresses &#8211; over half of those have been added since the network halt in July
+
+
+
+
+
+
+RESILIENCY IS KEY
+
+
+The network has remained resilient in the face of challenges and so has the price of $RUNE, showing strong support from users and the market alike. Key takeaways:
+
+
+There is not a linear relationship between Rune&#8217;s price and net trading volume.
+When external events occur (crypto wide crash / exploits) which causes Rune prices to drop, we see more Rune volume sold.
+When Rune prices stagnate, there is equal buying and selling volume.
+When Rune prices rally it sparks huge buying volumes &#8211; almost $8M Rune bought in a single day.
+
+
+More details here.
+
+
+
+
+
+BUT WAIT, you can’t protect Asgard by just watching from your armchair…you gotta get involved, and now you can with an edge.
+
+The THORChain LP Calculator gives LPs the power to calculate their potential earnings when providing liquidity on the network.
+
+
+
+Want more data as bad as THOR wants to crush Loki? Click here for Top THORchain Analytics Dashboards.
+Still not satisfied? A full list of submissions is available here.
+
+
+
+◆Over the Bifrost Bridge: Get Involved in producing THORChain Analytics Today◆
+
+Step 1: Get your voice heard!
+
+Have pressing THORChain data questions or ideas for research? Submit them to the THORChain community in theTHORChain Question App:
+
+Step 2. Sign-Up!
+
+Join Flipside’s THORchain Analytics Community discord here, and get free access to analytics-ready SQL query interface here.
+
+Step 3. Earn $RUNE for Analytics
+
+Head over to the bounty notion page to claim and build THORChain bounties!
+
+The THORChain data provided here was lovingly produced via Flipside and their Community of THORchain Analysts. 
+
+__________
+								
+				
+					
+		
+					
+		
+				
+		The post THORChain | A Story of Rolling Thunder￼ appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/learn-how-and-where-to-stake-your-luna/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learn-how-and-where-to-stake-your-luna"
+                    >Learn How (and Where) To Stake Your LUNA</a>
+                </h2>
+
+                                    <time datetime="2021-12-15 16:00:00">
+                        2021-12-15 16:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Where should you stake your LUNA? And how do you do it right to begin with?
+
+
+
+There’s lots of conversation —and questions — swirling about LUNA staking and how to decentralize Terra further. But there&#8217;s not enough education for newcomers around how to stake. In an effort to change that, we’re working to build a Validator Score.
+
+
+
+But we can’t do it alone. We need input from the Terra community on LUNA staking and the ecosystem at large to build the best Validator score possible.
+
+
+
+So, we’ll be hosting a community call at 12 PM ET/ 5 PM UTC on Friday, December 17 with validators including Neptune Finance, Angel Protocol, Galactic Punks, and Stader Labs to answer questions like:
+
+
+
+What makes a great validator? What metrics should we build into such a score?As a LUNAtic, what are some strategies to maximize your staking yields?How can Terra further decentralize by helping allocate more LUNA to deserving validators, as opposed to concentrating it in the hands of a few?
+
+
+
+Click below to add the call to join the Flipside Crypto Discord server. See you at 12 PM ET/ 5 PM UTC this  Friday, December 17!
+
+
+
+
+Join the Flipside Crypto Discord
+
+The post Learn How (and Where) To Stake Your LUNA appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/paraswap-bounties/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=paraswap-bounties"
+                    >Just Launched: Paraswap Bounties￼</a>
+                </h2>
+
+                                    <time datetime="2021-12-10 22:30:00">
+                        2021-12-10 22:30:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+Just launched: Paraswap Bounties have touched down at Flipside Crypto.
+
+
+
+Starting right now, bringing community-enabled analytics to the Paraswap ecosystem, in the form of new bounties, on-chain data, and more.
+
+
+
+Paraswap Bounties are here
+
+
+
+Our bounty program is all about supporting the Paraswap community with on-chain analytics, including free structured and labeled data. But we need your help to offer the insights the ecosystem needs to grow.
+
+
+
+So, we’re giving out 192.31 PSP to the first 25 correct submissions to our easy questions, and 3460.95 PSP for hard questions — plus even more for our elite questions. The best response to each question will also receive the grand prize.
+
+
+
+To get started, sign up for an account with Velocity. Then, get to work on your submission and send it in by 11:59pm UTC/ 6:59pm EST on Wednesday 12/15
+
+
+
+
+SEE ALL PARASWAP BOUNTIES HERE
+
+
+
+
+Learn more
+
+
+
+Join our community on Discord, and subscribe to our weekly newsletter, the Bounty Brief. That way you won’t miss out on any of our bounties, educational content, and more. You can also check out Flipside Crypto’s video tutorials and other resources. They&#8217;ll help you get started with Velocity and learn how to get paid for solving crypto bounties.
+The post Just Launched: Paraswap Bounties￼ appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/polygon-gasless-scavenger-hunt/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=polygon-gasless-scavenger-hunt"
+                    >Just Launched: Gasless Polygon Scavenger Hunt</a>
+                </h2>
+
+                                    <time datetime="2021-12-08 20:05:18">
+                        2021-12-08 20:05:18                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Looking to dive deeper into Polygon, $MATIC, Aave, and more, but not sure where to start?
+
+
+
+We’ve got just the thing. Our Gasless Polygon Scavenger Hunt is designed to help you introduce yourself to this protocol and the exciting ecosystem that surrounds it. That includes its native token, $MATIC, plus other tokens and some applications built atop the network.
+
+
+
+Let’s go hunting.
+
+
+
+Get started with the Gasless Polygon Hunt
+
+
+
+We believe that the best way to understand a crypto project is to get involved in it yourself. So, we’re committed to helping you get involved — and rewarding you for it — in the form of our Sushi Hunt.
+
+
+
+We’re offering up MATIC to 200 participants that complete the Gasless Polygon Hunt each day. Just click the button below, then follow the steps to complete the hunt. Then, if you have any issues or questions along the way, reach out to our team on Discord. Then, once you’ve completed the tutorial, you’ll be successfully immersed in the ecosystem.
+
+
+
+
+START THE HUNT
+
+
+
+
+Happy hunting!
+
+
+
+Learn more about Polygon
+
+
+
+Still having trouble immersing yourself in the world of Polygon?
+
+
+
+Join Flipside Crypto for aCommunity Callon Polygon, our Scavenger Hunt, and much much more, featuring @AlysiaTech! The fun starts at12 PM ET/5 PM UTConFriday, December 1 on theFlipside Crypto Discord server.
+
+
+
+Happy hunting!
+
+
+
+Don’t miss out on the latest bounties, news, and more from Flipside Crypto. Join us on Discord, follow on Twitter, or subscribe to our weekly bounty newsletter, the Bounty Brief.
+The post Just Launched: Gasless Polygon Scavenger Hunt appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/ens-bounties/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ens-bounties"
+                    >Just Launched: ENS Bounties</a>
+                </h2>
+
+                                    <time datetime="2021-12-03 20:00:00">
+                        2021-12-03 20:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Just launched: ENS Bounties at Flipside Crypto.
+
+
+
+Starting right now, bringing community-enabled analytics to the ENS ecosystem, in the form of new bounties, on-chain data, and more.
+
+
+
+ENS Bounties are here
+
+
+
+Our bounty program is all about supporting the community with on-chain analytics, including free structured and labeled data. But we need your help to offer the insights the ecosystem needs to grow.
+
+
+
+So, we’re giving out $50 in ENS to the first 25 correct submissions to our easy questions, and $100 for hard questions. The best response to each question will also receive the grand prize!
+
+
+
+To get started, sign up for an account with Velocity. Then, get to work on your submission and send it in by 11:59pm UTC/ 6:59pm EST on Wednesday 12/8.
+
+
+
+
+SEE ALL ENS BOUNTIES HERE
+
+
+
+
+Learn more
+
+
+
+Join our community on Discord, and subscribe to our weekly newsletter, the Bounty Brief. That way you won’t miss out on any of our bounties, educational content, and more. You can also check out Flipside Crypto’s video tutorials. They&#8217;ll help you get started with Velocity and learn how to get paid for solving crypto bounties.
+The post Just Launched: ENS Bounties appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/december-ftt-how-to-acquire-algos/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=december-ftt-how-to-acquire-algos"
+                    >December FTT: How to Acquire ALGOs</a>
+                </h2>
+
+                                    <time datetime="2021-12-02 20:46:23">
+                        2021-12-02 20:46:23                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Rochelle Guillou</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                		
+						
+						
+					
+			
+						
+				
+																														
+				
+					
+		
+					
+		
+				
+						
+					
+			
+						
+				
+									
+What is FTT? 
+
+
+FTT is the Flipside Token Treasury, which provides Flipside employees with tokens for short-term value creation. 
+
+
+6x a year we host an FTT Fiesta, where a team member leads an interactive live demonstration to walk through the purchasing of the native cryptocurrency + education and use cases about the crypto itself. 
+
+
+Flipside funds $500 for each employee to buy and own the crypto.
+
+
+The FTT embodies both our values and our mission: we are passionate about blockchain technology. We enable blockchains to live up to their full potential.
+
+
+We want to enable our team to participate &#8212; and by making these how-tos public, our community &#8212; in the growth of the ecosystems that we are actively supporting. 
+We&#8217;re always looking for great people to join our team so if you like what you&#8217;re reading&#8230; check out our career opportunities! 
+
+
+
+December’s FTT Project: Algorand!
+
+
+Below you will learn how to buy ALGOs and move them to an Algorand Wallet, either the Algorand Official Wallet or the MyAlgo Wallet. 
+
+
+Feel free to check out the tutorial on https://start.flipsidecrypto.com/ . The Lv 1 Scavenger hunt on the site takes you through the process of setting up an Algorand wallet and funding it. You can also continue reading below to learn how to set up your Algorand wallet and fund it.
+
+
+Buying ALGOs
+
+
+First we will need to buy Alogrand’s token which is the ALGO. There are a handful of exchanges we can buy Algorand on:
+
+
+
+Coinbase &#8211; https://www.coinbase.com/price/algorand 
+Binance.US &#8211; https://binance.us/en/trade/pro/ALGO_USD 
+KuCoin &#8211; https://trade.kucoin.com/trade/ALGO-USDT
+
+
+
+If you do not already have an account on one of these sites, I would recommend creating an account on Coinbase(https://www.coinbase.com/) for ease of use. You can also download coinbase’s app and create an account on your phone. Once we have purchased our ALGO, we will need to set up an Algorand Wallet.
+
+
+Setting Up an Algorand Wallet
+
+
+There are a couple different wallets you can store your ALGOs in to interact with the Algorand ecosystem:
+
+
+
+Algorand Official Wallet &#8211; https://algorandwallet.com/ 
+MyAlgo Wallet &#8211; https://wallet.myalgo.com/home 
+
+
+
+For the purpose of this tutorial we will be using the Algorand Official Wallet.  The Algorand Official Wallet you have to set up on mobile whereas the MyAlgo Wallet you can set up on your computer. When following the prompts to set up your wallet make sure to write your seed phrase(the random combination of words) on paper and store it in a safe place. You should never share your seed phrase with anyone. This is how you will recover your wallet in case you forget your password. 
+
+
+Grabbing Your Wallet Address
+
+
+Once you have set up your Algorand wallet, you will want to grab your address from the wallet. In the Algorand wallet, click the icon next to the 3 dots and across from your wallet name. This will open a QR code and below that you will see your Algorand wallet address. Copy that address and we will paste it into Coinbase.
+
+
+Sending ALGOs
+
+
+Go back into the app where you bought your ALGOs. In coinbase, click the Algo asset, then your holdings which will show below the chart. Once you have clicked into your holdings you will see an arrow in the top right corner above the trade button, that is the send button. Type in the dollar amount of ALGOs you want to send to your Algorand, click continue and then paste in your Algorand Wallet address we copied from your wallet in the “To” section. You can now send your ALGOs. Once you have sent your ALGOs open your Algorand wallet and you can now see your funds in there. 
+Does this sound amazing? Want to join the team at Flipside and get free crypto? Check out our open job postings here! 
+								
+				
+					
+		
+					
+		
+				
+		The post December FTT: How to Acquire ALGOs appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/solana-scavenger-hunt/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=solana-scavenger-hunt"
+                    >Just Launched: Solana Scavenger Hunt</a>
+                </h2>
+
+                                    <time datetime="2021-12-02 17:00:00">
+                        2021-12-02 17:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Looking to dive deeper into Solana, $SOL, and more, but not sure where to start?
+
+
+
+We’ve got just the thing. Our Solana Sunbeam Hunt is designed to help you introduce yourself to this protocol and the exciting ecosystem that surrounds it. That includes its native token, $SOL, plus other tokens and some applications built atop the network.
+
+
+
+Let’s go hunting.
+
+
+
+Get started with the Solana Scavenger Hunt
+
+
+
+We believe that the best way to understand a crypto project is to get involved in it yourself. So, we’re committed to helping you get involved — and rewarding you for it — in the form of our Solana Sunbeam Hunt.
+
+
+
+We’re offering $15 in $SOL each to 100 participants that complete the Solana Sunbeam hunt.
+
+
+
+Just click the button below, then follow the steps to complete the hunt. And, if you have any issues or questions along the way, reach out to our team on Discord. Once you’ve completed the tutorial, you’ll be successfully immersed in the ecosystem.
+
+
+
+
+START THE HUNT
+
+
+
+
+Happy hunting!
+
+
+
+Learn more about Solana
+
+
+
+Still having trouble immersing yourself in the world of Solana?
+
+
+
+No problem. Join Flipside Crypto for a Community Call on Solana, the NFT Deal Score, our scavenger hunt, and much much more. The fun starts at 12 PM ET/5 PM UTC on Thursday, December 2, on the Flipside Crypto Discord server.
+
+
+
+Get Started Now
+
+
+
+Time to get hunting. Don’t forget, if you have any issues or questions along the way, reach out to our team on Discord. You can also learn more during our Community Call at 12 PM ET/5 PM UTC on Thursday, December 2
+
+
+
+Happy hunting!
+
+
+
+Don’t miss out on the latest bounties, news, and more from Flipside Crypto. Join us on Discord, follow on Twitter, and subscribe to our newsletter, the Bounty Brief.
+The post Just Launched: Solana Scavenger Hunt appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/solana-nft-deal-score/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=solana-nft-deal-score"
+                    >Just Launched: Solana NFT Deal Score</a>
+                </h2>
+
+                                    <time datetime="2021-12-01 20:00:00">
+                        2021-12-01 20:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Just launched: the Solana NFT Deal Score created by @blumbergkellen and @hoolupoodalz.
+
+
+
+Buying a Monke, ThugBird, Aurory, or DegenApe?
+
+
+
+Make sure you check the NFT Deal Score first! This new tool can help you know if your #NFT listing is a deal, a steal, or a rip-off.
+
+
+
+Just open the app and select a collection, token ID, and floor price. You’ll instantly get details on stats like Historical Sales&#8230;
+
+
+
+
+
+
+
+&#8230;NFT Rankings&#8230;
+
+
+
+
+
+
+
+&#8230;Listings&#8230;
+
+
+
+
+
+
+
+&#8230;and more
+
+
+
+
+
+
+
+So, make sure your NFT deal isn’t a bust — get our #NFTDealScore before you buy!
+
+
+
+
+USE THE SOLANA NFT DEAL SCORE NOW
+
+
+
+
+Want to learn more about Solana? Join the conversation on Discord.
+The post Just Launched: Solana NFT Deal Score appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/algorand-scavenger-hunt/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=algorand-scavenger-hunt"
+                    >Just Launched: Algorand Scavenger Hunt</a>
+                </h2>
+
+                                    <time datetime="2021-11-23 19:00:00">
+                        2021-11-23 19:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+Editor&#8217;s note: We&#8217;re re-opening this hunt to an additional 400 participants! Those that complete this second wave of the Algorand Scavenger Hunt will receive $15 in ALGO. More info below.Looking to dive deeper into Algorand, $ALGO, Tinyman, Yieldly, and more, but not sure where to start?
+
+
+
+We’ve got just the thing. Our Algorand Scavenger Hunt is designed to help you introduce yourself to this protocol and the exciting ecosystem that surrounds it. That includes its native token, $ALGO, plus other tokens and some applications built atop the network.
+
+
+
+Let’s go hunting.
+
+
+
+
+
+
+
+Get started with the Algorand Scavenger Hunt
+
+
+
+We believe that the best way to understand a crypto project is to get involved in it yourself. So, we’re committed to helping you get involved — and rewarding you for it — in the form of our Algorand Scavenger Hunt.
+
+
+
+We’re offering up to $15 in ALGO each to the first 100 500 participants to complete the Algorand Scavenger Hunt. Just click the button below, then follow the steps to complete the hunt. And, if you have any issues or questions along the way, reach out to our team on Discord. Once you’ve completed the tutorial, you’ll be successfully immersed in the ecosystem.
+
+
+
+
+Start the Hunt!
+
+
+
+
+Happy hunting!
+
+
+
+Learn more about Algorand
+
+
+
+Still having trouble immersing yourself in the world of Algorand?
+
+
+
+No problem. Join Flipside Crypto for a Community Call on Algorand, our Scavenger Hunt, and much much more. The fun starts at 1 PM ET on Tuesday, November 22, on the Flipside Crypto Discord server.
+
+
+
+Get Started Now
+
+
+
+It&#8217;s time to get hunting. Don’t forget, if you have any issues or questions along the way, reach out to our team on Discord, or learn more during our Community Call at 1 PM ET/6 PM UTC on Tuesday, November 22.
+
+
+
+Happy hunting!
+
+
+
+Don’t miss out on the latest bounties, news, and more from Flipside Crypto. Join us on Discord, follow on Twitter, and subscribe to our newsletter, the Bounty Brief.
+The post Just Launched: Algorand Scavenger Hunt appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/thorchain-bounty-recap/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=thorchain-bounty-recap"
+                    >The Best of Flipside’s $40K (and counting!) THORChain Bounty Program</a>
+                </h2>
+
+                                    <time datetime="2021-11-23 00:30:00">
+                        2021-11-23 00:30:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+A month ago today, we launched our THORChain bounty program, inviting analysts to submit answers to statistical questions from the community and get paid for their efforts.
+
+
+
+So far? The community has delivered the goods —and then some —with some top-notch data and statistical analysis…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#8230;and they’ve been handsomely rewarded for their efforts —to the tune of more than $40,000 paid out in $RUNE.
+
+
+
+
+
+
+
+So today, to celebrate one month of THORChain bounties, we want to take a look behind the numbers and put the spotlight on some of the best work from our dedicated community of analysts.
+
+
+
+THORChain Bounties: Behind the Numbers
+
+
+
+Number of Unique Participants: 152 analysts submitted data dashboards as part of the program.
+
+
+
+Number of Submissions: Those 152 analysts submitted more than 870 total dashboards, of which 826 qualified for payment.
+
+
+
+Money, Money, Money: All told, we’ve paid out nearly $50,000 in $RUNE during the first four weeks of the bounty program so far —that’s almost 5,000 $RUNE in the price at press time.
+
+
+
+Not too bad for a month’s worth of bounty questions.
+
+
+
+
+
+
+
+THORChain Bounties: The Best of the Best
+
+
+
+We’ve obviously had no shortage of submissions from analysts eager to show off their stuff. Many of them excited us and offered great insights, but a few rose above the rest. 
+
+
+
+Take a look at the best of the best from the first month of our bounty program below.
+
+
+
+@thekakamora is a prolific analyst, offering insights into just about everything from new user activity to Thorswap pools to affiliate fees. Just look at these great insights…
+
+
+
+
+
+
+
+
+
+
+
+You can see all of the analysis from @thekakamora here.
+
+
+
+@mintingfarms has also provided several great pieces of analysis, including this look at THORChain liquidity pools.
+
+
+
+
+
+
+
+
+
+
+
+@dougdevine, meanwhile, examined THORChain pools with this look at pool depth. You can even move the sliders to #DYOR:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Or, take a look at wealth distribution with @njholman79.
+
+
+
+
+
+
+
+
+
+
+
+&#8230;and those are just a few of our favorite submissions. You can find even more great analyses here.
+
+
+
+Bring the Thunder: More THORChain fun
+
+
+
+Dashboards were really just the start of the THORChain goodies the Flipside community cooked up.
+
+
+
+They also debuted the THORChain LP Calculator…
+
+
+
+&#8230;the THORChain Console…
+
+
+
+
+
+
+
+&#8230;and the new CEA Question App, designed to let anyone ask a question with just a click of a button.
+
+
+
+
+
+
+
+And believe us, this is just the beginning.
+
+
+
+Do more with THORChain data
+
+
+
+Ready to get involved with the Bounty program? No problem.
+
+
+
+Start by joining our community on Discord and being part of the conversation in the #thorchain channel. Or, check out our latest THORChain bounties to get started on a submission of your very own.
+The post The Best of Flipside’s $40K (and counting!) THORChain Bounty Program appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/nexus-scavenger-hunt/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=nexus-scavenger-hunt"
+                    >Just Launched: Lexus Nexus Hunt</a>
+                </h2>
+
+                                    <time datetime="2021-11-19 16:07:22">
+                        2021-11-19 16:07:22                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+Scavenger hunters, start your engines. It’s time to dive into Nexus Protocol with Flipside Crypto’s Lexus Nexus Hunt.
+
+
+
+Our Lexus Nexus Hunt is designed to help you introduce yourself to this protocol and the exciting ecosystem that surrounds it. That includes its native token, $Psi, swapping, yield farming, and more.
+
+
+
+Let’s go hunting.
+
+
+
+
+
+
+
+Get started with the Lexus Nexus Hunt
+
+
+
+We believe that the best way to understand a crypto project is to get involved in it yourself. So, we’re committed to helping you get involved — and rewarding you for it — in the form of our Lexus Nexus Hunt.
+
+
+
+We’re offering $50 in $Psi each to 100 participants that complete the Lexus Nexus Hunt. Just click the button below, then follow the steps to complete the hunt. And, if you have any issues or questions along the way, reach out to our team on Discord. Once you’ve completed the tutorial, you’ll be successfully immersed in the ecosystem.
+
+
+
+
+START THE HUNT
+
+
+
+
+Happy hunting!
+
+
+
+Get Started Now
+
+
+
+Time to get hunting. Don’t forget, if you have any issues or questions along the way, reach out to our team on Discord.
+
+
+
+Happy hunting!Don’t miss out on the latest bounties, news, and more from Flipside Crypto. Join us on Discord, follow on Twitter, and subscribe to our newsletter, the Bounty Brief.
+The post Just Launched: Lexus Nexus Hunt appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/rune-price-trading/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rune-price-trading"
+                    >How THORChain Trading Impacts The Price of $RUNE</a>
+                </h2>
+
+                                    <time datetime="2021-11-19 13:00:00">
+                        2021-11-19 13:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+Plenty of #THORChads have their eyes trained to the price of $RUNE, THORChain’s native currency, as they wait to see whether the token will moon.
+
+
+
+Many of the users are already eagerly swapping RUNE and other tokens on the platform, looking for the next great trade. What impact does all this trading have on the price of that native token?
+
+
+
+The Flipside Crypto community of analysts has the answers. To get better insights on $RUNE price and the world of THORChain trading, we’re calling on a pair of the community’s top analysts — @thekakamora and @sem1d5.
+
+
+
+The most popular times to trade on THORChain
+
+
+
+Late October was generally a good time for trading in the THORChain ecosystem. As @thekakamora notes in this submission, trading volume peaked on November 1 at roughly 4:00 AM. Other notable spikes could be seen on October 27, 2021, at 8:00 AM and again on October 22. 
+
+
+
+
+
+
+
+So, when are #THORChads at their busiest? According to research from @thekakamora, traders generally seem to be the most active between 7 AM and 11 PM EST.
+
+
+
+
+
+
+
+How THORChain Trading Impacts The Price of $RUNE
+
+
+
+So how does all this trading and swapping impact the price of $RUNE? It’s a particularly important question in the wake of increased trading volume in late October and early November, followed by yet another disruption in THORChain later in November.
+
+
+
+As @sem1d5 notes in this submission, in the days and weeks leading up to the May crash and the exploit of THORchain that followed, we can see that buyers actually outnumber sellers. Over time, however, we can see that these buyers are only purchasing small amounts of $RUNE, especially compared to sellers. 
+
+
+
+What’s more, as @sem1d5  points out “this trend of Rune prices dropping while rune buyers increasing carried on up until the exploit where we see significantly more sellers than buyers.”
+
+
+
+
+
+
+
+So, what happened after the relaunch of THORChain? At first, there were far more $RUNE sellers than buyers, likely an indication of lost trust following the exploit. Prices quickly rallied, however, and buyers rushed into the market, outnumbering sellers.
+
+
+
+
+
+
+
+Do more with THORChain data 
+
+
+
+Thanks to everyone who submitted such great data dashboards. Check out our open THORChain bounties here.Want to get more involved with the Flipside community and see your own submissions on our blog? Join us on Discord to get started.
+The post How THORChain Trading Impacts The Price of $RUNE appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/thorchain-lp-analytics/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=thorchain-lp-analytics"
+                    >#RaiseTheCaps: What’s Happening On THORChain Liquidity Pools?</a>
+                </h2>
+
+                                    <time datetime="2021-11-18 15:00:24">
+                        2021-11-18 15:00:24                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+If you’ve spent time on CT, you’ve seen #RaiseTheCaps, the plea from THORChain liquidity providers to increase the size of liquidity pools on the platform.
+
+
+
+Given the rewards provided to THORChain LPs, including swap fees and system rewards, it’s probably no surprise that folks are eager to provide liquidity on the platform.
+
+
+
+Today, @mintingfarms gives us a closer look at liquidity pools on THORChain, including the size of liquidity pools and the average weekly APY for LPs.
+
+
+
+THORChain pools reach new depths in November
+
+
+
+The first submission from @mintingfarms dives deep into THORChain pools, exploring the TVL and swap volume of various pools on the platform. 
+
+
+
+As we can see in the graph above, TVL has reached new heights in recent weeks, with TVL for the most popular pools peaking at more than $80 million. The BTC-BTC pool led the way, even after falling to $68.9 million at the time of analysts. That’s more than $20 million more in TVL than the next largest pool — ETH-X_RUNE at $45.9 million.
+
+
+
+
+
+
+
+Swap volumes, meanwhile have been more variable, with a notable gap arising between late-July and mid-September due in part to the downtime for the protocol. In November, however, as @mintingfarms points out, “volume spiked up to $50 million and reached a new high.”
+
+
+
+
+
+
+
+Weekly APY spikes in the summer, then stablizes
+
+
+
+But what of the rewards coming to liquidity providers? How have they fared through these ups and downs in pool and swap volume?
+
+
+
+As @mintingfarms notes, the rate of returns for LPs remained rather consistent from July to September outside of an outlier on July 12. This is the case despite the absence of swaps — and thusly, swap rewards — during the network’s downtime. 
+
+
+
+More recently, APY has been on a gradual increase, peaking at nearly 75% before settling between 60-70% at the time of analysis.
+
+
+
+
+
+
+
+@mintingfarms also provided a look at the weekly annualized APY of THORChain pools. “Given that the APY calculation compounds yields daily, pools with high APR (note 18th Oct) has exceptionally high APY, of upward of 100k%,” as can be seen in the data below. “Most of the pools yielded between 10-50% APY on the week of analysis.”
+
+
+
+
+
+
+
+Do more with THORChain data 
+
+
+
+Thanks to everyone who submitted such great data dashboards. Check out our open THORChain bounties here.
+
+
+
+Want to get more involved with the Flipside community and see your own submissions on our blog? Join us on Discord to get started.
+The post #RaiseTheCaps: What’s Happening On THORChain Liquidity Pools? appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/thorchain-new-users-swap-pairs/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=thorchain-new-users-swap-pairs"
+                    >Bring the Thunder: What’s Happening On THORChain?</a>
+                </h2>
+
+                                    <time datetime="2021-11-17 13:00:00">
+                        2021-11-17 13:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+THORChain. You likely know it as the subject of hacks, pleas to #RAISETHECAPS, and the protocol’s devoted legion of fans known as #THORChads.
+
+
+
+But what’s happening on-chain when it comes to THORChain? The Flipside community of analysts has the answers.
+
+
+
+Today, @bachkav and @yuiwa69 offer an intro to the platform by looking at new user activity and the most popular swap pairs.
+
+
+
+New users spike in September
+
+
+
+Let’s start by taking a look at the number of unique addresses on THORChain, with some help from this submission from @bachkav.
+
+
+
+As we can see in the data below, the number of new wallets grew steadily from April through the end of June as the platform gained attention. Those numbers quickly dropped following both of the two hacks to strike earlier this summer.
+
+
+
+
+
+
+
+The number of new wallets spiked to an all-time high in late September once THORChain was taken back online. What remains to be seen, however, is exactly how the latest interruption impacts wallet creation.
+
+
+
+All told, more than 18,000 wallets had been created on THORChain through the end of October.
+
+
+
+
+
+
+
+The most popular pairs
+
+
+
+So, once these new users reach THORChain, what token pairs do they tend to swap? According to this submission from analyst @yuiwa69, there are a pair of clear titans when it comes to THORChain swaps.
+
+
+
+
+
+
+
+As we can see above, the BNB.BUSD-B to RUNE pair and its counterpart, the RUNE to BNB.BUSD-B pair, rise far above the competition in terms of both swap volume (displayed by the black bars) and the number of swaps (displayed in orange.) These RUNE pairs also rule the day when it comes to swap percentages, as we can see below.
+
+
+
+
+
+
+
+Do more with THORChain data 
+
+
+
+Thanks to everyone who submitted such great data dashboards. Check out our open THORChain bounties here.
+
+
+
+Want to get more involved with the Flipside community and see your own submissions on our blog? Join us on Discord to get started.
+The post Bring the Thunder: What’s Happening On THORChain? appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/aave-dashboards-nov-16/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aave-dashboards-nov-16"
+                    >The Biggest Liquidations — And Liquidators — On Aave</a>
+                </h2>
+
+                                    <time datetime="2021-11-16 13:00:00">
+                        2021-11-16 13:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+Everyone knows the Aave mascot, an adorable ghost. But what can be really terrifying is being liquidated on the platform.
+
+
+
+As Halloween passed, we at Flipside got to thinking — what are some of the scariest events to ever take place on Aave? Who’s been liquidated the most, where have they been liquidated, and who are the biggest liquidators?
+
+
+
+We’ve got three Aave data dashboards that can help us answer those questions. That includes submissions from @karl_x_lee, @thekakamora, and  @bachkav.
+
+
+
+Let’s dive in.
+
+
+
+The biggest liquidations
+
+
+
+We’ll start by taking a look at the 20 most liquidated borrowers ever on Aave, with some help from @thekakamora and @karl_x_lee.
+
+
+
+As @thekakamora notes in the graph below, five different borrowers have been liquidated for more than $20 million across all three versions of Aave — V1, V2, and Aave AMM. What’s more, as the submission notes, three have been liquidated for nearly $60 million. Truly terrifying stuff.
+
+
+
+
+
+
+
+As we can see in the graph above, much of these losses are coming through Aave V2. But what form are these losses taking? According to @karl_x_lee, “USDC is the most dominant debt currency in the top 10 liquidations,” while “WETH is the dominant collateral currency.”
+
+
+
+
+
+
+
+
+
+
+
+The degens to rule them all
+
+
+
+So those are the biggest liquidations. But who are the biggest liquidators on the platform? @bachkav has the answer there.
+
+
+
+As we can see in the data below, one liquidator stands out above the rest, with nearly $40 million in liquidations. That’s more than 10 times the second-place finisher.
+
+
+
+
+
+
+
+Do more with Aave data 
+
+
+
+That does it for now — but we&#8217;ll have more dashboards to share soon. Thanks to everyone who submitted such great data dashboards! Want to get more involved with the Flipside community and see your own submissions on our blog? Join us on Discord to get started.
+The post The Biggest Liquidations — And Liquidators — On Aave appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/levana-protocol-cea/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=levana-protocol-cea"
+                    >Just Launched: Levana Bounties</a>
+                </h2>
+
+                                    <time datetime="2021-11-12 19:03:39">
+                        2021-11-12 19:03:39                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Just launched: Levana Bounties at Flipside Crypto.
+
+
+
+Starting right now, bringing community-enabled analytics to the Levana ecosystem, in the form of new bounties, on-chain data, and more.
+
+
+
+Levana Bounties are here
+
+
+
+Our bounty program is all about supporting the Levana community with on-chain analytics, including free structured and labeled data. But we need your help to offer the insights the ecosystem needs to grow.
+
+
+
+So, we’re giving out 50 UST to the first 25 correct submissions to our questions, and 100 UST for hard questions.
+
+
+
+To get started, sign up for an account with Velocity. Then, get to work on your submission and send it in by 11:59pm UTC/ 7:59pm EST on Wednesday 11/17 using this form. 
+
+
+
+
+SEE ALL LEVANA BOUNTIES HERE
+
+
+
+
+Learn more
+
+
+
+Join our community on Discord, and subscribe to our weekly newsletter, the Bounty Brief. That way you won’t miss out on any of our bounties, educational content, and more. You can also check out Flipside Crypto’s video tutorials. They&#8217;ll help you get started with Velocity and learn how to get paid for solving crypto bounties.
+The post Just Launched: Levana Bounties appeared first on On the Flipside.
+
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://blog.flipsidecrypto.com/sushiswap-bounties-cea/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sushiswap-bounties-cea"
+                    > Just Launched: Sushiswap Bounties￼</a>
+                </h2>
+
+                                    <time datetime="2021-11-12 19:03:02">
+                        2021-11-12 19:03:02                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Brendan Murray</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                
+
+
+
+
+Just launched: Sushiswap Bounties at Flipside Crypto.
+
+
+
+Starting right now, bringing community-enabled analytics to the Sushiswap ecosystem, in the form of new bounties, on-chain data, and more.
+
+
+
+SUSHISWAP Bounties are here
+
+
+
+Our bounty program is all about supporting the Sushiswap community with on-chain analytics, including free structured and labeled data. But we need your help to offer the insights the ecosystem needs to grow.
+
+
+
+So, we’re giving out 4.7 SUSHI to the first 25 correct submissions to our easy questions, and 9.4 SUSHI for hard questions. The best response to each question will also receive the grand prize of 14.1 SUSHI for easy questions and 28.2 SUSHI for hard questions.
+
+
+
+To get started, sign up for an account with Velocity. Then, get to work on your submission and send it in by 11:59pm UTC/ 6:59pm EST on Wednesday 11/17.
+
+
+
+
+SEE ALL SUSHISWAP BOUNTIES HERE
+
+
+
+
+Get Started with a Scavenger Hunt
+
+
+
+We believe that the best way to understand a crypto project is to get involved in it yourself. So, we’re committed to helping you get involved — and rewarding you for it — in the form of our SUSHIPOWAH Hunt.
+
+
+
+This SUSHIPOWAH Hunt is designed to help new users go even deeper into the world of Sushi by staking SUSHI tokens to earn xSUSHI and participate in Sushiswap governance. Those who complete the hunt will be rewarded with the Flipside + SUSHIPOWAH POAP.
+
+
+
+ And, if you have any issues or questions along the way, reach out to our team on Discord. Once you’ve completed the tutorial, you’ll be successfully immersed in the ecosystem.
+
+
+
+
+START THE SUSHIPOWAH HUNT
+
+
+
+
+Learn more
+
+
+
+Join our community on Discord, and subscribe to our weekly newsletter, the Bounty Brief. Then, you&#8217;ll get all of our bounties, educational content, and more. You can also check out Flipside Crypto’s video tutorials. They&#8217;ll help you get started with Velocity and learn how to get paid for solving crypto bounties.
+The post  Just Launched: Sushiswap Bounties￼ appeared first on On the Flipside.
+
+                
+                            </section>
+        
+    </div>
+ </body>
+</html>
