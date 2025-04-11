@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Stories by AssetDesk on Medium</title>
+  <link rel="alternate" type="text/html" href="https://medium.com/@assetdesk?source=rss-444cc4f7fd91------2"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40assetdesk&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://cdn-images-1.medium.com/fit/c/150/150/1*EAl1Z1yAvpj2AzTSVc30mA.png</icon>
+  <logo>https://cdn-images-1.medium.com/fit/c/150/150/1*EAl1Z1yAvpj2AzTSVc30mA.png</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40assetdesk&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T21:58:42+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">AssetDesk Secures R&amp;D Grant from Stellar Community Fund</title>
+    <published>2023-09-12T10:09:07+00:00</published>
+    <updated>2023-09-12T10:09:07+00:00</updated>
+    <id>https://medium.com/@assetdesk/assetdesk-secures-r-d-grant-from-stellar-community-fund-464b2a6f2a02?source=rss-444cc4f7fd91------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@assetdesk/assetdesk-secures-r-d-grant-from-stellar-community-fund-464b2a6f2a02?source=rss-444cc4f7fd91------2"/>
+    <author>
+      <name>AssetDesk</name>
+    </author>
+    <content type="html">We are excited to announce that we have received a research and development grant from Stellar Development Foundation to start development of the AssetDesk protocol — a new money markets protocol that provides capital efficiency to the wider DeFi ecosystem on Stellar Soroban.Soroban NetworkA developer-friendly, Rust-based smart contracts platform designed for scale and sensibility. Currently live on the test network dubbed Futurenet, Soroban seamlessly integrates with and works alongside the existing Stellar blockchain.Soroban boosts Stellar’s capabilities as a borderless payments network. Since its launch in 2015, the Stellar network has been laser-focused on worldwide access to cheap and near-instant payments. It makes it easy to issue stablecoins, connect them to traditional financial infrastructure, and convert them using built-in markets that allow for seamless, universal asset exchange.The introduction of Soroban creates a new surface area for innovation that allows developers to create novel financial products and services, specifically decentralized applications (dApps), that take advantage of Stellar’s global access to do something that other networks like Avalanche and Solana can’t: allow users to cash into DeFi.Stellar Community Fund Grant for AssetDeskIn order to bring P2P money markets features to the Stellar Soroban network without sacrificing the network’s efficiency, AssetDesk proposes to launch borrowing and lending protocol as one of the core primitives in any DeFi ecosystem.AssetDesk on Soroban is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.Unlimited Opportunities for Stellar Soroban UsersAssetDesk features empover capabilities ensuring users can maximize their financial potential in a secure environment by bringing on the market not only basic lending and borrowing functions, but also:Margin and Limit position directly inside lending protocol.Flash loans features.NFT lending markets.Stablecoin markets.Stay tuned!We’ve just finalized the first scope of features, a web application and smart contracts went into testing and we have other important news coming up shortly. Follow AssetDesk’s social media channels to be up-to-date on all latest developments:Twitter: @assetdeskMedium: AssetDeskGithub: https://github.com/AssetDesk</content>
+  </entry>
+</feed>
