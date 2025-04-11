@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Stories by CoinSender on Medium</title>
+  <link rel="alternate" type="text/html" href="https://medium.com/@coinsender?source=rss-7bdcac37cfd3------2"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40coinsender&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://cdn-images-1.medium.com/fit/c/150/150/1*02YLGJxHSRTQsHUbb3l-6w.png</icon>
+  <logo>https://cdn-images-1.medium.com/fit/c/150/150/1*02YLGJxHSRTQsHUbb3l-6w.png</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40coinsender&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:04:42+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">CoinSender integrates AZERO, bringing new use cases to the network</title>
+    <published>2023-09-27T10:48:23+00:00</published>
+    <updated>2023-09-27T10:48:23+00:00</updated>
+    <id>https://medium.com/@coinsender/coinsender-integrates-azero-bringing-new-use-cases-to-the-network-fc9903c7a167?source=rss-7bdcac37cfd3------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@coinsender/coinsender-integrates-azero-bringing-new-use-cases-to-the-network-fc9903c7a167?source=rss-7bdcac37cfd3------2"/>
+    <author>
+      <name>CoinSender</name>
+    </author>
+    <content type="html">We’re pleased to announce that CoinSender has been integrated with AZERO, the native coin of Aleph Zero.From now on, Aleph Zero users can leverage CoinSender as the token distribution platform for the whole ecosystem. They’ll now be able to make multi-transaction payouts to employees, airdrop recipients, participants in staking pools, and more.The Aleph Zero ecosystem has just been enriched for a wide range of new use cases, such as:– Enterprise – crypto/fiat accounting, tax and payroll process automation.– Web3 sector – all-in-one token and NFTs management, multi-address transactions, token creation, vesting, airdrops, swaps, quests, and more.How it works:CoinSender works through a set of features:– Wallet integration – now supporting Aleph Zero’s AZERO and the network’s tokens– Smart contracts – the multi-address transactions are executed by trustless smart contracts– Security compliance – the CoinSender team is committed to analyzing and updating our security systems– Invoice constructor – the invoices can be send by a professional invoice constructor– Intuitive interface – the interface is plain and simple to allow users perform all the tasks quickly and efficiently.Receiving Ecosystem Funding Program supportWe’re also happy to communicate receiving support for this integration from the Aleph Zero Foundation’s Ecosystem Funding Program (EFP). The program supports projects in various way beyond grants, in fields such as marketing, business development, and more.We’re thrilled to participate in the ecosystem and bring a new set of use cases to the network and contribute to its adoption!About Aleph ZeroAleph Zero is a layer 1 blockchain built for use cases focused on optimal security, speed, and scalability. Aleph Zero can also support a variety of privacy-enhanced use cases through its Liminal technology. The goal of the platform is to enable builders from all verticals to benefit from this improved DLT design.</content>
+  </entry>
+  <entry>
+    <title type="html">CoinSender Security Audit. Why CertiK?</title>
+    <published>2023-09-08T08:40:02+00:00</published>
+    <updated>2023-09-08T08:40:02+00:00</updated>
+    <id>https://medium.com/@coinsender/coinsender-security-audit-why-certik-58cf660c5b0a?source=rss-7bdcac37cfd3------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@coinsender/coinsender-security-audit-why-certik-58cf660c5b0a?source=rss-7bdcac37cfd3------2"/>
+    <author>
+      <name>CoinSender</name>
+    </author>
+    <content type="html">CertiK is a sign of trust in the rapidly evolving world of blockchain. CertiK’s team of experienced security experts dig deep into smart contracts and blockchain protocols, pinpointing vulnerabilities with precision. Using advanced mathematical proofs and rigorous methodologies, they turn potential security risks into robust, tamper-resistant systems. In the world of blockchain security, CertiK is a true guarantor. Their unique combination of experienced security experts, innovative methodologies, and strong track record made them the perfect choice for us. In addition, CertiK’s comprehensive approach, combining formal verification with traditional testing, ensured we received a comprehensive and thorough audit. When a project bears the CertiK seal, it’s more than just a badge – it’s evidence of unrivaled security, trust and peace of mind for users and investors alike. In the blockchain world, security is paramount. For projects like CoinSender, ensuring the security of their platform is not only a priority, but a necessity. So when it came to choosing an auditor for its platform, CoinSender settled on the gold standard: CertiK.Several factors influenced our decision:First, the experience and reputation of CertiK, which has a team of top-notch security experts with extensive experience in blockchain technology. Their track record of successful audits of leading blockchain projects has given them an excellent reputation in the Industry.This has certainly been influenced by the fact that CertiK is constantly updating their auditing techniques to stay on top of the latest trends and ensure that they are able to address even the newest vulnerabilities.In addition, CertiK’s depth of analysis goes beyond surface analysis. They use a combination of formal verification – a mathematical approach to ensuring code correctness – and traditional testing methods. This combination provides a comprehensive assessment of all potential threats.By choosing CertiK, CoinSender chose to do more than just audit. We chose peace of mind for ourselves and our users, demonstrating our commitment to security and integrity. This decision reaffirms our commitment to creating a safe and secure platform for all of our users.»Key findings from the audit:The CertiK audit was a very important event for the CoinSender team. Several potential issues were identified which, although minor, could lead to potential inefficiencies in the system. By identifying these early on, we were able to strengthen our defenses by addressing any deficiencies. CertiK’s feedback allowed us to refine certain areas of the codebase, resulting in improved performance and user experience. The CertiK mark for our platform is a testament to commitment, security and provides an additional level of trust for our users.What’s next for CoinSender?Following the audit, we are excited about the future of CoinSender. Based on CertiK’s findings, we have strengthened our security protocols, ensuring that every transaction on CoinSender is safe and secure.We are rolling out a number of updates focused on user experience, with more intuitive interfaces and streamlined processes.We’re not forgetting about our community either. To keep the community informed, we will prepare a series of posts detailing the audit results and our roadmap.In conclusion, we would like to say that the CertiK audit was not just a security check for us, but a valuable experience that will shape the trajectory of CoinSender’s development. As we continue our journey, we are more committed than ever to ensuring the safety, trust and satisfaction of our community.You can also read our audit by clicking on the link.</content>
+  </entry>
+  <entry>
+    <title type="html">Guide for quest with Skale</title>
+    <published>2023-07-14T13:46:14+00:00</published>
+    <updated>2023-07-14T13:46:14+00:00</updated>
+    <id>https://medium.com/@coinsender/guide-for-quest-with-skale-a30061ad3c9a?source=rss-7bdcac37cfd3------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@coinsender/guide-for-quest-with-skale-a30061ad3c9a?source=rss-7bdcac37cfd3------2"/>
+    <author>
+      <name>CoinSender</name>
+    </author>
+    <content type="html">First we need Metamask wallet, go to https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=ru and download the wallet.After that create a wallet, then go to https://dapp.coinsender.io and connect the wallet.Go to the «get coins» tab and get tokens.https://dapp.coinsender.io/faucetNext, go to the «create coin» tab and create your token in the Skale network.https://dapp.coinsender.io/create-coinThe token is created, we take its address, copy it and then we will send it.Now we send our tokens in the «send coins» tab. To do this we do everything as shown in the screenshot below, here you need to be very careful to do everything as it should be done. Choose «custom token» and insert our token address there, then click «load». The token is added, add a wallet where we send the token by the button «Add row», insert the address, the number of tokens that we send and the name of the wallet (it does not matter what kind), then click ✔️. Everything is ready to send, click «Approve token», confirm in metamask. After all actions choose a wallet and click Make a transfer, confirm the transaction and your tokens are sent to your desired wallet.</content>
+  </entry>
+  <entry>
+    <title type="html">New features in our app!</title>
+    <published>2023-07-04T12:32:23+00:00</published>
+    <updated>2023-07-04T12:32:23+00:00</updated>
+    <id>https://medium.com/@coinsender/new-features-in-our-app-8b56df4270ef?source=rss-7bdcac37cfd3------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@coinsender/new-features-in-our-app-8b56df4270ef?source=rss-7bdcac37cfd3------2"/>
+    <author>
+      <name>CoinSender</name>
+    </author>
+    <content type="html">📣 New features in our app! Now you can send. NFTs and use the claim feature! 🎉We’re excited to announce that we’ve added two cool features to our app that will allow you to interact with the NFT world even more!📍 dapp.coinsender.io#NFT #SendNFT #CoinSender</content>
+  </entry>
+</feed>
