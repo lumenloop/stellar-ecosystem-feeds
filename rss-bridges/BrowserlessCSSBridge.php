@@ -4,7 +4,7 @@ class BrowserlessCSSBridge extends BridgeAbstract
     const MAINTAINER = 'Raph';
     const NAME = 'Browserless CSS Bridge';
     const URI = 'https://github.com/lumenloop/stellar-ecosystem-feeds/rss-bridges/';
-    const DESCRIPTION = 'Convert any site to RSS feed using CSS selectors and specify date (Advanced Users)';
+    const DESCRIPTION = 'Convert any site to RSS feed using CSS selectors and specify date with JS rendering via Browserless instance';
     const PARAMETERS = [
         [
             'browserless_url' => [
