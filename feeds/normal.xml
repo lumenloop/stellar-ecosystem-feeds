@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
+    <meta name="description" content="RSS-Bridge" />
+    <title>Normal’s Substack</title>
+    <link href="static/style.css?2023-03-24" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"
+            title="Atom"
+            rel="alternate"
+            type="application/atom+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Json"
+            title="Json"
+            rel="alternate"
+            type="application/json"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Mrss"
+            title="Mrss"
+            rel="alternate"
+            type="application/rss+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Plaintext"
+            title="Plaintext"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Sfeed"
+            title="Sfeed"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+    <meta name="robots" content="noindex, follow">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="pagetitle">
+            <a href="https://normalfi.substack.com" target="_blank">Normal’s Substack</a>
+        </h1>
+
+        <div class="buttons">
+            <a href="./#bridge-CssSelectorFeedExpanderBridge">
+                <button class="backbutton">← back to rss-bridge</button>
+            </a>
+
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom">
+                    <button class="rss-feed">
+                        Atom                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Json">
+                    <button class="rss-feed">
+                        Json                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Mrss">
+                    <button class="rss-feed">
+                        Mrss                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Plaintext">
+                    <button class="rss-feed">
+                        Plaintext                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fnormalfi.substack.com%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Sfeed">
+                    <button class="rss-feed">
+                        Sfeed                    </button>
+                </a>
+            
+                    </div>
+
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://normalfi.substack.com/p/coming-soon"
+                    >Coming soon</a>
+                </h2>
+
+                                    <time datetime="2025-01-15 19:27:32">
+                        2025-01-15 19:27:32                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Normal</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                This is Normal’s Substack.
+Subscribe
+                                    <div class="attachments">
+                        <p>Attachments:</p>
+                                                    <li class="enclosure">
+                                <a href="https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148a4abb-6ed5-4b95-b481-5c41febf0e09_600x600.png" rel="noopener noreferrer nofollow">
+                                    https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148a4abb-6ed5-4b95-b481-5c41febf0e09_600x600.png                                </a>
+                            </li>
+                                            </div>
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://normalfi.substack.com/p/justin-benjamin-promoted-as-normals-new-chief-operating-officer"
+                    >Justin Benjamin promoted as Normal's new Chief Operating Officer</a>
+                </h2>
+
+                                    <time datetime="2024-09-16 20:13:36">
+                        2024-09-16 20:13:36                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Normal</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                We're excited to announce that Justin Benjamin - our Head of Growth - has been promoted to Chief Operating Officer of Normal.
+Justin joined our team over 2 years ago in the summer of 2022 shortly after we secured $100k in pre-seed funding and received acceptance into the Antler Boulder startup accelerator.
+Since then, he has been paramount in crafting our product vision, building community, and acquiring customers that have all worked in tandem to fuel our growth.
+Product
+Normal's original vision and product were quite different from what we focus on today. After the FTX collapse, our key banking partnership was terminated due to US banks derisking towards anything crypto-related. Throughout the development of our original platform and the design of each product pivot we built post-FTX, Justin played a critical role in our product development.
+His focus on intuitive usability, education, and partnerships have been crucial for our team as we've designed and launched our crypto index funds. Justin's ability to interpret user feedback and feature requests within the context of macro market trends and our overall product roadmap have ensured we innovate at the highest level while staying true to our core long-term mission.
+Community
+Justin has pioneered both our Partner and Ambassador programs since day one. Normal Partners are key members of our community who share an innate passion for our product and vision. In exchange for helping us acquire customers, create content, and build partnerships, they receive unique incentives and status within our community. Many of them have become interns or full-time team members as well.
+Normal Ambassadors are hard-working, forward-thinking influencers who wish to share the wealth creation cryptocurrencies can provide with their communities and audience. Justin has identified, contracted, and maintained these relationships for Normal over the past 2 years - playing a key role in our organic growth and community.
+Sales
+In addition, Justin has spearheaded our early customer acquisition strategies to help achieve nearly $250k in assets under management in just a few months. His commanding knowledge of our industry and product, attention to detail, and overwhelming focus on what's best for each customer have allowed him to connect with our customers on a personal level unlike our competition can.
+We look forward to giving him more resources, training, and tools to scale our customer growth as we raise our seed round of funding and expand our team in critical areas of software development and growth.
+What's next?
+As COO, Justin will continue to oversee the day-to-day operations of Normal and new initiatives as they present themselves. He will help lead and scale our team as we begin hiring and ensure our vision is protected and built with integrity.
+🎉 Please help us celebrate Justin's hard work by awarding him this special promotion!
+Want to join our team?
+If you're interested in joining our team, please connect with us using one of the methods below:
+x.comJoin the Normal Discord Server!
+                                    <div class="attachments">
+                        <p>Attachments:</p>
+                                                    <li class="enclosure">
+                                <a href="https://substack-post-media.s3.amazonaws.com/public/images/7d1f5cb4-17be-4216-ad14-f6cece317b3f_2000x2000.png" rel="noopener noreferrer nofollow">
+                                    7d1f5cb4-17be-4216-ad14-f6cece317b3f_2000x2000.png                                </a>
+                            </li>
+                                            </div>
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://normalfi.substack.com/p/the-normal-top-10-index"
+                    >The Normal Top 10 Index</a>
+                </h2>
+
+                                    <time datetime="2024-05-13 20:48:44">
+                        2024-05-13 20:48:44                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Normal</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                The Normal Top 10 Index
+Overview
+The Normal Top 10 Index is a crypto index composed of the top 10 cryptocurrencies by market capitalization. This list currently has a total market cap of roughly $1.86 trillion, or around 82% of the entire crypto market.
+Index Mission
+The mission of the Normal Top 10 Index is to capitalize on the appreciation of the most successful cryptocurrencies. Over time, we believe the efficiency of our capital markets will reveal the top 10 most valuable and impactful cryptocurrencies. Investing in these assets is a sound crypto investment strategy.
+Assets
+The Normal Top 10 Index is composed of the following 10 assets:
+Bitcoin (BTC)
+Ethereum (ETH)
+BNB
+Solana (SOL)
+Ripple (XRP)
+Toncoin (TON)
+DogeCoin (DOGE)
+Cardano (ADA)
+Shiba Inu (SHIB)
+Avalanche (AVAX)
+The Normal Top 10 Index Assets
+Our team has carefully selected these assets to appropriately encompass the mission of the index while maintaining integrity and security.
+We review each Normal crypto index monthly to assess if assets should be added or removed. This process ensures our indexes accurately reflect the market to achieve their desired investment goal.
+We recommend a minimum investment of $28 for the Normal Top 10 Index to ensure all assets are purchased successfully.
+Allocations
+Asset allocations are updated daily, so please visit the Normal Top 10 Index for the most up-to-date allocations.
+For this index, we use a square root weighted market cap strategy to generate asset allocations. This ensures no single asset can dominate the index.
+As of the writing of this article, May 10, 2024, the Normal Top 10 Index allocations are:
+Bitcoin (BTC)
+Ethereum (ETH)
+BNB
+Solana (SOL)
+Ripple (XRP)
+Toncoin (TON)
+DogeCoin (DOGE)
+Cardano (ADA)
+Shiba Inu (SHIB)
+Avalanche (AVAX)
+Returns
+Over the past year, the Normal Top 10 Index has returned 70.38%. Compared to the S&amp;P 500’s annual return of 28.12%. It’s important to note that during this time, the max drawdown of the Normal Top 10 Index was around 42% in October of 2023.
+Monthly returns currently sit at -22% and quarterly returns are 10%, with the S&amp;P 500 equivalents being 2.7% and 10.8% respectively.‍
+The Normal Top 10 Index Historical Returns
+Fees
+All crypto indexes on Normal have a 0.50% investment fee. Our fee structure is slightly different than the traditional expense ratio you may be familiar with due to the unique value our indexes provide.
+By investing in crypto using a Normal index, you can enter the market with 6x less fees than you’d otherwise pay using an exchange or on-ramp. 
+How to Invest
+If this is your first time using Normal, setting up your account will take 5-10 minutes using our provided guides and walkthroughs.
+Otherwise, investing in the Normal Top 10 Index takes just a few seconds:
+Open the Normal Top 10 Index
+Click “Invest” on the left-hand side
+Enter the amount you’d like to invest along with your desired exchange
+Review our fee and your order previews
+🎉 Invest!
+Investments for the Normal Layer 1 Index typically take around 12 seconds to execute. You can track your investment's progress in your Normal Dashboard.
+Connect with us
+Thank you for learning about the Normal Top 10 Index. If you have any questions or need help with your account or investment, please feel free to connect with us via support@normalfinance.io, our Twitter, live chat (bottom-left blue button), or our Discord below.
+                                    <div class="attachments">
+                        <p>Attachments:</p>
+                                                    <li class="enclosure">
+                                <a href="https://substack-post-media.s3.amazonaws.com/public/images/5e7e093a-eec7-4e83-a5ab-5a0bf0362ddd_1478x708.png" rel="noopener noreferrer nofollow">
+                                    5e7e093a-eec7-4e83-a5ab-5a0bf0362ddd_1478x708.png                                </a>
+                            </li>
+                                            </div>
+                
+                            </section>
+        
+    </div>
+ </body>
+</html>
