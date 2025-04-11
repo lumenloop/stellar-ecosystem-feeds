@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">The Blue Marble Blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.thebluemarble.io%2Ffeed%2F&amp;content_selector=.blog_content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.thebluemarble.io%2Ffeed%2F&amp;content_selector=.blog_content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:10:47+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">The Psychology of Shopping: Tapping into the Emotion of Purchase</title>
+    <published>2024-05-31T06:10:14+00:00</published>
+    <updated>2024-05-31T06:10:14+00:00</updated>
+    <id>https://blog.thebluemarble.io/the-psychology-of-shopping/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/the-psychology-of-shopping/"/>
+    <author>
+      <name>Jess McMurray</name>
+    </author>
+    <content type="html">The first noted instance of the word ‘shopaholic’ occurred in 1983; a hedonistic time when consumerism was at an all time high.
+        
+But the powerful desire to buy wasn’t just driven by an urge to own – it was driven by a change in the way we acquired things. Shopping was no longer a utility exercise but a leisure activity in itself: social, indulgent, luxurious, stimulating, immersive – and with brand marketing stronger than ever, it was also about belonging. The culture of the mall was about participation and enjoyment far more than mere possession.
+    
+Cut to today and things have changed a little. The world has moved online, attitudes towards consumerism and the environment have changed, and increasingly, consumer finances are stretched. The pleasure associated with the purchase experience has been eroded. The thrill of shopping is reduced to a fleeting moment – a single click – rather than an immersive, enduring experience.
+     
+Commercial market research and academic investigation &amp;nbsp;strongly link purchase intention with brand relationship: a relationship built through awareness, connection and engagement.&amp;#8221;
+     
+For brands, that’s a real problem. Both commercial market research and academic investigation (see for instance Kerse’s study on brand relationships) strongly link purchase intention with brand relationship: a relationship built through awareness, connection and engagement. People immersed in the ideas, visuals and products of a brand are not only more likely to make a purchase, they’re more likely to come back in the future too.
+    
+But without a physical store to craft the experiential element of the shopping process, what options do brands have left?
+    
+The answer: Rewards Wallets.
+    What is a Rewards Wallet?    
+Rewards wallets come in a variety of shapes and sizes. The Blue Marble’s Rewards Wallet represents a fully customisable brand experience that gives your customers an ability to immerse themselves in your brand as if they had walked into your shop.
+    
+First and foremost, it allows for users to accumulate points for their purchases, which in turn can be converted into discounts on future purchases – incentivising individual purchases and fostering loyalty in the future.
+    
+But Rewards Wallets go far beyond this. Through collaborations and integrations, users can generate points through their purchases with you, and use them for discounts with other companies – something which hugely enhances the value proposition of your brand, turning a purchase with you into a gateway to something much bigger. The Blue Marble Rewards Wallet uses a Shopify integration to allow your customers to use their accumulated points in a variety of contexts. &amp;nbsp;
+     
+Whether it’s leaving a review, creating or sharing social media content or completing surveys &amp;#8211; brands can use ‘quests’ to assist their overall brand strategy.&amp;#8221;
+     
+Moreover, Rewards Wallets can encourage all kinds of beneficial brand behaviours, not just purchases. Whether it’s leaving a review, creating or sharing social media content or completing surveys &amp;#8211; brands can use ‘quests’ to assist their overall brand strategy. &amp;nbsp;Indeed, it is the presence of a challenge as much as the promise of a reward that engages and excites the customer, driving participation, involvement and purpose and fostering a more direct relationship.
+    
+What is crucial is that a Rewards Wallet is more than just a generic app with your brand logo slapped across the front; every facet needs to embody your brand, both visually and experientially. To be effective it needs to leverage all of the psychological benefits that were once associated with shopping as a leisure activity, using seamless integration to bring all brand services under one (virtual) roof.
+    
+The Blue Marble allows for complete customisation and integration to achieve this, creating a brand ecosystem that incorporates existing mailing lists, PoS, e-commerce platform, social updates, in-app chat – whatever you need to immerse your customers in your world.
+    
+Put together, all of these things transform the shopping experience for customers, returning shopping to a time when it was about the process as much as the product. Digital wallets make shopping experiential, social, immersive, engaged and – most importantly – exciting, turning customers from passive consumers of your product to active, involved brand contributors, giving them a sense that they are participating and contributing to something bigger than themselves.
+    Playing with the big boys    
+Rewards Wallets aren’t some niche marketing gimmick – they are a key part of some of the globe’s most prominent brands: Amazon, Starbucks, Vodafone, McDonalds, to name but a few. Indeed, they’re now so crucial to a joined-up brand strategy that those who don’t get in on the process risk getting left behind. Fortunately, their customisable nature means that those who do deploy them have the potential to use creativity to craft a real point of differentiation.
+     
+Rewards Wallets aren’t some niche marketing gimmick – they are a key part of some of the globe’s most prominent brands: Amazon, Starbucks, Vodafone, McDonalds, to name but a few.&amp;#8221;
+     
+Crucially, access to the technologies that enable Rewards Wallets is &amp;#8211; both logistically and financially – more accessible than ever before. This means that they don’t need to be the exclusive preserve of market leaders; niche, boutique, start-up and alternative brands can all use digital wallets as a way to craft a unique brand proposition, whilst established operations can augment their offering and push growth even further.
+&amp;nbsp;
+If you want to find out how a Blue Marble Digital Wallet could bring these benefits to your brand, why not schedule a discovery call with us?&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">The Blue Marble Goes Live with Stellar’s Soroban</title>
+    <published>2024-03-15T05:02:48+00:00</published>
+    <updated>2024-03-15T05:02:48+00:00</updated>
+    <id>https://blog.thebluemarble.io/blue-marble-live-on-soroban/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/blue-marble-live-on-soroban/"/>
+    <author>
+      <name>Steve Walker</name>
+    </author>
+    <content type="html">We&amp;#8217;re excited to announce that The Blue Marble (TBM) has completed the long-awaited upgrade to use Soroban, a new smart contract technology on the Stellar blockchain. This change is a big deal for us—and it means our NFTs have smart contract stability brought by the tried and tested Stellar network.
+        First, What is Soroban?    
+So, what&amp;#8217;s the buzz about Soroban, and why is it important for us?
+    
+Soroban is the new smart contract platform just released to the Maine that enhances Stellar&amp;#8217;s existing borderless payment capabilities. Since Stellar&amp;#8217;s inception in 2015, its mission has been to facilitate global access to cost-effective and nearly instant payments. Soroban builds on this to enable the creation of decentralized applications (dApps) that leverage Stellar&amp;#8217;s global reach.
+    
+Unlike other smart contract platforms, Soroban is not a sidechain or Layer 2 solution but a fully integrated smart contract platform within the Stellar blockchain. It is open-source, emphasizing community trust and developer collaboration. The platform is powered by Rust, known for its speed, efficiency, and security, making it an ideal language for smart contracts.
+    
+Soroban is designed with developers in mind, providing a comprehensive toolkit that includes built-in contracts, a local sandbox, SDKs, a CLI, and an RPC server. Its innovative use of Rust and WebAssembly ensures high performance, scalability, and reduced vulnerabilities. Additionally, Soroban introduces features like multi-core scaling, an optimized fee model, and a ledger compaction solution to address state bloat, setting a new standard in smart contract optimization.
+    
+So how does The Blue Marble take advantage of all this good stuff?
+    Royalties with Third-Party Benefits    
+At TBM, we use Soroban to enhance the way royalties are handled within our NFT platform. Traditionally, NFT royalties allow creators to receive a percentage of sales whenever their NFT is sold on the secondary market. This simple yet powerful mechanism allows creators to be rewarded for their work continuously.
+     
+TBM also enables creators to set royalties not just for themselves but also for third parties, such as non-profits or charities.
+     
+Expanding this model, TBM also enables creators to set royalties not just for themselves but also for third parties, such as non-profits or charities. This means that every time an NFT is traded, a portion of the sale can directly support a cause chosen by the creator, fostering a culture of giving and community support within the digital asset space.
+        
+    Creating and Trading NFTs on TBM    
+Creating and trading NFTs on TBM is straightforward. A monthly subscription fee covers all costs allowing people less familiar with crypto to get started without any technical friction.
+    
+Here&amp;#8217;s how it works:
+    
+ 
+Creators mint their NFTs as usual but now have the option to allocate royalties to themselves and a third party.
+    
+When trading NFTs, the platform provides a breakdown of the royalties and identifies the recipients.
+    
+Upon completion of a trade, the Soroban-powered smart contract ensures the automatic distribution of royalties to the relevant parties.
+ 
+        
+    Who We Are: The Blue Marble    
+The Blue Marble uses NFTs as a part of its overall service offering to help organisations reward customers and communities leverage Web3 services as incentive mechanisms brought together within branded mobile applications.
+    
+Our services cater to businesses, non-profits, and any organization aiming to harness digital advancements for engagement, loyalty, recruitment, and promoting well-being.
+    Let&amp;#8217;s Talk    
+Soroban gives our platform a big upgrade that provides opportunities around Digital Collectibles and NFTs for loyalty, certification and rewards to support organisations who need to connect with large communities or customers.
+    
+We are able to help organisations with fully branded mobile applications that can be customised to provide a central place to develop community around your brand. If we can help you, book a call for a chat.
+    
+ 
+ 
+&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">Customer Loyalty in Millennials &amp; GenZ with Digital Collectibles</title>
+    <published>2023-08-25T06:43:02+00:00</published>
+    <updated>2023-08-25T06:43:02+00:00</updated>
+    <id>https://blog.thebluemarble.io/customer-loyalty-in-millennials-genz-with-digital-collectibles/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/customer-loyalty-in-millennials-genz-with-digital-collectibles/"/>
+    <author>
+      <name>Sroojana Iyer</name>
+    </author>
+    <content type="html">Do what you do so well that they will want to see it again and bring their friends.
+     
+Famously attributed to Walt Disney, this quote goes far to explain why customer loyalty is the goal for so many brands. It’s a measure of not just how likely a customer is to repeatedly purchase products or services from a particular brand or company, but also the willingness to recommend the brand to others.
+    
+What does customer loyalty mean in today’s digital, dynamic and rapidly changing world? Read on to find out.
+        
+Before we get into what’s important in 2023, let’s take a step back.
+    What are the benefits of customer loyalty?    It&amp;#8217;s not just about repeat purchases, but also the willingness to recommend the brand to others.    Repeat Business    
+When customers like a brand and keep buying from it, it leads to a steady revenue stream for the company.
+    Reduced Marketing Costs    
+It&amp;#8217;s generally less expensive to retain existing customers than to acquire new ones, since you’re investing less money in acquiring new customers and sending out ads.
+    Higher Lifetime Value    
+People who stick with a brand tend to spend more on its services/buying its products during their lifetime in comparison to those who only buy once.
+    Word-of-Mouth Marketing    
+We touched upon this before: if customers really like a brand, they&amp;#8217;ll tell their friends about it. It makes them brand advocates and contributes to positive word-of-mouth marketing.
+    Stability and Resilience    
+All of this basically means a brand with loyalists can handle changes and competition better, like market fluctuations, competitive pressures and unforeseen circumstances like natural disasters or political upheaval. That’s because their base of customers won’t be changing their mind about the product and their reliance on it.
+    Cross-Selling and Up-Selling    
+Loyal customers are more receptive to trying new things from a brand, like different products or services that go well together.
+    What were traditional customer loyalty strategies?    What steps did brands and companies traditionally take to win customer loyalty?    Offering Rewards and Incentives    
+Traditional customer loyalty strategies involve enticing customers with rewards, discounts, or points for making frequent purchases. This encourages them to choose your brand over others, boosting sales and creating a sense of appreciation.
+    Providing Excellent Customer Service    
+Exceptional service keeps customers coming back. Responding promptly to queries, resolving issues, and showing genuine care builds trust, making customers feel valued and loyal to your brand.
+    Personalising the Customer Experience    
+Tailoring experiences to individual preferences fosters a strong connection. Using customer data to suggest relevant products or sending personalised messages acknowledges their uniqueness, enhancing loyalty.
+    Simplifying Transactions    
+Streamlining the buying process reduces friction. By making it effortless for customers to find products, navigate the website, and complete purchases, you enhance convenience, leaving a positive impression.
+    Nurturing Relationships    
+Building meaningful connections goes beyond transactions. Engaging with customers through emails, social media, or even handwritten notes adds a personal touch, strengthening emotional ties and encouraging repeat business.
+    
+The commonality in all these strategies is simple: a brand needs to provide high-quality service and create an emotional connection with its customers.
+    What does ‘Customer Loyalty’ mean today?    The audience is much more discerning now, and therefore harder to please.    
+While the definition hasn’t changed, the biggest part of our audience today is millennials and adults from Generation Z. The behaviour of generations changes across the world, given cultural nuances, but one thing these two groups share across the world is that they’ve grown up with access to endless information and choices with the Internet. This makes them more discerning.
+    
+That means customer loyalty is still incredibly important, because achieving it is a hard-won and therefore more valuable goal. The audience still wants to feel like they are getting value for their money, and they’re willing to reward brands that provide a great experience.
+    So, how do you build customer loyalty today?    Focus on providing your customers satisfaction with immediacy, excellence and engagement.    Authenticity and Values    
+Place a high value on authenticity and showing that you share values with the audience. They are more likely to be loyal to brands that demonstrate social responsibility, environmental consciousness, and ethical practices. If a brand is perceived as insincere or inauthentic, the audience is quick to disengage.
+    Experience and Engagement    
+Similar to the traditional idea of a high-quality experience, today’s audience is looking for something special. But it’s not about just excellent customer service: the audience seeks engaging and excellent experiences with brands. They’re more likely to be loyal to brands that provide immersive online experiences, interactive content, and opportunities for participation. In other words, when brands are ‘real’ and work to foster a sense of community and belonging through engagement, they earn loyalty.
+    Personalisation and Customisation    
+The meaning of providing a personalised experience is deeper today. While brands understand that customised experiences are important, the audience is looking for more than their name used in emails, or automated birthday wishes. In an age where data is gathered constantly, the audience expects this to be used wisely by brands to go beyond typical marketing messages and provide tailored shopping experiences, recommendations only for individuals, and discounts and sales customised to their interests.
+    Digital Connection and Ease    
+This is a digital-native generation and loyalty is tied to the quality of the digital interactions which means seamless online shopping experiences, user-friendly interfaces, and responsive customer service are more likely to retain customers. Seeing a brand go above and beyond to provide this, using new technology to automate and simplify the process, goes a long way. This also pertains to the global nature of the Internet today: potential fans do not appreciate being restricted by geographical limitations. So, regardless of where they are in the world, your brand needs to treat a customer to the same access and rewards others locally can obtain too.
+    Social Media    
+It isn’t just a shallow medium, but a proven avenue of discovery, endorsement and interaction. You can create brand connections on social media, but the landscape is that of a cluttered digital newsfeed with thousands of brands fighting for attention. So, the audience only pays attention when there’s something special, interesting and eye-catching to see.
+    Constant Innovation and Gratification    
+When everything is a touch away, and even food and household goods are delivered at top speed, taking time is a sure-fire way to lose the audience’s interest. Not only that, but when pop stars are constantly reinventing themselves and movie studios are always churning out new seasons and sequels, there is now a habit of consuming something new all the time. So, speed and innovation can make or break customer loyalty.
+    
+In short? You don’t need a lot that is, on paper, different from traditional customer loyalty strategies. However, what is important is upgrading every one of those strategies to accommodate an audience that has been fed for years with immediacy, excellence and interaction: at the tips of their fingers, whenever they desire it.
+    New Media and Marketing in a Digital Age    
+Modern needs require modern solutions, which means embracing new media and technologies, like using digital collectibles and web3. Not only does that offer you a competitive advantage, but you can:
+    Transcend geographies    
+New media and technology can help reach a wider audience. For example, digital collectibles can be traded or sold regardless of where you are, which helps brands reach a wider audience of collectors and enthusiasts.
+    Deeper engagement    
+From offering new forms of content to access to otherwise restricted events, digital collectibles help you offer fans a deeper way to engage with something they enjoy.
+    Hyper-Personalisation    
+NFTs can be used to deliver more relevant and personalised content and offers. Since, by nature, they’re non-fungible, that means every customer knows what they have is unique to them.
+    Our Conclusion? It’s time to adapt    
+Focus on creating an engaged community of loyalists for your brand, which you can do through Web3.
+    
+Not sure where to start? Work with The Blue Marble to get our easy-to-use Web3 services that strengthen bonds between your brand and fans, so you can foster lasting relationships and maintain a competitive edge. What are you waiting for?
+    
+Call us today!</content>
+  </entry>
+</feed>
