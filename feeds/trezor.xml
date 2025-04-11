@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Trezor Blog - Medium</title>
+  <link rel="alternate" type="text/html" href="https://blog.trezor.io?source=rss----4b757f6fc8b0---4"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.trezor.io%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.trezor.io%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:11:04+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">How Many Hardware Wallets Should You Have? 11 Reasons to Own More Than One</title>
+    <published>2025-04-03T14:12:40+00:00</published>
+    <updated>2025-04-03T14:12:40+00:00</updated>
+    <id>https://blog.trezor.io/how-many-hardware-wallets-should-you-have-11-reasons-to-own-more-than-one-ecc4e1edd3d7?source=rss----4b757f6fc8b0---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.trezor.io/how-many-hardware-wallets-should-you-have-11-reasons-to-own-more-than-one-ecc4e1edd3d7?source=rss----4b757f6fc8b0---4"/>
+    <author>
+      <name>Henry Windle</name>
+    </author>
+    <content type="html">How Many Hardware Wallets Should You Have? 11 Reasons to Own More Than One
+If you’re new to hardware wallets, you might be wondering:
+• Is one device enough?
+• Why do some people own multiple wallets?
+• Does having two improve security? Is it safer?
+The truth is that one Trezor is enough to protect your assets, but owning a second device can give you extra security, flexibility, and peace of mind.
+Here are 11 reasons to own more than one hardware wallet (and why it might be the smart move for you):Reason #1: Have an extra backup for peace of mind
+“I bought 2 with my initial order. Set one up to use and put the other one in locked storage. I wanted backup plan in case of total failure and another hardware wallet sell out.
+Of course it would partially depend on the value of the assets you want to protect.” - Trezor Reddit User
+This is the most common reason to get a second hardware wallet: peace of mind.
+Imagine this...
+• Your device is damaged 
+• Your device is lost 
+• Your device is stolen
+It could be as unexpected as your pet eating your device (surprisingly, this has happened multiple times with dogs.)
+Or as dramatic as a misplaced or stolen device.
+Think of this device as your emergency backup.
+With this backup device, you can be ready to access and secure your funds immediately. There is no need to waste time ordering a new hardware wallet. Just enter your PIN and/or passphrase, and you can immediately access your funds to secure or move them.
+To be clear, in this case, you are cloning your original hardware device by restoring the same wallet. They will usually be kept in different locations.
+Reason #2: For gifting
+Two things happen after you get into crypto…
+You buy a hardware wallet
+You tell everyone you know about how crypto changes the world!
+It’s ok, the moment you get into crypto, you can’t stop talking about it. We’ve all been there.
+Gifting a hardware wallet is a great way to help friends and family start their self-custody journey without leaving their assets on an exchange.
+You can be there to answer any questions.
+Like this Trezor Model T user:
+“I Bought This Crypto Wallet as a Gift During Prime Days and Scored a Great Deal! The recipient has shared that it’s easy to use and effectively does the job, which is all I could ask for. So, I guess it’s a solid 5 stars from me.”
+And if you’re giving a hardware wallet to someone who might need help getting started?
+Consider gifting them an onboarding session with one of our Trezor Experts!
+Reason #3: For Bitcoin-only
+“You only wanna trade BTC -&amp;gt; BTC only firmware. Otherwise, no need. Except if you have tons of BTC/crypto, then consider getting multiple hardware wallets.” — Trezor Reddit Comment
+We sell Bitcoin-only hardware wallets for Trezor Safe 3 &amp;amp; Trezor Safe 5 for a reason.
+It’s not uncommon to want one device for Bitcoin and one device for other crypto.
+Some users prefer to separate Bitcoin from other cryptocurrencies for simplicity and security. If Bitcoin makes up most of your crypto, this might be you.
+Interested in our Bitcoin-only devices? You can check them out by clicking here.
+Reason #4: For trading
+If you’re actively trading but also HODLing Bitcoin and altcoins, keeping separate devices makes sense.
+• One wallet for trading — connected and frequently used for transactions.
+• One wallet for long-term storage — rarely touched, securely stored.
+If you’re HODLing for the long term, you don’t want to spend too much time fiddling with your hardware wallet beyond the necessary updates.
+Having one device you only use for trading and another securely hidden away is much easier and safer, as you’ll want your trading wallet to hand quite often.
+Reason #5: To stay diversified
+“My thought was it made sense not to put all my eggs in one basket.” — Trezor Forum Comment
+You wouldn’t keep all your money in one bank account, so why store all your crypto in one wallet?
+• Multiple wallets mean you can split funds across devices, reducing risk in case of theft, loss, or damage.
+• You can also use a passphrase (advanced feature) to create multiple wallets on one device.
+You can learn more about passphrases here:
+Reason #6: For inheritance
+This isn’t a fun question, but it is necessary.
+Everyone who owns crypto will have to consider this at some point in their life: If something happens to you, can your family access your crypto?
+Do they know where your hardware wallet is and how to access your funds in an emergency?
+Giving a hardware device to a trusted family member or executor is not uncommon, and it’s usually part of a multisig setup.
+If this interests you, also consider looking into Trezor’s Multi-share Backup.
+Reason #7: For business
+This is becoming more common as the crypto economy becomes larger. 
+Here at Trezor, we hold crypto as a business, so having multiple devices and layers of protection to separate business and personal funds makes sense.
+If you accept crypto payments or hold crypto as a company, a dedicated business hardware wallet ensures:
+• Clear separation of funds
+ • Easier accounting &amp;amp; security
+If you own a business and want to manage crypto, getting a second hardware wallet is necessary to manage the funds and be transparent.
+Reason #8: For travel
+Would you feel comfortable carrying your main hardware wallet while traveling?
+A secondary travel wallet can hold limited funds while your main assets stay secure at home.
+Pro tip: Use a passphrase to create a separate wallet for travel within your device.
+Reason #9: For fun!
+Some people collect trainers. Others collect hardware wallets.
+Hardcore crypto users love upgrading to the latest, most secure hardware wallet tech.
+But having multiple wallets isn’t just fun, it ensures you’re always using the best hardware to protect your assets.
+Given how much hardware wallets are often protecting, the investment is often seen as reasonable.
+Reason #10: For teaching
+Bitcoin adoption grows through education.
+If you teach friends, host meetups, or run workshops, having a dedicated hardware wallet for demos makes learning easier.
+At Trezor Academy, we use hardware wallets for in-person education and to help people learn self-custody the right way.
+If you’re involved in similar events, it might be worth getting a spare device!
+Reason #11: For multisig security (advanced)
+Need instant access to your funds? Multisig probably isn’t for you.
+Want extra layers of security and don’t mind the complexity? Multisig could be a great option!
+Multisig (multi-signature) is a highly secure way to store crypto, eliminating the risk of a single point of failure.
+Instead of relying on just one wallet, multiple keys (usually multiple devices) are required to authorize transactions. This reduces the risk of losing access due to a lost or stolen backup.
+Some users choose multisig to distribute signing across multiple locations or even to make it harder to access their own funds, such as requiring physical travel to retrieve signing devices.
+Warning: Multisig is not beginner-friendly. If set up incorrectly, you could permanently lose access to your funds. Proceed with caution!
+So, should you get a second hardware wallet?
+If you want extra security, convenience, and flexibility, the answer is yes.
+But keep in mind:
+More wallets = more responsibility
+Keeping track of multiple devices and wallet backups requires careful management.
+If you’re new, start simple: One primary wallet + one backup device.
+Ready to upgrade your security? Explore our hardware wallet bundles.
+Want to hear more from Trezor?
+Join our newsletter and be the first to hear about special offers, launch alerts, and insider news!
+Summary: 11 reasons to buy a second hardware wallet
+#1: Have an extra backup for peace of mind
+#2: For gifting 
+#3: For Bitcoin-only
+#4: For trading 
+#5: To stay diversified 
+#6: For inheritance
+#7: For business
+#8: For travel
+#9: For fun!
+#10: For teaching
+#11: For multisig security
+Interested in learning more? Continue with:
+What is a hardware wallet &amp;amp; how does it work?
+Wallet Backups Explained: Why Trezor Replaced the Term “Recovery Seed” With “Wallet Backup”
+Passphrase — the Ultimate Protection for Your Accounts
+Once Again Trezor Leads the Charge: What is Multi-share Backup and Why You Need to Know About It
+What is multisig?
+Thanks for reading! If you enjoyed this article, give it a clap (or a few!) and drop a comment below — we’d love to hear your thoughts. Don’t forget to follow for more insights and updates on the exciting world of crypto security.
+Stay secure, and see you next time!</content>
+    <link rel="enclosure" type="image/jpeg" href="https://miro.medium.com/v2/resize:fit:1200/1*qV_UzpNgPqKXXNA3TMZkxw.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">Grow Your Solana Securely with Staking in Trezor Suite</title>
+    <published>2025-03-20T15:37:03+00:00</published>
+    <updated>2025-03-20T15:37:03+00:00</updated>
+    <id>https://blog.trezor.io/grow-your-solana-securely-with-staking-in-trezor-suite-c497732a1e75?source=rss----4b757f6fc8b0---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.trezor.io/grow-your-solana-securely-with-staking-in-trezor-suite-c497732a1e75?source=rss----4b757f6fc8b0---4"/>
+    <author>
+      <name>SatoshiLabs</name>
+    </author>
+    <content type="html">Grow Your Solana Securely with Staking in Trezor Suite
+Solana staking is now available in Trezor Suite, providing a secure and self-custodial way to grow your SOL holdings.
+Unlike other staking solutions, staking using your Trezor hardware wallet ensures you remain in full control of your funds at all times, with no intermediaries or custodians involved.
+By staking SOL, you contribute to network security and earn up to 7% APY in rewards — all while benefiting from the proven security of Trezor Suite.
+What is it?
+Solana staking allows you to delegate your SOL tokens to a validator, who helps validate transactions and maintain the blockchain. In return, you receive SOL rewards, similar to how savings accounts generate interest.
+When staking SOL in Trezor Suite, users delegate their SOL to our staking partner, Everstake. Established in 2018, Everstake is a validator trusted by 735K+ users across 70+ blockchain networks.
+Fun fact: Approximately $1B of SOL (~1.5% of all staked SOL) staked with Everstake.
+When you stake your SOL in Trezor Suite:
+Your funds remain in your control
+Only you can withdraw them
+Rewards are automatically compounded, maximizing your staking potential
+You can unstake anytime, with a short cool-down period of 1 epoch (approximately 2–3 days) before your SOL is fully available.
+Why stake SOL?
+Instead of leaving your Solana tokens unused, staking allows you to grow your holdings while strengthening the Solana network.
+Here’s why it’s worth considering:
+Grow your SOL holdings: 
+Receive up to 7% APY while holding your SOL.
+Support the network: 
+Your stake contributes towards helping secure the Solana blockchain and process transactions.
+Why Stake SOL with Trezor Suite?
+While many platforms offer staking, Trezor Suite provides the key advantage of complete security while staking your tokens.
+Unlike custodial services that hold your funds, staking using your Trezor hardware wallet keeps your SOL tokens in your control at all times.
+Trezor Suite makes staking SOL tokens simple &amp;amp; secure. Users benefit from:
+100% security 
+Your keys. Your Coins. Your Rewards. 
+You own your keys, and only you can access your funds.
+Seamless staking 
+Delegate SOL in just a few clicks through Trezor Suite’s intuitive interface.
+Competitive APY 
+Maximize your staking returns with up to 7% APY, among the most competitive rates in the Solana ecosystem.
+Automatic reward compounding 
+Enjoy rewards that automatically compound, maximizing your returns over time.
+Low minimum requirement 
+Stake as little as 0.01 SOL, making it accessible for all users.
+Learn more here:
+Stake SOL with Full Self-Custody. Receive Up to 7% APY
+Trezor Suite lets you stake Solana securely with full self-custody. Get up to 7% APY, enjoy auto-compounded rewards…
+content.trezor.io
+How to Stake SOL in Trezor Suite
+Getting started with staking SOL in Trezor Suite is quick and easy. Check out our step-by-step guide here:
+Stake Solana in Trezor Suite
+Learn how to stake Solana (SOL) using the Trezor Model T, Safe 3 and Safe 5 via the Trezor Suite application.
+trezor.io
+Frequently Asked Questions (FAQs)
+Is my SOL locked when I stake?
+Yes, but you can unstake at any time. A short cooling-off period of 1 epoch (approximately 2–3 days) applies before your SOL becomes fully available again.
+How often do I receive staking rewards?
+Rewards are updated and distributed at the end of each epoch (2–3 days), with no manual intervention needed.
+Can I stake less than 1 SOL?
+Yes! With Trezor Suite, you can stake as little as 0.01 SOL, making it easy for anyone to participate.
+What happens if I want to stop staking?
+You can unstake anytime. After the cooling-off period (1 epoch which is approximately 2–3 days), your SOL will be available in your wallet.
+Solana staking made easy and secure with Trezor Suite
+Trezor Suite’s Solana Staking offers a secure, user-friendly way to earn up to 7% APY, empowering users to grow their SOL holdings effortlessly.
+Keep full control of your tokens while contributing to the Solana network’s security and scalability.
+Start staking today!
+Stake SOL with Full Self-Custody. Receive Up to 7% APY
+Trezor Suite lets you stake Solana securely with full self-custody. Get up to 7% APY, enjoy auto-compounded rewards…
+content.trezor.io</content>
+    <link rel="enclosure" type="image/jpeg" href="https://miro.medium.com/v2/resize:fit:1200/1*9_vxfNNZbL3gJDUKiui44g.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">Trezor’s Multi-Layer Defense Against Supply Chain Attacks</title>
+    <published>2025-03-05T09:18:16+00:00</published>
+    <updated>2025-03-05T09:18:16+00:00</updated>
+    <id>https://blog.trezor.io/trezors-multi-layer-defense-against-supply-chain-attacks-54541f410389?source=rss----4b757f6fc8b0---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.trezor.io/trezors-multi-layer-defense-against-supply-chain-attacks-54541f410389?source=rss----4b757f6fc8b0---4"/>
+    <author>
+      <name>SatoshiLabs</name>
+    </author>
+    <content type="html">Trezor’s Multi-Layer Defense Against Supply Chain Attacks
+At Trezor, transparency is the cornerstone of security. Given our open-source ethos, security is a continuous journey, and we welcome any open security research that helps strengthen our products and protect our users.
+Ledger Donjon recently evaluated our Trezor Safe Family and successfully reused a previously known attack to demonstrate how some countermeasures against supply chain attacks in Trezor Safe 3 can be bypassed. Trezor Safe 5 is not affected because it uses a more recent microcontroller designed to be more resilient to similar attacks.
+Most importantly, your funds, wallet backup, and PIN remain completely secure. Ledger Donjon shared their findings with us through our responsible disclosure program. We truly appreciate their efforts to push the boundaries of security in the hardware wallet space. In cybersecurity, the golden rule is simple: nothing is fully unbreakable. That’s why Trezor has implemented multiple layers of protection over time.
+We want to reassure our users that all Trezor devices are designed to keep your private keys secure. Trezor Model One and Trezor Model T remain highly secure, especially when used with best practices such as enabling a strong passphrase. Trezor Safe 3 and Trezor Safe 5 build upon this foundation by incorporating a Secure Element, adding an extra layer of protection against physical attacks in case of theft or loss.
+Key Takeaways:
+Your funds remain safe, and there is no need for any action on your part.
+Trezor Safe 3 &amp;amp; Trezor Safe 5 saw the adoption of a NDA-free Secure Element, offering enhanced protection against physical attacks.
+Ledger Donjon researchers didn’t extract a private key or PIN from the tested device.
+However, they demonstrated a way to bypass the authenticity check, and the firmware hash check in Trezor Safe 3 using advanced tools and a high level of hardware expertise.
+Trezor implements multiple layers of defense, making real-world supply chain attacks very impractical.
+Trezor Suite includes strong countermeasures to detect tampered devices.
+Users who purchase from official sources remain fully secure.
+Contents
+The evolution of Trezor security: Adoption of Secure Elements
+How Secure Element strengthens Trezor’s security
+Understanding Supply Chain security
+- Firmware security checks
+- Onboarding protection
+- Physical protections
+Ledger Donjon’s findings
+Self-custody matters
+Should you be worried about your Trezor Safe 3?
+Conclusion: Security is a continuous process
+The evolution of Trezor security: Adoption of Secure Elements
+At Trezor, we pioneered the first-ever hardware wallet in 2013 with a clear goal: to provide a secure and easy-to-use tool for managing Bitcoin and crypto. Hardware wallets are designed to keep private keys offline, protecting them from remote attacks — a task our earlier models have always excelled at.
+While hardware wallets offer strong security, no system is entirely immune to physical attacks. Given enough time, expertise, and resources, a determined attacker could theoretically attempt to extract private keys from a stolen device. To mitigate this risk, we introduced the passphrase — a user-defined, extra layer of security for your wallet backup. Unlike the wallet backup, the passphrase is never stored on the device, making it impossible to extract even in the event of a physical attack.
+One of the biggest differences between Trezor Safe Family (introduced with the launch of the Trezor Safe 3 in 2023) was the introduction of a dedicated Secure Element. It was introduced as a response to user feedback for enhanced protection in case of device theft or loss. The Secure Element used in the Trezor Safe 5 and Trezor Safe 3 is the OPTIGA™ Trust M (V3). In effect, it is a chip designed to protect highly sensitive information from software and hardware attacks.
+While all Trezor models remain secure against remote attacks, the Secure Element in the Trezor Safe 3 &amp;amp; Trezor Safe 5 adds an extra layer of physical security — for example, in case a Trezor device is lost or stolen.
+How Secure Element strengthens Trezor’s security
+The Secure Element in Trezor Safe 3 &amp;amp; Trezor Safe 5 provides safeguards in:
+Enhanced PIN protection: Preventing unauthorized access in case of theft.
+Prevents seed extraction by fault injection attacks (voltage glitching): A previously known issue with Trezor Model One and Trezor Model T.
+Device authenticity verification: Strengthening resistance against supply chain attacks.
+Understanding Supply Chain security
+A supply chain attack happens when a device is tampered with before it reaches the customer. This could involve an attacker modifying a legitimate device and reselling it.
+To combat supply chain risks, Trezor has implemented multiple defense layers:
+Firmware security checks
+a. Firmware revision ID check
+b. Firmware hash check
+Onboarding protection
+a. Preinstalled firmware detection
+b. Entropy check workflow
+c. Firmware upgrade
+d. Device authentication check
+Firmware security checks
+a. Firmware revision ID check
+1. Firmware security checks
+Trezor Suite includes multiple layers of verification to detect potential tampering. These include:
+a. Firmware revision ID check
+Firmware revision is a unique identifier assigned to each firmware release. Every time a Trezor device is connected, Trezor Suite verifies the firmware revision against a database of official releases. Here&amp;#x27;s how it works:
+If the firmware revision does not match, Trezor Suite flags the device as counterfeit.
+This check is particularly effective against supply chain attacks requiring a long preparation time. This is on account of the time taken to modify and distribute tampered devices.
+Since Trezor regularly releases new firmware updates and Trezor Suite prompts users to update their firmware before setup, a device running unauthorized firmware is likely to fail this check.
+Important: As a practice, we always recommend updating your device’s firmware regularly. This is necessary to expand the functionality of your Trezor, apply new security measures, and enable newly developed features.
+Here’s more on this:
+Trezor firmware authenticity check
+Trezor firmware authenticity check for ensuring your security against counterfeit devices
+trezor.io
+b. Firmware hash check
+The firmware hash check is a cryptographic verification process that ensures the integrity of the firmware running on your Trezor device. This is how it works:
+Upon every device connection, Trezor Suite issues a random cryptographic challenge to the device.
+The device then calculates a firmware hash, which is compared against the expected hash from the official firmware binary file stored in Trezor Suite.
+If the results do not match, Trezor Suite flags the device as counterfeit.
+Please note, that this check is only effective if the device is running the latest firmware version. This is why Trezor Suite strongly encourages users to update the firmware regularly.
+Here’s more on this:
+Trezor Firmware hash check
+Understanding the New Firmware Hash Check in Trezor Suite 24.11.1
+trezor.io
+2. Onboarding protection
+All Trezor devices undergo additional security checks during initial setup:
+a. Preinstalled firmware detection
+If a device is detected with preinstalled firmware, the user is prompted to confirm whether they’ve used the device before.
+If it’s a case that they have not used the device previously, the device may be compromised, and users are warned accordingly.
+b. Entropy check workflow
+During wallet creation, Trezor generates a wallet using random data (entropy) from two sources,
+Trezor device: The internal source.
+A companion app: Typically Trezor Suite, but it can also be another compatible app like trezorctl or Electrum.
+Fake or compromised devices typically ignore the input from the external entropy source (Trezor Suite), generating wallets in a predictable, deterministic way, allowing attackers to recreate and access them.
+The entropy check protects the user from this behavior and marks the device as counterfeit if it does not pass the check.
+Here’s more on this:
+Entropy check
+Learn how Trezor&amp;#x27;s entropy check ensures your device is genuine and secure. This process verifies that your wallet&amp;#x27;s…
+trezor.io
+c. Firmware upgrade
+During onboarding, users are encouraged to upgrade to the latest firmware version, triggering both revision ID and hash checks, as explained earlier in the article.
+While users have the option to opt out, we recommend not doing so in light of the security risks around using outdated firmware.
+d. Device authentication check
+In the case of the Trezor Safe 3 and Trezor Safe 5, the Secure Element plays an important role in verifying the authenticity of your device.
+When setting up the device:
+Trezor Suite sends a challenge to the device.
+The Secure Element signs the challenge and returns it with a unique device certificate.
+Trezor Suite verifies both signatures to confirm authenticity.
+The certificate is only checked locally and immediately discarded, ensuring privacy. Users may opt out of the device authentication process, but we strongly advise against it.
+Learn more here:
+Trezor Safe device authentication check
+Trezor Safe device authentication check
+Trezor Safe device authentication checktrezor.io
+3. Physical protectionsa. Tamper-evident packaging
+Every Trezor Safe 3 comes with a holographic seal over the connector, ensuring the device hasn’t been interfered with before reaching the customer. Please note, the Trezor Safe 3 packaging does not have a seal.
+Here’s what this should look like, depending on when your device was manufactured and packaged.
+Any sign of a broken or missing seal is a strong indicator that the device has been compromised. In this case, we encourage you to please contact Trezor Support via our chatbot, Hal.
+Ledger Donjon’s findings
+The Ledger Donjon team demonstrated a way to bypass the authenticity check, and the firmware hash check specifically in Trezor Safe 3, using an advanced voltage glitching technique. The other countermeasures against supply chain attacks remain unchallenged. However, it is important to note:
+No private keys can be hacked or PIN extracted using this attack.
+The attack requires full physical access to the device. (This includes disassembling the casing, desoldering the microchip, modifying or extracting data using specialized tools, and then reassembling and repackaging the device without leaving any visible signs of tampering.)
+If the device is purchased from an official source, it is highly unlikely that it has been tampered with.
+This highlights why we always recommend purchasing directly from Trezor.io or authorized resellers.
+Self-custody matters
+Self-custody with a hardware wallet like Trezor remains the safest way to store crypto.
+With Trezor, you hold your own keys.
+No exchange can freeze your funds.
+No third party can access your wallet.
+The real risk is trusting third parties; in this case, purchasing a Trezor hardware wallet from sources beyond our officially listed ones.
+Even in a worst-case supply chain attack scenario, the attacker would still need to modify and distribute devices at scale, which remains highly impractical.
+Should you be worried about your Trezor Safe 3?
+No. If you bought a device from an official source it is highly unlikely that there is anything wrong with your device. If there are signs of tampering when your order arrives, or you bought it from an unauthorized reseller, just reach out to Trezor Support or start a discussion on Trezor Forum and we’ll walk you through how to check for compromise.
+Conclusion: Security is a continuous process
+Your funds remain safe, and there is no need for any action on your part.
+Secure Elements provide an added level of protection against physical attacks.
+Our in-built supply chain defenses include multiple security layers.
+Trezor Suite makes tampered devices nearly impossible to distribute at scale.
+Security is never static, and at Trezor we are continuously taking steps to improve our hardware and software. Ledger Donjon’s research highlighted one possible attack vector. It, however, does not undermine the core security of the Trezor Safe Family.
+At Trezor, we fully embrace such security research because it helps strengthen the ecosystem. We will continue to refine our security measures and remain fully transparent about potential risks.
+Finally, we recommend purchasing your Trezor hardware wallet or accessories directly from Trezor.io or authorized listed resellers, as a best practice for your security.
+As always, stay informed and stay secure!</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1200/1*WdqlJLgKT0YfKkOer546PA.png"/>
+  </entry>
+</feed>
