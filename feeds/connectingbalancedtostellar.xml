@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Balanced blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.balanced.network/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.balanced.network%2Frss%2F&amp;content_selector=article&amp;content_cleanup=.article-header&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.balanced.network%2Frss%2F&amp;content_selector=article&amp;content_cleanup=.article-header&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T21:59:20+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Balanced connects to Polygon</title>
+    <published>2025-03-18T08:30:37+00:00</published>
+    <updated>2025-03-18T08:30:37+00:00</updated>
+    <id>https://blog.balanced.network/polygon-connection/</id>
+    <link rel="alternate" type="text/html" href="https://blog.balanced.network/polygon-connection/"/>
+    <author>
+      <name>Balanced Official</name>
+    </author>
+    <content type="html">Balanced is now live on Polygon, its&amp;nbsp;sixth connection within the EVM ecosystem. You can use Balanced on Polygon to swap and transfer crypto between 12 other blockchains, and earn a return for bnUSD through the Balanced Savings Rate.
+Learn more about the Polygon connection and how you can take advantage of it.
+Why the Polygon connection matters
+The Polygon connection is significant because it relies almost entirely on&amp;nbsp;Balanced Intents, which provides zero-slippage, low-fee, 5-second trades.
+The smart contracts added support for Polygon months ago, but while previous connections launched with liquidity for the chain’s core asset (courtesy of ICON), there was no plan to acquire POL for Polygon.
+With the expansion of intent-based trades on Polygon, we didn’t have to. POL, wETH, and USDC from Uniswap are available to trade on Balanced via intents, with more efficiency than we could ever achieve through a liquidity pool.
+The Polygon connection also supports BALN, bnUSD, and sICX, with more tokens on the way as we continue to enhance the trading experience through intent-based trades.
+How to use Balanced on Polygon
+Balanced is a cross-chain DeFi hub that’s home to the bnUSD stablecoin and a decentralised exchange. You can use it on Polygon to swap and transfer crypto between 13 blockchains, and earn a return for bnUSD.
+To get started, visit&amp;nbsp;app.balanced.network/trade.
+Swap crypto
+You can use the Balanced exchange to swap between Polygon assets or trade across chains.
+From the Swap tab:
+Choose which assets to swap, and where to send and receive them.
+Enter the amount, then click Swap and complete the trade.
+Until Balanced Intents supports every chain, only some swap combinations are available. Support is more extensive for USDC, bnUSD, BALN, and sICX, and you can trade POL and wETH for crypto on Arbitrum and Sui with ease.
+The Swap tab set to trade various assets on Polygon and beyond.Transfer cross-chain
+You can send USDC, bnUSD, BALN, and sICX directly to another blockchain from the Bridge tab:
+Choose which blockchains to transfer between.
+Choose an asset, then enter the amount.
+Click Transfer and follow the prompts to complete the transfer.
+The Bridge tab set to transfer USDC, bnUSD, and BALN from Polygon to other chains.Earn a return for bnUSD
+The Balanced Savings Rate makes it easy to earn rewards for bnUSD. The rate varies based on the amount deposited and the price of the reward currencies (BALN, bnUSD, and sICX).
+You can get bnUSD from the exchange, or borrow against your crypto on another chain. Just make sure you choose to receive your bnUSD on Polygon.
+From the Rewards section on the Home page:
+Choose Polygon from the blockchain selector.
+Click ‘Deposit bnUSD’ next to Savings Rate.
+Choose the amount to deposit, then click Confirm and complete the transaction.
+You’ll earn rewards at a variable rate, and you can withdraw your funds in an instant.
+The Rewards section set to deposit Polygon bnUSD into the Savings Rate.Transact on Polygon and beyond
+Use Balanced to simplify your cross-chain DeFi experience. It’s available on Arbitrum, Archway, Avalanche, Base, BNB Chain, Havah, ICON, Injective, Optimism, Solana, Stellar, Sui, and now Polygon.
+To swap, transfer, and earn on Polygon, visit app.balanced.network&amp;nbsp;and sign in with your favourite wallet. Connect to additional chains to do even more, like borrow bnUSD against your crypto.
+To learn more about Balanced, check out the&amp;nbsp;website, read the&amp;nbsp;docs, and join the Balanced community on&amp;nbsp;Discord.
+And to stay on top of every update, subscribe to receive new blog posts via email:
+                          
+                                  
+                     Subscribe for updates                     
+Balanced blog posts, delivered to your inbox.
+                                                        
+                                                       Subscribe                                                                                                                                                                    
+             
+                 Email sent! Check your inbox to complete your signup.             
+             
+                                       
+Maximum of 4 emails per month. Unsubscribe anytime.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.balanced.network/content/images/size/w1200/2025/02/polygon-hero.png"/>
+  </entry>
+  <entry>
+    <title type="html">Liquidity pools, Savings Rate, and rewards go cross-chain</title>
+    <published>2025-03-13T09:07:43+00:00</published>
+    <updated>2025-03-13T09:07:43+00:00</updated>
+    <id>https://blog.balanced.network/cross-chain-liquidity-savings/</id>
+    <link rel="alternate" type="text/html" href="https://blog.balanced.network/cross-chain-liquidity-savings/"/>
+    <author>
+      <name>Balanced Official</name>
+    </author>
+    <content type="html">Balanced has taken the next step in its journey to offer a comprehensive cross-chain DeFi experience.
+First came cross-chain trades. Then cross-chain loans. In December, BALN went cross-chain.
+It’s time for the next phase.
+Liquidity pools, rewards, and the Balanced Savings Rate are now cross-chain.
+Supply liquidity for crypto on your favourite blockchain. Deposit bnUSD into the Savings Rate. And earn rewards across 10 chains.
+Learn more about the new cross-chain features and how you can take advantage of them.
+Supply liquidity on any chain
+For almost 4 years, you needed an ICON wallet to supply liquidity on Balanced. No longer.
+Liquidity is still held on ICON, but you can now supply it from any of Balanced’s 12 connected chains —&amp;nbsp;Arbitrum, Archway, Avalanche, Base, BNB Chain, Havah, Injective, Optimism, Solana, Stellar, and Sui — which reduces the barrier to entry for liquidity providers from other ecosystems.
+To supply liquidity on Balanced:
+Go to the Trade page and open the Supply tab.
+Choose the primary asset to supply, and pair it with bnUSD or sICX on the same chain.
+Set the amount, then click Supply and follow the prompts to send your assets to the pool.
+You’ll need to sign 3 transactions, and pay a transfer fee that varies per chain. Some pools offer incentives, so make sure to stake your LP tokens when prompted.
+Left: the Supply tab, set to supply to ETH/bnUSD on Base. Right: the ETH/bnUSD pool, expanded to stake LP tokens.
+Use the cross-chain Savings Rate
+The Balanced Savings Rate is a popular way to earn a return for bnUSD. But even though you could mint and trade bnUSD on every connected chain, you could only use the Savings Rate on ICON.
+That restriction has been removed, so you can now deposit bnUSD across 10 blockchains.
+To earn a return for bnUSD, visit the Rewards section on the Home page:
+Choose which blockchain to use.
+Click ‘Deposit bnUSD’ next to Savings Rate.
+Choose the amount to deposit, then click Confirm and complete the transaction.
+You’ll earn rewards until you withdraw, which will give you immediate access to your bnUSD.
+The Savings Rate in the Rewards section, set to deposit bnUSD on Sui.Earn rewards on 10 chains
+If you supply liquidity to an incentivised pool or deposit bnUSD into the Savings Rate, you’ll earn rewards for it.
+Balanced distributes rewards in BALN, bnUSD, and sICX, so you can earn rewards on any chain these assets are compatible with (all except Archway and Havah).
+Rewards accrue in real time, which you can claim from the Rewards section on the Home page whenever you have a balance available:
+Choose which blockchain to use.
+Click the Claim button next to Savings Rate and/or Liquidity Rewards.
+Click Confirm and complete the transaction.
+The Rewards section, with Savings Rate and liquidity rewards ready to claim on Injective.Go cross-chain with Balanced
+Visit app.balanced.network to supply liquidity, invest bnUSD, and earn rewards on your favourite blockchains.
+While you’re there, take advantage of Balanced’s comprehensive DeFi experience with cross-chain trades and loans.
+To stay on top of every update, join us on Discord and subscribe to receive new blog posts via email:
+                          
+                                  
+                     Subscribe for updates                     
+Balanced blog posts, delivered to your inbox.
+                                                        
+                                                       Subscribe                                                                                                                                                                    
+             
+                 Email sent! Check your inbox to complete your signup.             
+             
+                                       
+Maximum of 4 emails per month. Unsubscribe anytime.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.balanced.network/content/images/size/w1200/2025/03/hero-liquidity-savings.png"/>
+  </entry>
+  <entry>
+    <title type="html">Roadmap update | Q1 2025</title>
+    <published>2025-01-30T22:34:25+00:00</published>
+    <updated>2025-01-30T22:34:25+00:00</updated>
+    <id>https://blog.balanced.network/q1-2025/</id>
+    <link rel="alternate" type="text/html" href="https://blog.balanced.network/q1-2025/"/>
+    <author>
+      <name>Balanced Official</name>
+    </author>
+    <content type="html">During the fourth quarter of 2024, the Balanced contributors launched BALN cross-chain, connected to Stellar, Solana, and Optimism, and released intent-based trades between Arbitrum and Sui. They also completed a second smart contract audit for Sui, added support for external liquidity rewards, and prepared for the release of cross-chain liquidity and Savings Rate.
+Here’s what the contributors accomplished since the Q4 roadmap update:
+Smart contracts
+Completed a second Sui smart contract audit with Hashlock
+Deployed intent contracts for Arbitrum and Sui
+Deployed a Proof of Liquidity contract to support external liquidity rewards
+Added afSUI, haSUI, vSUI, and mSUI as collateral types
+Deployed intent-based trades between Arbitrum and Sui
+Began work on intents for ICON, Polygon, Base, Solana, and Stellar
+Began work on an exact_out feature for intents
+Launched BALN and sICX cross-chain
+Upgraded the DEX contract to support cross-chain liquidity
+Updated the Rewards contract to support cross-chain rewards
+Deployed contract upgrades for the cross-chain Savings Rate
+Front-end / back-end
+Launched Balanced on Stellar
+Launched Balanced on Solana
+Launched Balanced on Optimism
+Launched intent-based trades
+Launched BALN and sICX cross-chain
+Added support for the new ICX/sICX liquidity pool
+Added support for external liquidity rewards via the Proof of Liquidity contract
+Added the USD value to currency input fields on the Trade page
+Added USDC on Sui
+Added afSUI, haSUI, and vSUI collateral types
+Finalised the design for cross-chain liquidity and rewards
+Began implementing cross-chain liquidity and rewards
+Added trading support for afSUI, haSUI, vSUI, tBTC, weETH, and wstETH via intents
+Quality of life &amp;amp; code improvements
+Added the ability to activate new Stellar wallets for free
+Fixed an issue with the XLM trend line
+Updated public packages on npm
+Updated the BNB Chain connection to work with the new cluster relay
+Added an empty state to the wallet dropdown
+Removed METX and FIN from the token list
+Added all core pools to the Liquidity Pools section (instead of just incentivised ones)
+Fixed formatting and decimal issues for various tokens
+Fixed an issue that prevented JitoSOL transfers from Solana to ICON
+Improved the cross-chain loan experience
+Enhanced a range of details on the Trade page
+Added handling for SOL sent to new Solana wallets
+Website &amp;amp; marketing initiatives
+Published Balanced connects to Stellar
+Published Balanced connects to Solana
+Published BALN and sICX: now available cross-chain
+Published Balanced connects to Optimism
+Published Trade across chains with Balanced Intents
+Published Balanced 2024: A year in review
+Updated the Balanced X/Twitter handle from BalancedDAO &amp;gt; BalancedDeFi
+Continued regular social media posting
+Prepared for the launch of cross-chain liquidity and rewards
+Cross-chain progress
+During the last quarter of 2024, Balanced launched on Stellar, Solana, and Optimism. The number of connected chains now stands at 12.
+BALN and sICX are now available on 10 blockchains. It started with Arbitrum, Avalanche, Base, BNB Chain, Optimism, and Stellar in December, and Injective, Solana, and Sui followed in January. This release unlocks cross-chain rewards, which will launch alongside cross-chain liquidity pools and Savings Rate this quarter.
+Cross-chain governance is currently on pause due to the complexity of the smart contracts, but will be resumed later this year.
+Work has begun to connect Balanced to Polygon, which will launch in a few weeks. Stacks and Nibiru are also incoming, but their launch timeline is not yet clear.
+Intent-based trades
+In December, Balanced launched a proof of concept for intent-based trades. Initially, it offered the ability to trade between Arbitrum ETH and SUI, thanks to connections to Uniswap and Cetus, respectively. Last week, we unlocked the ability to trade afSUI, haSUI, vSUI, tBTC, weETH, and wstETH – tokens which until then, were only available to use as collateral.
+Intent-based trades are a major focus of 2025, with connections to ICON, Polygon, Base, Solana, and Stellar currently underway. Each of these connections will improve trading times and unlock the ability to trade a wide array of tokens which aren’t available via Balanced’s liquidity pools.
+Balanced will use intent-based trades to connect to a range of decentralised exchanges, including big players like LI.FI. The goal: become a cross-chain aggregator that always provides you with the best price and settles trades in an average of 5 seconds.
+Governance updates
+Governance continued at a regular pace over the last 3 months, with 12 proposals submitted to a vote:
+BIP 98: Update rate and deposit limits, and fix an issue with Sui token addresses
+DFP 11: Send $50k from the DAO Fund to a community member who reported a critical bug in the Balanced protocol
+BIP 99: Take BALN cross-chain and fix an issue with bnUSD on Stellar and Optimism
+BIP 100: Add Mirai Staked SUI (mSUI) as a collateral type
+BIP 101: Increase the deposit limit for assets in the Stability Fund
+DFP 12: Fund 6 months of work on the Balanced app and website
+BIP 102: Enable cross-chain liquidity and rewards, and upgrade the router to support swaps for cross-chain tokens like BALN and sICX
+BIP 103: Borrow $10k of ETH and SUI liquidity to fund intent-based trades and configure various limits
+BIP 104: Add a Proof of Liquidity contract to incentivise pools with external rewards
+BIP 105: Add BALN to Injective, Solana, and Sui; introduce a cluster connection for BNB Chain
+BIP 106: Update withdrawal/deposit limits for several tokens, and allow cross-chain transfers from the DEX, Rewards, and Savings Rate contracts
+DFP 13: Use $18k of sICX and $3.5k of BALN to fund a marketing campaign on Sui (in progress)
+DAO performance
+Over the last 3 months, Balanced earned $82,053 from fees:
+4,750 bnUSD from loans
+$56,990 from swaps
+$20,313 from Stability Fund swaps
+$12,308 of that was distributed to bBALN holders, which gives BALN a 30-day trailing APR of 3.58%.
+$41,027 was used to buy and burn ICX, fulfilling Balanced’s role in the economic enshrinement. Balanced’s net profit for the quarter was $28,719.
+Balanced’s income and expenses over the past 6 months.
+Balanced’s holdings decreased by $265,941. The DAO Fund saw an increase of $140,348, but protocol-owned liquidity fell by $406,290 due to DFP 12 (which funded 6 months of Balanced work) and the price performance of BALN and sICX.
+The amount Balanced held in the DAO Fund, Reserve Fund, and as protocol-owned liquidity compared to October 31.
+13,143,004 BALN have been locked in 820 wallets. There’s a total of 6,611,130 bBALN, giving an average lock-up time of 2.01 years.
+The current bBALN stats, taken from the Vote page.Enshrinement
+In the 11 months that have passed since the economic enshrinement was enacted:
+Balanced has burned 538,093 ICX
+ICON has supplied ~$5.5M of liquidity for AVAX, BNB, BTC, ETH, INJ, sICX, SUI, and SOL
+ICON has provided ~498,180 sICX of incentives for the Balanced Savings Rate
+The liquidity ICON has supplied and the ICX Balanced has burned to fulfil the enshrinement.
+Keep an eye on the enshrinement stats from burn.icon.community and the ICON enshrinement section on the Stats page.
+Plans for Q1 2025
+During Q1, the Balanced contributors plan to:
+Launch cross-chain liquidity pools, Savings Rate, and rewards
+Support alternative stablecoin deposits via the Savings Rate
+Launch support for intent-based trades on ICON, Polygon, Base, Solana, and Stellar
+Support additional tokens via intent-based trades
+Launch Balanced on Polygon
+If you have any questions or want to discuss these updates, start a discussion on the Balanced forum or in the Balanced Discord channel.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.balanced.network/content/images/size/w1200/2025/01/Q1-2025---Roadmap-update.png"/>
+  </entry>
+</feed>
