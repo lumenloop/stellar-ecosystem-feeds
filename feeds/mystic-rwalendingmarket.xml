@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">0xEB07…7d92</title>
+  <link rel="alternate" type="text/html" href="https://mirror.xyz/0xEB0700e0526471858c756D2074944EDecB547d92"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fmirror.xyz%2F0xEB0700e0526471858c756D2074944EDecB547d92%2Ffeed%2Fatom&amp;content_selector=%23__next&amp;content_cleanup=span%2C+svg%2C+form%2C+button&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fmirror.xyz%2F0xEB0700e0526471858c756D2074944EDecB547d92%2Ffeed%2Fatom&amp;content_selector=%23__next&amp;content_cleanup=span%2C+svg%2C+form%2C+button&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:08:00+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Mystic joins Plume Network's Testnet Campaign</title>
+    <published>2024-08-12T17:09:52+00:00</published>
+    <updated>2024-08-12T17:09:52+00:00</updated>
+    <id>https://mirror.xyz/0xEB0700e0526471858c756D2074944EDecB547d92/LRMej5VDKTyyOIaY4tSRfn8KTY4aHPC5nC1GszBG7Ag</id>
+    <link rel="alternate" type="text/html" href="https://mirror.xyz/0xEB0700e0526471858c756D2074944EDecB547d92/LRMej5VDKTyyOIaY4tSRfn8KTY4aHPC5nC1GszBG7Ag"/>
+    <content type="html">Mystic joins Plume Network&amp;#x27;s Testnet Campaign
+0xEB07…7d92
+What is Mystic Finance
+ 
+Mystic is a lending and borrowing market for tokenized real-world assets (RWAs). Mystic exists because tokenized assets, securities in specific, often have compliance requirements which make them unable to be traded in permissionless lending markets (e.g. only non-US investors can hold the asset). To solve this, we set compliance requirements at the asset level, to maximize permissionless exposure whilst also remaining compliant with all relevant AML regulations.
+ 
+Mystic Finance Joins Plume Network’s Testnet Campaign
+ 
+The RWA-focused ecosystem that Plume is building is the perfect playground for Mystic to thrive and make the most of its value proposition. Plume has also been an invaluable part of our journey, as the team has helped us find our place in the RWA space since very early on and have been a crucial part in the project existing as it does today. As such, it is an honor and a pleasure to publicly confirm our participation in the Plume Testnet campaign, as well as our intention to be a core part of the Plume ecosystem!
+ 
+What To Do During The Testnet Campaign
+ 
+During the Testnet campaign, you will be able to lend gnUSD to the protocol and earn (Testnet) yield for it, perfectly mimicking what will happen on Mainnet. Conversely, you will also be able to borrow gnUSD using your GOON as collateral. Pretty neat, huh? Here’s how to use the platform in each of these scenarios:
+ 
+ 
+ 
+Lend: click on the “Lend” button next to the gnUS market, in the “Lend” tab. You will be prompted to input the amount of gnUSD you want to supply to the protocol. Follow the steps in your wallet until completion and sure enough, you will have supplied to Mystic!
+ 
+ 
+ 
+Borrow: click on the “Borrow” button next to the GOON market, in the “Borrow” tab. You will be prompted to input the amount of gnUSD you want to borrow. Just follow the steps in your wallet until completion and sure enough, you will have borrowed gnUSD using your GOON as collateral! If you haven’t yet provided any collateral, Mystic will automatically ask you to do so. If you don’t have any testnet assets yet, you can get them via Plume’s Testnet Faucets.
+ 
+ 
+ 
+What To Expect After Testnet
+ 
+We aim to become Plume’s leading money market and truly bring the power of DeFi to tokenized real-world assets, thus doing our part to help bring the world on chain. After Testnet, expect Mystic to come out with lending markets for bluechip assets, as well as an increasing number of markets for RWA-tied opportunities derived from our partnerships in the Plume ecosystem. And who knows, maybe you’ll find some interesting surprises in the meantime as well!
+ 
+We’re super excited to get our collaboration with Plume under way and kickstart this Testnet campaign.  Join us on this journey and follow our progress on X at @mystic_finance and @plumenetwork. This is just the beginning, and we can’t wait for what’s next. LFG!
+ 
+Yours sincerely,
+ 
+— Your Mystic Finance Team
+ 
+FAQs
+ 
+Q: What is Mystic Finance?
+ 
+A: Mystic Finance is a decentralized platform for lending and borrowing against tokenized real-world assets (RWAs). We set asset-level compliance requirements and pool liquidity for same-underlying assets for the best experience for RWA-backed lending. Learn more
+ 
+Q: How does lending work on Mystic Finance?
+ 
+A: Lenders supply assets (e.g., DAI, USDC) to Mystic Finance’s pools, earning interest in return. These assets are made available to borrowers, who pay interest and provide collateral. Lenders receive yield-bearing LP tokens, which are used to distribute interest earned from borrowers. Learn more
+ 
+Q: How does borrowing work on Mystic Finance?
+ 
+A: Borrowers deposit collateral worth more than the loan amount. They can then borrow a fraction of that collateral in different assets depending on the asset they have deposited / are borrowing. The interest rate paid depends on asset pool utilization and increases as more of the asset is borrowed. Over time, interest accrues, reducing the health factor, which can lead to liquidations if not managed by repaying loans or adding collateral. Learn more
+ 
+Q: What security measures are in place?
+ 
+A: Mystic Finance is a fork of Aave v3, which has been extensively audited by a myriad of security firms. In addition, Mystic will feature a robust risk management dashboard upon Mainnet launch. Learn more
+ 
+Q: How can I participate in the Mystic Finance community?
+ 
+A: Follow Mystic Finance on Twitter and join our Discord, contribute to discussions and stay updated on platform developments!
+ 
+Q: How does permissioning on Mystic Finance work?
+ 
+A: Mystic Finance uses 3 levels of permissioning to ensure that only verified users can access certain platform features, enhancing security and compliance. Learn more
+Subscribe to 0xEB07…7d92
+Receive the latest updates directly to your inbox.
+Mint this entry as an NFT to add it to your collection.
+Verification
+This entry has been permanently stored onchain and signed by its creator.
+Arweave Transaction
+u66g92NbNP-NAjz…zxC2HnEIe8GYuiE
+Author Address
+0xEB0700e05264718…4944EDecB547d92
+Content Digest
+LRMej5VDKTyyOIa…HPC5nC1GszBG7Ag</content>
+    <link rel="enclosure" type="image/png" href="https://images.mirror-media.xyz/publication-images/9cvaPza8zijH9r8wFpa0V.png?height=500&amp;amp;width=1000"/>
+  </entry>
+</feed>
