@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Public Node</title>
+  <link rel="alternate" type="text/html" href="https://publicnode.org/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fpublicnode.org%2Ffeed%2F&amp;content_selector=.fusion-text&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fpublicnode.org%2Ffeed%2F&amp;content_selector=.fusion-text&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:08:44+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">OG Technologies Sponsors Stellar Validator Hercules</title>
+    <published>2023-06-04T14:06:32+00:00</published>
+    <updated>2023-06-04T14:06:32+00:00</updated>
+    <id>https://publicnode.org/og-technologies-sponsors-stellar-validator-hercules/</id>
+    <link rel="alternate" type="text/html" href="https://publicnode.org/og-technologies-sponsors-stellar-validator-hercules/"/>
+    <author>
+      <name>Daniel</name>
+    </author>
+    <content type="html">The last few months have been busy around Public Node.  In addition to onboarding two engineers to help run our validator nodes, we&amp;#8217;ve been approached by multiple entities looking to support Public Node as well as seeking third-party partnership to help implement their blockchain-related products and services.
+ 
+Our most recent collaboration was with OG Technologies, a well-established business renowned for delivering top-notch IT consulting services and solutions. Having identified the potential of the Stellar blockchain for their client offerings, OG Technologies reached out to support the Stellar network by sponsoring one of our validator nodes. This generous gesture makes them the second business sponsor for Public Node and effectively covers the hardware costs of Hercules, one of our three highest quality (Tier 1) full validator nodes.
+ 
+Needless to say, we are thrilled that OG Technologies reached out to us and we look forward to seeing how they plan to utilize Stellar and other blockchain technology in their Web3 solutions.</content>
+    <link rel="enclosure" type="image/png" href="https://publicnode.org/wp-content/uploads/2023/06/OG-Technologies-Sponsorship-Blockchain.png"/>
+  </entry>
+  <entry>
+    <title type="html">Our First Business-to-Nonprofit Sponsorship</title>
+    <published>2023-02-22T14:29:05+00:00</published>
+    <updated>2023-02-22T14:29:05+00:00</updated>
+    <id>https://publicnode.org/our-first-business-to-nonprofit-sponsorship/</id>
+    <link rel="alternate" type="text/html" href="https://publicnode.org/our-first-business-to-nonprofit-sponsorship/"/>
+    <author>
+      <name>Daniel</name>
+    </author>
+    <content type="html">BP Ventures Announces Sponsorship of Public Node&amp;#8217;s Stellar Hosting
+ 
+BP Ventures, a leading digital asset direct custody solution provider, has announced it will sponsor and monitor the uptime of a node at Public Node. Public Node is a 501(c)(3) nonprofit open-membership organization that supports and brings a trusted public voice to open and inclusive blockchain networks.
+ 
+This sponsorship demonstrates BP Ventures&amp;#8217; commitment to supporting the growth and development of open blockchain networks. The funding provided by BP Ventures will help Public Node with its important mission and support the healthy growth of the Stellar network.
+ 
+&amp;#8220;We believe in the potential for blockchain technology to make a positive impact on the world,&amp;#8221; said Anthony Barker, founder of BPV and we&amp;#8217;re proud to support Public Node&amp;#8217;s mission to bring a trusted and meaningful public voice to an open and inclusive blockchain network.&amp;#8221;
+ 
+Public Node works to achieve its mission through public education, infrastructure development, awareness, advocacy, and other areas of engagement. The organization believes that public participation is important for open and inclusive blockchain networks to fulfill their goal of providing undiscriminating access and benefit to all.
+ 
+&amp;#8220;We&amp;#8217;re thrilled to have BP Ventures as a sponsor of our Stellar Public Node,&amp;#8221; said Public Node spokesperson Daniel Fisher, &amp;#8220;Their support will help us continue our mission to bring the benefits of blockchain technology to the public. This partnership is a step towards a more open, inclusive, and trustworthy future for everyone.&amp;#8221;
+ 
+For more information about BP Ventures and its sponsorship at Public Node, please contact [email&amp;#160;protected]
+ 
+About BP Ventures
+ 
+BP Ventures is a US-based blockchain services and consulting firm. Founded by two fintech entrepreneurs with extensive Web3 experience, the company helps financial institutions increase efficiency, security, and market reach by integrating blockchain digital asset management solutions into their workflows.
+ 
+BPV’s areas of expertise include development and implementation of secure institutional wallets, white-label, non-custodial retail wallets, regulatory compliance, and the Stellar ecosystem.
+ 
+https://bpventures.us
+ 
+About Public Node
+ 
+Public Node is a 501(c)(3) nonprofit open-membership organization that supports and brings a trusted and meaningful public voice to open and inclusive blockchain networks. The organization works to achieve its mission through public education, infrastructure, awareness, advocacy, and other areas of engagement. Public Node believes that public support is important for open and inclusive blockchain networks so that they can forever do what they were designed to do – provide undiscriminating access and benefit to all people.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://publicnode.org/wp-content/uploads/2023/02/BP_Ventures_Supports_Public_Node_1280x720.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Let Me Get My Wallet</title>
+    <published>2021-06-08T04:21:43+00:00</published>
+    <updated>2021-06-08T04:21:43+00:00</updated>
+    <id>https://publicnode.org/let-me-get-my-wallet/</id>
+    <link rel="alternate" type="text/html" href="https://publicnode.org/let-me-get-my-wallet/"/>
+    <author>
+      <name>Daniel</name>
+    </author>
+    <content type="html">While the cryptocurrency world is dominated by investment bros bowing to Elon Musk, NFTs, and how this all is confusing like Tiktok, I want to talk about the main reason Stellar exists: to move money effortlessly, ecologically healthy quickly, and cheaply. I have discussed in previous blogs that the Stellar network is built for payment and remittance and how it is different than traditional banks and payment apps. So how do I use the Stellar network to pay for things I need?
+ 
+One way is to get a wallet to use and hold your money. Stellar’s network has a lot of options. When I first was introduced to Stellar, it was through Keybase, a messaging app that had a built-in wallet so that you can send money to people on the service. This gave me a Stellar address (your public address) and a Secret key. The Stellar address is what people will use to send me money. The Secret key is your account password. It is essential only to use it on trusted sites since it gives you full access to your account and all the assets in it. This is the same as protecting your credit card number but with no central entity to help you if something goes wrong. 
+ 
+Giving money to someone is as easy as any other financial account. If I have your Stellar address, I can send money to you. With a few exceptions, I can’t send money outside the Stellar network. Not sending money out of the network is the same as you can’t email someone who doesn’t have an email address, as someone explained to me. Another analogy being not being able to Venmo someone that doesn&amp;#8217;t have a Venmo account.   Exchange apps like Coinbase that handle many different blockchain technologies will accept XLM and convert it to whatever currency the owner wants.
+ 
+ 
+Choosing the right wallet is essential. You want a trustworthy account to store your money and be able to use it. If you’re going to deal with lots of different currencies and are into some of the investment aspects of cryptocurrencies, then Coinbase is a great custodial option for you &amp;#8211; setting aside for now the &amp;#8220;not your keys not your crypto&amp;#8221; mantra.  
+ 
+Stellar as a network makes it easy and ideal to create tools. There are several non-custodial wallets on the network already. I use Lobstr, a phone and web app, but I also created a web browser wallet, Freighter. There are other great wallets out there. There are even hardware wallets that can be offline until you plug it in. These devices are for people that take security very seriously. 
+ 
+ 
+Security is important. It is getting easier and easier to steal money online. People get their bank accounts hacked all the time or identities stolen and used to drain money. While hacking a payment is near impossible, our own mistakes and lack of initiative can leave us open to fraud. It is essential to be intentional in sharing information online &amp;#8211; especially when it comes to our Secret key. If someone gets that, then they have your money. 
+ 
+The opposite problem is also applicable. There isn’t a ‘forgot your password’ feature in the non-custodial cryptocurrency world where you get an email, and you just make a new password. If you cannot get into your account, that money is just stuck there in limbo and can’t be pulled out any other way. The lack of a custodian, government oversight, and regulations can make dealing with finances in the blockchain a challenge. 
+ 
+The attention to security and protection is worth the inconvenience since it means my money will be as safe as I&amp;#8217;m willing to make it. If I see a site that I want to send money to, but I have some suspicions that it may be fraudulent, I can make a hot wallet that only has the money I am willing to lose if it turns out to be a con. I can keep my cold wallet entirely away from any dealings with the internet, and that will make that account less likely to be hacked.
+ 
+When my brother got the family on Keybase, he sent each of us 10 XLM, which went into the built-in Stellar wallet. Keybase is excellent since I am also using it as a messaging service, and I have to give money to people I communicate with &amp;#8211; especially my wife. So I sent her 10 XLM with a note that this is a little bit of the money I owed her. It was as easy, if not easier, than traditional banking apps.
+ 
+When I look at my wallet in Keybase, it also shows me my NFT of The Fool I minted a while ago on Litemint. 
+ 
+Accessibility is an issue with people looking into using Stellar for payments, remittances, or storing money. It is challenging for people with no internet access or who haven’t been well trained in computers. I am a mediocre computer user with internet access, and I have found the information on how to use cryptocurrency overwhelming, murky, and sometimes exclusive. I’ve had to ask a lot of questions to people who know. Unfortunately, a lot of people don’t know people like that.
+ 
+Not having a bank account can be a massive roadblock to getting money through the Stellar network. A standard solution is to use Visa gift cards to put cash on and then use the card to load a Stellar wallet.
+ 
+I also looked into crypto debit cards. Coinbase and BlockCard offer debit cards that can be loaded with XLM and used anywhere Visa is accepted. I was most excited for Wirex, but they are still not working in the US as of this writing. Hopefully, the options will grow as cryptocurrencies become more established.
+ 
+The important thing, this is your money, and you have control over it without the heavy-handed banks with their fees, rules &amp;amp; regulations, and their schedules. One of the benefits of using a decentralized financial institution like the Stellar network is that you have the power over your own security as long as you make an effort. No third-party security means faster transactions and fewer permissions.
+ 
+Media also has focused on the environmental impact of blockchain cryptocurrencies, but I&amp;#8217;ve read that Stellar has a lot of advantages here over many other blockchains.
+ 
+When I started hearing about cryptocurrencies, I assumed this element of privacy attached to why someone would use it. There is a lot more transparency with cryptocurrency transactions than regular peer-to-peer payments. The whole network has a record of the transaction. A person can follow the transaction and easily audit. 
+ 
+ 
+There are so many ways to customize the network to be usable. People are finding ways beyond peer-to-peer payments for solutions to a lot of problems. In researching this blog, I looked at all the neat tools and applications people have built on the Stellar network—wallets, trade tools, remittance flows, fiat and non-fiat issuers, bank cards, and more. There is even Vezt, a music rights tool for musicians to get investments directly from fans. 
+ 
+I sent my wife 10 XLM, and now she can keep it and see if it grows as an investment, change it to dollars, or trade it for a different currency. It was easy after learning how to use my Stellar address and making sure only I have access to my Secret key. It is also essential to write down and keep in a safe place the backup phrase. I also have a backup device that I can recover my wallet if something happens to my phone. 
+ 
+My wife lost her backup phrase and Secret key and didn’t back up her account on a backup device and lost all her XLM from the Keybase airdrop and the ten my brother gave her, and now she just jealously watches me watch my free XLM go up in worth. She then reminded me that I owe her lots of money.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://publicnode.org/wp-content/uploads/2021/06/Stellar-wallet-digital-1280x720-1.jpg"/>
+  </entry>
+</feed>
