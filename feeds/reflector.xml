@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
+    <meta name="description" content="RSS-Bridge" />
+    <title>Stories by REFLECTOR on Medium</title>
+    <link href="static/style.css?2023-03-24" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"
+            title="Atom"
+            rel="alternate"
+            type="application/atom+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Json"
+            title="Json"
+            rel="alternate"
+            type="application/json"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Mrss"
+            title="Mrss"
+            rel="alternate"
+            type="application/rss+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Plaintext"
+            title="Plaintext"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Sfeed"
+            title="Sfeed"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+    <meta name="robots" content="noindex, follow">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="pagetitle">
+            <a href="https://medium.com/@reflector-network?source=rss-4d44f48ce367------2" target="_blank">Stories by REFLECTOR on Medium</a>
+        </h1>
+
+        <div class="buttons">
+            <a href="./#bridge-FeedFinderBridge">
+                <button class="backbutton">← back to rss-bridge</button>
+            </a>
+
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom">
+                    <button class="rss-feed">
+                        Atom                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Json">
+                    <button class="rss-feed">
+                        Json                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Mrss">
+                    <button class="rss-feed">
+                        Mrss                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Plaintext">
+                    <button class="rss-feed">
+                        Plaintext                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40reflector-network&amp;strip=on&amp;_cache_timeout=3600&amp;format=Sfeed">
+                    <button class="rss-feed">
+                        Sfeed                    </button>
+                </a>
+            
+                    </div>
+
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/how-to-get-your-asset-listed-on-reflector-5f732938ffc2?source=rss-4d44f48ce367------2"
+                    >How to Get Your Asset Listed on Reflector</a>
+                </h2>
+
+                                    <time datetime="2025-04-02 13:01:31">
+                        2025-04-02 13:01:31                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Getting your asset on the Stellar Reflector Oracle is a smart move to ensure that its price is tracked reliably across the Stellar network. A steady price feed boosts your asset’s credibility and makes it easier for various DeFi apps to use your asset effectively.Below is a simple, step-by-step guide to get your asset listed on the public oracle price feed.Step 1: Make Sure You Have Enough LiquidityFor the oracle to work properly, real trading activity is a must. Start by ensuring your asset has enough liquidity on the Stellar Decentralized Exchange (SDEX). Also, consider adding liquidity on Soroban-based pools (like Aquarius pools). This extra liquidity isn’t just for smoother price updates — it’s also vital for other DeFi protocols that need robust liquidity to handle liquidations when the market gets shaky.Step 2: Keep the Trading FlowingFor the oracle to keep reporting accurate prices, your asset needs to be traded regularly. Aim for at least one trade every five minutes. Whether you’re using a market maker or setting up an automated trading bot, keeping a steady flow of trades is key to reliable price reporting.Step 3: Seek Community FeedbackBefore submitting your proposal, take some time to gather input. Reach out directly to node operators or join the Reflector Discord channel to get tips and insights. This early feedback can help you refine your proposal and increase your chances of approval.Step 4: Submit Your Proposal to the Reflector DAOOnce you’ve incorporated community feedback, it’s time to submit your proposal:Outline Your Asset: Detail your asset and how it’s ready for reliable price reporting.Proposal Cost: A deposit of 5,000 XRF tokens is required (currently about $0.25 each).Ready? Submit your proposal.Step 5: DAO VotingReflector DAO members will review your proposal within the next 14 days and will collectively vote for a decision. If your proposal is approved, deposit tokens are burned as a commitment by the node operators.If it’s not accepted, you’ll receive 75% of your deposit back. Remaining deposited tokens get burned to prevent DAO spamming and ensure that only relevant proposal will make it to the DAO review pipeline.Step 6: Integration and Keeping an Eye on ThingsOnce your proposal is approved:The node operators will add your asset’s price feed to the Reflector Oracle, making it available across the Stellar ecosystem. Now’s the time to market your new price feed. Connect with other dApps and platforms — like getting listed within a Blend pool — to integrate your asset further into the ecosystem.Ongoing Monitoring: Continue to ensure that liquidity remains strong and that trades happen regularly. Keeping the momentum up is essential for maintaining an accurate price feed.Wrapping UpListing your asset on the Stellar Reflector Oracle is a straightforward process that pays off. By ensuring liquidity, keeping trades active, and navigating the DAO proposal process (with a little help from the community), you’ll set your asset up for success across various Stellar-based applications.For more details, check out these resources:Reflector OracleReflector DAO OverviewTaking these steps will help ensure your asset benefits from a reliable price feed, making it more attractive and robust within the Stellar ecosystem.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/reflector-dao-welcomes-glo-dollar-and-etherfuses-cetes-ustry-on-stellar-964990370668?source=rss-4d44f48ce367------2"
+                    >Reflector DAO Welcomes Glo Dollar and Etherfuse’s CETES & USTRY on Stellar</a>
+                </h2>
+
+                                    <time datetime="2025-03-25 13:54:24">
+                        2025-03-25 13:54:24                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Reflector Oracle DAO is on a mission to make Stellar’s DeFi ecosystem more robust and accessible. Recently, DAO voted for adding price feeds for Glo Dollar and Etherfuse’s CETES and USTRY tokens. In plain language, this means that developers and users can now rely on accurate, real-time data for these assets — a critical need for any decentralized finance application. Let’s dive into what this move is all about, why these assets stood out, and how it benefits the community.Who’s Behind Reflector Oracle DAO?Reflector Oracle is the go-to source on Stellar for trusted, up-to-date price data. It’s not managed by a single entity; instead, XRF token holders can create a proposal to list assets or price sources and then DAO members collectively vote for a decision. This means that independent operators work together to ensure the data is reliable and tamper-resistant.Why Glo Dollar?Glo Dollar is USD cash and government bond backed stablecoin. What sets it apart is an interesting feature: any extra earnings are channeled toward public good causes. This means that, beyond its role as a stable medium of exchange, its structure allows for a portion of its surplus to be directed toward charitable initiatives. Regular independent reserve audits add a layer of transparency, ensuring that the stablecoin’s promise is verifiable. In this way, Glo Dollar offers an example of how stablecoins can be designed to incorporate community-minded practices while maintaining the reliability that users expect.And What About Etherfuse’s CETES and USTRY?Etherfuse takes a unique approach by tokenizing government bonds — often called “stablebonds” — to provide on-chain access to yield-bearing assets. CETES and USTRY are designed to blend the stability of government bonds with blockchain innovation. For example, CETES gives users exposure to Mexican bonds, while USTRY brings US Treasuries to the blockchain, letting anyone hold these traditionally inaccessible assets. Rather than emphasizing speculative gains, these tokens are backed by real-world assets, offering an alternative that focuses on stability and predictable returns.What Made Them a Natural Fit for Reflector?When Reflector’s community was weighing the pros and cons, several factors made these assets a no-brainer:Liquidity &amp; Trading Activity: Both Glo Dollar and Etherfuse’s stablebonds already show healthy market activity on Stellar. For any oracle, having a liquid asset with active trading is key to providing reliable price data.Solid Reputation: Both projects come with endorsements and support from major players in the Stellar ecosystem. For instance, the Stellar Development Foundation is a founding organization of Glo Dollar, and Etherfuse has strong community and regulatory support.Clear Attestations: Trust is built on transparency. Glo Dollar undergoes regular audits, and Etherfuse is upfront about its backing by government bonds. These clear attestations make it easier for Reflector to confidently serve up accurate price feeds.Trusted Issuer — Brale: Both assets are issued with the involvement of Brale, a well-known and respected name on Stellar. This extra layer of credibility reassures the Reflector DAO that these assets are well-managed and compliant.What Does This Mean for DeFi and Developers?One immediate win from adding these feeds is that it clears the path for assets like Glo Dollar, CETES, and USTRY to be used in Stellar’s borrowing and lending protocol, Blend. Blend relies on solid, real-time price data to let users deposit assets as collateral and borrow against them. With Reflector now providing trusted feeds, Blend can confidently list these assets, opening the door for innovative use cases such as:Collateralized Lending: Use yield-bearing stablebonds as collateral to secure loans or other financial services.Cross-Asset Trading: Developers can build tools that automatically shift between different stable assets depending on market conditions.DeFi Innovations: Whether it’s a new type of savings account or a decentralized derivative, having reliable price data makes it much easier to build robust applications on Stellar.For developers, this isn’t just about adding another data feed — it’s about tapping into a well of trustworthy information that can power the next wave of DeFi projects. The Reflector public Oracle is accessible and free to use, lowering the barrier to entry for anyone with a good idea and some coding skills.Wrapping UpBy choosing to support Glo Dollar and Etherfuse’s CETES and USTRY, Reflector DAO is reinforcing Stellar’s commitment to innovation, transparency, and community. These assets aren’t just technically sound — they’re built with real-world trust, backed by solid financial fundamentals, and supported by reputable partners like Brale. For the community, this means more robust, reliable DeFi protocols. For developers, it opens up exciting new possibilities to build applications that can truly change the financial game.So, whether you’re a developer eager to experiment on Stellar, a DeFi enthusiast looking for the next big thing, or a DAO member interested in shaping the future of finance, there’s plenty to be excited about.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/expanding-the-reflector-dao-quorum-welcoming-new-node-providers-lightsail-and-creittech-606ce699f329?source=rss-4d44f48ce367------2"
+                    >Expanding the Reflector DAO Quorum: Welcoming New Node Providers Lightsail and CreitTech</a>
+                </h2>
+
+                                    <time datetime="2025-01-11 22:54:29">
+                        2025-01-11 22:54:29                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Expanding the Reflector DAO Quorum: Welcoming New Node Providers Lightsail and Creit TechReflector DAO members have voted to include two prominent community-driven organizations, Lightsail and CreitTech, in its quorum of nodes. This DAO-led decision brings the total number of Reflector nodes to seven, further strengthening its commitment to providing trusted and secure price feed data for the Stellar ecosystem.Meet the New Node ProvidersLightsail: Operated by Overcat, Lightsail is a cornerstone of the Stellar ecosystem. Their extensive contributions include running Stellar validators, maintaining SDKs, supporting hardware wallets, and providing key services like xlm.sh and SorobanRPC.CreitTech: Led by Earrietadev, Creit Tech is a key player in the Stellar ecosystem. They are behind notable projects like the xBull wallet, Soroban Domains, FXDAO, and Soroban Hub, while also operating Stellar validators to strengthen the network.Trust Through DecentralizationReflector oracles rely on a robust multisig-protected consensus mechanism. Each node independently calculates token prices using predefined rules, ensuring consistency. A transaction is valid only when more than half of the nodes in the quorum agree, leveraging Stellar’s security protocol to guarantee reliability and fault tolerance.By pulling data directly from the Stellar network for on-chain assets and external sources for generic tokens, Reflector ensures accurate and consistent price feeds. Its design supports diverse use cases, from TWAP averaging to cross-price calculations, empowering developers with dependable data.Why This MattersOracles are as trustworthy as their underlying nodes. Adding Lightsail and CreitTech not only decentralizes Reflector further but also ensures its quorum is backed by community leaders who have demonstrated long-standing contributions to Stellar. Builders can trust that Reflector’s price feeds remain accurate, secure, and unbiased.Reflector now stands stronger than ever, with a quorum of seven trusted participants, including StellarExpert, Script3, UltraStellar, xyclooLabs, PublicNode, Lightsail and CreitTech. This expanded network is a testament to Stellar’s collaborative ecosystem, paving the way for even greater adoption of Reflector as a reliable oracle solution.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/2nd-reflector-dev-contest-2751a42828d6?source=rss-4d44f48ce367------2"
+                    >2nd Reflector Dev Contest</a>
+                </h2>
+
+                                    <time datetime="2024-10-16 07:28:50">
+                        2024-10-16 07:28:50                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                In June we held the first dev competition focused on Reflector oracles. Several pretty remarkable project ideas made it to the finals and got their rewards. It was truly amazing to witness how people utilize blockchain infrastructure to build impressive apps on top of it. Today we are back with a second round and much larger prize pool — 120,000 xRF!Reflector Dev Contest begins right now!Contest categoriesBest oracle-based smart contractSmart contract or blockchain app utilizing Reflector price feed oracles.🏆Prize pool: 40,000 xRF🏅Award slots: 2Best subscriptions-based appApplication utilizing Reflector Subscriptions service. 🏆Prize pool: 40,000 xRF🏅Award slots: 2Special creativity awardAwarded for the most creative, novel, or bizarre usage of Reflector services. Unleash your inner Salvador Dali!🏆Prize: 8,000 xRF🏅Award slots: 2Special community choice awardAwarded to a submission that receives the most community support and endorsements.🏆Prize: 4,000 xRF🏅Award slots: 1👨‍💻 How to Participate:- Use Reflector in your project.- Deploy on Stellar Testnet or Pubnet.- Demonstrate how it works.- Submit your project via a forum post in ⁠submissions channel with a repo link, short video pitch, and a detailed project explanation.Please note: only projects that haven’t participated in previous Reflector dev contests are eligible.Additionally, this time we have separate prize pools for content creators.Best write-upHigh-level Reflector overview with an emphasis on how it is different from other oracle platforms or what use-cases it covers.📜Format: blogpost🏆Prize pool: 8,000 xRF🏅Award slots: 2Best walkthroughGuide on how to integrate Reflector oracles/subscriptions into an app or smart contracts.📜Format: blogpost🏆Prize pool: 8,000 xRF🏅Award slots: 2Best tech docs addendumHelp us improve Reflector documentation, make it clearer and more comprehensive.📜Format: docs in markdown format🏆Prize pool: 8,000 xRF🏅Award slots: 2Best evolution ideaWhat should we do next? How can we enhance our services? What is the best direction to grow? Which additional utility Reflector tokens should have? Share your ideas with us!📜Format: post in our Discord community server🏆Prize pool: 4,000 xRF🏅Award slots: 4👨‍💻 How to Participate:Publish a post, work with our documentation, or simply share your thoughts in our Discord.Ready to innovate? The 2nd Reflector Dev Contest is officially open on the 16th of October 2024. Submissions close December 15th, and after that a panel consisting of Reflector DAO members will review submissions and declare winners within 2 weeks.Terms and ConditionsEligibility Verification: Reflector will disqualify any entry from participants who do not meet the eligibility requirements as solely determined by Reflector DAO members. Additionally, participants from countries included into the international sanctioned jurisdictions list are not eligible to participate in this contest.Award Distribution: Prizes will be paid in xRF tokens to the winners’ Stellar accounts. The awards will be credited within 90 days after the campaign ends. Participants must ensure that their receiving wallet can accept xRF payments in compliance with their local laws and regulations.Deception Attempts: Participants should not attempt to manipulate panel judges, directly endorse other people to vote for their submission or in any other way support it. Such attempts may lead to the project disqualification.Intellectual Property: Participants retain IP rights to their creations. However, Reflector has the right to use and showcase projects for promotional purposes and repost content submitted for the contest.Limitation of Liability: Reflector is not liable for any damages, losses, or disappointments that arise from participation in the contest or as a result of the awarded prizes.Data Privacy: Participants agree to the collection and use of their data in accordance with Reflector’s privacy policy, solely for the purpose of this contest.General: Reflector reserves the right to cancel the contest or amend the contest mechanics or rules at any time at our sole discretion. Participants must comply with all applicable laws and regulations, including those pertaining to international sanctions.Getting StartedCheck out Reflector docs to help you kick off your project. Join our community on Discord to get updates and interact with other participants.Happy hacking!🚀
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/announcing-the-reflector-dao-and-xrf-token-04dac332cfb8?source=rss-4d44f48ce367------2"
+                    >Announcing the Reflector DAO and xRF Token</a>
+                </h2>
+
+                                    <time datetime="2024-08-02 17:20:25">
+                        2024-08-02 17:20:25                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                We are thrilled to introduce the Reflector DAO and xRF utility token, marking a significant milestone in the evolution of the smart contract ecosystem on the Stellar Network. Reflector is a robust decentralized system and data exchange protocol designed to provide reliable oracle price feed services for smart contracts. The launch of the Reflector DAO and xRF token brings advanced governance, automation, and observability functionalities to our community.What is Reflector?Reflector is a decentralized protocol that offers reliable oracle price feeds for smart contracts operating on the Stellar Network. The protocol ensures accurate and timely price data, which is crucial for the smooth operation of various decentralized finance (DeFi) applications.Introducing the xRF TokenxRF is an integral part of the Reflector ecosystem. This utility token is issued by the Reflector DAO, a decentralized autonomous organization comprising organizations and individuals who maintain Reflector server nodes and participate in cluster consensus. The xRF token serves multiple purposes:Governance: DAO members can use xRF to issue governance proposals for the protocol. Submitting a DAO proposal requires an xRF token deposit. Proposals may include inviting new operators, adding new price feeds, or introducing new tokens. A 14-day voting period follows, and decisions are made by simple majority. Depending on the outcome, a portion of the deposit is burned to signify the commitment of computational resources.Rewards: Cluster operators receive xRF tokens for contributing computational resources to the network.Subscriptions: Tokens can be used for subscribing to advanced price feed services. Creating and maintaining subscriptions involves an xRF token deposit. Subscriptions are charged daily, and tokens are burned as upkeep. This mechanism ensures that only active and necessary subscriptions are maintained, optimizing resource usageReflector DAO: Decentralized GovernanceThe Reflector DAO operates on principles of equality and transparency. Each DAO member has equal voting power, and decisions are made by a simple majority vote. The DAO governs key aspects of the Reflector network, including:Cluster Configuration: Voting on changes to the cluster setup.Membership: Including or expelling members based on their contributions and compliance with DAO rules.Resource Allocation: Managing and distributing xRF tokens to reward contributions and maintain network stability.The DAO contract, protected by multisig security, coordinates voting and ensures that all members comply with the outcomes of governance decisions.Advanced Price Feed SubscriptionsReflector’s oracle contracts publish regular price feed updates suitable for a wide range of smart contracts. For applications requiring more frequent updates with finer granularity, Reflector offers price feed subscriptions. This service allows developers to set predefined thresholds for price movements, triggering immediate updates to ensure timely reactions to market changes.Initial xRF Token DistributionReflector has issued 150,000,000 xRF tokens on the Stellar Network, distributed as follows:Reflector DAO fund: 102,500,000 tokens (85.42%)Reflector protocol developers: 12,600,000 tokens (10.5%)Current cluster node operators: 4,000,000 tokens (3.33%)Early protocol adopters: 900,000 tokens (0.75%)Ongoing distributions reward oracle node operators and developers, ensuring continuous support for the network.CommitmentThis design outlines the vision of Reflector governance and its future expansion. Our primary goal is to provide a truly decentralized, and at the same time flexible service for developers which need an extremely reliable price feed oracle data for their applications. We will adhere to these principles and ideas while working on further Reflector protocol development.ConclusionThe launch of the Reflector DAO and xRF token represents a significant advancement in decentralized oracle services. By empowering the community with governance tools and advanced automation capabilities, Reflector is poised to enhance the functionality and reliability of DeFi applications on the Stellar Network.We invite you to join us in this exciting journey. Participate in the Reflector DAO, utilize the xRF token for governance and subscriptions, and help shape the future of decentralized finance on Stellar.For more information, please refer to the Reflector DAO blueprint draft and contact our team via Discord or Telegram.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/reflector-ama-recap-insights-from-tomer-weller-of-stellar-development-foundation-60d4c1d77589?source=rss-4d44f48ce367------2"
+                    >Reflector AMA Recap: Insights from Tomer Weller of Stellar Development Foundation</a>
+                </h2>
+
+                                    <time datetime="2024-07-03 20:37:49">
+                        2024-07-03 20:37:49                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                In a recent AMA session, Reflector hosted Tomer Weller from the Stellar Development Foundation on our Discord server. The conversation spanned a variety of technical and visionary topics, offering deep insights into the Stellar ecosystem, future developments, and Reflector’s role within it. Here’s a convenient recap of the questions asked and the answers provided.Exploring Stellar’s Scalability and LatencyTrossw18: Have there been any tests on the scalability of individual quorums on Stellar? That is, how many validators can exist within a single quorum before latency starts to slow down? It seems Stellar has tended towards a primary quorum network rather than one of many quorums, and I’m curious if that results in minimized scalability potential or caps the ideal number of validators.Tomer: There’s a bunch of factors at play and lab tests are hard to predict. The main issue is that you’ll need validators to have really good networking, which might mean that only data center validators will be feasible.Be: Stellar’s latency was described by time required for enough world trips to vote, change votes and re-vote. Is that still how you see this?Tomer: A bit of an oversimplification but yes. That’s why there’s only so much we can shorten the current block time (~5s) without having validators drop off. We’re actively looking at ways to shorten confirmation times, that’s probably a 2025 project.Be: I’m simple! Will you elaborate on contemplated strategies to shorten confirmation?Tomer: I think that what Sui does for fast confirmation of owned objects (mostly used for payments) is one direction this could take.Prediction Markets and Composability in DeFiRaph: What specific oracle use case have you seen in other ecosystems that you’d like to see on Stellar?Tomer: I like prediction markets.Orbitlens: What is the best way to achieve better composability between different DeFi smart contracts on Soroban? I mean some kind of the ideal “DeFi lego” where different protocols can easily interact with each other. Do we need a few SEPs for this? Or maybe even some improvements on the Core level?Tomer: Honestly I think that the best thing is for protocols to just coordinate between themselves and deploy. We can figure out standards for interop later. Sometimes we tend to prematurely standardize instead of shipping.Orbitlens: We can probably learn from the experience on other networks and try to lay out the interop guidelines with SEPs to avoid the wild zoo of protocols that barely can operate with one another (my personal impression from studying the DeFi landscape on Ethereum, Solana, and BSC).Tomer: Yeah, there’s a balance there, but I think it’s easier to propose a standard that is already effectively in production rather than something theoretical.Optimizing Performance and Reducing Ledger TimesOrbitlens: Is there a rough timeline for implementing parallel contracts execution?Tomer: Hopefully by the end of the year. The core team already has a plan in place and is prototyping. Before the contract execution concurrency, we’ll probably ship a small concurrency change to move all overlay (networking) activity to a background thread which will significantly improve performance (not just for Soroban).Orbitlens: Are there any plans to work in the direction of reducing ledger time? E.g., to 3 seconds instead of the 5–6 seconds we see now.Tomer: Nothing concrete yet but I do think this will be a focal point for next year. We’re actively looking at recent research coming in from the folks at Sui and Mysten, which are probably the most advanced in this space.Sustainability and Future ProspectsRaph: With the large amounts of transactions to the network, how does Reflector stay sustainable if it is free? And has the recent validator vote to reduce fees changed things?Orbitlens: Our basic price feed model based on periodical on-chain price quotation works the same regardless of the network utilization. Actually, it is optimized for the large number of consumer contract calls — the more calls, the more efficient it gets. Fees are not so high for us currently. We are planning to experiment with re-uploading the contracts to use new Protocol 21 fee optimizations next week.Future of Stellar and DeFiFederico (dep): What do you think will be the driving factors behind the growth of Soroban as an ecosystem? What do you think could drive the onboarding of more and more users to Soroban apps?Tomer: I think that the best Soroban users will not know that they are Soroban users. So basically DeFi integrations into super simple wallets (Decaf, Beans, Meru, Vibrant, etc.) that address normies that have no idea what’s the underlying tech.Orbitlens: I’d like to see a fully on-chain bank utilizing Stellar. Would probably build one myself, but the legal part of such a project is dreadful.Federico (dep): In general, I think that everything that abstracts on-chain difficulties, as Tomer said, would be a perfect fit for Stellar. How cool would it be if someone deposits cash and from their wallet, without knowing anything about blockchain, starts taking advantage of DeFi opportunities?Orbitlens: We’ll see, maybe it will change soon. Europe has already adopted a basic crypto framework, maybe the regulation will become more clear soon.Federico (dep): Yeah, let’s hope so… the thing is that it is such a vast topic and I think it’s gonna take a while to get all in place.Reflector’s Role and VisionReflector has been at the forefront of providing robust and reliable price oracle services for the Stellar network. Our focus is on enhancing the functionality of decentralized financial applications, ensuring they operate with the most accurate and up-to-date market data. Our recent hackathon entries, including Soroban Insurance, SorobanGames, Soroban Currency Optimizer, and P2P Lending, reflect our commitment to innovation and excellence in the DeFi space.At Reflector, we are inspired by Tomer’s insights and are excited to explore the range of possibilities for oracles on Stellar. Our team is dedicated to pushing the boundaries of what is possible with oracles, and we believe that innovative use cases, such as prediction markets and decentralized insurance, could open up new avenues for user engagement and financial products.ConclusionThe AMA session with Tomer shows the collaborative spirit and forward-thinking nature of the Stellar community. As we continue to develop and refine our oracle services, we are committed to supporting innovative use cases that drive the ecosystem forward. Reflector is proud to be part of this vibrant community, and we look forward to working closely with the Stellar Development Foundation and other ecosystem partners to bring groundbreaking solutions to life.Stay tuned for more updates from Reflector as we continue our journey of innovation and excellence in the DeFi space.About ReflectorReflector provides advanced oracle solutions for the Stellar network, specializing in decentralized financial applications. Our mission is to ensure that smart contracts have access to the most accurate and reliable market data, enabling a new wave of DeFi innovation.Connect with UsFollow us on Twitter and join our Discord to stay updated on our latest developments and upcoming events.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://reflector-network.medium.com/unleash-your-creativity-with-the-reflector-dev-challenge-92bfb776f109?source=rss-4d44f48ce367------2"
+                    >Unleash Your Creativity with the Reflector Dev Challenge</a>
+                </h2>
+
+                                    <time datetime="2024-06-04 17:56:59">
+                        2024-06-04 17:56:59                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: REFLECTOR</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                We’re thrilled to announce the Reflector Dev Challenge, designed to inspire innovation and practical problem-solving within the Soroban smart contract ecosystem and Stellar. Utilize the power of Reflector oracles in your Soroban contracts and push the boundaries of what you can build with Stellar!Challenge DetailsObjective: Create new Soroban contracts that utilize Reflector oracles innovatively or enhance existing protocols with Reflector price feeds.Key DatesPromotional Campaign Period: The challenge starts at 00:00 AM (UTC) on the 5th of June 2024 and ends at 00:00 AM (UTC) on the 19th of June 2024.PrizesFirst Place: 2,000 USDC on StellarSecond Place: 1,000 USDC on StellarThird Place: 500 USDC on StellarCommunity Choice Award: 500 USDC on StellarAll winning submissions will also receive a ticket to the Meridian conference, pending confirmation.Participation CriteriaEligibility: Open to developers worldwide, ages 18 and up. Participants can compete individually or in teams.Project Requirements:Must use the Reflector oracle.Must be relevant to the challenge.The contract should be deployed on testnet.Submission GuidelinesAll submissions must be made through our designated Discord server. Simply make a new forum post under the “Dev Competition” channel.Participants must submit:A link to the public repository hosting the code.A video pitch or demonstration of the application.A written explanation detailing the application’s functionality, the problem it solves, and how it utilizes Reflector.Invoke the contract to demonstrate how it works.Terms and ConditionsEligibility Verification: Reflector will disqualify any entry from participants who do not meet the eligibility requirements as solely determined by Reflector. Additionally, participants from countries on which the United States has imposed sanctions that restrict financial transactions are not eligible to participate in this challenge.Award Distribution: Prizes will be paid in USDC to the winners’ Stellar wallets. The USDC will be credited within 90 days after the campaign ends. Participants must ensure that their receiving wallet can accept USDC payments in compliance with their local laws and regulations.Notification: Recipients will be notified via email 14 days after the token distribution is completed for confirmation.Exchange Rate: The USDC/USD exchange rate used to administer the campaign will be determined at the time of token distribution at the sole discretion of Reflector.Intellectual Property: Participants retain IP rights to their creations. However, Reflector has the right to use and showcase projects for promotional purposes.Limitation of Liability: Reflector is not liable for any damages, losses, or disappointments that arise from participation in the challenge or as a result of the awarded prizes.Data Privacy: Participants agree to the collection and use of their data in accordance with Reflector’s privacy policy, solely for the purpose of this challenge.General: Reflector reserves the right to cancel the challenge or amend the challenge mechanics or rules at any time at our sole discretion. Participants must comply with all applicable laws and regulations, including those pertaining to international sanctions.Getting StartedCheck out our detailed docs to help you kick off your project. Join our community on Discord to get updates and interact with other participants.
+                
+                            </section>
+        
+    </div>
+ </body>
+</html>
