@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">The Synced Blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.synced.to/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.synced.to%2Ffeed.xml&amp;content_selector=article&amp;content_cleanup=%5Bclass%3D%22post-metadata__date+time-ago%22%5D&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.synced.to%2Ffeed.xml&amp;content_selector=article&amp;content_cleanup=%5Bclass%3D%22post-metadata__date+time-ago%22%5D&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:10:38+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Upgrading to the new Synced</title>
+    <published>2024-10-12T00:00:00+00:00</published>
+    <updated>2024-10-12T00:00:00+00:00</updated>
+    <id>https://blog.synced.to/Synced-Upgrade-Here/</id>
+    <link rel="alternate" type="text/html" href="https://blog.synced.to/Synced-Upgrade-Here/"/>
+    <author>
+      <name>The Synced Blog</name>
+    </author>
+    <content type="html">Upgrading to the new Synced    
+     
+We’re superhype to welcome you to the new Synced, which is now live!
+  
+ artwork by Imagen 3
+  What’s in the new Synced? 
+Some big (and many smaller) changes to elevate your exploring experience, including:
+  
+   
+     
+Dashboards - You can create dashboards to follow regions of interest. Dashboards gather marks that you and others leave in the region along with other regional updates.
+   
+   
+     
+Geo-bounties (private beta) - Want specific kinds of information on your dashboards? You will be able to  issue geo-bounties to other Synced users for collecting data of interest. And you’ll be  able to earn paid-bounties for gathering information others would like. (get in touch to trial these)
+   
+   
+     
+A new interface - Our new interface is based on your feedback and you’ll find it significantly  easier to use.
+   
+   
+     
+Progressive Web Apps (PWAs) - Web technology has advanced so we can implement the above just  as well with web apps as we could with native mobile apps. You can also now install apps directly from the web with PWA technology.
+   
+ 
+  How to install it 
+The old Synced apps have ceased to function and will no longer be available in the app stores. The new Synced is now installable via the web itself! To upgrade:
+  
+   
+Uninstall your existing Synced app if you have it installed.
+   
+Visit the Synced homepage in your mobile browser.
+   
+On Android (Chrome), go to the menu and select “Add to Home Screen”.
+   
+On iOS (Safari), tap the “Share” icon, and select “Add to Home Screen”.
+   
+Click on the icon to open the app, login and you’ll find all your existing marks nestled in a shiny new user interface.
+ 
+  
+&amp;lt;3 for your continued support!
+  
+- Tejas
+    
+    
+     Written on October 12, 2024   
+     
+ 	
+ 	
+	    var disqus_shortname = 'the-synced-blog';
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	 	Please enable JavaScript to view the comments powered by Disqus.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.synced.to/images/2024-10-12-Synced-Upgrade-Here.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">The Synced Upgrade is Almost Here</title>
+    <published>2023-09-25T00:00:00+00:00</published>
+    <updated>2023-09-25T00:00:00+00:00</updated>
+    <id>https://blog.synced.to/Synced-Upgrade-Coming/</id>
+    <link rel="alternate" type="text/html" href="https://blog.synced.to/Synced-Upgrade-Coming/"/>
+    <author>
+      <name>The Synced Blog</name>
+    </author>
+    <content type="html">The Synced Upgrade is Almost Here    
+     
+After a while baking in the oven the new Synced is almost ready to serve.
+  
+ artwork by DALL-E
+  What’s in the new Synced? 
+There’s a few big changes, along with lots of little changes, that together will elevate your exploring experience.
+  
+   
+     
+Dashboards - You will be able to create dashboards to follow regions of interest. Dashboards gather marks that you and others leave in the region along with other regional updates.
+   
+   
+     
+Geo-bounties - Want specific kinds of information on your dashboards? You will be able to  issue geo-bounties to other Synced users for collecting data of interest. And you’ll be  able to earn paid-bounties for gathering information others would like.
+   
+   
+     
+A new interface - Our new interface is based on your feedback and you’ll find it significantly  easier to use.
+   
+   
+     
+Progressive Web Apps (PWAs) - Web technology has moved on the point where we found we could implement the above  as well with web apps as we could with native mobile apps. You can also now install apps directly from the web with PWA technology. And from our end we can deploy bugfixes and updates instantly. So we’ve jumped on board the PWA train, and you’ll find the next version of Synced installable via our website.
+   
+ 
+  When will the upgrade happen? 
+We expect it’ll happen around early to mid October 2023 (Update, we now expect it’ll be in May 2024 October 2024).
+ We’ll announce the exact date &amp;amp; time closer to the moment on the Synced blog and on our X (formerly Twitter).
+  How do existing app users upgrade? 
+Following the upgrade, the existing Synced apps will cease to function. We will also unpublish the apps from the app stores - since the new Synced will be installable via the web itself.  Upgrading will involve the following:
+  
+   
+Uninstall your existing Synced app.
+   
+Visit the Synced homepage in your mobile browser.
+   
+On Android (Chrome), go to the menu and select “Add to Home Screen”.
+   
+On iOS (Safari), tap the “Share” icon, and select “Add to Home Screen”.
+   
+Click on the icon to open the app, login and you’ll find all your existing marks nestled in a shiny new user interface.
+ 
+  
+Watch this space!
+  
+- Tejas
+    
+    
+     Written on September 25, 2023   
+     
+ 	
+ 	
+	    var disqus_shortname = 'the-synced-blog';
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	 	Please enable JavaScript to view the comments powered by Disqus.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.synced.to/images/2023-09-25-Synced-Update-Almost-Here.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Synced Developer Log (Febuary 2023) - Dashboards &amp; Bounties</title>
+    <published>2023-02-28T00:00:00+00:00</published>
+    <updated>2023-02-28T00:00:00+00:00</updated>
+    <id>https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log-Feb-23/</id>
+    <link rel="alternate" type="text/html" href="https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log-Feb-23/"/>
+    <author>
+      <name>The Synced Blog</name>
+    </author>
+    <content type="html">Synced Developer Log (Febuary 2023) - Dashboards &amp; Bounties    
+     
+Here’s Febuary 2023’s development log for Synced’s dashboards and bounty features.
+  
+ artwork by DALL-E
+  Progress in Feb 2023 
+   
+     
+Initial dashboard merge has been performed on development web app. 
+   
+   
+     
+Familiarity with Stellar’s Soroban smart contract platform, through entering Hacka-Soroban-athon.
+   
+ 
+  Aims for March 2023 
+   
+Add description and chat functionality to dashboards
+   
+Complete web redesign on dev web-app incorpoating dashboards
+   
+Release initial dashboard release to live web-app
+ 
+  Additional Aims 
+   
+Migrate away from MongoDB
+ 
+  
+Thanks for reading
+  
+- Tejas
+    
+    
+     Written on February 28, 2023   
+     
+ 	
+ 	
+	    var disqus_shortname = 'the-synced-blog';
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	 	Please enable JavaScript to view the comments powered by Disqus.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.synced.to/images/2023-02-28-Synced-Dashboards-Bounties-Dev-Log-Feb-23-1.jpg"/>
+  </entry>
+</feed>
