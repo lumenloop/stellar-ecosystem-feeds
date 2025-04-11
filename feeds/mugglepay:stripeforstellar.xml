@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">MugglePay - Medium</title>
+  <link rel="alternate" type="text/html" href="https://blog.mugglepay.com?source=rss----ce5b4a08ce22---4"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.mugglepay.com%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.mugglepay.com%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:07:54+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Why AI Services Should Adopt Programmable Currency Payments?</title>
+    <published>2024-09-05T14:29:23+00:00</published>
+    <updated>2024-09-05T14:29:23+00:00</updated>
+    <id>https://blog.mugglepay.com/why-ai-services-should-adopt-programmable-currency-payments-b5b702765802?source=rss----ce5b4a08ce22---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.mugglepay.com/why-ai-services-should-adopt-programmable-currency-payments-b5b702765802?source=rss----ce5b4a08ce22---4"/>
+    <author>
+      <name>Hermione Granger</name>
+    </author>
+    <content type="html">Why AI Services Should Adopt Programmable Currency Payments?
+Image by AI
+The AI landscape is evolving at an unprecedented pace, and this week, a significant milestone was reached: an AI paid another AI using cryptocurrency. According to Coinbase Developer Platform (CDP), one AI purchased “tokens” (essentially words or data) from another AI using USDC on the Base blockchain. This development is more than a novel concept; it’s a glimpse into the future of AI-enabled transactions. For businesses providing AI services, the adoption of programmable currency payments — particularly through cryptocurrencies — is not just advantageous but essential. Here’s why:
+1. Empowering AI Autonomy:
+AIs lack traditional banking tools, but with crypto wallets, they can now transact globally and instantly. This allows AI agents to autonomously acquire the resources they need to complete tasks efficiently.
+2. Unlocking New Capabilities:
+With programmable currencies, AIs can perform tasks like booking services, accessing paywalled content, or purchasing APIs. This expands the scope and revenue potential of AI services.
+3. Enhancing Automation and Efficiency:
+Cryptocurrencies enable automated, instant transactions through smart contracts, reducing delays and errors, and ensuring reliable AI operations.
+4. Global Reach and Security:
+Cryptocurrencies are borderless and secure, allowing AI services to operate globally with reduced costs and enhanced transparency.
+Why MugglePay is the Ideal Solution
+As AI services begin to adopt programmable currency payments, MugglePay emerges as the perfect partner for businesses looking to integrate cryptocurrency into their operations. MugglePay supports multiple stablecoins, including USDT and USDC, across several high-performance blockchains such as TON, BNB Chain, Arbitrum, Polygon, and Celo. These partnerships ensure that transactions are fast, secure, and scalable, meeting the demands of AI-driven services.
+By choosing MugglePay, AI service providers can offer their clients a seamless, reliable, and efficient payment solution. The platform’s easy integration process and robust API make it simple to incorporate cryptocurrency payments into existing systems, paving the way for a new era of AI-enabled commerce.
+Image by AI
+The recent AI-to-AI cryptocurrency transaction highlights the transformative potential of programmable currency payments in the AI industry. By adopting cryptocurrencies, AI service providers can empower their agents with financial autonomy, unlock new possibilities, and enhance operational efficiency. MugglePay, with its support for stablecoins on multiple blockchains, is the ideal choice for businesses ready to embrace this future. The AI-to-AI economy is just beginning, and those who adopt programmable currency payments now will be at the forefront of this exciting new frontier.</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1200/1*i6WXPDcFTOOOtDvcxRjBug.png"/>
+  </entry>
+  <entry>
+    <title type="html">Web3 Subscriptions: A Comprehensive Guide to Decentralized Recurring Payments</title>
+    <published>2024-02-02T02:16:03+00:00</published>
+    <updated>2024-02-02T02:16:03+00:00</updated>
+    <id>https://blog.mugglepay.com/web3-subscriptions-a-comprehensive-guide-to-decentralized-recurring-payments-d87fe9ac0454?source=rss----ce5b4a08ce22---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.mugglepay.com/web3-subscriptions-a-comprehensive-guide-to-decentralized-recurring-payments-d87fe9ac0454?source=rss----ce5b4a08ce22---4"/>
+    <author>
+      <name>Harshitathakur</name>
+    </author>
+    <content type="html">Web3 Subscriptions: A Comprehensive Guide to Decentralized Recurring Payments
+Author: Harshita
+Web3, the proposed next stage of the internet, promises a radical shift from the centralized control of Web 2.0 giants like Google and Facebook. Decentralization is at its core, with power distributed across peer-to-peer networks powered by blockchain technology. This translates to user ownership, where individuals control their data and digital assets, like NFTs, rather than corporations. It’s a complex vision, with hurdles like scalability and energy consumption, but Web3’s potential to reshape online power dynamics and empower users is undeniable. In 2022 alone, the global blockchain market reached $4.57 billion, and the NFT market topped $30 billion, showcasing the burgeoning interest in this decentralized future. While challenges remain, Web3’s core principles hold the potential to create a more equitable and user-centric internet.
+The internet has revolutionized how we consume goods and services, ushering in the era of on-demand access and subscription models. In the Web2 world, recurring payments are commonplace, allowing us to seamlessly access everything from streaming services and software to gym memberships and meal delivery. However, with the rise of Web3 and decentralized technologies, a new paradigm for recurring payments is emerging, powered by blockchain and cryptocurrencies. This article delves into the world of Web3 subscriptions and crypto recurring fees, exploring their potential and the unique challenges they present.
+What are Subscriptions and Recurring Payments?
+Recurring payments are the lifeblood of modern commerce. From news subscriptions to gym memberships, we love the “set it and forget it” convenience. This trend has exploded in the crypto world too, with services for everything from music to shavers. The subscription commerce market is expected to reach $687 billion by 2025, driven by the convenience and value it offers (Source: Statista). But here’s the catch: crypto subscriptions aren’t quite as smooth as they could be.
+Consumers love subscriptions for their no-upfront costs, and businesses love the predictable revenue stream. It’s a win-win. Outside of crypto, setting up recurring payments is a breeze. You can schedule rent payments, authorize Netflix charges, or even auto-invest in Robo-advisors. But in crypto land, things get tricky.
+A newly released Recurring Payments Market analysis report by FactMr reveals that the global value of recurring payments in 2022 was $130.2 Billion. With 6.9% projected growth during 2023–2033, the market is expected to reach a valuation of $268.7 Billion by the end of the forecast period. Revenue through subscription-based businesses is expected to be the most significant revenue-generating component of recurring payments, projected to grow at a CAGR of over 5.4% from 2023 to 2033.
+The current blockchain system requires manual transaction signatures for every payment. There’s no built-in “deduction” feature for dApps (decentralized applications) to automatically charge you as your bank does for your Netflix bill. This means crypto subscriptions either require hefty upfront payments for annual memberships or rely on credit cards for recurring revenue, which defeats the purpose of using crypto.
+While a fully-fledged ecosystem for crypto recurring payments is still under construction, the future holds immense promise. As technology evolves and user adoption grows, we can expect to see a wave of innovative solutions that break down the barriers and unlock the full potential of recurring payments within the decentralized sphere.
+Recurring Payments vs. One-Time Payments
+In the ever-evolving world of online content creation, choosing the right payment model can make a significant difference. Two prominent models, recurring and one-time payments, offer distinct advantages and disadvantages, and understanding their nuances is crucial for making informed decisions.
+Recurring Payments: Continuous Value, Predictable Growth
+Recurring payments involve customers paying regular fees for ongoing access to content, community, or service. This subscription model, often monthly or annual, provides a steady stream of income and fosters deeper engagement with the audience.
+Pros:
+Predictable Revenue: Recurring payments offer a reliable income stream, fostering confident planning and investment in business.
+Increased Loyalty: Continuous interaction with the audience through updates and additional content fosters loyalty and builds a strong community.
+Lower Customer Acquisition Costs: Satisfied subscribers become advocates, attracting new customers through word-of-mouth and social media endorsements.
+Long-Term Growth: The compounding effect of recurring revenue leads to sustainable business growth over time.
+Valuable Feedback: Regular interactions with paying customers provide valuable insights for improving the content and services.
+Cons:
+Increased Customer Support: Providing ongoing support to a growing audience may require additional resources and infrastructure.
+Potential Churn: Subscribers may cancel if they feel the value doesn’t justify the ongoing cost, although active communities can mitigate this risk.
+Complex Setup: Implementing a subscription system requires robust technology and payment processing infrastructure.
+One-Time Payments: Simplicity and Immediate Gratification
+One-time payments involve users paying a single fee to gain permanent access to the content. This model offers simplicity and immediate financial returns, but it may lack the long-term benefits of recurring payments.
+Pros:
+Bulk Revenue Upfront: Launching with one-time payments can provide a significant financial boost, accelerating initial growth and securing capital for expansion.
+Minimal Maintenance: No need to update content or add new features after launch, reducing ongoing workload.
+Faster Validation: Utilizing one-time purchases enables rapid market validation of content ideas, mitigating investment risks and informing strategic decisions.
+Cons:
+Unpredictable Income: The lack of recurring revenue creates an unstable income stream, making financial planning and growth challenging.
+Limited Customer Insight: Single transactions provide fewer opportunities to gather feedback and understand the audience’s preferences.
+Lower Perceived Value: Users may perceive one-time purchases as offering less value compared to ongoing access and community benefits.
+Smart Contract
+Smart contracts, a revolutionary concept in the realm of blockchain technology, are transforming the way we execute and manage agreements. These self-executing contracts, leverage code stored on a secure and distributed blockchain to automate transactions based on predefined conditions.
+Smart contracts, devoid of traditional legal jargon, are digital agreements that streamline processes through automated code execution. The vision behind these contracts is to extend the functionality of electronic transactions to the digital domain, eliminating the need for intermediaries. The global smart contract market is expected to reach $16.4 billion by 2028, growing at a CAGR of 33.7% (Grand View Research).
+Key Advantage:
+Enhanced Transparency: Smart contracts ensure shared and unalterable information, utilizing blockchain’s immutability to build trust and minimize the chances of manipulation or errors.
+Automated efficiency: Automation is a key feature, allowing transactions like real estate deals to proceed smoothly without intermediaries, resulting in both time and cost savings.
+Independent control: With no need for third parties such as banks or lawyers, smart contracts empower involved parties with financial autonomy, complemented by reduced transaction fees.
+Streamlined Dispute Resolution: Smart contracts can be programmed to include pre-defined dispute resolution mechanisms, allowing for automated and fair settlements based on the agreed-upon terms. This can save time and resources compared to traditional legal proceedings.
+Fraud Reduction: By verifying the identities of parties involved before executing transactions, smart contracts play a vital role in reducing fraud and instilling trust through automated verification.
+Improved Compliance: Automation ensures contracts adhere to legal requirements, minimizing the risk of non-compliance and enhancing overall adherence to regulatory standards.
+Heightened Efficiency: Automating traditionally manual tasks, such as insurance claim processing, significantly boosts efficiency through the seamless execution of processes with smart contracts.
+Web3 Payments through Smart Contracts Automation:
+Let’s explore a few examples of how smart contracts are transforming the payment landscape.
+Recurring Payments: Visa is leading the charge in automating financial management through self-custodial wallets and smart contracts. This innovative approach streamlines recurring payments, eliminating manual processes and ensuring prompt, effortless transactions.
+Conditional Payments: Traditional payments are getting an upgrade with smart contracts. These automated agreements execute transactions based on specific triggers, enabling seamless claims disbursement in insurance or royalty distribution for content creators. This shift ushers in a new era of streamlined financial interactions.
+Escrow Payments: The creation of escrow accounts through smart contracts adds an extra layer of security to online transactions. These accounts securely hold funds in trust until predetermined conditions are met, facilitating safe payments in various scenarios, such as online purchases. Smart contract-enabled escrow payments foster trust between parties engaged in transactions.
+Multi-signature Payments: In situations where heightened security is paramount, smart contracts can establish multi-signature wallets. These wallets require multiple authorized signatures to execute a payment. This feature is particularly useful for large or critical transactions, adding a layer of authentication and ensuring that payments are only processed when all necessary approvals are in place.
+VISA Self-Custodial Wallet Solution
+Challenge: Traditional auto payments on Visa cards aren’t easily replicated on blockchains like Ethereum due to the lack of native pull payment support. This hinders self-custodial wallets, where users control their private keys, from enjoying the convenience of recurring payments.
+Solution: Visa proposes delegable accounts, a novel approach leveraging Account Abstraction (AA), a leading Ethereum developer concept. AA enables programmable transaction validity, allowing users to delegate payment initiation to pre-approved smart contracts. These contracts, deployed and approved by the user, automatically execute payments at preset intervals.
+Benefits:
+Self-custodial wallet users: Enjoy auto payments without compromising private key control.
+Enhanced functionality: AA facilitates diverse real-world applications beyond recurring payments.
+Implementation: While Ethereum currently lacks AA support, Visa successfully implemented its solution on StarkNet, a Layer 2 blockchain built on top of Ethereum. StarkNet’s account model aligns with AA, enabling auto payments for self-custodial wallets.
+Web3 Subscriptions vs. Traditional Methods
+Traditional subscriptions rely heavily on credit cards and bank accounts, leaving out those who lack access to formal financial systems. According to the World Bank, 1.7 billion adults remain unbanked globally, facing significant challenges in participating in the digital economy. This not only limits their access to goods and services but also perpetuates social and economic inequalities.
+Let’s dive into how Web3-based subscriptions compare to traditional methods like PayPal and credit cards
+Credit Card Hurdles: Traditional subscriptions rely heavily on credit cards, leaving millions of unbanked individuals without access to online marketplaces. Crypto wallets, however, offer an open and inclusive alternative, empowering anyone with internet access to participate in the subscription economy.
+High Fees and Gatekeepers: Visa, Stripe, and other payment processors often charge hefty fees for transactions, squeezing both merchants and consumers. Web3 protocols, with their decentralized nature, can significantly reduce these fees, creating a more equitable and efficient system.
+Data Ownership and Privacy: Traditional subscriptions often come with opaque data practices, giving corporations control over user information. Web3-based models built on blockchain technology can offer greater transparency and user control over personal data, ensuring privacy and individual empowerment.
+Web3’s Subscription Revolution:
+Direct Micropayments: Direct micropayments transform content payment, enabling users to pay based on exact time increments through Web3. This offers granular consumption and fair pricing, especially valuable for educational resources or streaming services. Additionally, the elimination of intermediaries could potentially reduce transaction costs for both consumers and businesses.
+Unilateral Control: Users can pause subscriptions directly on the blockchain, eliminating dependence on intermediaries or centralized platforms. This empowers them to manage their financial commitments with greater autonomy and flexibility, especially in scenarios where access to traditional financial systems is limited.
+Community-owned Platforms: Subscription platforms built on Web3 principles can be owned by the community itself, rather than relying on centralized corporations. This fosters a more democratic and user-centric ecosystem, where decisions are driven by stakeholder consensus.
+Frictionless Payments: Say goodbye to lengthy KYC processes and complex sign-ups. Web3 wallets like MetaMask, with their single sign-on functionality, offer seamless subscriptions without the hurdles of traditional methods.
+Despite challenges like scalability and user adoption, Web3-based subscriptions offer immense potential for an inclusive financial ecosystem. By addressing issues such as reducing fees, providing access to the unbanked, and offering greater control, Web3 has the power to democratize the subscription model, opening up new possibilities for consumers and businesses. As technology matures and awareness grows, Web3 subscriptions are likely to become a mainstream choice, shaping a more equitable and user-centric digital future.
+Conclusion
+Web3 subscriptions are poised to revolutionize how we access and pay for content and services. By leveraging the power of blockchain and crypto, Web3 offers solutions to the limitations of traditional models, including financial exclusion, high fees, and data privacy concerns. With direct micropayments, community ownership, and frictionless payments, Web3 subscriptions hold the promise of a more inclusive, equitable, and user-centric digital economy. While challenges remain, the potential of Web3 to democratize access and reshape the very fabric of online value exchange is undeniable. As we navigate this exciting new frontier, one thing is certain: the future of subscriptions is bright, and it’s powered by Web3.
+MugglePay has developed a non-custodial Web3 subscription protocol that enables merchants in various fields such as AI, gaming, and more to accept crypto for recurring payments. The new feature is about to be released, stay tuned to our Twitter:https://twitter.com/PayMuggle</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1080/1*QdTIBS1PfLPtegSW2emccA.png"/>
+  </entry>
+  <entry>
+    <title type="html">Web3 E-commerce Revolution: MugglePay Leads the Charge with Crypto-Native Future</title>
+    <published>2024-01-09T11:23:45+00:00</published>
+    <updated>2024-01-09T11:23:45+00:00</updated>
+    <id>https://blog.mugglepay.com/web3-e-commerce-revolution-mugglepay-leads-the-charge-with-crypto-native-future-efba10f29519?source=rss----ce5b4a08ce22---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.mugglepay.com/web3-e-commerce-revolution-mugglepay-leads-the-charge-with-crypto-native-future-efba10f29519?source=rss----ce5b4a08ce22---4"/>
+    <author>
+      <name>Harshitathakur</name>
+    </author>
+    <content type="html">Web3 E-commerce Revolution: MugglePay Leads the Charge with Crypto-Native Future
+Author: Harshita
+Web3 is shaking up e-commerce, injecting decentralization and trust into a landscape dominated by big tech. Imagine a world where 4.8 billion unbanked individuals can join the global shopping spree, thanks to blockchain-powered payments. A recent study by GlobalData found that 46% of e-commerce executives are considering Web3 solutions, with 23% actively piloting them. While challenges like scalability and user adoption remain, Web3’s potential to reshape the e-commerce landscape is undeniable, promising a future of trust, transparency, and ownership for both brands and consumers. It’s a future where trust isn’t earned, it’s coded into smart contracts, promising a $13 trillion e-commerce market brimming with innovation and inclusivity.
+Web2 vs Web3
+E-commerce has transformed the way we shop, offering unparalleled convenience and global reach. However, the current Web2 model presents challenges, particularly in the realm of opaque transaction fees. Instances such as the reported 30–40% commissions imposed by Amazon on Asian merchants prompt critical inquiries into fairness and transparency. This concealed financial burden disproportionately impacts smaller enterprises, impeding their competitiveness and stifling market diversity. Looking ahead, the establishment of a transparent fee structure, supported by verifiable reports and in-depth analysis, is imperative to level the playing field and ensure a sustainable and equitable e-commerce ecosystem. It’s time to unravel the layers of the current model and pave the way for a future where the benefits of online commerce are shared, free from the encumbrance of concealed algorithms and hidden charges.
+Forget opaque Amazon fees and centralized control. Web3’s decentralized marketplaces like OpenBazaar are like Amazon built on community servers, slashing costs and empowering sellers. Plus, accepting cryptocurrencies like Bitcoin opens doors to a global, borderless customer base without hefty credit card charges. Think: transparent fees, reduced fraud, and a new era of e-commerce freedom. Web3 isn’t just a buzzword; it’s the key to unlocking a fairer, more open online marketplace.
+Advantages of Blockchain in Web3 E-commerce:
+Reduced Transaction Fees: Web3 adoption in e-commerce eliminates intermediaries, reducing transaction fees.
+Fast Payment Processing: Web3’s decentralized model ensures swift, secure transactions, enhancing the customer shopping experience and simplifying financial management.
+Heightened Security: Utilizing blockchain, Web3 enhances online transaction security with an immutable ledger, safeguarding customer information.
+Improved Customer Engagement: Web3 fosters virtual marketplaces, promoting secure interactions and community-building for increased engagement and profitability.
+Innovative Reward Programs: Web3 enables unique reward programs, enhancing customer loyalty and offering flexible reward redemption options.
+Advantages of Web3 E-commerce for Businesses:
+Decentralized Finance and Crypto Wallets: Web3 allows seamless cryptocurrency transactions on major e-commerce platforms like Shopify and WooCommerce.
+Decentralized Marketplaces: Web3 introduces community-driven markets, empowering users and fostering a decentralized transaction environment.
+Forget middlemen! Our Web3 solution empowers merchants with direct ownership of their crypto. No custodians, just dApps and complete control. Be your own bank, with enhanced security and peace of mind for every transaction.
+NFT-Based Loyalty Programs: NFTs enhance loyalty programs by offering customers redeemable tokens for purchases, providing tangible rewards compared to traditional systems.
+Customer Experiences in the Metaverse: Web3 enables e-commerce brands to craft unique customer experiences within the evolving metaverse, leveraging technologies like AR/VR and cryptocurrency.
+MugglePay: Building the Future of Crypto-Native E-commerce
+MugglePay isn’t just a payment gateway; it’s a revolution brewing in the e-commerce world. In 2023, we made a pivotal leap to Web3, becoming the first crypto-native payment gateway with decentralized settlements and logins. This means we are not just handling crypto payments — we’re building a whole new financial ecosystem. We’re actively building a “Crypto-Native” ecosystem, where businesses and consumers seamlessly interact using crypto. With a staggering audience reach of 420 million, partnerships with AI and gaming companies like LegalNow and DeepLink are making their services more accessible and affordable to a vast and engaged user base.
+Here’s how MugglePay is changing the game:
+Decentralized everything: No more relying on centralized servers or trusting with user funds. MugglePay puts control back in the hands of merchants and consumers.
+Cryptocurrency as currency, not just an investment: MugglePay is making it easy for everyday businesses to accept crypto for real-world purchases, paving the way for a truly crypto-native economy.
+Breaking down barriers: We’re eliminating the fees and complexities of traditional fiat onramps, opening crypto to a wider audience.
+Empowering merchants: MugglePay gives businesses access to a new customer base — the crypto-savvy, loyalty-driven Web3 crowd.
+Building a positive feedback loop: Our goal is to create a self-sustaining ecosystem where merchants accept crypto, employees get paid in crypto, and consumers spend it freely.
+MugglePay’s vision goes beyond e-commerce. We’re partnering with startups in AI and gaming to help them embrace the Web3 revolution and make their services more accessible. Our goal is to create a world where everyone has the freedom to choose how they pay and get paid, and where cryptocurrencies are used for everyday transactions, not just speculation.
+But MugglePay’s vision extends beyond e-commerce. We’re partnering with innovative startups in AI and gaming, helping them leverage Web3’s power to make their services more accessible and affordable. Our ultimate goal? To create a truly inclusive world where everyone, regardless of their background or financial status, has the freedom to choose how they pay and get paid, where cryptocurrencies are the currency of everyday life, not just speculation.
+The e-commerce revolution is upon us, driven by the unstoppable force of Web3 and spearheaded by trailblazers like MugglePay. Buckle up, get your crypto wallets ready, and join the movement. The future of shopping is here, and it’s inclusive, transparent, and powered by the invisible hand of blockchain technology. So, let’s break down the barriers together and build a truly democratic e-commerce landscape where everyone, from the unbanked to the tech-savvy, can participate in the global shopping spree.
+About MugglePay:
+MugglePay, founded in 2019, is a leading crypto payment service provider headquartered in Singapore. MugglePay provides an SDK to help merchants accept crypto. MugglePay is a member of the Singapore FinTech Association. It has already assisted over 14,000 global merchants in accepting cryptocurrencies, processing more than 1 million orders. In 2023, it became the world’s first payment gateway to support Web3 logins.
+Contact Information:
+[Contact Person] Shawn, (1) Shawn Yu | LinkedIn
+[Title] CEO of MugglePay
+[Email] shawn@mugglepay.com
+[Website]www.mugglepay.com</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1200/1*JtmP8KXnqhEHwWj44Sw_tQ.png"/>
+  </entry>
+</feed>
