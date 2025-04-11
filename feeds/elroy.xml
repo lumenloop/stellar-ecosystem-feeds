@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">elroy.app</title>
+  <link rel="alternate" type="text/html" href="https://www.elroy.app/blog"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.elroy.app%2Fblog-feed.xml&amp;content_selector=%5Bclass%5E%3Dpost-content__body%5D&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.elroy.app%2Fblog-feed.xml&amp;content_selector=%5Bclass%5E%3Dpost-content__body%5D&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:05:56+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Elroy's E-Sign Disclosure Agreement</title>
+    <published>2023-12-11T18:40:53+00:00</published>
+    <updated>2023-12-11T18:40:53+00:00</updated>
+    <id>https://www.elroy.app/post/e-sign-disclosure</id>
+    <link rel="alternate" type="text/html" href="https://www.elroy.app/post/e-sign-disclosure"/>
+    <author>
+      <name>Zev Green</name>
+    </author>
+    <content type="html">ELECTRONIC SIGNATURES IN GLOBAL AND NATIONAL COMMERCE ACTThis E-SIGN Disclosure (“Disclosure“) applies to any and all communications or disclosures that we are legally required to provide to you in writing in connection with the Platform and any related products and services (“Communications“). This Disclosure supplements and is to be construed in accordance with the terms contained in the Terms and Conditions, including any forms, disclosures, receipts, acknowledgements, or other documentation 
+Could not extract full content, selector may need to be updated.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://static.wixstatic.com/media/11062b_d3318dd21f604338bda270908a0d9d77~mv2.jpg/v1/fill/w_2500,h_1666,al_c/11062b_d3318dd21f604338bda270908a0d9d77~mv2.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Terms of Service</title>
+    <published>2023-10-03T11:44:27+00:00</published>
+    <updated>2023-10-03T11:44:27+00:00</updated>
+    <id>https://www.elroy.app/es/post/terms-of-service-1</id>
+    <link rel="alternate" type="text/html" href="https://www.elroy.app/es/post/terms-of-service-1"/>
+    <author>
+      <name>Zev Green</name>
+    </author>
+    <content type="html"> </content>
+    <link rel="enclosure" type="image/png" href="https://static.wixstatic.com/media/nsplsh_54744a30434c6a4c693677~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png"/>
+  </entry>
+  <entry>
+    <title type="html">Why Wallet by BOSS Money Offers a Whopping 3.75% High APY on Checking and Savings Accounts</title>
+    <published>2023-05-19T00:38:59+00:00</published>
+    <updated>2023-05-19T00:38:59+00:00</updated>
+    <id>https://www.elroy.app/post/high-apy-checking-and-savings</id>
+    <link rel="alternate" type="text/html" href="https://www.elroy.app/post/high-apy-checking-and-savings"/>
+    <author>
+      <name>Zev Green</name>
+    </author>
+    <content type="html">High APY Checking and SavingsAt Wallet by BOSS Money, we're in the business of breaking barriers and redefining what banking can be. We believe that everyone deserves access to the best financial tools, regardless of their credit history or immigration status. That's why we're excited to announce that we're now offering an Annual Percentage Yield (APY) of 3.75% on both our checking and savings accounts.How Are We Able to Offer 3.75% APY?You may be wondering how we're able to offer such an attrac
+Could not extract full content, selector may need to be updated.</content>
+    <link rel="enclosure" type="image/png" href="https://static.wixstatic.com/media/7d4d12b7f4d34241962dc095c2798f29.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png"/>
+  </entry>
+</feed>
