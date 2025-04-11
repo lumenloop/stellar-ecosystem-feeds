@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">ClickPesa Debt Fund</title>
+  <link rel="alternate" type="text/html" href="https://clickpesadebtfund.com/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fclickpesadebtfund.com%2Ffeed%2F&amp;content_selector=article+.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fclickpesadebtfund.com%2Ffeed%2F&amp;content_selector=article+.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:02:44+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">ClickPesa Launches $5 Million Fundraising Campaign to Bridge the SME Funding Gap in Tanzania</title>
+    <published>2023-09-21T20:35:29+00:00</published>
+    <updated>2023-09-21T20:35:29+00:00</updated>
+    <id>https://clickpesadebtfund.com/clickpesa-launches-5-million-fundraising-campaign-to-bridge-the-sme-funding-gap-in-tanzania/</id>
+    <link rel="alternate" type="text/html" href="https://clickpesadebtfund.com/clickpesa-launches-5-million-fundraising-campaign-to-bridge-the-sme-funding-gap-in-tanzania/"/>
+    <author>
+      <name>admin</name>
+    </author>
+    <content type="html">ClickPesa, a leading licensed payments company, has begun a $5 million fundraising campaign to bridge the critical SME funding gap in Tanzania. The goal is to secure blended capital over the next 6 months to support expansion of the ClickPesa Debt Fund. This initiative follows the successful pilot and launch of the ClickPesa Debt Fund, where initial funding was provided to two Microfinance Institutions (MFIs), Fursa Nuevo Microfinance and Johsta Microfinance.
+    
+One of the ways the fund is looking to attract capital is by using Web3 technology to tap into Decentralised (DeFi) funding, a method to attract funding on the blockchain, also known as staking or yield. The new innovation unlocks more capital accessible to further close the funding gap for SMEs and women-owned businesses in Tanzania.
+    Photo by&amp;nbsp;Ali Mkumbwa&amp;nbsp;on&amp;nbsp;Unsplash    
+ClickPesa Debt Fund marked its journey with a successful pilot and official launch. During this phase, the Clickpesa DebtFund initially funded two respected MFIs, Fursa Nuevo Microfinance and Johsta Microfinance. These MFIs, with their years of experience in microfinance operations, have been pivotal in extending financial support to SMEs and women-owned businesses across Tanzania.
+    
+More than 95% of businesses in Tanzania fall into the small enterprise category, according to the Tanzania Chamber of Commerce, Industry, and Agriculture (TCCIA). SMEs play a significant role in the nation’s economy, contributing approximately one-third of the country’s Gross Domestic Product (GDP) and generating up to 40% of total employment.
+    Photo by&amp;nbsp;Ali Mkumbwa&amp;nbsp;on&amp;nbsp;Unsplash    
+However, the funding gap for SMEs, particularly women-owned businesses, remains a critical challenge. ClickPesa’s $5 million fundraising campaign aims to address this gap by providing debt funds to MFIs together with the necessary resources and digital tools to extend financial support to SMEs and drive economic growth.
+    
+Rick Groothuizen CEO of ClickPesa:&amp;nbsp;“Proud to announce our plans to raise additional $5M for our fund to empower Tanzanian SMEs and women-owned businesses. Together, we’re shaping a brighter, more inclusive future.”
+    
+About Clickpesa:
+    
+ClickPesa is a licensed payments company dedicated to revolutionising digital payments and financial services in East Africa. Our mission is to empower businesses and individuals by providing seamless, secure, and innovative payment solutions.
+    
+About ClickPesa Debt Fund:
+    
+ClickPesa Debt Fund is a dedicated financial institution with a mission to empower small and medium-sized enterprises (SMEs) and women-based businesses by providing them with essential capital and support to thrive in today’s competitive business landscape.
+    
+About Fursa Nuevo Microfinance:
+    
+Fursa Nuevo Microfinance is a respected microfinance institution committed to uplifting underserved communities in Africa by providing access to financial services and fostering economic empowerment. With a strong track record in responsible lending, Fursa Nuevo Microfinance plays a vital role in driving positive change and sustainable growth.
+    
+About Johsta Microfinance:
+    
+Johsta Microfinance is a dedicated microfinance institution with a mission to empower local entrepreneurs in Africa and catalyse economic progress. By offering tailored financial solutions and personalised support, Johsta Microfinance contributes to the resilience and advancement of Small and Medium-sized Enterprises in the region.
+    
+Contact Information:
+    
+For fund inquiries or further information about Clickpesa’s $5 million fundraising campaign to bridge the SME funding gap in Tanzania, please Click&amp;nbsp;here&amp;nbsp;and fill out the form.</content>
+    <link rel="enclosure" type="application/octet-stream" href="https://miro.medium.com/v2/resize:fit:1400/0*lgZ90x7l6MSPqcmW"/>
+  </entry>
+</feed>
