@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Litemint Blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.litemint.com"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.litemint.com%2Ffeed%2F&amp;content_selector=article+.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.litemint.com%2Ffeed%2F&amp;content_selector=article+.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:07:28+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Cyber Brawl: Expanding the Horizons of Litemint.io</title>
+    <published>2024-07-26T14:55:53+00:00</published>
+    <updated>2024-07-26T14:55:53+00:00</updated>
+    <id>https://blog.litemint.com/cyber-brawl-expanding-the-horizons-of-litemint-io/</id>
+    <link rel="alternate" type="text/html" href="https://blog.litemint.com/cyber-brawl-expanding-the-horizons-of-litemint-io/"/>
+    <author>
+      <name>Frederic 경진 Rezeau</name>
+    </author>
+    <content type="html">Cyber Brawl, the sequel and rebranding of Litemint.io, is almost here, and it&amp;#8217;s loaded with awesome new content and features that take the existing experience to a new level! Here’s a sneak peek at what’s on the horizon: 
+    
+    
+ 
+ 
+ 
+Seamless Transition for Existing Players
+More Reward for Legend Ranked Players!
+Multi-Blockchain Support
+Enhanced Visuals
+Unlockable and Tradable Hero Avatars
+In-Game Auction House
+Automated Seasons and Live Tournaments
+New Cards, Game Modes and Mechanics
+Standing on the Shoulders of Giants
+ Seamless Transition for Existing Players    
+    
+Since 2021, more than 155,000 player accounts have been created on Litemint.io, engaging in over 6 million battles! The game blockchain-related features are opt-in, enabling gameplay directly from mainstream gaming portals. While most players still hold their assets on our servers, there are over 3,200 trustlines to our game assets on the Stellar blockchain and 6% of our players have now linked a Stellar wallet to their profile.
+    
+Your engagement and commitment to collecting, unlocking top rewards and pioneering web3 gaming use cases, is truly heart-warming! The best part is, all your belongings from Litemint.io will seamlessly transfer to Cyber Brawl.
+    
+This includes already issued blockchain game assets! Cards, card backs, titles, credits, stats, and achievements from previous seasons are all along for the ride. You can pick up right where you left off!
+    
+    More Reward for Legend Ranked Players!    
+    
+This season, 926 players have attained Legend rank. To rank among the top 100, you would need a Legend score exceeding 1100, a lot of wins at Legend! If interested in detailed stats, this Google sheet is updated daily. 
+    
+        
+    
+For those who’ve achieved Legend rank this season in litemint.io, there are some awesome rewards waiting for you in Cyber Brawl. If you haven’t hit Legend yet, there&amp;#8217;s still some time – but you&amp;#8217;d better hurry!  Hint: The higher your rank, the better the rewards! ? 
+    
+    Multi-Blockchain Support    
+    
+Acknowledging the rapid expansion of #web3 gaming ecosystems, we aim to provide players with additional blockchain interaction options. Our strategy is to stay flexible and responsive to demand, embracing more game-focused ecosystems, and engaging in ongoing discussions to keep up with the incredible innovations in this space. 
+    
+While our core trading system, including auctions, operates on Stellar,  we are expanding support to include gaming-friendly blockchains. This will improve flexibility for players to withdraw, hold assets, and enhance their trading opportunities.
+    
+Join our discussions on Discord to learn more!
+    
+    Enhanced Visuals    
+        
+    
+As part of our rebranding, the graphics for Cyber Brawl represent a significant upgrade from litemint.io. We&amp;#8217;re thrilled to collaborate with talented artists such as @defshogun (Robert Powers), @stonehenge03 (Sumin Ha) and @talhamuajddidi to help transforming the game&amp;#8217;s visual experience. 
+    
+    Unlockable and Tradable Hero Avatars    
+        
+    
+With this new release, we are also designing a collection of tradable 3D hero avatars, each boasting unique powers that grant account-bound effects. You can unlock these avatars by completing seasonal quests, progressing through the story mode or trading. Some avatars will be available as limited seasonal editions, and most are tournament-eligible. Whether you choose to trade them or keep them, the choice is yours! 
+    
+To bring these characters to life, we are using state-of-the-art animation tools and are excited to share the results with you! 
+    
+    In-Game Auction House    
+    
+Cyber Brawl introduces an easy-to-use in-game card trading system, allowing you to sell and trade cards with any player directly within the game, whether or not you have a blockchain wallet. 
+    
+To this effect, the game features an Auction House interface, familiar to players of games like World of Warcraft.  So you can conveniently browse and execute blockchain listings, and even auction cards and items without relying on external exchanges.
+    
+    Automated Seasons and Live Tournaments    
+        
+    
+Litemint.io seasons have varied in length and we&amp;#8217;re streamlining this with automated seasons, powered in part by smart contracts! Each month, a new season will kick off, offering fresh challenges and rewards. Additionally, every three months, you can compete in our top-tier Legends tournaments if you meet the qualification criteria – taking our eSports experience to the next level. 
+    
+    New Cards, Game Modes and Mechanics    
+    
+The sequel brings in new cards, including previous tournament top rewards, and game mechanics, allowing for more elaborate strategies while maintaining the original gameplay flow and efficiency. This includes time-based effects (Buffs), passive slots, and the ability to upgrade cards during battles. I&amp;#8217;m still working on naming this latest mechanic, which we discussed on Discord last week (some details below). 
+    
+We&amp;#8217;re introducing a variety of game modes, such as the standard PvP Arena and an AI-driven PvE Story Mode. Each mode features its own reward track, quests, and achievements. 
+    
+    Standing on the Shoulders of Giants    
+    
+We are gaming first—we do not make &amp;#8220;crypto&amp;#8221; games!  Cyber Brawl is crafted with ❤️ by a passionate gamer and dedicated game developer. Our ultimate goal is to engage with players and create fun experiences, with blockchain enhancing digital ownership. 
+    
+As a longtime fan of Blizzard&amp;#8217;s acclaimed card game, Hearthstone, I also drew significant inspiration from it while designing Litemint.io back in 2021.  This season, I returned to Hearthstone, reached Legend rank with this Handbuff Paladin deck, and was really impressed by their new Forge mechanic, which allows players to upgrade cards during battles. 
+    
+    
+  
+ Hearthstone &amp;#8211; Diamond Rank to LEGEND w/ Warrior Deck | Cyber Brawl Dev | Sep 2024     
+    
+A similar feature is being introduced in Cyber Brawl, allowing you to upgrade one card per battle while still drawing another. This addition enhances tactical depth and reduces reliance on draw sequence without breaking the flow, which I’m excited for you to experience! 
+    
+I can’t wait for you all to explore the new CyberBrawl.io and experience these new features. Stay tuned for more updates as we approach launch day. The adventure is just beginning!
+    
+    
+Make sure you follow us on SNS to keep posted about our latest news:
+    
+ Website: https://litemint.com/
+ Twitter: https://twitter.com/LitemintHQ
+ Youtube: https://www.youtube.com/litemint 
+ Discord: litemint.gg
+    
+Thanks for reading.
+ 
+Frederic 경진 Rezeau
+Founder of Litemint. Owner Stellarport.
+ 
+Prev. Developer and Technical Lead for BGC Partners, Crédit Lyonnais Bank (trading systems) and British Government National Program for IT (smart card technology in healthcare). Indie game developer, co-founder of Israeli-based video game company Massive Games (pie.ai) and winner of the Honorable Mention Prize at the 2014 Linux Foundation &amp;amp; Samsung Tizen App Challenge.
+ 
+Born and live in Korea, studied French Literature and Latin at the university of Angers (one of the most beautiful cities of France) before discovering the poetry of the machines.</content>
+    <link rel="enclosure" type="video/mp4" href="https://cdn.litemint.com/cyberbrawl/bts-01.mp4"/>
+  </entry>
+  <entry>
+    <title type="html">Royalties with Soroban Smart Contracts: An Interoperable On-Chain Solution</title>
+    <published>2023-12-29T18:29:15+00:00</published>
+    <updated>2023-12-29T18:29:15+00:00</updated>
+    <id>https://blog.litemint.com/royalties-with-soroban-smart-contracts-an-interoperable-on-chain-solution/</id>
+    <link rel="alternate" type="text/html" href="https://blog.litemint.com/royalties-with-soroban-smart-contracts-an-interoperable-on-chain-solution/"/>
+    <author>
+      <name>Frederic 경진 Rezeau</name>
+    </author>
+    <content type="html">Returning for the second article in our series, this time we are tackling royalties and on-chain payment enforcements.
+    
+Royalties play a pivotal role in digital economies, yet the web3 industry still faces many challenges in implementing decentralized royalty payments.
+    
+Two key issues stand out:
+    
+Centralized control: Echoing Web2, NFT marketplaces maintain significant control over royalty payments. The issues arising from optional royalties (EIP-2981) were discussed during our session on the Future of NFT at Meridian 2022 in Rome—far-reaching implications for both builders and creators and still a lot of work needed here.
+Narrowed markets: Specialized smart contract solutions, while being decentralized, often constrict sales and cross-chain bridging opportunities for creators and collectors—also impacting the perception of asset ownership. A prime example is OpenSea&amp;#8217;s recent decision to discontinue their on-chain Operator Filter. Their blog article provides very insightful details into this issue.
+    
+In this article, I present a decentralized solution for enforcing royalty payments, simultaneously ensuring that creators and collectors can openly trade their NFTs—anywhere they want (as this series progresses, we&amp;#8217;ll explore bridging with Soroban in detail).
+    
+Leveraging the first-class citizen assets model of Stellar and Soroban smart contracts, this solution is being integrated into Litemint (source on Github).
+    
+    
+ 
+ 
+ 
+How It Works
+Understanding Stellar NFTs
+Getting the Code on GitHub
+Deployment and Configuration
+Further Interaction
+Wrapping Up
+ How It Works    
+    
+At its core, the system models an on-chain security interest framework, where a Non-Fungible Token (NFT) is the collateral.
+    
+Effectively abstracting the NFT property from the royalty payment process, this approach offers two significant advantages:
+    
+Open and Interoperable: The royalty smart contract does not need to take custody of or even interact with the NFT asset. This decoupling allows for complete freedom in issuance and transfer (i.e., eliminating the need for authorization flags). Seamless NFT compatibility with all SDEX-based services is maintained.
+Decentralized and Unobtrusive: The process for reclaiming ownership is managed autonomously by the smart contract. This setup provides collectors with a transparent guarantee of ownership, provided their royalty payment obligations are fulfilled. Notably, collecting royalties does not require control over the trade execution of NFTs. 
+    
+Here&amp;#8217;s a diagram of the process:
+    
+    
+As illustrated above, a repossession lien token is issued to the royalty smart contract. The smart contract is designed to transfer the lien to the NFT creator exclusively when royalty payment obligations are not met. The creator can then execute a lien-dependent pre-authorized transaction to reclaim ownership of the asset.
+    
+? Tip: Although several strategies can be implemented with recovery depending on specific use cases (from an account_merge operation to a less destructive re-issuance), it should be executed atomically with a pre-auth transaction for predictability.
+    
+    Understanding Stellar NFTs    
+    
+Although Stellar provides recommendations, there is no NFT standard on Stellar. This brings to mind the question posed by Mara Bos, Rust team lead, about the necessity of a Rust standard—…Do we need one?.
+    
+In the tech world, late arrivals frequently improve upon existing models—they bring effective solutions that simply work. And just like Rust, I see Soroban and Stellar as perfect examples of this.
+    
+Contrasting with account-based ledger models like Ethereum, Stellar treats all assets, both native and user-defined, as first-class abstractions. This includes NFTs, as we can model non-fungibility through asset properties, eliminating the need for smart contract-based issuance or separate asset classes.
+    
+As illustrated below, on Stellar an NFT is just a regular asset with a single stroop supply amount and no signers. They have similar access to the interoperability layer, including the Layer 1 decentralized exchange (SDEX), cross-currency payments, liquidity pools, and are de facto compatible with any Stellar wallet.
+    
+    
+In this ecosystem, using Soroban smart contracts for NFT issuance or trading isn&amp;#8217;t a prerequisite—thereby avoiding the complexities mentioned previously.
+    
+Instead, smart contracts can be effectively leveraged to implement and enforce creators attached royalty terms, coupled with a transparent and decentralized ownership recovery process.
+    
+With great ownership comes great responsibility
+    
+In the Stellar Ecosystem, as outlined in SEP-1, the conditions field under [CURRENCIES] already serves to communicate specific asset conditions for holders. Royalty NFTs can readily take advantage of this field. We are also introducing accessible tools to assist collectors and buyers in managing their obligations, getting notifications for subscriptions and more.
+    
+    Getting the Code on GitHub    
+    
+The code for the Litemint royalty smart contract is located in this GitHub repo (MIT License).
+    
+Besides providing an implementation of the system described above, the smart contract also provides the following features:
+    
+Percentage-based royalty payments (see compensation_percentage.rs).
+Fixed royalty payments (see compensation_fixed.rs).
+Subscription royalty payments (see compensation_subscription.rs).
+Support for all currencies and markets.
+Optional NFT transfer fee.
+Configurable grace period and marketplace commission rate.
+    
+? Tip: The compensation scheme implementation uses the strategy design pattern so you can easily add new ones to fit your requirements.
+    
+Go ahead and clone the repository. Then, execute the following command to compile the contract:
+    
+$ soroban contract build
+    
+    Deployment and Configuration    
+    
+We assume that the following network and identity are pre-configured (soroban config) and funded. Follow this link if you need instructions.
+    TypeNameDescriptionNetworkTESTNETStellar TestnetAccountADMINContract admin    
+To deploy the royalty contract, use the following command:
+    
+$ soroban contract deploy \ --wasm target/wasm32-unknown-unknown/release/litemint_royalty_contract.wasm \ --source ADMIN --network TESTNET &gt; ID
+    
+Configure the ADMIN. Additionally, the marketplace commission rate is set to 2% with this command:
+    
+$ soroban contract invoke --id $(cat ID) \ --source ADMIN --network TESTNET \ -- initialize --admin ADMIN \ --commission_rate 2
+    
+    Further Interaction    
+    
+Until now in this series, we used the Soroban CLI to interact with contracts. However, for practical applications, you will likely need to interact via the stellar-sdk within your own app, especially if you need to interact with accounts and assets on the Stellar blockchain.
+    
+To get you started, the following gist offers a sample script for interacting with the royalty smart contract. It invokes the add_property method, passing a Terms object that lets you define the NFT and various settings like compensation scheme (fixed, percentage, subscription), grace period, and transfer fees. It also shows how to execute the contract and retrieve the updated License state.
+    
+Don&amp;#8217;t hesitate to explore further! You can also access the oracle subscriber interface. Indeed, the Litemint royalty contract gets market price feeds via oracles on Soroban!
+    
+https://gist.github.com/FredericRezeau/6f9704234417accf29afe523bb863270
+    
+    Wrapping Up    
+    
+Two years back, I wrote this article NFT Ownership During The Apocalypse discussing how, with the right approach, NFT ownership can remain verifiable—even if Litemint or Stellar disappear!
+    
+Likewise, NFT royalty payments should also work, sans intermediaries, for years to come. Web3 is all about creating a more open, fairer, less centralized environment, empowering creators to set their own rules for distributing their works.
+    
+That&amp;#8217;s a lot of challenges ahead. However, technologies like Soroban smart contracts provide opportunities to tackle them.
+    
+I hope you found this enjoyable! Stay tuned for more detailed tutorials showcasing the full range of soroban-kit features!
+    
+If you have any questions, don&amp;#8217;t hesitate to reach out. I&amp;#8217;m usually active on X @FredericRezeau and Discord where you can find me in the Litemint, Stellar Global and Stellar Developers servers!
+    
+Feel free to reach out on GitHub too.
+    
+Happy coding!
+ 
+Frederic 경진 Rezeau
+Founder of Litemint. Owner Stellarport.
+ 
+Prev. Developer and Technical Lead for BGC Partners, Crédit Lyonnais Bank (trading systems) and British Government National Program for IT (smart card technology in healthcare). Indie game developer, co-founder of Israeli-based video game company Massive Games (pie.ai) and winner of the Honorable Mention Prize at the 2014 Linux Foundation &amp;amp; Samsung Tizen App Challenge.
+ 
+Born and live in Korea, studied French Literature and Latin at the university of Angers (one of the most beautiful cities of France) before discovering the poetry of the machines.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.litemint.com/wp-content/uploads/2023/12/royalties-seq-diagram.png"/>
+  </entry>
+  <entry>
+    <title type="html">Oracles with Soroban Smart Contracts: A Practical and Flexible On-Chain Framework</title>
+    <published>2023-12-22T18:24:09+00:00</published>
+    <updated>2023-12-22T18:24:09+00:00</updated>
+    <id>https://blog.litemint.com/oracles-with-soroban-smart-contracts-a-practical-and-flexible-on-chain-framework/</id>
+    <link rel="alternate" type="text/html" href="https://blog.litemint.com/oracles-with-soroban-smart-contracts-a-practical-and-flexible-on-chain-framework/"/>
+    <author>
+      <name>Frederic 경진 Rezeau</name>
+    </author>
+    <content type="html">The latest release of&amp;nbsp;soroban-kit 0.1.8&amp;nbsp;is now available, and it brings a set of tools designed to streamline both synchronous and asynchronous cross-contract communication, particularly for building more robust oracle systems with&amp;nbsp;soroban—exciting topic!
+    
+In this article, I&amp;#8217;m going to walk you through the new&amp;nbsp;soroban-kit::oracle&amp;nbsp;module step-by-step. You will learn how to build a flexible and extensible oracle system leveraging the&amp;nbsp;pub/sub&amp;nbsp;pattern for asynchronous communication between multiple&amp;nbsp;on-chain&amp;nbsp;oracle subscribers and brokers.
+    
+We are implementing this system for our Soroban-powered&amp;nbsp;smart contracts on Litemint, specifically for feeding royalty contracts with market prices.
+    
+ 
+ 
+ 
+How It Works
+Getting the Code on Github
+Step-by-Step Deployment and Setup
+Executing a Test Scenario
+Conclusion
+ How It Works    
+    
+soroban-kit 0.1.8&amp;nbsp;introduces two procedural attribute macros,&amp;nbsp;oracle_broker&amp;nbsp;and&amp;nbsp;oracle_subscriber.
+    
+Applying these macros to your contract&amp;nbsp;struct&amp;nbsp;automatically generates a lightweight messaging framework that enables both synchronous and asynchronous cross-contract communication, as demonstrated in the following diagram:
+    
+    
+By leveraging the publisher-subscriber pattern, we can enable multiplicity between oracle subscribers, brokers and publishers. Not only this enhances deployment flexibility but also allows for a gradual increase in system resilience and robustness—mitigating the risks associated with reliance on a single point.
+    
+    
+The best part is, setting up your contracts for this requires&amp;nbsp;only a single line of code, all thanks to Rust&amp;#8217;s sophisticated macro system. For those curious about the inner workings and mechanics, take a look at&amp;nbsp;oracle.rs.
+    
+?&amp;nbsp;Tip:&amp;nbsp;Alternatively, you can run&amp;nbsp;cargo expand&amp;nbsp;command to view the expanded code generated by the macros.
+    
+// Implement the oracle broker interface for your contract. #[contract] #[oracle_broker(Bytes, Bytes)] pub struct OracleBrokerContract;
+    
+// Implement the oracle subscriber interface for your contract. #[contract] #[oracle_subscriber(Bytes, Bytes)] pub struct OracleSubscriberContract;
+    
+These macros also allow you to customize the types for both the&amp;nbsp;topic&amp;nbsp;and the&amp;nbsp;data. We use&amp;nbsp;Bytes&amp;nbsp;in this example but any built-in type and user-defined type is supported, Soroban transparently provides for all our serialization needs!
+    
+After setting it up, all that&amp;#8217;s required is to implement the&amp;nbsp;soroban-kit::oracle::Events&amp;nbsp;trait to manage and process the workflow.
+    
+Let&amp;#8217;s go!
+    Getting the Code on Github    
+    
+The code for the example oracle project is located in this&amp;nbsp;GitHub repo.
+    
+It consists of 2 smart contracts:
+    
+Oracle Broker Contract&amp;nbsp;(see&amp;nbsp;lib.rs)
+Handling sync/async topic-based subscriber requests.
+Handling publishing requests.
+Collecting subscriber fees.
+Managing envelopes for async routing.
+Managing publishers whitelist.
+Oracle Subscriber Contract&amp;nbsp;(see&amp;nbsp;lib.rs)
+Routing topic-based data requests to broker contract.
+Handling sync/async responses.
+Managing brokers whitelist.
+Providing data reconciliation.
+    
+Note that our example&amp;nbsp;data reconciliation&amp;nbsp;function simply replaces the old data with the new but more elaborate mechanisms can be implemented, including price aggregation, average computation, validation and coalescing of results, based on specific use cases.
+    
+First, clone the repository. Then, execute the following command to compile the contracts:
+    
+$ soroban contract build
+    
+Once compiled, you&amp;#8217;ll find two oracle contracts&amp;nbsp;ready to deploy&amp;nbsp;in the target directory.
+    
+?&amp;nbsp;Tip:&amp;nbsp;While they are already compact, using the optimization command (soroban contract optimize) can shrink their sizes even more (to less than 3.5K for the broker contract and 2.5K for the subscriber one):
+    
+$ ls -lh broker.optimized.wasm subscriber.optimized.wasm -rwxrwxrwx 1 3.4K Dec 22 22:29 broker.optimized.wasm -rwxrwxrwx 1 2.5K Dec 22 22:29 subscriber.optimized.wasm
+    Step-by-Step Deployment and Setup    
+    
+For our scenario below, we will need&amp;nbsp;2 subscribers&amp;nbsp;and&amp;nbsp;2 brokers.
+    
+Remember, you always have the option to deploy additional nodes at any time.&amp;nbsp;soroban-kit::oracle&amp;nbsp;ensures consistency for communication with decoupled, events-driven, interactions between your contracts (as long as the types are consistent, they can communicate).
+    
+We assume that the following network and identities are pre-configured (soroban config) and funded. Follow&amp;nbsp;this link&amp;nbsp;if you need instructions.
+    TypeNameDescriptionNetworkTESTNETStellar TestnetAccountADMINContracts adminAccountALICESubscriber operatorAccountBOBPublisher    
+To deploy the oracle broker contracts and simultaneously save their&amp;nbsp;IDs, use the following commands:
+    
+$ soroban contract deploy \ --wasm target/wasm32-unknown-unknown/release/broker.wasm \ --source ADMIN --network TESTNET &gt; BROKER1  $ soroban contract deploy \ --wasm target/wasm32-unknown-unknown/release/broker.wasm \ --source ADMIN --network TESTNET &gt; BROKER2 
+    
+Do the same for the oracle subscriber contracts:
+    
+$ soroban contract deploy \ --wasm target/wasm32-unknown-unknown/release/subscriber.wasm \ --source ADMIN --network TESTNET &gt; SUBSCRIBER1  $ soroban contract deploy \ --wasm target/wasm32-unknown-unknown/release/subscriber.wasm \ --source ADMIN --network TESTNET &gt; SUBSCRIBER2 
+    
+Setup the&amp;nbsp;ADMIN&amp;nbsp;for all contracts:
+    
+$ soroban contract invoke --id $(cat BROKER1) \ --source ADMIN --network TESTNET -- set_admin --admin ADMIN  $ soroban contract invoke --id $(cat BROKER2) \ --source ADMIN --network TESTNET -- set_admin --admin ADMIN  $ soroban contract invoke --id $(cat SUBSCRIBER1) \ --source ADMIN --network TESTNET -- set_admin --admin ADMIN  $ soroban contract invoke --id $(cat SUBSCRIBER2) \ --source ADMIN --network TESTNET -- set_admin --admin ADMIN 
+    
+Whitelist the publisher (BOB) for both oracle brokers:
+    
+$ soroban contract invoke --id $(cat BROKER1) \ --source ADMIN --network TESTNET -- allow_publisher --publisher BOB  $ soroban contract invoke --id $(cat BROKER2) \ --source ADMIN --network TESTNET -- allow_publisher --publisher BOB 
+    
+Whitelist the brokers (BROKER1&amp;nbsp;and&amp;nbsp;BROKER2) for both oracle subscribers:
+    
+$ soroban contract invoke --id $(cat SUBSCRIBER1) \ --source ADMIN --network TESTNET -- allow_broker --broker $(cat BROKER1)  $ soroban contract invoke --id $(cat SUBSCRIBER2) \ --source ADMIN --network TESTNET -- allow_broker --broker $(cat BROKER1)  $ soroban contract invoke --id $(cat SUBSCRIBER1) \ --source ADMIN --network TESTNET -- allow_broker --broker $(cat BROKER2)  $ soroban contract invoke --id $(cat SUBSCRIBER2) \ --source ADMIN --network TESTNET -- allow_broker --broker $(cat BROKER2) 
+    Executing a Test Scenario    
+    
+Everything is now ready!&amp;nbsp;ALICE&amp;nbsp;is initiating data requests for&amp;nbsp;Topic 21&amp;nbsp;through&amp;nbsp;SUBSCRIBER1&amp;nbsp;and&amp;nbsp;SUBSCRIBER2&amp;nbsp;to both&amp;nbsp;BROKER1&amp;nbsp;and&amp;nbsp;BROKER2.
+    
+Here&amp;#8217;s a deployment diagram to provide a clearer visual representation of the setup:
+    
+    
+Here are the commands to do so:
+    
+$ soroban contract invoke --id $(cat SUBSCRIBER1) \ --source ALICE --network TESTNET -- request \ --subscriber ALICE --topic 21 --broker $(cat BROKER1)  &gt; null  $ soroban contract invoke --id $(cat SUBSCRIBER2) \ --source ALICE --network TESTNET -- request \ --subscriber ALICE --topic 21 --broker $(cat BROKER1)  &gt; null  $ soroban contract invoke --id $(cat SUBSCRIBER1) \ --source ALICE --network TESTNET -- request \ --subscriber ALICE --topic 21 --broker $(cat BROKER2)  &gt; null  $ soroban contract invoke --id $(cat SUBSCRIBER2) \ --source ALICE --network TESTNET -- request \ --subscriber ALICE --topic 21 --broker $(cat BROKER2)  &gt; null
+    
+BOB&amp;nbsp;is setup to publish data exclusively to&amp;nbsp;BROKER2, and note that&amp;nbsp;BROKER1&amp;nbsp;will not receive this data. Here&amp;#8217;s the command:
+    
+soroban contract invoke --id $(cat BROKER2) \ --source BOB --network TESTNET -- publish --topic 21 \ --publisher BOB --data 21000000
+    
+Because both subscribers were connected to&amp;nbsp;BROKER2, they have received and can now serve the data synchronously. Here are some example commands:
+    
+$ soroban contract invoke --id $(cat SUBSCRIBER1) \ --source ADMIN --network TESTNET -- get_data --topic 21  &gt; 21000000  $ soroban contract invoke --id $(cat SUBSCRIBER2) \ --source ADMIN --network TESTNET -- get_data --topic 21  &gt; 21000000
+    Conclusion    
+    
+Oracles serve as bridges between blockchains and external data sources. There are many key challenges in implementing Oracle services, including decentralization, synchronicity, decoupling and multiplicity.
+    
+soroban-kit&amp;nbsp;proposes a lightweight solution for implementing the pub/sub messaging pattern to help address these challenges for cross-contract communication. Allowing you to deploy nodes gradually to achieve resilience and robustness for your oracle system.
+    
+I hope you found this enjoyable! Stay tuned for more detailed tutorials showcasing the full range of&amp;nbsp;soroban-kit&amp;nbsp;features!
+    
+If you have any questions, don&amp;#8217;t hesitate to reach out. I&amp;#8217;m usually active on&amp;nbsp;X @FredericRezeau&amp;nbsp;and Discord where you can find me in the&amp;nbsp;Litemint,&amp;nbsp;Stellar Global&amp;nbsp;and&amp;nbsp;Stellar Developers&amp;nbsp;servers!
+    
+Feel free to reach out on&amp;nbsp;GitHub&amp;nbsp;too.
+    
+Happy coding!
+ 
+Frederic 경진 Rezeau
+Founder of Litemint. Owner Stellarport.
+ 
+Prev. Developer and Technical Lead for BGC Partners, Crédit Lyonnais Bank (trading systems) and British Government National Program for IT (smart card technology in healthcare). Indie game developer, co-founder of Israeli-based video game company Massive Games (pie.ai) and winner of the Honorable Mention Prize at the 2014 Linux Foundation &amp;amp; Samsung Tizen App Challenge.
+ 
+Born and live in Korea, studied French Literature and Latin at the university of Angers (one of the most beautiful cities of France) before discovering the poetry of the machines.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.litemint.com/wp-content/uploads/2023/12/soroban-kit-oracle-sequence.png"/>
+  </entry>
+</feed>
