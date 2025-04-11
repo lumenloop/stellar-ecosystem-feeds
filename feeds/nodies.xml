@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Nodies</title>
+  <link rel="alternate" type="text/html" href="https://blog.nodies.app"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.nodies.app%2Ffeed%2F&amp;content_selector=.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.nodies.app%2Ffeed%2F&amp;content_selector=.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:08:05+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Superchain + Nodies Made EASY: A Quick RPC Tutorial</title>
+    <published>2025-02-18T19:04:59+00:00</published>
+    <updated>2025-02-18T19:04:59+00:00</updated>
+    <id>https://blog.nodies.app/superchain-nodies-rpc-tutorial/</id>
+    <link rel="alternate" type="text/html" href="https://blog.nodies.app/superchain-nodies-rpc-tutorial/"/>
+    <author>
+      <name>garyfb68a1430d2</name>
+    </author>
+    <content type="html">The Superchain Network enables seamless interoperability between numerous Layer 2 rollups, making it a powerful ecosystem for dApps. Nodies provides fast, reliable RPC access to these networks, ensuring high uptime and scalability. In this brief guide, we will walk you through setting up your Superchain RPC on Nodies, adding it to MetaMask, and querying data with JavaScript—so you can start building instantly. 
+    
+    Introduction to the Superchain Ecosystem    
+The Superchain is a visionary initiative by Optimism to create a cohesive, interoperable ecosystem of Layer 2 (L2) blockchains. By leveraging a shared code infrastructure, the Superchain enables scalability, low fees, and seamless communication between chains, offering developers a robust environment for building decentralized applications (dApps).
+    
+This collaborative framework links multiple Layer 2 blockchains into a unified ecosystem, allowing for easy communication and interoperability. Each rollup within the Superchain shares the same codebase and infrastructure, making it easier for developers to build and scale solutions. Examples of networks within the OP Superchain include:
+    
+ 
+Optimism: The original rollup designed for fast and low-cost Ethereum transactions.
+    
+Base: A Coinbase-incubated rollup built on the OP Stack.
+    
+Ink: A Layer 2 rollup built on the OP Stack by Kraken, focused on interoperability and advancing DeFi.
+ 
+    
+    Why Use Nodies RPC for Superchains    
+Nodies provides a convenient, affordable RPC solution for interacting with various Superchain networks. Key benefits include:
+    
+ 
+High Availability: Nodies’ infrastructure is designed for 99.9% uptime, ensuring uninterrupted access to Superchain RPCs.
+    
+Scalability: Handle millions of requests per day with consistent performance. 
+    
+Multi-Chain Support: Effortlessly interact with OP, OP Sepolia, Base, Base Sepolia, and Ink.
+    
+Custom Solutions: Flexible options to suit growing dApps, avoiding overage fees as your usage scales.
+ 
+    
+Whether you’re building DeFi protocols, NFT marketplaces, gaming applications, and more, Nodies ensures your dApp is fast, reliable, and Superchain-ready.
+    
+    Getting Started: Creating Your Superchain RPC Endpoints on Nodies    
+Step 1: Sign Up for Nodies
+Visit the Nodies website and create an account. Once registered, log in to your dashboard.
+        
+Step 2: Add a New Project
+Create a new project. You can set up multiple projects to accommodate your workflow.
+        
+Step 3: Create a New RPC endpoint
+Create a new RPC endpoint by adding a new Application within your project. You can generate as many as needed for OP, OP Sepolia, Base, Base Sepolia, Ink, and as well as many other supported networks.
+        
+Step 4: Save and Secure Your RPC endpoint URL
+Securely store your endpoint in an environment variable or configuration file. You can also further secure by setting up API keys and whitelisting specific IP addresses or domains. Read more about API key management here.
+        
+Step 5: Test your RPC endpoint
+Once your RPC endpoint is set up, it&amp;#8217;s good practice to confirm it’s working correctly. The simplest way to do this is via CURL:
+    
+curl &amp;lt;endpoint_here&amp;gt; \ -X POST \ -H "Content-Type: application/json" \ -H "x-api-key: &amp;lt;api_key_value&amp;gt;" \ --data '{"jsonrpc":"2.0","method":"eth_chainId","params":&amp;#91;],"id":1}'
+    
+Make sure to replace &amp;lt;endpoint_here&amp;gt; with your Nodies RPC endpoint URL. If you created an API key, replace &amp;lt;api_key_value&amp;gt; accordingly.
+    
+You will receive a response based on the chain you’re querying. For example, an OP endpoint will return 0xa, while OP Sepolia will return 0xaa37dc. For a full list of chains and their respective IDs, please visit chainlist.org.
+    Using Your Superchain RPC Endpoint    
+Your Superchain RPC endpoint(s) can now be used seamlessly across wallets, dApps, and development frameworks. Below, we’ll provide two simple examples:
+    1. Adding Your RPC Endpoint to MetaMask    
+Step 1: Open MetaMask and click the network dropdown. Then select the network you want to edit
+    
+ 
+ 
+        
+Step 2: Under Default RPC URL, Select “Add RPC URL”
+        
+Step 3: Add your newly created RPC endpoint URL.
+        
+Step 4: Save all changes, and Done. You are now using Nodies RPC on Metamask!
+    
+    2. Retrieve data from your RPC endpoint using JavaScript    
+Use the following JavaScript example to query your Nodies RPC endpoint and retrieve the latest block number for your chosen chain:
+    
+import Web3 from 'web3';  // Define web3 client with API key in headers const client = new Web3(new Web3.providers.HttpProvider('&amp;lt;endpoint_here&amp;gt;', {     headers: {         "x-api-key": "&amp;lt;api-key-value&amp;gt;"     } }));  // Query for the latest block number async function getLatestBlockNumber() {     try {         const blockNumber = await client.eth.getBlockNumber(); // Correct API method: eth_blockNumber         console.log(`Latest Block Number: ${blockNumber}`);     } catch (error) {         console.error("Error fetching block number:", error);     } }  // Run the function getLatestBlockNumber();
+    
+Make sure to replace &amp;lt;endpoint_here&amp;gt; with your Nodies RPC endpoint URL. If you created an API key, replace &amp;lt;api_key_value&amp;gt; accordingly.
+    
+    Get Started    
+The Superchain Ecosystem is reshaping Ethereum scaling, and Nodies is proud to be at the forefront, providing fast, reliable RPC infrastructure for Optimism, Base, Ink, and more. With high uptime, scalability, and seamless integration, Nodies helps ensure your dApps run smoothly. Get started today—sign up on Nodies and build with confidence!</content>
+    <link rel="enclosure" type="application/octet-stream" href="https://i0.wp.com/blog.nodies.app/wp-content/uploads/2025/02/Screenshot-2025-02-17-at-11.31.42%E2%80%AFPM.png?resize=1200%2C984&amp;#038;ssl=1"/>
+  </entry>
+  <entry>
+    <title type="html">Release the Kraken: Nodies Adds RPC Support for Ink</title>
+    <published>2025-01-29T16:07:59+00:00</published>
+    <updated>2025-01-29T16:07:59+00:00</updated>
+    <id>https://blog.nodies.app/nodies-rpc-for-ink/</id>
+    <link rel="alternate" type="text/html" href="https://blog.nodies.app/nodies-rpc-for-ink/"/>
+    <author>
+      <name>garyfb68a1430d2</name>
+    </author>
+    <content type="html">We’re excited to announce that Nodies now fully supports Ink, the Layer 2 rollup built on the OP Stack. Part of the broader OP Superchain ecosystem, Ink focuses on interoperability and advancing DeFi capabilities. By integrating Ink RPC endpoints, developers can now seamlessly deploy and manage dApps on Ink with the same speed, reliability, and scalability provided by Nodies.
+    
+In addition to Ink, Nodies users can also enjoy RPC support for other chains within the Superchain ecosystem—such as Optimism and Base—as well as over 30 additional chains, including Ethereum, Polygon, Metis, Kava, and more. This comprehensive multi-chain experience enables you to expand your dApp’s reach using a single, trusted infrastructure partner.
+    
+Ready to get started? Log in to your Nodies account and create a private endpoint! Happy Building!</content>
+    <link rel="enclosure" type="application/octet-stream" href="https://i0.wp.com/blog.nodies.app/wp-content/uploads/2025/01/Nodies-and-Ink.png?resize=1200%2C1200&amp;#038;ssl=1"/>
+  </entry>
+  <entry>
+    <title type="html">Nodies x Infura, Decentralized by DIN</title>
+    <published>2024-10-21T15:44:15+00:00</published>
+    <updated>2024-10-21T15:44:15+00:00</updated>
+    <id>https://blog.nodies.app/nodies-infura-din/</id>
+    <link rel="alternate" type="text/html" href="https://blog.nodies.app/nodies-infura-din/"/>
+    <author>
+      <name>garyfb68a1430d2</name>
+    </author>
+    <content type="html">Since the beginning of 2024, Nodies has been providing RPC services for Infura’s Decentralized Infrastructure Network (DIN), collaborating with top blockchain innovators to ensure reliable, decentralized access to blockchain networks. This ongoing collaboration highlights our commitment to delivering best-in-class, decentralized infrastructure that empowers Web3 developers with fast, secure, and dependable blockchain services.
+    What is DIN    
+Infura’s Decentralized Infrastructure Network (DIN) is a groundbreaking initiative aimed at decentralizing the RPC layer of blockchain infrastructure. By partnering with a diverse range of industry leaders, blockchain specialists, and infrastructure platforms, DIN provides more robust, censorship-resistant access to blockchain data, reducing the risk of outages and ensuring that blockchain networks remain resilient and accessible to developers and users alike.
+    How Nodies fits into DIN    
+As a trusted RPC provider known for its high performance and reliability, Nodies is a natural fit for DIN; by joining, we contribute our high-performance infrastructure to help decentralize and strengthen blockchain access. This collaboration aligns with our mission to provide developers with reliable, decentralized RPC services, enhancing the overall resilience and accessibility of blockchain networks.
+    What&amp;#8217;s Next    
+Looking ahead, Nodies remains committed to innovating and providing infrastructure services to 
+make blockchain access more secure, efficient, and accessible. The future of Web3 lies in collaboration, and through collaborations like this, we’re helping to lay the foundation for a more open and decentralized internet.
+    
+    
+Waddle onwards! 🐧</content>
+    <link rel="enclosure" type="application/octet-stream" href="https://i0.wp.com/blog.nodies.app/wp-content/uploads/2024/10/Nodies-x-Infura-DIN.png?resize=1200%2C1200&amp;#038;ssl=1"/>
+  </entry>
+</feed>
