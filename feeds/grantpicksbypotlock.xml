@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">POTLOCK - Medium</title>
+  <link rel="alternate" type="text/html" href="https://blog.potlock.org?source=rss----eced84bf7cd6---4"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.potlock.org%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore%2C+h1&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.potlock.org%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore%2C+h1&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:10:15+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Duplicate On-Chain Lists Easily</title>
+    <published>2025-01-15T06:52:35+00:00</published>
+    <updated>2025-01-15T06:52:35+00:00</updated>
+    <id>https://blog.potlock.org/duplicate-on-chain-lists-easily-ca879d51e742?source=rss----eced84bf7cd6---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.potlock.org/duplicate-on-chain-lists-easily-ca879d51e742?source=rss----eced84bf7cd6---4"/>
+    <author>
+      <name>PlugRel</name>
+    </author>
+    <content type="html">Duplicate on chain list on NEAR Protocol using POTLOCK lists
+Duplicating a list on POTLOCK is a feature for quick refinement, allowing users fork (Copy and paste) settings, admins and accounts all and update as needed.
+Accesing list details on POTLOCK lists on NEAR Protocol
+Navigate to List tab on POTLOCK: Web: Visit POTLOCK website, select list tab and locating the specific list you wish to duplicate and select. Ensure you are logged in on Potlock.
+Mobile: Visit POTLOCK website, select the menu button (Top right) and select lists tab. Then locating the specific list you wish to duplicate and select. Ensure you are logged in on POTLOCK.
+Locate the Options Menu: On the list details page, find the three dots (•••) located beside the “Apply to List” button. Clicking on these dots will reveal additional options related to list management.
+How to Duplicate List on Potlock
+From the options displayed, choose “Duplicate list”. Another shortcut is https://alpha.potlock.org/list/duplicate/22 replacing the number with listID
+Provide a Concise, Descriptive Title: In this field, enter a title that clearly reflects the focus of your list (e.g., “Sustainable Energy Projects”). This title will help users quickly understand the purpose of your list.
+Start editing lists on chain using POTLOCK lists
+Offer a Brief Overview: Write a short description that outlines the goals and scope of your list. This could include the types of projects included, the target audience, or any specific themes. A well-crafted description helps attract potential donors and participants.
+Editing Accounts on POTLOCK
+Optional: Add more accounts: if you want more accounts on the list, enter the NEAR wallet IDs of the projects you wish to include. This feature allows for quicker assembly of your list and ensures that key projects are immediately recognized as part of your collection.
+Optional: Remove accounts: If you want less accounts or new accounts profiles on the list, manually click on remove on each account profile or select the account profiles as they appear and select remove all selected.
+Optional: Add more admins: If you want additional administrators to help manage the list, enter their NEAR account ID here. These admins will have the ability to approve applications and manage the list alongside you.
+Optional: Remove admins: If you want less administrators or new adminstrators to help manage the list, manually click on remove on each admin profile or select the admin profiles as they appear and select remove all selected.
+Optional but Recommended: Choose a distinctive cover image that represents your list visually. This image will make your list more recognizable and appealing to users. If you do not upload an image, a default one will be used.
+Updating cover image on POTLOCK lists on NEAR Protocol</content>
+    <link rel="enclosure" type="image/jpeg" href="https://miro.medium.com/v2/resize:fit:1200/1*rsCYEmc3yh5l871PUfGXYg.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">Announcing NEAR YEAR: 1st Annual On-Chain NEAR Awards</title>
+    <published>2025-01-10T10:22:00+00:00</published>
+    <updated>2025-01-10T10:22:00+00:00</updated>
+    <id>https://blog.potlock.org/announcing-near-year-1st-annual-on-chain-near-awards-2092dfc3372f?source=rss----eced84bf7cd6---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.potlock.org/announcing-near-year-1st-annual-on-chain-near-awards-2092dfc3372f?source=rss----eced84bf7cd6---4"/>
+    <author>
+      <name>PlugRel</name>
+    </author>
+    <content type="html">NEAR YEAR: first annual onchain awards. Blackdragon, Sharddog, NEAR Foundation, POTLOCK
+We’re thrilled to announce the inaugural NEAR YEAR Annual Awards, celebrating outstanding achievements and contributions within the NEAR ecosystem throughout 2024! This groundbreaking initiative features over 40 award categories, recognizing individual achievements, project milestones, notable features, and 2025 predictions. From the most anticipated NEAR token launch to the biggest Degen on NEAR, this exciting event will determine who holds the 2024 on-chain bragging rights.
+Powered by POTLOCK’s new voting contracts and Sharddog Human Voter NFTs, this initiative is immutable &amp;amp; community-driven. We are proud to work with NEAR Foundation, Sharddog, NEAR Catalog, NEARWEEK, &amp;amp; Blackdragon to make this happen!
+Go to NEARYEAR.com, the official portal for seeing the nominees, which nominees have made it to the on-chain list, and the voting portal once the voting period is live in a few weeks. Want to improve the dashboard? Check out our github.
+ANNOUNCEMENT — JAN 10
+Launch of official nominations, announcement article, and NEAR Year website
+SUBMISSIONS — JAN 10–17
+Community members submit nomination lists
+Special founder debates (details coming soon)
+VOTING JAN 17–25
+Open voting period (requires Sharddog I AM HUMAN Voter NFT)
+Awards ceremony at the end of January showcasing winners
+Here’s your guide to participating in the NEAR YEAR Awards:
+For Projects:
+Create a project profile on POTLOCK (https://alpha.POTLOCK.org/register) using your project’s named account
+Apply to list or contact @plugrel on X (x.com/plugrel) with your POTLOCK profile and desired category
+To Suggest Nominees:
+Duplicate the list on POTLOCK while maintaining the original name (go to nearyear.com/nomination and click copy button to be taken to a page to duplicate the list to make your own nominee list for that category
+Include project account names (searchable on near.social using the People widget). If a project doesnt exist you need to get that project onboard to a POTLOCK Profile
+Share your list on Twitter, tagging @POTLOCK_ @nearweek @nearprotocol @nearcatalog
+Selection Criteria:
+Top 5 nominees will be chosen based on:
+Number of authentic user nominations
+Alignment with category-specific criteria
+nearyear.com/vote
+To ensure fair voting:
+Voters must hold a Sharddog “I Voted” NFT for verification part of the voting flow when live
+List creators receive 2x voting power
+To self-nominate, create a POTLOCK profile, apply to list entry (if open), and notify plugrel on Twitter.
+As your curator-in-chief, Plug, I’ve crafted some pretty lit categories and made a shortlist since I’m super tapped into the NEAR streets. I even put myself on the list — because I’m corrupt on-chain! But these aren’t the final lists. Learn how you can apply for a category or use on-chain lists to nominate your favorite projects and people of 2024.
+Here are all the categories for the 2024 NEAR Annual Awards:
+Overall Categories that promote concepts over people and projects.
+MOST EXCITING THING ON NEAR for 2025: Exploring groundbreaking developments on NEAR for 2025, including Chain Abstraction, AI, and Apps.
+BEST EVENT for NEAR in 2024: Key events that shaped NEAR in 2024, including Eth Denver, Consensys, Token2049, and Eth CC.
+Best Tech Innovation: Notable technological advancements on NEAR, including Chain Signatures, NEAR DA, NEAR Intents, and Nightshade 2.0.
+BEST JOKE in NEAR: Memorable humorous moments in the NEAR community, including Jensen touching Illia and the NEAR is a Doge L2 meme.
+Awards highlighting the achievements of projects on NEAR.
+BEST NEW PROJECT: Projects launching major products on mainnet or starting from scratch in 2024.
+BEST DeFI Project: Live projects evaluated on activity, unlock, and handling of funds or wallet integration.
+BEST NEW TOKEN: Top new ecosystem token launched this year.
+Best NEAR Token 2024: Leading ecosystem token natively deployed on NEAR.
+Best New PFP Collection: Outstanding generative PFP collection launched in 2024.
+BEST NEW Non-PFP NFT: Leading NFT Collection based on utility and community traction.
+Best Existing NFT Collection: Pre-2024 NFT projects maintaining excellence throughout 2024.
+Most Anticipated NEAR Mainnet Launches: Promising projects preparing to launch on NEAR mainnet.
+Best New Smart Contract: Most impactful smart contract deployed in 2024.
+Strongest Community: Most engaged and active builder community on NEAR.
+MOST ANTICIPATED NEAR TOKEN LAUNCH: Most promising upcoming token launch from a NEAR origin project.
+Best NFT PLATFORM: Most impactful NFT platform advancing the NEAR ecosystem.
+BEST Multichain Expansion: Excellence in expanding to other chains through partnerships, liquidity, and user growth.
+BEST DAO on NEAR: Most active and effective DAO with an address on NEAR.
+BEST OPEN SOURCE PROJECT: Outstanding open source project with visible contributor activity.
+Best Wallet: Excellence in user onboarding, NEAR integration, and ecosystem adoption.
+BEST Pivot: Most successful strategic pivot with demonstrated or potential impact.
+BEST INFRASTRUCTURE: Leading infrastructure solution based on ecosystem impact and technical excellence.
+Best Privacy Project: Excellence in privacy tools using ZK, TEE, or MPC technology.
+Best Consumer App: Most valuable consumer application driving mass adoption.
+Best AI Project Live on NEAR: Leading AI integration with direct NEAR L1 interaction.
+Notable setbacks in the ecosystem, transparently recorded on the blockchain.
+BEST DRAMA: Most significant dramatic events in the NEAR ecosystem.
+Projects that we want to see back on NEAR: Most missed projects that left the NEAR ecosystem.
+BEST FAILED DAO: Notable DAOs that ceased operations in 2024.
+Saddest Project Shutdowns: Most impactful project closures in 2024.
+BEST NEAR REGIONAL COMMUNITY WHILE IT LASTED: Outstanding regional hubs and communities before closure.
+Predictions for project performance in web3.
+MOST Likely to generate the most DeFI Revenue: Projects positioned for significant DeFi revenue generation.
+Most Likely App to Get A Billion Users First: Apps with highest potential for mass user adoption.
+Awards celebrating individual NEARIANs shaping our ecosystem.
+COOLEST FOUNDER ON NEAR: Most influential and innovative founders.
+BEST YAPPER: Most effective ecosystem communicators.
+Best Content Creator: Most consistent and impactful multimedia content producers.
+Most Likely to Never Leave NEAR Eco: Most dedicated ecosystem contributors.
+WHO FROM NEAR NEEDS TO START YAPPING MORE: Underutilized voices from NEAR OGs.
+BEST AT NEAR Foundation 2024: Outstanding NEAR Foundation contributor.
+BADDEST BADDIES ON NEAR: Most impactful ecosystem influencers.
+Best Data Analyst: Leading data analytics contributors.
+BEST ARTISTS: Most talented active artists in 2024.
+Most Helpful NEARIAN: Most supportive community member.
+Most Likely to Be involved with the most projects on NEAR: Most actively engaged ecosystem participant.
+BEST BD at NEAR: Top business development contributor.
+BIGGEST VIBE ON NEAR: Most positive ecosystem influence.
+Most Cracked NEAR Dev: Most skilled technical developer.
+Biggest Degen on NEAR: Most active ecosystem participant.
+BEST DEV REL: Excellence in developer relations, support, and ecosystem growth.
+BEST NEAR ECO LAWYER: Leading legal representation for NEAR projects.
+Well, that’s all folks. For support, join the POTLOCK community channel. Let the best NEARIANs win.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://miro.medium.com/v2/resize:fit:1200/1*Dojv_He219Rdq98uicmqcA.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">Why We Built the first pump.fun Ecosystem Aggregator</title>
+    <published>2025-01-05T17:17:19+00:00</published>
+    <updated>2025-01-05T17:17:19+00:00</updated>
+    <id>https://blog.potlock.org/why-we-built-the-first-pump-fun-ecosystem-aggregator-53af400f32c0?source=rss----eced84bf7cd6---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.potlock.org/why-we-built-the-first-pump-fun-ecosystem-aggregator-53af400f32c0?source=rss----eced84bf7cd6---4"/>
+    <author>
+      <name>PlugRel</name>
+    </author>
+    <content type="html">At POTLOCK, we are focused on innovations in building an open funding stack. So why did we create an open-source ecosystem aggregator of the pump.fun ecosystem? We argue pump dot fun we argue is proliferating the permisioneless largest capital allocation event in history
+awesomepump.fun the pump.fun ecosystem aggregator
+Pump.fun is a revolutionary platform in the Web3 space that has rapidly gained prominence since its launch in early 2024. Users can create and trade meme coins on the Solana and Blast blockchains with minimal upfront costs. The platform utilizes a bond curve mechanism to determine token prices, rewarding early investors as demand increases.
+Pump.fun’s metrics has been substantial:
+Daily revenues reaching as high as $1.54 million
+Total revenue exceeding $368 million in just eight months
+Processing 1,527,143 SOL in fees
+- Averaging 388 million monthly transactions
+Pump.fun is not just changing the meme coin narrative, but transforming how projects are funded. From the points to meta airdrop, pump.fun is bringing the fair launch, where users actually pay for an asset. This will only be exacerbated with favorable regulatory environments in the US.
+At its essence, pump.fun allows for fair launches through bonding curves. These curves represent a revolutionary mechanism for launching tokens by establishing a dynamic relationship between token price and supply through smart contracts.
+Just like anywhere in Web3, forking is the best form of flattery. Although Solana receives criticism for its extractive pump and dumps, there is no doubt that as a primitive, memecoins attract new users, volume, and wealth that trickles back down to the Solana ecosystem. Naturally, other projects are building on this technology to gain distribution and liquidity, with some creating similar platforms in other ecosystems to capture respective market shares.
+Customizations include:
+Deployment to other chains
+Agent launchpads attached to tokens
+Different bonding curve mechanisms, including calculations, price, reserve ratio
+Locked liquidity
+Investment DAOs
+Tokenization of assets across different verticals, music, time
+We believe in Chain Abstraction. To build a truly chain-abstracted world, we must start tapping into these different platforms. Literally new projects are coming every week to each ecosystem, and it’s hard to understand the difference between them. Much of the knowledge is gatekept by insiders and those in the trenches.
+By creating an open-source ecosystem aggregator for pump.fun, we aim to provide better visibility to open-source alternatives so we can build the emerging ecosystem of tools around this concept. This not only helps builders and investors navigate the complex landscape but also promotes transparency and innovation in the space.
+Soon we will have a major announcement with our open spin on pump that takes this concept of AI agents and combines it with funding programs..
+At POTLOCK, we’re excited for yall to help us impropve awesomepump.fun, the go-to ecosystem aggregator for pump.fun-inspired projects. We invite you to contribute to our open-source repository at https://github.com/PotLock/awesome-pump/ and help us enhance the platform with new features. Our vision includes enabling easy token deployment across multiple chains, creating AI agents for automation, implementing a streamlined feature suggestion system, and building a comprehensive database with analytics and market share insights. We aim to improve contract and token accessibility, highlight product differentiators, and allow direct token deployment from the site.
+Your contributions can help prevent duplicates, emphasize innovation, and increase discoverability of unique projects. By participating, you’ll help identify gaps in ecosystems lacking pump.fun alternatives and improve the platform’s overall functionality. Whether you’re a developer, researcher, or enthusiast, your input is valuable in shaping awesomepump.fun into a more robust, user-friendly, and innovative resource for the Web3 community. Join us in building a transparent and accessible ecosystem that fosters the next generation of decentralized token launches and funding mechanisms.</content>
+    <link rel="enclosure" type="application/octet-stream" href="https://miro.medium.com/v2/da:true/resize:fit:1200/0*YRWQfjxFQIdGJZ9X"/>
+  </entry>
+</feed>
