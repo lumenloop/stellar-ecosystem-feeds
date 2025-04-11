@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">The Blue Marble Blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.thebluemarble.io%2Ffeed%2F&amp;content_selector=.blog_content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.thebluemarble.io%2Ffeed%2F&amp;content_selector=.blog_content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=&amp;format=Atom</id>
+  <updated>2025-04-11T22:10:55+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">The Psychology of Shopping: Tapping into the Emotion of Purchase</title>
+    <published>2024-05-31T06:10:14+00:00</published>
+    <updated>2024-05-31T06:10:14+00:00</updated>
+    <id>https://blog.thebluemarble.io/the-psychology-of-shopping/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/the-psychology-of-shopping/"/>
+    <author>
+      <name>Jess McMurray</name>
+    </author>
+    <content type="html">The first noted instance of the word ‘shopaholic’ occurred in 1983; a hedonistic time when consumerism was at an all time high.
+        
+But the powerful desire to buy wasn’t just driven by an urge to own – it was driven by a change in the way we acquired things. Shopping was no longer a utility exercise but a leisure activity in itself: social, indulgent, luxurious, stimulating, immersive – and with brand marketing stronger than ever, it was also about belonging. The culture of the mall was about participation and enjoyment far more than mere possession.
+    
+Cut to today and things have changed a little. The world has moved online, attitudes towards consumerism and the environment have changed, and increasingly, consumer finances are stretched. The pleasure associated with the purchase experience has been eroded. The thrill of shopping is reduced to a fleeting moment – a single click – rather than an immersive, enduring experience.
+     
+Commercial market research and academic investigation &amp;nbsp;strongly link purchase intention with brand relationship: a relationship built through awareness, connection and engagement.&amp;#8221;
+     
+For brands, that’s a real problem. Both commercial market research and academic investigation (see for instance Kerse’s study on brand relationships) strongly link purchase intention with brand relationship: a relationship built through awareness, connection and engagement. People immersed in the ideas, visuals and products of a brand are not only more likely to make a purchase, they’re more likely to come back in the future too.
+    
+But without a physical store to craft the experiential element of the shopping process, what options do brands have left?
+    
+The answer: Rewards Wallets.
+    What is a Rewards Wallet?    
+Rewards wallets come in a variety of shapes and sizes. The Blue Marble’s Rewards Wallet represents a fully customisable brand experience that gives your customers an ability to immerse themselves in your brand as if they had walked into your shop.
+    
+First and foremost, it allows for users to accumulate points for their purchases, which in turn can be converted into discounts on future purchases – incentivising individual purchases and fostering loyalty in the future.
+    
+But Rewards Wallets go far beyond this. Through collaborations and integrations, users can generate points through their purchases with you, and use them for discounts with other companies – something which hugely enhances the value proposition of your brand, turning a purchase with you into a gateway to something much bigger. The Blue Marble Rewards Wallet uses a Shopify integration to allow your customers to use their accumulated points in a variety of contexts. &amp;nbsp;
+     
+Whether it’s leaving a review, creating or sharing social media content or completing surveys &amp;#8211; brands can use ‘quests’ to assist their overall brand strategy.&amp;#8221;
+     
+Moreover, Rewards Wallets can encourage all kinds of beneficial brand behaviours, not just purchases. Whether it’s leaving a review, creating or sharing social media content or completing surveys &amp;#8211; brands can use ‘quests’ to assist their overall brand strategy. &amp;nbsp;Indeed, it is the presence of a challenge as much as the promise of a reward that engages and excites the customer, driving participation, involvement and purpose and fostering a more direct relationship.
+    
+What is crucial is that a Rewards Wallet is more than just a generic app with your brand logo slapped across the front; every facet needs to embody your brand, both visually and experientially. To be effective it needs to leverage all of the psychological benefits that were once associated with shopping as a leisure activity, using seamless integration to bring all brand services under one (virtual) roof.
+    
+The Blue Marble allows for complete customisation and integration to achieve this, creating a brand ecosystem that incorporates existing mailing lists, PoS, e-commerce platform, social updates, in-app chat – whatever you need to immerse your customers in your world.
+    
+Put together, all of these things transform the shopping experience for customers, returning shopping to a time when it was about the process as much as the product. Digital wallets make shopping experiential, social, immersive, engaged and – most importantly – exciting, turning customers from passive consumers of your product to active, involved brand contributors, giving them a sense that they are participating and contributing to something bigger than themselves.
+    Playing with the big boys    
+Rewards Wallets aren’t some niche marketing gimmick – they are a key part of some of the globe’s most prominent brands: Amazon, Starbucks, Vodafone, McDonalds, to name but a few. Indeed, they’re now so crucial to a joined-up brand strategy that those who don’t get in on the process risk getting left behind. Fortunately, their customisable nature means that those who do deploy them have the potential to use creativity to craft a real point of differentiation.
+     
+Rewards Wallets aren’t some niche marketing gimmick – they are a key part of some of the globe’s most prominent brands: Amazon, Starbucks, Vodafone, McDonalds, to name but a few.&amp;#8221;
+     
+Crucially, access to the technologies that enable Rewards Wallets is &amp;#8211; both logistically and financially – more accessible than ever before. This means that they don’t need to be the exclusive preserve of market leaders; niche, boutique, start-up and alternative brands can all use digital wallets as a way to craft a unique brand proposition, whilst established operations can augment their offering and push growth even further.
+&amp;nbsp;
+If you want to find out how a Blue Marble Digital Wallet could bring these benefits to your brand, why not schedule a discovery call with us?&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">The Blue Marble Goes Live with Stellar’s Soroban</title>
+    <published>2024-03-15T05:02:48+00:00</published>
+    <updated>2024-03-15T05:02:48+00:00</updated>
+    <id>https://blog.thebluemarble.io/blue-marble-live-on-soroban/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/blue-marble-live-on-soroban/"/>
+    <author>
+      <name>Steve Walker</name>
+    </author>
+    <content type="html">We&amp;#8217;re excited to announce that The Blue Marble (TBM) has completed the long-awaited upgrade to use Soroban, a new smart contract technology on the Stellar blockchain. This change is a big deal for us—and it means our NFTs have smart contract stability brought by the tried and tested Stellar network.
+        First, What is Soroban?    
+So, what&amp;#8217;s the buzz about Soroban, and why is it important for us?
+    
+Soroban is the new smart contract platform just released to the Maine that enhances Stellar&amp;#8217;s existing borderless payment capabilities. Since Stellar&amp;#8217;s inception in 2015, its mission has been to facilitate global access to cost-effective and nearly instant payments. Soroban builds on this to enable the creation of decentralized applications (dApps) that leverage Stellar&amp;#8217;s global reach.
+    
+Unlike other smart contract platforms, Soroban is not a sidechain or Layer 2 solution but a fully integrated smart contract platform within the Stellar blockchain. It is open-source, emphasizing community trust and developer collaboration. The platform is powered by Rust, known for its speed, efficiency, and security, making it an ideal language for smart contracts.
+    
+Soroban is designed with developers in mind, providing a comprehensive toolkit that includes built-in contracts, a local sandbox, SDKs, a CLI, and an RPC server. Its innovative use of Rust and WebAssembly ensures high performance, scalability, and reduced vulnerabilities. Additionally, Soroban introduces features like multi-core scaling, an optimized fee model, and a ledger compaction solution to address state bloat, setting a new standard in smart contract optimization.
+    
+So how does The Blue Marble take advantage of all this good stuff?
+    Royalties with Third-Party Benefits    
+At TBM, we use Soroban to enhance the way royalties are handled within our NFT platform. Traditionally, NFT royalties allow creators to receive a percentage of sales whenever their NFT is sold on the secondary market. This simple yet powerful mechanism allows creators to be rewarded for their work continuously.
+     
+TBM also enables creators to set royalties not just for themselves but also for third parties, such as non-profits or charities.
+     
+Expanding this model, TBM also enables creators to set royalties not just for themselves but also for third parties, such as non-profits or charities. This means that every time an NFT is traded, a portion of the sale can directly support a cause chosen by the creator, fostering a culture of giving and community support within the digital asset space.
+        
+    Creating and Trading NFTs on TBM    
+Creating and trading NFTs on TBM is straightforward. A monthly subscription fee covers all costs allowing people less familiar with crypto to get started without any technical friction.
+    
+Here&amp;#8217;s how it works:
+    
+ 
+Creators mint their NFTs as usual but now have the option to allocate royalties to themselves and a third party.
+    
+When trading NFTs, the platform provides a breakdown of the royalties and identifies the recipients.
+    
+Upon completion of a trade, the Soroban-powered smart contract ensures the automatic distribution of royalties to the relevant parties.
+ 
+        
+    Who We Are: The Blue Marble    
+The Blue Marble uses NFTs as a part of its overall service offering to help organisations reward customers and communities leverage Web3 services as incentive mechanisms brought together within branded mobile applications.
+    
+Our services cater to businesses, non-profits, and any organization aiming to harness digital advancements for engagement, loyalty, recruitment, and promoting well-being.
+    Let&amp;#8217;s Talk    
+Soroban gives our platform a big upgrade that provides opportunities around Digital Collectibles and NFTs for loyalty, certification and rewards to support organisations who need to connect with large communities or customers.
+    
+We are able to help organisations with fully branded mobile applications that can be customised to provide a central place to develop community around your brand. If we can help you, book a call for a chat.
+    
+ 
+ 
+&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">Customer Loyalty in Millennials &amp; GenZ with Digital Collectibles</title>
+    <published>2023-08-25T06:43:02+00:00</published>
+    <updated>2023-08-25T06:43:02+00:00</updated>
+    <id>https://blog.thebluemarble.io/customer-loyalty-in-millennials-genz-with-digital-collectibles/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/customer-loyalty-in-millennials-genz-with-digital-collectibles/"/>
+    <author>
+      <name>Sroojana Iyer</name>
+    </author>
+    <content type="html">Do what you do so well that they will want to see it again and bring their friends.
+     
+Famously attributed to Walt Disney, this quote goes far to explain why customer loyalty is the goal for so many brands. It’s a measure of not just how likely a customer is to repeatedly purchase products or services from a particular brand or company, but also the willingness to recommend the brand to others.
+    
+What does customer loyalty mean in today’s digital, dynamic and rapidly changing world? Read on to find out.
+        
+Before we get into what’s important in 2023, let’s take a step back.
+    What are the benefits of customer loyalty?    It&amp;#8217;s not just about repeat purchases, but also the willingness to recommend the brand to others.    Repeat Business    
+When customers like a brand and keep buying from it, it leads to a steady revenue stream for the company.
+    Reduced Marketing Costs    
+It&amp;#8217;s generally less expensive to retain existing customers than to acquire new ones, since you’re investing less money in acquiring new customers and sending out ads.
+    Higher Lifetime Value    
+People who stick with a brand tend to spend more on its services/buying its products during their lifetime in comparison to those who only buy once.
+    Word-of-Mouth Marketing    
+We touched upon this before: if customers really like a brand, they&amp;#8217;ll tell their friends about it. It makes them brand advocates and contributes to positive word-of-mouth marketing.
+    Stability and Resilience    
+All of this basically means a brand with loyalists can handle changes and competition better, like market fluctuations, competitive pressures and unforeseen circumstances like natural disasters or political upheaval. That’s because their base of customers won’t be changing their mind about the product and their reliance on it.
+    Cross-Selling and Up-Selling    
+Loyal customers are more receptive to trying new things from a brand, like different products or services that go well together.
+    What were traditional customer loyalty strategies?    What steps did brands and companies traditionally take to win customer loyalty?    Offering Rewards and Incentives    
+Traditional customer loyalty strategies involve enticing customers with rewards, discounts, or points for making frequent purchases. This encourages them to choose your brand over others, boosting sales and creating a sense of appreciation.
+    Providing Excellent Customer Service    
+Exceptional service keeps customers coming back. Responding promptly to queries, resolving issues, and showing genuine care builds trust, making customers feel valued and loyal to your brand.
+    Personalising the Customer Experience    
+Tailoring experiences to individual preferences fosters a strong connection. Using customer data to suggest relevant products or sending personalised messages acknowledges their uniqueness, enhancing loyalty.
+    Simplifying Transactions    
+Streamlining the buying process reduces friction. By making it effortless for customers to find products, navigate the website, and complete purchases, you enhance convenience, leaving a positive impression.
+    Nurturing Relationships    
+Building meaningful connections goes beyond transactions. Engaging with customers through emails, social media, or even handwritten notes adds a personal touch, strengthening emotional ties and encouraging repeat business.
+    
+The commonality in all these strategies is simple: a brand needs to provide high-quality service and create an emotional connection with its customers.
+    What does ‘Customer Loyalty’ mean today?    The audience is much more discerning now, and therefore harder to please.    
+While the definition hasn’t changed, the biggest part of our audience today is millennials and adults from Generation Z. The behaviour of generations changes across the world, given cultural nuances, but one thing these two groups share across the world is that they’ve grown up with access to endless information and choices with the Internet. This makes them more discerning.
+    
+That means customer loyalty is still incredibly important, because achieving it is a hard-won and therefore more valuable goal. The audience still wants to feel like they are getting value for their money, and they’re willing to reward brands that provide a great experience.
+    So, how do you build customer loyalty today?    Focus on providing your customers satisfaction with immediacy, excellence and engagement.    Authenticity and Values    
+Place a high value on authenticity and showing that you share values with the audience. They are more likely to be loyal to brands that demonstrate social responsibility, environmental consciousness, and ethical practices. If a brand is perceived as insincere or inauthentic, the audience is quick to disengage.
+    Experience and Engagement    
+Similar to the traditional idea of a high-quality experience, today’s audience is looking for something special. But it’s not about just excellent customer service: the audience seeks engaging and excellent experiences with brands. They’re more likely to be loyal to brands that provide immersive online experiences, interactive content, and opportunities for participation. In other words, when brands are ‘real’ and work to foster a sense of community and belonging through engagement, they earn loyalty.
+    Personalisation and Customisation    
+The meaning of providing a personalised experience is deeper today. While brands understand that customised experiences are important, the audience is looking for more than their name used in emails, or automated birthday wishes. In an age where data is gathered constantly, the audience expects this to be used wisely by brands to go beyond typical marketing messages and provide tailored shopping experiences, recommendations only for individuals, and discounts and sales customised to their interests.
+    Digital Connection and Ease    
+This is a digital-native generation and loyalty is tied to the quality of the digital interactions which means seamless online shopping experiences, user-friendly interfaces, and responsive customer service are more likely to retain customers. Seeing a brand go above and beyond to provide this, using new technology to automate and simplify the process, goes a long way. This also pertains to the global nature of the Internet today: potential fans do not appreciate being restricted by geographical limitations. So, regardless of where they are in the world, your brand needs to treat a customer to the same access and rewards others locally can obtain too.
+    Social Media    
+It isn’t just a shallow medium, but a proven avenue of discovery, endorsement and interaction. You can create brand connections on social media, but the landscape is that of a cluttered digital newsfeed with thousands of brands fighting for attention. So, the audience only pays attention when there’s something special, interesting and eye-catching to see.
+    Constant Innovation and Gratification    
+When everything is a touch away, and even food and household goods are delivered at top speed, taking time is a sure-fire way to lose the audience’s interest. Not only that, but when pop stars are constantly reinventing themselves and movie studios are always churning out new seasons and sequels, there is now a habit of consuming something new all the time. So, speed and innovation can make or break customer loyalty.
+    
+In short? You don’t need a lot that is, on paper, different from traditional customer loyalty strategies. However, what is important is upgrading every one of those strategies to accommodate an audience that has been fed for years with immediacy, excellence and interaction: at the tips of their fingers, whenever they desire it.
+    New Media and Marketing in a Digital Age    
+Modern needs require modern solutions, which means embracing new media and technologies, like using digital collectibles and web3. Not only does that offer you a competitive advantage, but you can:
+    Transcend geographies    
+New media and technology can help reach a wider audience. For example, digital collectibles can be traded or sold regardless of where you are, which helps brands reach a wider audience of collectors and enthusiasts.
+    Deeper engagement    
+From offering new forms of content to access to otherwise restricted events, digital collectibles help you offer fans a deeper way to engage with something they enjoy.
+    Hyper-Personalisation    
+NFTs can be used to deliver more relevant and personalised content and offers. Since, by nature, they’re non-fungible, that means every customer knows what they have is unique to them.
+    Our Conclusion? It’s time to adapt    
+Focus on creating an engaged community of loyalists for your brand, which you can do through Web3.
+    
+Not sure where to start? Work with The Blue Marble to get our easy-to-use Web3 services that strengthen bonds between your brand and fans, so you can foster lasting relationships and maintain a competitive edge. What are you waiting for?
+    
+Call us today!</content>
+  </entry>
+  <entry>
+    <title type="html">Rolls Royce, Mercedes, Bugatti: Redefining Luxury Car Marketing with NFTs</title>
+    <published>2023-08-11T07:59:03+00:00</published>
+    <updated>2023-08-11T07:59:03+00:00</updated>
+    <id>https://blog.thebluemarble.io/rolls-royce-mercedes-bugatti-upgrade-luxury-car-marketing-with-nfts/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/rolls-royce-mercedes-bugatti-upgrade-luxury-car-marketing-with-nfts/"/>
+    <author>
+      <name>Sroojana Iyer</name>
+    </author>
+    <content type="html">How many times have you watched an ad featuring close-up shots of a car’s exterior and interior, highlighting its sleek design and luxurious features, often accompanied by dramatic music? Or an ad featuring a well-dressed ‘rich’ character driving a sophisticated car with luxurious materials making up the interior, showing off how fast it can go?
+        
+While we might roll our eyes in jest at the predictability of these ads, there’s a reason behind the ubiquitousness of them: when you’re marketing a luxury car brand, it’s not about just the car’s horsepower or interior. It’s about creating an aspirational dream in the minds of the audience: our cars are one-of-a-kind and by owning one, you are a part of an exclusive group.&amp;nbsp;
+    
+In other words, luxury car marketing traditionally works by creating a sense of exclusivity and desirability around the brand and its products. But it’s a complex and ever-evolving field, riddled with challenges. So, how can you reach an audience with high purchasing power and the desire to spend only on the best experience and convince them to choose your car brand?
+    What challenges do you face?    
+Branding
+    The leaping jaguar is one of the most iconic logos in the automobile industry, which is a testament to the strength of the Jaguar brand.    
+You&amp;#8217;re selling a product that&amp;#8217;s manufactured with high-quality materials and craftsmanship, while boasting of the comfort it provides, its limited numbers and most importantly: that it is a status symbol. The idea that owning a product conveys how ‘high’ your social status is only comes from branding. Luxury car brands need to rely on high-end branding to create an aura of sophistication and luxury. This includes using expert teams and premium equipment for video and photo assets, elegant logos and sophisticated advertising campaigns. In short: you need to be cool, but for the kind of people who want to show how socio-economically better off they are.
+    
+High Marketing Costs&amp;nbsp;
+    The cost of advertising on TV varies depending on time slots, length, etc. but is one of the most expensive forms of traditional marketing.    
+Marketing automobiles can be expensive, given the desire to create an expensive-looking brand, and using mass consumer-facing advertising channels like television and print media. Even with social media, brands cannot just send out ads and take someone to a store to shop: you need to repeatedly entice audiences to build the idea that, not only does the audience need a new car, but they need your car. Add the layer of targeting the right, niche audience via digital marketing and you have an extremely expensive, year-round campaign to run.
+    
+Consumer Attention&amp;nbsp;
+    There is no dearth of choice for people who can afford it, so they&amp;#8217;re more selective and easily distracted.    
+When you’re marketing to people who can afford a luxury car, you’re dealing with people who are spoiled for choice. A study by the University of California, Berkeley found that people who have more money are more likely to experience &amp;#8216;choice overload&amp;#8217;, which is the feeling of being overwhelmed by too many options. This audience also has high expectations: they&amp;#8217;re not just shopping for a car to drive, but the experience overall of being a part of a community that enjoys unrivalled quality.
+    
+Now, imagine all this, but with the knowledge that you’re up against many other brands with similar budgets, vying for the same audience.
+    Where do Digital Collectibles come in?    
+By nature, digital collectibles are exclusive and cannot be replicated. This makes them ideal for luxury car marketing: you can use them to create a sense of exclusivity and desirability.
+    
+ 
+Uniqueness: A limited-edition NFT drop, or access to private events through digital collectibles like a high-end social club for only your brand’s customers can make people think they have something rare in their reach.
+    
+Digital scarcity: You can create digital scarcity by only releasing very limited collectibles, and they can only be bought with the purchase of new cars or official accessories: all of which makes them more desirable.
+    
+Transparency: Consumers can see the history of ownership of a particular asset. Much like the provenance of a diamond, this is important for consumers, as is the veracity of their ownership.
+ 
+    How Luxury Car Brands have already used Digital Collectibles    
+Rolls Royce
+    ‘The Six Elements’ Collection was made up of 6 Rolls-Royce Phantom Series II cars, each featuring a Bespoke piece of art as digital collectibles.    
+Founded in 1906 in England, Rolls-Royce is a luxury car brand known for its iconic design, handcrafted interiors, and powerful engines. The company&amp;#8217;s annual revenue is estimated to be $2.7 billion.
+    
+In 2020, Rolls-Royce partnered with artist Sacha Jafri to create a series of NFTs called ‘The Six Elements’. Each NFT represents one of the six elements: earth, water, fire, wind, air, and humanity. The NFTs were sold with six new Phantom Series motorcars, and the owner of the car can also sell the NFT independently on secondary markets.
+    
+Lamborghini
+    Space Time Memory, Lamborghini’s first NFT project. A series of 5 photos of a Lamborghini Ultimae lifting off toward the stars.    
+Founded in 1963, Lamborghini is an Italian luxury sports car brand known for its high-performance vehicles and aggressive styling. The company&amp;#8217;s annual revenue is estimated to be $1.6 billion.
+    
+In January 2022, Lamborghini launched a collection of five NFTs called ‘Space Time Memory’. The NFTs were created in collaboration with artist Fabian Ofner and RM Sotheby&amp;#8217;s. The NFTs depict a Lamborghini breaking down into its core components after traveling through the atmosphere and entering space like a rocket.
+    
+Mercedes-Benz
+    &amp;#8216;Maschine ₈₉₄&amp;#8217; (Credit: Mercedes-Benz NXT, Fingerprints DAO, Harm van den Dorpel)    
+Founded in 1886 in Germany, Mercedes-Benz is a luxury car brand known for its wide range of vehicles, from sedans and SUVs to sports cars and minivans. The company&amp;#8217;s annual revenue is estimated to be $156 billion.
+    
+Mercedes-Benz announced a collaboration in early 2023 to release a generative art NFT collection called &amp;#8216;Maschine&amp;#8217;. The collection featured 1,000 unique Ethereum-based tokens that played on themes of velocity and perception. The collaboration and drop emphasised Mercedes-Benz&amp;#8217;s emphasis on innovation and aesthetics, which seamlessly connected to generative art.
+    
+That&amp;#8217;s not all: the company&amp;#8217;s dedicated Web3 arm (Mercedes-Benz NXT) that lead this project in fact aims to bring the collectibility of its vehicles and memorabilia to the digital realm with more work like this.
+    
+Bugatti
+    (Credit: Bugatti)    
+Founded in 1909, French-luxury car brand Bugatti is known for its exclusivity and high price tags. The company&amp;#8217;s annual revenue is estimated to be $500 million.
+    
+Asprey, a London jewellery house, and Bugatti collaborated in early 2023 on a new NFT project, the Asprey Bugatti Egg Collection. The collection consisted of a very limited number of physical eggs made from carbon fibre and sterling silver, each linked to a Bitcoin NFT. The eggs were inspired by the Bugatti Royale, a luxury car that was produced in the 1920s. The Collection was produced as both a physical object and NFT generative artwork.
+    
+The eggs were a fusion of tradition and innovation, and they offer a unique way to own a piece of history.
+    What Else Can Be Done?     
+NFT drops aligned with physical car purchases, or collections sold to fund corporate-social responsibilities are only the tip of the ice-berg.
+     
+With digital collectibles, luxury car brands can create a true sense of being owners of something nobody else has, while having access to a private world.
+    
+Access
+    
+Every owner of a car from your luxury car brand can be given access to some collectibles, which function as access passes to global events. From prestigious sporting events like the Olympic Games and FIFA, to invitation-only events like the Met Gala and the Davos Forum, to sought-after and expensive events like the Monaco Grand Prix and the Cannes or Sundance Film Festivals, these collectibles should offer their owners access to seats and invitations.&amp;nbsp;
+    
+Community
+    
+Much like a private social club, your brand can provide a space for owners of your car to mingle, with high-value events hosted like dinners or brunch for guests. Like invitation-only events, the only way someone can attend is with a digital collectible that they get by owning a car. By doing this, you create the idea of a closed-door community which people can feel proud and honoured to be a part of.
+    
+Rewards
+    
+Taking the idea of tier-systems and points from brand loyalty programs forward, special digital collectibles can be designed and shared with car owners, allowing them more incentives in the form of other limited-edition luxury goods, like watches or tailored clothing, new technology or movie screenings before their launch. The only requirement to upgrade tiers is to buy more after having bought a car. For example, buying anything from floor mats to performance parts and custom-wheels from your official store.&amp;nbsp;
+    In Conclusion&amp;nbsp;    
+Overall, digital collectibles can offer a number of advantages for luxury car marketing. Creating the right image is extremely important, and digital collectibles help enhance that image. However, you can’t create a one-size-fits-all strategy, or rely on basic drops of art collections.&amp;nbsp;
+    
+The audience for luxury car brands is highly discerning, busy, and selective: so, digital collectibles need to be used innovatively in a manner that is tailored to your brand. Instead of accidentally spending time and energy on using web3 to do this, reach out to The Blue Marble for expert advice that can help you upgrade your luxury car brand’s marketing strategy to really create something special.&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">Digital Collectibles and Web3: Revolutionising Merchandising</title>
+    <published>2023-08-02T10:55:00+00:00</published>
+    <updated>2023-08-02T10:55:00+00:00</updated>
+    <id>https://blog.thebluemarble.io/digital-collectibles-and-web3-revolutionising-merchandising/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/digital-collectibles-and-web3-revolutionising-merchandising/"/>
+    <author>
+      <name>Jess McMurray</name>
+    </author>
+    <content type="html">In a recent blog, we explored how Web 3.0 and digital collectibles can not only support products and brands as a marketing tool, but instead become the main attraction itself as an integral component of a brand’s wider product portfolio, as merchandise.
+    
+Leading brands—from household to luxury—have been in on the game in the last few years. So, lets explore some of the most progressive use cases, examining brands who have made digital collectibles the stars of their show.&amp;nbsp;
+    
+Why digital collectibles make perfect product sense        Contemporary brands are playing into the elements of consumer psychology to make each consumer feel special.    
+In setting up the case for digital collectibles as products in-and-of-themselves, we spent some time in our previous blog exploring the concept of ownership. We identified that far from the simple concept we might think it is, for some time society has understood ownership in a much more nuanced way. From stocks and shares to intellectual property and everything in between, it has been centuries since we’ve equated ownership only with tangible possession.&amp;nbsp;
+    
+But if it isn’t about what you can hold in your hand, what is ownership? And why does it matter as an idea?
+    
+Whilst there are obvious economic and socio-structural elements at play, our previous blog focused on the psychological dimension and why it matters for brands and marketing professionals. We identified that the desire to own things is underpinned by four central psychological dimensions:
+    
+ 
+Exclusivity
+    
+Relationships
+    
+A sense of community
+    
+Interactive value
+ 
+    
+So, how then are contemporary brands playing into these elements of consumer psychology with their own digital merchandise?
+    
+Let’s take a closer look.
+    Exclusivity    
+Even though ideas of ownership have evolved, at the heart of the concept is the idea that something is ours, not anybody else’s.
+     
+Feeling special and unique still matters to consumers.
+     
+Digital collectibles have the potential to play into this idea perfectly when they are ‘dropped’ on a limited edition basis. See for instance Jacob &amp;amp; Co’s (a luxury jeweller and watchmaker brand) SF24 Tourbillon NFT timepiece: a one-off ‘digital’ watch (in the new Web 3.0 sense) which sold for a price not dissimilar to many of their other physical one-off timepieces.
+    One of the Jacob &amp;#038; Co NFT collection, featuring 5 bespoke physical watches and 3 digital-only designs. (Image Credit: Jacob &amp;#038; Co.)    
+Is it any less exclusive just because it’s a digital image that anyone can see, rather than something only one person can wear on their wrist? Absolutely not. Just because an image can be duplicated doesn’t mean it loses its exclusivity: we’ve been buying Monet prints for years and nobody is pretending it holds anywhere close to the same value as that which hangs in the Louvre. Anybody can spray a girl with a balloon on a wall in Brighton, but that doesn’t make it a Banksy.
+    
+Similarly, with digital collectibles, it’s the internal knowledge of exclusive ownership that taps into your customers’ desire to feel pride, uniqueness and individuality. Digital Collectibles make customers feel special.
+    Relationships    Triumph Motorcycles allowed fans to own digital collectibles of an iconic motorcycle featured in No Time To Die, James Bond film. (Image Credit: Triumph Motorcycles.)    
+Consumers pick brands because they see them as extensions of themselves; they echo the values, ideas, qualities and interests of the person in question. This sharing of common traits is of course a foundational element of personal relationship building. So it follows that customers often feel close—and want to feel closer—to the brands they consume.
+    
+Digital collectibles achieve exactly this. They provide a much more direct and open line of communication between brand and buyer, and allow customers to tap into the past and present of the brand, or explore a particular dimension or theme associated with them. A great example is this offering from Triumph Motorcycles, UK-owned&amp;nbsp;motorcycle&amp;nbsp;manufacturer, who have dropped collectibles relating to both their past – with a Steve McQueen-based NFT collection, and their present, with a set of 9,007 Bond-based collectibles. The latter sold out within seconds of their launch.
+    
+Alternatively, Web 3.0 tools can be used to create not just connection, but an active feeling of investment – personal and financial. Initiatives such as that of the restaurant-based SHŌ Club ‘sho’ (ha) how NFTs can function as membership cards which foster greater feelings of personal investment and real, meaningful involvement with the brand. &amp;nbsp;
+    A sense of community    Brands like Nike have created loyal fandoms by investing in rewarding their community.    
+It’s well established that brands have the ability to create an almost tribal sense of belonging amongst their users. Think how militant Coke versus Pepsi drinkers are! Loyal brand users always have half an eye out for other people consuming the same brand as them, in some cases sharing a knowing glance or smile, or even striking up a conversation.
+    
+Digital collectibles have the potential to take this even further because of the ability to ‘build out’ behind the collectible: making the collectible both a desirable object-in-itself, but also a key to something further – an active, participative, ring-fenced online community. Nike for instance have focused on the creation of the Swoosh platform to immerse their fans in a whole world of digital collectibles.
+    
+But brands don’t need to necessarily build a whole platform; they can create a community which hinges around their digital collectibles through social media and shared communication spaces; through webinars, workshops, digital hangouts, forums, competitions and events. Whatever strategy you use for implementation, digital collectibles meet the deep psychological need of belonging: membership to a community of like-minded people with a shared value set and interest.
+    Interactivity    The Devils are an official Manchester United digital collectible (Image Credit: Rarible)    
+It can be tempting to believe that digital collectibles are passive in nature; images or certificates that just sit there. At least a physical product gives you something to do; to hold, play with, experience… Right? Not at all. Digital collectibles have just as much potential as actual merchandise – if not more.
+    
+On one level, interaction can occur at the level of creation. The Dudes, a community driven NFT project, doesn’t sell specific artwork, but the opportunity to generate a code-driven image at random, with varying levels of rarity. The process is an interaction between brand, consumer and serendipity – almost like gambling. Other brands, from fashion to athletic shoes and apparel, allow for the collectible to be actively used in a digital environment, in the form of avatars or other similar virtual constructions.
+    
+But digital collectibles also have the potential to cross-over from the virtual to the ‘real’ world. Manchester United, for example, have created the ‘Devils’, which interact with real-world occurrences (such as goals scored) to generate membership rewards for their owners. Unlike physical merchandise, they continue to create dynamic value for their owners.
+    
+Alternatively, Starbuck’s Odyssey throws just about every element of Web 3.0’s potential into the mix: digital collectible Stamps (NFTs) act as an access pass into a ‘journey’ through the world of coffee, both virtual and real-world, with rewards, competitions and community engagement all thrown in along the way.
+    How to create your digital product portfolio    
+The idea of selling digital collectibles as the product themselves—rather than as a marketing tool to augment and elevate a ‘traditional’ product sale—can seem daunting, if not outright bizarre. But it’s clear from the evidence above that the approach is already tried and tested, with a number of sector-leading brands pioneering the approach.
+    
+So, if you’re ready to take the plunge and transpose the things your customers love about your physical product into a digital environment, why not contact The Blue Marble? We can advise on how to leverage all the advantages of Web 3.0—its exclusivity, relationship building potential, community aspects and value-generating interactivity—to create a unique, desirable and collectible product that excites and invigorates your audience, from loyal brand advocates to those just starting out on their brand adventure with you.
+    
+Chat with us today.&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">The Future of Merchandise and Power of Ownership in the Digital Age</title>
+    <published>2023-07-31T12:20:46+00:00</published>
+    <updated>2023-07-31T12:20:46+00:00</updated>
+    <id>https://blog.thebluemarble.io/the-future-of-merchandise-and-power-of-ownership-in-the-digital-age/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/the-future-of-merchandise-and-power-of-ownership-in-the-digital-age/"/>
+    <author>
+      <name>Jess McMurray</name>
+    </author>
+    <content type="html">With the advent of new technology, the concept of ‘ownership’ and ‘currency’ have been discussed a lot over the last few years. In reality though, as a society we have always maintained a nuanced understanding of what it means to ‘own’ something, and have developed any number of complex ways to assign value to trade-able objects.&amp;nbsp;
+        
+Take for example the inhabitants of the island of Yap, whose chief form of trade-able currency up until the 19th century were huge 2.4 metre round stone ‘wheels’ called &amp;#8216;Rai&amp;#8217; weighing as much as 2000 kg. Whilst it’s comical to think of the Yapese rolling their big stones to market, they were actually much more practical about matters: they simply remembered and conveyed by word of mouth who owned which stone, when. And even more interestingly, when a big Rai rolled down the hill and fell into the sea, it was still kept on the ‘roster’ of Rai and the owner maintained its tradable value. So long as it existed in the collective memory, it was valid even without its physical form being present.
+    
+Aside from being a very interesting piece of trivia, why might this matter in the realm of marketing and the idea of digital collectibles?
+    Moving from the tangible to the intangible    The ideas of currency, merchandise and ownership have always been more than just what one can tangibly hold on to.    
+Well, the key idea is that even back in the 1600s, the Yap had a truly conceptual grasp of ownership. And indeed in Europe, similar ‘conceptualisations’ of ownership were also developing: the first cheque was issued to promise the payment of money in 1659, the Dutch invented financial shares in 1602 and the first Intellectual Property law came about in 1709, with the Queen Anne Copyright Act in the UK.
+     
+We quickly accommodated the idea that ownership didn’t have to be about the physical possession of or exclusion from something.&amp;nbsp;
+    
+The resource could be artificially limited, rendered scarce or conceptually represented by social agreement – upheld in large part through the law.
+     
+It&amp;#8217;s no surprise we’ve developed such nuanced notions of ownership though, given how foundational the concept is to us, personally, socially and economically. Be it through copyright, patent, trademark, legal right or financial instrument, we have adjusted to the idea that intangible ownership is as real as anything we can hold in our hand. &amp;nbsp;&amp;nbsp;
+    
+Why? Because people’s desire to own is not tied to an innate desire for an object itself. The concept of ownership is a powerful psychological tool that relates heavily to how one perceives themselves and extends that self into the world.
+    Making the leap in the 21st century    Enter: NFTs and worldwide scepticism of intangible exchangeable collectibles.    
+Strange then that the original launch of NFTs—now more frequently referred to as digital collectibles—had people scratching their heads. ‘Why would we pay all of this money for this copy when we can make copies of the same thing for free?’. While it&amp;#8217;s true that we can all try to pay with monopoly money, buy fake Louis Vuitton bags, and borrow our favourite album from a friend, doing so misses the fundamental point of ownership: the joy, exclusivity, prestige and knowledge you&amp;#8217;re supporting something that means something to you. Ownership has progressed so far beyond the artefact in question that the artefact has ceased to matter: it is all about the values attached to the idea of ownership.
+    
+Fortunately, as the market has become increasingly comfortable with the idea of ‘digital realities’ – lives lived as much online as on land, where virtual existence and interaction carries as much meaning, purpose and impact as our ‘real world’ actions, then we have also increasingly understood that digital ownership is a concrete, meaningful reality too.
+    Why this matters for marketing professionals: tapping into the psychology of ownership with digital collectibles    Owning a luxury watch is less about telling the time and more about the prestige of owning a particular brand&amp;#8217;s watch.    
+A company is not their product, but their brand. A Rolex is not about telling the time. A collector’s card is not about a nice picture and some sports stats. A Disney plushie is not about needing something to hug. The physical object is secondary to the idea it embodies.
+    
+But ownership isn’t merely ‘showing off’ to others either. Brand psychology is no longer so much about ‘conspicuous consumption’ as ‘inconspicuous consumption’: the pure joy of ownership, the cementing of an internal sense of self through something external. Why else would people spend millions stashing away art in their mansions, hidden from the envious gaze of others? Because ownership is in itself its own reward.
+    
+That is not to say that the social dimension of ownership doesn’t matter. It’s just that these days the focus is less on elitist exclusion, and more on the idea of the self and its relationship to social belonging. We don’t want to distance ourselves from those we see as different to us, we want to align ourselves with those we hope are similar to us. Ownership is now about both ideas of the self and belonging (read more about that here).
+    How digital collectibles come into play    It&amp;#8217;s all about creating the kind of brand that customers will line up for, to chase the feeling of ownership.    
+Take all of these ideas above: the idea that ownership is conceptual, the idea that ownership matters as a way of expressing the self, and the fact that ownership creates and grants access to a shared sense of community and a very apparent conclusion can be reached: brands don’t need physical products or merchandise to entice their customer base, they need to grant them a feeling of ownership that resonates on a socio-psychological level.
+    
+The answer: digital collectibles.
+    
+Not as something supplementary to the main product line. Not as a gimmick or a marketing device. But as merchandise in and of itself.
+    
+Why?
+    
+Because in essence, digital collectibles are a unique or limited-edition copy of a virtual item. As such, they have the potential to provide customers with everything they value from ownership: exclusivity, relationships, a sense of community and ongoing, interactive value. Arguably, they can achieve these things more effectively than any physical merchandise offering – a position we explore further in this article, where we dive more deeply into each of these crucial elements, and identify some of the major brands who have already been exploring the potential of NFTs as merchandise with great success.
+    
+Interested in not merely supporting your existing product line with Web 3.0 technology as a marketing tool, but actually integrating digital collectibles directly into your product line? Explore the idea further with us at The Blue Marble: chat with us today.&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">The Future of Marketing: Web3, Digital Collectibles &amp; Brand Loyalty</title>
+    <published>2023-07-13T10:20:19+00:00</published>
+    <updated>2023-07-13T10:20:19+00:00</updated>
+    <id>https://blog.thebluemarble.io/the-future-of-marketing-web3-digital-collectibles-brand-loyalty/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/the-future-of-marketing-web3-digital-collectibles-brand-loyalty/"/>
+    <author>
+      <name>Steve Walker</name>
+    </author>
+    <content type="html">Brand development, customer engagement, loyalty promotion: the holy trinity of concerns for any marketing executive. Regardless of size, market or strategy, all brands are looking to do three things when it comes to their customers: get them in, get them excited, and keep them around.
+        
+But in increasingly competitive, saturated markets, and with almost impenetrable noise across the usual mechanisms of engagement—particularly social media—marketing executives find themselves increasingly exhausted as they search for new ways to achieve these three goals.
+    
+When a new potential option presents itself, marketing executives are faced with an even greater challenge; hitch your wagon to a new and unproven strategy/technology which might potentially prove to be a mere flash-in-the-pan, or wait to see others leverage the success of innovation and risk falling behind and appearing out of date?
+    The answer? Web 3.0    Web3 revolutionises connectivity, surpassing our conventional expectations.    
+Where Web 2.0 drove interaction and engagement, Web 3.0 builds upon this, creating not just dialogue but relationships and community, two crucial aspects for the formation of a long-term, meaningful relationship between brand and customer.
+    But what is Web 3.0?    
+In essence, it’s a new iteration of the online environment which places a focus on the decentralisation of control – focusing not on unidirectional, hierarchical, two party engagements (such as between social media behemoths and individual users), but instead collaborative, flattened communities of equal standing, driven by a shared relationship with the brand.
+    
+Whilst most are familiar with seeing this in the context of currency, Web 3.0 has implications that extend far beyond the world of cryptocurrency.
+    
+And marketing is one of those worlds.
+    
+Think for a moment about what we know to be the foundations of effective marketing: done well, it taps into the fundamental psychology of both individuals and groups. And as far back as the 1950s, Maslow established that a core component of his ‘hierarchy of needs’ was the idea of connectedness; friendship, shared experience and a sense of belonging, but also self-esteem, with a focus on status and recognition.
+    
+The idea of marketing should therefore be to unite people together around your brand as members of something which is bigger than the sum of its parts – fostering belonging, but also developing a sense of personal value within that group. This means not creating a brand relationship, but a brand community, and paying respect to the role and value of each member within it.
+    Maslow&amp;#8217;s hierarchy of needs is a theory by Abraham Maslow, which puts forward that people are motivated by five basic categories of needs.    
+Web 3.0 – with its focus on egalitarian engagement where the brand is the facilitator, not the focus, does exactly this. It helps to build an environment that doesn’t feel transactional, fake or contingent – but is instead based on more fundamental human connections: trust, shared values and mutual aspirations.
+At the same time though, it taps into that aforementioned aspect of self-esteem; playing to the human desire to possess, the focus of the mind on resource scarcity, and the resulting desire to hold that which is limited and exclusive in nature. &amp;nbsp;
+    How?    From sports to gaming, digital collectibles have already revolutionised the fans&amp;#8217; experiences.    
+In a word two words: digital collectibles. &amp;nbsp;
+    
+Once referred to as NFTs, digital marketers have started to distance themselves from the original term in order to highlight their focus on applying the technology in a way that is more meaningful and less gimmicky.
+    
+Digital collectibles can be deployed in a variety of ways, and it’s their flexibility that is so valuable – because it allows companies to create something tailored to both their own values, and those of their customer base. That might be in the form of ‘Social Good’ collectibles, where customers collect a unique, identifying record of their contribution towards a particular social good – whether that’s a unit of carbon or a school place for a disadvantaged child.
+    
+Because as NFTs, digital collectibles aren’t merely symbolic, they represent an irreplicable record of something virtual or intangible, but none-the-less real and meaningful.&amp;nbsp;&amp;nbsp;
+    
+This means that digital collectibles can also act as the equivalent of a uniquely collectible physical item; rare, desirable, limited and iconic. In other blogs we’ve explored the interesting, engaging and often exciting ways in which leading brands have deployed digital collectibles as a key component of their marketing strategy. For Coca Cola that involves the collection of reworked vintage design collectable cards, playing on the history and ‘friendship’ element of the brand (and thus tying right back to the ‘I’d like to buy the world a Coke’ marketing campaign that was so foundational to Coke’s success, it ended up being the punchline to American hit series Mad Men). Similarly, Louis Vuitton sought to use digital collectibles to let customers tap into the iconic cultural history of the brand, whilst also including an element of gamification to keep their customers engaged, excited and hungry for more LV content, both digital and tangible.
+    
+But there is no one-size-fits-all strategy. Take for instance Disney’s collectibles, which straddle the line between catering to those with an obsessional love of the brand, and those with an obsessional love of making money from the brand. In essence, they made a virtual reality of two specific types of ‘Disney’ people; those who wear their rare Gerald Genta Mickey Mouse watch every day because they love it, versus those who keep that same watch in its original packaging, in a humidity controlled box away from direct sunlight, knowing the fortune they stand to lose the moment it leaves its packaging and adorns their wrist. In other words, their collectibles tap into both passion and profit.&amp;nbsp;
+    
+Meanwhile Topps, an American company that manufactures trading cards, have not just tapped into the incidental collectibility of their brand (like Disney), but have actually replicated their entire business model (fandom card collection) in digital form. The NBA allows you to collect not just players, but moments &amp;#8211; therefore providing a method for individuals to demonstrate their undying team allegiance in a way that goes far beyond what mere jersey sales could achieve. And on the subject of loyalty, Starbucks have kept it simple by using Web 3.0 and NFT technology to introduce a straightforward (but sophisticated) loyalty program.&amp;nbsp;
+    
+Regardless of the superficial differences in strategy amongst these brands though, there is one common element to how they deploy digital collectibles: the ability to leverage them to create a community. Brands can use digital collectibles and the lynchpin around which they create platforms; platforms where these digital collectibles are not just acquired (often in conjunction with a more conventional, tangible purchase), but then used; traded, discussed, explored and enjoyed. This means customers don’t just buy into the brand with a meaningful investment, they’re also encouraged to interact through that collectible on a regular basis – driving exactly what marketing departments want: customers who come back again and again. This in turn creates ongoing engagement and deepening connection, which results in enduring loyalty. It changes the brand relationship from one of passivity, to one of reactivity, and moves it all the way through to proactivity.
+    Who?    For start-ups or established companies pushing into new territories, this can seem daunting.    
+Any sensible person knows there’s no one-size-fits-all marketing strategy. So, it follows that digital collectibles aren’t for everybody. Tier One brands are already blazing the way with their digital collectible strategies; Nike, Adidas, Gucci, Time Magazine, Coca Cola, Disney: all have sought to create communities of belonging and excite the emotion of exclusive ownership through digital collectibles.
+    
+It’s now time for more brands to take up the mantle and push forward. Challenger brands of any market that want to innovate and engage; brands in sectors that need to foster long-term buy-in and fandom from their users; sports, entertainment, services and leisure/luxury consumption. Companies who want to offer something much bigger than a mere product; they want to create experience and emotion. One that lasts.
+    
+For start-up companies, or even more established companies pushing forward into new territory, it can be hard to find the resources to buy-in to the world of digital collectibles; the learning curve can often appear steep with high upfront investment in supporting infrastructure.&amp;nbsp;
+    
+It’s here that The Blue Marble comes in: we’ve assembled the knowledge, experience, expertise and platform needed to guide companies through their transition into a Web 3.0 oriented strategy – helping them to develop a digital collectible strategy that is congruent with their wider market position, brand identity and commercial goals. We can move companies to the platform and provider they need to truly leverage the potential of digital collectibles and develop tangible returns on their strategy. More than this, our pay-as-you-go pricing structure eliminates the concerns associated with investing in a self-developed, untested platform which risks missing the mark.
+    Why Now?    Sentiment has shifted about digital collectibles as more marketing professions have started adopting NFTs.    
+In answering this we return to the point we raised above: when is the right to jump in with a new technology? There are risks associated with market leadership, but equally, market laggards stand to lose just as much.
+    
+The idea of digital collectibles currently occupies a sweet spot in this regard. As identified above, market leaders in their respective industries have pushed forward with their own Web 3.0/digital collectible strategies. But second and third tier firms are not yet fully exploiting the opportunity – in part because of the not-always-wonderful publicity that surrounded NFTs. But anybody who has followed the market more closely will recognise that once the initial NFT furore died down (a furore that these days inevitably faces any technological innovation), digital collectibles and Web 3.0 have actually matured well and established their potential for longevity. Indeed, research conducted by HubSpot last year indicated that 14% of marketing professionals have started using some form of NFT in their campaigns, while a further 16% expressed their intention to within the upcoming year.
+    
+It is this sweet spot – where a technology is just breaking into its mature phase, but is not yet recognised by the mainstream – that gives progressive-minded companies the greatest opportunity to jump in on the fresh potential of the solution, but with a much lower level of risk.
+    What now?    
+If you see your company and brand as bold and progressive, and feel mentally ready to make important steps forward in your marketing strategy, but you feel you lack the knowledge, resources and expertise to do so: that’s where The Blue Marble comes in. Our experience is broad and our platform established and tested, with a proven track record, so we are well positioned to help businesses of all sizes, shapes and strategies make a transition to Web 3.0. But our approach is narrow enough to guarantee the level of focus, attention and context-specific advice needed to ensure that your company receives the personalised attention and advice it deserves, working together and listening closely in order to develop a strategy tailored to your specific needs.
+    
+To make the first steps and find out more, chat with us today.&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">Transform Sports Marketing &amp; Fan Experiences with Digital Collectibles</title>
+    <published>2023-07-04T10:54:33+00:00</published>
+    <updated>2023-07-04T10:54:33+00:00</updated>
+    <id>https://blog.thebluemarble.io/transform-sports-marketing-with-digital-collectibles-manchester-united/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/transform-sports-marketing-with-digital-collectibles-manchester-united/"/>
+    <author>
+      <name>Steve Walker</name>
+    </author>
+    <content type="html">As one of the most revered football clubs globally, Manchester United has mastered the art of engaging fans and creating unforgettable experiences. But can we unravel the club&amp;#8217;s ticket sales tactics and find ways to improve upon their strategy? Read on for a hypothetical campaign that shows just how using digital collectibles can help catapult your sports marketing to a new level.
+        First things first: What does Manchester United Already Do    
+Manchester United employs a range of strategies to ensure their passionate fans can secure tickets. They prioritise their dedicated season ticket holders, granting them the first opportunity to purchase tickets, which are typically more affordable than individual match tickets. For the general public, match tickets are offered on a first-come, first-served basis, emphasising the significance of early purchase, particularly for high-profile games.
+    
+Leveraging the power of digital collectibles and non-fungible tokens (NFTs), we can create an innovative marketing campaign that deepens the connection the club has with its devoted fans and boost ticket sales for matches at the iconic Old Trafford stadium. It can not only revolutionise the fan experience, but also foster increased brand loyalty while offering unique incentives to supporters.
+    Pre-Launch: Digital Match Tickets    Manchester United prioritises loyal fans but can leverage digital collectibles.    
+The Premier League, which Manchester United has won 13 times, is the highest level of the English football league system. The season typically starts in August and ends in May, with each team playing 38 matches against all other teams both at home (i.e. their own stadium) and away (at others). Most games are played on Saturday and Sunday afternoons, with occasional weekday evening fixtures.
+It’s the perfect time to set our hypothetical campaign. So, before the start of the season, the club would need to introduce NFT-based digital match tickets that fans can purchase and collect. The incentive to buy? Personalisation. When tickets are personalised with a fan&amp;#8217;s name, match details, etc., it creates a special feeling of ownership for the fan. The tickets can be designed to offer two varieties: one ‘type’ that’s only for a specific match, and one that’s a season pass. Effectively creating tiers, each should offer fans more than a digital match ticket: in fact, they should be able to get exclusive content related to the game and players.
+    Through the Season: Exclusive Content    Digital collectibles offer exclusive access to behind-the-scenes content for fans. (Credit: Michael Discenza on Unsplash)    
+Fans crave an intimate connection with their favourite team, vying to know more about their favourite players’ strategy and training. Through these digital collectibles, the club can offer exclusive access to behind-the-scenes content, including training sessions, locker room tours, and interviews with players and staff. Fans can gain unprecedented insight into the club&amp;#8217;s inner workings and experience the daily life of their football idols.
+    
+Fans should also be offered a chance to relive Manchester United&amp;#8217;s greatest victories and historic moments through iconic match scenes that can only be accessed as NFTs. From last-minute goals to championship celebrations, these digital collectibles will allow fans to own a piece of the club&amp;#8217;s legendary history. Each NFT will be accompanied by a detailed description and commentary, providing fans with a deeper understanding of the significance of the moment and connecting them emotionally to the club&amp;#8217;s rich heritage.
+    
+For season pass owners, all this can be made special either through quantifiable ways (where they have access to many such content pieces, while those with only single-match tickets can see a limited number) or by offering more personalised and exclusive content. So, if everyone can see player interviews and locker room tours, the season-pass owners can also, in addition, see videos of the coaches running through strategy, or team matches played for practice.
+    Through the Season: Increasing Rewards    Web3 allows enhanced fan experiences with unique NFT player cards &amp;#038; other exclusives.  (Credit: Photo by Shubham&amp;#8217;s Web3 on Unsplash)    
+To further incentivise the fans to attend more matches, the club can announce additional rewards.
+    Limited-Edition Player Cards    
+Manchester United&amp;#8217;s star players can introduce their own unique NFT player cards. These collectible cards can showcase the player&amp;#8217;s statistics, achievements, and memorable moments from their career with the club. Fans will have the opportunity to collect and trade these cards, fostering a sense of community among supporters. Owning rare player cards may unlock special benefits, such as priority access to match tickets or invitations to exclusive events.
+    After-Parties    
+The club can leverage digital collectibles and non-fungible tokens (NFTs) to create exclusive experiences, such as granting special fans access to post-match after parties. They essentially turn into VIP tickets for a select few, so they get to actually share space and rub shoulders with their favourite players and the coaching staff. This can be made even more special by offering special artwork or photographs commemorating the event that can be accessed through with NFTs too.
+    Hospitality    
+Incorporating NFTs into hospitality packages, based on attendance, can offer fans a more immersive and memorable experience. These enhanced hospitality packages can include additional amenities like access to VIP lounges, complimentary food and drinks, and individual tours of Old Trafford. Not only would these be unforgettable experiences, but tangible ones.
+    Our Conclusion?    
+While this is a hypothetical campaign, you can see how the implementation of digital collectibles can seamlessly integrate with an existing sports marketing effort to increase both brand loyalty and ticket sales.
+    
+Fans are at the centre of what clubs like Manchester United care about, so finding new and exciting ways to reinforce the bond between the club and its fans turns them into proud brand ambassadors who feel like they’re paid attention to and rewarded for their loyalty and advocacy. When this kind of sentiment is fostered and added to with exclusive benefits, it turns match tickets into highly sought-after items, because fans want the kind of immersive, augmented experience digital collectibles promise them on every match day.
+    
+At The Blue Marble, we can work with you to craft innovative sports marketing campaigns that harness the power of digital collectibles while understanding how you want to deepen your connection to your fans. Through our tailored strategy and seamless execution, you can make use of our sustainable marketplace that’s funded by a carbon-neutral blockchain to use web3 to deepen customer relationships and sweat your best asset: your fans.
+    
+So, what are you waiting for?
+    Chat with us today.&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">4 Common Mistakes Brands Make in Their Marketing and How to Avoid Them</title>
+    <published>2023-06-19T11:20:02+00:00</published>
+    <updated>2023-06-19T11:20:02+00:00</updated>
+    <id>https://blog.thebluemarble.io/4-common-mistakes-brands-make-in-their-marketing-and-how-to-avoid-them/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/4-common-mistakes-brands-make-in-their-marketing-and-how-to-avoid-them/"/>
+    <author>
+      <name>Steve Walker</name>
+    </author>
+    <content type="html">If you’re running a big brand, chances are, your marketing efforts are an attempt to battle numerous competitors in a cluttered market, trying to connect with a target audience with low attention spans, building brand loyalty and driving high business growth. However, there are some common mistakes that can hinder the effectiveness of your marketing campaigns. So, read on as we explore the most prevalent mistakes made by big brands and how you can overcome them.&amp;nbsp;
+        Lack of Personalisation    Making a customer feel like they&amp;#8217;re special makes a big difference.    
+One significant mistake big brands make is failing to personalise their marketing efforts. Generic messages and a one-size-fits-all approach can lead to disengagement and a lack of connection with the target audience.
+    Example:    
+If you’re a loyal reader of a lifestyle magazine but only read their fashion-related content, receiving emails about generic content through the website can make you feel like a mailer is more of spam rather than a suggestion of new content to check out. That means the magazine is going to see not just decreased open rates and website traffic, but end up with less loyal readers, who will eventually find a more dedicated or personal experience.
+    Solution:    
+Big brands should leverage customer data and segmentation to deliver personalised experiences. By analysing customer behaviour, preferences, and purchase history, brands can tailor their marketing messages, offers, and recommendations to specific customer segments. If you have a Shopify store, then you can leverage the data at your fingertips to give your customers a tailored experience and foster a deeper connection with them.
+    Poor Integration of Marketing Channels    Integrated marketing ensures you have a seamless and easy experience for customers, which reduces the chance of losing their attention or goodwill.    
+Another common mistake is the failure to integrate marketing channels effectively. Inconsistent messaging and disconnected customer experiences across different channels can create confusion and dilute the brand&amp;#8217;s impact.
+    Example:    
+A fashion brand runs a social media campaign promoting a limited-time sale on their latest collection. Customers are enticed to visit the website to explore the discounted products. However, upon visiting the website, customers can&amp;#8217;t find any mention of the sale or the discounted items. Furthermore, they send out email newsletters to their subscribers, featuring new product releases and exclusive offers but when customers click on the links in the email, they&amp;#8217;re redirected to a generic landing page on the website, rather than a dedicated page showcasing the promoted products. This inconsistency in the customer journey results in a disjointed experience, reducing customer engagement and conversions.
+    Solution:    
+Big brands should adopt an omni-channel marketing approach, ensuring a seamless and cohesive brand experience across all touch-points. By integrating messaging, design elements, and offers consistently across channels such as TV, social media, email, and websites, brands can reinforce their brand identity and deliver a unified message to customers. It’s also important to use tools like Zapier that can connect the tools you use—like the entire Google suite of software, social media platforms, CRM software &amp;nbsp;and even Shopify—to streamline your processes. The Blue Marble even uses Zapier to ensure digital collectibles can be automatically sent from over 5000 applications, allowing a brand to add collectibles to their existing workflows with ease.
+    Overlooking Influencer Marketing    Don&amp;#8217;t look down on influencer marketing: it&amp;#8217;s a way to reach out to new audiences authentically.    
+Influencer marketing is a powerful strategy for big brands to reach their target audience authentically. Audiences tend to believe in people more than institutions and faceless brands, which helps ensure your communication is being met with some interest. However, some brands make the mistake of overlooking influencers, assuming it’s an unnecessary expenditure, or that all influencers are the same. And this can cost you reaching new audiences that have a vested interest in the person sending out your message.
+    Example:    
+A well-known beauty brand launches a new product without leveraging the potential of influencer collaborations. As a result, they miss out on the opportunity to leverage the trust and credibility that influencers have built with their audience, and have to spend money on ads that will always carry the touch of being from a faceless company instead.
+    Solution:    
+Big brands should identify influencers who align with their brand values and target audience. Take Kylie Cosmetics, for example: every new product launch will happen alongside collaborating with influencers by having them unbox new products on social media.&amp;nbsp;
+    Ignoring New Digital Technology    From NFTs to virtual reality, there have been many new technological advancements to leverage.    
+In today&amp;#8217;s fast-paced digital landscape, technological advancements have opened up new possibilities for marketing innovation. However, some big brands make the mistake of being resistant to change or ignoring emerging digital trends, missing out on valuable opportunities to upgrade their marketing efforts.
+    Example:    
+Nintendo, one of the biggest video game creators in the world, relies on more traditional advertising methods while Atari has begun investing in using digital collectibles like NFTs (Non-Fungible Tokens) to engage their customers in unique and immersive ways, resulting in growth and sales.
+    Solution:    
+Big brands should stay informed about emerging digital technologies and explore how they can be integrated seamlessly into their marketing strategies. Digital collectibles like NFTs provide a unique opportunity to create limited-edition digital assets that can be used as promotional tools, rewards for customer loyalty, or as a means to offer exclusive access to experiences. That doesn’t mean diving into using them without doing some basic preparation and homework first, but it doesn’t mean sticking to only what you know.
+    Our Conclusion?    
+In a world that’s changing rapidly, it’s easy to be wary of all the new ways one can market themselves, or to assume everything can be done through a quick Google Search or use of an AI tool. However, for a marketing campaign to result in crucial growth for your brand, you need to address strategy carefully and avoid these common mistakes.
+    
+Constant adaptation and innovation are key. So, if you’re a big brand who’s got half of this list nailed down but is still struggling with positioning yourself for success in capturing the attention and loyalty of customers with new technology like digital collectibles, then it’s time to reach out to an expert to not just understand what you can do, but how you can seamlessly do it as a part of an integrated marketing campaign.
+    
+So, what are you waiting for?
+    Chat with us today.&amp;nbsp;</content>
+  </entry>
+  <entry>
+    <title type="html">Must-Have Checklist for Brand Marketing with Digital Collectibles</title>
+    <published>2023-06-15T12:01:37+00:00</published>
+    <updated>2023-06-15T12:01:37+00:00</updated>
+    <id>https://blog.thebluemarble.io/must-have-checklist-for-brand-marketing-with-digital-collectibles/</id>
+    <link rel="alternate" type="text/html" href="https://blog.thebluemarble.io/must-have-checklist-for-brand-marketing-with-digital-collectibles/"/>
+    <author>
+      <name>Steve Walker</name>
+    </author>
+    <content type="html">We’ll be the first to admit that we want you to invest in using digital collectibles in your marketing campaigns. Taking this step can revitalise your relationship with your customers, creating new opportunities for your company and deeper relationships with those who buy from you. However, much like every tool in your arsenal, you need to know how to wield even this correctly: and that means running through a handy check-list beforehand to figure out if using digital collectibles is what you and your brand need.
+    
+So, read on as we put together exactly what you need to think about before diving into the world of web3 marketing! You’ll notice some familiar steps that even traditional marketing manuals will warn you about along with a few new ones.&amp;nbsp;
+        What are your goals?    Clarify objectives first and consider seeking out expert guidance, if needed.    
+Before embarking on marketing using digital collectibles, it’s crucial to establish clear objectives that align with your brand strategy. Don’t get caught up in the desire to just jump on board something new online, but instead determine if using web3 can give you the results your brand needs. For example, if you want to increase your brand’s top-of-mind awareness, then can digital collectibles really help with that? 
+    
+It’s okay if you’re confused! With any new technology or product, there’s a learning curve; and web3 is no different. You can learn about the basics first, before answering this question, or even just reach out to chat with experts who can guide you. 
+    
+Remember: Using digital collectibles will only be effective if you’re clear about objectives and expected results.
+    Have you considered your target audience?    Research your target audience and tailor digital collectibles for enhanced receptiveness.    
+Do you have a core target audience for your brand or the campaign you wish to run? Conduct thorough research to understand this audience&amp;#8217;s interests, preferences, and digital behaviour. If you run a Shopify store, then leverage the information you already have and examine the pattern of behaviour this audience has exhibited when on your website and buying your product. Determine whether your audience is already engaged with digital collectibles, requires education on the topic or is averse to it entirely. After all, you don’t want to use something that will alienate you from your core audience!
+    
+Remember: If you tailor your use of digital collectibles to the target audience, it enhances their receptiveness to the campaign and therefore, the brand.
+    What are the different ways you can use digital collectibles?    Brands like the NBA have used video highlight reels as digital collectibles to increase fan engagement.    
+Globally, many brands—small and large—have started using NFTs and digital collectibles to garner attention, brand love, customer loyalty, or sales. Do some research and find out all the different ways brands have used digital collectibles, to really understand the range of options you can avail of to meet your campaign goal.
+    
+For example, like the NBA, you could just drop digital collectibles that are video highlights. But if you’re actually selling movie memorabilia, then it might make more sense to use collectibles to provide fans with access to exclusive and limited-edition lines of memorabilia. Or, if you run a fashion brand, then use web3 to provide access to virtual experiences or physical events like runway shows.
+    
+Remember: think beyond the term ‘NFT’ and strategise about what you need to do with digital collectibles that aligns with your brand identity and services.
+    Have you included marketing the collectibles themselves in your plan?    Implement a comprehensive marketing strategy to get the most out of your digital collectibles.    
+There’s no point in including digital collectibles if nobody knows about them! Much like having AR filters on Instagram or creating micro-sites and long-format content on YouTube as content marketing, you cannot simply have an asset but need to sweat it. This means your marketing plan needs to extend to include talking about the new collectibles/the way you’ve incorporated them.
+    
+So, for example: if you’ve upgraded your customer rewards program using web3, then it’s not enough to just leave it there. You need to send out emailers and messages to existing customers in the rewards programme, and use collateral like in-store notifications to entice new registrations. If the reward tiers now include collectibles that provide exclusive access, information or products, then let people know!
+    
+Remember: NFTs alone do not guarantee success; a well-rounded marketing strategy is what you need.
+    Have you thought about the user experience?    Ensure a user-friendly journey for your audience, which means simplifying access to digital collectibles.    
+You might not be the only one learning about web3! The world of digital collectibles, wallets and cryptocurrency is new for everyone: which means it’s easy for your users to get confused through the journey you’ve outlined with new digital collectibles.
+    
+You need to make sure that you’ve plotted the journey out clearly, and are providing a seamless experience in a way that is easy-to-understand for even those with no expertise with technology. There is no use to the digital collectibles if customers cannot access them. If you’re not sure about how this can happen, or feel like there are too many steps to ask customers to take, then you can avail of services like The Blue Marble. That way, you can send digital collectibles to anyone using just an email address, with no technical skills required by you or your recipients.
+    
+Remember: always keep your customer in focus and think about what will enhance their satisfaction. 
+    Our Conclusion?    
+It’s exciting to embark on a journey with new technology to offer yourself, your brand and your customers an enriched experience. As the digital marketing landscape evolves, however, it’s incredibly easy to jump on a bandwagon without the right preparation. This will only result in low-performing campaigns, and in turn, unhappy brands and customers. It is, therefore, crucial to approach your web3 marketing dreams with a well-defined checklist to maximise success. 
+    
+At The Blue Marble, we understand the transformative potential of digital collectibles in elevating your brand and engaging with your audience in unique ways. From helping you prepare, to tailoring strategy, to executing the perfect web3 campaign, we’ve got your back! All you need to do?
+    Chat with us today.&amp;nbsp;</content>
+  </entry>
+</feed>
