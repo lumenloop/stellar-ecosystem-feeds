@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">JSON Next Data Bridge</title>
+  <link rel="alternate" type="text/html" href="https://example.com"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=JsonNextDataBridge&amp;context=Main&amp;url=https%3A%2F%2Frahat.io%2Fblogs%3Fpage%3D1%26limit%3D10&amp;items_field=props.pageProps.blogs.data&amp;article_field=slug&amp;prefix=https%3A%2F%2Frahat.io%2Fblogs%2F&amp;author_field=&amp;pubdate_field=published_date&amp;pubdate_source=json&amp;date_format=&amp;content_field=content&amp;scrape_content_selector=&amp;article_json_field=&amp;content_cleanup_regex=&amp;remove_styling=on&amp;format=Atom"/>
+  <icon>https://example.com/favicon.ico</icon>
+  <logo>https://example.com/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=JsonNextDataBridge&amp;context=Main&amp;url=https%3A%2F%2Frahat.io%2Fblogs%3Fpage%3D1%26limit%3D10&amp;items_field=props.pageProps.blogs.data&amp;article_field=slug&amp;prefix=https%3A%2F%2Frahat.io%2Fblogs%2F&amp;author_field=&amp;pubdate_field=published_date&amp;pubdate_source=json&amp;date_format=&amp;content_field=content&amp;scrape_content_selector=&amp;article_json_field=&amp;content_cleanup_regex=&amp;remove_styling=on&amp;format=Atom</id>
+  <updated>2025-04-11T22:08:58+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">User-Centric Workshop for the Blockchain for Anticipatory Action Project (B4A)</title>
+    <published>2025-04-11T00:00:00+00:00</published>
+    <updated>2025-04-11T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/user-centric-workshop-for-the-blockchain-for-anticipatory-action-project-b4a</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/user-centric-workshop-for-the-blockchain-for-anticipatory-action-project-b4a"/>
+    <content type="html">&lt;p dir="ltr"&gt;&lt;a href="https://rahat.io/"&gt;Rahat&lt;/a&gt; Blockchain for Anticipatory Action (B4A) project is in collaboration with Mercy Corps Nepal, &lt;a href="https://www.mercycorps.org/"&gt;Mercy Corps Venture&lt;/a&gt;, and Stellar. The B4A project aims to implement blockchain technology to digitize and streamline the anticipatory actions process, ensuring efficient and transparent tracking of fund flow to enhance the effectiveness and accountability of disaster preparedness efforts.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;This project supports 100 vulnerable households in a flood-prone area of Nepal by providing early warning alerts via text and voice messages, along with blockchain-based digital tokens. In this pilot, the Rahat platform will implement a multi-signature trigger mechanism, a blockchain security feature requiring approval from multiple parties before any action is taken, Using forecast data and human triggers, the system will automatically send out early warnings (text and voice) and initiate token transfers once the appropriate triggers are activated.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLvyGSkHUR2xHgEvK5yhV9PLchsTk3FWjIOH7vbt4PHoQadqCA6YjCdzfsC3tbziO4Fg8LnQBFMx-0nTjlBIves_2C3kvde_ThQrZ-SwSSaSKoiaFDqXE-LyNLIw15ebsmBC5E?key=b8Kgr9Z0Bm8IiIFhQQYk-po7" width="624" height="468"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;To refine the anticipatory action tool developed by Rumsan, we hosted a User-Centric Workshop in two phases, ensuring the system is tailored to meet the needs of the people it aims to serve.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Phase 1 &amp;ndash; February 17, 2025: Held at the Mercy Corps Nepal office, this session brought in Mercy Corps' core team to gather technical and operational insights.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Phase 2 &amp;ndash; March 24, 2025 in Dhangadhi: We took the workshop to the ground, engaging local stakeholders, including women who are part of Disaster Risk Reduction (DRR) focal points, Local and Community Disaster Management Committees (LDMC, CDMC), and vendors. With many men migrating abroad for work, these women are at the forefront of disaster management efforts. Their input was crucial in co-designing a practical, transparent, and adaptable anticipatory action system that empowers communities to respond swiftly during crises.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIFspoJF0mM4KPMRfMD1Xnb-7xgIR71tZ-hNozJo5h2-xiVq93DDlYK6ML8uUx4mtmplXtC1wNlXVYBUG7FUSdiht1SLGHz9fmwNJjClPKS6ZMsP5fbYU6EowqE5p2ti2wxrZT?key=b8Kgr9Z0Bm8IiIFhQQYk-po7" width="624" height="341"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;The workshop aimed to foster collaboration among key stakeholders to co-design and align on the Rahat application&amp;rsquo;s implementation. Focused on user needs and real-world scenarios, the goal was to ensure blockchain tools for anticipatory action are practical, transparent, and adaptable, empowering swift crisis response. Discussions also covered strategic planning, risk mitigation, and creating implementation roadmaps to keep the process streamlined, accountable, and impactful. The key highlights of the workshop were:&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;User-Centric Design Overview: The workshop covered various aspects, including tools development, feedback &amp;amp; compliance, risk management, and monitoring, equipping our team with the knowledge and tools needed for successful Anticipatory Action project implementation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Strategic Risk Management: One of the immediate successes of the workshop was the creation of a robust risk matrix and mitigation measures. This lays a strong foundation for proactive risk management throughout the project's lifecycle, ensuring smoother application development and minimizing setbacks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Blockchain Technology Orientation: Participants were oriented to the potential of blockchain technology, emphasizing its role in the project's success.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Communication Strategy: The workshop emphasized on clear, timely communication, covering stakeholder engagement, effective messaging, and selecting the right channels (SMS or voice) for different stakeholders during various phases of the project, ensuring that the right messages are delivered effectively and at the right time. Crisis communication strategies were also explored to maintain trust and transparency throughout the project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Stellar Dry Run: To test the integration between the Rahat platform and the Stellar Disbursement Platform (SDP), a dry run was conducted during the User-Centric Workshop. Travel allowances were digitally disbursed to participants using SDP&amp;rsquo;s blockchain infrastructure, validating the full digital payment workflow. The process involved collecting beneficiary data through Rahat, syncing it with SDP, and initiating payments. Once funds were successfully transferred, confirmation and transaction details were automatically sent back to Rahat&amp;mdash;demonstrating a seamless, secure, and transparent two-way data flow. This integration not only enables real-time tracking but also improves efficiency and user experience for both beneficiaries and administrators.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;The workshop provided invaluable insights into the challenges faced by anticipatory action project implementers and offered several key recommendations to enhance the B4A project. These include improving real-time forecast accuracy by accessing DHM data, expanding data sources for better precipitation modeling, simplifying the Daily Monitoring Tab for easier navigation, strengthening the cash distribution system with improved integration of financial service providers, and ensuring clear communication strategies while maintaining data protection standards. Implementing these recommendations will enhance the project's efficiency and its impact on vulnerable communities.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Moving forward, the insights gathered will shape the next development phases, including localized workshops and strategic partnerships. By implementing the recommendations, the project will enhance its reliability, transparency, and user-friendliness, ultimately delivering a platform that better meets the needs of vulnerable communities. This will ensure the success and impact of the B4A project, driving more effective disaster preparedness and response through a collaborative, data-driven approach.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Open Source: A Community Beyond Code</title>
+    <published>2025-03-20T00:00:00+00:00</published>
+    <updated>2025-03-20T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/open-source-a-community-beyond-code</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/open-source-a-community-beyond-code"/>
+    <content type="html">&lt;p dir="ltr"&gt;A few years ago, I thought &amp;ldquo;open source&amp;rdquo; was just a techie term. You know - something only software developers talk about. I imagined people typing complex code into dark screens, contributing to mysterious projects on the internet. Honestly, it sounded cool, but also a little intimidating.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Then one day, someone told me, &amp;ldquo;Open source isn&amp;rsquo;t just about code. It&amp;rsquo;s about people.&amp;rdquo;&lt;/p&gt;
+&lt;p dir="ltr"&gt;That stuck with me.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;A World Built on Sharing&lt;/h3&gt;
+&lt;p dir="ltr"&gt;The idea behind open source is simple: you create something &amp;mdash; maybe a tool, a design, a guide &amp;mdash; and instead of keeping it private, you share it with the world. Anyone can use it, improve it, or build on top of it. And the best part? They&amp;rsquo;re encouraged to give back too.&lt;/p&gt;
+&lt;p dir="ltr"&gt;It's like cooking your favorite recipe and leaving it on the community table &amp;mdash; others can taste it, tweak it, add their own spice, and then pass it along again. Over time, that recipe becomes even better, and it belongs to everyone.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;Open Source Is All Around Us&lt;/h3&gt;
+&lt;p dir="ltr"&gt;You might not realize it, but you&amp;rsquo;re probably using open-source tools every single day.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Ever browsed the internet using Mozilla Firefox? That&amp;rsquo;s open source.&lt;br&gt;Checked out a website built on WordPress? Open source.&lt;br&gt;Used Wikipedia to look something up? Yep &amp;mdash; powered by open source.&lt;br&gt;Even Android, the operating system on billions of smartphones, is based on open-source technology.&lt;/p&gt;
+&lt;p dir="ltr"&gt;And there are many more, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;LibreOffice &amp;ndash; a free alternative to Microsoft Office&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;VLC Media Player &amp;ndash; plays almost any video or audio format&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Signal &amp;ndash; an encrypted messaging app trusted by privacy advocates&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Blender &amp;ndash; used for 3D animation and visual effects&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Git &amp;ndash; the tool behind how code is shared and collaborated on&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Linux &amp;ndash; the operating system that powers everything from phones to supercomputers&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;These projects weren&amp;rsquo;t built overnight or by one company &amp;mdash; they were built by communities of people from around the world. People who believed in working together, openly and freely.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;You Can Be Part of It&lt;/h3&gt;
+&lt;p dir="ltr"&gt;If you&amp;rsquo;ve ever thought open source wasn&amp;rsquo;t for you &amp;mdash; maybe you&amp;rsquo;re &amp;ldquo;not technical enough&amp;rdquo; or &amp;ldquo;don&amp;rsquo;t know where to start&amp;rdquo; &amp;mdash; let me tell you this: you already have something valuable to offer.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Take&lt;a href="https://rahat.io/"&gt; Rahat&lt;/a&gt;, for example &amp;mdash; a social impact project I&amp;rsquo;ve been involved with. It&amp;rsquo;s an open-source platform that helps deliver aid through blockchain, making the process more transparent and efficient. But what makes it powerful is the people behind it &amp;mdash; and many of them aren&amp;rsquo;t developers.&lt;/p&gt;
+&lt;p dir="ltr"&gt;In Rahat, you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;✍️ Help improve and simplify documentation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;💡 Suggest new ideas or feature improvements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;🌍 Translate content so it reaches more communities&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;Your perspective and skills, no matter your background, can shape how tools like Rahat grow and reach those who need them most.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;Final Thoughts&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Open source changed how I see the internet. It showed me that behind every project are people &amp;mdash; people who care, who share, and who want to build something meaningful together.&lt;/p&gt;
+&lt;p dir="ltr"&gt;So the next time you hear &amp;ldquo;open source,&amp;rdquo; don&amp;rsquo;t just think of code. Think of community. Think of connection. Think of the power of many small contributions coming together to build something big.&lt;/p&gt;
+&lt;p dir="ltr"&gt;And if you&amp;rsquo;re ready to take your first step, start with something real, something impactful &amp;mdash; like&lt;a href="https://rahat.io/"&gt; Rahat&lt;/a&gt;.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Open source is for everyone. Especially you.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Why Open Source is More Than Code — It’s the Future of Innovation</title>
+    <published>2025-02-15T00:00:00+00:00</published>
+    <updated>2025-02-15T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/why-open-source-is-more-than-code-—-its-the-future-of-innovation</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/why-open-source-is-more-than-code-—-its-the-future-of-innovation"/>
+    <content type="html">&lt;p dir="ltr"&gt;In 1991, a 21-year-old student named Linus Torvalds posted a message on an online forum. It was short, almost too casual:&lt;/p&gt;
+&lt;p dir="ltr"&gt;"I'm doing a (free) operating system (just a hobby, won't be big and professional like GNU)..."&lt;/p&gt;
+&lt;p dir="ltr"&gt;Fast forward to today &amp;mdash; that &amp;ldquo;hobby project&amp;rdquo; became Linux, the engine that powers 96% of the top 1 million web servers, Android phones, supercomputers, and even the Mars rover. What made this possible wasn&amp;rsquo;t just brilliant code &amp;mdash; it was the open-source philosophy behind it. Developers around the world collaborated, improved, and adapted Linux for every imaginable need, from personal computers to global-scale infrastructure.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Linux&amp;rsquo;s story isn&amp;rsquo;t just about code &amp;mdash; it&amp;rsquo;s about what&amp;rsquo;s possible when technology becomes a shared resource, not a corporate secret.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;Why Open Source Matters More Than Ever&lt;/h3&gt;
+&lt;h4 dir="ltr"&gt;🚀 1. Innovation Moves Faster in the Open&lt;/h4&gt;
+&lt;p dir="ltr"&gt;When anyone can inspect, contribute to, or modify a project, innovation doesn&amp;rsquo;t just rely on a small internal team &amp;mdash; it draws from a global talent pool. Bugs get fixed faster, new features emerge organically, and the software constantly evolves to meet real-world needs.&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;🔒 2. Trust Through Transparency&lt;/h4&gt;
+&lt;p dir="ltr"&gt;With open source, there&amp;rsquo;s no &amp;ldquo;black box.&amp;rdquo; Anyone can see how the software works, what data it collects, and how it&amp;rsquo;s secured. This level of transparency builds trust &amp;mdash; a critical asset in industries like finance, healthcare, and security.&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;💰 3. Lower Costs, More Flexibility&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Open-source tools cut down expensive licensing fees and offer the freedom to customize software for unique needs. This makes open source particularly appealing to startups, researchers, and governments looking for both flexibility and sustainability.&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;🎓 4. It&amp;rsquo;s a Global Classroom&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Every open-source project is an opportunity to learn. Developers sharpen their skills, collaborate with experts, and gain real-world experience &amp;mdash; often becoming recognized leaders in their fields. For companies, this also means they can attract top talent simply by being active in the open-source world.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;Why Companies are Embracing Open Source&lt;/h3&gt;
+&lt;h4 dir="ltr"&gt;🌍 1. Community-Powered Growth&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Open source isn&amp;rsquo;t just about code &amp;mdash; it&amp;rsquo;s about community. By sharing their technology openly, companies build ecosystems where developers contribute back with ideas, fixes, and features, making the software more valuable for everyone &amp;mdash; including the company itself.&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;🌱 2. Adoption Drives Success&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Tools like React (Facebook) or TensorFlow (Google) didn&amp;rsquo;t just succeed because they were good &amp;mdash; they succeeded because they were open. When developers can freely use and improve a tool, it becomes part of the global developer toolkit &amp;mdash; ensuring long-term relevance and widespread adoption.&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;🏆 3. Thought Leadership &amp;amp; Influence&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Releasing impactful open-source projects positions companies as industry leaders. It signals technical excellence, commitment to transparency, and confidence in their technology &amp;mdash; which helps attract both customers and talent.&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;💼 4. Business Models Evolve&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Open source doesn&amp;rsquo;t mean giving everything away for free. Companies build sustainable business models through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Open core: Free core product + premium features&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Support services: Paid expert support for open-source tools&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Cloud hosting: Managed versions with added value (like what Redis, Elastic, and GitLab do)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 dir="ltr"&gt;The Bottom Line&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Open source isn&amp;rsquo;t a trend &amp;mdash; it&amp;rsquo;s the future. Whether you&amp;rsquo;re a developer contributing code, a startup building on open tools, or a company sharing your innovations with the world, open source fuels progress in ways no closed system ever could.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The next Linux, WordPress, or Ethereum is being built right now &amp;mdash; and it might just be your project.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Switching to the MPL 2.0 License</title>
+    <published>2024-12-15T00:00:00+00:00</published>
+    <updated>2024-12-15T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/switching-to-the-mpl-20-license</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/switching-to-the-mpl-20-license"/>
+    <content type="html">&lt;p dir="ltr"&gt;Rahat has always been committed to transparency, collaboration, and innovation. As part of our ongoing mission to provide an efficient blockchain-based cash and voucher disbursement platform, we are excited to announce a licensing shift. Rahat has officially switched from the GNU General Public License (GPL) to the Mozilla Public License 2.0 (MPL 2.0).&amp;nbsp;&lt;/p&gt;
+&lt;h2 dir="ltr"&gt;What is the MPL 2.0?&lt;/h2&gt;
+&lt;p dir="ltr"&gt;The Mozilla Public License 2.0 is a modern, permissive open-source license that emphasizes flexibility while maintaining a balance between openness and enterprise usability. Unlike some other licenses, MPL 2.0 takes a file-based approach, allowing developers to mix open-source and proprietary code more seamlessly. The license ensures that any modifications to MPL-covered files remain open-source but does not impose the same requirement on files that are merely used alongside or linked to MPL-covered code. More details can be found - &lt;a href="https://en.wikipedia.org/wiki/Mozilla_Public_License"&gt;https://en.wikipedia.org/wiki/Mozilla_Public_License&lt;/a&gt; and &lt;a href="https://fossa.com/blog/open-source-software-licenses-101-mozilla-public-license-2-0/"&gt;https://fossa.com/blog/open-source-software-licenses-101-mozilla-public-license-2-0/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 dir="ltr"&gt;Why We at Rahat Chose MPL 2.0&lt;/h2&gt;
+&lt;p dir="ltr"&gt;Switching to MPL 2.0 is a strategic move to support our evolving ecosystem while staying true to our open-source roots. Here&amp;rsquo;s why this change makes sense for Rahat:&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;1. File-Based Licensing&lt;/h3&gt;
+&lt;p dir="ltr"&gt;MPL 2.0&amp;rsquo;s file-based structure is better suited for modular and file-based projects like Rahat. Any changes made to Rahat&amp;rsquo;s core files must remain open-source, ensuring the integrity and transparency of the project. This approach fosters collaboration while allowing developers to integrate Rahat with other systems more easily.&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;2. Balancing Open-Source and Proprietary Needs&lt;/h3&gt;
+&lt;p dir="ltr"&gt;The shift to MPL 2.0 strikes a thoughtful balance between maintaining Rahat&amp;rsquo;s open-source ethos and offering flexibility for diverse use cases. Rahat&amp;rsquo;s core remains open-source, ensuring that improvements are shared with the community. At the same time, MPL 2.0 allows contributors, including enterprise users, to build proprietary tools, features, or integrations without being obligated to open-source unrelated extensions. This hybrid model encourages broader adoption, fosters collaboration, and supports scaling Rahat across industries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 dir="ltr"&gt;3. Encouraging Innovation&lt;/h3&gt;
+&lt;p dir="ltr"&gt;The license shift encourages broader collaboration. Developers can contribute to Rahat&amp;rsquo;s core while maintaining compatibility with various systems and use cases. The contributors can combine MPL-licensed code with code under other licenses (open or proprietary) without imposing additional restrictions. This setup motivates developers to contribute back while enabling seamless integration with diverse projects, fostering collaboration and innovation.&lt;/p&gt;
+&lt;h2 dir="ltr"&gt;What This Means for Our Community&lt;/h2&gt;
+&lt;p dir="ltr"&gt;Rahat remains an open-source project at its core. The switch to MPL 2.0 does not change our commitment to transparency or community collaboration. Instead, it opens doors for wider adoption and innovation by making it easier for enterprises to integrate and extend Rahat&amp;rsquo;s capabilities. We believe this change will strengthen Rahat&amp;rsquo;s ecosystem and encourage more contributions from diverse stakeholders.&lt;/p&gt;
+&lt;h2 dir="ltr"&gt;Conclusion&lt;/h2&gt;
+&lt;p dir="ltr"&gt;Our decision to transition to MPL 2.0 reflects Rahat&amp;rsquo;s mission to balance openness with usability. The file-based licensing model ensures that Rahat&amp;rsquo;s core remains a shared community resource while giving enterprises the flexibility to innovate and build proprietary solutions. By adopting MPL 2.0, we aim to create a thriving ecosystem that benefits both open-source enthusiasts and enterprise users alike.&lt;/p&gt;
+&lt;p dir="ltr"&gt;We look forward to your continued support and contributions as we embark on this new chapter for Rahat.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">How Open Source Is Empowering the Next Billion Innovators</title>
+    <published>2025-01-15T00:00:00+00:00</published>
+    <updated>2025-01-15T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/how-open-source-is-empowering-the-next-billion-innovators</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/how-open-source-is-empowering-the-next-billion-innovators"/>
+    <content type="html">&lt;p dir="ltr"&gt;Open-source software (OSS) has significantly transformed the landscape of global innovation. By eliminating obstacles, fostering collaboration, and enhancing transparency, OSS equips the next billion innovators&amp;mdash;particularly those from underrepresented communities&amp;mdash;with the necessary resources to address real-world issues and develop scalable solutions. It is essential to examine how open source is propelling this global initiative, promoting sustainability, and motivating the upcoming generation.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The Rapid Growth of Open Source Communities&lt;/p&gt;
+&lt;p dir="ltr"&gt;The rapid growth of open-source software (OSS) is truly remarkable. Its significance in global software development is underscored by projections indicating that over 6.6 trillion OSS downloads are expected by 2025. Additionally, the number of open-source projects for programming languages, such as JavaScript, is rising at an annual rate of 23%, with platforms like GitHub currently hosting millions of repositories.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The rise is about more than just numbers; it's about inclusivity. Open source has developed into a platform that allows developers with diverse backgrounds to collaborate on important issues. These communities act as creative hubs where people may share ideas and develop technologies that benefit millions of consumers worldwide.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Rahat: A Model for Social Impact&lt;/p&gt;
+&lt;p dir="ltr"&gt;Rahat, meaning "relief" in Nepali, is an open-source blockchain platform that is transforming financial access for underserved communities. Developed by Rumsan, Rahat has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Reached over 20,000 beneficiaries in Nepal, Indonesia, and Pakistan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Improved digital and financial literacy for more than 3,000 individuals.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Made aid distribution more transparent and efficient using blockchain technology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;By being open-source, Rahat encourages global collaboration, ensuring it continues to innovate and grow. Its focus on financial inclusion and transparency shows how OSS can drive real change.&lt;/p&gt;
+&lt;p dir="ltr"&gt;UNICEF&amp;rsquo;s Support for Innovators&lt;/p&gt;
+&lt;p dir="ltr"&gt;Open source has been actively promoted by UNICEF's Innovation Fund, which provides capital for innovations that enhance healthcare, education, and disaster relief in marginalized areas.&lt;/p&gt;
+&lt;p dir="ltr"&gt;In this context, RapidPro is an open-source application that helps governments and health organizations collect real-time data on issues like disease epidemics and malnutrition using basic SMS technology. This has extended to distant places, demonstrating OSS's capacity to handle global concerns.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Corporate Support for Open Source&lt;/p&gt;
+&lt;p dir="ltr"&gt;Major companies understand the benefits of OSS. Globally, rebuilding current open-source technology from the ground up would cost over $8.8 trillion. Companies like Google, Microsoft, and Facebook support OSS by sponsoring events, supporting projects, and mentoring engineers in order to prevent this.&lt;/p&gt;
+&lt;p dir="ltr"&gt;In addition to encouraging innovation, these investments give young developers the chance to work on cutting-edge technologies, expand their portfolios, and acquire useful professional experience.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Open Source and Sustainability&lt;/p&gt;
+&lt;p dir="ltr"&gt;At the very core of many OSS projects is sustainability. For instance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;The Linux Foundation leads initiatives that use OSS to create carbon-aware technologies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Open source encourages transparency and reproducibility, helping organizations adopt environmentally sustainable practices.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;As the global community looks for scalable ways to combat climate change and build a more sustainable future, these initiatives are essential.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Empowering the Next Generation of Innovators&lt;/p&gt;
+&lt;p dir="ltr"&gt;For young developers, OSS provides more than just a platform&amp;mdash;it&amp;rsquo;s a springboard for growth. By contributing to open source, they gain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Real-world experience working on meaningful projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Access to mentorship and global communities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Opportunities to create technologies that address real-world needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;A Collective Future Built on Open Source&lt;/p&gt;
+&lt;p dir="ltr"&gt;Open source is a mindset rather than just a methodology. Whether a student writes their first line of code, a developer creates tools for disaster management, or a company invests in scalable solutions, open source software (OSS) is fostering creativity on a global basis.&lt;br&gt;&lt;br&gt;Fostering open-source communities is crucial for enabling the next billion creators. By promoting sustainability, inclusivity, and collaboration, we can create an environment where all individuals possess the resources and opportunities necessary to innovate and effect change in their environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong id="docs-internal-guid-84efd7d1-7fff-19e0-1af3-b207f4e1a1dd"&gt;&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Understanding Open Source with a Recipe Book Analogy</title>
+    <published>2024-11-25T00:00:00+00:00</published>
+    <updated>2024-11-25T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/understanding-open-source-with-a-recipe-book-analogy</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/understanding-open-source-with-a-recipe-book-analogy"/>
+    <content type="html">&lt;h3 dir="ltr"&gt;Understanding Open Source with a Recipe Book Analogy&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Open source projects are fascinating, but for newcomers, the terminology can sometimes feel like deciphering a foreign language. What if we explained it with something relatable? Let&amp;rsquo;s imagine an open source project as a recipe book used by a restaurant. This analogy makes understanding open source tools and workflows much easier. Let&amp;rsquo;s dive in!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;The Recipe Book: The Open Source Project&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Imagine a popular restaurant that has a recipe book for all its signature dishes. Now, instead of keeping it locked away, the restaurant decides to make this recipe book public. Anyone can access it, try the recipes at home, or even start their own food business using it.&lt;/p&gt;
+&lt;p dir="ltr"&gt;This recipe book represents an open source project. The source code (or in this case, the recipes) is freely available for anyone to view, use, and modify.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;Forking: Copying the Recipe Book&lt;/h4&gt;
+&lt;p dir="ltr"&gt;When you come across the restaurant&amp;rsquo;s recipe book and decide to make your own copy to experiment with, you&amp;rsquo;re essentially forking the project. A fork in GitHub is a personal copy of someone else&amp;rsquo;s repository.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Now that you have your own copy of the recipe book, you&amp;rsquo;re free to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Follow the original recipes as is.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Make changes to suit your taste.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Run your own restaurant based on these recipes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;The best part? This copy is yours, and no matter how much you modify it, the original recipe book stays unchanged.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;Branching: Suggesting New Ideas&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Let&amp;rsquo;s say you have a brilliant idea for improving one of the recipes. Maybe you think adding a secret spice will make the dish even better. But how do you propose this idea to the original restaurant?&lt;/p&gt;
+&lt;p dir="ltr"&gt;In GitHub terms, you create a branch. A branch is like working on a new version of the recipe in your kitchen without altering the original book. Once you&amp;rsquo;ve perfected your version, you can propose your changes to the restaurant by creating a pull request, which is a formal way of asking them to include your modifications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;The Original Restaurant vs. Your Kitchen&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Here&amp;rsquo;s where it gets interesting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;If you&amp;rsquo;re working on your forked copy of the recipe book, you can create as many branches as you like. These branches are yours to experiment with.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;However, if you want to make branches on the original recipe book directly, you need to be part of the restaurant&amp;rsquo;s team (in GitHub terms, a collaborator on the repository).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;This ensures that only trusted members can directly change the original recipes, while everyone else can propose changes or make their own copies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;Pull Requests: Sharing Your Culinary Genius&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Let&amp;rsquo;s assume your secret spice idea turns out amazing, and you&amp;rsquo;re confident it will make the restaurant&amp;rsquo;s dish even better. You can share your idea with the original restaurant by creating a pull request. This is like sending a note to the restaurant&amp;rsquo;s head chef, saying, &amp;ldquo;Hey, I think this improvement would make the recipe better. What do you think?&amp;rdquo;&lt;/p&gt;
+&lt;p dir="ltr"&gt;If the head chef (or the maintainers of the open source project) likes your suggestion, they&amp;rsquo;ll merge it into the original recipe book, making your idea part of the official menu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;The Beauty of Open Source: Collaboration and Innovation&lt;/h4&gt;
+&lt;p dir="ltr"&gt;This recipe book analogy highlights the essence of open source: sharing, collaboration, and innovation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Some people might stick to the original recipes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Others might create unique variations and start their own restaurants.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Many will contribute back, suggesting improvements that help everyone benefit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;This open exchange of ideas leads to better recipes (or software), fostering a vibrant community of creators and contributors.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 dir="ltr"&gt;Final Thoughts&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Open source projects on platforms like GitHub are just like that recipe book&amp;mdash;a shared resource that anyone can use, improve, or build upon. Forking, branching, and pull requests are simply tools that make collaboration seamless.&lt;/p&gt;
+&lt;p dir="ltr"&gt;So the next time you encounter a GitHub repository, remember the recipe book analogy. And who knows? Maybe you&amp;rsquo;ll create your own delicious contributions to the world of open source!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Join us for Hacktoberfest 2024 with Rahat: DPGA Registered Open Source Project!</title>
+    <published>2024-10-04T00:00:00+00:00</published>
+    <updated>2024-10-04T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/join-us-for-hacktoberfest-2024-with-rahat-dpga-registered-open-source-project</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/join-us-for-hacktoberfest-2024-with-rahat-dpga-registered-open-source-project"/>
+    <content type="html">&lt;p dir="ltr"&gt;Hacktoberfest is back, celebrating a decade of open source! Rahat is proud to support and be part of Hacktoberfest 2024. This is an incredible opportunity, and we invite all developers, coders, and tech enthusiasts to join us in making a difference.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Learn more - &lt;a href="https://hacktoberfest.com/participation/"&gt;https://hacktoberfest.com/participation/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Rahat is committed to fostering a vibrant open-source community. We&amp;rsquo;re dedicated to creating an inclusive space where contributors can learn, collaborate, and innovate together. Explore the various opportunities available and start contributing to our registered projects:&lt;/p&gt;
+&lt;p dir="ltr"&gt;🚀&lt;a href="https://github.com/rahataid/rahat-platform/labels/hacktoberfest2024"&gt;Contribute to Hacktoberfest 2024 for Rahat Platform&lt;/a&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;🚀&lt;a href="https://github.com/rahataid/rahat-beneficiary-mgmt/labels/hacktoberfest2024"&gt;Contribute to Hacktoberfest 2024 for Rahat Beneficiary Management&lt;/a&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;🚀&lt;a href="https://github.com/rahataid/rahat-ui/labels/hacktoberfest2024"&gt;Contribute to Hacktoberfest 2024 for Rahat Frontend&lt;/a&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;🚀&lt;a href="https://github.com/rahataid/rahat-project-c2c/labels/hacktoberfest2024"&gt;Contribute to Hacktoberfest 2024 for Rahat Crypto Transfer Project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;Quick Guide to Getting Involved&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Head over to the Rahat repository on GitHub and don&amp;rsquo;t forget to "Star" and "Like" the repo for quick access later.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Look for issues labeled hacktoberfest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Find an issue you'd like to work on and comment: "I would like to work on this. Can you assign it to me?"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Follow up on the issue within 7 days to show you're actively working on it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Once your PR is ready, link it to the issue and tag a maintainer to notify them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Your PR will be reviewed within 10 days, and if accepted, it will be marked hacktoberfest-accepted.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;Stay informed on new announcements, support, events, and features, and interact with other Rahat from the community! Join us on X, Insta, LinkedIn, and celebrate open-source together!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Reflections on the South Asian Dialogue Platform in Anticipatory Action</title>
+    <published>2024-09-25T00:00:00+00:00</published>
+    <updated>2024-09-25T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/reflections-on-the-south-asian-dialogue-platform-in-anticipatory-action</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/reflections-on-the-south-asian-dialogue-platform-in-anticipatory-action"/>
+    <content type="html">&lt;p dir="ltr"&gt;I recently had the incredible opportunity to attend the very first South Asian Dialogue Platform (SADP) on anticipatory action in Sri Lanka. While I had participated in our national dialogue platform before, this was my first experience at an international AA dialogue platform, and it proved to be both enriching and insightful. I&amp;rsquo;d like to share some key takeaways from the event.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfW8f65BIKEOrXWOykAbYKKBAC5mqssBti_teihyCxufLFJv__hlZ6NfH_s2d7t92KYzNwVtFtcoIs1AlHKh4zAgDAyreT61hvo1ZHUZdNdb1lYouyeleGUzEY6UjMtczsRLVQRQY47tYkNdLorKERYCYs?key=r0oQb7xyINhUUfUpj7Ld9w" width="414" height="310"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Walking into the event hall, I was immediately struck by the vibrant setting&amp;mdash;colorful lights and beautiful banners transformed the space into something that felt more like a festival than a conference. Initially puzzled by this choice, I soon realized it was intentional. The lively environment encouraged open conversations and fostered positive vibes, leading to greater interactivity among participants. Instead of merely discussing challenges, attendees focused on finding solutions, creating a collaborative atmosphere.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Let&amp;rsquo;s be honest: no one enjoys a conference filled with monotonous talks! Fortunately, the sessions were thoughtfully designed to be interactive. We engaged with art and creativity, playing with colors and expressing ourselves in ways that made the experience enjoyable and dynamic. It was refreshing to participate in discussions that felt engaging rather than tedious, and I even captured some memorable moments&amp;mdash;here are a few pictures!&lt;/p&gt;
+&lt;p dir="ltr"&gt;One of the most enlightening aspects of the event was learning about the progress different South Asian countries have made in anticipatory action (AA). While Nepal, which started early, continues to face challenges, Pakistan&amp;mdash;despite being a late starter&amp;mdash;showcased impressive growth and active government involvement. It was exciting to see new players like Bhutan and the Maldives exploring this concept as well. Notably, Nepal currently boasts the highest number of AA frameworks&amp;mdash;17 for various hazards&amp;mdash;among the participating countries. I look forward to discussions on how we can streamline these frameworks further.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYyXCXPZNtl32l1JXajA5NiR9KrtLOYOtRuz2nYMP4BxE1QzCqLxHBnTkDz3ZZzZMpOwAloPmRtWrrUNOlKATFyY9bNoqQ6RWbTcYAJHGmbCYb1XTFPyfqYyAUmlWb3op_pagp30Lswn48pxOioeFN4tI?key=r0oQb7xyINhUUfUpj7Ld9w" width="328" height="245"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Another critical takeaway from the dialogue is that the involvement of government entities in anticipatory action is crucial for its sustainability. Strong support and buy-in from governmental bodies can significantly enhance the effectiveness of these initiatives. As Team Nepal, we established key commitments in the presence of our spokesperson from the National Disaster Risk Reduction and Management Authority (NDRRMA) and representatives from the Department of Hydrology and Meteorology (DHM). Our commitments include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Expanding the existing technical working group to be more multi-sectoral and inclusive.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Developing a national framework on AA, including guidelines for SRSP and a multi-hazard risk assessment framework.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Ensuring government financing for AA initiatives.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Creating a harmonized early action protocol.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Focusing on evidence generation through research.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 dir="ltr"&gt;Some Additional Thoughts on Sri Lanka&lt;/h3&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0QmpfkprUeRuJ2uwV9PyJKIqWW3QSF8vhg8Y1HiYV9n5LsfoIbB9CcE3EZD1T55D16G3Sfj-4bWajIm1fCoJG2o77EsuZsJQvVBM917fmOYVmf3Ws2gQLvRKve9bN9iFWV_bqPzI-m1I-6kkP1CD_af4?key=r0oQb7xyINhUUfUpj7Ld9w" width="397" height="297"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Sri Lanka is a beautiful country! Though my time for exploration was limited, I was impressed by the organization at the airport&amp;mdash;immigration took no more than five minutes. The first glimpse of Colombo from the taxi was breathtaking, showcasing impressive infrastructure. The food was delightful and perfectly suited to my Nepali palate. However, as a solo female traveler, I felt uneasy during the evenings and nights, which limited my exploration. I hope to return to discover more of this captivating country!&lt;/p&gt;
+&lt;p dir="ltr"&gt;Overall, the experience at the SADP was truly enriching. I look forward to applying the insights gained from the discussions. This platform not only brought together diverse perspectives but also paved the way for collaborative action in anticipatory measures across South Asia. I&amp;rsquo;m excited about the possibilities that lie ahead!&lt;/p&gt;
+&lt;p&gt;&lt;strong id="docs-internal-guid-59120ccb-7fff-ed97-cae1-5e9bd6e6a38f"&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Rahat Secures Bridge Funding from UNICEF Venture Fund's Growth Funding</title>
+    <published>2024-07-22T00:00:00+00:00</published>
+    <updated>2024-07-22T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/rahat-secures-bridge-funding-from-unicef-venture-funds-growth-funding</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/rahat-secures-bridge-funding-from-unicef-venture-funds-growth-funding"/>
+    <content type="html">&lt;p dir="ltr"&gt;Rumsan, a blockchain company focused on social impact, built &lt;a href="https://rahat.io/"&gt;Rahat&lt;/a&gt;, an open-source financial access platform leveraging blockchain to support vulnerable communities. Dedicated to breaking the poverty cycle for the last billion, Rahat streamlines aid distribution, promotes digital and financial literacy, and builds resilience against climate shocks. With 719 million people living on less than $2.15 a day and an additional 132 million at risk of extreme poverty by 2030, predominantly in Sub-Saharan Africa and South Asia (WB, 2023), Rahat addresses these pressing challenges. Through decentralized and transparent financial mechanisms, Rahat empowers communities, combats poverty, and fosters long-term resilience, ultimately narrowing wealth gaps and expanding opportunities for a better future.&lt;/p&gt;
+&lt;p dir="ltr"&gt;With support and equity-free investment from the UNICEF Venture Fund in 2021, Rumsan developed and refined an open-source blockchain-based cash and voucher assistance(CVA) platform to support the un/underbanked get access to financial aid ; Rahat was also certified as a Digital Public Good. In early 2023, Rahat completed a pilot supporting 1,900 households in Jaleshwor, Madhesh Pradesh, Nepal, as part of UNICEF Nepal country office&amp;rsquo;s initiative. In 2023, Rahat expanded its scope of work from CVA platform to a financial access platform with its work in building digital and financial literacy; building resilience through access to microinsurance and anticipatory action.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;With the $200K bridge funding investment from the&amp;nbsp;&lt;a href="https://www.unicef.org/innovation/growth-funding"&gt;UNICEF Venture Fund's Growth Funding&lt;/a&gt;, The&amp;nbsp; bridge funding offers financial support to startups or companies that have successfully developed and validated their Minimum Viable Product (MVP). This funding will support Rahat in expanding its platform and piloting crypto cash and voucher transfers, while also enabling activities deploying pilots, enhancing solution usability with additional features, and accelerating customer acquisition and geographical expansion. The funding will allow Rahat to remain dedicated to its mission of leveraging blockchain technology to assist vulnerable communities and break the poverty cycle for the last billion. During the investment period of 12 months, Rahat will focus in three main areas -&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Technology Development - Rahat will focus on expanding its systems to efficiently manage and distribute cryptocurrency to beneficiaries, enabling them to easily receive aid in cryptocurrency and convert it to local fiat through offramping partners when needed. Donor agencies have the capability to directly transfer cryptocurrency to beneficiaries, ensuring transparency without intermediaries. The dashboard will simplify processes for aid agencies, facilitating easy enrollment, disbursement, and monitoring, which includes tasks such as verifying wallets, tracking transfers, managing communication, and providing real-time reporting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Open Source Growth - Rahat will focus on building community and engagements to enhance contribution to the project.&amp;nbsp; We will also take the steps we had taken to be a DPG further by strengthening our open source efforts and building a more dedicated open source team. The&amp;nbsp; C2C platform will also be open sourced.&amp;nbsp;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;Pilot - &amp;nbsp;In the second half of the investment period, we will pilot the crypto CVA to test and enhance the platform. We are currently actively looking for partnerships with UNICEF Country Offices to share our findings and join in the implementation of this Crypto2Crypto initiative.&amp;nbsp; For inquiries or additional information, please reach out to &lt;a href="mailto:smriti.chhetri@rumsan.net"&gt;smriti.chhetri@rumsan.net&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir="ltr"&gt;Through the first investment, we developed and tested and piloted the Rahat system with a Country Office and also started our open source journey. With the bridge funding, we will further expand and enhance the system as being true to our vision of building interoperability and integration of third party tools through crypto CVA. We will also take the steps we had taken to be a DPG further by strengthening our open source efforts and building a more dedicated team. And finally, we will grow the Rahat ecosystem and expand to new markets.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title type="html">Helping Communities Recover: The Saptari Wildfire Relief Effort by Rahat</title>
+    <published>2024-06-22T00:00:00+00:00</published>
+    <updated>2024-06-22T00:00:00+00:00</updated>
+    <id>https://rahat.io/blogs/helping-communities-recover-the-saptari-wildfire-relief-effort-by-rahat</id>
+    <link rel="alternate" type="text/html" href="https://rahat.io/blogs/helping-communities-recover-the-saptari-wildfire-relief-effort-by-rahat"/>
+    <content type="html">&lt;p dir="ltr"&gt;&lt;a href="https://rahat.io/"&gt;Rahat&lt;/a&gt;, in collaboration with Kancharup Municipality Ward 5 in Saptari, provided financial aid to 16 families whose homes were destroyed by a recent wildfire. Fortunately, there were no injuries, but the fire consumed all essential belongings, leaving the affected families in a dire situation.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXesYRtA_o5BBnLCIpN7GM4Mf4BTddZpF5kFA9L2rrE4I4ebiFXcaTfEyBOQLShX7ZHzfeasAS-8c4pu5r2_G9zWNNfXHIlq8t1-npSb-JeHPeVP4x7c7mkjxJJG2zxuM31VBjuxDSlpMpU7f_lZzS3f2w?key=q7hlPLZ968xyFNQrT3HopQ" width="624" height="367"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;This project specifically aimed to assist the underprivileged and at-risk residents of Kanchanrup Municipality Ward 5, offering them crucial support and resources in the wake of this disaster. The financial aid was intended to help these families meet their immediate needs, including purchasing food, clothing, and other necessities. Additionally, the funds provided a foundation for the families to begin rebuilding their homes and livelihoods.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Efficient Distribution and Community Empowerment&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Rahat worked closely with the local community to ensure aid reached those who needed it quickly and effectively. This partnership wasn't just about providing immediate relief; it aimed to empower locals for future initiatives. Training on the Rahat platform equipped community members to manage similar projects independently, enhancing resilience for future emergencies.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXc5Al4q0SI9r1gOj2WJWhsFYHbFqEWfSZxnxE5Tbg3tUgJu4U81oyy3UjAR6SvZM3yDRXoZBubnTYBoP3VWwF0HrIR60y4pOKtAa4XMU7qVHX5PFRh9UmkRy1MqoDZAUbZrWO0-N8JLlCyUNFarEF-3bs8?key=q7hlPLZ968xyFNQrT3HopQ" width="624" height="367"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Objectives and Achievements&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;The Saptari wildfire relief project had several specific objectives, all of which were successfully met:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;Cash Distribution&lt;/strong&gt;: Rahat provided cash assistance to 16 affected households, enabling them to meet their urgent needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;Community Engagement&lt;/strong&gt;: The collaboration with Kanchanrup Municipality Ward 5 ensured active local involvement and ownership of the aid process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;Digital Literacy&lt;/strong&gt;: Beneficiaries were educated on digital service tokens, preparing them for future aid distribution projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;Technology Testing&lt;/strong&gt;: The functionality of the Rahat Dashboard and the Android vendor app was thoroughly tested.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" aria-level="1"&gt;
+&lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;SMS System Evaluation&lt;/strong&gt;: The effectiveness of the SMS notification system was assessed, with all beneficiaries receiving timely updates about their cash distribution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;Beyond immediate relief, Rahat's efforts also focused on fostering long-term resilience. Awareness sessions on digital literacy and the Rahat token system empowered beneficiaries with knowledge that could be vital in future crises. The project also included a thorough evaluation of the SMS system to ensure that all beneficiaries, even those without personal phones, could receive crucial information through family members.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The Saptari wildfire relief effort highlights Rahat's dedication to helping communities recover with dignity and hope. By combining immediate financial aid with community collaboration and digital education, Rahat not only addressed the urgent needs of affected families but also strengthened their ability to face future challenges.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Rahat&amp;rsquo;s mission is to help vulnerable communities build a better future.&lt;/p&gt;
+&lt;p dir="ltr"&gt;To learn more about Rahat and how you can support our mission to help those in need, visit our official website rahat.io.&amp;nbsp;&lt;strong id="docs-internal-guid-6ae1057d-7fff-07f2-0a3d-1ff7c3d1d826"&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>
