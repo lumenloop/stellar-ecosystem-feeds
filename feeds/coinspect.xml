@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
+    <meta name="description" content="RSS-Bridge" />
+    <title>Stories by Coinspect Security on Medium</title>
+    <link href="static/style.css?2023-03-24" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"
+            title="Atom"
+            rel="alternate"
+            type="application/atom+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Json"
+            title="Json"
+            rel="alternate"
+            type="application/json"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Mrss"
+            title="Mrss"
+            rel="alternate"
+            type="application/rss+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Plaintext"
+            title="Plaintext"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Sfeed"
+            title="Sfeed"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+    <meta name="robots" content="noindex, follow">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="pagetitle">
+            <a href="https://medium.com/@coinspect?source=rss-d55b478bc1ad------2" target="_blank">Stories by Coinspect Security on Medium</a>
+        </h1>
+
+        <div class="buttons">
+            <a href="./#bridge-FeedFinderBridge">
+                <button class="backbutton">← back to rss-bridge</button>
+            </a>
+
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom">
+                    <button class="rss-feed">
+                        Atom                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Json">
+                    <button class="rss-feed">
+                        Json                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Mrss">
+                    <button class="rss-feed">
+                        Mrss                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Plaintext">
+                    <button class="rss-feed">
+                        Plaintext                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fcoinspect.medium.com%2F&amp;strip=on&amp;_cache_timeout=3600&amp;format=Sfeed">
+                    <button class="rss-feed">
+                        Sfeed                    </button>
+                </a>
+            
+                    </div>
+
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/crypto-wallet-security-ranking-534b244b62ab?source=rss-d55b478bc1ad------2"
+                    >Crypto Wallet Security Ranking</a>
+                </h2>
+
+                                    <time datetime="2024-11-08 20:38:53">
+                        2024-11-08 20:38:53                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Coinspect&#39;s Crypto Wallet Security RankingAfter years of research and months of rigorous testing, Coinspect is proud to present the Wallet Security Ranking — a comprehensive framework for crypto wallet security. This ranking aims to help users make better-informed decisions on how to choose a safe crypto wallet and to challenge wallet developers to meet the highest standards of security.In this article, we’ll dive into how this ranking was created, why it’s relevant for the web3 industry, the first results, and how wallets can improve to reduce scams and build trust in the Web3 ecosystem.Why a Wallet Security Ranking?Most web3 security work focuses on smart contracts and protecting DeFi vaults from hacks, but phishing is still a big problem that doesn’t get enough attention. It’s more common to see articles about how users can protect their assets rather than what wallets can do to protect users. While crypto wallet security features are the first defense against phishing, compromised dApps, and fraud.As mentioned in a previous blog post, not all security features are equally important when assessing the overall safety of a crypto wallet. To prioritize these checks effectively and reduce bias, we needed a structured approach. We adopted the Analytic Hierarchy Process (AHP), which helped us assign numerical weights to each check by directly comparing them within the same category.With this approach, we assessed each wallet based on four key security categories:dApp Permissions (maximum score: 35): A higher score indicates better permissions control, ensuring the wallet consistently requests user approval, which helps minimize the risk of unauthorized actions from dApps.Intent Verification (maximum score: 25): A higher score means the wallet provides clear, understandable summaries for a broader range of transaction types, helping you avoid mistakes or scams.Physical Access (maximum score: 20): A higher score reflects the wallet leverages robust device-level security features, reducing the risk of unauthorized access if your device is lost or stolen.Threat Prevention (maximum score: 20): A higher score means the wallet is more effective at preventing attacks by using updated lists of known threats, such as phishing websites and scammers’ addresses.If you want to see why these four categories of security features can defend users against real-world scams, you can check out our blog post, where we explain how wallet security features can protect users and help prevent scams like phishing and malicious approvals.Behind the Scenes of the Ranking Creation​​This story began years ago, during Bitcoin’s early stages, Coinspect’s journey in wallet security started a decade ago with our first blog post, where we exposed a vulnerability in one of the most innovative multisig Bitcoin wallets available at the time. Since then, we’ve assessed the security of countless wallets through our crypto security services and reported vulnerabilities to improve web3 security for users.During these assessments, we uncovered several critical aspects of wallet security that required improvement, one of which was transaction simulation. We found significant vulnerabilities in how some wallets simulate transactions, such as Blowfish’s failure to detect ownership transfers, which highlighted the need for wallets to have reliable fallback mechanisms. You can read more about these challenges in our blog post on Transaction Simulation Challenges.Over the years, we’ve developed a comprehensive threat model and checklists for conducting crypto wallet security audits and a methodology that starts as a manual process but is designed to be fully automated over time, ensuring the project’s long-term sustainability. You can read more about our methodology here.These insights led us to realize that while our individual private wallet audits were effective, we needed to provide public, objective insights and make them easy to digest for end users. And that’s how we decided to create the Wallet Security Ranking.The first resultsNot all wallets are built the same — not even across the platforms they support. That’s why we created a different ranking between iOS, Android and chrome extensions. Three Ethereum-compatible crypto wallets stood out as the top performers across multiple platforms: MetaMask, Rabby Wallet, and Coinbase Wallet. The Chrome Extension versions of these wallets scored the highest in all four security categories — dApp Permissions, Intent Verification, Physical Access, and Threat Prevention.In the mobile wallet category, MetaMask, Rabby, and Coinbase shared the top ranks with 1inch, Rainbow, imToken, Zerion, and OKX, showcasing a strong security profile across Android and iOS as well.If you’re interested in learning about the specific improvements wallets can make to boost their scores, check out our blog post for more insights.What’s next?Whether you’re a developer striving to create a safer wallet or a user looking to protect your assets, the Wallet Security Ranking is designed to guide you with objective, easy-to-understand insights. We invite you to explore the ranking, learn more about wallet security, and help us spread the word to advocate for better security standards across the Web3 industryExplore the Wallet Security Ranking!
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/tari-base-layer-security-review-b9044b32ba39?source=rss-d55b478bc1ad------2"
+                    >Tari base layer security review</a>
+                </h2>
+
+                                    <time datetime="2024-02-20 18:33:33">
+                        2024-02-20 18:33:33                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Tari security reviewCoinspect published an in-depth security report for Tari, uncovering 50 issues.This achievement represents a significant step forward in enhancing Tari’s security foundations and is also an invaluable reference for blockchain node development teams and security researchers.I must commend the incredible work done by the Coinspect team. The fact that they could take such a complicated piece of software, break it down, and put their finger on so many high severity issues in a relatively short period is testament to the expertise that was deployed on this audit. — CjS77 from Tari TeamTari is a pioneering example within current blockchain designs, boasting cutting-edge features. With this in mind, Coinspect is working on insightful blog posts, drawing upon the findings from the first comprehensive source code review. This blog post series aims to document the security challenges identified, providing a blueprint to prevent such issues from surfacing in future blockchain projects.Read the first blog post, download Tari security report, and stay tuned for upcoming posts.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/a-safe-dapp-ecosystem-our-vision-36ff861aec93?source=rss-d55b478bc1ad------2"
+                    >A Safe dApp Ecosystem: Our Vision</a>
+                </h2>
+
+                                    <time datetime="2023-12-08 15:24:14">
+                        2023-12-08 15:24:14                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                A safer dApp EcosystemPhishing and compromised dApps front-ends pose significant risks, not only to individual users but also to the broader adoption of Web3 technologies. In this post, we’ll share a concept that has been a topic of internal discussion at Coinspect for years.Identifying the challengeThe technical and cultural challenges we identified discouraged us from implementing and disclosing earlier versions of our proposal. Based on our extensive experience in information security and technology, we understand that imposing restrictive measures on developers in the name of security is often counterproductive. For instance, a standardized dApp UI definition language to generate a safe GUI from an on-chain document is potentially a secure solution but will be against UX innovation. App development practices evolve quickly; innovation and experimentation are critical to improving the web3 experience. There are better approaches than limiting developers. We must give builders the tools to develop safer dApps without compromising productivity and creativity.Our approachOur strategy to enhance dApp security involves two fundamental approaches: first, we’re committed to supporting projects that enable the development of secure, decentralized front-ends; second, we propose a monitoring and alert system that not only detects malicious activities but also encourages dApp developers to adhere to best practices, fostering a safer Web3 environment. We’ll share more details about this monitoring system in future posts. In the next section we introduce our idea to bootstrap a safer dApp ecosystemSecure dApp LauncherObjective: To enhance the Web3 security and user experience by creating an open, decentralized application (dApp) launcher that mirrors the convenience and familiarity of mobile app stores without sacrificing the decentralization and security principles fundamental to this space.UX ComponentsUnified dApp launcher: A single application, potentially in the form of a local file loaded by the browser, an extension, or integrated into popular wallets, serving as a gateway to various dApps. This interface will resemble a traditional mobile app launcher, with visually appealing icons for each dApp and a user-friendly search function similar to a browser address bar.Safe dApp Discovery: A dApp discovery process that prioritizes authenticity and integrity. It will be designed to prevent deceptive practices such as mimicry, typo-squatting, and homoglyphs. This approach ensures that while the platform remains open without centralized censorship or restrictive acceptance criteria, it maintains a high standard of user safety. Users decide what curators to trust instead of the centralized authority of mobile marketplaces.ImplementationBuilding this system that is analogous to a secure bootloader chain without predefined certification authorities requires:Standard dApp Packaging: Develop a standardized method for packaging and digitally signing dApps. The standard dApp packaging enables an integrity verification process to ensure that only applications from builders trusted by the user are accessible through the loader.Flexible Signature Verification: Implement a robust signature verification system within the loader. This system ensures that each dApp accessed through the platform is authentic and has not been tampered with. Each dApp package can be signed by multiple entities, and each individual entity can implement its own multisign mechanism, including on-chain governance protocols.Reproducible Builds: Create the tools to integrate reproducible builds in the development process of this system and each individual dApp. This ensures that the distributed code can be independently verified to match the publicly available and reviewed source code.Nice to haveSubresource Integrity for Bootstrapping: Leverage subresource integrity (SRI) to establish a minimal, easily recognizable HTML file. This file serves as the foundation for bootstrapping trusted dApps. Its unchanging nature allows for wide dissemination, even through non-digital means like printing on merchandise (e.g t-shirts), to promote widespread recognition and trust.Downgrade prevention: An authentic dApp package can have bugs or vulnerabilities, and attackers could trick users into using old and vulnerable versions. An on-chain directory could prevent this.Incentives for front-ends: A flexible authentication system allows users to safely use alternative implementations of front-ends and download the signed packages from untrusted sources. An incentive protocol can be included to prompt alternative front-ends and hosting solutions.Step by stepThis post intends to cover only some design attributes to start the conversation. Please share your thoughts, spread the word, and stay tuned for more updates; we’ll make this vision a reality, one step at a time.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/a-ui-flaw-in-top-crypto-wallets-f18154daa4ec?source=rss-d55b478bc1ad------2"
+                    >A UI Flaw in Top Crypto Wallets</a>
+                </h2>
+
+                                    <time datetime="2023-08-29 15:24:35">
+                        2023-08-29 15:24:35                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Coinspect research team discovered a vulnerability in over 27 software wallets which could allow malicious websites to deceive users into sending all their funds to attackers. The root cause was a lack of input validation that allowed arbitrary text, including empty lines and Unicode characters, to be displayed as part of the signature request. This flaw made it feasible for attackers to craft and present misleading messages that appeared as genuine elements of the wallet’s user interface.In the example screenshot below, the wallet displays a fake transaction simulation, impersonating the wallet. This hides a ‘Permit’ message (unlimited allowance) concealed beneath several whitespace lines.Interested in learning more about the vulnerability technical details and which wallets were affected ?Read the detailed blog post from our wallet security research team.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/time-locked-recovery-b6db4467ecf2?source=rss-d55b478bc1ad------2"
+                    >Time-locked Recovery</a>
+                </h2>
+
+                                    <time datetime="2023-05-17 20:11:28">
+                        2023-05-17 20:11:28                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                In crypto, recovery, and backup strategies are as crucial as the security measures safeguarding the wallets. So instead of a system where secrets leave the protection of a secure enclave or secure element chip, it’s feasible to design systems where a second set of keys can recover funds when needed, with such an event being transparent on the blockchain.Here’s a detailed look at possible implementations:On-Chain Activity and Time-locked RecoveryA viable method of securing crypto assets and providing a recovery mechanism is to harness the power of on-chain activity and time-locked smart contracts or Bitcoin scripts. The concept is simple: create an obligation to interact with your account within a specific timeframe; failure triggers a recovery process.If there’s no interaction with any blockchain within the set timeframe, the system assumes you’ve lost access to your initial keys. This scenario then activates a smart contract or script, which initiates a process allowing a second set of keys to access the funds.Smart Contracts: In Ethereum and other smart contract networks, contract code can enforce these access rules. The smart contract can be programmed to require the account holder to sign a transaction within a predefined period. Failure to sign a transaction within this period activates a secondary set of keys to access the account through the smart contract.Bitcoin Scripts: Similarly, a Bitcoin script can mandate users to transfer funds to a new address within a set period. If no such transaction is signed, the script enables a secondary set of keys to spend funds from the account.Who Holds the Secondary Keys?In both scenarios, the third-party service holding the secondary keys would be responsible for verifying the account holder’s identity before granting access to the funds. Ideally, this service can be trustless and decentralized. Users can choose from various service providers and options for identity verification. Moreover, these services could leverage secure hardware platforms where the custodian of the hardware doesn’t control the recovery process logic. Instead, the trusted firmware inside the secure enclave obeys blockchain rules and never exposes secret keys.This approach offers a decentralized and secure mechanism for recovering access to a crypto account if the initial keys are lost while maintaining user control and transparency.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/a-challenge-in-verifying-hardware-wallet-security-4fb20126eefc?source=rss-d55b478bc1ad------2"
+                    >A Challenge in Verifying Hardware Wallet Security</a>
+                </h2>
+
+                                    <time datetime="2023-05-16 19:06:49">
+                        2023-05-16 19:06:49                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Bitcoin, Ethereum, and other blockchains use the ECDSA algorithm for transaction signatures. A crucial aspect of ECDSA’s security is the use of a random number in each signature it generates. However, if this number isn’t genuinely random — for instance, if it’s repeated or if attackers can predict it due to poor random number generation — it can expose the user’s private key. Today, we’re discussing a particularly insidious security threat: the impossibility to confirm if a hardware wallet is gradually leaking our private keys.Kleptography in WalletsKleptography, a term first coined by Young and Yung in 1996, involves secretly substituting a secure algorithm with a compromised one. This compromised algorithm, while appearing to function normally, subtly leaks the user’s confidential information to an attacker.Attackers can reveal bits of information and avoid detection in a black-box setting, where an observer can only see the inputs to and outputs from the system but not the internal workings.This stealthy form of attack has also been referred to as Algorithm-Substitution Attacks (ASA) and subversion attacks. No matter the name, the threat remains the same: a cryptographic system that, to all outward appearances, is working perfectly but is, in reality, betraying its user’s confidential information to an adversary.A secure crypto wallet implementation keeps private keys securely stored within the device and never exposes them during the signing process.However, attackers with access to the ECDSA implementation could subtly alter it to leak information about these private keys. For instance, they might modify the generation of numbers used in the signature process, encoding information about the secret key within the signatures. This information is encoded within the signatures and leaves the signing device as part of a crypto transaction.To an outside observer, the signatures produced by such a backdoored device appear entirely normal, passing all standard validity checks. However, an attacker who knows about the backdoor could collect these signatures and, through careful analysis, slowly reconstruct the private key. Once the private key is compromised, the attackers can sign transactions as if they were the legitimate owner, leading to the theft of the user’s crypto assets.RFC 6979 is the Solution?To mitigate this risk, deterministic ECDSA was introduced (as defined in RFC 6979). Instead of relying on a new random number for each signature, deterministic ECDSA generates this number deterministically using the private key and the message hash. This method ensures that the same message signed multiple times with the same key will always produce the same signature, removing the risk of private key exposure due to random number reuse or predictability.The ChallengeHowever, a new problem arises: How can we verify that a device, such as a hardware cryptocurrency wallet, uses deterministic ECDSA as it claims to be?The issue here is that we need the private key to determine whether a wallet created a transaction signature using random or deterministic ECDSA. But hardware wallets are designed to keep the user’s private key secure and never reveal it. So how can we confirm a device implements deterministic ECDSA correctly without access to the private key and without trusting a third party?This is a complex question with no straightforward answer. So let’s first explore how an attacker might implement a kleptographic attack.Leaking the seed with Trial-and-error filteringAs demonstrated by real-life incidents and research papers, it is possible to reveal an ECDSA secret key with only two signatures. However, attackers capable of compromising a hardware wallet manufacturing process would target the secret seed for higher ROI. With a wallet master key or seed, attackers can take all the assets from all the accounts in all the blockchains used by the victim. A second requirement for the attacker’s algorithm is that only they can retrieve the seed from the blockchain transactions. The backdoor needs a lock; otherwise, it would not a be “backdoor.” Next, we’ll describe an algorithm to achieve this.The attacker begins by tinkering with the process of creating the signature. This process involves a deterministic or randomly chosen number: r. This number r plays a crucial role in ensuring the security of the signature. The signature data, the output of the ECDSA algorithm, includes the point R on the curve derived from the number r.However, the attacker’s algorithm doesn’t choose r entirely at random. Instead, they use a particular function (PRF) that takes a curve point as input and gives a pair of values as output.Now, this function is like a lock — it requires a password to produce the same output for the same input. In this case, the attackers chose the password they wanted. They use this password and the x-coordinate of the point R on the curve (derived from the number r) as the input to this function. The output is a pair of values (INDEX, BIT), like a map coordinate.Here comes the trick. The attacker repeats the above process until the bit at the position INDEX of the secret seed equals BIT (0 or 1). Hence, the number r is not entirely random because the malicious code selected it to reveal a bit of secret information in each signature to those who know the password.Recovering the SecretThe attackers monitor public blockchains, and once they’ve collected enough transaction signatures, they can start piecing together the secret seed. For each signature, they use the function with their secret password and the x-coordinate from the signature to get a pair of values (INDEX,BIT). Then, they store each BIT at INDEX in an array, like a jigsaw puzzle.After going through all the signatures produced by the victim, the array will contain the leaked secret.This is a very simplified explanation of how a kleptographic attack works — a stealthy way of leaking secret information from a process that’s supposed to be secure.ReferencesHow Perfect Offline Wallets Can Still Leak Bitcoin Private Keys https://arxiv.org/abs/1501.00447Uncontrolled Randomness in Blockchains: Covert Bulletin Board for Illicit Activity https://eprints.lancs.ac.uk/id/eprint/150101/1/main.pdf
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/snap-attack-cracking-ethereums-synchronizing-node-random-generator-870e48f48b6a?source=rss-d55b478bc1ad------2"
+                    >SNaP Attack: Cracking Ethereum’s Synchronizing Node Random Generator</a>
+                </h2>
+
+                                    <time datetime="2023-05-15 20:01:09">
+                        2023-05-15 20:01:09                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Massimiliano Taverna and Kenneth G. Paterson published &quot;Snapping Snap Sync: Practical Attacks on Go Ethereum Synchronising Node&quot;, a paper uncovering flaws in Ethereum networks (only PoW chains, pre Merge) that could trick a node into syncing with a malicious chain, enabling an attacker to craft an arbitrary Ethereum state for economic gain. The duo have tested these attacks on a private Ethereum network, responsibly disclosed, and provided patches.Their paper describes different attacks against Ethereum’s synchronization protocol, Snap Sync. In this post we&#39;ll focus on the SNaP attack. The authors have named this attack SNaP, an acronym for “Security: Not a Priority,” hinting at the trade-off that Ethereum developers made when prioritizing performance over security.The attacker only needs a small fraction of the total mining power (around 1.6%) to carry out the attack. The authors emphasize that this is due to the insecure PRNG used by the Ethereum protocol for block validation during synchronization and not because of an inherent weakness in the Proof-of-Work (PoW) consensus mechanism itself.In simple terms, here’s the essence of the attack:Adversary Model: The authors assume that an attacker controls two nodes that can join the victim’s network, has a mining power equivalent to at least 1.6% of the total honest mining power, and the victim has not synced yet.The Attack: The attacker predicts which blocks the victim node will effectively validate using a “prediction oracle” and mines only those blocks, thus saving computational effort. By doing this, the attacker can create a chain of blocks that is longer (heavier) than the honest chain, and despite being invalid, the victim will accept it. The victim will then consider this weak chain as canonical and operate on it until the honest chain outgrows the attacker’s chain in terms of total difficulty.Exploiting Randomness: The attacker can predict the victim’s choices because the victim uses a predictable random number generator (PRNG) for block validation.The Impact: Depending on the attacker’s relative mining power and the time available for the attack, they can make the victim operate on the invalid chain for a significant amount of time. For instance, if the attacker has 2% of the total mining power and carries out the attack over 24 hours, they can make the victim deviate from the honest chain for more than two days.Recovering the PRNG SeedThe seed recovery is a critical part of the SNaP attack, as it allows the attacker to predict the victim’s random number generation sequence. The attacker can recover the seed used by the victim’s PRNG by learning bits of information from the victim and building a reverse lookup table.The seed recovery process involves the following steps:Information leakage: The attacker (A) generates a batch of blocks (prediction chain, G) in which only headers with an index &gt;50 have a valid Proof of Work (PoW). The attacker then instructs the victim (V) to download this batch. During verification, the victim uses the PRNG to generate two random indices for the PoW validation. If the validation of the header at the first index fails (which happens with a 50% probability if the index is less than or equal to 50), the sync ends, and V sends a disconnection message to A. The message tells A whether the randomly chosen index was less than or equal to 50, leaking one bit of information about the victim’s PRNG output.Learning multiple bits: The attacker needs more than one bit of information to recover the 31-bit seed of the victim’s PRNG. To achieve this, the attacker uses two nodes (M and W) to continually disconnect and reconnect with V, each time initiating a new sync and thus learning a new bit of information about the PRNG output. The attackers repeat this process until enough bits are collected to recover the seed.Seed recovery: After enough iterations (γ), the attacker can construct a bitstring σ∗ that represents the leaked information about the PRNG outputs. A precomputed lookup table (µ) is used to map this bitstring back to the original seed (s*). This table is generated offline and is reused across multiple attacks. The minimum value for γ to avoid collisions in the prediction table is 62.Prediction of PoW validations: After recovering the seed, the attacker starts a new sync with the victim, providing the real blockchain. At the same time, the attacker forks the blockchain and calculates how many calls to the PRNG the victim will make before reaching the fork. The attacker then creates a clone of the victim’s PRNG, initialized with the same seed and advanced by the calculated number of steps. This clone now perfectly predicts the random choices the victim will make during the PoW validations of the forked blockchain.Part of this process can be analyzed in the following code:https://github.com/massitaverna/malicious-go-ethereum/blob/1644add1553039c55f63e8e7f2f699b3ccf0e27f/attack/bridge/bridge.go#L401The practicality of the seed recovery process is enhanced by the relatively low cost of mining the prediction chain, the reasonable computational resources required to build the lookup table, and the time-efficient process of learning the necessary 62 bits of information.Prediction TableThe prediction table (or lookup table) is a data structure that maps the PRNG outputs (bitstrings) to their respective seeds. It’s a pre-computed table generated offline once and can be reused across multiple attacks.The published attack code does not include the prediction table, instead a remote server is queried:https://github.com/massitaverna/malicious-go-ethereum/blob/ghost-snap/attack/orchestrator/orchestrator.go#L450The bitstring represents the PRNG outputs that have been leaked during the syncs with the victim. Each bit of the string corresponds to a single sync: it’s ‘0’ if the first randomly chosen index is greater than 50 and ‘1’ if it is less than or equal to 50. Therefore, the bitstring is a binary number of length γ, where γ is the number of syncs performed to learn enough information about the PRNG outputs.Here’s a simple example:Let’s say the attacker performed 3 syncs with the victim and learned that:During the first sync, the first randomly chosen index was 75.During the second sync, the first randomly chosen index was 45.During the third sync, the first randomly chosen index was 88.In this case, the bitstring would be ‘010’, as the first index was greater than 50 during the first sync (‘0’), less than or equal to 50 during the second sync (‘1’), and greater than or equal to 50 during the third sync (‘0’).Once the attacker has collected enough bits (62 in the SNaP attack), they can use the prediction table to map this bitstring back to the original seed. For example, if the prediction table contains an entry that maps ‘010’ to the seed ‘12345’, the attacker would know that the seed of the victim’s PRNG is ‘12345’.ConclusionIn conclusion, the discovery and exploration of the SNaP attack underscore the importance of robust and relentless scrutiny in crypto systems. It’s important to highlight a lesson from this research that extends beyond Ethereum and applies to all cryptographic systems: the critical role of a robust pseudorandom number generator (PRNG) cannot be overstated. Historically, we’ve seen that even the strongest of systems can be compromised by weaknesses in their PRNGs.In the context of Ethereum, while the private key generation process might appear as the most critical area where random numbers are used, the reality is that various algorithms require PRNGs. No matter how seemingly inconsequential, each of these instances can become a potential weak link if not appropriately hardened.At Coinspect, we understand this. Our team is experienced at uncovering and addressing these often-overlooked vulnerabilities, ensuring that every aspect of a crypto system, down to the most minute detail, is secure.For more information on how we can help secure your systems, visit us at Coinspect.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/addressing-rumors-and-recommendations-following-the-myalgo-wallet-hack-77b249a80d18?source=rss-d55b478bc1ad------2"
+                    >Addressing Rumors and Recommendations Following the MyAlgo Wallet Hack</a>
+                </h2>
+
+                                    <time datetime="2023-03-18 18:17:25">
+                        2023-03-18 18:17:25                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                A high-impact hack recently targeted MyAlgo, a web-based Algorand wallet, affecting thousands of users. Our team at Coinspect has voluntarily collaborated with the wallet provider in a good-faith effort to identify the root cause. We are proud to say we identified one particular attack that matches the incidents reported. Our collaboration aimed to support their investigation and provide valuable insights.False RumorsAs we await the official announcement from the wallet provider, we want to address some rumors and help alleviate concerns in the crypto community. Based on the analysis of the attack identified:Attackers are using seeds they previously collected.The attackers exploited no application bugs or vulnerabilities in software dependencies.Browser bugs or features, such as autofill, were not abused during the attack.The incident was not due to user negligence or phishing attempts.The seed encryption algorithm used by MyAlgo is robust.Attackers did not use or need Brute-force attacks on passwords.Malware played no role in the attack.Applications that utilize open-source components from the MyAlgo project remain unaffected by this incident.The issue did not arise from the way the software implemented encryption. The attackers managed to decrypt the user’s seed because they obtained the password, not due to any weakness in the encryption itself.RecommendationsWe advise all affected users to take the following precautions in addition to protecting funds:Change your wallet password immediately and never use it again anywhere.Be cautious with any communications claiming to be from the wallet provider, as phishing campaigns are active right now. Always verify the source before sharing any sensitive information.What is nextWe empathize with the concerns and frustrations of the affected users. As a dedicated team of information security professionals, we are committed to supporting the community by offering our expertise to help alleviate the ongoing challenges and enhance the ecosystem’s security. Stay tuned for updates as we continue our efforts to make a positive impact. Finally, we wish you all a peaceful weekend.DisclaimerThe information provided in this report is based on the data and analysis available at the time of writing and is the result of a good-faith collaboration between Coinspect and Randlabs. Coinspect initiated this research on its own motivation and was not engaged or hired by any of the parties involved. The investigation is still on-going, and this report should not be considered as a perfect representation of the events.Coinspect has made every effort to ensure the accuracy and completeness of the information presented. However, Coinspect cannot guarantee that there are no errors, omissions, or inaccuracies. This report is provided for informational purposes only and should not be considered as legal, financial, or technical advice.Coinspect is not responsible for any actions taken, or decisions made, based on the contents of this report. Users of the information contained in this report assume all responsibility for their actions and decisions. Coinspect shall not be held liable for any loss, damage, or consequences arising from the use or interpretation of the information presented in this report.
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/dissecting-ethereum-delegated-staking-from-a-security-perspective-part-2-306059a08bca?source=rss-d55b478bc1ad------2"
+                    >Dissecting Ethereum delegated staking from a security perspective — Part 2</a>
+                </h2>
+
+                                    <time datetime="2023-02-14 18:17:40">
+                        2023-02-14 18:17:40                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Dissecting Ethereum delegated staking from a security perspective — Part 232 ETHWelcome to our second article on Security Considerations for Ethereum Delegated Proof of Stake (DPoS) platforms. As we explored previously, there are multiple security challenges associated with delegated staking, nearly all related to the excessive trust expected by staking platforms.In this post, we’ll delve into what led us to the conclusions presented in the previous article, by answering questions that emerged during security audits to ETH DPoS platforms conducted by Coinspect. As usual, we’ll provide relevant information sources for those looking to learn more.Firstly, we explain the deposit function from the staking contract in detail:The deposit function explainedThe deposit function has the following signature:function deposit(  bytes calldata pubkey,  bytes calldata withdrawal_credentials,  bytes calldata signature,  bytes32 deposit_data_root) override external payableBeing:Public Key (pubkey)The validator’s BLS12–381 public key. Its associated private key is used to operate the validator.2. Withdrawal Credentials (withdrawal_credentials):Used to withdraw deposited funds and validator earnings once the validator is deactivated. There are two options for the withdrawal credentials:a) To provide the BLS public key hash allowed to trigger withdrawals in the following format:withdrawal_credentials[:1] == BLS_WITHDRAWAL_PREFIXwithdrawal_credentials[1:] == hash(bls_withdrawal_pubkey)[1:]b) To provide a 20-byte ETH address as the recipient for withdrawals. It could be a contract or an EOA address, in the following format:withdrawal_credentials[:1] == ETH1_ADDRESS_WITHDRAWAL_PREFIXwithdrawal_credentials[1:12] == b&#39;\x00&#39; * 11withdrawal_credentials[12:] == eth1_withdrawal_address3. Signature (signature):A BLS signature resulting from compute_signing_root(deposit_message*, domain). Used to prove that the signer is in control of the validator private key (proof of possession), preventing rogue attacks on the BLS aggregation property.4. Deposit Root (deposit_data_root):The root of the tree resulting from hash_tree_root(deposit_message*, signature)Where:deposit_message = pubkey (48 bytes) + withdrawal_credentials (32 bytes) + value (in wei)Additional information on this can be found in the Ethereum consensus specs repository.Ethereum staking Q&amp;AWhen/how are deposit parameters validated?A few checks are done in the deposit function such as:The parameters lengthThe deposit contract received at least 1 ether, in a multiple of gweiThe deposit_data_root parameter was constructed according to the specificationsHowever, the deposit function does not verify the BLS signature, which takes us to the next question.How are the deposit BLS signatures verified? What happens to incorrect BLS signatures once funds are deposited?The deposit function does not validate the BLS signature on-chain. This signature, and thus, the withdrawal credentials are verified in the process_deposit function -we encourage taking a look at it. Note this function would be executed by Ethereum nodes and not on smart contracts as it is part of the Ethereum Consensus Specification.Once the deposit is sent to the mempool, the BLS signature is validated within approx. 12 hours. It’s worth noticing that it is not safe to assume the deposit went through before it is validated.If an invalid BLS signature is provided for the first validator’s deposit, funds will potentially be lost. The process_deposit function just ignores the deposit, skipping the remaining instructions. Up to this date, we haven’t found specifications or official Ethereum information indicating whether invalid deposits would be returned to depositors.Is it possible to verify the BLS signature on-chain?There’s currently no native functionality to verify a BLS signature on-chain. Although there are a few implementations out there, those are not part of the EVM nor officially approved.Is it possible to deposit to a validator multiple times?Yes, it is possible to deposit to a validator multiple times as long as the ETH sent complies with the requirements listed above. However, the first deposit will determine the withdrawal credentials accepted for the validator, since subsequent deposits performed to an already initialized validator could have an invalid 96-byte long signature and still be successfully processed.From the process_deposit function mentioned above, notice that the withdrawal credentials are only validated when the `pubkey not in validator_pubkeys`condition satisfies. This implies that signatures from deposits after the initial one would not be verified. Therefore, the deposit will only be processed as a top-up.Feel free to expand on this matter by reading the analysis of the vulnerability report submitted to Lido Finance in October 2021. This vulnerability analysis describes a front-running attack by rogue node operators, where they can initialize a validator using their withdrawal credentials and have victims top it up.If my validator gets slashed, can I re-deposit?The answer is no since a slashing means a large penalty and a forceful exit. However, if your validator was penalized and the ending balance did not drop below 16 ETH, you can top it up. On the other hand, if the balance of the validator falls below 16 ETH, a forced exit is applied. As a consequence, top-ups wouldn’t increase the current staking position since the validator wouldn’t be active anymore.When is it safe to assume a validator was successfully staked? How can I verify it?Once the 32 ETH are deposited, it is safe to assume a validator was successfully staked only after the completion of the second step of the validator staking process. This is, once the validator is confirmed as “Deposited”. To find out a validator’s status, you can visit the Beacon Chain explorer.Therefore, in the case scenario of an on-chain platform that allows users to stake validators, approximately 12 hours after the deposit there’s no risk of an invalid BLS signature or deposit front-run. Note that the amount of time is defined in epochs, and therefore the number of hours required might change.Once I unstake/deactivate the validator, how is the withdrawal process? Can I choose the address where the funds will be deposited?At this time, it is not yet possible to withdraw unstaked funds from a validator, although the Shanghai/Capella upgrades (in development) should soon enable withdrawals. The withdrawal of funds is contingent upon the type of withdrawal credentials set for the validator; only those validators with ETH1 addresses will be able to withdraw funds. Plus, the Capella upgrade specification introduces automatic withdrawals of withdrawable validators.Additionally, EIP 4895 which is in review, introduces a new operation supporting validator withdrawals, where withdrawals are “pushed” from the beacon chain to the EVM. The implementation of this hard fork would increase the specified recipient’s balance.Regarding the withdrawal process, a ~27hr cooldown period must elapse after a validator is dequeued from the consensus layer. This time frame allows the consensus layer to include the last period’s rewards and ensure that no misbehavior is detected.It is worth pointing out that currently, in phase 0, a validator can abandon its role but cannot withdraw anything until the network advances to the next phase. The only impact is that no penalties or slashes can be applied to that validator as no responsibility lies with him.For those interested in diving deeper into the details of the withdrawal process, here is a recommended reading.Key takeaways for depositorsAs we’ve seen, one of the main concerns behind depositing to validators via Delegated Proof of Stake (DPoS) platforms is the excess of trust required by certain platforms. Subsequently, when choosing a platform, depositors should examine the amount of trust it requires by reviewing the points described in the previous article, and verify it has undergone security audits.For more information about Coinspect, please visit www.coinspect.com
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://coinspect.medium.com/learn-evm-attacks-release-b8776947afee?source=rss-d55b478bc1ad------2"
+                    >Learn EVM Attacks release</a>
+                </h2>
+
+                                    <time datetime="2022-12-12 19:47:13">
+                        2022-12-12 19:47:13                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: Coinspect Security</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                We at Coinspect are excited to announce the release of our new code repository, learn-evm-attacks! This repository is an educational resource for anyone who wants to learn more about Ethereum Virtual Machine (EVM) exploits and vulnerabilities.We have reproduced more than 30 attacks on EVM chains: most of them actually exploited and some reported in bug bounties. Each attack includes a detailed explanation of the vulnerability, a graph showing how it works, and the context needed to understand it.Learn EVM Attacks is an open source project, and we welcome the community to collaborate and contribute. This repository uses Foundry as the framework and provides an interactive environment to learn and understand the vulnerabilities of projects deployed on EVM chains. We were very inspired by Defihacklabs efforts, but we wanted to create an alternative with more focus on explanations, context, and understanding what led to the vulnerability as well the attack.It is our hope that this project will provide a better understanding of smart contract security, and ultimately allow developers to create more secure and reliable smart contracts.
+                
+                            </section>
+        
+    </div>
+ </body>
+</html>
