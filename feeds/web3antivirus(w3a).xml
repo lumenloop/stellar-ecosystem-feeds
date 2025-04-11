@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Stories by Web3 Antivirus on Medium</title>
+  <link rel="alternate" type="text/html" href="https://medium.com/@w3a?source=rss-928f5010291------2"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40w3a&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://cdn-images-1.medium.com/fit/c/150/150/1*NeerLWaa34yWGdlZ7z87JQ.jpeg</icon>
+  <logo>https://cdn-images-1.medium.com/fit/c/150/150/1*NeerLWaa34yWGdlZ7z87JQ.jpeg</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40w3a&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:11:31+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Major W3A Snap Update: Warding Off 20+ Web3 Threats</title>
+    <published>2024-01-25T09:44:30+00:00</published>
+    <updated>2024-01-25T09:44:30+00:00</updated>
+    <id>https://medium.com/@w3a/major-w3a-snap-update-warding-off-20-web3-threats-163bc0a34ae7?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/major-w3a-snap-update-warding-off-20-web3-threats-163bc0a34ae7?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">With 30 million users making transactions via MetaMask each month, a risk assessment solution built right into the wallet is a must-have. Powered by its enhanced risk detection mechanism, W3A Snap exposes the most critical Web3 scams, ensuring users don’t fall for them.According to the Immunefy report, more than $1.75 billion worth of crypto was lost to hacks and scams in 2023. November was the most unfortunate month, with more than $343 million stolen.So, to help MetaMask users avoid becoming part of the sad statistics, we released a significant upgrade of W3A Snap, significantly enriching the list of risks and scams it instantly identifies and warns users about.But before we dive into the update’s details, we will make a brief Snap intro to make sure you understand what it is and how it works.Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">W3A Anniversary: A Year of Revolutionizing Web3 Security</title>
+    <published>2024-01-25T09:42:41+00:00</published>
+    <updated>2024-01-25T09:42:41+00:00</updated>
+    <id>https://medium.com/@w3a/w3a-anniversary-a-year-of-revolutionizing-web3-security-96f93955e366?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/w3a-anniversary-a-year-of-revolutionizing-web3-security-96f93955e366?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Web3 Antivirus celebrates a great milestone — a whole year of delivering exceptional security for Web3 users (and ruining scammers’ plans, apparently 😏).Time flies so fast — one moment we were launching the very first version of the Web3 Antivirus extension, and, in the blink of an eye, it is already a whole ecosystem of Web3 security solutions!Our mission has always been clear — to safeguard your Web3 experience without the hassle of manual risk assessment. And we’re proud to say that we’ve been doing just that — tirelessly enhancing our scam detection and analytics to provide you the peace of mind you deserve.Join us as we reflect on this exciting year and celebrate the milestones that mark our journey in making Web3 a safer space for 17,000 enthusiasts and counting.How it started 🌱Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">Understanding Token Approvals</title>
+    <published>2024-01-25T09:39:57+00:00</published>
+    <updated>2024-01-25T09:39:57+00:00</updated>
+    <id>https://medium.com/@w3a/understanding-token-approvals-614f9bedabab?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/understanding-token-approvals-614f9bedabab?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Interacting in Web3, you will come across different signature requests. For example, when connecting your wallet to a dApp or confirming transactions. Granting token approvals is one of the common requests too, having its own hidden hazards. So, what do you need to keep in mind?Unibot, that Telegram crypto trading bot, just lost a whopping $560 thousand to a token approval exploit. This accident is a reminder for us all to take a second look at what we’re approving, don’t you think?So, if you want to refresh your understanding of token approvals or hear about them for the first time, you came across our article just in time.Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">Meet W3A Snap: Your Personal Security Guard in MetaMask</title>
+    <published>2024-01-24T16:15:42+00:00</published>
+    <updated>2024-01-24T16:15:42+00:00</updated>
+    <id>https://medium.com/@w3a/meet-w3a-snap-your-personal-security-guard-in-metamask-16fcf02e718f?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/meet-w3a-snap-your-personal-security-guard-in-metamask-16fcf02e718f?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Like Batman to Gotham City, Web3 Antivirus is Web3’s defender. And now, W3A Snap joins as its reliable sidekick, just like Robin.The Web3 Antivirus security suite is expanding — now you can fortify your MetaMask with W3A Snap. Using both the browser extension and the Snap greatly enhances your protection against scams and facilitates a trouble-free Web3 experience.What is a Snap?Snap is a plugin for MetaMask, allowing you to customize the wallet’s functionality. Say, connect to dApps running on blockchains that MetaMask doesn’t usually support or to manage tokens not typically recognized by the wallet, such as Bitcoin.What can W3A Snap do?W3A Snap analyzes your MetaMask transactions, checking all the contracts, addresses, and assets involved to assess their safety. If it detects anything suspicious, the Snap instantly shows you a warning.Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">Web3 Antivirus 0.13: MetaMask Snap, WalletConnect Analysis, Speed Optimization</title>
+    <published>2024-01-24T16:03:49+00:00</published>
+    <updated>2024-01-24T16:03:49+00:00</updated>
+    <id>https://medium.com/@w3a/web3-antivirus-0-13-metamask-snap-walletconnect-analysis-speed-optimization-d270bb78b76c?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/web3-antivirus-0-13-metamask-snap-walletconnect-analysis-speed-optimization-d270bb78b76c?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">The spooky season may be over 🎃, but the world of Web3 is still haunted by some really scary scams and risks. But fear not — we have a true scambuster on our side! With this fresh version, Web3 Antivirus sniffs out those sneaky frauds faster and more effectively than ever.While crafting the 0.13 version of the extension, we really concentrated on expanding W3A outreach. Now W3A is capable of analyzing WalletConnect transactions, meaning more people will be under top-notch scam protection.Additionally, we’ve rolled out a MetaMask Snap! This means that all wallet users can receive instant risk alerts, even if they’ve disabled their W3A extension for some reason (🤨).Let’s have a closer look at these updates!Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">Exploring the Dark Side: Web3 Scams You Should Watch Out for (Part 2)</title>
+    <published>2024-01-24T16:01:07+00:00</published>
+    <updated>2024-01-24T16:01:07+00:00</updated>
+    <id>https://medium.com/@w3a/exploring-the-dark-side-web3-scams-you-should-watch-out-for-part-2-1690ad823e0b?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/exploring-the-dark-side-web3-scams-you-should-watch-out-for-part-2-1690ad823e0b?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Crypto scam… how much regret and sadness is in these words. But don’t panic! We are back and ready to expose risky smart contracts, rug pulls, and poisoning attacks, so that you know exactly what red flags to pay close attention to.There’s a great variety of crypto scams out there, each unique in its deception. That’s why your wallet’s well-being depends so much on how careful, attentive, and well-informed you are. And we must say you are on the right track catching us with these scam exposure series.We’ve already covered some of the most widespread schemes in Web3 Scams Chapter One. If you missed it, don’t forget to check it out later. Trust us, your wallet will thank you for it.Here, we continue spilling the beans about crypto scams. And let us tell you, they’re truly nasty and can wreak havoc on your finances if you’re not careful.Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">Exploring the Dark Side: Web3 Scams You Should Watch Out for (Part 1)</title>
+    <published>2024-01-24T13:06:59+00:00</published>
+    <updated>2024-01-24T13:06:59+00:00</updated>
+    <id>https://medium.com/@w3a/exploring-the-dark-side-web3-scams-you-should-watch-out-for-part-1-596d392b9b70?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/exploring-the-dark-side-web3-scams-you-should-watch-out-for-part-1-596d392b9b70?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Where there is money, there are scammers. So, it is unsurprising that the Web3 space has no shortage of fraud, with phishing and scam tokens leading the way. But hey, we’ve got your back and will make sure you’re well-informed and scam-proof.The third quarter of 2023 has been profitable for scammers as they managed to snatch $890 million worth of crypto.To get that loot, some scammers prey on our inattention and lack of knowledge, while others capitalize on the human inclination for quick, substantial gains. Furthermore, certain bad actors exploit vulnerabilities within smart contracts or inject harmful code into contract logic.Bet no one from the robbed crypto holders ever thought of becoming part of the unfortunate statistics, so we are here not to let you join their sad gang.Working on Web3 Antivirus, we constantly investigate crypto scam trends and uncover emerging fraud techniques. Our blog is a gatekeep-free zone, so we’re going to expose all those troublesome Web3 scams and provide insights to help you spot them. Plus, we’ve got some handy tips to help you dodge these dangers.Continue reading on the Web3 Antivirus blog.</content>
+  </entry>
+  <entry>
+    <title type="html">Web3 Antivirus 0.12: Major Extension Redesign, W3A API, New Risk Detectors</title>
+    <published>2023-09-25T13:19:39+00:00</published>
+    <updated>2023-09-25T13:19:39+00:00</updated>
+    <id>https://medium.com/@w3a/web3-antivirus-0-12-major-extension-redesign-w3a-api-new-risk-detectors-415462962c6e?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/web3-antivirus-0-12-major-extension-redesign-w3a-api-new-risk-detectors-415462962c6e?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Picture this: a pinch of enhanced design, a generous scoop of fresh risk detectors in addition to thoroughly reorganized risk reports, and a secret ingredient — a custom API. It’s the perfect recipe for our brand-new W3A version!Hey there! We didn’t take long to return with another exciting W3A update, did we? This time, we’ve been hard at work, making a ton of improvements. Spoiler alert: our designers elevated the user interface to a whole new level of awesomeness and comfortability while the development team fine-tuned our detection mechanisms and prepared a pack of new risk detectors.And we nearly missed mentioning the most exciting part — the W3A API is officially up and running!Are you ready to dive into these upgrades? Let’s not waste any time then!Full-blown interface redesignAs W3A continues to gain traction and guard thousands of people from web3 dangers, we thought it needs a revamp, complementing its impactful mission.So, our design team reconsidered the existing interface and its elements and came up with truly stunning visuals. However, the makeover is not only about the looks. The new interface is even more user-friendly and easy to grasp by expert web3 users and newcomers alike. We’ve made sure to prominently highlight all essential elements to ensure you won’t overlook critical risks or suspicious contract behavior when conducting transactions.Don’t want to boast, but the new design looks amazing. Go check it out yourself!Detection of new risksOur ultimate goal is to protect you from all possible web3-specific scams and risks, so we constantly upgrade our risk detection mechanisms.Starting from this version, three new risks have no chance to escape the watchful eye of Web3 Antivirus. These are:Token-draining transactionBy signing these fishy transactions, you’re essentially bidding farewell to a significant portion of your ETH and ERC-20 tokens. Hoping for something in return? Well, we’ve got bad news for you: you won’t get a thing. But there’s a good part — W3A won’t let this scam get you in the first place.Just pay attention to the warnings we send you, deal?Volatile token liquidityIn the world of decentralized exchanges (DEX), everything revolves around trading pairs. If you want to sell a token but the liquidity of its trading pair is low, there are high chances of causing a significant price drop. It will affect both the token you sold and the one you bought.With W3A by your side, you’ll receive a warning if you’re about to initiate such a transaction. This way, you can evaluate the risks and make a thoughtful decision on whether to proceed.No DEX pairExpanding on the significance of DEX pairs, if a token has none, you won’t have the option to sell it whatsoever.But don’t worry — W3A will warn you about such tokens as well.Risk display reorganizationThe variety of scams and risks you can face when making transactions in web3 is endless. Web3 Antivirus warns you about a big deal of them, so to simplify your navigation through our risk reposts, we made a reorganization and divided threats into three categories: Warnings, Key risks, and Moderate risks.W3A APIWe really want to see a safer web3 space, so besides the extension itself, we now provide W3A API! You can seamlessly integrate it into your applications and enjoy real-time monitoring and comprehensive analysis of web3-specific risks. With our API, you will be able to instantly react to potential threats, providing your users with the highest level of security.By the way, have you heard about our referral program? By joining it, you’re not just helping us make the web3 space safer by sharing Web3 Antivirus with your friends. You’re also diving into an exciting competition where you could get some cash!Perfection knows no limits, which is why we’re already hard at work on our next release. Stay safe, and we’ll see you again very soon!</content>
+  </entry>
+  <entry>
+    <title type="html">Web3 Antivirus 0.11: DEX Token Pairs, Transaction Tax Fees, Language Switch</title>
+    <published>2023-09-05T12:21:24+00:00</published>
+    <updated>2023-09-05T12:21:24+00:00</updated>
+    <id>https://medium.com/@w3a/web3-antivirus-0-11-dex-token-pairs-transaction-tax-fees-language-switch-15cf6a35723f?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/web3-antivirus-0-11-dex-token-pairs-transaction-tax-fees-language-switch-15cf6a35723f?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">As promised, we’re back with the freshest update to Web3 Antivirus! In this version, we focused on providing more clarity to transaction details, enhancing our detection mechanisms, and expanding W3A’s outreach to our Spanish-speaking web3 friends.The Web3 Antivirus team never stops working on new features and improvements. From now on, W3A will help you make informed investment decisions with our DEX token pairs suggestions and carefully calculated transaction tax fees. And for a guaranteed understanding of our cues, you can now effortlessly switch the language to Spanish!Full view of DEX token pairsWhenever you buy ERC-20 tokens, count on W3A as your trusted assistant. The extension will show you possible DEX pairs and their liquidity. This way, you will have a clear understanding of how this or that token pair is currently getting on and make well-grounded investment decisions that maximize your profit.Transaction tax fees identifiedTo provide you with even more clarity in transaction details, the extension shows the tax fee you have to pay when buying or selling tokens. If the commission exceeds 15%, W3A flags it as a high tax rate and marks it red to make sure you won’t overlook it.Meanwhile, anything surpassing 50% is marked as non-tradable and categorized as a potential honeypot scam.Detection enhancementsSpeaking of honeypot scams, we’ve fine-tuned our detection mechanism, so now W3A spots all kinds of it: no transfer, no sale, high transfer fee, high sale fee, and high purchase fee. Thus, as long as you keep the extension active, such scams are not a threat to you.Furthermore, we’ve introduced a fresh risk detector that alerts you when a contract you’re interacting with has custom white or blacklists. In such cases, the contract owner might potentially impose transaction restrictions on you in the future.We also tackled the issue of false responses, ensuring that no safe contracts are wrongly labeled as risky. Plus, we’ve sped up the analysis process for quicker resultsSpanish language supportWe’re committed to enhancing the user experience, so our developers and localization specialists teamed up to offer complete support for the Spanish language.Moving forward, we plan to broaden the language options, enabling more individuals to benefit from top-notch protection while browsing in web3.In the meantime, feel free to introduce W3A to your Spanish-speaking friends and join our referral program!Stay safe or ¡Manténganse seguros! We won’t keep you waiting long to share news about some more magníficas W3A features.</content>
+  </entry>
+  <entry>
+    <title type="html">Web3 Antivirus 0.10: New Scam Detections, Suspicious Activity Alerts, Dashboard Help</title>
+    <published>2023-08-24T13:56:53+00:00</published>
+    <updated>2023-08-24T13:56:53+00:00</updated>
+    <id>https://medium.com/@w3a/web3-antivirus-0-10-new-scam-detections-suspicious-activity-alerts-dashboard-help-2ca214c772e4?source=rss-928f5010291------2</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/@w3a/web3-antivirus-0-10-new-scam-detections-suspicious-activity-alerts-dashboard-help-2ca214c772e4?source=rss-928f5010291------2"/>
+    <author>
+      <name>Web3 Antivirus</name>
+    </author>
+    <content type="html">Get acquainted with the newest pack of W3A updates, featuring enhanced scam detection mechanisms, detailed suspicious activity reports, Dashboard Help to answer any questions, and some more cool additions.We’ve been really busy with researching, designing, and coding in the past month to bring you a host of exciting new features and improve the existing functionality. So, let’s dive right into the new improvements.More scams on W3A radarFresh arrivals to the list of scams that W3A spots and promptly warns you about!Direct transfersThe extension instantly detects direct transfers of ETH and ERC-20 tokens. These are highly risky transactions since they are neither recorded on blockchain nor regulated by smart contracts. There are zero guarantees that you will get anything in return but almost a 99% chance of gifting all your tokens to scammers.eth_sign signaturesPhishing websites think they are smart, but we made sure W3A is way smarter. They can initiate as many malicious sign requests as possible, yet the extension will сatch eth_sign signatures and ruin all their thievish ambitions.Permit attacksNowadays, fraudsters started exploiting the vulnerabilities in the Permit and Permit2 signatures to make you grant approvals to all your ERC-20 tokens to them. But don’t worry — W3A gets you covered. Anytime you come across Permit attacks, we will show you a warning and indicate the risk level.Phishing contractsScammers often rely on our carelessness and shove us harmful transactions whose only function is to drain our wallets to the last token. Luckily, Web3 Antivirus never gets distracted, so such maneuvers are useless — you will get notified immediately.Phishing swapsWeb3 Antivirus keeps an eye on your swapping transactions and signals if scammers try to squeeze into your swapping transaction and receive tokens meant for you.HoneypotsWe’ve significantly elevated the precision of honeypot scam detection. Now, W3A will specify the exact type of honeypot you encounter: no transfer, high sale fee, or high purchase fee.Be attentive to our scam alerts and never let fraudsters play tricks with you.Contract suspicious activity unmaskedNo way for hiding suspicious activity — W3A sees all the sketchy moves not only of a contract you interact with but of all the contracts linked to it. The extension detects a contract’s involvement in terrorist financing, rug pulls, Ponzi schemes, theft, spam, and other illegal or harmful activities.So, that address better be reputable to transact with you. Otherwise, there is no deal.Easy Dashboard navigation with Help sectionExplore Dashboard functionality to the fullest with our Help section. We carefully documented and illustrated all its pages and sections to make your acquaintance with it as comfortable as possible.Now, you can easily check the meaning behind each section or metric at any time and navigate Dashboard with zero effort.Hop on the W3A Referral program!By the way, you can help us promote safe web3 too! It is very easy with our referral program.There is only one participation rule: share your exclusive referral link with as many friends as possible. By doing so, you will enter the best referrer competition and have a chance to vie for a prize pool of $150 in ETH. Moreover, each referral of yours will receive a free month of W3A Premium.For more details about the referral program, check our post.Keep safe and expect new cool features soon!</content>
+  </entry>
+</feed>
