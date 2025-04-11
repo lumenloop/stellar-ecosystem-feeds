@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Giveth - Medium</title>
+  <link rel="alternate" type="text/html" href="https://blog.giveth.io?source=rss----87b3b0848ea1---4"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.giveth.io%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_noproxy=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.giveth.io%2Ffeed&amp;content_selector=article+section&amp;content_cleanup=.speechify-ignore&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_noproxy=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:06:22+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">ENS x Octant Public Goods Round Results</title>
+    <published>2025-04-11T16:32:29+00:00</published>
+    <updated>2025-04-11T16:32:29+00:00</updated>
+    <id>https://blog.giveth.io/ens-x-octant-public-goods-round-results-48b631a59858?source=rss----87b3b0848ea1---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.giveth.io/ens-x-octant-public-goods-round-results-48b631a59858?source=rss----87b3b0848ea1---4"/>
+    <author>
+      <name>Almnd Hernández</name>
+    </author>
+    <content type="html">ENS x Octant Public Goods Round Results
+This round was all about supporting web3 infrastructure, education, and utility projects through a QF round powered by two of the most impactful names in the public goods space: ENS DAO and Octant.
+Big thanks to ENS and Octant for seeding the round with 80,000 USDC on Optimism and showing up with enthusiasm, support, and serious impact.
+The Numbers
+Matching pool size: 80,000 USDC on Optimism
+Round Duration: March 18 — April 1, 2025
+Max matching per project: 7% of the matching pool or 5600 USDC
+Eligible Projects: 103
+Total Donations: 2886
+Unique Donors: 744
+Total USD Value of Donations: $28,890
+Tokens Donated: USDGLO, CELO, USDC, USDT, ETH, GIV, OP, ARB, MATIC, XDAI, SOL &amp;amp; more!
+Eligible donation Networks: All Giveth supported networks — Arbitrum One, Base, Gnosis, OP Mainnet, Ethereum Mainnet, Polygon PoS, Polygon zkEVM, Ethereum Classic, Celo, Stellar, Solana.
+The final results including all projects, amounts raised, and matching funds can be found here: ENS x Octant PGs Round Final Matching Results
+Donor Eligibility &amp;amp; Sybil Resistance
+The following mechanisms were used to ensure matching funds were allocated fairly according to genuine community support:
+Human Passport
+Using Passport’s Model Based API, each donor address was assigned a score based on on-chain activity. A score of 50 or higher was considered a pass for QF eligibility.- Addresses who did not achieve a passing score through the API could verify their uniqueness using stamps. A Passport (stamps) score of 15 or higher also qualified the donor as QF-eligible.
+COCM
+This round again used the Cluster-Optimized Community Matching (COCM) algorithm to calculate final matching. COCM rewards donor diversity and penalizes tightly clustered or coordinated donation patterns. That means:
+Projects supported by donors who gave to a broad range of projects received higher matching
+Projects that had donations mostly from overlapping or highly clustered wallets saw reduced matching. Learn more about COCM here.
+Huge Thanks to You All
+To everyone who donated, built, shared, or supported — you’re helping shape the future of public goods funding.
+More rounds are coming, and your support helps grow a sustainable ecosystem for web3 builders everywhere.
+Check out the full results detailed here.
+Got a feedback to share? Fill in this form and let us know about your experience.
+Let’s keep building. Let’s keep funding. Let’s keep the momentum going.
+Text by Yegor.</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1200/1*YCBIxI2EfGDgxfIDzit17A.png"/>
+  </entry>
+  <entry>
+    <title type="html">GIV Tokenomics: Governance, Utility &amp; Next-Gen Innovation</title>
+    <published>2025-03-11T15:28:30+00:00</published>
+    <updated>2025-03-11T15:28:30+00:00</updated>
+    <id>https://blog.giveth.io/giv-tokenomics-governance-utility-next-gen-innovation-a2a22aa62c06?source=rss----87b3b0848ea1---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.giveth.io/giv-tokenomics-governance-utility-next-gen-innovation-a2a22aa62c06?source=rss----87b3b0848ea1---4"/>
+    <author>
+      <name>Lauren Luz</name>
+    </author>
+    <content type="html">GIV Tokenomics: Governance, Utility &amp;amp; Next-Gen Innovation
+Giveth isn’t just a platform, it’s a movement, pushing the boundaries of decentralized governance and community-driven economies. Since launching the GIV token in December 2021, we’ve built and refined an ecosystem that empowers GIV holders to shape the future of public goods funding. This blog provides an update on how far we’ve come and where we’re headed next.
+What is the GIVeconomy?
+The GIVeconomy is a cryptoeconomic system, powered by the GIV token and consisting of the following parts:
+GIVbacks — Makes giving fun and potentially profitable by raffling GIV to public goods donors on giveth.io.
+GIVpower — Stake and lock GIV to boost projects, govern the DAO, and earn rewards.
+DAO Governance — Use GIVpower to vote on key proposals that direct GIV distribution and the Giveth DAO.
+Gurves — GIV-backed token economies designed to regeneratively fund public goods (on the roadmap).
+GIV is more than a token — it’s a tool for impact.
+GIV Token Distribution
+GIV has a total supply of 1 billion tokens which, at launch, was distributed across various buckets to fuel growth, governance, and sustainability. Since launch, we have fulfilled many of our initial plans, and over time have evolved and simplified the GIV token distribution and governance. Here’s where we stand today:
+Held by Community (39%) — GIV that’s currently held by users, donors, contributors, partners and ecosystem members.
+DAO-Controlled Liquidity (4%) — GIV that’s locked in LP tokens across multiple chains (Ethereum, Optimism, Gnosis, Polygon zkEVM, Solana) that are controlled by the Giveth DAO.
+GIVbacks (5%) — What remains of the initial allocation of GIV for our GIVbacks program, to complete our commitment to reward public goods donors until December 2026.
+Available to Giveth DAO (52%) — Remaining GIV tokens available to be used for governance-directed initiatives, roadmap goals, and ecosystem strengthening.
+Today, 52% of GIV’s total supply is controlled by GIVpower holders through the Giveth DAO — a testament to our community’s influence.
+Note: At launch 90% of the total supply of 1 Billion GIV tokens was locked set to stream continuously until December 2026. The “GIVstream” is still underway and affects each bucket differently.
+Governance Evolutions &amp;amp; Simplification
+Giveth has tried a wide range of governance experiments, from reputation tokens, cross-chain governance, quadratic voting, conviction voting, to liquidity incentives programs and more. We’ve learned from each and refined our approach.
+Here’s where Giveth governance stands today:
+GIVpower Unlocks Influence — Stake &amp;amp; lock GIV on supported chains for up to 5.2x voting power.
+Snapshot Drives Decisions — GIVpower holders vote in Snapshot to allocate DAO treasury funds.
+Forum Fuels Collaboration — Proposals start with community advice on the Giveth Forum before hitting Snapshot.
+The Giveth DAO has been at the forefront of experimentation in decentralized governance and tokenization for some time and has now simplified our approach for efficiency and improved community involvement.
+The Road Ahead: Public Goods Tokens Backed by GIV
+The GIVeconomy has made a huge impact already, but we’re not stopping here. Our next big innovations:
+AI agent experiments to capture market value through tokenization and drive it towards public goods projects.
+GIV-backed token economies that support projects while growing the Giveth DAO.
+More reasons to hold &amp;amp; stake GIV as the collateral token supporting an ecosystem of impact.
+Greater alignment between crypto economic systems &amp;amp; real-world impact.
+A glimpse into our vision for public goods funding that combines GIV-backed bonding curves and AI agents is depicted above. In this system, AI agents act as stewards for causes such as open source, climate or education. A DAO community that emerges around that cause can mint or burn AI agent tokens on a bonding curve with GIV as the collateral. A percentage of every token mint or burn feeds into the DAO treasury, which is controlled by the AI agent. The DAO treasury is also funded by direct donations from community members. The cause-focused AI agent collects token holder input and community signals, and then donates treasury funds to public goods projects within that cause category on Giveth.
+GIV is evolving into a regenerative financial engine for public goods — capturing financial value and directing it to public goods projects that create value for society.
+Want to Get Involved?
+Now is the best time to join the GIVeconomy:
+Get GIV — Get connected to our OTC partners or find GIV on supported exchanges.
+Stake &amp;amp; lock GIV — Get GIVpower and start shaping the future.
+Vote in the DAO — Keep an eye on our Snapshot to participate in governance.
+Giveth is building the future of decentralized, community-driven public goods creation and every GIV holder is part of this journey. Let’s push the boundaries of impact funding together!
+Learn more &amp;amp; stay updated: Read the full update in the Giveth Forum | Follow us on Twitter</content>
+    <link rel="enclosure" type="application/octet-stream" href="https://miro.medium.com/v2/da:true/resize:fit:1000/0*hIQNWEPR9PhIZrxM"/>
+  </entry>
+  <entry>
+    <title type="html">Loving on Public Goods QF Round Results &amp; Wrap-up</title>
+    <published>2025-03-05T18:13:58+00:00</published>
+    <updated>2025-03-05T18:13:58+00:00</updated>
+    <id>https://blog.giveth.io/loving-on-public-goods-qf-round-results-wrap-up-b64b77c008a9?source=rss----87b3b0848ea1---4</id>
+    <link rel="alternate" type="text/html" href="https://blog.giveth.io/loving-on-public-goods-qf-round-results-wrap-up-b64b77c008a9?source=rss----87b3b0848ea1---4"/>
+    <author>
+      <name>Almnd Hernández</name>
+    </author>
+    <content type="html">Loving on Public Goods QF Round Results &amp;amp; Wrap-up
+The Loving on Public Goods QF Round has officially wrapped up, and wow — so many of you showed up to participate and support! Huge shoutout to everyone who donated, supported, and was with us during this round.
+Before we get into the numbers, let’s send some love to our matching pool Sponsors: Public Nouns, Glo Dollar, Mux Protocol and amazing community of Giveth Donors who have contributed to the matching pool! Their support helped us get a 100,000 USDGLO matching pool on Base, fueling the projects that are making the world better.
+TL;DR — The Numbers
+Matching pool size: 100,000 USDGLO on Base
+Round Duration: January 28 — February 14, 2025
+Max matching per project: 7% of the matching pool or 7000 USDGLO
+Eligible Projects: 129
+Total Donations: 3773
+Unique Donors: 862
+Total USD Value of Donations: $53,761.8
+Eligible donation Networks: All Giveth supported networks — Arbitrum One, Base, Gnosis, OP Mainnet, Ethereum Mainnet, Polygon PoS, Polygon zkEVM, Ethereum Classic, Celo, Stellar, Solana.
+The final results including all projects, amounts raised, and matching funds can be found here.
+Learn more about the data analysis &amp;amp; breakdown here.
+Community Questions — Answered!
+We saw some common questions in previous rounds, so let’s clear the air right now:
+Why is my actual matching different from the estimated matching I saw during the round?
+The estimated matching on Giveth is a rough estimation based on the donations made so far during the round, and calculated used the basic quadratic funding formula. To calculate the actual matching per project, we use COCM.
+COCM prioritizes diverse donations. If your donors only supported your project, the matching impact is lower. Encourage your supporters to donate to multiple projects next time to get a better boost!
+How can my project get a bigger match next time?
+Get more donors, not just bigger donations
+Make sure your donors also donate to other projects that they care about
+Grow your community reach to attract a broader donor base
+You can learn more about COCM’s here.
+Final Remarks &amp;amp; Next Steps
+The Loving on Public Goods Round has been an amazing success, thanks to our community of donors, project creators, sponsors and Giveth community.
+What’s Next?
+Next, we’ll ratify the results on chain with a Snapshot vote. (reminder that you can stake your GIV for GIVpower (and lock it to multiply) on Gnosis Chain, Optimism or Polygon zkEVM to participate in this and upcoming votes.)
+Matching funds will be distributed right after.
+Big Love to the Giveth Community!
+To everyone who donated, shared, hyped, and participated — you’re the reason this ecosystem thrives.
+Got questions? Drop them below or tag @yegor — we got you.
+Together, we’re helping public goods grow. Let’s keep the love going!
+Looking ahead: Stay tuned for updates on the ENS &amp;amp; Octant Public Goods Round coming up March 18 — April 1, 2025. Projects building Infrastructure, Utility, and Education are super welcome to apply: ENS x Octant PGs QF Round | Projects Application Form
+More opportunities to fund public goods are on the way!
+Text by Yegor</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1080/1*aKQFIz1GldfDGi7eFdEsPw.png"/>
+  </entry>
+</feed>
