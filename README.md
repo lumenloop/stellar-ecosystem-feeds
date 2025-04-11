@@ -38,8 +38,6 @@ For example a custom CSS Bridge:
 
 Some blog feeds are missing due to recent site changes that require modifications to extract full content (a very small number).
 
-Thanks to these tools, Lumen Loop was able to provide full-content feeds for a broader range of Stellar-related content.
-
 ---
 
 Feel free to fork or reuse!
