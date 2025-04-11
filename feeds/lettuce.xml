@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Stories by Lettuce Pay on Medium</title>
+  <link rel="alternate" type="text/html" href="https://medium.com/@lettucepay?source=rss-878ff7817dfd------2"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40LettucePay&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://cdn-images-1.medium.com/fit/c/150/150/1*rP6DMBl7qlIMpQfH6z4Ntw.jpeg</icon>
+  <logo>https://cdn-images-1.medium.com/fit/c/150/150/1*rP6DMBl7qlIMpQfH6z4Ntw.jpeg</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2F%40LettucePay&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:07:23+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">We Surveyed Small Businesses about Accepting Cryptocurrency, this is what they said.</title>
+    <published>2020-11-06T05:55:07+00:00</published>
+    <updated>2020-11-06T05:55:07+00:00</updated>
+    <id>https://lettucepay.medium.com/we-surveyed-small-businesses-about-accepting-cryptocurrency-this-is-what-they-said-df78b7ba1979?source=rss-878ff7817dfd------2</id>
+    <link rel="alternate" type="text/html" href="https://lettucepay.medium.com/we-surveyed-small-businesses-about-accepting-cryptocurrency-this-is-what-they-said-df78b7ba1979?source=rss-878ff7817dfd------2"/>
+    <author>
+      <name>Lettuce Pay</name>
+    </author>
+    <content type="html">Using our winnings from the Stellar Community Fund, we polled small businesses to learn what they thought about accepting cryptocurrency. Pollfish provided us with 100 anonymous American small business owners and we supplemented that with another 30 we surveyed on our own. The two surveys produced remarkably similar results. Without further ado, this is what we uncovered about small businesses!30% have been asked if they accept cryptocurrency as payment; almost always Bitcoin.75% would accept cryptocurrency if it instantly settled in USD.About 1/3 have no reservations about accepting cryptocurrency. Another 1/3 state not knowing enough as their reservation.Small businesses see 4 key benefits:Lower transaction feesFraud reduction/irreversible paymentsInstant settlementNew customersAnd lastly, 2 out of every 3 small business owners believe cryptocurrency will become widely accepted in the next 5 years!We have a new product brewing that will allow everyday Americans to #BeCryptoFriendly and interact with cryptocurrency users while only having to deal with USD. If you would like to learn more, contact us at info@lettucepay.io</content>
+  </entry>
+  <entry>
+    <title type="html">Top 5 Reasons Why Your Business Should Accept Cryptocurrency</title>
+    <published>2020-11-02T04:12:04+00:00</published>
+    <updated>2020-11-02T04:12:04+00:00</updated>
+    <id>https://lettucepay.medium.com/top-5-reasons-why-your-business-should-accept-cryptocurrency-e1efdba72045?source=rss-878ff7817dfd------2</id>
+    <link rel="alternate" type="text/html" href="https://lettucepay.medium.com/top-5-reasons-why-your-business-should-accept-cryptocurrency-e1efdba72045?source=rss-878ff7817dfd------2"/>
+    <author>
+      <name>Lettuce Pay</name>
+    </author>
+    <content type="html">You do not need to understand what cryptocurrency is in order to understand why your business should accept it. In reality, very few people actually understand any modern technology! For example, do you know anyone that can adequately explain how the internet works? What’s far more relevant to you is why your business should accept it as currency. So, without further ado, here are 5 reasons your business should be “crypto friendly”.The number of people who own cryptocurrency has doubled in the last two years to 50+ million.2. Crypto communities are tight knit and support each other. That means they will happily buy from you simply because you accept their preferred currency.3. Transactions are irreversible. Your buyer is transferring digital assets to you during the transaction. They cannot ask a bank or credit card company to return the money.4. Many cryptocurrencies have significantly appreciated in value. That means crypto users have money to spend.5. Who cares what currency your customer has?! LettucePay.io instantly converts cryptocurrencies into dollars before you receive them.</content>
+  </entry>
+  <entry>
+    <title type="html">LettucePay is Born</title>
+    <published>2020-07-22T15:53:43+00:00</published>
+    <updated>2020-07-22T15:53:43+00:00</updated>
+    <id>https://lettucepay.medium.com/lettucepay-is-born-8598bcc7fb47?source=rss-878ff7817dfd------2</id>
+    <link rel="alternate" type="text/html" href="https://lettucepay.medium.com/lettucepay-is-born-8598bcc7fb47?source=rss-878ff7817dfd------2"/>
+    <author>
+      <name>Lettuce Pay</name>
+    </author>
+    <content type="html">LettucePay is BornLettucePay started out as a simple idea that brick-and-mortar retail transactions should happen without middlemen or fees. By utilizing the Stellar blockchain and ecosystem, we were able to launch a minimum viable product within 2 months. Standardized QR codes direct any Stellar-based asset (not just XLM) to a merchant’s digital wallet. Furthermore, Stellar’s native “path payments” feature instantly converts those assets to digital dollars. The merchant can withdraw those digital dollars to a traditional bank account whenever they want at no cost.https://medium.com/media/2379dfde8a6814510189223da6fcc035/hrefUnlike many blockchain projects, we are prioritizing getting a product in front of customers quickly. Our first market to attack is NYC. Over the next month, we will be setting up 15+ vendors with our technology. If we win the Stellar Community Fund, much of the prize money will be dedicated to promotions in New York and giving away XLM to residents so they can try buying goods with cryptocurrency.While we think our current product is awesome, it’s really just a glorified invoice generator. Throughout the remainder of 2020, we will be launching several major enhancements. These enhancements will move our product closer to a full-fledged POS system…but without transaction fees 😊Wallet 1.0By building our own non-custodial wallet, we will empower merchants to accept assets independent of partners like AnchorUSD. While we love working with AnchorUSD, we don’t want our product to malfunction simply because AnchorUSD malfunctions. Technically, this solution is superior and simplifies functionality such as viewing transaction history, KYC, and withdrawal.iOS 1.0We need a simple mobile app. Why? For the next feature…Tangem 1.0Instead of scanning QR codes with a Stellar wallet, we want to empower consumers to use Tangem cards. Tangem has created amazing sleek NFC cards, which carry a passport grade secure chip, which implements public key cryptography. In simple terms, this means they are a highly secure wallet to transact and store digital currency and consumers can simply tap their Tangem card on the vendor’s phone and payment will instantly be sent. We’ve partnered with Tangem and they are helping us get set up as fast as possible. If we win the Stellar Community Fund, we will be handing out preloaded Tangem cards throughout NYC.Accepting Additional CurrenciesWe haven’t fully decided how this functionality will behave, but with a lot of coffee, we can launch this in 2020. Perhaps it means we manage a Bitcoin Lightning node and utilizing Apay.io as the Bitcoin anchor to rapidly accept Bitcoin. Or maybe we accept BCH and XRP, again, utilizing Apay.io as an anchor. Ultimately, we want to accept any cryptocurrency that has fast and inexpensive transactions.We need your help!This is really ambitious; especially with a small team of folks with full time jobs. Most of the current cryptocurrency POS solutions don’t actually manage transactions over blockchains. By utilizing networks like VISA, the benefit of blockchains (no middlemen) is completely lost. So please help us!https://medium.com/media/1443e7e312dc66d89e7504db62c7738f/href1. Nominate us to win the Stellar Community Fund!https://stellarcommunity.fund/2. If you live in NYC, download Keybase and join our ShopNYC group. Keybase is an encrypted messaging tool and Stellar wallet. Zoom recently acquired them!https://keybase.io/team/ShopNYC3. Lastly, if you know a vendor that would like to accept digital currency and avoid transaction fees, tell them to sign up on our website: LettucePay.ioThank you for reading! With your help, we can really make this happen</content>
+  </entry>
+</feed>
