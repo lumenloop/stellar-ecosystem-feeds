@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Tansu Blog</title>
+  <link rel="alternate" type="text/html" href="https://tansu.dev/blog"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ftansu.dev%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;dont_expand_metadata=on&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ftansu.dev%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;dont_expand_metadata=on&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:10:41+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Tranche 1 approved!</title>
+    <published>2025-01-31T00:00:00+00:00</published>
+    <updated>2025-01-31T00:00:00+00:00</updated>
+    <id>https://tansu.dev/blog/build_award_tranche_1</id>
+    <link rel="alternate" type="text/html" href="https://tansu.dev/blog/build_award_tranche_1"/>
+    <content type="html">Tansu validated the deliverable for the first tranche of its Stellar Community Fund build Award!
+ 
+ 
+As defined in our proposal we set ourselves to complete the following 3 milestones during that tranche. We have successfully delivered them.
+ 
+ 
+Decentralized organization backend: we added a DAO interface to our Soroban contract. Maintainers can create a new proposal, anyone can cast a vote and then maintainers can execute the vote at the end of the voting period. A suite of tests is covering the contract API.
+ 
+Decentralized organization frontend: we added three pages to manage the DAO. (i) lists proposals showing their status; (ii) create a new proposal; and (iii) view a proposal and its details. Once a proposal voting period ends, we can trigger custom outcomes by the mean of custom XDR transactions.
+ 
+Maintenance before Testnet tranche: we did a complete refactor of the contracts and frontend code to make it more maintainable; improved our CI/CD tooling; added better tools for testnet automatic deployment which is handy with the testnet resets; added support for Ledger wallets; and did a lot of small bug fixes.
+ 
+ 
+Additionally, we have been working on these extras-not part of the proposal:
+ 
+ 
+IPFS integration: the dApp itself is also hosted on IPFS; DAO proposals are hosted on IPFS. All that in an effort to truly stay decentralized.
+ 
+Design: we have a new logo and are working on a whole new UX with a design studio.
+ 
+Anonymous votes: we are evaluating the use of the new BLS curve and homomorphic encryption as to preserve voters&amp;#x27; anonymity.
+ 
+GitHub dependency: we are also looking at ways to remove our dependency towards GitHub or any other external system in an effort to be as decentralized as possible.
+ 
+ 
+We have put in a lot of effort so far to not have a backend and will continue to do so. This is the only way to be truly decentralized, be able to host the dApp itself on IPFS, have everything running client side so that users can really trust our system. It would be far easier and faster for us to make use of a traditional backend but this to us is a compromise we are striving to avoid as much as we technically can. We need to fully embrace web3 and work our way out of web2 solutions.</content>
+  </entry>
+  <entry>
+    <title type="html">Tansu awarded a SCF30 Build Award</title>
+    <published>2024-12-21T00:00:00+00:00</published>
+    <updated>2024-12-21T00:00:00+00:00</updated>
+    <id>https://tansu.dev/blog/build_award</id>
+    <link rel="alternate" type="text/html" href="https://tansu.dev/blog/build_award"/>
+    <content type="html">We got it! Tansu received a Stellar Community Fund build Award!
+ 
+You can read up the official announcement here.
+ 
+See the post I made for our submission for more details. We are more than on track for the MVP phase and even added some extra features such as IPFS support for the proposals.</content>
+  </entry>
+  <entry>
+    <title type="html">A Decentralized Autonomous Organization (DAO) for every project</title>
+    <published>2024-12-07T00:00:00+00:00</published>
+    <updated>2024-12-07T00:00:00+00:00</updated>
+    <id>https://tansu.dev/blog/dao</id>
+    <link rel="alternate" type="text/html" href="https://tansu.dev/blog/dao"/>
+    <content type="html">Tansu is getting a Decentralized Autonomous Organization (DAO) system! Communities will be able to fully govern their project in a decentralized fashion.
+ 
+All projects created on Tansu will get their very own DAO. Forget sending an email as a dead letter to a mailing list, with a DAO, there are clear rules, the process is transparent, more fair and there is an immutable record of every single decision.
+ Decentralized Autonomous Organization (DAO)​ 
+A DAO is an organization where its rules are strictly enforced by the use of smart contracts. You cannot bend some rules and everyone in the community gets treated impartially depending on their status in the DAO. All of which is transparent. DAOs are set to transform the governance of projects.
+ Proposals​ 
+Maintainers can create proposals for their project. These can be about anything, from changing the API of a function, adding a new feature to deciding when to meet for your community calls.
+ 
+ Storing proposals​ 
+All proposals are registered on-chain and anyone can inspect them.
+ 
+ 
+But the proposal themselves are not stored on-chain as it would be costly and impractical. Instead, proposals are hosted on IPFS. This was a natural choice as IPFS is the de facto answer to decentralized storage.
+ 
+ 
+Primer on IPFS
+See the previous post.
+ Outcomes​ 
+A proposal can have 3 different outcome. It&amp;#x27;s either accepted, rejected or cancelled. The start of the show here is that outcomes can trigger transactions!
+ 
+ 
+When creating a proposal, you can give a transaction and when the proposal voting period ends, a maintainer will trigger the proposal execution which will trigger it&amp;#x27;s voted outcome.
+ 
+This mechanism is very powerful because it allows to manage very important and complex actions such as making a release, adding a new maintainer or spending funds. All these actions can now be recorded on-chain for everyone to see and validate.
+ Closing thoughts​ 
+Careful readers will have noted that I did not talk about voting. Once more, we are going to do things a bit differently here. Votes are not going to be (directly) associated with a token holding, rather your voting power will depend on your reputation and what you are doing in your project and the extended community. Stay tuned!</content>
+  </entry>
+</feed>
