@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Band Protocol</title>
+  <link rel="alternate" type="text/html" href="https://blog.bandprotocol.com/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.bandprotocol.com%2Frss%2F&amp;content_selector=article+.gh-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.bandprotocol.com%2Frss%2F&amp;content_selector=article+.gh-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T21:59:30+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Band Protocol Launches on XRPL EVM Sidechain Testnet — Bridging Enterprise-Grade Blockchain with Ethereum Technology</title>
+    <published>2025-04-09T13:46:37+00:00</published>
+    <updated>2025-04-09T13:46:37+00:00</updated>
+    <id>https://blog.bandprotocol.com/bandprotocol-on-xrpl-evm-sidechain-testnet/</id>
+    <link rel="alternate" type="text/html" href="https://blog.bandprotocol.com/bandprotocol-on-xrpl-evm-sidechain-testnet/"/>
+    <author>
+      <name>Band Protocol Marketing</name>
+    </author>
+    <content type="html">TL;DR
+Band Protocol is now live on the&amp;nbsp;XRPL EVM Testnet, bringing real-world data into the XRPL's new EVM-compatible environment.
+This testnet integration combines XRPL’s enterprise-grade reliability and low fees with Band’s decentralized oracle infrastructure—empowering developers to build EVM-based DeFi platforms and enterprise applications.
+Developers can now directly access decentralized price feeds for assets like&amp;nbsp;XRP/USD,&amp;nbsp;BTC/USD, and&amp;nbsp;ETH/USD within XRPL EVM smart contracts.
+This is just the beginning—more data feeds and enterprise-ready tools are coming as we move toward mainnet deployment.
+Introduction
+We’re excited to announce that&amp;nbsp;Band Protocol is now live on the XRPL EVM Sidechain Testnet—marking a new chapter in our journey to support enterprise-grade innovation on scalable blockchains.
+This integration expands on our commitment to provide reliable oracle solutions for the XRPL ecosystem and introduces&amp;nbsp;decentralized data feeds&amp;nbsp;to developers building smart contracts on the XRPL EVM sidechain, supporting the vision of bringing EVM compatibility to XRPL ecosystem.
+With Band Oracle now integrated into XRPL EVM sidechain, we’re enabling developers to access trusted, real-time off-chain data using Solidity—opening the door to a new era where enterprise blockchain solutions on XRPL meet Ethereum decentralized technology.
+Why XRPL EVM Testnet Is a Key Milestone for Developers
+The XRPL EVM sidechain is built to bring Ethereum Virtual Machine compatibility to the XRP Ledger, allowing developers to write and deploy Solidity smart contracts while leveraging XRPL’s strengths.
+What makes XRPL EVM Testnet a valuable environment for Band Protocol:
+EVM Compatibility:&amp;nbsp;Developers can build using familiar Solidity tools and frameworks like Hardhat, Remix, and MetaMask.
+XRPL Infrastructure:&amp;nbsp;The testnet inherits the XRPL’s low-cost, fast-settlement environment—ideal for real-time DeFi use cases.
+Testing for Production:&amp;nbsp;Enterprises can begin experimenting with oracles and DeFi logic on testnet before scaling to mainnet.
+💡
+With Band Protocol now on the XRPL EVM Testnet, developers can begin prototyping powerful, data-driven applications ahead of full-scale deployment.
+What Band Protocol Brings to XRPL EVM
+Band Protocol now provides decentralized price feeds to XRPL EVM developers through&amp;nbsp;reference oracle contracts, making it easier to build smart contracts that rely on real-world data. Current testnet feeds include: XRP/USD, BTC/USD, ETH/USD, and additional symbols in the pipeline.
+Secure, Real-Time Price Feeds
+Our decentralized validator network aggregates data from multiple trusted sources like Binance, CoinGecko, and CoinMarketCap, processes it on BandChain using Byzantine Fault Tolerant consensus, and delivers the verified price feeds data on-chain to XRPL EVM.
+Enterprise-Grade Use Cases
+With this integration, XRPL EVM developers can:
+Launch&amp;nbsp;DeFi protocols&amp;nbsp;like lending platforms or automated market makers with reliable price data.
+Power&amp;nbsp;Real World Asset (RWA)&amp;nbsp;issuance, pricing, and trading platforms.
+Experiment with blockchain-driven ideas to solve real-world enterprise problems.
+How Band Protocol Works on XRPL EVMA high-level look at how Band Protocol delivers data to XRPL EVM Sidechain
+A high-level look at how Band Protocol delivers data to XRPL EVM smart contracts:
+Data Request:&amp;nbsp;Band Protocol requests price data from multiple trusted APIs.
+Aggregation and Verification on BandChain:&amp;nbsp;Data is aggregated and validated using BandChain’s decentralized validators and consensus model.
+Data Relaying:&amp;nbsp;Verified data is securely pushed to Band’s oracle contracts deployed on XRPL EVM Testnet.
+Read Symbol:&amp;nbsp;Solidity contracts on XRPL EVM query this data via reference functions.
+Data Delivery:&amp;nbsp;Contracts receive the latest price data directly in their logic flow.
+Calling Builders, Innovators, and Enterprises
+We invite you to be among the first to explore what's possible at the intersection of Band Protocol and XRPL EVM. Build confidently on a secure, scalable platform with decentralized real-world data on your fingertips. Whether you're experimenting or rolling out enterprise-grade apps, these tools will help you get started:
+Band Protocol
+Band Protocol Developer Docs
+Standard Reference Contract Guide
+Band Price Feed’s Proxy Address on XRPL EVM Sidechain: 0x8c064bCf7C0DA3B3b090BAbFE8f3323534D84d68
+Example: How to Use Band Oracle in XRPL EVM (Solidity)
+solidity CopyEdit import interfaces/IStdReference.sol;  contract DemoPriceQuery {     IStdReference public ref;      constructor(IStdReference _ref) {         ref = _ref;     }      function getPrices() external view returns (IStdReference.ReferenceData[] memory) {         return ref.getReferenceDataBulk(["BTC", "ETH"], ["USD", "BTC"]);     } } 
+XRPL EVM Testnet
+XRPL EVM Sidechain Documentation
+Join the XRPL EVM Cross-chain dApps 1st Cohort
+Join the Band &amp;amp; XRPL Community
+Band Protocol:
+Discord
+Telegram
+Band Jedi Ambassador Program
+Band Grants Program
+XRPL:
+XRPL Developer Hub
+XRPL Grants
+Looking Ahead: Mainnet and Beyond
+This integration is just the first step. We are proud to be a part of the early stage of XRPL EVM Sidechain. As we gather feedback and optimize performance on the testnet, we’re preparing for a&amp;nbsp;mainnet launch with expanded data coverage&amp;nbsp;and enhanced support for more enterprise use cases.
+Together, Band Protocol and XRPL are shaping a future where decentralized data drives real-world business outcomes—securely, reliably, and sustainably.
+Let’s build what’s next—starting today on XRPL EVM Sidechain Testnet.
+About XRPL EVM
+The&amp;nbsp;XRPL Ethereum Virtual Machine (EVM)&amp;nbsp;is a transformative extension of the XRP Ledger ecosystem that introduces Ethereum’s smart contract capabilities through a dedicated sidechain. Built on the Cosmos SDK, this sidechain leverages a Proof-of-Authority (PoA) consensus model to maintain high performance and low latency while preserving the core attributes of the XRP Ledger. It connects to the XRP Ledger via the Axelar network, using XRP bridged from the XRPL as its native currency, facilitating seamless asset transfers and communication between the XRPL and the EVM sidechain. This integration fuses the XRP Ledger’s proven speed, cost-efficiency, and security with Ethereum’s versatility, empowering developers to build and deploy Solidity-based smart contracts in a high-speed, low-cost, and liquidity-rich environment.
+*More About XRPL EVM: https://www.xrplevm.org/*
+About Band Protocol
+Band Protocol is a cross-chain data oracle platform with the aspiration to build high-quality suites of web3 development products. The flagship Oracle solution aggregates and connects real-world data and APIs to smart contracts, enabling smart contract applications such as DeFi, prediction markets, and games to be built on-chain without relying on the single point of failure of a centralized oracle.
+More about Band Protocol:&amp;nbsp;https://linktr.ee/bandprotocol</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.bandprotocol.com/content/images/size/w1200/2025/04/XRPL-EVM_Integration_Banner.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Empowering the Next-Gen Blockchain: Band Protocol Fuels Monad High-Performance Ecosystem</title>
+    <published>2025-03-31T11:28:42+00:00</published>
+    <updated>2025-03-31T11:28:42+00:00</updated>
+    <id>https://blog.bandprotocol.com/bandprotocol-monad-data-oracle-integration/</id>
+    <link rel="alternate" type="text/html" href="https://blog.bandprotocol.com/bandprotocol-monad-data-oracle-integration/"/>
+    <author>
+      <name>Band Protocol Marketing</name>
+    </author>
+    <content type="html">TL;DR
+Band Protocol’s integration with Monad testnet delivers secure, real-time, and decentralized oracle solutions ahead of its mainnet launch
+With Band Price Feeds for $WBTC, $ETH, $SOL, $USDC, and $USDT now live on Monad testnet, the blockchain is primed to support next-gen high-performance dApps
+Band enhances key Web3 applications, including DeFi, GameFi, RWA, and prediction markets.
+This integration contributes to the Monad protocol, a mainstream high-performance Layer 1 blockchain, and the Monad community.
+Introduction
+We are delighted to announce our strategic integration with Monad, an ultra-high-performance Layer 1 blockchain designed for unparalleled transaction throughput and efficiency. As the Monad community gears up for the highly anticipated Monad mainnet launch, Band Protocol steps in as a key infrastructure provider on Monad testnet, delivering secure, real-time, and scalable oracle solutions to power smart contracts across its ecosystem.
+With this integration, Band Protocol enhances data flow and accessibility on Monad, unlocking all possibilities for Web3, DeFi, GameFi, and Real World Assets (RWA).
+Why Monad? A Next-Gen Blockchain Ready for Impact
+Monad is a blockchain that introduces high-throughput execution, low-latency transactions, and EVM compatibility, all while maintaining security and decentralization. By leveraging parallel and speculative execution, it redefines smart contract efficiency. With Band Price Feeds for $WBTC, $ETH, $SOL, $USDC, and $USDT now live on Monad testnet, Monad is ready to power the next generation of high-performance dApps.
+Key Features of Monad:
+Unparalleled Throughput: Processes up to 10,000 TPS, ensuring fast and scalable transactions.
+EVM Compatibility: Enables developers to seamlessly migrate Ethereum-based applications to Monad.
+Low Latency &amp;amp; Gas Efficiency: Optimized transaction execution for a smooth user experience.
+Scalability for Complex dApps: Supports high-frequency trading, lending, gaming, and other data-intensive applications.
+Band Oracle Integration on Monad: High-Level Technical Overview
+To enable Band Price Feeds on Monad, seamless communication is required between BandChain and Monad’s Execution Layer. Thanks to Monad’s EVM-compatibility, we can easily integrate Band Oracle into the ecosystem. The following diagram illustrates the process behind this integration:
+Band Oracle Integration on Monad: High-Level Technical Overview
+Data Request: Band Oracle collects price data from multiple external sources, including CoinMarketCap, CoinGecko, and Binance.
+Data Aggregation: BandChain processes and verifies the data using its consensus mechanisms to ensure accuracy and reliability.
+Data Transmission: The verified price feeds are securely relayed to Band’s reference contracts on Monad, preserving data integrity.
+Symbol Retrieval: Developers on Monad can access live price feeds, such as BTC/USD or ETH/USD, directly from these contracts.
+Price Delivery: The requested price data is returned to dApps, enabling real-time trading, automated pricing, and dynamic contract execution.
+How Band Protocol Contributes to Monad’s Growth
+With Monad’s mainnet launch on the horizon, the need for reliable, decentralized external data has never been greater. Band Protocol is committed to this vision, actively contributing to the ecosystem by providing:
+Real-Time Data Accuracy: Concurrent Price Streams provide fresh and precise price feeds for DeFi and GameFi applications.
+Optimized Performance: Off-chain aggregation minimizes gas costs while maintaining security and accuracy.
+Decentralization &amp;amp; Security: BandChain’s consensus mechanism secures the data feed, ensuring that every feed is accurate and on time-based on game theory.
+Cross-Chain &amp;amp; Off-Chain Connectivity: Data Tunnels allow seamless access to data from other networks and real-world sources.
+Strengthening Monad’s Developer Ecosystem
+By integrating Band Oracle, Monad is empowering developers to build confidently with greater access to secure, real-time data. This collaboration contributes to the efficiency and security of new use cases:
+High-Speed DeFi Protocols: Lending platforms, perpetual exchanges, stablecoins, and AMMs operate efficiently during peaks with our accurate price feeds.
+GameFi &amp;amp; NFT Applications: Real-time asset valuations enable fair in-game economies and NFT pricing.
+RWA &amp;amp; Tokenized Assets: Seamless integration of real-world data for commodities, real estate, and financial products.
+Decentralized Prediction Markets: Reliable external data ensures transparency in betting and forecasting dApps.
+Preparing for Monad’s Mainnet Launch
+Band Protocol’s oracle infrastructure will be deployed in phases, ensuring a seamless experience for Monad developers and users. As Monad approaches its mainnet launch, this integration positions the network as a leading high-performance blockchain with trusted data solutions.
+Developers get started now:
+Explore Band Protocol’s Documentation: docs.bandprotocol.com
+Learn More About Monad: https://docs.monad.xyz
+Band Proxy Contract Address on Monad Testnet: 0x0d59403c4139814fc3f76e62a94e4ee62138b1965d95bde7bdf5dcd5cbb2bbb5
+Example of Band Standard Reference Contract: Example: Query BTC/USD and ETH/BTC Prices in Solidity
+solidity CopyEdit import interfaces/IStdReference.sol;  contract DemoBulk {     IStdReference public ref;      constructor(IStdReference _ref) public {         ref = _ref;     }      function demo_bulk() external view returns (IStdReference.ReferenceData[] memory) {         return ref.getReferenceDataBulk(["BTC", "ETH"], ["USD", "BTC"]);     } }
+Example Contract: Query BTC/USD and ETH/BTC Prices in Solidity
+Join Our Community.
+Band Community: discord.gg/bandprotocol
+Monad Developer Discord: https://discord.com/invite/monaddev
+Monad Community Discord: https://discord.com/invite/monad
+Future Milestones
+This is just the beginning. As Monad evolves, Band Protocol will remain a key contributor to the ecosystem, delivering secure, decentralized, and high-performance oracle solutions. With real-time data accuracy, optimized performance, enhanced security, and seamless cross-chain &amp;amp; off-chain connectivity, Band provides the essential infrastructure for developers building the next generation of Web3 applications on Monad.
+We eagerly anticipate Monad’s mainnet launch and the expansion of our offerings, including Band VRF and more. Strengthening price feeds, optimization, and monitoring is crucial to enhance the ecosystem’s efficiency and reliability, which we will focus on in the upcoming time.
+Through this integration, Band Protocol reinforces its commitment to Monad, enabling developers to build high-speed, data-driven applications that push the boundaries of blockchain innovation.
+Together, we are shaping the future of high-performance Web3.
+About Monad
+Monad is a high-performance Ethereum-compatible L1, offering users the best of both worlds: portability and performance.
+From a portability perspective, Monad offers full bytecode compatibility for the Ethereum Virtual Machine (EVM), so that applications built for Ethereum can be ported to Monad without code changes, and full Ethereum RPC compatibility, so that infrastructure like Etherscan or The Graph can be used seamlessly.
+From a performance perspective, Monad offers 10,000 tps of throughput, i.e. 1 billion transactions per day, while offering 500ms block frequency and 1 second finality. This allows Monad to support many more users and far more interactive experiences than existing blockchains, while offering far cheaper per-transaction costs.
+*More about Monad: https://linktr.ee/monad_xyz*
+About Band Protocol
+Band Protocol is a cross-chain data oracle platform with the aspiration to build high-quality suites of web3 development products. The flagship Oracle solution aggregates and connects real-world data and APIs to smart contracts, enabling smart contract applications such as DeFi, prediction markets, and games to be built on-chain without relying on the single point of failure of a centralized oracle.
+More about Band Protocol: https://linktr.ee/bandprotocol</content>
+    <link rel="enclosure" type="image/png" href="https://blog.bandprotocol.com/content/images/size/w1200/2025/03/Monad_Integration_Banner.png"/>
+  </entry>
+  <entry>
+    <title type="html">Band Protocol x Router Protocol: The Ultimate Data Bridge for Everyone</title>
+    <published>2025-03-28T10:08:44+00:00</published>
+    <updated>2025-03-28T10:08:44+00:00</updated>
+    <id>https://blog.bandprotocol.com/band-router-data-bridge-for-everyone/</id>
+    <link rel="alternate" type="text/html" href="https://blog.bandprotocol.com/band-router-data-bridge-for-everyone/"/>
+    <author>
+      <name>Band Protocol Marketing</name>
+    </author>
+    <content type="html">At the beginning of 2025, we announced Router Protocol as the First Data Tunnel Provider for Band Oracle v3, marking a significant milestone in building free and open cross-chain data infrastructure. Today, we’re excited to share the next step in this journey—a successful end-to-end oracle data transmission from BandChain testnet to an EVM-compatible destination chain, Ethereum Holesky, via Router Route.
+As the blockchain ecosystem evolves, decentralized applications demand secure, real-time data flows across multiple chains. With the rapid growth of DeFi, DeFAI, and real-world asset (RWA) tokenization, seamless cross-chain communication is no longer optional—it’s foundational.
+That’s precisely what Band Oracle v3 and Router Protocol deliver: The ultimate data bridge for everyone.
+End-to-End Cross-Chain Oracle Test Completed!
+As a preparation for our Band Oracle v3 Mainnet launch, we completed the end-to-end testing on the latest version of BandChain and the Router contract where we successfully sent oracle data transactions from Band Oracle v3 testnet to Ethereum Holesky through Router Chain.
+The integration between Band Protocol and Router Protocol enables a streamlined mechanism for transmitting oracle data across blockchain networks, leveraging IBC Hooks and the Router Bridge Protocol, where each part is responsible for a different role as follows:
+Band Oracle v3 delivers real-time, verifiable price feeds to supported networks.
+Router Protocol facilitates secure and seamless data transmission from BandChain to EVM-compatible chains.
+Router Chain acts as a trustless data bridge, allowing smart contracts on EVM or Cosmos chains to receive real-time price feeds natively.
+Relaying Band Oracle v3 Data to Holesky via Router
+This end-to-end testing demonstrates the successful relay of the mock price data of BTC and ETH from&amp;nbsp;Band Oracle v3&amp;nbsp;through&amp;nbsp;Router Protocol&amp;nbsp;to the Ethereum&amp;nbsp;Holesky Testnet**.** Let’s walk through the transaction details via the Transaction Receipt Event Log on Holesky Testnet Etherscan.
+Packet Verification on the Router Gateway
+This demonstrates that the data packet was successfully sent from the&amp;nbsp;Router chain. Key information within the packet includes:
+Source Chain&amp;nbsp;and&amp;nbsp;Destination Chain: In this case, the destination is&amp;nbsp;Holesky.
+Relayer Router Address:&amp;nbsp;router1waayjeyrusurcn7nt2n8hh44wz96gzxz8xgrlj&amp;nbsp;— The address responsible for transmitting the packet.
+Request Sender: The Band-Router integration contract address that receives price data from BandChain via IBC and sends it to the destination chain using the router bridge.
+Payload Data: mock price values for&amp;nbsp;BTC&amp;nbsp;and&amp;nbsp;ETH, sent from Band Oracle v3.
+Updating Consumer Contract State on Holesky
+Once the packet arrives on the destination chain, the&amp;nbsp;Band Router Consumer Contract&amp;nbsp;deployed on Holesky receives and processes the data, as shown in the screenshot below.
+The contract updates the&amp;nbsp;consumer state&amp;nbsp;with the latest (mock) price values and timestamps for&amp;nbsp;BTC&amp;nbsp;and&amp;nbsp;ETH.
+This example shows that any user can write their own contract on the destination chain and receive band price data by implementing iReceive interface to receive price data from BandChain via router protocol bridge technology.
+(Remarks*: The oracle data sent in this demo transaction* is mock data and does not real-time price feeds.)
+💡
+With this successful relaying testing, developers will soon be able to build cross-chain applications that utilize BandChain’s oracle data and Router Protocol’s bridge infrastructure, ensuring secure, real-time, and reliable data availability across networks.
+Why This Matters: Solving Cross-Chain Challenges in DeFi
+DeFi, DeFAI, and RWA applications are increasingly built across this multi-chain world but face several core challenges that limit their scalability and reliability:
+Unreliable price feeds can result in unfair liquidations in DeFi lending protocols.
+AI-driven DeFi protocols (DeFAI) suffer from low-quality or delayed data, undermining performance.
+RWA tokenization struggles with inconsistent valuations across chains.
+Without secure data oracle solutions and reliable cross-chain bridges, the DeFi ecosystem remains fragmented and inefficient. To address this, this integration of Band Oracle v3 and Router Protocol offers a robust solution, ensuring real-time, decentralized price feeds across chains, with built-in reliability and security.
+Band x Router: The Perfect Match for Enhancing Cross-Chain Reliability
+This collaboration sets a new standard for cross-chain oracle infrastructure, where
+Band Protocol provides real-time, verifiable price feeds for DeFi, RWA, and DeFAI applications.
+Router Protocol enables secure and seamless data and asset movement across major blockchain ecosystems like Ethereum, Solana, and BSC.
+Together, Band and Router deliver an open and decentralized cross-chain data layer, empowering developers to build the next generation of DeFi, gaming, and real-world asset applications across all networks.
+Key Use Cases Unlocked By This Collaboration
+The Band x Router integration unlocks high-impact cross-chain use cases:
+In cross-chain lending, this collaboration eliminates unfair liquidations by delivering real-time, verifiable price feeds through Band and consistent pricing across chains via Router.
+For DeFAI-powered trading and yield strategies, AI-driven protocols benefit from Band’s concurrent price streams and Router’s efficient cross-chain execution capabilities, resulting in improved performance and reduced risk.
+Furthermore, in RWA tokenization, where off-chain data accuracy is critical, Band provides reliable price feeds, while Router ensures their seamless delivery across chains—effectively eliminating pricing mismatches and arbitrage opportunities.
+For Developers: Get Ready to Experiment!
+Once the Band Oracle v3 Testnet is upgraded, developers will be able to set up a Router Tunnel and query real-time price data from BandChain directly into an EVM-compatible smart contract on any supported chain (EVM or Cosmos).
+Get started and prepare for this integration: https://github.com/bandprotocol/bandchain-docs/blob/90f86c9e1cb97d6bac3397dec07c2ba76b542110/docs/data-tunnel/09-router-integration.md
+Follow us on X for updates as we roll out the next phase of this collaboration.
+Looking Ahead: A New Era of Trustless Cross-Chain DeFAI
+The Band x Router integration sets a new benchmark for secure, scalable, and trustless cross-chain DeFi infrastructure, ensuring that:
+Cross-chain data is trustless—no reliance on centralized bridges.
+DeFi pricing becomes more reliable—reducing the risk of manipulation or inconsistency.
+Interoperability becomes unbounded—projects can expand to multiple chains without friction.
+As blockchain networks grow increasingly interconnected, a secure and decentralized data infrastructure is becoming essential. Band Protocol and Router Protocol are not just building toward a future where DeFi applications can operate seamlessly and securely across ecosystems, but a new standard of cross-chain data flow, with no compromises on reliability.
+An ultimate data bridge for everyone is now a reality.
+About Router Protocol
+The Router Chain is a layer 1 blockchain that leverages tendermint’s Byzantine Fault Tolerant (BFT) consensus engine. As a Proof of Stake (PoS) blockchain, the Router Chain is primarily run by a network of validators with economic incentives to act honestly. The Router Chain is built using the Cosmos SDK and encapsulates all the features of Cosmos, including fast block times, robust security mechanisms, and, most importantly, CosmWasm - a security-first smart contract platform. By leveraging the CosmWasm toolkit, developers can start building secure blockchain applications on the Router Chain from scratch or port their existing applications to the Router Chain with minimal overhead.
+Learn More About Router Protocol:&amp;nbsp;https://www.routerprotocol.com/
+About Band Protocol
+Band Protocol is a cross-chain data oracle platform with the aspiration to build high-quality suites of web3 development products. The flagship Oracle solution aggregates and connects real-world data and APIs to smart contracts, enabling smart contract applications such as DeFi, prediction markets, and games to be built on-chain without relying on the single point of failure of a centralized oracle.
+More about Band Protocol:&amp;nbsp;https://linktr.ee/bandprotocol</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.bandprotocol.com/content/images/size/w1200/2025/03/Router-Announcement.jpg"/>
+  </entry>
+</feed>
