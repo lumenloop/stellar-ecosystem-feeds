@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">JamesBachini.com</title>
+  <link rel="alternate" type="text/html" href="https://jamesbachini.com"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fjamesbachini.com%2Ffeed%2F&amp;content_selector=.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fjamesbachini.com%2Ffeed%2F&amp;content_selector=.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:12:04+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Building a SEP41 Token on Stellar Soroban with OpenZeppelin</title>
+    <published>2025-02-22T02:16:46+00:00</published>
+    <updated>2025-02-22T02:16:46+00:00</updated>
+    <id>https://jamesbachini.com/stellar-soroban-with-openzeppelin/</id>
+    <link rel="alternate" type="text/html" href="https://jamesbachini.com/stellar-soroban-with-openzeppelin/"/>
+    <author>
+      <name>James</name>
+    </author>
+    <content type="html">OpenZeppelin has just launched the first few contract libraries for the Soroban ecosystem. Let&amp;#8217;s take a look and build out a token using their fungible token module.
+    
+ 	
+ 		
+James On YouTube
+ 		 	
+ 	 	 
+ 
+Watch On YouTube: https://youtu.be/2Ak_nHyfrEU | Subscribe 
+        Deploying a Fungible Token on Soroban    Prerequisites    
+Ensure you have the following installed:
+    
+ 
+Rust (latest stable version)
+    
+Cargo (Rust package manager)
+    
+Stellar CLI
+    
+Soroban SDK
+ 
+     
+You&amp;#8217;ll also need some testnet tokens which you can get from here. Just add your address on the end: https://friendbot.stellar.org/?addr=
+     
+There&amp;#8217;s an introductory guide to building rust smart contracts on Soroban here if you need it: https://jamesbachini.com/building-rust-smart-contracts-on-stellar-soroban/
+        OpenZeppelin Contract Wizard    
+Update: 28th February 2025
+    
+You can now use the Open Zeppelin contract wizard to create soroban smart contracts.
+    
+Check out the UI here: https://wizard.openzeppelin.com/stellar
+            OpenZeppelin Soroban SEP41 Token Code    
+The code repository for the OpenZeppelin Stellar Soroban libraries is here: https://github.com/OpenZeppelin/stellar-contracts/
+Note that this is a preliminary release and at time of writing the code is described as not production ready.
+        
+Despite this I couldn&amp;#8217;t wait to dive in and get to know my way around their new Rust smart contract libraries.
+    
+Below is a Soroban SEP41 Fungible Token using OpenZeppelin libraries.
+    
+All the code for this is open source and available on Github: https://github.com/jamesbachini/Soroban-OpenZeppelin-Token
+    
+    
+/*     Example Soroban SEP41 Fungible Token        Using OpenZeppelin Libraries          .------------------------.     }=&amp;gt;/  __------------------__  \        /       Soroban SEP41        \      }=&amp;gt;  Stellar &amp;#x2665;&amp;#xfe0f; OpenZeppelin    )       \   __     v.0.0.1      __   /     }=&amp;gt;\    ------------------    /          '------------------------'                    `-----'    */  use openzeppelin_fungible_token::{     self as fungible, burnable::FungibleBurnable, mintable::FungibleMintable, FungibleToken, };  use soroban_sdk::{     contract, contracterror, contractimpl, panic_with_error, symbol_short, Address, Env, String,     Symbol, };  pub const OWNER: Symbol = symbol_short!("OWNER"); pub const CAP: Symbol = symbol_short!("CAP");  #&amp;#91;contract] pub struct MyCoinContract;  #&amp;#91;contracterror] pub enum MyCoinContractError {     MaxSupplyExceeded = 1, }  #&amp;#91;contractimpl] impl MyCoinContract {     pub fn __constructor(e: &amp;amp;Env, owner: Address, cap: i128) {         fungible::metadata::set_metadata(             e,             18,             String::from_str(e, "My Coin"),             String::from_str(e, "MC"),         );         e.storage().instance().set(&amp;amp;OWNER, &amp;amp;owner);         e.storage().instance().set(&amp;amp;CAP, &amp;amp;cap);     } }  #&amp;#91;contractimpl] impl FungibleToken for MyCoinContract {     fn total_supply(e: &amp;amp;Env) -&amp;gt; i128 {         fungible::total_supply(e)     }      fn balance(e: &amp;amp;Env, account: Address) -&amp;gt; i128 {         fungible::balance(e, &amp;amp;account)     }      fn allowance(e: &amp;amp;Env, owner: Address, spender: Address) -&amp;gt; i128 {         fungible::allowance(e, &amp;amp;owner, &amp;amp;spender)     }      fn transfer(e: &amp;amp;Env, from: Address, to: Address, amount: i128) {         fungible::transfer(e, &amp;amp;from, &amp;amp;to, amount);     }      fn transfer_from(e: &amp;amp;Env, spender: Address, from: Address, to: Address, amount: i128) {         fungible::transfer_from(e, &amp;amp;spender, &amp;amp;from, &amp;amp;to, amount);     }      fn approve(e: &amp;amp;Env, owner: Address, spender: Address, amount: i128, live_until_ledger: u32) {         fungible::approve(e, &amp;amp;owner, &amp;amp;spender, amount, live_until_ledger);     }      fn decimals(e: &amp;amp;Env) -&amp;gt; u32 {         fungible::metadata::decimals(e)     }      fn name(e: &amp;amp;Env) -&amp;gt; String {         fungible::metadata::name(e)     }      fn symbol(e: &amp;amp;Env) -&amp;gt; String {         fungible::metadata::symbol(e)     } }  #&amp;#91;contractimpl] impl FungibleBurnable for MyCoinContract {     fn burn(e: &amp;amp;Env, from: Address, amount: i128) {         fungible::burnable::burn(e, &amp;amp;from, amount)     }      fn burn_from(e: &amp;amp;Env, spender: Address, from: Address, amount: i128) {         fungible::burnable::burn_from(e, &amp;amp;spender, &amp;amp;from, amount)     } }  #&amp;#91;contractimpl] impl FungibleMintable for MyCoinContract {     fn mint(e: &amp;amp;Env, account: Address, amount: i128) {         let owner: Address = e.storage().instance().get(&amp;amp;OWNER).expect("owner should be set");         owner.require_auth();         let cap: i128 = e.storage().instance().get(&amp;amp;CAP).expect("cap should be set");         let current_total_supply = fungible::total_supply(e);         if current_total_supply + amount &amp;gt; cap {             panic_with_error!(e, MyCoinContractError::MaxSupplyExceeded);         }         fungible::mintable::mint(e, &amp;amp;account, amount);     } } 
+    
+To deploy we will use the stellar cli:
+    
+cargo build  cargo test  cargo install --locked stellar-cli --features opt  stellar keys address james  cargo build --target wasm32-unknown-unknown --release  stellar contract deploy  --wasm target/wasm32-unknown-unknown/release/mycoin.wasm --source james --network testnet -- --owner GD6ERVU2XC35LUZQ57JKTRF6DMCNF2JI5TFL7COH5FSQ4TZ2IBA3H55C --cap 1000000  stellar contract invoke --id CBCRKOQKOYDDKGZEDHC6CGTHOTU2W3DL426QLS4ZYTZNDZDTTWAP4DYU --source james --network testnet -- mint --account GD6ERVU2XC35LUZQ57JKTRF6DMCNF2JI5TFL7COH5FSQ4TZ2IBA3H55C --amount 1000 
+    
+And you should get some tokens come through to your address.
+            
+This collaboration will bring OpenZeppelin&amp;#8217;s expertise in smart contract standards and security to Soroban, Stellar&amp;#8217;s smart contract platform.
+    
+OpenZeppelin has been instrumental in setting security frameworks in the Ethereum ecosystem. Now, they are bringing the same level of expertise to Stellar by developing the Stellar Library, which will provide foundational smart contracts, advanced token standards, and cryptographic utilities.
+    
+The partnership spans January 2025 through December 2026 and includes:
+    
+ 
+Security Audits 40 Auditor Weeks dedicated over two years.
+    
+Bug Bounty Program OpenZeppelin will operate a security bug bounty for the Stellar Library.
+    
+Developer Tools Open source tools for contract inspection, relayers, monitors, and more.
+    
+Smart Contract Libraries Support for tokens, utilities and cryptographic functions.
+ 
+    
+This initiative ensures Stellar developers have access to audited, secure, and standardized contracts, allowing them to focus on building innovative decentralized applications.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://jamesbachini.com/wp-content/uploads/2025/02/OZTOKEN.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Ethereum Pectra Upgrade Imminent</title>
+    <published>2025-02-15T21:32:45+00:00</published>
+    <updated>2025-02-15T21:32:45+00:00</updated>
+    <id>https://jamesbachini.com/ethereum-pectra-upgrade-imminent/</id>
+    <link rel="alternate" type="text/html" href="https://jamesbachini.com/ethereum-pectra-upgrade-imminent/"/>
+    <author>
+      <name>James</name>
+    </author>
+    <content type="html">The upcoming Pectra upgrade, scheduled for March 2025, aims to make ethereum more efficient and lay the ground work for further scaling and development.
+    
+Pectra is a significant update that merges two planned upgrades, Prague and Electra, into one comprehensive overhaul. This combined effort is designed to streamline improvements and accelerate Ethereum&amp;#8217;s evolution.
+    Account Abstraction    
+One of the standout features being rolled out with Pectra is the tech around account abstraction.
+    
+This allows users to pay transaction tx fees, using various tokens like USDC or DAI, not just ETH. It also enables features like transaction batching and sponsored gas fees, making interactions more flexible and user friendly.
+    Enhanced Staking    
+For validators, Pectra increases the maximum staking limit from 32 ETH to 2,048 ETH.
+    
+This change allows larger validators to manage their operations more efficiently and could lead to higher rewards for those staking significant amounts.
+    Verkle trees    
+The upgrade introduces Verkle Trees, a new data structure that optimizes how information is stored and accessed on the network.
+    
+This enhancement reduces storage requirements and improves transaction processing times, contributing to better scalability.
+    Blob Scaling    
+Pectra increases the capacity for &amp;#8220;blobs,&amp;#8221; which store transaction data. With more storage for Layer 2 rollups, Ethereum transactions will become cheaper and faster.
+    Data via https://dune.com/hildobby/blobs    
+These changes are not just technical upgrades; they represent a significant leap toward making Ethereum more accessible, efficient, and secure. Whether you&amp;#8217;re a casual user, a developer, or a validator, Pectra offers enhancements that cater to your needs.
+    
+As Ethereum continues to evolve, the Pectra upgrade is a stepping stone towards a more robust and user friendly blockchain experience.</content>
+    <link rel="enclosure" type="image/png" href="https://jamesbachini.com/wp-content/uploads/2025/02/PECTRA.png"/>
+  </entry>
+  <entry>
+    <title type="html">Vibe Coding</title>
+    <published>2025-02-12T07:42:57+00:00</published>
+    <updated>2025-02-12T07:42:57+00:00</updated>
+    <id>https://jamesbachini.com/vibe-coding/</id>
+    <link rel="alternate" type="text/html" href="https://jamesbachini.com/vibe-coding/"/>
+    <author>
+      <name>James</name>
+    </author>
+    <content type="html">What Is Vibe Coding? An Introduction To Next Gen AI Development
+    
+Is vibe coding an overhyped trend or a real threat to your job security?
+    
+Vibe coding is an AI first approach to software development. Instead of meticulously structuring code, debugging line by line, and sweating over syntax, developers now interact with AI models like ChatGPT, Deepseek &amp;amp; Claude to generate and refine their code.
+    
+This is a step further forwards than just copying your bugs into a model and asking it to fix them. With vibe coding you are using language to text processing to converse what you want the model, which acts as the programmer to do.
+    
+The phrase “code is liquid” sums it up. The process is fluid, dynamic, and intuitive. Instead of rigidly constructing code, you “vibe” with it, guiding AI in a collaborative workflow.
+    
+Sounds amazing, right? Well, it is… and it’s about to get a whole lot better.
+    
+Now, before you fire up Cursor and start calling yourself a project manager, let’s break down what vibe coding does well.
+    
+1. Rapid Prototyping
+If you need to build something simple fast, like a startup MVP, a quick data pipeline, or a small web app, the AI we have today excels at this type of work.
+    
+In the future, imagine launching a startup over the weekend… without hiring a single developer. The frontend, backend, payment gateway, customer support is all built for you, deployed and launched. That’s what vibe coding makes possible.
+    
+People have already built fully functional web apps with database integrated backends &amp;nbsp;without knowing how to code.
+    
+AI tools let you go from idea to execution quickly, taking “move fast and break things” to the next level.
+    
+2. Increased Productivity
+For experienced developers who could write the program from scratch, AI minimizes cognitive overhead. Forget typing boilerplate functions or handling repetitive syntax. AI takes care of that natspec documentation that you hate doing anyway. This leaves the developer to act in a broader curator role.
+    
+Ever felt like coding is 25% typing and 25% thinking and 50% browsing stack overflow? What if AI could handle the typing and some of the thinking, so you can focus on what really matters?
+    
+In a few years time a single CTO or even non-technical founder will be able to leverage AI systems to do the work of a team of frontend and backend devs. This is going to make startups a lot less nerdy for better or worse.
+    
+3. Creative Experimentation
+Vibe coding is a great way for bouncing ideas around, tweaking existing products and generally causing chaos within a code repository.
+    
+You just throw out ideas and let AI generate a solution. And if it doesn’t work? You tweak the prompt and regenerate. Or spend your time having a full on argument with the model about tabs and spaces.
+    
+In the same way we can use LLM’s to brainstorm titles for a YouTube video, we can bounce ideas for sections within an app or call to action buttons on a landing page.
+    
+4. Lower Barrier to Entry
+Non-coders can now build things. Whether that’s good or bad depends on how much you value your job security (we’ll get to that). But the point is, AI makes software development way more accessible.
+    
+It’s like no-code platforms, but with code and slightly less useless.
+    
+But here’s the thing, just because AI can write code doesn’t mean it writes good code all the time. Let’s talk about why AI isn’t perfect, yet.
+    
+1. Hallucinations
+AI doesn’t know code, it predicts code based on it’s training data. It generates solutions that look right, but sometimes are complete nonsense. The current models are still a long way from AGI where it would have some level of common sense.
+    
+Ask AI to write a complex function, and it might produce something that works… or it might summon a demon from the depths of some npm library that never needed including in the first place. When it goes wrong or bloats your applications, debugging AI-generated spaghetti code can be a nightmare.
+    
+2. Debugging and Maintenance
+Eagleson&amp;#8217;s Law &amp;#8220;Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.&amp;#8221;
+    
+If you’ve ever been in that situation where you’ve had to try and fix a code base that no longer makes sense, or if you are an expert in deciphering ancient hieroglyphics, you’ll have a good background for debugging AI generated code. At its worst this is like trying to get your head around code written by someone you hate in a foreign language.
+    
+Screaming curses at Sam Altman while keyboards are getting launched out the window is not the vibe we were promised.
+    
+Even worse, what if it sort of works, but has subtle errors? How do you catch them before they cause serious problems? Sure you can get the AI model to generate unit tests and what not but it’s still a regular issue given the current model capabilities.
+    
+3. The Complexity Ceiling
+Vibe coding excels at small projects and scripting tasks. But things break down if you are working on a complex, niche or frontier project. If you are building something new that hasn’t been done before or using an unusual programming language or framework, the model doesn’t have any training data to base it’s response on.
+    
+The result is a less than compelling experience where you end up just doing it yourself.
+    
+4. Team Collaboration
+The challenges discussed are compounded when there is a team working on a larger code base. The different devs are working with isolated models which aren’t syncing with each other or their users goals.
+    
+Many organisations are restricting the use of AI for developers currently but to some degree it’s just slowing down an inevitable future.
+    
+So, where does this all go?
+    
+We’re heading toward a world where AI isn’t just assisting coding, it’s doing the coding.
+    
+Imagine a future where you don’t even read code, it’s written in some low level language you’ll never understand, you just describe what you want, and AI figures it out.
+    
+We’re also seeing AI self-improvement loops, where AI writes code, runs it, evaluates performance, and refines it automatically. This is incorporated into hardware containers so that you can build entire apps without needing to deploy anything manually.
+    
+Now on to the big question, does this kill developer jobs? In our lifetime will we witness the end of coding as a profession?
+    
+Vibe coding lowers the barrier to entry. Non-technical people can now build simple software, in the future they’ll be able to build complex software. Founders can prototype without hiring engineers. CTOs can scale products without hiring a team of junior devs.
+    
+The truth is… the demand for developers is going to plummet over the next decade as models become more advanced and capable.
+    
+The junior developer role will be first to go, finally confirming that “entry-level job requiring 5 years of experience” was just a bad joke all along.
+    
+There is still going to be some work for senior devs, architects, and engineers who understand systems, security, and large-scale software design. But the truth is we lived through a golden era where developers became billionaires and geeks were celebrated heroes. At least that’s how I’ll tell it to my grandkids.
+    
+This evolution in how we build software will drive down salaries as the supply and demand shifts from a shortage of capable engineers to a surplus of unrequired talent.
+    
+It’s both an exciting time and a terrifying time. If you’re a developer, you can’t stop progress so better to start adapting now and embrace the emergence of AI and vibe coding.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://jamesbachini.com/wp-content/uploads/2025/02/vibeCoding.jpg"/>
+  </entry>
+</feed>
