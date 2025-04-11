@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Soroban Domains Blog</title>
+  <link rel="alternate" type="text/html" href="https://sorobandomains.org/blog"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fsorobandomains.org%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_noproxy=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fsorobandomains.org%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_noproxy=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:09:55+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Airdrop has been deployed</title>
+    <published>2024-03-31T00:00:00+00:00</published>
+    <updated>2024-03-31T00:00:00+00:00</updated>
+    <id>https://sorobandomains.org/blog/airdrop-has-been-deployed</id>
+    <link rel="alternate" type="text/html" href="https://sorobandomains.org/blog/airdrop-has-been-deployed"/>
+    <content type="html">It&amp;#x27;s the end of March and as we mentioned in our latest article we are moving in the direction of a DAO with the announcement of an airdrop of the protocol token... And we just did that! We sent a claimable balance with the share of the supply to all of the early adopters and super adopters in the proportion mentioned in that article.
+ 
+We will give 1 month to claim the airdrop (deadline: April 30th at 23:59:59 UTC), after the deadline is completed we will claim back the unclaimed supply and send it to the DAO treasury.
+ 
+Let&amp;#x27;s remember that the total supply of the protocol token is 64 million tokens, and a total of 28.8 million tokens (45% of the total supply) were just distributed to the early adopters with a boost to those being the super adopters. We also distributed the rest of the tokens as specified in the article and a total of 25.6 million tokens are currently waiting to be distributed to the protocol itself, in the next few days we will deploy the protocol treasury contract where we will send this remaining supply and all token holders will be able to decide what to do with it through a regular DAO voting process.
+ 
+You might be asking yourself &amp;quot;Why would I want to claim this airdrop?&amp;quot; Well, as you might know, the protocol doesn&amp;#x27;t charge a fee when registering a domain... However future features like buying/selling or liquidations will indeed have fees, these fees will be distributed to the DAO treasury and voters can decide what to do with these fees, it&amp;#x27;s important that the community cares about it and participates in deciding!
+ 
+So, without anything else to say... Check your wallet, it&amp;#x27;s possible there is an airdrop waiting for your approval ;D
+  
+Remember: The DAO will never sell its token, so be aware of scams and check the real issuer of the protocol token here</content>
+    <link rel="enclosure" type="image/png" href="https://sorobandomains.org/img/social-card.png"/>
+  </entry>
+  <entry>
+    <title type="html">Getting ready for the DAO</title>
+    <published>2024-03-23T00:00:00+00:00</published>
+    <updated>2024-03-23T00:00:00+00:00</updated>
+    <id>https://sorobandomains.org/blog/getting-ready-for-the-dao</id>
+    <link rel="alternate" type="text/html" href="https://sorobandomains.org/blog/getting-ready-for-the-dao"/>
+    <content type="html">It&amp;#x27;s been a month since our start of the journey post and since the protocol has registered more than 200 domains, it also has developed and added new functionality and it&amp;#x27;s getting ready for a new update where users will be able to put their domains for Sale...
+ 
+But we are writing today to celebrate that we are going to start with the DAO! There is still a lot of work to do, but we want to start with the distribution of the governance token and start moving in the direction of being a community-driven protocol.
+ To the early adopter: Thank you​ 
+For such a simple protocol where you can&amp;#x27;t do much (and people could even say is a boring protocol), having more than 200 domains registered with collateral of 130,243.68 XLMs means that there are people out there who wanted a protocol like this to exist and in order to say &amp;quot;thank you&amp;quot;, almost half of the governance token supply is going to be distributed to those who were early adopters (and even more to the true adopters). You can read about the allocations here.
+ Next step​ 
+This distribution doesn&amp;#x27;t mean everything is ready, it only means that we are going in the DAO direction so the next step is making the distribution and the governance contract; The governance contract will be developed after the Buy/Sell logic is public and the distribution is completed, we are always busy but we expect to have that ready before the end of April.
+ 
+Without anything else to say, the Creit Technologies team wants to say once again: Thank you. Until the next post.</content>
+    <link rel="enclosure" type="image/png" href="https://sorobandomains.org/img/social-card.png"/>
+  </entry>
+  <entry>
+    <title type="html">Mainnet launch</title>
+    <published>2024-02-29T00:00:00+00:00</published>
+    <updated>2024-02-29T00:00:00+00:00</updated>
+    <id>https://sorobandomains.org/blog/mainnet-launch</id>
+    <link rel="alternate" type="text/html" href="https://sorobandomains.org/blog/mainnet-launch"/>
+    <content type="html">Soroban is on mainnet... And so are we​ 
+Soroban moved to phase 1 two days ago and with the new soroban limits, we are now able to deploy and use our registry contract. We did some updates to the code before going live so subdomains can be registered and also invalidated once the root domain is burned and registered again.
+ 
+The front-end client of the protocol still requires more work because currently only allows you to register and burn a domain, the next feature we will be adding to the protocol is the ability to transfer the ownership of a domain to another account and the ability to liquidate domains.
+ 
+We also add a new section to our documentation: Protected names, check it out so you&amp;#x27;re aware of a few domains only the legitimate owners should be able to register.
+ 
+A task for ourselves is adding Soroban Domains support to xBull Wallet (yeah we are the creators of that wallet) and getting in touch with others so they also include it in their wallets. A new era has started in the Stellar ecosystem and we are excited to see what else gets developed on soroban.</content>
+    <link rel="enclosure" type="image/png" href="https://sorobandomains.org/img/social-card.png"/>
+  </entry>
+</feed>
