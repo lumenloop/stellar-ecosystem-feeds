@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Lumenswap - Medium</title>
+  <link rel="alternate" type="text/html" href="https://medium.com/lumenswap?source=rss----1178b725bd9d---4"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2Flumenswap&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png</icon>
+  <logo>https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=FeedFinderBridge&amp;url=https%3A%2F%2Fmedium.com%2Flumenswap&amp;strip=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:07:41+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">LSP Circulation Report —May 2023</title>
+    <published>2023-06-08T08:51:49+00:00</published>
+    <updated>2023-06-08T08:51:49+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-circulation-report-may-2023-6344c39649a3?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-circulation-report-may-2023-6344c39649a3?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Just like we mentioned in our tokenomics article, in order to be more transparent and to increase your awareness about the $LSP unlocking process, we’ll be making a report about addresses that are associated with the Lumenswap team and its treasury every month. You can see unlocked and locked assets for each address in this report.1. Public saleAddress: GA6N5CBQ…FX56B72DAllocation: 120,000,000 LSP (12%)Vesting info: 100% TGELocked: 0Unlocked: 120,000,000 LSP2. TeamAddress: GB6OM72C…MV5XLD4IAllocation: 190,000,000 LSP (19%)Vesting info: 2 years lock then unlock linearly over the 1 yearLocked: 190,000,000 LSPUnlocked: 03. AdvisorAddress: GDTSM26B…HXW5WIUMAllocation: 30,000,000 LSP (3%)Vesting info: Unlock linearly over 1 year from TGELocked: 330,168 LSPUnlocked: 29,669,832 LSP4. Ecosystem rewardAddress: GDDD65VO…GSZE6BBYAllocation: 400,000,000 LSP (40%)Vesting info: Unlock linearly over 10 years from TGELocked: 283,194,458 LSPUnlocked: 116,805,542 LSP5. MarketingAddress: GCYN3F4D…5J266YLJAllocation: 100,000,000 LSP (10%)Vesting info: 1 year vesting, 25% per 3 months.Locked: 46,398,255 LSPUnlocked: 53,601,745 LSP6. FoundationAddress: GCLQTGIH…J2EODJH3Allocation: 160,000,000 LSP (16%)Vesting info: Unlock linearly over 2 years from TGE.Locked: 103,887,506 LSPUnlocked: 56,112,494 LSPGeneral statsUnlocked supply: 376,189,613 LSPBurned supply: 9,967,546 LSP 🔥Locked supply: 623,810,387 LSPTotal supply: 990,032,454 LSPWe chose transparency as one of our main goals from day one and decided to make Lumenswap something that belongs to the community, and we will continue this path in the future.Thank you for reading this article.LSP Circulation Report —May 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Reward Report —May 2023</title>
+    <published>2023-06-08T08:51:45+00:00</published>
+    <updated>2023-06-08T08:51:45+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-reward-report-may-2023-f6f6afae598c?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-reward-report-may-2023-f6f6afae598c?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Greetings Lumenswap community!May rewards were distributed today. Moving forward, we will distribute the rewards on the 28th of each month.Note: This month’s snapshot was taken on the 14th.As we said in the ecosystem reward article, every month, we publish a list of all the addresses that receive rewards. This will help to increase transparency and your awareness of how these rewards are distributed.List of addresses that received the holder reward:https://www.dropbox.com/s/mdk5oupquofo3gp/holder.csv?dl=0List of addresses that received the LP reward:https://www.dropbox.com/s/mdk5oupquofo3gp/holder.csv?dl=0In Dropbox, We created a dedicated folder for all the monthly reports.Thank you for reading this article.LSP Reward Report —May 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Reward Report —April 2023</title>
+    <published>2023-05-03T08:51:40+00:00</published>
+    <updated>2023-05-03T08:51:40+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-reward-report-april-2023-991b31f84d89?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-reward-report-april-2023-991b31f84d89?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Greetings Lumenswap community!January rewards were distributed today. Moving forward, we will distribute the rewards on the 28th of each month.Note: This month’s snapshot was taken on the 23th.As we said in the ecosystem reward article, every month, we publish a list of all the addresses that receive rewards. This will help to increase transparency and your awareness of how these rewards are distributed.List of addresses that received the holder reward:https://www.dropbox.com/s/u5wqyl57zoqgrax/Holder.csv?dl=0List of addresses that received the LP reward:https://www.dropbox.com/s/6qlpfptvwxb453w/LP.csv?dl=0In Dropbox, We created a dedicated folder for all the monthly reports.Thank you for reading this article.LSP Reward Report —April 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Circulation Report —April 2023</title>
+    <published>2023-05-03T08:51:35+00:00</published>
+    <updated>2023-05-03T08:51:35+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-circulation-report-april-2023-b2097cde30ea?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-circulation-report-april-2023-b2097cde30ea?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Just like we mentioned in our tokenomics article, in order to be more transparent and to increase your awareness about the $LSP unlocking process, we’ll be making a report about addresses that are associated with the Lumenswap team and its treasury every month. You can see unlocked and locked assets for each address in this report.1. Public saleAddress: GA6N5CBQ…FX56B72DAllocation: 120,000,000 LSP (12%)Vesting info: 100% TGELocked: 0Unlocked: 120,000,000 LSP2. TeamAddress: GB6OM72C…MV5XLD4IAllocation: 190,000,000 LSP (19%)Vesting info: 2 years lock then unlock linearly over the 1 yearLocked: 190,000,000 LSPUnlocked: 03. AdvisorAddress: GDTSM26B…HXW5WIUMAllocation: 30,000,000 LSP (3%)Vesting info: Unlock linearly over 1 year from TGELocked: 330,168 LSPUnlocked: 29,669,832 LSP4. Ecosystem rewardAddress: GDDD65VO…GSZE6BBYAllocation: 400,000,000 LSP (40%)Vesting info: Unlock linearly over 10 years from TGELocked: 288,750,013LSPUnlocked: 111,249,987 LSP5. MarketingAddress: GCYN3F4D…5J266YLJAllocation: 100,000,000 LSP (10%)Vesting info: 1 year vesting, 25% per 3 months.Locked: 46,398,255 LSPUnlocked: 53,601,745 LSP6. FoundationAddress: GCLQTGIH…J2EODJH3Allocation: 160,000,000 LSP (16%)Vesting info: Unlock linearly over 2 years from TGE.Locked: 104,367,506 LSPUnlocked: 55,632,494 LSPGeneral statsUnlocked supply: 370,154,058 LSPBurned supply: 9,967,546 LSP 🔥Locked supply: 629,845,942 LSPTotal supply: 990,032,454 LSPWe chose transparency as one of our main goals from day one and decided to make Lumenswap something that belongs to the community, and we will continue this path in the future.Thank you for reading this article.LSP Circulation Report —April 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Reward Report —March 2023</title>
+    <published>2023-03-31T08:51:20+00:00</published>
+    <updated>2023-03-31T08:51:20+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-reward-report-march-2023-d4ac9346790c?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-reward-report-march-2023-d4ac9346790c?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Greetings Lumenswap community!March rewards were distributed today. Moving forward, we will distribute the rewards on the 28th of each month.Note: This month’s snapshot was taken on the 22th.As we said in the ecosystem reward article, every month, we publish a list of all the addresses that receive rewards. This will help to increase transparency and your awareness of how these rewards are distributed.List of addresses that received the holder reward:https://www.dropbox.com/s/c5jnfntzswcmyx8/Holder.csv?dl=0List of addresses that received the LP reward:https://www.dropbox.com/s/dod4iy28fy3reo4/LP.csv?dl=0In Dropbox, We created a dedicated folder for all the monthly reports.Thank you for reading this article.LSP Reward Report —March 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Circulation Report — March 2023</title>
+    <published>2023-03-31T08:51:17+00:00</published>
+    <updated>2023-03-31T08:51:17+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-circulation-report-march-2023-7effdc724bd9?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-circulation-report-march-2023-7effdc724bd9?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">LSP Circulation Report — March 2023Greetings Lumenswap community!Just like we mentioned in our tokenomics article, in order to be more transparent and to increase your awareness about the $LSP unlocking process, we’ll be making a report about addresses that are associated with the Lumenswap team and its treasury every month. You can see unlocked and locked assets for each address in this report.1. Public saleAddress: GA6N5CBQ…FX56B72DAllocation: 120,000,000 LSP (12%)Vesting info: 100% TGELocked: 0Unlocked: 120,000,000 LSP2. TeamAddress: GB6OM72C…MV5XLD4IAllocation: 190,000,000 LSP (19%)Vesting info: 2 years lock then unlock linearly over the 1 yearLocked: 190,000,000 LSPUnlocked: 03. AdvisorAddress: GDTSM26B…HXW5WIUMAllocation: 30,000,000 LSP (3%)Vesting info: Unlock linearly over 1 year from TGELocked: 330,168 LSPUnlocked: 29,669,832 LSP4. Ecosystem rewardAddress: GDDD65VO…GSZE6BBYAllocation: 400,000,000 LSP (40%)Vesting info: Unlock linearly over 10 years from TGELocked: 294,305,568 LSPUnlocked: 105,694,432 LSP5. MarketingAddress: GCYN3F4D…5J266YLJAllocation: 100,000,000 LSP (10%)Vesting info: 1 year vesting, 25% per 3 months.Locked: 46,398,255 LSPUnlocked: 53,601,745 LSP6. FoundationAddress: GCLQTGIH…J2EODJH3Allocation: 160,000,000 LSP (16%)Vesting info: Unlock linearly over 2 years from TGE.Locked: 104,827,506 LSPUnlocked: 55,172,494 LSPGeneral statsUnlocked supply: 364,138,503 LSPBurned supply: 8,931,522 LSP 🔥Locked supply: 635,861,497 LSPTotal supply: 991,068,478 LSPWe chose transparency as one of our main goals from day one and decided to make Lumenswap something that belongs to the community, and we will continue this path in the future.Thank you for reading this article.LSP Circulation Report — March 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Reward Report —February 2023</title>
+    <published>2023-03-01T19:16:29+00:00</published>
+    <updated>2023-03-01T19:16:29+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-reward-report-february-2023-b1c33ef88f7d?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-reward-report-february-2023-b1c33ef88f7d?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Greetings Lumenswap community!January rewards were distributed today. Moving forward, we will distribute the rewards on the 28th of each month.Note: This month’s snapshot was taken on the 14th.As we said in the ecosystem reward article, every month, we publish a list of all the addresses that receive rewards. This will help to increase transparency and your awareness of how these rewards are distributed.List of addresses that received the holder reward:https://www.dropbox.com/s/2u3s2hknf9bxoew/Holder.csv?dl=0List of addresses that received the LP reward:https://www.dropbox.com/s/ib11b8knv9xr7ys/LP.csv?dl=0In Dropbox, We created a dedicated folder for all the monthly reports.Thank you for reading this article.LSP Reward Report —February 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Circulation Report —February 2023</title>
+    <published>2023-03-01T19:16:20+00:00</published>
+    <updated>2023-03-01T19:16:20+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-circulation-report-february-2023-e3c9bf887e58?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-circulation-report-february-2023-e3c9bf887e58?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Greetings Lumenswap community!Just like we mentioned in our tokenomics article, in order to be more transparent and to increase your awareness about the $LSP unlocking process, we’ll be making a report about addresses that are associated with the Lumenswap team and its treasury every month. You can see unlocked and locked assets for each address in this report.1. Public saleAddress: GA6N5CBQ…FX56B72DAllocation: 120,000,000 LSP (12%)Vesting info: 100% TGELocked: 0Unlocked: 120,000,000 LSP2. TeamAddress: GB6OM72C…MV5XLD4IAllocation: 190,000,000 LSP (19%)Vesting info: 2 years lock then unlock linearly over the 1 yearLocked: 190,000,000 LSPUnlocked: 03. AdvisorAddress: GDTSM26B…HXW5WIUMAllocation: 30,000,000 LSP (3%)Vesting info: Unlock linearly over 1 year from TGELocked: 330,168 LSPUnlocked: 29,669,832 LSP4. Ecosystem rewardAddress: GDDD65VO…GSZE6BBYAllocation: 400,000,000 LSP (40%)Vesting info: Unlock linearly over 10 years from TGELocked: 305,416,678 LSPUnlocked: 94,583,322 LSP5. MarketingAddress: GCYN3F4D…5J266YLJAllocation: 100,000,000 LSP (10%)Vesting info: 1 year vesting, 25% per 3 months.Locked: 46,398,255 LSPUnlocked: 53,601,745 LSP6. FoundationAddress: GCLQTGIH…J2EODJH3Allocation: 160,000,000 LSP (16%)Vesting info: Unlock linearly over 2 years from TGE.Locked: 105,322,506 LSPUnlocked: 54,677,494 LSPGeneral statsUnlocked supply: 352,532,393 LSPBurned supply: 16,087,639 LSP 🔥Locked supply: 647,467,607 LSPTotal supply: 983,912,361 LSPWe chose transparency as one of our main goals from day one and decided to make Lumenswap something that belongs to the community, and we will continue this path in the future.Thank you for reading this article.LSP Circulation Report —February 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Reward Report —January 2023</title>
+    <published>2023-02-01T11:40:51+00:00</published>
+    <updated>2023-02-01T11:40:51+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-reward-report-january-2023-a4978ad805d2?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-reward-report-january-2023-a4978ad805d2?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">Greetings Lumenswap community!January rewards were distributed today. Moving forward, we will distribute the rewards on the 28th of each month.Note: This month’s snapshot was taken on the 20th.As we said in the ecosystem reward article, every month, we publish a list of all the addresses that receive rewards. This will help to increase transparency and your awareness of how these rewards are distributed.List of addresses that received the holder reward:https://www.dropbox.com/s/bwrpwam2m1giczx/Holder.csv?dl=0List of addresses that received the LP reward:https://www.dropbox.com/s/vt72czidvgqfscj/LP.csv?dl=0In Dropbox, We created a dedicated folder for all the monthly reports.Thank you for reading this article.LSP Reward Report —January 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+  <entry>
+    <title type="html">LSP Circulation Report — January 2023</title>
+    <published>2023-02-01T11:40:39+00:00</published>
+    <updated>2023-02-01T11:40:39+00:00</updated>
+    <id>https://medium.com/lumenswap/lsp-circulation-report-january-2023-3c7423c26354?source=rss----1178b725bd9d---4</id>
+    <link rel="alternate" type="text/html" href="https://medium.com/lumenswap/lsp-circulation-report-january-2023-3c7423c26354?source=rss----1178b725bd9d---4"/>
+    <author>
+      <name>Lumenswap</name>
+    </author>
+    <content type="html">LSP Circulation Report — January 2023Greetings Lumenswap community!Just like we mentioned in our tokenomics article, in order to be more transparent and to increase your awareness about the $LSP unlocking process, we’ll be making a report about addresses that are associated with the Lumenswap team and its treasury every month. You can see unlocked and locked assets for each address in this report.1. Public saleAddress: GA6N5CBQ…FX56B72DAllocation: 120,000,000 LSP (12%)Vesting info: 100% TGELocked: 0Unlocked: 120,000,000 LSP2. TeamAddress: GB6OM72C…MV5XLD4IAllocation: 190,000,000 LSP (19%)Vesting info: 2 years lock then unlock linearly over the 1 yearLocked: 190,000,000 LSPUnlocked: 03. AdvisorAddress: GDTSM26B…HXW5WIUMAllocation: 30,000,000 LSP (3%)Vesting info: Unlock linearly over 1 year from TGELocked: 330,168 LSPUnlocked: 29,669,832 LSP4. Ecosystem rewardAddress: GDDD65VO…GSZE6BBYAllocation: 400,000,000 LSP (40%)Vesting info: Unlock linearly over 10 years from TGELocked: 305,416,678 LSPUnlocked: 94,583,322 LSP5. MarketingAddress: GCYN3F4D…5J266YLJAllocation: 100,000,000 LSP (10%)Vesting info: 1 year vesting, 25% per 3 months.Locked: 46,398,255 LSPUnlocked: 53,601,745 LSP6. FoundationAddress: GCLQTGIH…J2EODJH3Allocation: 160,000,000 LSP (16%)Vesting info: Unlock linearly over 2 years from TGE.Locked: 105,992,506 LSPUnlocked: 54,007,494 LSPGeneral statsUnlocked supply: 351,862,393 LSPBurned supply: 16,127,051 LSP 🔥Locked supply: 351,862,393 LSPTotal supply: 983,872,949 LSPWe chose transparency as one of our main goals from day one and decided to make Lumenswap something that belongs to the community, and we will continue this path in the future.Thank you for reading this article.LSP Circulation Report — January 2023 was originally published in Lumenswap on Medium, where people are continuing the conversation by highlighting and responding to this story.</content>
+  </entry>
+</feed>
