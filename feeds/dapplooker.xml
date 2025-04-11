@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">DappLooker | Simplified &amp; Affordable Blockchain Analytics</title>
+  <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.dapplooker.com%2Frss%2F&amp;content_selector=article+.gh-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.dapplooker.com%2Frss%2F&amp;content_selector=article+.gh-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=&amp;format=Atom</id>
+  <updated>2025-04-11T22:05:07+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">DappLooker: A Remarkable Year in Review</title>
+    <published>2025-01-13T12:53:48+00:00</published>
+    <updated>2025-01-13T12:53:48+00:00</updated>
+    <id>https://blog.dapplooker.com/dapplooker-a-remarkable-year-in-review/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/dapplooker-a-remarkable-year-in-review/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">📈 2024 was the best year in terms of growth.
+DappLooker made significant strides in 2024, cementing its position as a leader in Web3 data analytics. Here’s a snapshot of our growth:
+Revenue: 7 figure (3x increase) 
+Total Chains: 25+ (3x) 
+Protocols Onboarded: 1000+ 
+Total Analysis: 10000+(4x) 
+Queries Executed: 10M+🧙🏻‍♂️ Introducing Loky: Your AI-Powered Analyst0xLoky
+This year, we proudly launched Loky, our AI agent designed to deliver sharp market insights and real-time crypto analysis. Loky has transformed how users interact with complex blockchain data, making insights more accessible and actionable.
+🗺️ The Ecosystem Map for 2024DappLooker Ecosystem Map 2024
+We unveiled our comprehensive Ecosystem Map for 2024, showcasing our expanded reach and the tools empowering users to explore blockchain data seamlessly.
+🤝 Partnerships and Collaborations
+Expanding Into the Arbitrum Ecosystem
+We officially joined the Arbitrum ecosystem, simplifying data access for Arbitrum One and Orbit chains.
+Cross-Chain Validation
+Collaborating with Crossfi chain, we strengthened network security and decentralization as a trusted validator.
+Award from Stellar Community Fund
+We were honored by the Stellar Community Fund to build innovative tools on the Stellar Network.
+Integration with Manta Network
+Manta Network users can now effortlessly analyze and build dashboards with our no-code solutions.
+Partnering with HAQQ Network
+Our partnership with HAQQ Network enhanced blockchain literacy and transparency. Users can now access custom dashboards to analyze smart contracts and track grant milestones.
+Collaboration with EigenLayer
+We integrated with EigenLayer, empowering users to explore its ecosystem more effectively.
+BitsCrunch and Tenderize Partnerships
+As a node operator for BitsCrunch, we ensured robust analytics capabilities. Additionally, our collaboration with Tenderize provided in-depth staking performance insights.
+Integration with Bitte Protocol
+Creators using Bitte Protocol now have access to powerful analytics and visualization tools.
+Vara Network Validator Partnership
+We proudly announced our partnership with Vara Network, strengthening our validator presence.
+🔍 Innovative Products and Features Launches
+DataBots
+Our custom DataBots allow communities on Discord and Telegram to retrieve blockchain data effortlessly.
+AI Studio
+AI Studio simplifies querying blockchain data using natural language, making analytics more intuitive.
+Subgraph Analyzer
+This dedicated tool helps users analyze and visualize subgraph data seamlessly.
+Unified Explorer
+Explore top Web3 protocols like The Graph, Celo, Vara, and Peaq Network all in one platform.
+Chart as an Image API
+Easily integrate charts into your applications with our image API.
+✨ Highlights from Web3 &amp;amp; Crypto Events
+Our team attended and hosted key events across the globe,
+Devcon Bangkok: Exclusive brunch with Web3 leaders.
+EthCC Brussels: Hosted the DataCon Happy Hour in collaboration with ZettaBlock.
+TechWeek New York: Organized a VC &amp;amp; Founders Coffee Meetup.
+Consensus Austin: Networked with blockchain pioneers.
+EthDenver: Showcased our latest innovations.
+Token2049 Singapore: Engaged with global crypto enthusiasts.
+🎙️ Spaces and Workshops
+DataWeek Masterclass
+We conducted a hands-on workshop to master on-chain analysis, empowering our community with new skills.
+IIT Bombay TalkIIT Bombay Talk
+Our founder Abhay shared insights during the Graph on Campus session hosted by The Graph India.
+X Spaces on Blockchain Development
+Collaborated with The Graph to discuss strategies for becoming a top 1% blockchain developer.
+XXIM Podcast 
+Our co-founder Abhay joined XXIM podcast hosted by Ankit Sehgal, shared about DappLooker journey and vision.
+Looking Ahead to 2025
+We are grateful for your unwavering support throughout 2024. Together, we achieved remarkable milestones. Let’s aim even higher in 2025 and continue to redefine blockchain data analytics.
+👏 Thank you for being part of our journey!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio all designed for simplicity. Access analytics across 20+ networks, 1000+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website&amp;nbsp;|&amp;nbsp;Docs&amp;nbsp;|&amp;nbsp;Twitter&amp;nbsp;|&amp;nbsp;Discord&amp;nbsp;|&amp;nbsp;Telegram</content>
+    <link rel="enclosure" type="image/gif" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2025/01/A-year-in-review.gif"/>
+  </entry>
+  <entry>
+    <title type="html">Introducing My Control Center - Your Data Control Hub!</title>
+    <published>2024-10-23T19:31:06+00:00</published>
+    <updated>2024-10-23T19:31:06+00:00</updated>
+    <id>https://blog.dapplooker.com/introducing-my-control-center-your-data-control-hub/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/introducing-my-control-center-your-data-control-hub/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">We are thrilled to announce the revamp of our website, introducing the all-new My Control Center! Our goal is to enhance your experience with a more intuitive and comprehensive interface, designed to streamline your interaction with DappLooker’s powerful analytics tools.
+Explore the New Features of My Control Center
+Projects
+Featured Projects: Access trending and popular projects effortlessly. Mark your favorites for quick navigation.
+My Projects: View detailed information about your own projects and the project records you’ve utilized. Toggle between Featured Projects and My Projects for a customized view.
+Add New Project: Easily register your data using various methods, including Subgraph, Smart Contracts, Subquery, and Offchain JSON API.
+Charts
+Your Creations at a Glance: Track the number of charts you’ve created, total views, and total favorites. Gain quick access to all your created charts and analyze your data with ease.
+Dashboards
+All Your Dashboards: Similar to the Charts section, this area allows you to monitor and manage all your dashboards, ensuring you have a comprehensive view of your data insights.
+Plan
+Your Plan Status: Keep track of your plan details and access an Add-ons List to enhance your DappLooker experience.
+Important Updates
+My Creation Deprecated: We have deprecated My Creation. You can now create and view your charts and dashboards directly in My Control Center, streamlining your workflow.
+Public Sharing: Users can now make their charts and dashboards public, enabling broader sharing and collaboration.
+New Pricing&amp;nbsp;Page
+Flexible Pricing View: We’ve added a toggle switch to the Pricing page, allowing you to easily switch between yearly and monthly pricing plans, providing greater flexibility and transparency.
+Our aim with this revamp is to provide you with a seamless and enriched user experience. Dive into My Control Center today and explore the enhanced features designed to empower your data analytics journey.
+Thank you for being a valued part of the DappLooker community!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/gif" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/10/Untitledvideo-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif"/>
+  </entry>
+  <entry>
+    <title type="html">Elevate Your Web3 Journey with Real-Time DappLooker Leaderboards!</title>
+    <published>2024-10-23T19:19:49+00:00</published>
+    <updated>2024-10-23T19:19:49+00:00</updated>
+    <id>https://blog.dapplooker.com/elevate-your-web3-journey-with-real-time-dapplooker-leaderboards/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/elevate-your-web3-journey-with-real-time-dapplooker-leaderboards/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">👋 Welcome to a year of endless possibilities in web3
+We are thrilled to introduce DappLooker Leaderboards — your gateway to unparalleled insights into the performance of your favorite dApps, tokens, Crypto assets and networks.
+🫡 Importance of Leaderboards
+Leaderboards are more than just rankings — they are crucial tools for driving competition, fostering innovation, and showcasing top performers in the Web3 ecosystem. By highlighting the best-performing projects, leaderboards encourage transparency, motivate participants to excel, and provide valuable insights into the health and growth of networks.
+🤝 Why Leaderboards are a&amp;nbsp;Must
+Leaderboards are crucial because they foster motivation and engagement by creating a competitive environment where users are encouraged to improve their performance. They also promote transparency, offering a clear view of the leaders across various metrics, which fosters trust and accountability.
+Additionally, leaderboards support data-driven decisions by presenting key information in an easily digestible format, enabling users to make informed choices. Moreover, they contribute to community building by recognizing and celebrating top performers, thereby creating a sense of shared achievement and belonging.
+📊 Leaderboard Use&amp;nbsp;Cases
+DappLooker’s leaderboards empower users with customizable, data-driven insights that can be tailored to specific needs. Here’s how you can leverage them:
+Accelerators: Discover and nurture emerging talent by identifying startups with significant growth potential. Use leaderboards to track their progress and highlight their achievements in your portfolio.
+Blockchain Networks: Gain a deep understanding of your ecosystem’s dynamics. Use leaderboards to assess the performance and adoption of dApps within your network, make data-informed decisions to foster ecosystem growth, and ensure the overall health of your chain.
+dApp Developers: Stay competitive by benchmarking your project against others in the space. Leaderboards help you identify industry trends, refine your strategies, and ensure your dApp remains at the forefront of innovation.
+Check out the Crypto Market Leaderboard for real-time insights on 5000+ assets. You can track your portfolio performance, manage your assets, optimize your strategies, and engage in retail activities. Track your favourite tokens and reap rewards.
+Dive deep into the Celo ecosystem with this dedicated leaderboard. It provides comprehensive insights into Celo’s top-performing tokens, including their total value locked (TVL), transaction volume, and gas consumption. Whether you’re tracking Celo Dollar (cUSD), Celo Euro (cEUR), or any other token within the network, this dashboard is your go-to resource for understanding the dynamics of the Celo Network.
+✨ All the data is open &amp;amp; customizable — craft your own insights in minutes. The future of crypto is data-driven, and with DappLooker, you’re always ahead of the curve. Start exploring today and unlock endless opportunities for growth and success! Ready to dive in?
+Sign up here: https://dapplooker.com/user/signup
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/png" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/10/Poster--7-.png"/>
+  </entry>
+  <entry>
+    <title type="html">Bridging Data and Security: How DappLooker’s Vara Network Integration Transforms Blockchain</title>
+    <published>2024-10-23T19:16:40+00:00</published>
+    <updated>2024-10-23T19:16:40+00:00</updated>
+    <id>https://blog.dapplooker.com/bridging-data-and-security-how-dapplookers-vara-network-integration-transforms-blockchain/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/bridging-data-and-security-how-dapplookers-vara-network-integration-transforms-blockchain/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">At DappLooker, we’re excited to announce our new partnership with Vara Network, a next-generation Layer-1 blockchain designed to offer deep scalability, speed, and security through its innovative approach to parallel data processing. Built on the Gear Protocol, Vara operates as a stand-alone decentralized network, providing robust infrastructure for diverse applications across DeFi and beyond.
+This collaboration marks a significant milestone as we continue to expand our suite powerpacked tools, empowering users with seamless data analytics and decentralized solutions.
+DappLooker is Now a Vara Network Validator
+As a trusted validator for Vara, DappLooker is committed to enhancing the security and reliability of the network. Our role as a validator involves verifying and approving transactions, thereby ensuring the integrity of the Vara blockchain. This collaboration expands opportunities for our community to engage with the DeFi ecosystem and stake their $VARA tokens.
+Want to stake with us?
+It’s easy! Simply head over to the Vara Network Validators page here, search for “DappLooker,” and stake your $VARA tokens with confidence, knowing that you are contributing to the security and decentralization of this groundbreaking network.
+Going Beyond Validation
+At DappLooker, our partnership with Vara extends far beyond validation. We’ve integrated Vara Network data into our platform and created comprehensive dashboards tailored specifically for Vara Network users. These dashboards offer stakeholders powerful insights to visualize and interpret data, supporting strategic planning and operational efficiency.
+Key Dashboards Tailored for Vara Network:
+1. Vara Network Gas Fees TrackerThis dashboard offers valuable insights into gas fees on Vara. Unlike traditional blockchains, Vara provides gasless transactions under specific conditions, allowing users to execute actions without additional costs. The dashboard tracks gas fees over multiple timeframes (24 hours, 7 days, 30 days) and displays key metrics such as recent activity, transaction distribution, and average gas fees.
+2. Vara Network Health &amp;amp; Transactions Dashboard
+Monitoring network health is crucial for ensuring smooth operations. This dashboard provides an overview of vital metrics, including block height, total value locked (TVL), transaction rates (around 3.1 per second), and gas fees. It helps users track the network’s stability and identify trends or potential bottlenecks.
+3. Vara Token TrackerThe Vara Token Tracker gives users an in-depth analysis of the VARA token’s performance, covering current price, trading volume, all-time high/low, and ROI over various timeframes (24 hours, 7 days, and 30 days). This dashboard is essential for users looking to track VARA’s market performance and identify profitable opportunities.
+4. Vara Network Validator Health Dashboard
+For a closer look at the validators securing the network, this dashboard provides key data on the total number of validators, total bonded VARA, rewards distributed, and validator rankings based on nomination counts. It also displays validator stake distribution, ensuring transparency and helping maintain decentralization across the network.
+Vara as a Featured Project on DappLooker
+We are proud to feature Vara Network as a Featured Project on DappLooker, which means all data for the network is now freely available to the public. Vara community members can explore, analyze, and visualize network data at no cost, empowering them to make informed decisions based on real-time data insights.
+Custom DataBots for Vara Communities
+To enhance user experience further, we’ve developed custom DataBots for the Vara Network community. These bots allow community members to easily access charts and dashboards directly within their Discord and Telegram groups, keeping them informed on key metrics and network performance without needing to leave their preferred platforms.
+Natural Language Queries with AI&amp;nbsp;Studio
+We’ve also integrated Vara Network data into DappLooker AI Studio, allowing users to query network data using natural language queries. This intuitive feature simplifies data analysis for users, enabling them to access complex blockchain data without needing deep technical expertise.
+Looking Ahead
+DappLooker’s partnership with Vara Network is a testament to our commitment to expanding decentralized data analytics and enhancing blockchain security. As a validator and provider of comprehensive data solutions, we are excited to bring new possibilities to the Vara ecosystem. From securing the network to offering suite of powerpacked tools, our collaboration aims to empower developers, validators, and the entire community.
+Stay tuned for more updates as we continue to innovate and expand our offerings in partnership with Vara Network!
+Ready to stake your VARA tokens or explore our dashboards? Visit DappLooker and discover how we’re making data and decentralized systems more accessible and insightful than ever.
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/png" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/10/Template-for-DAppLooker--5-.png"/>
+  </entry>
+  <entry>
+    <title type="html">DappLooker Announces Partnership and Validator Role with CrossFi Network</title>
+    <published>2024-10-17T09:46:19+00:00</published>
+    <updated>2024-10-17T09:46:19+00:00</updated>
+    <id>https://blog.dapplooker.com/dapplooker-announces-partnership-and-validator-role-with-crossfi-network/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/dapplooker-announces-partnership-and-validator-role-with-crossfi-network/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">DappLooker is thrilled to announce its strategic integration with CrossFi Network, marking a significant milestone in the collaboration between our two ecosystems. This partnership not only strengthens both networks but also establishes DappLooker as a reliable validator for the CrossFi Network, ensuring security, transparency, and decentralization.
+In this article, we will explore the significance of this partnership, the role DappLooker plays as a validator, and the comprehensive suite of analytics tools we’ve developed to support the CrossFi community.
+Introduction
+In a rapidly evolving digital finance landscape, partnerships that push the boundaries of technology and innovation are key to growth and adoption. With that in mind, DappLooker is excited to announce its integration with CrossFi Network. This collaboration goes beyond traditional partnerships, as DappLooker becomes a vital validator in the CrossFi ecosystem, enhancing security, decentralization, and community engagement.
+But what does this partnership truly mean? How does it benefit the users of both? Let’s dive in and explore.
+What is CrossFi Network?
+CrossFi: The Fusion of Finance and Blockchain
+CrossFi Network is a next-generation digital ecosystem that seamlessly blends the stability of traditional finance with the transparency and security of blockchain technology. This fusion provides users with a robust infrastructure for payments DeFi, and blockchain-based applications. Whether it’s cross-border payments, peer-to-peer lending, or dApps, CrossFi offers a secure and reliable platform for all.
+The CrossFi Network ensures that users experience the reliability of traditional financial systems while enjoying the enhanced security that comes with blockchain. The network’s core features promote performance, stability, and scalability, making it a trusted ecosystem for various use cases. With the addition of DappLooker’s analytics and validator services, CrossFi’s offerings are now more accessible and reliable than ever before.
+Why This Partnership Matters
+As a CrossFi validator, DappLooker plays a crucial role in maintaining the integrity of the CrossFi Network. Validators are responsible for confirming transactions, securing the network from attacks, and ensuring the proper operation of decentralized systems. In short, they are the backbone of a secure and decentralized blockchain network.
+By becoming a validator, DappLooker ensures that CrossFi remains decentralized and secure, key factors in blockchain technology. Decentralization prevents any single entity from controlling the network, while security ensures that all transactions are verified and protected against malicious attacks. With DappLooker’s proven expertise, CrossFi users can trust that their assets and data are safe.
+DappLooker’s Commitment to Secure the CrossFi Network
+At DappLooker, we take this responsibility seriously. As a CrossFi validator, we are dedicated to maintaining the security and decentralization of the CrossFi ecosystem, ensuring a robust and resilient network that users can rely on.
+CrossFi as a Featured Project on DappLooker
+One of the key benefits of this partnership is DappLooker’s decision to highlight CrossFi as a featured project, offering free analytics to the CrossFi community. Users will have access to detailed insights, ensuring they can make data-driven decisions with confidence. Our aim is to empower the CrossFi ecosystem with robust tools for monitoring and optimizing performance.
+Comprehensive Dashboards for CrossFi Network
+DappLooker has developed a suite of dedicated dashboards tailored specifically for the CrossFi Network. These dashboards provide real-time insights into various aspects of the CrossFi ecosystem, from chain health to app performance.
+CrossFi Chain Overview
+With the CrossFi Chain Overview, users can gain deep insights into the health and performance of the CrossFi blockchain. This dashboard covers metrics like transaction throughput, block confirmation times, and gas costs across Cosmos and EVM modules.
+CrossFi App Overview
+The CrossFi App Overview dashboard allows users to track key metrics such as user activity, card issuance, and P2P metrics, providing a clear picture of the platform’s user engagement and performance.
+CrossFi xApp Overview
+For those interested in dApps built on the CrossFi Chain, the CrossFi xApp Overview tracks metrics related to decentralized applications such as Swaps, Bridges, and XUSD transactions.
+Governance Dashboard
+Stay updated with CrossFi’s governance activities through our Governance Dashboard, which tracks on-chain governance metrics like proposals, voting trends, and delegate participation.
+Staking and Rewards Dashboard
+Delegators can track their staking rewards and analyze validator performance with the Staking and Rewards Dashboard. This dashboard helps users make informed decisions regarding staking and validator choices.
+Performance Dashboard
+For CrossFi validators, we offer the Performance Dashboard, which monitors critical metrics such as uptime, block production rate, and validator rewards. This tool allows validators to optimize their performance and ensure network reliability.
+Introducing CrossSpy
+As part of this collaboration, DappLooker is launching CrossSpy, a premier analytics platform that offers real-time insights and tailored metrics for CrossFi. With CrossSpy, users can navigate and optimize their experience within the CrossFi ecosystem with ease, gaining access to detailed metrics that help improve performance and decision-making.
+Engaging the Community with DataBOTs
+In addition to dashboards, DappLooker is introducing custom DataBOTs for the CrossFi community on Discord and Telegram. These bots allow users to interact with CrossFi data directly through chat commands, fostering deeper community engagement and making it easier for users to access critical information in real-time.
+AI-Assisted Querying in DappLooker AI Studio
+To further enhance user experience, DappLooker is enabling AI-assisted querying for CrossFi data through our AI Studio. Users can now perform natural language queries, making it easier to explore CrossFi’s vast data sets and uncover valuable insights without needing technical expertise.
+Conclusion
+The partnership between DappLooker and CrossFi Network represents a monumental step toward fostering a secure, decentralized, and data-driven ecosystem. With DappLooker’s role as a validator, advanced analytics dashboards, CrossSpy platform, and AI capabilities, the CrossFi community now has the tools needed to unlock the full potential of blockchain technology.
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website&amp;nbsp;|&amp;nbsp;Docs&amp;nbsp;|&amp;nbsp;Twitter&amp;nbsp;|&amp;nbsp;Discord&amp;nbsp;|&amp;nbsp;Telegram</content>
+    <link rel="enclosure" type="image/webp" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/10/DappLooker----CrossFi.webp"/>
+  </entry>
+  <entry>
+    <title type="html">Unforgettable Moments at EthCC 2024: A Wrap-Up</title>
+    <published>2024-07-22T03:34:02+00:00</published>
+    <updated>2024-07-22T03:34:02+00:00</updated>
+    <id>https://blog.dapplooker.com/unforgettable-moments-at-ethcc-2024-a-wrap-up/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/unforgettable-moments-at-ethcc-2024-a-wrap-up/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">Greetings from the heart of the Ethereum world! We’ve just returned from the most exhilarating event of the summer — EthCC 2024 in Brussels, and we couldn’t wait to share our experience with you.
+EthCC 2024: A Crypto Carnival
+EthCC, the largest annual European Ethereum event, brought together over 6,000 attendees from around the globe, 350+ speakers, and over 100 side events. It’s a celebration of technology, community, and the magical smart contracts that make our hearts flutter. Held over four intense days, it’s like a crypto carnival where developers, researchers, and enthusiasts gather to share knowledge and innovation.
+A Buzzing Start
+From the moment we stepped into the venue, the energy was palpable. We were thrilled to reconnect with our friend Paolo from The Graph. The Ethereum ecosystem is stronger and more united than ever, and the excitement was off the charts!
+Insightful Interactions
+Day 2 was packed with insightful talks and exciting conversations. We made new connections and explored future collaboration opportunities. The city of Brussels buzzed with non-stop Web3 discussions and crypto energy, making it a super productive day for all of us.
+Visionary Insights
+Day 3 was a highlight, as we attended AltLayer Rollup Day and were captivated by the insights of the brilliant Vitalik Buterin co-founder of ethereum. His vision for “The Bright Future of the Ethereum Ecosystem” inspired everyone in the room. The house was full, and the enthusiasm was contagious.
+DataCon EthCC Happy Hour: A Memorable Evening
+A heartfelt thank you to everyone who joined us at Beer Capital Brussels for an incredible #DataCon EthCC Happy Hour! Hosted by DappLooker ZettaBlock &amp;amp; The Graph India the event saw over 300 sign-ups, with 150 approved attendees and 30+ VCs and founders.
+Our Chief of Growth, Rahul, delivered an insightful presentation on how DappLooker is revolutionizing the web3 data landscape. As a leading Business Intelligence and Analytics hub, DappLooker empowers seamless transformation of web3 data into revenue, providing unified access to data visualization across 15+ networks, smart contracts, subgraphs, off-chain sources, and more.
+Chi Zhang, Co-founder &amp;amp; CEO of ZettaBlock, captivated the audience with a deep dive into ZettaBlock’s decentralized platform for open and trustless AI development. Their cutting-edge architecture allows communities to collaboratively train and manage AI models with governance and ownership semantics, fostering an accessible ecosystem of models and datasets.
+The evening was filled with meaningful connections, valuable insights, and a shared vision for the future of Web3. Thank you to everyone who made this event a success. Let’s continue to drive innovation and collaboration in the blockchain world!
+Nebular Summit: Engaging Panels and New Connections
+The buzz at Nebular Summit was real! Our DappLooker team had an amazing time connecting with incredible individuals and attending insightful panels, talks, and discussions. We reconnected with SubQuery Network friends Marta &amp;amp; James, discussing important topics and future collaborations. We also had the pleasure of meeting Max, Head of Ecosystem at KYVE Team Network.
+Final Thoughts
+EthCC 2024 in Brussels was a vibrant, insightful, and community-driven event that celebrated the achievements of the Ethereum network and looked forward to its future. For us, it was an unforgettable experience filled with insightful sessions, engaging side events, and invaluable networking opportunities. We were proud to be part of this movement.
+Stay tuned for more exciting events and opportunities to connect. Let’s continue to unlock the full potential of decentralized technologies together!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/jpeg" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-wkixpmwlpgetgsmvi8jk_q-jpeg.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Render your Chart or Dashboard as an Image with API</title>
+    <published>2024-07-03T13:57:50+00:00</published>
+    <updated>2024-07-03T13:57:50+00:00</updated>
+    <id>https://blog.dapplooker.com/render-your-chart-or-dashboard-as-an-image-with-api/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/render-your-chart-or-dashboard-as-an-image-with-api/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">Imagine you could seamlessly integrate DappLooker’s stunning charts and dashboards directly into your applications, reports, or webpages. Picture the limitless possibilities that opens up — well, wish granted!
+ 
+DappLooker’s brand new Image API allows you to render any chart or dashboard as a high-quality image, revealing to you a world of possibilities for data storytelling.
+The days of static reports and clunky data exports are now a thing of the past. DappLooker’s Image API literally breathes life into your data, allowing you to generate eye-catching images of your charts and dashboards on demand. Imagine embedding live charts directly into your web application, keeping users engaged with the latest insights. Or, think about incorporating dynamic dashboards into your reports, creating a visually compelling narrative for your audience.
+Effortless Integration With DappLooker
+The process couldn’t be simpler. Just navigate to the desired chart or dashboard within DappLooker and locate the handy “API” button. With a single click, you’ll be presented with a unique Image API endpoint. Combine this endpoint with your API key, and voila! You have a custom URL that renders your chosen visualization as a beautiful image.
+The possibilities are endless! Integrate these dynamic images into your website, reports, presentations, or even internal applications. The flexibility allows you to tailor your data visualization to any format or platform, ensuring your insights reach the right audience in the most impactful way.
+Take Your Data Visualization to the Next Level NOW!!!!
+Head over to our comprehensive Gitbook documentation to explore the step-by-step guide and unlock the full potential of DappLooker’s Image API. Let DappLooker be your partner in creating captivating data stories that resonate with your audience.
+Stay ahead of the curve with DappLooker and transform your data into visually impactful narratives!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/png" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-jdsx9irbmmukq4z9pdoudg.png"/>
+  </entry>
+  <entry>
+    <title type="html">Explore Top Community Analytics Projects for Free with DappLooker Featured Projects</title>
+    <published>2024-05-30T13:32:23+00:00</published>
+    <updated>2024-05-30T13:32:23+00:00</updated>
+    <id>https://blog.dapplooker.com/explore-top-community-analytics-projects-for-free-with-dapplooker-featured-projects/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/explore-top-community-analytics-projects-for-free-with-dapplooker-featured-projects/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">✨ We are thrilled to introduce Featured Projects on DappLooker! This innovative section on our platform allows you to explore top community Analytics Projects for Free. It’s an incredible resource for anyone interested in learning about new blockchain, NFT and crypto projects and getting started with analytics. Whether you’re a seasoned blockchain enthusiast or just starting your Web3 journey, Featured Projects has something for everyone.
+Discover the Power of Featured Projects
+Our Featured Projects section is designed to provide you with a comprehensive overview of the most popular Web3 protocols. Here’s what you can do with it:
+🔍 Browse Popular Web3 Protocols
+Easily navigate through a curated list of trending Web3 protocols. This allows you to stay updated with the latest developments in the decentralized ecosystem.
+👨‍💻 Analyze Data from These Protocols
+Dive deep into the data of your favorite protocols. With DappLooker’s powerful analytics tools, you can explore on-chain data, uncover insights, and make data-driven decisions.
+📊 Create Charts and Dashboards
+Visualize your findings by creating custom charts and dashboards. This helps in better understanding the trends and patterns within the data, making it easier to share your insights with others.
+Benefits of Using DappLooker’s Featured Projects💱 Track Real-Time Data of Top Crypto
+Stay ahead of the market by tracking real-time data on top cryptocurrencies. Monitor price movements, trading volumes, and other key metrics to make informed decisions.
+🎮 Analyze NFT Trends &amp;amp; P2E Games
+Explore the latest trends in the NFT space with tools to analyze platforms like Mintbase. Additionally, dive into the data of popular Play-to-Earn (P2E) games like Betswirl, gaining insights into user behavior and game dynamics.
+💹 Track Uniswap Liquidity Pool Performance &amp;amp; Lending/Borrowing Opportunities on Aave
+Featured projects provide you with tools to track liquidity pool performance on Uniswap and explore lending and borrowing opportunities on Aave. Analyze liquidity, trading volumes, and interest rates to optimize your DeFi strategies.
+👥 Empower Project Communities
+Projects featured on DappLooker benefit from free access to our chart and dashboard tools. This empowers project communities to create and share analytics that support their growth and engagement, fostering a deeper understanding and stronger connections within the community.
+Conclusion
+DappLooker’s Featured Projects is a powerful tool that opens up new possibilities for exploring and understanding the Web3 ecosystem. Whether you want to track crypto trends, analyze NFT marketplaces, or delve into DeFi protocols, our platform provides the data and tools you need to succeed.
+Don’t miss out on this opportunity to elevate your Web3 knowledge and analytics capabilities. Visit DappLooker’s Featured Projects today and start exploring the future of decentralized technologies!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/jpeg" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-0n7clgzajtar3uqdrrk9ja-jpeg.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Upgrade Your Subgraph to The Graph’s Decentralized Network in Just a Few Clicks</title>
+    <published>2024-05-29T14:07:03+00:00</published>
+    <updated>2024-05-29T14:07:03+00:00</updated>
+    <id>https://blog.dapplooker.com/upgrade-your-subgraph-to-the-graphs-decentralized-network-in-just-a-few-clicks/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/upgrade-your-subgraph-to-the-graphs-decentralized-network-in-just-a-few-clicks/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">Upgrade Your Hosted Service Subgraphs to The Graph Decentralized Network. Get started in the hosted service dashboard
+The Graph ecosystem is undergoing an exciting transformation with the launch of Sunbeam, the second phase of the Sunrise of Decentralized Data initiative. As part of this phase, all hosted service users need to upgrade their subgraphs to The Graph Network by June 12.
+At DappLooker, we understand the importance of this upgrade for the future of decentralized data. That’s why we’re here to support you every step of the way, making the transition smooth and seamless.
+Why Upgrade?
+Upgrading your hosted service subgraphs to The Graph Network offers a range of benefits, including:
+Increased Functionality: Access to recently launched features, such as 100,000 free queries per month, easy payments via credit card or GRT, and gasless upgrades for all hosted service subgraphs.
+Enhanced Reliability: By leveraging the decentralized network, you ensure the reliability of your subgraphs, safeguarding access to your data for the long term.
+Community Support: Join a vibrant community of developers, builders, and data consumers shaping the future of the internet through decentralized data.
+DappLooker supports the upgrade process to The Graph’s Decentralized Network.
+After successfully upgrading your hosted service subgraphs, leverage DappLooker’s suite of user-friendly tools to analyze and visualize subgraph data with ease - no coding required.
+Subgraph Analyzer: Explore and analyze subgraph data in real-time through our intuitive interface. Sort, filter, and export data to CSV effortlessly.
+Subgraph Native Platform: DappLooker is integrated with The Graph Network, allowing you to register, explore, and analyze your subgraph data.
+No-Code Dashboards: Create custom dashboards powered by your subgraph data with our no-code interface. Effortlessly visualize insights and make data-driven decisions without being technical.
+Get Started Today
+Don’t wait until the last minute to upgrade. With just a few clicks and in less than 5 minutes on average, your subgraphs will be powered by the decentralized network. If you prefer a visual guide, check out this easy-to-follow video tutorial.
+Begin your decentralized journey today by accessing the easy upgrade flow in the hosted service dashboard. Need assistance or have questions? Check out The Graph Docs. Visit our website to learn more about how DappLooker can support your transition to The Graph Network. Together, let’s shape the future of decentralized data.
+About The Graph
+The Graph is the source of data and information for the decentralized internet. As the original decentralized data marketplace that introduced and standardized subgraphs, The Graph has become web3’s method of indexing and accessing blockchain data. Since its launch in 2018, tens of thousands of developers have built subgraphs for dapps across 40+ blockchains — including Ethereum, Arbitrum, Optimism, Base, Polygon, Celo, Fantom, Gnosis, and Avalanche.
+As demand for data in web3 continues to grow, The Graph enters a New Era with a more expansive vision including new data services and query languages, ensuring the decentralized protocol can serve any use case — now and into the future.
+Website | Docs | X (Twitter) | Discord | Telegram
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/png" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-ly0aj9ijicwrwba2r-r7bg.png"/>
+  </entry>
+  <entry>
+    <title type="html">Network Analysis Monitor: Gain Insights into Ethereum, Polygon, BNB &amp; Celo</title>
+    <published>2024-05-22T14:29:34+00:00</published>
+    <updated>2024-05-22T14:29:34+00:00</updated>
+    <id>https://blog.dapplooker.com/network-analysis-monitor-gain-insights-into-ethereum-polygon-bnb-celo/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/network-analysis-monitor-gain-insights-into-ethereum-polygon-bnb-celo/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">🥁 Drumroll please… We’re thrilled to announce the launch of our groundbreaking Network Metrics Monitor, the first-ever comprehensive dashboard for comparing the health and performance of leading blockchain networks!
+Overview:
+DappLooker’s dashboard is a one-stop solution for blockchain enthusiasts and professionals. It provides a detailed analysis of network transactions, blocks, gas prices, and more, across multiple networks like Ethereum, Polygon, BNB, and Celo. And the best part? It’s completely free!
+Network Metrics
+https://dapplooker.com/dashboard/network-metrics-944
+Here’s what you get:
+Compare Network Activity: See a head-to-head comparison of network transactions over the past week. Get a quick understanding of which network is processing the most transactions, be it Ethereum’s over 2 million or Polygon’s half a million.
+Analyze Block Production: Dive deeper into block production with a historical view for each network. This lets you see how frequently new blocks are being added to the blockchain.
+Track Gas Prices: Monitor gas prices in real-time for the past 24 hours and weekly on each network. Remember, gas prices can fluctuate, DappLooker also provides a gas tracker for multiple networks for a more comprehensive picture.
+Gauge Transaction Efficiency: Explore the average number of transactions per block over the past two weeks. This metric helps assess a network’s efficiency in processing transactions. Ethereum, Polygon, and BNB show an increase, while Celo has seen a slight decrease.
+Visualize Transaction Speeds: See the transaction rates (transactions per second) for each network. As of today, BNB and Polygon are the speed demons, handling 45 transactions per second each, followed by Ethereum at 43 and Celo at 13.
+Compare Block Times: Identify the fastest network in terms of block confirmation times. Polygon leads the pack, followed by BNB and Celo. Ethereum currently has the slowest average block time.
+Beyond the dashboard
+Enhance Your Experience with DappLooker DataBOTs: Integrate DappLooker DataBOTs into your Discord and Telegram to get these metrics directly without needing to access the dashboard.
+AI Studio — Interact with Data Using Natural Language: DappLooker’s AI Studio is a revolutionary feature that lets you query network metrics using simple language. Get insights and answers effortlessly at DappLooker AI Studio.
+With DappLooker’s Network Metrics Monitor Dashboard, you’re not just staying informed; you’re staying ahead in the blockchain game. Try it out and experience the power of comprehensive network analysis at your fingertips!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/png" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-tcbpfpf0pf3vfttscepryq.png"/>
+  </entry>
+  <entry>
+    <title type="html">Manta Network Analysis Made Easy: With DappLooker</title>
+    <published>2024-05-16T11:59:31+00:00</published>
+    <updated>2024-05-16T11:59:31+00:00</updated>
+    <id>https://blog.dapplooker.com/manta-network-analysis-made-easy-with-dapplooker/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/manta-network-analysis-made-easy-with-dapplooker/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">We are thrilled to share some exciting update on our recent partnership. We integrated with Manta Network!
+Here are the key metrics:Market Cap: 414.68MTotal Transactions: 18.8MTotal Blocks: 2.1M
+Now, the Manta community can easily analyze and build dashboards with no-code using DappLooker’s amazing features and APIs.
+Manta Network is now a Featured Project on DappLooker! Members of the Manta community can create charts and dashboards for free in under 30 minutes. Get started now
+Additionally, the Manta Community now has access to DappLooker’s AI Studio! Leverage DappLooker’s AI Studio to add AI-generated data to your dashboards and ask for any Manta Network metrics using natural language processing (NLP) queries. Try It Out
+This integration is a breakthrough for the Manta community, analysts, developers, and dApps. We’re thrilled to power Manta Network’s data and be a part of Manta ecosystem.
+One more thing! Manta Network Dashboard is here!
+Get a full overview and insights into the network’s activity of the Manta Network with our comprehensive monitor. Explore it now
+Did you know you could fork this dashboard and create your own customized Manta Network dashboard? Start creating your own dashboards immediately. Create Your Own Dashboard
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/gif" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-jmu4frbolxfrsdjel-7kyq.gif"/>
+  </entry>
+  <entry>
+    <title type="html">CeloSpy: Your All-in-One Tool for Exploring the Celo Ecosystem</title>
+    <published>2024-05-15T13:45:10+00:00</published>
+    <updated>2024-05-15T13:45:10+00:00</updated>
+    <id>https://blog.dapplooker.com/celospy-your-all-in-one-tool-for-exploring-the-celo-ecosystem/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/celospy-your-all-in-one-tool-for-exploring-the-celo-ecosystem/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">Celo is a rising blockchain platform that is gaining traction. With its focus on scalability, security, and usability, Celo is well-positioned to become a major player in DeFi.
+But how do you keep track of the Celo ecosystem’s health and activity? That’s where CeloSpy comes in. CeloSpy is a comprehensive dApp that provides users with a wealth of information about the Celo network.
+What is CeloSpy?
+CeloSpy is a dApp created by DappLooker. It is a one-stop solution for all things Celo, providing users with comprehensive metrics, charts, visualizations, and analysis for the Celo network.
+Here are some CeloSpy features:Track key metrics like transaction volume, gas prices, and user activity — all in real-time.“My History” lets you connect your Metamask wallet and gain personalized insights into your Celo transactions.Get iframe embeddable code to embedd your celoSpy dashboard in your website.Evolve your Celo experience with the ability to fork and customize and share dashboards.
+Celo Network Overview Monitor
+Get a real-time snapshot of Celo’s performance with the Network Overview Monitor. Visualizations and data on transaction volumes, block production, and network health show a clear picture of how the network is functioning.
+Celo Transaction Overview Monitor
+Dive deeper into transaction activity with the Transaction Overview Monitor. Understand transaction trends, gas prices, and the types of currencies being used. This allows you to gauge user behavior and identify popular tokens within the Celo ecosystem.
+Network Tokens Monitor
+Network Tokens Monitor offer insights into the Total Value Locked, transaction volumes, gas consumption, and specific token details, along with user activity metrics.
+Celo Token Metrics Monitor
+CeloSpy doesn’t stop at network performance. The Token Metrics Monitor provides a comprehensive view of individual token activity. See user engagement, transaction volume, and value transferred for various tokens. This can be valuable for investors and those interested in specific projects on Celo.
+Celo Wallet Overview
+The Celo Wallet Overview sheds light on user behavior within the network. Track the number of unique wallets, daily active users, and the flow of transactions (sending vs receiving users). This helps understand user adoption and how value is moving around the Celo ecosystem.
+My History
+CeloSpy empowers you to analyze your own Celo activity. Connect your Metamask wallet to “My History” and gain insights into your transaction habits. See your average transaction fee, number of transactions, value transferred, and CELO movement. This personalized data allows you to monitor your Celo usage and optimize your strategy.
+Conclusion
+CeloSpy by DappLooker is more than just a monitoring tool; it’s a comprehensive companion for anyone navigating the Celo ecosystem. Whether you’re a developer, investor, or casual user, CeloSpy provides the insights needed to participate effectively in this innovative blockchain space. Dive into CeloSpy and unlock the full potential of your Celo experience.
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/jpeg" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-20png8aw6natn_gcrxwa1a-jpeg.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Effortless Bitcoin &amp; BRC-20 Token Analysis with DappLooker</title>
+    <published>2024-04-25T12:31:44+00:00</published>
+    <updated>2024-04-25T12:31:44+00:00</updated>
+    <id>https://blog.dapplooker.com/effortless-bitcoin-brc-20-token-analysis-with-dapplooker/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/effortless-bitcoin-brc-20-token-analysis-with-dapplooker/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">🔥 We are happy to announce the integration of Bitcoin data, enabling for No-Code analytics and visualizations on data related to BRC-20 tokens.
+Bitcoin data is available on DappLooker, thanks to The Graph for providing access to Bitcoin history. Big thanks to Playground and Streamingfast teams for their work on substream and subgraph. 🤝
+- With the BRC-20 subgraph on The Graph Network, you can query data using GraphQL.
+- Explore Bitcoin model data with Streamingfast Bitcoin explorer module.
+- Dive into BRC-20 Substreams module by Playground.
+The DappLooker suite of tools is your one-stop solution for Bitcoin data analytics
+📊 Effortless Analytics: Easy-to-use, no-code solution for beginners.
+🔍 Subgraph Analyzer: Deep dive and visualize complex Bitcoin data.
+🤖 Data Bots: Automate data retrieval for your
+💻 API SDK: Robust tools for developers to build on Bitcoin data.
+✨ AI Studio: AI-Assisted Analytics Tool for Natural Language Queries.
+🔍 Keep track of BRC-20 tokens with our BRC-20 tokens tracker dashboard
+✅ Total tokens minted
+✅ Total BRC20 tokens created
+✅ Total transfers
+and get insights into daily transaction volumes, weekly creations, mints, user activity &amp;amp; much more 📊
+https://dapplooker.com/dashboard/brc20-tokens-tracker-892
+Check your BRC-20 holdings with The BRC-20 token holders dashboard which lets you enter your account address and see your balances for various tokens. 📊
+https://dapplooker.com/dashboard/brc20-token-holder-balance-dashboard-893
+Analyze the BRC-20 data with DappLooker now ✌️
+Don’t miss out on the data revolution. Get started with bitcoin data analysis right now 🔥
+https://dapplooker.com/browse/dashboards?sort=new&amp;amp;pg=1
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/gif" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-jtyrloxoikr5t3amrmlbog.gif"/>
+  </entry>
+  <entry>
+    <title type="html">Big thanks to Graphtronauts for featuring DappLooker in their latest blog post!</title>
+    <published>2024-03-21T17:39:47+00:00</published>
+    <updated>2024-03-21T17:39:47+00:00</updated>
+    <id>https://blog.dapplooker.com/big-thanks-to-graphtronauts-for-featuring-dapplooker-in-their-latest-blog-post/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/big-thanks-to-graphtronauts-for-featuring-dapplooker-in-their-latest-blog-post/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">Big thanks to Graphtronauts for featuring DappLooker in their latest blog post!
+We're excited to see how no-code dashboards can empower users to visualize data from existing subgraphs on Graph Protocol.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.dapplooker.com/content/images/2024/10/updated_homepage_meta_embed_800_418_px.png"/>
+  </entry>
+  <entry>
+    <title type="html">Streamline Your Web3 Journey: Introducing Credit Card Billing on DappLooker!</title>
+    <published>2024-03-21T13:39:46+00:00</published>
+    <updated>2024-03-21T13:39:46+00:00</updated>
+    <id>https://blog.dapplooker.com/streamline-your-web3-journey-introducing-credit-card-billing-on-dapplooker/</id>
+    <link rel="alternate" type="text/html" href="https://blog.dapplooker.com/streamline-your-web3-journey-introducing-credit-card-billing-on-dapplooker/"/>
+    <author>
+      <name>DappLooker</name>
+    </author>
+    <content type="html">You spoke, we listened. Now, alongside our existing Web3 wallet payment options, you can enjoy the flexibility and convenience of credit card subscriptions.
+We’re thrilled to announce a major update designed to enhance your Web3 experience: Credit Card Billing support! This means you can seamlessly access the powerful analytics and visualization tools you need to thrive in the Web3 space, regardless of your preferred payment method.
+The Power of Choice
+DappLooker’s innovative subscription model offers a range of plans to suit your individual needs:
+Competitive pricing: Our plans are priced competitively, so you’ll get the features you need without breaking the bank.
+Customizable plan: Don’t be stuck with a one-size-fits-all solution. We offer a variety of plan options, including a customizable plan that lets you tailor your access to the specific project needs. Pay only for what you use and maximize your investment.
+Scale as you grow: DappLooker scales with you. As your project needs grow, you can easily upgrade your plan to get the additional features and functionality you require. You’ll only ever pay for what you use.
+Yearly Subscriptions with Discounts: Looking to commit to DappLooker for the long term? Our yearly subscriptions offer significant discounts compared to monthly plans. Lock in guaranteed savings and uninterrupted access to our platform.
+Subscribe Effortlessly
+Purchasing your plan is a breeze! Here’s a quick guide:
+On DappLooker, click on the drop-down menu in the top right corner and select “My Plan.”
+2. Choose the plan that best suits you (e.g., Pro Plan) and click “Pay Now.”
+3. Select your preferred billing cycle (monthly or yearly) and choose “Credit Card” as your payment method.
+4. Enter your email address and click “Subscribe.”
+5. You’ll be securely redirected to Stripe, our trusted payment gateway, to complete your credit card information.
+That’s it! You’re now ready to unlock the full potential of our platform with the added convenience of credit card billing.
+Revolutionize Your Web3 Workflow!
+Not sure which plan is right for you? Don’t worry! We offer a generous free trial so you can explore all the features and benefits we have to offer. This is the perfect opportunity to see how our platform can revolutionize your Web3 workflow.
+Join the Future of Web3 Analytics
+At DappLooker, we’re committed to providing the best possible experience for our users. The introduction of credit card billing, alongside our existing web3 wallet options, empowers you to choose the payment method that best suits your needs.
+Sign up today, explore the free trial, and discover the subscription plan that perfectly aligns with your business goals!
+About DappLooker
+We help you effortlessly turn your data into revenue. DappLooker is a No-Code Web3 Business Intelligence &amp;amp; Analytics Hub that offers a suite of user-friendly tools for your business. Our suite includes Smart contract analytics, Subgraph analytics, DataBOTs, API SDK, and an AI Studio — all designed for simplicity. Access analytics across 15+ networks, 500+ Dapps, and analyze data from over 500M+ on-chain users. Let us empower you to make data-driven decisions.
+Website | Docs | Twitter | Discord | Telegram</content>
+    <link rel="enclosure" type="image/gif" href="https://d2yxqfr8upg55w.cloudfront.net/ghost-media/2024/08/1-gpplitytj2mc3cevr93fzg.gif"/>
+  </entry>
+</feed>
