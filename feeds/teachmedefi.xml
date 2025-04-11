@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">TEACHMEDEFI</title>
+  <link rel="alternate" type="text/html" href="https://www.newsletter.teachmedefi.de"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.newsletter.teachmedefi.de%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.newsletter.teachmedefi.de%2Ffeed&amp;content_selector=.available-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:12:02+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Make Crypto Simple Again! Wie? Mit "Intents"</title>
+    <published>2024-10-12T07:14:56+00:00</published>
+    <updated>2024-10-12T07:14:56+00:00</updated>
+    <id>https://www.newsletter.teachmedefi.de/p/make-crypto-simple-again-wie-mit</id>
+    <link rel="alternate" type="text/html" href="https://www.newsletter.teachmedefi.de/p/make-crypto-simple-again-wie-mit"/>
+    <author>
+      <name>TEACHMEDEFI</name>
+    </author>
+    <content type="html">Liebe TEACHMEDEFI-Community,
+In unserer neuesten Podcast-Episode dreht sich alles darum, wie man die Komplexität von Krypto reduzieren kann – mit Intents! Diese Woche sprechen wir mit zwei besonderen Gästen von Symphony Labs, die anonym unter den Namen Vivaldi (CEO) und Mozart (CTO) auftreten. Zusammen geben sie uns spannende Einblicke in die Welt der Intents und wie sie die Nutzererfahrung im Krypto- und Blockchain-Bereich revolutionieren wollen.
+Was sind Intents und Chain-Abstraktion?
+Intents sind im Grunde Nutzerabsichten, die über eine einfache Schnittstelle formuliert werden können. Symphony Labs ermöglicht es, diese Intents auszudrücken, während sogenannte Solvers (Algorithmen) die besten Lösungen finden. Dadurch wird die Komplexität auf der Benutzerseite deutlich reduziert, während im Hintergrund auf verschiedenen Chains gehandelt und Lösungen gefunden werden.
+Ein konkretes Beispiel dafür ist der geplante Perpetuals-Aggregator, mit dem Nutzer Positionen in Perpetuals auf verschiedenen dezentralen Börsen (wie z.B. GMX) eröffnen und schließen können – und das, während das Kapital auf verschiedenen Chains gehalten wird. Klingt kompliziert? Die gute Nachricht ist: Für den Nutzer bleibt es ganz einfach! Ziel ist es, eine einzige Benutzeroberfläche bereitzustellen, die eine nahtlose und benutzerfreundliche Onchain-Trading-Erfahrung bietet, die mit zentralisierten Plattformen wie Binance vergleichbar ist.
+Bisher kann das ganze sehr kompliziert sein: Der Nutzer selber muss Kryptowährungen von Blockchain zu Blockchain übertragen bzw. “bridgen”, die verschiedenen Applikationen einzeln aufrufen, die er nutzen möchte und sich evtl. auch darum kümmern diverse “native” Token zu kaufen, um Transaktionsgebühren auf der jeweiligen Blockchain bzw. Applikation bezahlen zu können. 
+Intents versprechen dies zu vereinfachen: Der User drückt lediglich eine Absicht aus und der Rest wird im Hintergrund umgesetzt.
+Diese Episode ist ein Muss für alle, die sich für die Vereinfachung von Krypto  interessieren. Wir sind gespannt auf eure Meinung: Was haltet ihr von Intents im Krypto-Bereich? Lasst es uns wissen!
+Die Links zum Podcast findest du unten!
+Zudem findest du aktuelle News zum Krypto-Markt wie gewohnt weiter unten im Newsletter!
+Falls dir unser Content gefällt und du jemanden in deinem Umfeld kennst, der sich mehr mit Krypto beschäftigen sollte, dann erzähl ihr oder ihm bitte über uns! 
+Share
+Falls du tiefer in das Thema Krypto eintauchen willst, folge gerne unserem Instagram-Profil für tägliche Updates und Videos auf Deutsch.
+Hier geht's zu unserem Instagram
+Für einen strukturierten, anfängerfreundlichen Start, schau auf unserer E-Learning Plattform vorbei mit kostenfreien Grundlagenkursen auf Deutsch zu Bitcoin, Ethereum und Polkadot!
+Hier geht's zur TEACHMEDEFI Webseite
+Inhalt des Newsletters:
+Im Podcast diese Woche: Make Crypto Simple Again! Ein Interview mit Symphony über “Intents” und Nutzerfreundlichkeit
+Diese Woche in Krypto: Aktuelle News
+dot dot dot . . .: Aktuelles aus dem Polkadot Ökosystem
+Danke fürs Lesen von TEACHMEDEFI! Abonniere kostenlos, um neue Beiträge zu erhalten und unsere Arbeit zu unterstützen.
+Subscribe
+Podcast
+Alternativ, kannst du die ganze Episode auch auf anderen Streaming-Plattformen anschauen:
+Weiteres Streaming
+Diese Woche in Krypto
+Thailändische SEC will Meinungen zu Krypto-Investitionen: Thailand plant Regelungen, damit Fonds in Kryptowährungen investieren können und sucht dazu öffentliches Feedback. [Hier mehr dazu]
+Starker Anstieg bei Stablecoin-Nutzung in Argentinien: Wegen hoher Inflation nutzen immer mehr Argentinier Stablecoins als sicheren Hafen. [Hier mehr dazu]
+Crypto.com verklagt die US-Börsenaufsicht SEC: Nach einer Warnung der SEC wegen angeblicher Regelverstöße klagt Crypto.com gegen die Behörde. 
+[Hier mehr dazu]
+Chinas Wirtschaftsmaßnahmen enttäuschen, Bitcoin fällt: Nach schwachen Konjunkturankündigungen Chinas fielen sowohl Aktien als auch Bitcoin. 
+[Hier mehr dazu]
+Coinbase entfernt nicht autorisierte Stablecoins in der EU: Neue EU-Regeln zwingen Coinbase, bestimmte Stablecoins bis Jahresende zu entfernen. 
+[Hier mehr dazu]
+BBVA und Visa planen Stablecoin für 2025: Die spanische Bank BBVA will zusammen mit Visa bis 2025 einen eigenen Stablecoin einführen. [Hier mehr dazu]
+dot dot dot . . . | Polkadot News
+Polkadot-Ökosystem erreicht Rekordwerte: 32M+ Transaktionen und 386,7M On-Chain-Events im September: Mit über 8 Millionen einzigartigen Konten im 3. Quartal zeigt Polkadot ein starkes Wachstum. Erfahre mehr von Parity Technologies. [Hier mehr dazu] 
+Mythos bringt 3,6 Millionen neue Nutzer zu Polkadot. [Hier mehr dazu]
+Wie kann DOT endlich die Marke von 4,98 Dollar durchbrechen? Eine Analyse der Preisentwicklung von DOT auf den Charts. [Hier mehr dazu]
+Rekordmonat September im Polkadot-Ökosystem trotz Skepsis: Mit 32,3 Millionen Transaktionen wurde der bisherige Rekord von 31,8 Millionen während des Inscriptions-Booms übertroffen. [Hier mehr dazu] 
+Q3-Rückblick des Peaq Netzwerks ist live: 67% Wachstum bei DePINs und eine Steigerung der Geräte um 105%. Sieh dir an, was es Neues im Peaq Ökosystem gibt. [Hier mehr dazu]
+Wir freuen uns darauf, dich nächste Woche mit weiteren spannenden Krypto-News zu versorgen! Besuche gerne unsere Webseite für weitere kostenfreie Inhalte, wie zum Beispiel unsere E-Learning Plattform mit kostenfreien Grundlagenkursen zu Bitcoin, Ethereum und Polkadot!
+Hier geht's zur TEACHMEDEFI Webseite</content>
+    <link rel="enclosure" type="image/jpeg" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff850dc9d-6272-44cf-ae00-3b3699b166fa_1920x1080.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">AI + Krypto: Künstliche Intelligenz trifft auf Dezentralisierung</title>
+    <published>2024-09-28T13:25:58+00:00</published>
+    <updated>2024-09-28T13:25:58+00:00</updated>
+    <id>https://www.newsletter.teachmedefi.de/p/ai-krypto-kunstliche-intelligenz</id>
+    <link rel="alternate" type="text/html" href="https://www.newsletter.teachmedefi.de/p/ai-krypto-kunstliche-intelligenz"/>
+    <author>
+      <name>TEACHMEDEFI</name>
+    </author>
+    <content type="html">Diese Woche haben wir ein echtes TEACHMEDEFI-Highlight gedroppt: Unser erstes In-Person-Interview! 
+Vor ein paar Wochen waren wir auf dem Web3 Summit in Berlin, einem spannenden Event im Bereich Web3 und Krypto. Einerseits war es eine super Gelegenheit, spannende Vorträge zu hören: Ein Highlight war definitiv der Vortrag von Jaron Lanier von Microsoft, ein Pionier der Virtual Reality, der seit Jahren auf die Gefahren von zentralisierter Macht und Datenkontrolle durch wenige Tech-Giganten hinweist. Andererseits war es auch der perfekte Anlass, Projekte und Personen vor Ort persönlich zu treffen und zu interviewen. 
+Und genau das haben wir auch getan! 
+Wir sprachen mit James, dem COO von Subquery, über ihr neuestes Projekt – nämlich dezentrale KI-Inferenz. Was bedeutet das genau? 
+Die Inferenz beschreibt den Prozess, bei dem ein trainiertes KI-Modell genutzt wird, um auf Basis neuer Eingabedaten Vorhersagen zu treffen oder Entscheidungen zu fällen. Inferenz ist also das was im Hintergrund passiert, wenn du z. B. ChatGPT nutzt. Oft wird dieser Prozess auf leistungsstarken Servern großer Cloud-Anbieter wie AWS, Google Cloud oder Microsoft Azure ausgeführt.
+Das Problem: Die Bereitstellung solcher Infrastruktur ist nicht nur kostspielig, sondern auch stark zentralisiert. Für Entwickler bedeutet das, dass sie hohe Gebühren zahlen und sich zusätzlich mit komplexen Machine Learning Operations (MLOps) auseinandersetzen müssen – von der Modellverwaltung bis zur Skalierung. Das macht die Nutzung selbst von Open-Source-Modellen wie Meta’s Llama oder Stable Diffusion, die eigentlich kostenlos verfügbar sind, schwierig und teuer.
+Eine dezentrale Inferenz kann hier Abhilfe schaffen. Sie verteilt die Rechenlast auf ein Netzwerk von unabhängigen Geräten, wodurch die Kosten gesenkt und gleichzeitig die Abhängigkeit von zentralen Anbietern reduziert wird. So können Entwickler Open-Source-Modelle in einer offenen, transparenten und kostengünstigen Umgebung nutzen und bereitstellen, ohne sich mit zentralisierten Gatekeepern auseinandersetzen zu müssen. Dies fördert nicht nur Innovation, sondern stärkt auch die Kontrolle über die eigene Datenverarbeitung und verbessert die Zugänglichkeit für eine breitere Entwickler-Community.
+James erklärt uns in dieser Episode, warum es so wichtig ist, Alternativen zu den zentralisierten Cloud-Anbietern zu schaffen, die aktuell den Markt für AI-Infrastruktur dominieren. Subquery hat eine Lösung entwickelt, die es Entwicklern ermöglicht, AI-Modelle auf einem dezentralen Netzwerk entsprechender Hardware zu hosten und diese dann in Applikationen zu integrieren um Nutzern intelligente Applikationen anbieten zu können. 
+Der Fokus liegt dabei insbesondere auf der Bereitstellung von besseren und günstigeren Möglichkeiten, große Open-Source KI-Modelle (z. B. LLMs wie Llama) zu betreiben. Wir sprechen darüber, wie Web3 das Potenzial hat, die AI-Landschaft komplett umzukrempeln – weit weg vom aktuellen Status quo der Tech-Giganten.
+Wie stehst du zur Idee von dezentraler Künstlicher Intelligenz? Siehst du darin eine bahnbrechende Technologie oder mehr Hype als Substanz? 
+Die Links zum Podcast findest du unten!
+Zudem findest du aktuelle News zum Krypto-Markt wie gewohnt weiter unten im Newsletter!
+Falls dir unser Content gefällt und du jemanden in deinem Umfeld kennst, der sich mehr mit Krypto beschäftigen sollte, dann erzähl ihr oder ihm bitte über uns! 
+Share
+Falls du tiefer in das Thema Krypto eintauchen willst, folge gerne unserem Instagram-Profil für tägliche Updates und Videos auf Deutsch.
+Hier geht's zu unserem Instagram
+Für einen strukturierten, anfängerfreundlichen Start, schau auf unserer E-Learning Plattform vorbei mit kostenfreien Grundlagenkursen auf Deutsch zu Bitcoin, Ethereum und Polkadot!
+Hier geht's zur TEACHMEDEFI Webseite
+Inhalt des Newsletters:
+Im Podcast diese Woche: Dezentrale KI-Inferenz mi Subquery!
+Diese Woche in Krypto: Aktuelle News
+dot dot dot . . .: Aktuelles aus dem Polkadot Ökosystem
+Danke fürs Lesen von TEACHMEDEFI! Abonniere kostenlos, um neue Beiträge zu erhalten und unsere Arbeit zu unterstützen.
+Subscribe
+Podcast
+Alternativ, kannst du die Episode auch auf anderen Streaming-Plattformen schauen und uns dort folgen!
+Weitere Streaming-Plattformen hier!
+Diese Woche in Krypto
+Wird Chinas expansive Geldpolitik dem Bitcoin-Preis einen Schub geben? Die People's Bank of China hat mehrere Stimulusmaßnahmen eingeführt, die schon früher dem Bitcoin-Preis zugute kamen. [Hier mehr dazu]
+SEC-Chef Gensler weist Vorwürfe einer Anti-Krypto-Aktion zurück: In einer hitzigen Sitzung wurde Genslers Krypto-Regulierungsansatz von Gesetzgebern und SEC-Kommissaren kritisiert. [Hier mehr dazu]
+Türkei stellt Pläne zur Besteuerung von Aktien und Kryptowährungen zurück: Die Regierung hat keine unmittelbaren Pläne, Steuern auf Aktien oder Kryptowährungen zu erheben, bestätigt der Vizepräsident Cevdet Yilmaz. 
+[Hier mehr dazu]
+Der Messenger “Telegram” wird nach CEO-Verhaftung Nutzerdaten mit Behörden teilen: Dies ist Teil einer größeren Anstrengung, kriminelle Aktivitäten auf der Messaging-Plattform zu bekämpfen. [Hier mehr dazu]
+Bitcoin könnte bald stark ansteigen, sagen Analysten: Die Kryptowährung könnte ihre Höchstwerte zwischen Oktober (Uptober) und März erreichen, eine Zeit, in der historisch gesehen große Kursanstiege stattfanden. [Hier mehr dazu]
+Die Bank Revolut plant eigene Kryptowährung, einen sogenannte Stablecoin: Dieser Schritt soll die Position von Revolut im Finanztechnologiesektor stärken. 
+[Hier mehr dazu] 
+“Ein Stablecoin ist eine Kryptowährung, die darauf abzielt, den Preis stabil zu halten, indem sie an einen anderen Wert, bspw. den Dollar- oder Euro, gebunden wird.”
+Bhutan besitzt mehr Bitcoin als El Salvador und Deutschland dank eigener Mining-Operationen: Neben Bitcoin hält das Land auch andere Kryptowährungen wie Ethereum (ETH), Binance Coin (BNB), Polygon (POL) und Tether (USDT). [Hier mehr dazu]
+Mark Cuban möchte 'X' von Elon Musk kaufen, aber Elon verkauft nicht. 
+[Hier mehr dazu]
+MicroStrategy will 700 Millionen Dollar beschaffen, um mehr Bitcoin zu kaufen: MicroStrategy, der größte Unternehmensreservehalter von Bitcoin, plant, weitere Mittel durch die Ausgabe neuer Anleihen zu beschaffen, um seine Bitcoin-Bestände zu erhöhen und somit Schulden abzuzahlen. [Hier mehr dazu]
+dot dot dot . . . | Polkadot News
+Warum neue Updates das DOT-Token zu einer Top-Investition machen könnten: Diese Entwicklungen könnten das DOT-Token langfristig im Kryptomarkt stark positionieren. [Hier mehr dazu] 
+Start der EasyA x Polkadot Universität: Die weltweit erste Universität speziell für Blockchain-Bildung, entwickelt von EasyA und Polkadot. [Hier mehr dazu] Ein früheres Interview mit uns &amp;amp; EasyA kann [hier] angesehen werden.
+Chainflip Labs: Blockchain-übergreifende Plattform für Tauschgeschäfte ermöglicht es, Kryptowährungen zwischen verschiedenen Blockchains wie Polkadot und Solana nahtlos zu tauschen. [Hier mehr dazu]
+Polkadot führt Agile Coretime ein: Dieses Update verbessert die Ressourcenverteilung und steigert Effizienz sowie Skalierbarkeit des Ökosystems. [Hier mehr dazu]
+Rekordwachstum für OriginTrail DKG (Decentralized Knowledge Graph): Der DKG funktioniert ähnlich wie KI, verwendet jedoch Blockchain-Technologie, um Informationen sicher und nachweisbar zu speichern und zu teilen. Im September verzeichnete der DKG täglich 75.000 Wissensressourcen, mehr als das Dreifache des Spitzenwerts des letzten Jahres. [Hier mehr dazu] 
+Mandala Chain Botschafterprogramm: Eine Gelegenheit, ein OG Mandala-Botschafter zu werden. Bewerbungen sind bis zum 1. Oktober möglich. 
+[Hier mehr dazu] 
+Wir freuen uns darauf, dich nächste Woche mit weiteren spannenden Krypto-News zu versorgen! Besuche gerne unsere Webseite für weitere kostenfreie Inhalte, wie zum Beispiel unsere E-Learning Plattform mit kostenfreien Grundlagenkursen zu Bitcoin, Ethereum und Polkadot!
+Hier geht's zur TEACHMEDEFI Webseite</content>
+    <link rel="enclosure" type="image/jpeg" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17c758d7-01f6-4336-87b2-329fde78b05d_1920x1080.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">Künstliche Intelligenz und Web3: Hype, aktuelle Trends und Schnittpunkte</title>
+    <published>2024-09-14T11:51:19+00:00</published>
+    <updated>2024-09-14T11:51:19+00:00</updated>
+    <id>https://www.newsletter.teachmedefi.de/p/kunstliche-intelligenz-und-web3-hype</id>
+    <link rel="alternate" type="text/html" href="https://www.newsletter.teachmedefi.de/p/kunstliche-intelligenz-und-web3-hype"/>
+    <author>
+      <name>TEACHMEDEFI</name>
+    </author>
+    <content type="html">Die Zukunft von Künstlicher Intelligenz (KI) und Web3 rückt immer näher zusammen, und die Frage, wie eine dezentralisierte KI-Landschaft aussehen könnte, beschäftigt viele Innovatoren. 
+In unserer neuesten Folge haben wir Zoé Meckbach, Head Ambassador für Polkadot und VP und Partnerin bei Phala Network, zu Gast. Gemeinsam tauchen wir tief in die Welt der KI und Blockchain ein und diskutieren, wie diese beiden Technologien die Zukunft verändern könnten. Diese Episode ist ein Muss für alle, die sich für die Schnittstellen von Dezentralisierung, Sicherheit und KI interessieren.
+Wir beleuchten die Herausforderungen zentralisierter KI-Modelle, die Risiken eines monopolisierten Wissens und wie Blockchain-Technologie diese Branche revolutionieren könnte. Zoé teilt ihre persönliche Reise in die Welt von Krypto und KI und hebt dabei die entscheidende Rolle von Sicherheit und Vertrauen in der Entwicklung der KI hervor.
+Wir besprechen den aktuellen Hype, derzeitige Trends im Markt und schließlich die Integration von KI-Agenten mit der Blockchain. Hier will sich Phala Network als Schlüsselfigur positionieren. Phala ist eine sogenannte “TEE-basierte CPU-Cloud”, die auf vertrauenswürdige Hardware setzt, um komplexe Berechnungen sicher durchzuführen und dabei Vertraulichkeit zu wahren. Mit über 30.000 verbundenen Geräten im Netzwerk bietet Phala eine entwicklerorientierte Plattform, die es ermöglicht, KI-Agenten zu erstellen, die mit Off-Chain-Modellen interagieren und ihr Wissen monetarisieren können.
+Wir werfen auch einen Blick auf Phalas Vision von einer dezentralisierten allgemeinen Künstlichen Intelligenz (DAGI) und wie sie KI-Technologien dezentralisieren wollen – alles im Kontext von Web3 und der Rolle von Polkadot im Bereich der dezentralen KI.
+Was hältst du von dezentralisierter KI? Hype oder bahnbrechend?
+Die Links zum Podcast findest du unten!
+Zudem findest du aktuelle News zum Krypto-Markt wie gewohnt weiter unten im Newsletter!
+Falls dir unser Content gefällt und du jemanden in deinem Umfeld kennst, der sich mehr mit Krypto beschäftigen sollte, dann erzähl ihr oder ihm bitte über uns! 
+Share
+Falls du tiefer in das Thema Krypto eintauchen willst, folge gerne unserem Instagram-Profil für tägliche Updates und Videos auf Deutsch.
+Hier geht's zu unserem Instagram
+Für einen strukturierten, anfängerfreundlichen Start, schau auf unserer E-Learning Plattform vorbei mit kostenfreien Grundlagenkursen auf Deutsch zu Bitcoin, Ethereum und Polkadot!
+Hier geht's zur TEACHMEDEFI Webseite
+Inhalt des Newsletters:
+Im Podcast diese Woche: Can Decentralized AI Change Everything?
+Diese Woche in Krypto: Aktuelle News
+dot dot dot . . .: Aktuelles aus dem Polkadot Ökosystem
+Danke fürs Lesen von TEACHMEDEFI! Abonniere kostenlos, um neue Beiträge zu erhalten und unsere Arbeit zu unterstützen.
+Subscribe
+Podcast
+Weitere Streaming-Plattformen
+Diese Woche in Krypto
+UK-Gesetz erkennt Bitcoin und Krypto als persönliches Eigentum an. Das neue Gesetz bietet rechtlichen Schutz und klärt Eigentumsfragen für digitale Vermögenswerte. [Hier mehr lesen]
+Ethereum braucht besseres Marketing für Wall Street, so Experten der Krypto-Investmentfirma Attestant. Berater Tim Lowe betont, dass eine klarere Botschaft und Entwicklungszeit nötig sind, um Ethereum für institutionelle Investoren attraktiver zu machen. [Hier mehr lesen]
+PayPal und Venmo Nutzer können nun Krypto-Zahlungen mit Ethereum Name Service (ENS) Adressen senden. Diese Funktion, die zuerst in den USA verfügbar ist, macht die Nutzung von Kryptowährungen auf diesen Plattformen einfacher. [Hier mehr lesen]
+Bitcoin-Mining: Japan testet die Nutzung von überschüssiger Solarenergie. Tokyo Electric Power Co. (TEPCO), Japans größter Stromversorger, erforscht das Bitcoin-Mining mit erneuerbaren Energien – ein Markt mit einem Potenzial von 2,5 Milliarden Dollar. [Hier mehr lesen]
+Changpeng Zhao (CZ), ehemaliger CEO von Binance, ist von jeder aktuellen oder zukünftigen Managementrolle bei der Krypto-Börse ausgeschlossen. Zhao bleibt zwar Aktionär, darf die Plattform jedoch nicht mehr betreiben oder verwalten. [Hier mehr lesen]
+Telegram CEO Pavel Durov verspricht, nach seiner Verhaftung die Überwachung krimineller Aktivitäten deutlich zu verbessern. Durovs erste öffentliche Äußerungen räumen ein, dass das schnelle Wachstum von Telegram die Kontrolle erschwert hat. [Hier mehr lesen]
+Donald Trump bekräftigt seine Unterstützung für Bitcoin und sagt, er habe einen Job für Elon Musk, falls er wieder gewählt wird. Trump deutet an, dass Musk eine neue Regierungs-Taskforce gegen Betrug leiten könnte. [Hier mehr lesen]
+Wer Bored Ape NFTs auf dem Höhepunkt gekauft hat, hat 93% seiner Investition verloren. Während der Basispreis für Bored Apes sinkt, setzt ein Vorreiter seine von der Gemeinschaft getriebene Geschichte aus. [Hier mehr lesen]
+dot dot dot . . . | Polkadot News
+Peaq Network, eine Plattform für dezentrale physische Infrastrukturnetze (DePIN), zieht Lufthansa und Deutsche Telekom an und beschleunigt das Wachstum von DePIN. Peaq kündigt bedeutende Partnerschaften mit Lufthansa und Deutsche Telekom an, was das zunehmende Interesse von Unternehmen an dezentraler Infrastruktur zeigt. [Hier mehr lesen]
+Dune Analytics baut ein umfassendes Datenhub auf Polkadots 50 Parachains. Dune, die führende Plattform für On-Chain-Analytik, wird Daten von mehr als 50 Parachains im Polkadot-Ökosystem integrieren und seine Überwachung in Polkadot ausbauen, mit speziell auf Investoren, Entwickler und Forscher zugeschnittenen Daten. [Hier mehr lesen]
+EasyA erreicht 1 Million Downloads und wird zur Schlüsselplattform für die Bildung von Polkadot-Entwicklern. [Hier mehr lesen]
+AstarNetwork arbeitet mit Startale zusammen, um mit Soneiums erstem Inkubationsprogramm Soneium Spark eine neue Möglichkeit für Web3-Entwickler zu schaffen. [Hier mehr lesen]
+Polkadot-Gründer Gavin Wood präsentiert Blockchain-Tattoos zur Sicherung digitaler Identitäten. [Hier die Gründe]
+Wir freuen uns darauf, dich nächste Woche mit weiteren spannenden Krypto-News zu versorgen! Besuche gerne unsere Webseite für weitere kostenfreie Inhalte, wie zum Beispiel unsere E-Learning Plattform mit kostenfreien Grundlagenkursen zu Bitcoin, Ethereum und Polkadot!
+Hier geht's zur TEACHMEDEFI Webseite</content>
+    <link rel="enclosure" type="image/jpeg" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbac6616-d106-48f1-a372-1a270fcc8574_2880x1620.jpeg"/>
+  </entry>
+</feed>
