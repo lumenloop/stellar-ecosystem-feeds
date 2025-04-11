@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Usher Labs</title>
+  <link rel="alternate" type="text/html" href="https://www.usher.so"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.usher.so%2Ffeed%2F&amp;content_selector=%5Bdata-widget_type%3D%22theme-post-content.default%22%5D&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.usher.so%2Ffeed%2F&amp;content_selector=%5Bdata-widget_type%3D%22theme-post-content.default%22%5D&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:11:16+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Log Store with Streamr 1.0: Interplanetary storage for real-time data</title>
+    <published>2024-06-06T05:51:39+00:00</published>
+    <updated>2024-06-06T05:51:39+00:00</updated>
+    <id>https://www.usher.so/blog/log-store-with-streamr-1-0-interplanetary-storage-for-real-time-data/</id>
+    <link rel="alternate" type="text/html" href="https://www.usher.so/blog/log-store-with-streamr-1-0-interplanetary-storage-for-real-time-data/"/>
+    <author>
+      <name>Ryan Soury</name>
+    </author>
+    <content type="html">If you&amp;#8217;ve been keeping an eye on the developments in the DePIN sector of the Web3 realm, you might have heard that our partners, the Streamr Network, have successfully released Streamr 1.0.
+    
+The core updates in this release focus on full decentralisation, bringing several notable innovations:
+    
+ 
+Coordination of nodes without trackers, using a Distributed Hash Table instead.
+    
+Improved message compression during transportation by opting for binary formatting.
+    
+Measuring and leveraging the shortest distance between nodes required for message transportation from software A to software Z.
+    
+Proof of relay node inspection layer involves verifying peer-node message delivery to enable automated flagging and misbehaviour detection.
+    
+New tokenomics to support additional incentives for a secure and speedy network.
+ 
+    
+Additionally, Sponsorships are an incentivised mechanism where intermediary nodes help propagate messages from publishers to subscribers, optimising message delivery for security and speed.
+    
+We know all of this because we&amp;#8217;re developers who read and leverage Streamr technology to enable the Log Store Network — a decentralised, replicated, and fault-tolerant message store for data transported over Streamr and other real-time data systems.
+    
+The key takeaway with this upgrade is that it is essentially a hard fork of the original network, now referred to as Streamr Brubeck.
+    
+You can determine which network you&amp;#8217;re accessing based on the version of the packages you are using to interact with the Streamr Network.
+    
+For our developers:
+    
+ 
+streamr-client version 8.5.5 is the final state of the Brubeck Network and is marked for deprecation.
+    
+@streamr/sdk version 100.* represents the state of the live 1.0 Network.
+ 
+    The Log Store is Compatible with Streamr 1.0    
+The Log Store Network is designed to extend the Streamr Network with caching, storage, and message delivery capabilities. With the Streamr 1.0 upgrade, the Log Store Network has also undergone necessary updates.
+    
+We are pleased to announce that this upgrade has been successfully completed, and the Log Store Network is now fully compatible with the latest Streamr 1.0.
+    
+However, this was no simple task.
+    
+Due to the deep integration and reliance on various development environment technologies, Usher Labs needed to implement compatibility with the new message transport formats, new cryptographic primitives, and new historic data lookup paradigms. Additionally, we had to reconsider how data verification takes place on various destination systems that use the Log Store as a component to enable data protocols—a set of conditions enforced on data as it’s received and processed by a blockchain.
+    
+This consideration is also critical for various projects in the DePIN sector aiming to leverage real-time data to verify its origin, frequency, and source. Verification plays a significant role in data protocols as it authenticates external data to facilitate digital asset management and reward distributions to Technology Resource Entities (TREs), such as physical resources in IoT and compute networks. Authenticating this data maximises user trust by minimising reliance on the data technology that facilitates digital asset management. You can learn more about this issue in a research article: Secure Web3 with Trusted Data.
+    
+ 
+What is trust?
+It&amp;#39;s the foundation of our work in Web3. Cryptography reduces the need for it. Bitcoin is valued because of it. Trust is vital where doubt exists.
+A thread 🧵 summarising our research on trust and data in Web3 👇
+Read more: https://t.co/xtu2NMVszk
+&amp;mdash; Ryan Soury (@ryan_soury) June 4, 2024 
+    
+The result of this upgrade not only ensures compatibility but also allows our team to collaborate on minor fixes and set a new roadmap for the Log Store. This roadmap aims to improve sovereignty, reducing bugs and network issues when utilising both Streamr and Log Store. An example of sovereignty is how IPFS can be used independently of Filecoin, yet together they form a decentralised storage solution for large (&amp;gt; 32GB) data blobs. Despite this, it is clear that Streamr has successfully delivered technology and a decentralised network for peer-to-peer data transport, which the Log Store integrates to receive, store, and enable access with high availability.
+    
+Our goal for the Log Store moving forward is to become the IPFS for real-time data, with persistent identifiers for rapidly growing datasets.
+    The Bottlenecks of Real-Time Data    
+If you&amp;#8217;ve managed real-time data in the past, you&amp;#8217;re probably familiar with the challenges of packet loss and data consistency. Streamr is no exception to these issues, which is why the Sponsorships improvement was introduced.
+    
+Packet loss can occur due to faulty internet connections, downtime, or other issues affecting either the publisher or the subscriber. This can result in discrepancies in packets between nodes due to various factors, including network instability. While there is no complete solution to this phenomenon, technology systems typically mitigate the risk through increased data replication and horizontal scaling. These measures significantly reduce the likelihood of packet loss but do not eliminate it entirely. Apache Kafka, a widely adopted centralised streaming solution, exemplifies this approach. Kafka ensures reliable data replication by allowing multiple nodes to replicate data, but only one node needs to acknowledge the receipt of a message to ensure its durability. This approach guarantees strong data replication consistency and high availability through its distributed architecture and scaling methodologies.
+    
+Packet consistency is a design methodology in streaming networks that balances the speed of data delivery with consistency in data replication and availability. Streamr opts for an eventually consistent data delivery approach. This allows packets to be shared and propagated through the network with fewer checks and balances, which can result in scenarios where data appears in one subscriber node earlier than another. Latency issues exacerbate this problem, especially when one node is in Helsinki, Finland, and another is in Sydney, Australia. The propagation mechanism in Streamr Sponsorships incentivises intermediary nodes to ensure secure data delivery to destination subscribers by reducing the latency between each node&amp;#8217;s packet communication. This improves data replication and availability, preventing issues like connection timeouts or latency from jeopardising the security and speed of data delivery.
+    
+The Log Store Network doubles as another mechanism through which a network of nodes can cache data in a highly replicated manner. This ensures that destination systems can always look up and query data at a later date on an ad-hoc basis.
+    The Underrated Aspect of the Streamr Protocol    
+While the Streamr Network is widely recognised as a solution for real-time data transport in the Web3 realm, an often undervalued aspect is its embedded protocol.
+    
+For publishers to communicate with subscribers, each packet includes metadata that forms the cryptographic security underpinning the network’s peer-to-peer capabilities. Every message must be signed, ensuring that anyone receiving the data can trace its origin.
+    
+The research article mentioned earlier details how cryptography is a mechanism to enable new knowledge. In Streamr’s case, it enables high-frequency data traceability. This traceability is crucial not only for DePINs attributing rewards to TREs but also for decentralised tracking technologies, providing shared and trust-minimised observability over an entire decentralised network.
+    
+The Solana Blockchain already employs solutions such as Solana Status and Solana Metrics, showcasing an advanced approach in some respects. However, trust in these metrics is assumed by the operator of these centralised technologies. While this may suffice in certain aspects, the evolving Web3 realm with app-chains necessitates incentives for OS-level telemetry to enhance the security of app-chains. These metrics can indicate the health of an operator’s node, pre-emptive security risks in specific node operators, and allow developers to assess the computational resource requirements of their network.
+    
+Coupling this with the Log Store enables anyone to launch a local portal for analysing an entire app-chain based on highly trusted and traceable observation data.
+    The Log Store is Now Fully Streamable and Inconsistently Distributed    
+What sets the Log Store apart from all other storage solutions, especially those handling real-time data, is its radical and unique approach:
+    
+ 
+Nodes do not need to share the same data.
+    
+Queries can be any size.
+ 
+    
+Due to the traceable nature of the real-time data collected by the Log Store and the inherent bottlenecks of real-time data, Log Store Nodes supporting the storage of messages in transit do not need to have the exact same data replicated. In essence, trying to achieve exact replication would eventually become physically impossible. Instead, the Log Store allows nodes to observe incoming data and store it independently, without regard for how other nodes manage the data. At the point of observation, via a query to the Log Store, nodes coordinate through a unique gossip protocol, where they eventually propagate the active state of the network relevant to the given query.
+    
+For example, Node A may have different data from Nodes C and B. If a query is made to Node B, Node B will aggregate the total data across all nodes to serve the query.
+    
+What’s even more impressive, and now enabled through this upgrade, is that queries to the Log Store have no size limit. If you query for data since the dawn of time for a particular data stream, the Log Store’s internal gossip protocol will deliver a response in the form of a data stream. Furthermore, there is no data duplication, and the data reflects all the information stored by all nodes in the Log Store. This represents a massive improvement in how decentralisation and real-time data integration function together.
+    
+Consider a video streaming network. An entire video can be inconsistently distributed among all its viewers. A new viewer watching the video can experience hyper-low latency by sampling data from all prior viewers. This is what we mean by IPFS for real-time data.
+   		
+ 						
+ 				
+ 					
+ 						
+ 							
+						
+ 											
+ 				
+ 			
+ 		
+ 		   Who’s Using Log Store?    
+Usher Labs has been hard at work integrating the Log Store into various prominent technologies to facilitate adoption by forward-thinking companies and projects.
+    
+Our biggest highlight is an integration with Kwil. Here, DePIN projects can achieve end-to-end decentralised data management, where TREs can push real-time data over Streamr and have it collected by Log Store Nodes that function as sidecars to Kwil Nodes. The result is real-time data streams integrated into a decentralised Postgres platform, allowing a DePIN operator to be fully transparent about the networks and data. This transparency enables their communities to engage, analyse, and cross-reference the network’s data.
+   		
+ 						
+ 				
+ 					
+ 						
+ 							
+						
+ 											
+ 				
+ 			
+ 		
+ 		   
+Powerpod is an early adopter of this technology, enabling their team to focus entirely on offering the best device and hardware technology, as well as customer-centric support and experience.
+    
+The Log Store is also integrated with Streamr’s native storage interface. As detailed in a previous post, the Log Store acts as Streamr Storage ++, offering high replication and fault tolerance for anything published to the Streamr Network via their existing SDKs and interfaces.
+    
+Finally, projects such as Opsec, Truflation, and ChainSight on the Internet Computer are preparing for integration with the Log Store. These use cases span decentralised data availability for real-time applications, network observability for security and trust analysis, and enabling open participation in data feeds and the creation of data protocols relevant to Oracle operations.
+    Getting Started with the Log Store    
+Learn more about the Log Store Network by visiting the Log Store Documentation.
+    
+To review how the Log Store Network works in practice using Streamr SDKs, view our tutorial.
+    
+To operate a Log Store Node for data storage in a completely standalone manner, check out the Node operators guide.
+    
+To learn more and stay up to date with Usher Labs, the team behind the Log Store, connect with us via Twitter and Discord.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://usherlabs.imgix.net/wp-content/uploads/2024/06/AscenesetinRenaissanceItalyinthe1500swithaninterplanetarystoragesystemforreal-timedata.IntheforegroundagroupofpeopleinRenais.jpeg?auto=format%2Ccompress&amp;ixlib=php-3.3.0&amp;s=4b66cf90889b5d24257d09f3d4df97a2"/>
+  </entry>
+  <entry>
+    <title type="html">The Shift in Log Store Network’s Data Storage Strategy</title>
+    <published>2024-03-19T02:53:00+00:00</published>
+    <updated>2024-03-19T02:53:00+00:00</updated>
+    <id>https://www.usher.so/blog/the-shift-in-log-store-networks-data-storage-strategy/</id>
+    <link rel="alternate" type="text/html" href="https://www.usher.so/blog/the-shift-in-log-store-networks-data-storage-strategy/"/>
+    <author>
+      <name>Christie Soury</name>
+    </author>
+    <content type="html">As we journeyed through the development and deployment of the Log Store Network, guided by the principles outlined in Streamr&amp;#8217;s SIP-13, and evolving to support SIP-19, we initially anchored our efforts on the principle of censorship resistance. This principle, achieved through immutable storage of real-time data, was seen as fundamental to preserving the integrity of data protocols amid the swiftly changing contours of the digital and blockchain landscapes.
+    
+Our path, however, has been one of continuous evolution, driven by engagement with blockchain innovators and in-depth research into verifiable data pipelines. These are core components repeatedly crafted for diverse applications, leading us to a crucial insight. The value of a data protocol does not solely rest on its ability to resist censorship but on its flexibility and optionality. This is further underscored through recent technological strides within the Ethereum Blockchain, such as EIP-4844 and the Dencun release. These innovations introduce a &amp;#8220;blob space&amp;#8221; for ephemeral data storage, allowing the temporary storage of critical Layer 2 Rollup data and metadata, a departure from the previous permanence mandated by &amp;#8216;calldata&amp;#8217;.
+    
+This journey of discovery prompted us to refine our understanding of two key concepts: censorship resistance and tamper resistance. The former focuses on preventing external interference with data, while the latter ensures the data remains unaltered and authentic. This distinction is vital as it shifts our focus towards ensuring data integrity across all systems, centralized or decentralized.
+    
+With the Streamr Network&amp;#8217;s inherent tamper-resistant capabilities lighting our way, we saw an opportunity to reposition the Log Store Network. No longer solely a vessel for permanent storage, it has been transformed into a dynamic, temporary-first solution for real-time data storage and availability. This pivot streamlines the integration with the Streamr Network&amp;#8217;s data availability needs but also concentrates our efforts on refining and enhancing the Log Store Network&amp;#8217;s features. Through this, we aim to bolster the technology&amp;#8217;s value and utility.
+    
+Emphasizing tamper resistance over immutable permanence enables the Log Store Network to serve as a versatile, immediate resource within the Streamr ecosystem, reflecting our commitment to harnessing technology to meet the evolving demands of the digital age. Details on the scope of immutability within the Log Store Network can be found in the Log Store Lightpaper.
+    Streamr Storage ++ with the Log Store Network    
+With this strategic shift in product design, we are excited to announce a significant evolution in the Log Store Network &amp;#8211; seamless compatibility with the Streamr Network. This initiative underscores our dedication to innovation and proactive response to the ever-evolving demands of the blockchain ecosystem.
+    
+The Log Store Network now surfaces within the Streamr Network as a Storage Node.
+    
+This translates to unprecedented simplicity and efficiency for developers entrenched in the Streamr ecosystem. This upgrade removes the need for integrating new SDKs, interfaces, or libraries to ensure secure and reliable data stream storage on the Log Store Network. The “Virtual” Storage Node seamlessly masquerades as a standard Storage Node within the Streamr Network, allowing for straightforward assignment of streams for storage. Yet, it uniquely encapsulates the Log Store Network, presenting a unified, decentralized, and fault-tolerant data availability network fully harmonized with Streamr’s existing storage management interfaces.
+    
+We aim for this development to lay a critical foundation for a seamless data availability layer across the Streamr Network, empowering developers with the necessary tools to pioneer the next generation of decentralized applications that leverage real-time data storage, whether temporary or permanent.
+    
+Learn more about the integration, by visiting the Log Store Documentation.
+    
+To review how it works in practice, a Tutorial is available for you to view.
+    Get started today    
+Dive into the new possibilities now with the Log Store Network, accessible directly through Streamr’s SDK or via the Log Store SDK.
+    
+Connect with us, contribute to the dialogue, and help shape the future of decentralized networks. Engage with our team and fellow innovators over Discord and Twitter. Let’s embark on this journey together, pushing the boundaries of what&amp;#8217;s possible in decentralized real-time data storage and availability.
+    
+ABOUT STREAMR
+    
+Streamr is building the real-time data protocol of the decentralized web. This includes a scalable, low-latency, and secure P2P Network for data delivery and exchange. As part of the vision, Streamr is working on a decentralized chat application, data marketplace, and other dApps. The project was started by real-time data veterans with backgrounds in algorithmic trading and finance markets. Streamr is being built by contributors from around the world and was crowdfunded via ICO with $30M in October 2017. To learn more, visit streamr.network.
+    
+ABOUT USHER LABS
+    
+Usher Labs is activating verifiability in off-chain data and processes. The objective is to enable verifiable transparency into data pipelines converting metrics, signals, and off-chain interactions with Web2 systems and operations into verified on-chain outcomes. The Log Store Network is the solution, an infrastructure for proof generation and data availability of real-time cryptographic verifiable attestations.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://usherlabs.imgix.net/wp-content/uploads/2024/03/streamr-update-blog.jpeg?auto=format%2Ccompress&amp;ixlib=php-3.3.0&amp;s=bba47b31de01aa9bbac694d15a3663ac"/>
+  </entry>
+  <entry>
+    <title type="html">Enhancing Transparency in the Stellar Ecosystem</title>
+    <published>2024-02-22T07:45:47+00:00</published>
+    <updated>2024-02-22T07:45:47+00:00</updated>
+    <id>https://www.usher.so/blog/enhancing-transparency-in-the-stellar-ecosystem/</id>
+    <link rel="alternate" type="text/html" href="https://www.usher.so/blog/enhancing-transparency-in-the-stellar-ecosystem/"/>
+    <author>
+      <name>Ryan Soury</name>
+    </author>
+    <content type="html">The Stellar Anchors: Gateways Between Traditional Finance and Blockchain    
+Stellar Anchors are crucial bridges in the blockchain ecosystem, facilitating the seamless exchange of fiat currencies into digital assets. By connecting traditional financial systems with the digital realm of blockchain, these centralized platforms enable the flow of real-world assets into the Stellar network, making blockchain technology accessible and usable for everyday transactions. However, the centralized nature of these systems has often led to concerns over transparency and trust within the ecosystem.
+    Elevating Trust with the Anchor Transparency Node    
+To address these concerns and enhance the integrity of the Stellar network, we are introducing the Anchor Transparency Node and marking a significant step forward. Powered by the Log Store Network, the Transparency Node is designed to provide Stellar Anchors with a robust framework for achieving and demonstrating unparalleled operational transparency.
+    
+The Transparency Node, in essence, is a Log Store Node operating in “standalone” mode, providing a solid foundation for Anchors looking to enhance their transparency. Detailed guidance is available for those interested in integrating this innovative technology, paving the way for a more open and trustworthy ecosystem.
+    The Value Proposition of the Anchor Transparency Node    
+The Transparency Node brings forth a suite of value propositions that are transformative for Stellar Anchors and, by extension, the entire Stellar network:
+    
+ 
+Verifiable Transparency: By enabling the creation of proofs and on-chain verification of off-chain transactions and processes, the Transparency Node ensures that every operation by a Stellar Anchor can be audited and verified by anyone in the network, fostering a new level of trust and accountability.
+    
+Enhanced Trust Among Users: The Transparency Node allows Stellar Anchors to not only declare but also prove their operational integrity, solvency, custody, and authenticity of transactions. This capability builds confidence among users and partners, encouraging wider adoption of Stellar for cross-border payments and asset tokenization.
+    
+Opportunities for Real-World Assets (RWAs): With the Transparency Node, RWAs find a conducive environment to thrive within the blockchain ecosystem. The on-chain verification of off-chain data opens up new possibilities for asset tokenization, non-custodial services, and innovative business models based on verifiable data integrity.
+    
+Foundation for Inter-Business Trust: The Transparency Node lays the groundwork for businesses within and beyond the Stellar ecosystem to engage with each other on a platform of verifiable trust. This is especially crucial for new paradigm businesses that rely on the authenticity of data and processes to build inter-business engagements.
+ 
+    Join the Movement Towards Open Finance    
+The Anchor Transparency Node is not just a tool; it&amp;#8217;s a movement towards creating a more transparent, trustworthy, and inclusive financial ecosystem. By adopting this technology, Stellar Anchors can lead the charge in redefining what it means to operate with transparency in the digital age.
+    
+We invite developers, businesses, and visionaries within the Stellar ecosystem and beyond to explore the potential of the Anchor Transparency Node. Together, we can unlock new opportunities for growth, innovation, and trust in the blockchain space.
+    
+To learn more about the Log Store, and its role in activating verifiable transparency, please review the documentation.
+    
+To discuss with the team, find us on Discord.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://usherlabs.imgix.net/wp-content/uploads/2024/02/An-image-depicting-the-concept-of-transparency-and-trust-within-the-blockchain-ecosystem-symbolized-by-a-Stellar-Anchor-intertwined-with-a-transparen.jpeg?auto=format%2Ccompress&amp;ixlib=php-3.3.0&amp;s=9b7c5367e64e196258cbfc0fd423e9ed"/>
+  </entry>
+</feed>
