@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
+    <meta name="description" content="RSS-Bridge" />
+    <title>FxDAO Blog</title>
+    <link href="static/style.css?2023-03-24" rel="stylesheet">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+
+    
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"
+            title="Atom"
+            rel="alternate"
+            type="application/atom+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Json"
+            title="Json"
+            rel="alternate"
+            type="application/json"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Mrss"
+            title="Mrss"
+            rel="alternate"
+            type="application/rss+xml"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Plaintext"
+            title="Plaintext"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+        <link
+            href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Sfeed"
+            title="Sfeed"
+            rel="alternate"
+            type="text/plain"
+        >
+	
+    <meta name="robots" content="noindex, follow">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="pagetitle">
+            <a href="https://fxdao.io/blog" target="_blank">FxDAO Blog</a>
+        </h1>
+
+        <div class="buttons">
+            <a href="./#bridge-CssSelectorFeedExpanderBridge">
+                <button class="backbutton">← back to rss-bridge</button>
+            </a>
+
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom">
+                    <button class="rss-feed">
+                        Atom                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Json">
+                    <button class="rss-feed">
+                        Json                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Mrss">
+                    <button class="rss-feed">
+                        Mrss                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Plaintext">
+                    <button class="rss-feed">
+                        Plaintext                    </button>
+                </a>
+                            <a href="?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Ffxdao.io%2Fblog%2Frss.xml&amp;content_selector=%23__blog-post-container&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Sfeed">
+                    <button class="rss-feed">
+                        Sfeed                    </button>
+                </a>
+            
+                    </div>
+
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://fxdao.io/blog/gov-token-distribution"
+                    >It's time to distribute $FXG</a>
+                </h2>
+
+                                    <time datetime="2024-08-01 00:00:00">
+                        2024-08-01 00:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: https://fxdao.io</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Locking pools are here and with that, we are ready to start distributing the governance token of the protocol!​ 
+AQUA AMMs are now on the mainnet, and we have been waiting for that! FxDAO protocol needs pools where people can trade assets in an efficient way to work properly because the peg of the system is kept by arbitragers (you can read more about it here).
+ 
+Because arbitragers are the ones who keep the protocol healthy, the FxDAO protocol rewards them with the $FXG token... But how does the protocol know how much to distribute? Well here comes the &quot;locking pools&quot;.
+ 
+The locking pools are those listed in the app and where you can lock your pool shares, then each day the FxDAO organization will distribute a fixed amount to the pools so when you decide to withdraw your locked shares you will receive the $FXG reward too. You can read more about the locking pools here and about the distribution of $FXG here.
+ When will the distributions start?​ 
+Distribution of the governance token will start on Aug 31st but the calculation of the rewards will start from next Monday (Aug 5th), this means that if you lock your shares next Monday and you keep your deposit there until the first distribution, you will get all the rewards accumulated from Aug 5th until 30th. After that initial distribution, the next distributions will be done on a daily basis.
+ What&#x27;s next?​ 
+Now that the first pool is out there and the distribution of the governance token is scheduled, it&#x27;s time to have the DAO website. This is almost done and we are currently testing it out, the DAO website will be available by the first distribution. Let&#x27;s keep building 💪.
+                                    <div class="attachments">
+                        <p>Attachments:</p>
+                                                    <li class="enclosure">
+                                <a href="https://fxdao.io/img/social-card.png" rel="noopener noreferrer nofollow">
+                                    social-card.png                                </a>
+                            </li>
+                                            </div>
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://fxdao.io/blog/fxdao-currency-peg"
+                    >How it keeps the "peg"</a>
+                </h2>
+
+                                    <time datetime="2024-05-28 00:00:00">
+                        2024-05-28 00:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: https://fxdao.io</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                A lot of people think our system is an algorithmic system, but the truth is that the FxDAO peg system shares more characteristics with the old Gold standard than algorithmic coins. Let&#x27;s talk about it.
+ 
+Our protocol issues synthetic currencies as debt, this debt is backed by your position in XLMs and if at some point you want your collateral back you need to pay your debt, and that&#x27;s basically it... Well, yeah this is the basic logic behind the protocol but this doesn&#x27;t explain what keeps the value of the currency, so let&#x27;s first think about two cases:
+ 
+ 
+A synthetic currency from the protocol starts going down in price on the market without reason (protocol is healthy and there is enough collateral), well in this situation you as an arbitrager can buy that cheap currency paying in collateral, and redeem it later from the protocol so you get the real value in the form of collateral, at this point you made a profit because of the difference in the price.
+ 
+In the other case, a synthetic currency from the protocol starts going up in price on the market without reason, in such situation you lock collateral in the protocol and then you sell that issued synthetic coin on the market, at this point you also make a profit because of the price difference.
+ 
+ 
+This arbitrage process is what keeps prices stable because there is always an incentive to keep it at the real price. it&#x27;s similar to what people do between exchanges, let&#x27;s say Bitcoin is being sold at a 5% discount in exchange A compared to exchange B. As an arbitrager go to exchange A and buy that Bitcoin so you can sell it later on exchange B and make a profit... Just like in our protocol, this keeps prices efficient.
+ Controlled issuance and redemption​ 
+Knowing the basic logic behind you might say &quot;Well Terra USD also based its price on arbitrage, how is FxDAO different?&quot;... And that&#x27;s a good question, the key difference is the controlled issuance and redemption of the debt.
+ 
+When dealing with an algorithmic currency the debt asset is created and burned at issuance and redemption (just like in our protocol), BUT in such system the collateral asset is also controlled by the protocol while in our case the collateral (XLMs) is not controlled by the protocol and can not be issued nor burned by the protocol.
+ 
+Just like in the days of the Gold standard countries couldn&#x27;t (at least in theory) issue more debt (paper money) than what they were able to backed by gold (the collateral), FxDAO can not (and in this case enforced by a smart contract) issue more debt than the collateral.
+ What about the price stability of the collateral?​ 
+We don&#x27;t live in an ideal world and prices change a lot (especially in the crypto space), in order to keep the protocol healthy (more collateral value than debt value) we need to be able to liquidate bad debt.
+ 
+Think about a broker who allows you to short a stock, and for this example let&#x27;s think the stock you&#x27;re shorting is GME. Suddenly the price starts skyrocketing because a lot of people are buying it, and your broker now calls you and tells you &quot;You need to put in more collateral or we will liquidate your position&quot;... FxDAO does the same for debt-issued, if the value of the collateral is going down the protocol opens vaults under a collateral ratio for liquidations unless the owners put more collateral.
+ 
+But who can liquidate those vaults? The answer is simple: everybody. The liquidation process is open to anybody who is willing to pay the debt, this alone doesn&#x27;t give any incentive, and because of that the protocol opens vaults for liquidation above 110% of its debt ratio so liquidators can profit up to 10% of the liquidation amount.
+ Checkout the documentation​ 
+If you want to know more about each part of the protocol you can read about the liquidation, borrowing and redeeming process in our documentation here
+                                    <div class="attachments">
+                        <p>Attachments:</p>
+                                                    <li class="enclosure">
+                                <a href="https://fxdao.io/img/social-card.png" rel="noopener noreferrer nofollow">
+                                    social-card.png                                </a>
+                            </li>
+                                            </div>
+                
+                            </section>
+                    <section class="feeditem">
+                <h2>
+                    <a
+                        class="itemtitle"
+                        href="https://fxdao.io/blog/fxdao-update-q1-2024"
+                    >FxDAO's Q1 2024 update</a>
+                </h2>
+
+                                    <time datetime="2024-05-16 00:00:00">
+                        2024-05-16 00:00:00                    </time>
+                    <p></p>
+                
+                                    <p class="author">by: https://fxdao.io</p>
+                
+                <!-- Intentionally not escaping for html context -->
+                Let&#x27;s review what happened during the first quarter of 2024: From testnet deployment to audits and refactors.
+ The big news: The audit has been completed​ 
+Yes, FxDAO contracts (Vaults and Stable liquidity pools) have been audited by the Runtime Verification team. It started at the beginning of March and ended up in early May, it was great and their team found a few bugs and notified us so they get corrected. They also tested multiple parts of the contracts and made them work together to confirm they worked correctly.
+ 
+We will be publishing their report in our public repos once it&#x27;s finished, we already included many tests they created so if we make future changes in the code those tests also check the changes.
+ From early testnet to late testnet​ 
+We deployed FxDAO to testnet at the end of last year so others could test it out, testnet got multiple updates and a few resets which meant that we needed to update our contracts multiple times, we have refactored our contracts at least twice since we started because of Soroban changes (but this is expected, it happens with all new platforms)... But there was one change we missed and found out a few days after the code audit was completed: There was a downgrade in one of the Soroban limits and now our protocol can&#x27;t be used in Soroban.
+ 
+That was a hit and to be honest, we were at the point of &quot;You know what let&#x27;s wait 6 to 12 months until everything is more mature so that way we don&#x27;t need to waste more time refactoring&quot;... But it&#x27;s been already a year of development and we really want to launch, so we started thinking how to continue, at first we made a quick refactor to our code so instead of handling multiple currencies in one contract we instead only handle one per contract.
+ 
+That was enough to make ledger keys as low as possible so we wouldn&#x27;t face a similar issue in the future... But the issue is that with such a big refactor, the code audit was basically a waste of time too because there are so many changes that it&#x27;s as if it never happened; Instead we went back and decided to just do a little change that even doe it doesn&#x27;t protect us for a possible reduction in Soroban limits again, at least is small enough to fit within current networks limits.
+ A missing oracle​ 
+Our protocol relies on oracles to fetch the price of real-world currencies, but there isn&#x27;t an oracle for our case yet on mainnet. We&#x27;ve been in touch with the Reflector team and they will be providing a solution soon, because that might take a little we will launch our own oracle and once they have their own we will upgrade the protocol so it uses both. That way the protocol is safer because it doesn&#x27;t rely on one single oracle.
+ Getting ready for mainnet​ 
+Now that the code has been audited, the code works within new Soroban limits and we will deploy our own oracle... We are almost ready for mainnet so this month our protocol should see the public light 🙌
+ 
+We will deploy the Vaults contract with at least 3 synthetic currencies: USD, EUR, GBP... It&#x27;s been a long journey but it&#x27;s almost done!
+                                    <div class="attachments">
+                        <p>Attachments:</p>
+                                                    <li class="enclosure">
+                                <a href="https://fxdao.io/img/social-card.png" rel="noopener noreferrer nofollow">
+                                    social-card.png                                </a>
+                            </li>
+                                            </div>
+                
+                            </section>
+        
+    </div>
+ </body>
+</html>
