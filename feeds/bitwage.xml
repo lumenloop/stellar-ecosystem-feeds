@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Blog | Bitwage</title>
+  <link rel="alternate" type="text/html" href="https://blog.bitwage.com/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.bitwage.com%2Frss%2F&amp;content_selector=article&amp;content_cleanup=h1%2C.c-post-header__meta%2C+.c-table-of-contents%2C+.c-subscribe&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.bitwage.com%2Frss%2F&amp;content_selector=article&amp;content_cleanup=h1%2C.c-post-header__meta%2C+.c-table-of-contents%2C+.c-subscribe&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:00:40+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Introducing USDT on Polygon at Bitwage!</title>
+    <published>2025-04-09T12:25:07+00:00</published>
+    <updated>2025-04-09T12:25:07+00:00</updated>
+    <id>https://blog.bitwage.com/introducing-usdt-on-polygon-at-bitwage/</id>
+    <link rel="alternate" type="text/html" href="https://blog.bitwage.com/introducing-usdt-on-polygon-at-bitwage/"/>
+    <author>
+      <name>Damian Tornatore</name>
+    </author>
+    <content type="html">Bitwage now supports USDT payouts via Polygon, offering instant settlements, near-zero fees, and eco-friendly transactions. Faster, affordable, and sustainable global payroll solution for freelancers and businesses.
+       
+           
+            
+                
+   
+    
+     
+The wait is over!&amp;nbsp;
+We're excited to announce a major update that many of you have been waiting for. After listening to your feedback, Bitwage is proud to announce the launch of USDT on Polygon as a payout option! This update marks another step in our commitment to making international payroll fast and cost-effective.
+What Makes Polygon USDT Ideal for Payroll?
+Polygon USDT redefines efficiency by combining blockchain innovation with real-world practicality. Let's explore a few key reasons why Polygon is a great choice for payroll.
+⚡ Fast Transaction Speeds: Polygon’s blockchain architecture ensures transactions settle in seconds, not minutes or hours. For freelancers and employers, this means near-instant access to funds, eliminating frustrating delays that are common with traditional banking systems or slower blockchains. Whether you’re paying a contractor in another time zone or receiving your salary, Polygon ensures your money moves as fast as your work does.
+💰 Low Transaction Costs: By leveraging Polygon’s proof-of-stake consensus mechanism, users benefit from microscopic gas fees—a fraction of a cent per transaction. This makes it ideal for recurring payroll use cases, where high fees on other networks can quickly add up. This cost efficiency ensures that more of your money stays in your pocket.
+🌍 Scalability Without Compromise: Polygon processes thousands of transactions per second, supporting millions of users worldwide. This ensures reliable performance even during peak demand. Forget about network congestion or delayed settlements.
+🍃 Eco-Friendly Infrastructure: Polygon’s energy-efficient design aligns with the growing demand for sustainable blockchain solutions. Its low carbon footprint ensures payroll transactions aren’t just fast and affordable but also environmentally responsible, a win for businesses and individuals prioritizing green practices.
+Who Benefits the Most from Polygon USDT?
+Polygon’s speed, affordability, and borderless design make it an excellent choice for professionals and organizations alike. Let's dig into the details:
+Freelancers and Remote Workers: Say goodbye to waiting days for bank transfers or losing part of your salary to fees. Polygon USDT enables instant payments, even across different time zones, allowing you to access funds as soon as they are sent. No more chasing delayed payments or sacrificing income, making it ideal for gig workers and digital nomads who value financial autonomy.
+Global Employers: Simplify payroll for international teams with a unified, blockchain-powered solution. Polygon eliminates cross-border friction while allowing you to pay contractors and employees in seconds with fees under a cent. This makes Polygon USDT perfect for startups, agencies, and enterprises managing distributed teams.
+Final Thoughts
+Polygon’s integration with Bitwage isn’t just a technical upgrade, it’s a step forward in giving everyone access to borderless financial tools. By combining Polygon’s speed, affordability, and scalability with Bitwage’s payroll infrastructure, we’re breaking down barriers!
+Whether you’re a freelancer tired of waiting days for payments or an employer seeking frictionless payroll solutions, Bitwage provides the foundation for a smoother, fairer financial ecosystem.
+Ready to get started? Transitioning to Polygon USDT payroll through Bitwage is simple. Here’s how to unlock faster, cheaper payments in just a few clicks:
+Log in to your Bitwage account and head to your allocations settings.
+Review the payout options and decide which payout method best suits your needs.
+Choose Polygon USDT in your allocations settings, and use the slider to choose what percentage of your payroll payment you want to receive in Polygon USDT.
+Enjoy.
+Stay tuned for more updates, and as always, thank you for being a valued part of the Bitwage community.
+Need help? Our support team is here for you. Reach out at support@bitwage.com for any questions or guidance.
+Book a Demo Today!
+FAQ: 
+             
+                 Q: What is Polygon USDT, and why should I choose it?                                                               
+                                                   
+             
+A: Polygon USDT is a stablecoin payout option available on the Polygon network. It offers fast transactions and near-zero gas fees, making it a cost-effective and fast solution for payroll payments. 
+         
+             
+                 Q: How do I switch my payout to Polygon USDT?                                                               
+                                                   
+             
+A: Simply log in to your Bitwage account and navigate to your payout settings. From there, update your allocation by selecting Polygon USDT as your preferred payout option. The change is quick and won’t require any extra action from your employer.
+         
+             
+                 Q:What benefits does Polygon offer for payroll payments?                                                               
+                                                   
+             
+A: Polygon’s fast transaction times and minimal gas fees make it ideal for sending payroll internationally. It supports high volumes and scales efficiently, ensuring that you get paid quickly and with more of your money staying in your hands.
+         
+   
+        
+         bitwage       
+        
+     
+                            
+    
+            Damian Tornatore             
+Involved in the crypto space since 2014, Damian has managed communities, created blockchain-based spaces, and submerged himself in crypto and blockchain technology.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.bitwage.com/content/images/size/w1200/2025/04/Image-USDT---Opt.1.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Can You Receive Your Paycheck in Crypto?</title>
+    <published>2025-04-03T14:10:00+00:00</published>
+    <updated>2025-04-03T14:10:00+00:00</updated>
+    <id>https://blog.bitwage.com/can-you-receive-your-paycheck-in-crypto/</id>
+    <link rel="alternate" type="text/html" href="https://blog.bitwage.com/can-you-receive-your-paycheck-in-crypto/"/>
+    <author>
+      <name>Damian Tornatore</name>
+    </author>
+    <content type="html">Discover the advantages and challenges of receiving your paycheck in cryptocurrency, with legal insights and how Bitwage facilitates hybrid payroll solutions while ensuring compliance.
+       
+           
+            
+                
+   
+    
+     
+The idea of receiving your paycheck in cryptocurrency has gained tons of traction during the past few years and is becoming the norm in various countries.
+Navigating the legal landscape and the practical challenges involved in getting your paycheck in crypto requires careful consideration. Let's break down the key factors and how platforms like Bitwage can simplify the whole process.
+Crypto Paycheck: Legal Considerations and What the Law Says
+It's important to understand what the law says in the country you live in. For the sake of example, we are going to break down what the law says in the U.S.
+Federal Regulations (FLSA)
+The U.S. Department of Labor mandates that wages must be paid in "cash or negotiable instruments," which excludes cryptocurrencies under current interpretations. This applies to minimum wage and overtime payments, meaning employers risk violating regulations if they pay non-exempt employees directly in cryptocurrency.
+IRS Tax Treatment
+The IRS treats cryptocurrency as property. Wages paid in crypto are taxed as ordinary income based on their fair market value at receipt. Employees also face capital gains taxes if the crypto’s value increases when sold.
+State Laws
+States like California and New York prohibit wage payments in non-cash instruments unless immediately redeemable at face value. Cryptocurrency’s volatility complicates compliance, as its value can fluctuate post-payment. Financial institutions play a significant role in regulating cryptocurrency and often impose restrictions on engaging with crypto, which can impact the ability to transact and pay wages in cryptocurrency.
+Crypto Payments and Regulations
+Crypto payments are becoming increasingly popular, and regulations surrounding them are evolving rapidly. In the United States, businesses must navigate a complex regulatory landscape to ensure compliance. The Financial Crimes Enforcement Network (FinCEN) mandates that companies adhere to anti-money laundering (AML) and know-your-customer (KYC) regulations when processing crypto payments. Additionally, the Securities and Exchange Commission (SEC) oversees crypto payments, particularly when they involve securities or investment products.
+From a tax perspective, the Internal Revenue Service (IRS) treats crypto payments as taxable income. Employers are required to report these payments on Form W-2 and withhold income tax, Social Security tax, and Medicare tax. Employees, on the other hand, must report crypto income on their tax returns and are liable for capital gains tax on any profits realized from the appreciation of their digital assets. Understanding these tax laws is crucial for both employers and employees to ensure compliance and avoid potential penalties.
+Global Payroll and Crypto Regulations
+Crypto regulations can be challenging due to the varying laws and standards across different countries. To avoid fines, employers must ensure compliance with local tax laws, labor laws, and financial regulations when paying employees in cryptocurrency.
+In the United States, the Fair Labor Standards Act (FLSA) requires employers to pay employees at least the minimum wage and overtime pay. Crypto payments must align with these regulations, ensuring that employees are compensated fairly and punctually. Employers must also be mindful of the tax laws governing crypto payments, ensuring that all taxable income is reported accurately.
+Internationally, the regulatory landscape can differ significantly. For instance, in the European Union, employers must comply with the General Data Protection Regulation (GDPR) when processing employee data, including crypto payments. This adds another layer of complexity to global payroll systems, requiring employers to stay updated on the latest regulations to ensure compliance. By understanding and adhering to these diverse legal frameworks, employers can effectively leverage the benefits of cryptocurrency transactions.
+Pros and Cons of Crypto Paychecks
+There are a number of things to look at when getting your paycheck in crypto or paying out in crypto. Let's look at some pros and cons of crypto paychecks.
+Advantages
+Speed and Cost Efficiency:&amp;nbsp;Crypto transactions settle faster than traditional banking, especially for international payments. Fees are also 70-90% lower than traditional banking.
+Attracting Talent:&amp;nbsp;Younger generations (36% of Millennials, 51% of Gen Z) express interest in crypto wages, positioning employers that offer crypto wages as innovative.
+Investment Potential:&amp;nbsp;Employees may benefit from crypto appreciation, though this carries risk.
+Challenges
+Volatility:&amp;nbsp;A paycheck’s value could plummet hours after receipt, creating financial instability unless employees choose cryptocurrencies that are pegged to traditional currencies like USDT, DAI, or USDC.
+Compliance Risks:&amp;nbsp;Evolving regulations and state-specific laws create legal gray areas.
+How Bitwage Bridges the Gap
+Bitwage offers the ability to pay your employees in crypto, fiat, and a mix of currencies while ensuring you remain compliant.
+USD to Crypto Conversion:&amp;nbsp;Employers can choose to pay wages in USD (in addition to using other means of payment like cryptocurrencies), which Bitwage converts to crypto and sends to your employees.
+Global Accessibility:&amp;nbsp;Employees receive crypto directly into their wallets, avoiding international transfer delays and the extreme fees tied to international transactions.
+Regulatory Compliance:&amp;nbsp;By keeping base wages in fiat, employers adhere to FLSA requirements while offering crypto as a voluntary benefit to their employees.
+Conclusion
+While direct crypto wages face legal hurdles, services like Bitwage enable employees to convert salaries post-payment, combining regulatory compliance with crypto’s benefits. For employers, this hybrid model offers a competitive edge in attracting tech-savvy talent while minimizing risk.
+Bitwage not only ensures that you stay compliant but also works as an add-on to your existing payroll system. It's easy to set up, and you don't have to change your current payroll structure.
+Are you ready to embrace the future of payroll? 
+Book a Demo Today!
+   
+        
+         education       
+        
+     
+                            
+    
+            Damian Tornatore             
+Involved in the crypto space since 2014, Damian has managed communities, created blockchain-based spaces, and submerged himself in crypto and blockchain technology.</content>
+    <link rel="enclosure" type="image/png" href="https://blog.bitwage.com/content/images/size/w1200/2025/04/Crypto-paycheck-blog-post.png"/>
+  </entry>
+  <entry>
+    <title type="html">March Product Update</title>
+    <published>2025-03-25T12:49:52+00:00</published>
+    <updated>2025-03-25T12:49:52+00:00</updated>
+    <id>https://blog.bitwage.com/march-product-update/</id>
+    <link rel="alternate" type="text/html" href="https://blog.bitwage.com/march-product-update/"/>
+    <author>
+      <name>Damian Tornatore</name>
+    </author>
+    <content type="html">Our March product update is here! Check out the new and improved Bitwage. Explore updates made to enhance your payroll experience!
+       
+           
+            
+                
+   
+    
+     
+At Bitwage, we are always looking to give you a better experience, and this month, we rolled out new updates to enhance your payroll, whether you’re a global worker getting paid in crypto or a business streamlining payroll. 
+Let’s dive into what’s new! 
+Worker Portal Upgrades
+Argentine Peso (ARS) Allocations Now Live!  
+Workers in Argentina can now allocate earnings directly to ARS via a new integrated vendor, offering rates close to the&amp;nbsp;blue dollar rate&amp;nbsp;with&amp;nbsp;no minimum or maximum limits.
+Simply select Argentina in your allocations section, add your bank details, and you're ready to go. 
+Referral Earnings Dashboard
+Track your referral earnings effortlessly with the new&amp;nbsp;analytics dashboard. See how much you’ve earned from inviting others to Bitwage!
+Clearer Transaction Statuses
+Confused about payment statuses? We’ve now added brief descriptions to each transaction status, giving you more information about the state of your payment.
+Business Portal Improvements
+Settings Section
+We’ve revamped the settings area to improve clarity and functionality. Now, Admin profiles are managed separately, eliminating duplicate data across portals, and personal info can only be edited from the worker portal.
+Simplified Entity Creation
+We have redesigned the Business Entity Creation process to make it clearer and more intuitive, making it easier to set up and manage your business entity.
+The Bottom Line
+These updates aren't just about features; they're about giving you more control, clarity, and convenience. For workers, this means jumping through fewer hoops, and for businesses, it's about saving time and reducing administrative headaches.
+At Bitwage, we build tools to make global payroll frictionless. Every update we ship is a step toward our goal: empowering&amp;nbsp;you&amp;nbsp;to work and pay globally. Whether you’re in Buenos Aires or Berlin, these tools are designed to put you first. 
+Try out these new updates and let us know how we can keep improving for you!
+Sign In
+   
+        
+         product update       
+        
+     
+                            
+    
+            Damian Tornatore             
+Involved in the crypto space since 2014, Damian has managed communities, created blockchain-based spaces, and submerged himself in crypto and blockchain technology.</content>
+    <link rel="enclosure" type="image/jpeg" href="https://blog.bitwage.com/content/images/2025/03/Blog-image-Product-update.jpeg"/>
+  </entry>
+</feed>
