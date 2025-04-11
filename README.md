@@ -18,7 +18,7 @@ For example a custom CSS Bridge:
 
 ```action=display&amp;bridge=CSSLostDateBridge&amp;home_page=https%3A%2F%2Fvibrantapp.com%2Fblog%2F&amp;url_selector=.w-dyn-item+a&amp;url_pattern=%2Fblog%2F.*&amp;content_selector=.w-richtext&amp;content_cleanup=&amp;title_cleanup=&amp;date_selector=&amp;date_format=&amp;date_selector_index=&amp;author_selector=&amp;remove_styling=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom```
 
-- bridge= Bridge Name
+- bridge= Bridge name - some have been shared under `/rss-bridges/`
 
 - url_selector: CSS selector to find article links on the page.
 
