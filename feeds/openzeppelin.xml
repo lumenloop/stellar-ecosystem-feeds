@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">OpenZeppelin Blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.openzeppelin.com"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.openzeppelin.com%2Frss.xml&amp;content_selector=%23hs_cos_wrapper_post_body&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.openzeppelin.com%2Frss.xml&amp;content_selector=%23hs_cos_wrapper_post_body&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:08:21+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">ZKsync Crypto Precompile Audit</title>
+    <published>2025-04-10T18:18:21+00:00</published>
+    <updated>2025-04-10T18:18:21+00:00</updated>
+    <id>https://blog.openzeppelin.com/zksync-crypto-precompile-audit</id>
+    <link rel="alternate" type="text/html" href="https://blog.openzeppelin.com/zksync-crypto-precompile-audit"/>
+    <author>
+      <name>OpenZeppelin Security</name>
+    </author>
+    <content type="html">Table of Contents 
+ 
+ 
+Table of Contents
+ 
+Summary
+ 
+Scope
+ 
+System Overview
+ 
+Security Model and Privileged Roles
+ 
+High Severity 
+ 
+Incorrect Implementation of pow_u32 Exponentiation for Even Exponent
+ 
+Missing Subgroup Check for G2 Points
+ 
+Unimplemented allocate_constant Causes Panic in fq2.rs
+ 
+Lack of Zero Check in Inverse Computation for Tower Extensions
+ 
+Incorrect Computation of NEGATIVE_ONE Constant in fq.rs
+ 
+ 
+ 
+Medium Severity 
+ 
+Converting a potentially 512-bit number to a 256-bit number, causing panic
+ 
+ 
+ 
+Low Severity 
+ 
+Silent Debug Assertions utils.rs Under Release Mode
+ 
+Redundant Computation in Line Coefficients and Point Operations
+ 
+ 
+ 
+Notes &amp;amp; Additional Information 
+ 
+Incorrect Comments and Typos in Codebase
+ 
+ 
+ 
+Recommendations 
+ 
+Optimization of the Function decompress in algebraic_torus.rs
+ 
+ 
+ 
+Conclusion
+ 
+ 
+ Summary   Type Precompile Timeline From 2025-02-25 To 2025-03-12 Languages Rust    Total Issues 9 (8 resolved) Critical Severity Issues 0 (0 resolved) High Severity Issues 5 (5 resolved) Medium Severity Issues 1 (1 resolved) Low Severity Issues 2 (2 resolved) Notes &amp;amp; Additional Information 1 (0 resolved)  Scope 
+We audited pull request #77 of the matter-labs/zksync-crypto repository at commit ccf5fa3.
+ 
+In scope were the following files:
+ 
+ 
+&amp;nbsp;crates └── boojum     └── src         └── gadgets             ├── curves             │   ├── sw_projective             │   │   └── mod.rs             │   ├── zeroable_affine             │   │   └── mod.rs             ├── non_native_field             │   ├── implementations             │   │   ├── impl_traits.rs             │   │   ├── implementation_u16.rs             │   │   └── mod.rs             │   └── traits             │       └── mod.rs             ├── tower_extension             │   ├── algebraic_torus.rs             │   ├── fq12.rs             │   ├── fq2.rs               │   ├── fq6.rs              │   ├── mod.rs             │   └── params             │       ├── bn256.rs             │       └── mod.rs             ├── traits             │   ├── hardexp_compatible.rs             │   └── mod.rs             ├── u256             │   └── mod.rs             └── u512                 └── mod.rs └── pairing     └── src         └── bn256             ├── ec.rs             └── mod.rs              └── pairing_certificate.rs  
+ 
+ System Overview 
+The code under review is part of the pairing and boojum crates within Matter Labs’ zksync-crypto repository, a cryptographic library that supports ZKsync—a layer-2 scaling solution for Ethereum. These crates implement elliptic curve pairings using the BN256 curve, also known as alt_bn128 or BN254 in different contexts. They enable zk-SNARKs, a zero-knowledge proof critical for ZKsync, enhancing Ethereum transaction scaling securely and efficiently.
+ 
+The pairing crate, located in crates/pairing/src/bn256, handles BN256 curve arithmetic through files like ec.rs and mod.rs. It computes pairings natively on the host system, supporting ZKsync’s rollup proofs and signature verification outside arithmetic circuits. The audited code in the pairing crate employs precomputed line functions for the Miller loop, a key step in pairing computation, to enhance performance for zk-SNARK verification. This approach improves efficiency by reducing the computational cost of pairing operations.
+ 
+The boojum crate is located in crates/boojum/src. It focuses on circuit-based BN256 operations, including affine and projective curve arithmetic in gadgets/curves, tower field extensions in files under gadgets/tower_extension and algebraic_torus.rs, and non-native field arithmetic in gadgets/non_native_field. This crate encodes pairing computations as arithmetic circuits, enabling ZKsync’s prover to generate zk-SNARK proofs. The audited enhancements optimize these circuits with techniques like algebraic torus arithmetic, reducing the complexity and cost of proof generation.
+ Security Model and Privileged Roles 
+This audit targeted the files listed above (in crates/pairing/src/bn256 and crates/boojum/src), which have dependencies that are outside the scope of this audit. While we reviewed the dependencies, unchanged parts outside this scope cannot be reliably deemed to be correct.
+ 
+The pairing crate assumes a secure native environment, trusting precomputed Miller loop functions for rollup proofs and signatures. The boojum crate uses arithmetic circuits, assuming a trusted prover-verifier setup where the prover accesses witness data but ensures verifiable zero-knowledge proofs. Both crates trust the hardness of pairings on BN256 curves, with no additional roles beyond standard cryptographic assumptions (e.g., honest computation).
+ 
+However, with the advancement of tower field sieve techniques, the effective security of BN256 (due to these advances) is reduced to approximately 100 bits. Thus, although unbroken in practice, BN254 is unsuitable for future use due to this weakness.
+ 
+&amp;nbsp;
+ High Severity Incorrect Implementation of pow_u32 Exponentiation for Even Exponent 
+In algebraic_torus.rs, the pow_u32&amp;lt;CS, S: AsRef&amp;lt;[u64]&amp;gt;&amp;gt;(&amp;amp;mut self, cs: &amp;amp;mut CS, exponent: S) function, when S=2kS = 2^kS=2k, outputs γg\frac{\gamma}{g}gγ​ incorrectly for all kkk as a result of starting with Self::zero and a static base. This error persists in all the cases where $S$ is even, breaking the exponentiation in those instances. If used in pairing computations, this could lead to incorrect pairing evaluations, potentially allowing false zk-proofs.
+ 
+Consider precomputing using the first bit, and then starting from the second bit, updating base in each iteration.
+ 
+Update: Resolved in PR #87 at commit 65c890d.
+  Missing Subgroup Check for G2 Points 
+In pairing_certificate.rs, points in G2 are used in pairing operations without explicit verification that they belong to the correct prime-order subgroup. If a point (x,y)(x, y)(x,y) does not lie in this subgroup, the pairing computation may yield incorrect results, potentially compromising the validity of proofs.
+ 
+Consider implementing a subgroup validation check by ensuring that [r]P=O[r]P = O[r]P=O, where ( r ) is the prime order of the subgroup and ( O ) is the identity element. A faster way to enforce this is to check the conditions of Proposition 3 in this paper.
+ 
+Update: Resolved. This is not an issue. The Matter Labs team clarified that subgroup checks are enforced on the circuit level and since this code is only used for witness generation, the witness generation process itself does not enforce subgroup checks.
+  Unimplemented allocate_constant Causes Panic in fq2.rs 
+The function allocate_constant in the CSAllocatable trait is unimplemented.
+ 
+This results in a panic when allocate_constant is called to allocate constants for fq2, and the proof generation won't complete.
+ 
+Consider overriding allocate_constant in fq2.rs by wrapping inner constant allocations appropriately, or implementing this function.
+ 
+Update: Resolved in pull request #88 at commit 09cbca4.
+  Lack of Zero Check in Inverse Computation for Tower Extensions 
+The inverse functions in fq2.rs, fq6.rs, and fq12.rs do not currently verify whether the element is zero before computing the inverse.
+ 
+This may lead to undefined behaviour when attempting to invert a zero element.
+ 
+Consider adding a check for a zero element in the respective field and include error management to return an error when the element is zero.
+ 
+Update: Resolved in pull request #89 at commit 15b2ca0.
+  Incorrect Computation of NEGATIVE_ONE Constant in fq.rs 
+In the fq.rs file, the constant NEGATIVE_ONE, which is supposed to represent (−((2256)mod  q)mod  q)(-((2^{256}) \mod q) \mod q)(−((2256)modq)modq), is incorrectly computed.
+ 
+This constant is used in the field extension definitions and may cause errors in field extension and arithmetic operations involving it, leading to incorrect results.
+ 
+Consider correcting NEGATIVE_ONE to its correct value: ['0x68c3488912edefaa', '0x8d087f6872aabf4f', '0x51e1a24709081231', '0x2259d6b14729c0fa'].
+ 
+Update: Resolved in pull request #90 at commit 729cf0a.
+  Medium Severity Converting a potentially 512-bit number to a 256-bit number, causing panic 
+In crates/boojum/src/gadgets/u256/mod.rs, line 391 has the code:
+ 
+let q: U256 = q.try_into().unwrap();
+ 
+Here, q equals ⌊abm⌋\lfloor \frac{ab}{m} \rfloor⌊mab​⌋, where aaa and bbb are 256-bit numbers. Since q can be up to 512 bits, the conversion to U256 may fail. If it does, unwrap() causes the modmul function to panic, disrupting the proof flow.
+ 
+Consider using U512 for q or adding error handling to avoid panics.
+ 
+Update: Resolved in pull request #92.
+  Low Severity Silent Debug Assertions utils.rs Under Release Mode 
+In the file utils.rs, line 8, the function contains several debug assertions (e.g., debug_assert!). These assertions are disabled when the code is compiled in release mode, a standard Rust behaviour. As a result, conditions checked by these assertions are not verified during production execution, potentially allowing errors to go unnoticed in the boojum crate.
+ 
+In a cryptographic proofs, where arithmetic correctness is critical for proof generation and verification, silent failures could lead to invalid proofs or performance issues.
+ 
+Consider replacing debug_assert! with assert! in release mode.
+  
+Update: Resolved in pull request #94.
+  Redundant Computation in Line Coefficients and Point Operations 
+In the current implementation of line function computations in pairing_certificate.rs, the slope alpha is computed separately in the line_double and line_add functions. Simultaneously, point operations like t.double() and t.add_assign_mixed() recompute alpha, rather than reusing the value.
+ 
+This results in redundant field arithmetic operations, reducing the computational efficiency of pairings and proof verification.
+ 
+Consider integrating the computation of alpha and mu directly into the point operations to minimize repeated calculations and enable the reuse of intermediate results.
+ 
+Update: Resolved in pull request #93.
+  Notes &amp;amp; Additional Information Incorrect Comments and Typos in Codebase 
+Throughout the codebase, we identified the following typos and incorrect comments that should be addressed:
+ 
+ 
+ 
+In fq.rs, line 103 incorrectly states Fq2(u + 1)**(((2q^0) - 2) / 3). The correct expression should be Fq2(u + 9)**(((2q^0) - 2) / 3). This correction also applies to the following lines: 103, 108, 113, 118, 123, 128, 137, 142, 147, 152, 157, 162, 167, 172, 177, 182, 187, and 192.
+ 
+ 
+ 
+In sw_projective/mod.rs, the comment at line 213 should be corrected to: // y3 = y3 + t0
+ 
+ 
+ 
+In ec.rs, line 592 should be updated to: unimplemented!("on curve check is not implemented for BN-256 projective")
+ 
+ 
+ 
+In pairing_certificate.rs, to clarify the comment at line 118, it should be changed to: // and compute c0 = 1, c3 = - lambda * p.x / p.y = lambda * x', c4 = - mu / p.y = mu * y'
+ 
+ 
+ 
+Consider applying these corrections to help improve code readability and prevent future confusion, especially for the developers working on cryptographic functions and the BN-256 curve.
+ 
+Update: Acknowledged, will resolve. The Matter Labs team stated that they would like to postpone the fix and incorporate it into the upcoming improvements.
+  Recommendations Optimization of the Function decompress in algebraic_torus.rs 
+In file algebraic_torus.rs, the function decompress can be optimized based on the following observation:
+ 
+Given that g+wg−w=g2+(u+9)g2−(u+9)+2gg2−(u+9)w, \frac{g + w}{g - w} = \frac{g^2 + (u + 9)}{g^2 - (u + 9)} + \frac{2g}{g^2 - (u + 9)} w, g−wg+w​=g2−(u+9)g2+(u+9)​+g2−(u+9)2g​w, and noting that d=u+9d = u + 9d=u+9 is a constant that is already precomputed, the expression can be further simplified to 1+2D−1(d+gw), 1 + 2D^{-1}(d + gw), 1+2D−1(d+gw), where, D=g2−dD = g^2 -dD=g2−d is the denominator.
+ 
+This approach reduces constraints and computational overhead by leveraging the special structure of the expression, minimizing multiplications and redundant operations. As a result, it improves the efficiency of pairing computations and proof verification.
+ Implementation Steps 
+ 
+Import the precomputed constant d=u+9d = u + 9d=u+9 as a constant in Fp2\mathbb{F}_{p^2} Fp2​
+ 
+Compute D=g2−dD = g^2 - dD=g2−d (one squaring and one subtraction in Fp6\mathbb{F}_{p^6} Fp6​.
+ 
+Compute D−1D^{-1}D−1 (one inversion in Fp6\mathbb{F}_{p^6} Fp6​).
+ 
+Compute 2D−12D^{-1}2D−1 (one doubling in Fp6\mathbb{F}_{p^6}Fp6​).
+ 
+Add 1 in Fp2\mathbb{F}_{p^2}Fp2​.
+ 
+  Conclusion 
+The audited code provides a cryptographic library for native pairing-based signature generation, constrained cryptographic operations using non-native field arithmetic, and circuits supporting field extensions.
+ 
+During the audit, several high-severity issues were identified. In addition, the audit identified few improvement areas, particularly in testing, error handling, and documentation. A more thorough unit testing suite would help ensure that all operations are sound, edge cases are properly handled, and any silent or unimplemented errors are identified. While some errors, such as division by zero, are implicitly managed by the circuit, explicitly documenting these cases would improve clarity and robustness. Additional documentation could also clarify the rationale behind certain design choices, particularly the complex overflow tracking and reduction/normalization scheme used to simulate non-native field arithmetic in-circuit. While not immediately threatening to system security, addressing these aspects would enhance the reliability and maintainability of the protocol.
+ 
+Despite these findings, communication with the team was notably fast and friendly and we appreciate the collaboration with the Matter Labs team on this project.
+ 
+ hbspt.cta._relativeUrls=true;hbspt.cta.load(7795250, '7809b604-3f30-4cd5-be58-36982828e327', {"useNewLoader":"true","region":"na1"}); 
+ 
+&amp;nbsp;</content>
+    <link rel="enclosure" type="image/png" href="https://blog.openzeppelin.com/hubfs/ZKsync%20Crypto%20Precompile%20Audit.png"/>
+  </entry>
+  <entry>
+    <title type="html">ZKsync Era-contracts Precompile Audit</title>
+    <published>2025-04-10T18:17:50+00:00</published>
+    <updated>2025-04-10T18:17:50+00:00</updated>
+    <id>https://blog.openzeppelin.com/zksync-era-contracts-precompile-audit</id>
+    <link rel="alternate" type="text/html" href="https://blog.openzeppelin.com/zksync-era-contracts-precompile-audit"/>
+    <author>
+      <name>OpenZeppelin Security</name>
+    </author>
+    <content type="html">Table of Contents 
+ 
+ 
+Table of Contents
+ 
+Summary
+ 
+Scope
+ 
+System Overview
+ 
+Security Model and Trust Assumptions
+ 
+Medium Severity 
+ 
+Return Length of ‘EcPairing’ Does Not Match the Specifications
+ 
+ 
+ 
+Low Severity 
+ 
+Hardcoded Modular Length Value in Return Statement
+ 
+ 
+ 
+Notes &amp;amp; Additional Information 
+ 
+Gas Optimization
+ 
+Missing or Misleading Documentation
+ 
+Modexp Lacks an SPDX License Identifier
+ 
+ 
+ 
+Recommendations 
+ 
+Differential Fuzzing
+ 
+ 
+ 
+Conclusion
+ 
+ 
+ Summary   Type Precompile Timeline From 2025-03-03 To 2025-03-11 Languages Yul, Solidity    Total Issues 5 (5 resolved) Critical Severity Issues 0 (0 resolved) High Severity Issues 0 (0 resolved) Medium Severity Issues 1 (1 resolved) Low Severity Issues 1 (1 resolved) Notes &amp;amp; Additional Information 3 (3 resolved)  Scope 
+We audited the pull request #1259 of the matter-labs/era-contracts repository at commit 886018a.
+ 
+In scope were the following files:
+ 
+ 
+&amp;nbsp;system-contracts └── contracts     ├── Constants.sol     └── precompiles         ├── EcAdd.yul         ├── EcMul.yul         ├── EcPairing.yul         └── Modexp.yul 
+ 
+ 
+The audited precompiles are system contracts run by the ZKsync VM and only deal with parsing the input parameters. The actual operations (see the "System Overview" section) are executed in a separate part of the execution layer that is written in Rust and is part of the VM itself. These components are out of scope and will be audited as part of a future audit.
+ System Overview 
+The four Yul files listed in the "Scope" section implement system contracts within the ZKsync VM that process the inputs and outputs for the following four operations: elliptic curve (EC) point addition (EcAdd.yul), EC scalar multiplication (EcMul.yul), EC pairing (EcPairing.yul), and modular exponentiation (Modexp.yul). These contracts are structured similarly and the main logic concerns the extraction of the respective inputs from the calldata, storing them in the correct format in memory, and passing them as input to the precompileCall function. This function executes a generic opcode instruction in the VM that executes a precompile (ECAdd, ECMul, ECPairing, Modexp, among others) that is determined based on the calling contract.
+ 
+Internally, precompileCall calls the verbatim_2i_1o function, which is intercepted by the VM to route the call to the execution layer. Specifically, the execute_precompile function from the zksync-protocol codebase (out of scope as stated above) is called, matching the call with its respective precompile implementation. Consequently, ecadd_function, ecmul_function, ecpairing_function, or modexp_function is triggered, respectively, performing the given operation and storing the result in memory. The result is then read back in the corresponding Yul contract.
+ 
+The changes to the Constants.sol file concern the addition of the address of the Modexp system contract and the modification of some constants such as the number of blobs supported when submitting data to the L1.
+ 
+Below, we provide details regarding the four operations mentioned above, along with their respective inputs and outputs as processed by the Yul contracts:
+ 
+ 
+EcAdd: Addition of two EC points with coordinates in affine representation (x1,y1) and (x2,y2) (four inputs), producing as a result a third point (x3,y3) (two outputs).
+ 
+EcMul: Multiplication of an EC point P = (x1,y1) by a scalar k (three inputs), producing as a result a third point kP = (x2,y2) (two outputs).
+ 
+EcPairing: Ate pairing check over the alt_bn128 curve following the EIP-197 standard. In detail, the check verifies the equality e(A1,B1)∗⋯∗e(Ak,Bk)=1e(A_1, B_1) * \cdots * e(A_k, B_k) = 1e(A1​,B1​)∗⋯∗e(Ak​,Bk​)=1, where e:G1×G2↦GTe: G_1 \times G_2 \mapsto G_Te:G1​×G2​↦GT​ is the bilinear pairing operation, G1G_1G1​ and G2G_2G2​ are the two source groups, GTG_TGT​ is the target group, A1,⋯ ,AkA_1, \cdots, A_kA1​,⋯,Ak​ is a list of kkk EC points in group G1G_1G1​ and B1,⋯ ,BkB_1, \cdots, B_kB1​,⋯,Bk​ is a list of kkk EC points in group G2G_2G2​. The coordinates of each AiA_iAi​ point are elements of the field and so each AiA_iAi​ is defined with two field elements (xi,yi)(x_i,y_i)(xi​,yi​). The coordinates of each BiB_iBi​ point are elements of a quadratic extension of the field and so each BiB_iBi​ is defined with four field elements (xi1,xi2,yi1,yi2)(x_{i_1},x_{i_2},y_{i_1},y_{i_2})(xi1​​,xi2​​,yi1​​,yi2​​), where the two coordinates are represented with the pairs (xi1,xi2)(x_{i_1},x_{i_2})(xi1​​,xi2​​) and (yi1,yi2)(y_{i_1},y_{i_2})(yi1​​,yi2​​), respectively. For a single pairing (k=1k=1k=1), there are 666 inputs representing the points AAA and BBB together. In total, the contract takes 6k6k6k field elements as input (representing the coordinates of all AiA_iAi​ and BiB_iBi​ points) and reads a single Boolean output, depending on whether the pairing equality holds or not.
+ 
+Modexp: Modular exponentiation operation r = b^e mod m with base b, exponent e, and modulus m (three inputs), producing as a result a scalar r (one output).
+ 
+ 
+As a final note, the reason for having dedicated contracts for the four operations listed above, as opposed to re-using the existing EVM precompile implementations, is that the ZKsync VM runs on an L2. The validity of its computation is proven by means of ZK proofs that are submitted to the L1 for verification. This makes it necessary to have provable implementations of all operations executed by the VM. That being said, the EcAdd, EcMul, EcPairing, and Modexp contracts should be functionally as close as possible to their EVM precompile counterparts (ecAdd, ecMul, ecPairing, and modexp, respectively). Users should, however, be aware of the following differences:
+ 
+ 
+The gas cost of calling each precompile is different from its EVM counterpart.
+ 
+The Modexp contract has a hardcoded limit on the lengths of the inputs (base, exponent, and modulus) that is set to 32 bytes.
+ 
+The gas paid for the execution of the EcPairing precompile is capped at 2^32 - 1.
+ 
+ Security Model and Trust Assumptions 
+During the audit, the following trust assumptions were made:
+ 
+ 
+The gas costs for processing the four circuit precompiles accurately reflect the costs incurred by the rollup's operators and nodes.
+ 
+All four Yul contracts do not have a constructor, and it is assumed that these contracts will be pre-deployed at the right addresses with the correct runtime bytecode.
+ 
+ Medium Severity Return Length of ‘EcPairing’ Does Not Match the Specifications 
+EIP-197 introduces the EcPairing precompile on Ethereum and states that "The length of the returned data is always exactly 32 bytes and encoded as a 32 byte big-endian number". However, the fallback function of the EcPairing contract returns 64 bytes.
+ 
+Consider returning only 32 bytes to avoid potential issues and more closely match the EVM's specifications.
+ 
+Update: Resolved in pull request #1373 at commit fab789f. The return value has been updated to 32 bytes.
+  Low Severity Hardcoded Modular Length Value in Return Statement 
+The modexp precompile returns the last modLen bytes of its first 32 bytes in memory. However, "32" is hardcoded.
+ 
+Consider replacing the hardcoded "32" with MAX_MOD_BYTES_SUPPORTED() to be consistent with the rest of the code and avoid potential errors if these values are ever updated.
+ 
+Update: Resolved in pull request #1370 at commit e29c2be.
+  Notes &amp;amp; Additional Information Gas Optimization 
+Prior to any computation, the ModExp precompile cleans the first 3 words of memory. However, this memory should already be initialized to zero by the EVM as the precompile is only callable externally or by transactions.
+ 
+Assuming that the above is also true on ZKsync, consider removing this check to save gas when the precompile is called.
+ 
+Update: Resolved in pull request #1369 at commit de48942.
+  Missing or Misleading Documentation 
+Throughout the codebase, multiple instances where documentation could be improved were identified:
+ 
+ 
+This comment before the return statement of the Modexp precompile states that the returned result is "assumed to be right-padded with zeros". However, the sub(32, modLen) offset suggests that the value is left-padded/right-aligned.
+ 
+The uint64_perPrecompileInterpreted input to unsafePackPrecompileParams is left-aligned, in contrast to the other four input words. This is due to the memoryPageToRead and memoryPageToWrite arguments being left as 0, which could be documented.
+ 
+The gas costs for all four precompiles are computed with respect to a value 80_000 that is not documented: ECADD_GAS_COST, ECMUL_GAS_COST, ECPAIRING_PAIR_GAS_COST, MODEXP_GAS_COST.
+ 
+The distinction between EC pairing base and pair gas cost is not clear.
+ 
+There is a typo in the comment regarding the input length of the unsafePackPrecompileParams call in EcPairing.yul: the second coordinate of the first point should be p_y rather than p_x i.e., (p_x, p_x, q_x_a, q_x_b, q_y_a, q_y_b) should be (p_x, p_y, q_x_a, q_x_b, q_y_a, q_y_b).
+ 
+ 
+Consider addressing the instances identified above to improve the readability and maintainability of the codebase.
+ 
+Update: Resolved in pull request #1371 at commits 3acee2f and 96d51e2.
+  Modexp Lacks an SPDX License Identifier 
+The Modexp.yul file lacks an SPDX license identifier.
+ 
+To be consistent with the other precompiles and follow best practices, consider adding an SPDX license identifier to Modexp.yul.
+ 
+Update: Resolved in pull request #1372 at commit 553ea3a.
+  Recommendations Differential Fuzzing 
+It has been challenging to test the code comprehensively in an end-to-end manner due to its use of a custom opcode called by a verbatim and its reliance on a node running the ZKsync VM. As such, given the complexity of the implemented precompiles, we suggest differentially fuzzing them against Ethereum's precompiles to identify and address any potential edge cases.
+ Conclusion 
+The changes under audit introduce precompiles for elliptic curve (EC) point addition, EC scalar multiplication, EC pairing, and modular exponentiation as system contracts within the ZKsync VM. The code in scope handles the parsing of the inputs from calldata and packs them in a predefined format to be passed to the execution layer where the actual operation is performed. As mentioned in the introduction, this last part is out of scope and will be part of a future audit.
+ 
+The audit revealed no major issues. We identified a deviation from the specifications and provided recommendations to improve the quality of the code. Overall, we found the implementation to be sound and well-documented, though we recommend adding differential tests against Ethereum's precompiles if possible. We thank the Matter Labs team for their detailed responses to all our questions.
+ 
+ hbspt.cta._relativeUrls=true;hbspt.cta.load(7795250, '7809b604-3f30-4cd5-be58-36982828e327', {"useNewLoader":"true","region":"na1"}); 
+ 
+&amp;nbsp;</content>
+    <link rel="enclosure" type="image/png" href="https://blog.openzeppelin.com/hubfs/ZKsync%20Era-contracts%20Precompile%20Audit.png"/>
+  </entry>
+  <entry>
+    <title type="html">ZKsync Protocol Precompiles Implementation Audit</title>
+    <published>2025-04-10T18:15:06+00:00</published>
+    <updated>2025-04-10T18:15:06+00:00</updated>
+    <id>https://blog.openzeppelin.com/zksync-protocol-precompiles-implementation-audit</id>
+    <link rel="alternate" type="text/html" href="https://blog.openzeppelin.com/zksync-protocol-precompiles-implementation-audit"/>
+    <author>
+      <name>OpenZeppelin Security</name>
+    </author>
+    <content type="html">Table of Contents 
+ 
+ 
+Table of Contents
+ 
+Summary
+ 
+Scope
+ 
+System Overview 
+ 
+Circuit Builder Trait
+ 
+Precompiles
+ 
+ 
+ 
+Security Model and Trust Assumptions
+ 
+Medium Severity 
+ 
+Memory Access Without Explicit Bounds Checks
+ 
+ 
+ 
+Low Severity 
+ 
+Excessive Code Duplication in Precompile Modules
+ 
+Insufficient and Inconsistent Documentation
+ 
+modexp Lacks Optimizations for Trivial Cases
+ 
+Inefficient Subgroup Check in BN254 G2
+ 
+Lack of Robust Error Handling in execute_precompile Memory Reads
+ 
+ 
+ 
+Notes &amp;amp; Additional Information 
+ 
+Absence of Automated Linting May Lead to Code Quality Issues
+ 
+Presence of dbg! Macros in ecadd Module
+ 
+Unclear Generic const Parameter
+ 
+Incomplete and Incorrect Test Cases
+ 
+Typographical Error
+ 
+ 
+ 
+Conclusion
+ 
+ 
+ Summary   Type Precompile Timeline From 2025-03-13 To 2025-03-20 Languages Rust    Total Issues 11 (5 resolved, 1 partially resolved) Critical Severity Issues 0 (0 resolved) High Severity Issues 0 (0 resolved) Medium Severity Issues 1 (1 resolved) Low Severity Issues 5 (2 resolved) Notes &amp;amp; Additional Information 5 (2 resolved, 1 partially resolved)  Scope 
+We audited the matter-labs/zksync-protocol repository at commit 97162cc.
+ 
+In scope were the following files:
+ 
+ 
+&amp;nbsp;./crates/zk_evm_abstractions/src/precompiles/ ├── ecadd.rs ├── ecmul.rs ├── ecpairing.rs └── modexp.rs ./crates/circuit_definitions/src/circuit_definitions/base_layer ├── ecadd.rs ├── ecmul.rs ├── ecpairing.rs └── modexp.rs ./crates/zkevm_circuits/src/modexp/ ├── implementation/ │ └── u256.rs ├── input.rs └── mod.rs 
+ 
+ System Overview 
+The project implements Ethereum precompile operations in a zkEVM context. Ethereum precompiles are special contracts with predefined addresses that implement cryptographically expensive operations. The system provides both computational implementations and zero-knowledge circuit implementations for these operations.
+ 
+The codebase follows a modular architecture, with a common interface (PrecompilesProcessor) for executing precompile operations and specific implementations for each operation, alongside a modular exponentiation circuit implementation. Each precompile is implemented with:
+ 
+ 
+A core algorithm that performs the actual computation.
+ 
+Memory interaction logic to interface with the VM.
+ 
+Zero-knowledge circuit definitions for generating proofs.
+ 
+ 
+Under this audit’s scope, zkevm_circuits/src/modexp/ includes u256.rs, which handles the main modexp_32_32_32 function for UInt256 modular exponentiation, input.rs, which sets up ModexpCircuitFSMInputOutput to manage queues and witnesses, and mod.rs, which runs the circuit using modexp_function_entry_point, meeting the zero-knowledge requirements.
+ Circuit Builder Trait 
+The project implements the CircuitBuilder trait for each precompile operation, which defines the circuit's geometry, lookup parameters, and gate configurations. This trait is responsible for setting up the constraint system for zero-knowledge proofs, ensuring that each operation can be efficiently verified.
+ 
+The circuits use various specialized gates, including boolean constraints, reduction gates, and selection gates, to optimize the proof generation and verification process. They also leverage lookup tables for common operations to reduce constraint complexity.
+ Precompiles ModExp 
+The Modular Exponentiation precompile computes b^e mod m for large integers, a fundamental operation in many cryptographic protocols. The implementation uses a square-and-multiply algorithm, processing the exponent bit by bit. The circuit handles special cases such as zero modulus and implements optimizations for common input patterns.
+ ECAdd 
+The Elliptic Curve Addition precompile adds two points on the BN254 elliptic curve. BN254 is used extensively in pairing-based cryptography and zero-knowledge applications. The implementation validates that the input points lie on the curve and handles edge cases, including the point at infinity.
+ ECMul 
+The Elliptic Curve Multiplication precompile multiplies a point on the BN254 curve by a scalar value. The implementation includes optimizations for handling large scalars, including reduction modulo the group order. It correctly handles edge cases such as multiplication by the group order resulting in the point at infinity.
+ ECPairing 
+The Elliptic Curve Pairing precompile performs pairing checks on the BN254 curve, a critical operation for verifying various zero-knowledge proofs and other cryptographic protocols. This is the most complex of the precompiles, supporting multiple input pairs and validating that points lie in the correct subgroup of the curve.
+ Security Model and Trust Assumptions 
+During the audit, the following trust assumptions were made:
+ 
+ 
+Boojum Constraint System Framework: It is assumed that the underlying constraint system framework used to build the circuits is sound and correctly implements the necessary cryptographic protocols.
+ 
+VM Runtime Environment: The zkEVM execution environment invoking these precompiles was not audited, and its correct handling of returned status flags and corresponding outputs is assumed. Specifically, the VM is assumed to correctly distinguish success and failure scenarios via explicit status flags returned by the precompiles, even when success cases may produce results that visually resemble error conditions (e.g., point at infinity [1, 0, 0] vs. an explicit error [0, 0, 0]). Failure of the VM to properly interpret these status flags could lead to incorrect or insecure operations.
+ 
+Memory Management System: While we reviewed the memory interaction code, the underlying memory system implementation was out of scope and is assumed to work correctly.
+ 
+Gas Metering: The correctness of gas cost calculations and metering for these operations were not verified and are assumed to be correct.
+ 
+ModExp Test Coverage: The test cases in modexp_32-32-32_tests.json and modmul_32-32_tests.json are assumed to be properly structured.
+ 
+ 
+&amp;nbsp;
+ Medium Severity Memory Access Without Explicit Bounds Checks 
+In precompile implementations (ecadd.rs, ecmul.rs, ecpairing.rs, and modexp.rs), the execute_precompile methods increment memory indices (current_read_location.index and write_location.index) without explicit arithmetic checks for overflow or boundary validation. For example, in ecadd.rs, multiple reads (x1, y1, x2, y2) and writes (status, x, y) increment offsets directly, implicitly assuming that the provided offsets (params.input_memory_offset and params.output_memory_offset) are safe and within the valid range.
+ 
+If an arithmetic overflow were to occur due to large offsets, memory reads could unintentionally reference incorrect indices or wrap around to unintended positions within a memory page. This could result in using unintended data in computations, leading to incorrect or unpredictable execution states. Similarly, arithmetic overflow during memory writes could lead to data being written into incorrect or unintended memory locations.
+ 
+To address this issue, consider following these recommendations:
+ 
+ 
+Introduce explicit arithmetic checks using checked arithmetic (e.g. checked_add).
+ 
+Implement an explicit error state in output memory (e.g., setting a status indicator to U256::zero()) when an arithmetic overflow or bounds violation is detected.
+ 
+ 
+Update: Resolved, not an issue. The Matter Labs team stated:
+  
+This check is handled on the circuit level.
+   Low Severity Excessive Code Duplication in Precompile Modules 
+The codebase exhibits significant code duplication across precompile modules, particularly in MemoryQuery execution. Each module redundantly defines logic for:
+ 
+ 
+Manually incrementing memory index locations.
+ 
+Constructing nearly identical read/write queries.
+ 
+Structuring conditional branches identically for success and failure handling.
+ 
+ 
+This redundancy increases maintenance overhead, introduces a higher risk of inconsistencies, and complicates global improvements or bug fixes.
+ 
+To improve maintainability and consistency, consider one of the following approaches:
+ 
+ 
+Extract Common Logic: Move repetitive memory operations into shared helper functions.
+ 
+Leverage Code Generation: Employ macro-based or procedural macro solutions to enforce uniformity in repetitive patterns.
+ 
+ 
+Refactoring the code in this way will enhance readability, reduce duplication, and streamline future modifications.
+ 
+Update: Acknowledged, will resolve. The Matter Labs team stated:
+  
+We would like to postpone this issue.
+   Insufficient and Inconsistent Documentation 
+While some functions contain minimal inline comments (e.g., ecpairing_inner and modexp_inner), many critical sections, particularly within the circuit builder implementations, lack sufficient explanations. The absence of consistent documentation makes it difficult to understand the design rationale and expected behavior of key components.
+ 
+There is also no comprehensive module- or architecture-level documentation, which can hinder new contributors from grasping how different precompile functions—such as elliptic curve addition, multiplication, pairing, and modular exponentiation—interact with the corresponding circuit synthesis components.
+ 
+Furthermore, complex operations like elliptic curve arithmetic and modular exponentiation have sparse inline comments. The existing documentation does not provide enough detail on edge cases, error handling, or performance trade-offs, making it harder to ensure correctness and efficiency.
+ 
+To address these issues, consider doing the following:
+ 
+ 
+Adopt a standardized documentation style, following Rustdoc conventions, to ensure that all public modules, functions, and data structures include clear descriptions of their purpose, parameters, expected outputs, and possible error conditions.
+ 
+Develop a high-level architectural overview, either as a separate document or as an introductory module comment, to illustrate the overall design of the precompile and circuit builder components. Including diagrams or flowcharts would help contributors understand component interactions.
+ 
+Improve inline documentation for cryptographic functions by adding explanations of algorithm choices, assumptions, and potential pitfalls. References to relevant standards (e.g., EIP specifications) could further clarify the implementation.
+ 
+Utilize Rustdoc to automate documentation generation and publication, ensuring up-to-date and easily accessible references for the team and community.
+ 
+ 
+Improving documentation will enhance code maintainability, facilitate onboarding for new developers, and ensure that the cryptographic components are well understood by all contributors.
+ 
+Update: Acknowledged, will resolve. The Matter Labs team stated:
+  
+We would like to postpone this issue.
+   modexp Lacks Optimizations for Trivial Cases 
+The modexp_inner function uses a fixed 256-bit square-and-multiply algorithm for modular exponentiation without optimization for trivial cases. While it handles a modulus of zero efficiently (as per EIP-198), other trivial inputs incur unnecessary computational overhead:
+ 
+ 
+Exponent (e) = 0: The result is trivially:
+ 
+1 if m &amp;gt; 1
+ 
+0 if m = 1
+ 
+Exponent (e) = 1: The result simplifies directly to b mod m.
+ 
+Base (b) = 0 or 1: These yield simple results directly without further computation.
+ 
+ 
+Currently, the implementation unnecessarily processes all 256 exponent bits even for these trivial scenarios.
+ 
+Consider implementing fast-path checks for e ∈ {0, 1} and b ∈ {0, 1} prior to entering the main exponentiation loop. These enhancements would significantly improve performance in trivial scenarios while maintaining optimal zero-knowledge circuit efficiency.
+ 
+Update: Resolved in pull request #148.
+  Inefficient Subgroup Check in BN254 G2 
+In ec_pairing.rs, subgroup membership for point $P$ is currently verified using a full 254-bit scalar multiplication, which is computationally expensive.
+ 
+In a precompile setting, this inefficiency increases gas costs due to excessive elliptic curve additions. Consider optimizing with either of the following:
+ Frobenius Endomorphism 
+Use ψ(P)=[6x²]P\psi (P) = [6x²]Pψ(P)=[6x²]P for efficient verification, where x=4965661367192848881x=4965661367192848881x=4965661367192848881, making [6x²][6x²][6x²] a 65-bit scalar. Since the Frobenius map ψ\psiψ on Fp2\mathbb{F}_{p^2}Fp2​ is nearly free (just a conjugation), this check confirms membership at a much lower cost.
+ Cofactor Multiplication 
+Instead of multiplying by the full group order r (a 254-bit scalar), use the smaller cofactor h for faster verification, reducing scalar multiplications and improving performance.
+ 
+Update: Resolved in pull request #148.
+  Lack of Robust Error Handling in execute_precompile Memory Reads 
+The execute_precompile method does not adequately handle memory read failures, leading to silent failures where invalid inputs are misinterpreted as valid elliptic curve points. Specifically, when memory reads fail without triggering exceptions (returning zeros instead), the code incorrectly treats these as legitimate (0,0) points, which represent the point at infinity in elliptic curve cryptography.
+ 
+If a memory read fails and returns (0,0), the system does not differentiate between a legitimate input and a failure-induced default. This introduces several security risks:
+ 
+ 
+Silent Failure: The system does not raise an error even if the user did not provide a valid elliptic curve point. Instead, it performs an operation that may seem correct but is semantically incorrect due to hidden errors.
+ 
+Ambiguity in Input Handling: The system assumes that (0,0) is always a deliberate input, failing to distinguish it from memory read failures.
+ 
+Attack Vector for Cryptographic Manipulation: An attacker could exploit this behavior by crafting inputs that force (0,0) as an operand (manipulating input offsets or memory pages to areas they know will return zeros rather than fail outright), effectively bypassing part of an elliptic curve operation.
+ 
+Protocol Inconsistencies: If the precompile is used in a higher-level protocol, operations that should fail may silently produce seemingly valid results, breaking security assumptions.
+ 
+ 
+To prevent these issues, the implementation should:
+ 
+ 
+Explicitly verify memory read success before using the values in cryptographic computations. If execute_partial_query does not provide a failure indicator, additional validation should be implemented.
+ 
+Differentiate between intentional (0,0) inputs and memory failure-induced defaults by introducing explicit error checks.
+ 
+Enforce memory access validation before performing elliptic curve operations to ensure that out-of-bounds or corrupted reads do not lead to incorrect cryptographic behavior.
+ 
+ 
+Update: Acknowledged, not resolved. The Matter Labs team stated:
+  
+We do believe it is not an issue, and the reason for this is the context in which code is used. Crypto precompiles can be called only via precompile_call opcode on EraVM. The way VM handles precompile_call - it checks that address of contract that calls precompile_call is 0x01 then the ecrecover circuit is executed under the hood if the contract address is 0x02 it will do sha logic, if the contract address is 0x08 then it does ecpairing logic. But also note, that 0x08 has predeployed bytecode of https://github.com/matter-labs/era-contracts/blob/draft-v28/system-contracts/contracts/precompiles/EcPairing.yul#L134. Which means the circuit logic which you reviewed will be only executed with a constraints on which EcPairing contract living (with all of memory invariants and etc).
+   Notes &amp;amp; Additional Information Absence of Automated Linting May Lead to Code Quality Issues 
+The codebase exhibits several suboptimal practices, such as unnecessary let bindings, length comparisons to zero, equality checks against false, and many more (there are 1103 warnings in total for the whole codebase) that can be caught by cargo clippy, the official Rust linter.
+ 
+Without this linter, the project may suffer from:
+ 
+ 
+Increased code complexity and reduced readability.
+ 
+Higher risk of performance inefficiencies and runtime errors.
+ 
+Difficulty maintaining consistency and quality standards.
+ 
+ 
+Consider using cargo clippy in the development workflow, as it can help identify and address these issues early. Possible integration strategies include:
+ 
+ 
+CI/CD Enforcement: Add a step in the CI/CD pipeline to fail builds on clippy warnings.
+ 
+IDE Support: Configure IDE plugins such as rust-analyzer or JetBrains Rust to enable real-time linting feedback.
+ 
+Git Hooks: Implement a pre-commit hook to prevent commits with lint errors.
+ 
+ 
+These measures will enhance code quality, streamline reviews, and enforce best practices across the codebase.
+ 
+Update: Acknowledged, will resolve. The Matter Labs team stated:
+  
+We would like to postpone this issue.
+   Presence of dbg! Macros in ecadd Module 
+The ecadd module contains instances of the dbg! macro, which is typically used for temporary debugging during development. However, leaving dbg! macros in production code is not advisable as they print directly to stderr, leading to cluttered logs and potential exposure of internal state. Additionally, dbg! is not optimized for performance and lacks configurability for different logging levels.
+ 
+Consider removing dbg! macros from the ecadd module. If logging is necessary, a structured logging or tracing library such as tracing or a similar logging crate should be used instead. These alternatives offer configurable log levels, structured outputs, and better performance management.
+ 
+Update: Resolved in pull request #148.
+  Unclear Generic const Parameter 
+The const generic parameter B used in all the unit structs for each precompile lacks clarity, making the code less readable and harder to maintain. Without a descriptive name or proper documentation, it is difficult for developers to understand its purpose and impact.
+ 
+Consider renaming B to a more descriptive identifier, such as ENABLE_WITNESS, or adding documentation to clarify its role.
+ 
+Update: Acknowledged, will resolve. The Matter Labs team stated:
+  
+We would like to postpone this issue.
+   Incomplete and Incorrect Test Cases 
+Throughout the codebase, multiple instances of incomplete and/or incorrect test cases were identified:
+ 
+Incomplete Coverage
+ 
+ 
+ 
+test() in modexp.rs calls modexp_inner(5, 0, 1) but lacks an assertion that result == U256::one(), reducing effectiveness.
+ 
+ 
+ 
+Precompile test suites for ecadd.rs, ecmul.rs, ecpairing.rs, ecpairing.rs, and modexp.rs lack edge case coverage, particularly for invalid field elements and modulus overflows.
+ 
+ 
+ 
+Ensure compliance with relevant EIPs for these precompiles.
+ 
+ 
+ 
+Incorrect Implementation
+ 
+ 
+test_ecadd_inner_invalid_x2y2 in ecadd.rs parses hex values x1 and y1 using base-10 instead of base-16, leading to incorrect validation.
+ 
+ 
+Weak test coverage may result in undetected failures, especially in cryptographic operations, whereas incorrect parsing could introduce false positives/negatives, obscuring real issues.
+ 
+Consider improving test cases by adding edge cases, invalid inputs, and boundary conditions, fixing radix parsing in test_ecadd_inner_invalid_x2y2 for correctness, and verifying precompile behavior against the relevant EIPs (EIP-196/197/198/2565).
+ 
+Update: Partially resolved. Edge case coverage has been addressed in precompiles.rs. However, test_ecadd_inner_invalid_x2y2 in ecadd.rs still parses hex values using base-10 instead of base-16, and test() in modexp.rs continues to lack an assertion verifying that result == U256::one() for modexp_inner(5, 0, 1), reducing test effectiveness.
+  Typographical Error 
+Typographical errors can negatively affect the clarity and maintainability of the codebase.
+ 
+The comment in line 356 of ecpairing.rs currently references EIP-192, which is incorrect.
+ 
+Consider updating the aforementioned comment to refer to EIP-197.
+ 
+Update: Resolved in pull request #148.
+  Conclusion 
+This audit covered the implementation of Ethereum precompile operations in a zkEVM context, specifically focusing on the ModExp, ECAdd, ECMul, and ECPairing operations. It also covered implementation and tests for the ModExp circuit. The review encompassed both the computational implementations of these operations and their corresponding zero-knowledge circuit constructions. The assessment focused on the correctness of algorithm implementations, input validation, edge case handling, and the proper translation of computational logic into circuit constraints.
+ 
+During the audit, one critical-severity issue was identified, where memory read failures in execute_precompile could be silently interpreted as valid (0,0) points, creating vulnerabilities. In addition, several issues pertaining to optimization and best practices were identified that, while not immediately threatening to system security, could impact performance, maintainability, and gas efficiency.
+ 
+Overall, the codebase demonstrates a good implementation of complex cryptographic operations with appropriate attention to security concerns. The modular architecture and consistent interface design reflect good engineering principles. Nevertheless, there is room for improvement in areas such as code efficiency and documentation completeness.
+ 
+ hbspt.cta._relativeUrls=true;hbspt.cta.load(7795250, '7809b604-3f30-4cd5-be58-36982828e327', {"useNewLoader":"true","region":"na1"}); 
+ 
+&amp;nbsp;</content>
+    <link rel="enclosure" type="image/png" href="https://blog.openzeppelin.com/hubfs/ZKsync%20Protocol%20Precompiles%20Implementation%20Audite.png"/>
+  </entry>
+</feed>
