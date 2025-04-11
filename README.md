@@ -1,6 +1,6 @@
 # stellar-ecosystem-feeds
 
-A snapshot collection of RSS feeds from across the Stellar ecosystem. This repo is **offered as-is** and will not be updated.
+A snapshot collection of RSS feeds from across the Stellar ecosystem. This repo is **offered as-is** and will not be updated. New feed items will be offered through the Lumen Loop Platform.
 
 ## rss-bridges
 
