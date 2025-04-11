@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Encode Club - Medium</title>
+  <link rel="alternate" type="text/html" href="https://www.blog.encode.club?source=rss----9012a3c7d8ac---4"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.blog.encode.club%2Ffeed&amp;content_selector=article&amp;content_cleanup=.speechify-ignore%2Ch1&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_noproxy=on&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.blog.encode.club%2Ffeed&amp;content_selector=article&amp;content_cleanup=.speechify-ignore%2Ch1&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_noproxy=on&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:06:01+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">Sigma Accelerate Programme Wrap-Up: Innovation &amp; Growth</title>
+    <published>2025-03-18T12:12:11+00:00</published>
+    <updated>2025-03-18T12:12:11+00:00</updated>
+    <id>https://www.blog.encode.club/sigma-accelerate-programme-wrap-up-innovation-growth-5f6f3c50eea2?source=rss----9012a3c7d8ac---4</id>
+    <link rel="alternate" type="text/html" href="https://www.blog.encode.club/sigma-accelerate-programme-wrap-up-innovation-growth-5f6f3c50eea2?source=rss----9012a3c7d8ac---4"/>
+    <author>
+      <name>Tina Bregović</name>
+    </author>
+    <content type="html">The Sigma Accelerate, powered by Encode and backed by the Wormhole Foundation, brought together ambitious builders to push them to success. Designed to support early-stage founders building with Wormhole’s cross-chain messaging technology, the 8-week programme offered deep mentorship, hands-on workshops, and community support to turn bold ideas into functioning products. Kicking off on 16th January, the programme ran for 8 weeks, culminating in a high-energy Pitch day showcasing the next wave of innovators.
+Week 1: Onboarding and Launch
+The programme launched with intros, vibes, and a clear roadmap for what’s ahead — setting the stage for collaboration and rapid growth.
+Week 2: Founder Mode Comms: Leading from the Front
+Samantha Yap (Yap Global) covered the importance of founder-led marketing in the crypto space, emphasizing how technical founders should take the lead in shaping their project’s narrative before hiring a marketing team. We hear about strategies for effectively communicating a project’s vision, engaging with the community, and building influence in a competitive landscape.
+Week 3: Founder AMA
+The discussion with Pedro Gomes, Founder of WalletConnect covered:
+Scaling a team from a solo project to a structured company.
+The role of investors and how to leverage their networks effectively.
+The significance of industry conferences for building partnerships and funding opportunities.
+How WalletConnect navigates shifting market narratives without losing core focus.
+Week 4: Design, UI &amp;amp; UX
+In this hands-on workshop, Albert (sp-ce) explained the balance between form (UI) and function (UX) in Web3 product design. We examined when to prioritise aesthetics and when to focus on usability to create intuitive and engaging user experiences.
+Week 5: VC Fundraising
+Sam Kim (Big Brain Holdings) brought the heat with practical advice on fundraising, storytelling, and making your pitch stand out in a crowded market.
+Week 6: Founder AMA
+Robinson Burkey and Dan Reecer (Wormhole Foundation) answered everything from technical deep dives to go-to-market strategy in a candid, founder-first AMA.
+Week 7: Pitch Practice
+Teams have trial-pritched their projects and received feedback in every area important for the final pitch day and future presentations in front of different audiences.
+Week 8: Pitch Day
+In the Finale event of the Sigma Accelerate we saw the 10 teams pitch their projects and demonstrate the work they’ve been doing after the course of the Accelerator. Needless to say, they did an exceptional job!
+Bolarity Network
+A next-gen chain abstraction solution unifying blockchain interactions, plus a DeFi superapp for seamless crypto asset management.
+https://x.com/Bolarityxyz
+Bu Finance
+An integrated financial platform for freelancers and SMEs in emerging markets, leveraging stablecoins and DeFi for global access.
+Elipsys
+A decentralized verification network that optimizes on-chain verification, reducing costs for interoperability protocols like Wormhole.
+https://x.com/Elipsys_xyz
+Peridot Protocol
+A cross-chain DeFi platform offering fractionalized RWAs and NFTs, with lending and borrowing for tokenized real-world assets.
+https://x.com/peridotprotocol
+Polyquest
+A fast, cross-chain prediction market on Solana supporting custom tokens and powered by Wormhole for smooth interoperability.
+https://x.com/PolyquestSOL
+PumpOut
+A cross-chain meme token launcher designed for the AI age — part meme supercycle, part cult, all vibes.
+https://x.com/PumpOutxyz
+SearchBox
+A multichain token launchpad and aggregator where you can find, launch, buy, and sell tokens across chains — no bridging needed.
+Sherry
+A social bridge to Web3, letting users perform on-chain actions directly from social media via interactive mini-apps called Slinks.
+https://github.com/SherryLabs/sherry-sdk
+Whitehole
+A blockchain wallet and card payment platform empowering underserved communities with Wormhole and Circle tech.
+zk-lokomotive
+A zk-powered file transfer system enabling secure, cross-chain file sharing across blockchain networks.
+https://x.com/zklambda
+https://github.com/zklambda
+Pitch Day on 13th March was a whirlwind of demos! Teams walked away with stronger products, sharper pitches, and real momentum. The programme fostered deep technical growth, collaboration across projects, and a vibrant founder community that’s just getting started.
+Huge congratulations to all the teams for their hard work and creativity! Big thanks to the Wormhole Foundation and every guest speaker for sharing their time, insights, and energy.
+To all teams—show us what you got!
+Encode Club is a web3 education community learning and building together through fantastic programmes with the leading protocols in the space. Together we organise programmes like education series, bootcamps, hackathons, accelerators both online and in person. We then help our community get jobs and funding for projects and startups. Read more here.
+Website | Twitter | YouTube | LinkedIn | Discord | Newsletter</content>
+    <link rel="enclosure" type="image/png" href="https://miro.medium.com/v2/resize:fit:1200/1*Ptyi1ckj3Xl2LNnsdZ5XGQ.png"/>
+  </entry>
+  <entry>
+    <title type="html">Ethena Accelerator: From Early-Stage Builds to Market-Ready Projects</title>
+    <published>2025-03-17T14:41:47+00:00</published>
+    <updated>2025-03-17T14:41:47+00:00</updated>
+    <id>https://www.blog.encode.club/ethena-accelerator-from-early-stage-builds-to-market-ready-projects-e382b9e9bae6?source=rss----9012a3c7d8ac---4</id>
+    <link rel="alternate" type="text/html" href="https://www.blog.encode.club/ethena-accelerator-from-early-stage-builds-to-market-ready-projects-e382b9e9bae6?source=rss----9012a3c7d8ac---4"/>
+    <author>
+      <name>Tina Bregović</name>
+    </author>
+    <content type="html">The Ethena Accelerator programme has officially wrapped on 12th March, and what a ride it’s been! Over eight weeks, ten exceptional teams dived deep into DeFi, product building, and community growth — all with guidance from some of the best in the game. This fully online, free accelerator kicked off on 15th January, bringing together 10 hand-picked teams with a shared goal: to build innovative projects that leverage Ethena’s technology, while gaining hands-on support, funding, and exposure.
+Spanning eight weeks, the Ethena Accelerator offered a unique blend of weekly expert-led workshops, 1-1 mentoring, and milestone-based funding. The mission? Empower teams to go from idea to prototype with real-world support and feedback, culminating in a Pitch Day finale where teams showcased their progress — and a few lucky ones walked away with extra rewards.
+Every week, Ethena Labs’ leadership hosted exclusive workshops, covering everything from product development to legal frameworks, growth strategy, and design. Here’s the lineup:
+Week 1 | Welcome Event
+Ivaylo (Head of DeFi) kicked things off, setting the stage for the weeks ahead.
+Week 2 | Product Development &amp;amp; Market Fit
+Brian Grosso (Head of Product Engineering) explored building with purpose and finding that all-important product-market fit.
+Week 3 | Team Building
+James Baulcomb (People Ops &amp;amp; Talent) shared insights on scaling teams effectively.
+Week 4 | Fundraising, Finance &amp;amp; Legal
+Zach Rosenberg (General Counsel), SS (Head of Institutional), and Nick C (Head of Strategy) tackled the essentials of startup finance and compliance.
+Week 5 | Growth Blueprint
+SS, Nick C, and Ivaylo teamed up for a masterclass on customer acquisition, tokenomics, and go-to-market strategies.
+Week 6 | Creative Edge
+Valters Grisans (Lead Designer) guided teams on branding, UX, and community engagement.
+Week 7 | Partnerships &amp;amp; Ecosystem
+Nick C returned with a deep dive into building strategic partnerships and ecosystems.
+Week 8 | Pitch Day
+Teams pitched their projects live to Ethena Labs and Encode teams.
+The programme was structured around three key milestones, each designed to track and reward real progress. Every team hitting a milestone received $5,000 to support their development.
+Milestone 1: Successful onboarding, launch day presentation, roadmap, and documentation.
+Milestone 2: Full workshop attendance and participation, weekly reports, and 1-1 meetings.
+Milestone 3: Beta/POC or MVP with core features, public codebase, user journey mapping, and live demo during the finale.
+After eight weeks of hard work, all teams pitched their projects during the Finale live event. The Ethena Labs team then selected three standout winners, who shared an additional $35,000 prize pool to supercharge their development. The energy, creativity, and execution across all teams were off the charts — choosing the winners wasn’t easy!
+Here’s a snapshot of the innovative projects that emerged from the accelerator:
+Buzzify — Decentralized platform for engagement score-based betting on content creators.
+https://ethena-buzz.vercel.app/
+https://x.com/buzzi_fy
+Denaria.finance — Derivatives suite offering perpetuals and hedging contracts for crypto traders.
+https://denaria.finance/
+https://x.com/DenariaFinance
+Stable Jack — Platform for fixed or leveraged yield and points trading on any asset.
+https://app.stablejack.xyz/
+https://x.com/StableJack_xyz
+Smart Portfolio — Web3 portfolio manager enabling seamless Web2-to-Web3 investing.
+https://smart-portfolio-v2.vercel.app/
+https://x.com/smart_porfolio
+Omni-staker — Cross-chain staking solution bridging users and yield-bearing assets.
+omnistaker.com [DEPLOYING SOON!]
+https://x.com/OmniStaker
+Ethena Prediction Market — Decentralized prediction market leveraging sUSDe as collateral.
+https://ethena-prediction-market.vercel.app/
+FIVA — DeFi protocol using Telegram and TON for fixed-yield savings with sUSDe.
+https://www.thefiva.com
+https://x.com/FivaProtocol
+Game of Pots — No-loss lottery game with a savings pool powered by sUSDe APY.
+https://www.gameofpots.fun/
+https://x.com/gopdotfun
+Lumis— Automated vaults for ETH and BTC stacking via leveraged yield farming.
+https://aavena.netlify.app/
+https://x.com/lumisfi_
+Bento Labs — DeFi-native savings products offering stable, diversified yields.
+https://x.com/Bento_Labs
+A huge congratulations to all the teams for their incredible work and progress! It’s been an exciting journey, and we’re thrilled to see where each project goes from here.
+Keep an eye out for updates as these teams continue building, iterating, and launching to the wider audience.
+We’re grateful to Ethena Labs for their mentorship and support, and to all the participants for bringing their A-game. Until next time — keep building!
+Encode Club is a web3 education community learning and building together through fantastic programmes with the leading protocols in the space. Together we organise programmes like education series, bootcamps, hackathons, accelerators both online and in person. We then help our community get jobs and funding for projects and startups. Read more here.
+Website | Twitter | YouTube | LinkedIn | Discord | Newsletter</content>
+    <link rel="enclosure" type="image/jpeg" href="https://miro.medium.com/v2/resize:fit:1200/1*F9TBqNKMGh0SxAyuFQXB8w.jpeg"/>
+  </entry>
+  <entry>
+    <title type="html">Encode Modular DeFi Denver Hackathon &amp; Research Day 2025</title>
+    <published>2025-02-28T15:32:13+00:00</published>
+    <updated>2025-02-28T15:32:13+00:00</updated>
+    <id>https://www.blog.encode.club/encode-modular-defi-denver-hackathon-research-day-2025-759a6048e154?source=rss----9012a3c7d8ac---4</id>
+    <link rel="alternate" type="text/html" href="https://www.blog.encode.club/encode-modular-defi-denver-hackathon-research-day-2025-759a6048e154?source=rss----9012a3c7d8ac---4"/>
+    <author>
+      <name>Jade Harcourt-Harrison</name>
+    </author>
+    <content type="html">Monday marked the start of the Modular DeFi Hackathon, drawing in developers and blockchain builders keen to push the boundaries of DeFi. The afternoon featured a series of hands-on technical workshops led by Stacks, Glittr, Reown, BOB, Wormhole, Envio, Polkadot, and Rootstock. With back-to-back sessions, it set the tone for an action-packed few days of hacking.
+Builders got stuck into the tech with a lineup of workshops designed to equip them with the latest tools, frameworks, and ideas shaping the future of Modular DeFi.
+Zero to Glittr — Periwinkle Doerfler (Glittr) — How to build low-code dApps on Bitcoin L1
+Rootstock 101 — Sebastian Guaqueta (Rootstock) — An introduction to Rootstock and its Bitcoin DeFi potential
+Building Bitcoin DeFi: What does $2T want? — Derrek Coleman (BOB) — Exploring what the $2T Bitcoin market wants
+Build Multichain Apps with Wormhole Native Token Transfer — Pauline Barnades (Wormhole)
+How to get started with AppKit on Bitcoin — Rohit Ramesh (Reown)
+Data, data, data. Let’s build a Uniswap V4 dashboard in 15 minutes from scratch! — JonJon Clark (Envio)
+Bitcoin on Steroids: Unlocking Bitcoin’s Potential with Stacks and sBTC — Kenny Rogers (Stacks)
+What If Binance Ran On-Chain? Building a CLOB with Data Availability — Douwe Faasen (Hyve DA)
+Building the Next Wave of DeFi (Hackathon Panel) — Cami Ramos (Berachain), Jenks Guo (Babylon), and Solange Gueiros (Chainlink)
+Fuelled by sandwiches, pizzas, and far too much caffeine, hackers powered through the day — though the consensus was that Italian was the clear winner. Jo’s Café became the go-to spot for quick coffee breaks and impromptu brainstorming sessions, while those looking for a moment of peace found themselves rooftop chilling in the sunny weather (hacking away in quiet!)
+With a strong start and plenty of insights shared, the scene was set for an intense few days of building and innovation!
+Tuesday saw the Modular DeFi Research Day in full swing, bringing together industry experts to explore cutting-edge topics in modular blockchain architecture, security, and the evolution of DeFi. The event featured a mix of panels, keynotes, and lightning talks, exploring the challenges and opportunities shaping the next phase of decentralised finance.
+The Future Is Verifiable - Zhenfei Zhang (Chief Cryptographer, Polyhedra), Grigore Rosu (President &amp;amp; CEO, Pi Squared), moderated by Magnus Ahmad (Blocksense, Head of Product)
+Introducing Pico: A Modular and Performant zkVM — Alan Li (CSO, Brevis)
+Modular Security and DeFi 2.0 — Misha Putiatin (Co-Founder, Symbiotic), Mads Mathiesen (Researcher, Maven11), moderated by Jenks Guo (Head of DevRel, Babylon)
+L2 Interop Endgame: Modular Breakthrough or Vertical Takeover? — Terry Chung (CSO, Eclipse), Avi Zurlo (CEO, =nil; Foundation), Nick Dodson (CEO, Fuel Labs), moderated by Felix Lutsch (Head of Ecosystem, Symbiotic)
+Fair, Fast, or Final? The Future of Rollup-Based DeFi — Ben Fisch (Co-Founder and CEO, Espresso), AJ Park (Founder, Radius), Filip Rezabek (Co-Founder, Spacecoin), moderated by Eomji Park (Head of Research and Operations, Encode Club)
+Yield-Bearing Stablecoins: Innovation or a House of Cards? — Antonina Norair (CTO, M⁰ Labs), Gerrit Hall (Ambassador, Curve), moderated by Bram Van Roelen (Head of Product, Maven11)
+Unlocking Infinite Liquidity of Bitcoin — Periwinkle Doerfler (CTO, Glittr), Derek Rein (CTO, Reown), moderated by Ahmad Alkabra (Senior Product Manager, Rootstock)
+Breaking the L1 Performance Ceiling — Jason Li (Co-Founder, Solayer), Zon (Co-Founder, Initia), Keone Hon (Co-Founder, Monad), moderated by Sam Kim (Managing Partner, Big Brain Holdings)
+Aligned or Not-aligned L2 — Rushi Manche (Co-Founder, Movement), Ed Felten (Founder, Offchain Labs), moderated by Bread Guy (Head of Community, MegaETH)
+How CrossChain DeFi Can Scale Global Finance — Gagan Mac (VP and Head of Developer Products, Circle), Nick White (COO, Celestia), Maghnus Mareneck (Co-Founder of SKIP, Interchain Foundation), moderated by Nikhil Suri (Head of Product, Wormhole)
+Intent-pilled DefAI — Alex Shevchenko (CEO and Co-Founder, Aurora), Will Nuelle (General Partner, Galaxy Digital), Renç Korzay (Co-Founder, Giza), moderated by Jeff Wilser (Podcast Host, AI-Curious)
+Verifiable AI and the Future of DeFi — Leo Chen (CTO, Story Protocol), Jason Morton (CEO, Ezkl), Ben Fielding (Co-Founder, Gensyn), moderated by Josh Stein (Developer Advocate, Celestia)
+Lightning Talk — Dan Ugolini (Co-Founder, Rysk), JonJon Clark (Co-Founder, Envio), Pierre Ni (Co-Founder and CEO, Cede Labs)
+Digital Finance vs Decentralised Finance: Where Are We Headed? — Gil Rosen (Managing Partner, BBF), Jay Kurahashi-Sofue (CMO, Eco), Garrett Hughes (Director of Engineering, Dune), moderated by CJ Huntzinger (Head of Platform, Galaxy Digital)
+Being Right With No Size Is the Same as Being Wrong — GM (Research Partner, Dragonfly), Nicola Santoni (Partner, Lemniscap), moderated by Eomji Park (Head of Research and Operations, Encode Club)
+As we promised in numerous social media announcements, the research day was only the best of the best. A huge thank you to all the partners who made it possible.
+With the final hours ticking down, hackers rushed to put the finishing touches on their projects. Laptops open, notes scattered, and coffee cups piling up — the venue was a mix of intense focus and last-minute problem-solving. With the research conference running alongside the hackathon, the energy in the space was at its peak, and everyone was locked in for the final push.
+As submissions rolled in, judging got underway. Our hack partners went through each project, assessing everything from technical execution to creativity and impact. We were also joined by an expert panel of judges, including:
+Gregory from Runtime Verification
+Gil Rosen from Stanford Blockchain Accelerator
+Bianca Buzău from Chronicle Labs
+Laurence Kirk from Extropy
+Two hours passed as projects were reviewed and finalists were chosen. Then came the moment of truth — finalists were announced, and teams geared up for the last big challenge: pitching.
+With everyone gathered, the excitement kicked up a notch as teams took the stage, ready to showcase their work and make their case to the judges.
+The overall winners:
+🥇 TipCloud
+🥈 BTC Portfolio and Investment Manager
+🥉 Defius Maximus
+BOB bounty winners:
+🏆 Most Compelling Bitcoin DeFi App
+1st Place — BTC Investment &amp;amp; Portfolio Manager
+2nd Place — BitShield
+3rd Place — Get Paid to Save the Planet
+Envio bounty winners:
+🏆 Best Use of HyperSync
+Winner — Blockhead
+🏆 Best Use of HyperIndex
+Winner — Uniswapv4 Dashboard
+Winner — Dash Mon(k)ey
+🏆 Best Real-Time Web3 Data Dashboard
+Winner — Airspace
+Glittr bounty winner:
+🏆 Build a dApp on Glittr + Submit a GLIP + Make a tutorial
+Winner — Baba Vanga
+Polkadot bounty winners:
+🏆 Best DeFi Application Built on Polkadot
+Winner — Swordfish II — Easy Yield Optimizer
+Winner — Polkadot DefAI agent
+Reown bounty winners:
+🏆 Best projects built with Reown AppKit
+Winner — BitShield
+Winner — Defius Maximus
+Rootstock bounty winners:
+🏆 Best Project on Rootstock
+1st Place — AirSpace
+2nd Place — Dash Mon(k)ey
+Stacks bounty winners:
+🏆 Unlocking Bitcoin with sBTC
+1st Place — StackShield
+2nd Place — BTC Portfolio &amp;amp; Investment Manager
+3rd Place — TipCloud
+And that’s a wrap on Denver for this year. Thank you so much for coming everyone! ❤️
+Encode Club is a web3 education community learning and building together through fantastic programmes with the leading protocols in the space. Together we organise programmes like education series, bootcamps, hackathons, accelerators both online and in person. We then help our community get jobs and funding for projects and startups. Read more here.
+Website | Telegram | Twitter | YouTube | LinkedIn | Discord | Newsletter</content>
+    <link rel="enclosure" type="image/jpeg" href="https://miro.medium.com/v2/resize:fit:1200/1*s0kcY0iDD_MoUnIXcEPhnQ.jpeg"/>
+  </entry>
+</feed>
