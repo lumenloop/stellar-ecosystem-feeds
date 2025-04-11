@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Wave</title>
+  <link rel="alternate" type="text/html" href="https://www.wave.com/en/blog/"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.wave.com%2Fen%2Fblog%2Findex.xml&amp;content_selector=article&amp;content_cleanup=.byline&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fwww.wave.com%2Fen%2Fblog%2Findex.xml&amp;content_selector=article&amp;content_cleanup=.byline&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;_cache_timeout=3600&amp;format=Atom</id>
+  <updated>2025-04-11T22:11:27+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">How time tracking helped me be a better manager</title>
+    <published>2023-01-23T00:00:00+00:00</published>
+    <updated>2023-01-23T00:00:00+00:00</updated>
+    <id>https://www.wave.com/en/blog/time-tracking/</id>
+    <link rel="alternate" type="text/html" href="https://www.wave.com/en/blog/time-tracking/"/>
+    <author>
+      <name>Ruthie Byers</name>
+    </author>
+    <content type="html">How time tracking helped me be a better manager                               
+When I first started having responsibilities beyond writing code, managing my time suddenly became much harder.  I felt like I spent most of my time wading through a sea of things to do and couldn’t get to the important long term work that I most wanted to do.
+ 
+To figure out where all my time went, I started tracking it using Toggl, which was the slickest app I found for starting/stopping task-specific timers, tagging tasks into “projects” and producing reports. Interestingly, I discovered that Toggl didn’t just inform me about how I used my time&amp;ndash;it also changed it, by helping me be more intentional about what I work on.  I’ve been a manager for more than five years and I still use Toggl to track all my work time.
+ 
+Before time tracking, I spent a lot of time deciding what to do, or investigating a task without committing to working on it, or just switching between tasks because there always seemed like there was something else important to do.  When I started time tracking, I suddenly had to decide what I was going to do before I started doing it, because otherwise I couldn’t write it down and start the timer.  If I later wanted to switch tasks before I was done, I had to change the timer, which also gave me enough time to think about whether that was a good idea.  Sometimes it was, but in most cases that moment gave me enough time to remember why I decided to work on the thing in the first place.
+ 
+Here are some other things I’ve learned doing it, and times it’s been useful to me.
+ 
+ 
+ 
+When I first became a manager, I’d start my day by reading slack, and I’d mostly respond to messages as I received them, even if it took ten or fifteen minutes to track down the answer.  I wasn’t very purposeful about deciding what to do and what to save for later— I just did everything right away.  When I started tracking my time, it didn’t feel right to use my “check slack” time to do a deep dive into the code to answer a question from another engineer, and I’d end with a multi-hour block of “check slack” time and not much insight into what I was doing.
+ 
+So I created an “inbox zero” category which was only for the initial reading of slack and responding to quick things.  Anything that wasn’t quick, I’d put on my todo list.  Later, I’d go through the todo list and make a purposeful decision about which items to prioritize spending time on now and which to do later.  Then I’d pick off the first one and start the timer.
+ 
+ 
+ 
+I don’t work anything like eight hours a day.  I track my sit down hours — hours when I’m at my desk, working on a task.  It doesn’t include breaks, lunch, or time spent staring off into space.  On an average week, I work somewhere between five and six hours a day.  This isn’t a matter of laziness or not making time — many days after those 5-6 hours, my brain is goop and it wouldn’t be useful for me to continue to stare at the screen anyway.
+ 
+ 
+ 
+I’d like to think I spend 80% of my time on the most important work.  Not so!  Even when I have one clear most important project, and I’m prioritizing it well, that project tends to take up about 50% of my time or less.  But when I audit other time, I rarely find much that I could do less of easily.  There’s a lot of following up on important projects from previous weeks, giving 1-on-1s, keeping up with slack, as well as doing my own personal planning and reflection that takes up time.
+ 
+ 
+ 
+Some work just takes time, and it’s not necessarily the work you expect.  I recently analyzed the comments we got on our employee engagement survey to help determine the next priorities for the eng leadership team — 70 minutes.  Not long before that I wrote an email response to an individual candidate with an open offer, trying to address his concerns — over three hours (for the record, he found my email helpful and decided to join).  It’s not clear to me what insight to take from this, besides that I should plan for and expect high stakes candidate communication to take a long time, even if the task is “write an email.”
+ 
+ 
+ 
+In case you’re interested in using Toggl for yourself, here’s what my setup looks like:
+ 
+The Toggl interface looks something like the screenshot below. You enter a description, choose a “project” (which I just use to capture broad categories of work) and then click play to start the timer and stop to stop it.  You can also edit entries later (which I do a few times a week when I forget and leave the timer running).
+ 
+ 
+ 
+I keep Toggl open as a pinned tab in my browser window in my work computer, so it’s always easy to find.
+ 
+I use projects to capture large categories of work.  You’ll see some examples below, but generally I try to align these with the goal of the work, not the type of work it is.  For example, if I have a meeting about a project, I’ll categorize that meeting under that project instead of under a “meetings” category. 
+ 
+I also prefix each project with a letter of the alphabet representing a higher-level grouping mostly so they turn up in a reasonable order in the dropdown.  For example, A has daily tasks that I need to access often and B has mentorship related work.
+ 
+ 
+ 
+Toggl has many features for tracking different clients and collaborating.  I only use the basic timer and project categories, which are all available on the free version.
+ 
+ 
+Once I’ve tracked, I can see what I did over the course of a day:
+ 
+ 
+Or a week:
+ 
+ 
+We’re in the middle of performance review season, so as you can see I spent about half my time on performance reviews (although on the day pictured above, I actually mostly worked on other things).  The next biggest category is helping out with our migration from Quip (a document system) to Google Drive (another document system).  When I synced with Ben about my priorities for that week, number one was performance reviews and number two was the document migration, so I’m pretty happy with how this looks!
+                     
+             We work on Wave because we think it’s an extremely             effective way to improve the world. If that’s how you want to spend your             career too, come work with us!                          
+If you liked this post, you can subscribe to our RSS or our mailing list:</content>
+    <link rel="enclosure" type="image/jpeg" href="https://www.wave.com/img/blog/time-tracking-hero.jpg"/>
+  </entry>
+  <entry>
+    <title type="html">Some tips for good one-on-ones</title>
+    <published>2022-08-01T00:00:00+00:00</published>
+    <updated>2022-08-01T00:00:00+00:00</updated>
+    <id>https://www.wave.com/en/blog/11-tips/</id>
+    <link rel="alternate" type="text/html" href="https://www.wave.com/en/blog/11-tips/"/>
+    <author>
+      <name>Ben Kuhn</name>
+    </author>
+    <content type="html">Some tips for good one-on-ones                               
+When I wrote The unreasonable effectiveness of one-on-ones, I felt like my one-on-ones mostly involved doing generic stuff that anyone who cared a lot could do. So I was surprised when someone on Hacker News left this gem of a comment:
+  
+I&amp;rsquo;ve had a thousand+ 1x1s with countless people (both as a manager and as a report), and the majority of them are just time sucking status updates, casual meet and greets, or some performance/process related discussion. Literally never have I walked out of a 1x1 and thought &amp;ldquo;wow that was unreasonably effective&amp;rdquo;.
+  
+(Thankfully, some wag beat me to the obvious retort: “There’s a common factor to all of your 1:1s, so that may be worth looking into.”)
+ 
+Self-own aside, comments like that suggested that some people could use help making their one-on-ones more useful, so I’ve written up the basics of how I do mine. I don’t claim this way is the best, nor that any of it is original, but I do think it works pretty well, and at minimum it&amp;rsquo;ll prevent them from being “time sucking status updates.”
+ One-on-ones are for the report, not for the manager 
+My main goal with 1:1s is to give the coachee whatever they need to have an awesome time at work. That could be many things. Sometimes it’s advice on a tricky problem. Sometimes it’s talking through concerns about company strategy or culture. Sometimes it’s career coaching. Sometimes it’s just listening, or hanging out.
+ 
+In each case, 1:1s mostly achieve this goal by creating an affordance for the coachee to talk about those needs and get help with them. In my experience, without a recurring meeting to prompt that kind of discussion, almost everyone waits way too long to ask their manager for time.
+ 
+For example, I&amp;rsquo;m basically never worried enough about Wave&amp;rsquo;s strategy to schedule a random ad-hoc meeting with my manager to discuss it. But I often have some question in the back of my mind that I&amp;rsquo;ll bring up in 1:1s, get resolved, and then feel way better. Having that default time is important!
+ 
+Some examples of frequent 1:1 topics:
+ 
+ 
+Getting to know each other better
+ 
+Giving feedback (in either direction)
+ 
+Postmorteming a recent project
+ 
+Figuring out how to do better next time
+ 
+Thinking about directions for career growth
+ 
+Voicing worries / uncertainties about company strategy, the future, etc.
+ 
+ 
+Without 1:1s, this kind of important, but not urgent conversation can get dropped, and people can end up ignoring feedback, not building strong relationships, or repressing concerns until they blow up messily later.
+ 
+On the other hand, I’ve also found that there&amp;rsquo;s a different set of “attractors” topics that are easy to start talking about, but ultimately take time away from more valuable topics. I&amp;rsquo;ll try to steer 1:1s away from these. In particular:
+ 
+ 
+No status updates (these should be done in a separate meeting, or asynchronous)
+ 
+No solving urgent problems (if it’s urgent, it shouldn’t wait for our next 1:1!)
+ 
+ Always have prep 
+Since 1:1s are for the coachee, it’s (by default) the coachee’s job to prep. The prep I ask for is a list of topics to talk about, in order of importance. (Ranking the topics is really important, in case we don’t get to the end of the list!) If there’s no prep, I usually offer to postpone (not cancel!) the meeting to give them time to prep.
+ 
+(I will also occasionally add topics to our prep&amp;mdash;usually important-but-not-urgent feedback or a periodic nudge for updates on a longer-running thread&amp;mdash;e.g. “how is the adjustment from IC to manager going?”)
+ 
+For my own 1:1s, I’ve found it useful to have a list of prompts to help me generate topics to discuss. When someone new joins Wave, I start them off with the following prompts:1
+ 
+ 
+How could my most important project have gone better this week?
+ 
+What could my lead do to make my work more effective and more fun?
+ 
+What am I trying to improve at right now? How’s that going? What are my next steps?
+ 
+What are my next career goals at Wave, what steps are needed to get there?
+ 
+Do I fully understand the reasoning behind Wave&amp;rsquo;s top goals and how my work fits in?
+ 
+Am I curious, uncertain, worried or stressed about anything?
+ 
+ 
+But I strongly encourage people to iterate on the prompts over time, dropping ones that don’t work for them and adding new questions that they’ve found useful to periodically think about. I’ll also often end up suggesting that people do weekly reviews as another way of generating topics.
+ 
+For an example of a different prompt that I added for myself recently, right now my prep for my own 1:1s starts with an update on whether I&amp;rsquo;ve gotten enough sleep, exercise, and social time this week. I got pretty bad at that for a while and being an accountability buddy was legitimately one of the best ways Drew could help me!
+ 
+During my first 1:1 with a new report, I ask for the following additional prep:
+ 
+ 
+Imagine your ideal role at Wave&amp;mdash;if you could spend 100% of your time on the things you find most satisfying. What would it look like? (Your best guess at the fuzzy end state)
+ 
+Imagine your ideal work context&amp;mdash;if your lead and teammates gave you the best possible support to excel. What would it look like? (Again, fuzzy / your best guess)
+ 
+Imagine your ideal self&amp;mdash;if you became the best person in the world at your ideal role. What would that look like? How will you get there + how can Wave help?
+ 
+What are your preferred communication habits?
+ 
+What makes you grumpy? If you&amp;rsquo;re grumpy, how will your lead know and how can they help you?
+ 
+How do you prefer to receive feedback? Immediately, or later? In writing or face to face?
+ 
+ Ask lots of questions 
+Often my coachees will ask me for my advice or thoughts on a problem. My natural instinct is to immediately give my best-guess answer, but unless I’m really confident in it, I’ve found it’s more productive to get curious and ask lots of questions first. Asking lots of questions feels slow, but it has two benefits:
+ 
+ 
+Often my snap answer is a bad idea because it’s based on a bad assumption. If I make that kind of suggestion, we might waste the next 10 minutes arguing about why it’s a bad idea before we get to the root of the disagreement and uncover my wrong assumption.
+ 
+It shows more of my thought process to the coachee and helps them figure out not just the answer, but the mental models that generated it. If I’m on top of my game, sometimes all I need to do is to ask the right questions and my coachee will discover a good answer themselves. (I’m not usually this on top of my game!)
+ 
+ Logistics 
+Concretely, here’s what the mechanics of my 1:1s are:
+ 
+ 
+We meet for 30 minutes (or 1h for new senior people who need to download a lot of context quickly).
+ 
+We start out weekly, then switch to biweekly if/when we&amp;rsquo;re not using the full time.
+ 
+I schedule them in a batch on Tuesdays (Wave&amp;rsquo;s default “meeting day”).
+ 
+I try very hard not to cancel.
+ 
+ 
+  
+ 
+ 
+For an alternate perspective, my colleague Lincoln suggests the following prompts:
+ 
+ 
+anything bugging you / stressing you out?
+ 
+&amp;ldquo;whys&amp;rdquo; / things you noticed (perhaps cultural) - why do it X way rather than Y?
+ 
+do you feel underprepared to solve any sorts of problems that come your way?
+ 
+are you on the job/career/self-improvement trajectory you want to be on?
+ 
+any design questions to talk through?
+ 
+any projects that went &amp;ldquo;interestingly&amp;rdquo;&amp;mdash;well or poorly&amp;mdash;let&amp;rsquo;s postmortem / talk it through.
+ 
+ &amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 
+ 
+                     
+             We work on Wave because we think it’s an extremely             effective way to improve the world. If that’s how you want to spend your             career too, come work with us!                          
+If you liked this post, you can subscribe to our RSS or our mailing list:</content>
+  </entry>
+  <entry>
+    <title type="html">Wave Mobile Money becomes the first Fintech operating in multiple WAEMU countries to get an E-money license</title>
+    <published>2022-04-21T00:00:00+00:00</published>
+    <updated>2022-04-21T00:00:00+00:00</updated>
+    <id>https://www.wave.com/en/blog/sn-emi/</id>
+    <link rel="alternate" type="text/html" href="https://www.wave.com/en/blog/sn-emi/"/>
+    <author>
+      <name>Coura Sene</name>
+    </author>
+    <content type="html">Wave Mobile Money becomes the first Fintech operating in multiple WAEMU countries to get an E-money license                               
+Thursday, 21st April 2022, Dakar: On April 14 2022 Wave Digital Finance, a subsidiary of Wave Mobile Money Group (Wave) became the first non-bank, non-telecom operator that operates in multiple WAEMU markets to be granted an E-money (EME) license by the Central Bank of the (8) West African States&amp;mdash;BCEAO. The E-money license by the Central Bank signals a growing recognition of a new age of financial inclusion models led by Fintechs such as Wave.
+ 
+Wave currently operates its mobile money business through sponsor banks. The new E-money license allows Wave to directly offer its current suite of financial products to customers. Additionally, it will allow Wave to diversify and offer more financial services like merchant payments, savings, credit, and remittances in collaboration with other partners in the WAEMU financial ecosystem.
+ 
+Speaking on this development, the CEO of Wave Drew Durbin said, “We are excited to receive our E-money issuer license. We are grateful to the BCEAO who has been supportive of our vision to offer radically inclusive and affordable financial services. They have witnessed us grow into the largest mobile money provider in Senegal with over 6 million active users in just 4 years, and that’s only the beginning of customer-first mobile money in WAEMU.”
+ 
+Ms. Coura Carine Sene, General Manager for Wave in WAEMU, said, “This is a momentous occasion for us. Despite being one of the largest mobile money providers in Senegal and other WAEMU countries, we were limited in what we could offer our customers. We will now be able to compete with other mobile money providers on an equal footing. The shift in the licensing structure will benefit both our customers and agent network in the long run. We expect new products to drive customer growth. Thus, benefiting our customers, while increasing the take-home income of our agents.
+ 
+&amp;ldquo;In partnership with the national directions of BCEAO, we hope to extend this license very quickly to the other WAEMU countries so that our entire customer base in the region can benefit equally.”
+ 
+Wave’s mobile money product which first launched in Senegal in 2018, has already disrupted the multi-decade old mobile money industry in the West African Monetary Union (WAEMU) and beyond. Wave’s unique business model and best in class technology-led approach to financial inclusion enables it to offer free bill payments, free cash-in, cash-out with only a 1% transfer fee&amp;mdash;making it up to 70% cheaper than the traditional pricing structure of its competitors.
+ 
+Wave is excited by the opportunity this new license brings in realizing our vision of a cashless Africa.
+ About Wave Mobile Money Group (Wave) 
+Wave is on a mission to make Africa the first cashless continent. Wave Mobile Money offers radically inclusive and extremely affordable mobile financial solutions to millions of users across Africa. We build solutions that allow our customers an affordable way to save, transfer and borrow the money they need to achieve their dreams. We take pride in putting our customers first.
+ About Wave Digital Finance 
+Wave Digital Finance is a subsidiary of Wave Mobile Group and the recipient of the EME license by the BCEAO. The ambition of Wave Digital Finance is to issue electronic money from Senegal and to establish strategic distribution partnerships in the WAEMU zone, beginning with Senegal.
+ 
+Website: wave.com
+ LinkedIn: www.linkedin.com/company/wavemm/
+ 
+For more information, please contact:
+ Ms. Gnagna Kone
+ Head of Public Relations, WAEMU
+ Wave Mobile Money
+ Email: gnagna@wave.com | Phone: +221 76 600 83 71
+                     
+             We work on Wave because we think it’s an extremely             effective way to improve the world. If that’s how you want to spend your             career too, come work with us!                          
+If you liked this post, you can subscribe to our RSS or our mailing list:</content>
+  </entry>
+</feed>
