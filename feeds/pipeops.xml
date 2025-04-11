@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">PipeOps Blog</title>
+  <link rel="alternate" type="text/html" href="https://blog.pipeops.io"/>
+  <link rel="self" type="application/atom+xml" href="http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.pipeops.io%2Ffeed%2F&amp;content_selector=.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom"/>
+  <icon>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</icon>
+  <logo>https://github.com/RSS-Bridge/rss-bridge/favicon.ico</logo>
+  <id>http://10.0.0.124:3044/?action=display&amp;bridge=CssSelectorFeedExpanderBridge&amp;feed=https%3A%2F%2Fblog.pipeops.io%2Ffeed%2F&amp;content_selector=.entry-content&amp;content_cleanup=&amp;remove_styles=on&amp;remove_markup=on&amp;limit=3&amp;format=Atom</id>
+  <updated>2025-04-11T22:08:38+00:00</updated>
+  <author>
+    <name>RSS-Bridge</name>
+  </author>
+  <entry>
+    <title type="html">More Zest, More Zen: PipeOps Just Got an Upgrade</title>
+    <published>2025-04-02T15:44:32+00:00</published>
+    <updated>2025-04-02T15:44:32+00:00</updated>
+    <id>https://blog.pipeops.io/more-zest-more-zen-pipeops-just-got-an-upgrade/</id>
+    <link rel="alternate" type="text/html" href="https://blog.pipeops.io/more-zest-more-zen-pipeops-just-got-an-upgrade/"/>
+    <author>
+      <name>admin</name>
+    </author>
+    <content type="html">Table of Contents 						 															Hide 							 											 				 				
+​​Nova Experience
+Teams
+Pricing Model
+Updated Cloud Provider Support
+User Interface and Design
+Conclusion:
+			
+ 		 
+We are excited to share the latest updates to PipeOps, in line with our commitment to providing accessible cloud infrastructure management for businesses of all sizes, regardless of DevOps expertise.
+    
+Since launch, we’ve studied varying use cases and gathered customer feedback, helping us continually refine and enhance the platform to better serve businesses and developers alike.
+    
+With this release, we&amp;#8217;ve taken things several notches higher, expanding our list of supported cloud providers, refining our pricing model, enhancing Nova servers, and improving our UI, among other updates.
+    
+Here’s everything we updated;
+    
+ 
+Nova Experience
+    
+Teams
+    
+Pricing Model
+    
+Updated Cloud Provider Support
+    
+User Interface and Design
+ 
+    ​​Nova Experience    
+Nova servers are our deployment-ready servers hosted directly on cloud providers you already trust, like AWS, Google Cloud, Huawei Cloud, and more. With Nova servers, we&amp;#8217;re making it incredibly simple for anyone, even without DevOps expertise, to set up and deploy servers to the cloud in just minutes.
+        
+ 
+Nova Usage Dashboard: Our updated Nova dashboard now provides real-time insights into your resource usage and allocation. You can easily view detailed breakdowns of consumption metrics per Nova server, project, or add-on. Analyze key metrics behind your usage data and conveniently filter by different time ranges for precise insights and optimization.
+    
+Multiple Servers: We’ve enhanced the Nova experience by allowing you to deploy multiple servers across various supported cloud providers. A new streamlined interface helps you manage these servers effortlessly, improving your control over scaling rules and overall server management.
+ 
+    Teams    
+We’re introducing a suite of features designed to take your project collaboration to the next level.
+        
+ 
+Team Members: Now, you can invite team members directly to your workspace, giving them the appropriate permissions to collaborate on projects and server deployments. Seats cost $10 each, with certain subscription tiers including complimentary team seats.
+    
+Audit Logs: Stay informed with comprehensive audit logs. Easily track actions and events on your servers or projects, simplifying accountability and enhancing security.
+    
+Collaboration &amp;amp; Management: Our updated controls let you easily manage team member access to specific servers and projects. Define permission levels effortlessly, ensuring secure and efficient collaboration.
+ 
+    Pricing Model    
+We&amp;#8217;ve updated our pricing structure to accurately reflect your actual infrastructure costs.
+    
+ 
+Usage-Based Pricing: With PipeOps Nova, you&amp;#8217;re billed based on your real usage. Our new model ensures fairness and transparency, pay only for what you use, billed conveniently at the end of each billing cycle.
+    
+Subscription Tiers: We&amp;#8217;ve introduced three clear subscription tiers tailored to different business needs: the Growth tier, ideal for startups and small businesses; the Scale tier, designed for medium enterprises; and Custom, tailored specifically for larger enterprises with unique needs.
+    
+Pricing Estimator: Our new pricing estimator lets you clearly anticipate your cloud usage costs to enhance budgeting predictability. Easily forecast expenses and prepare budgets accurately ahead of time.
+ 
+    Updated Cloud Provider Support    
+PipeOps connects seamlessly with your preferred cloud providers, allowing you to deploy servers or projects directly into your own cloud accounts. Our servers deliver peak efficiency and performance, keeping your costs minimal while unlocking the full suite of PipeOps features. Plus, migrating servers within PipeOps is now just a few clicks away.
+        
+ 
+Support for More Providers: We’ve expanded our provider support, adding Google Cloud, DigitalOcean, Huawei Cloud, and AWS to our list. Your favorite cloud platforms are now more accessible than ever.
+    
+Multi-Cloud Setup: Easily manage servers across multiple cloud providers on a single platform. Whether it&amp;#8217;s to utilize cloud credits, organize distinct projects, or meet specific regulatory requirements, our new multi-cloud setup simplifies managing multiple providers seamlessly.
+ 
+    User Interface and Design    
+We&amp;#8217;ve refined the PipeOps user interface to deliver a more seamless and intuitive experience.
+    
+ 
+Navigation: Navigating deployments, managing servers, and configuring settings is now faster and easier, thanks to a cleaner layout and improved responsiveness.
+    
+Layout: We’ve introduced visual enhancements across key pages, making it simpler to monitor resources, track system performance, and quickly access critical features. Whether you&amp;#8217;re deploying a new service or managing existing infrastructure, our updated UI ensures a smoother and more productive workflow.
+    
+Support: New informational elements have been added across several pages to help you easily understand different options and their functions, simplifying decision-making and streamlining your operations.
+ 
+    Conclusion:    
+Whether you&amp;#8217;re looking to streamline your deployment workflow or aiming to simplify complex DevOps operations, these suites of updates improve our support for businesses like you.&amp;nbsp;
+    
+If you are tired of your cloud infrastructure being complex to manage, inefficient, and expensive, Try PipeOps free for 14 days and discover how easy and affordable managing your infrastructure can be.</content>
+  </entry>
+  <entry>
+    <title type="html">Smarter Pricing for Growing Teams: PipeOps Updated Pricing Model</title>
+    <published>2025-03-27T00:54:59+00:00</published>
+    <updated>2025-03-27T00:54:59+00:00</updated>
+    <id>https://blog.pipeops.io/smarter-pricing-for-growing-teams-pipeops-updated-pricing-model/</id>
+    <link rel="alternate" type="text/html" href="https://blog.pipeops.io/smarter-pricing-for-growing-teams-pipeops-updated-pricing-model/"/>
+    <author>
+      <name>admin</name>
+    </author>
+    <content type="html">Table of Contents 						 															Hide 							 											 				 				
+Update to Subscription Tiers
+What&amp;#8217;s new with these tiers?
+Usage-Based Pricing
+A closer look at pricing on the new tiers
+Servers on PipeOps
+Ensuring a smooth transition
+We remain committed to you
+			
+ 		 
+    
+At PipeOps, our mission has always been clear; to simplify cloud infrastructure management for businesses of all sizes.
+    
+Today, we’re taking another step toward that goal by introducing updates to how PipeOps workspaces are structured. As we continue to gain deeper insights into the challenges businesses face, we remain committed to evolving PipeOps to better address these needs.
+    
+In this blog, we’ll walk you through the latest updates to PipeOps’ subscription tiers and pricing, explaining what’s new, why we made these changes, and how they benefit you.
+    Update to Subscription Tiers    
+Since the launch of our Nova servers in 2024, subscriptions have been split into 2 basic categories, Nova &amp;#8211; which provides deployment-ready servers at varying resource classes, like the “Nova Sapa” plan, and Cloud provider &amp;#8211; which allows businesses to connect and deploy to cloud providers like AWS seamlessly from the PipeOps dashboard.
+    
+Unfortunately, this meant businesses that wanted the affordability of Nova but also the flexibility of their own cloud provider had to create multiple subscriptions, making it harder to streamline their workflow and defeating our goal of convenience and affordability. To fix this issue we introduced a free cloud provider tier The Accelerate plan but this was only a temporary fix.
+    
+To better cater to the unique needs of various businesses, we are introducing 3 new subscription tiers
+    
+ 
+Grow
+    
+Scale
+    
+Custom
+ 
+    What&amp;#8217;s new with these tiers?    
+ 
+One plan for all your servers:
+Your subscription will no longer be based on the servers you create, this means you can now create, migrate or delete servers across Nova and other providers with no effect on your subscription cost.
+    
+Deploy to Nova or connect your provider: 
+With these new tiers, you get the flexibility to create a Nova server or connect a cloud provider whenever you want to, all in one plan. This means your monthly bill remains the same no matter where your server is hosted or how many servers you create.
+    
+No resource classes:
+Unlike the old tiers your servers will not be created based on a fixed resource class, this means you will no longer be limited by the server resources, servers will now be limited only by the rules you set. This makes it easier to adjust your server scaling rules to fit your needs per time and eliminate failed deployments due to exhausted resources.
+    
+Simplified billing:
+Billing on the new plan is now significantly easy to track and understand. User will now pay a monthly subscription fee to access the PipeOps platform and the total cost of their cloud usage at the end of each billing cycle. This means you will only be billed for resources you use no matter the number of servers you create.
+ 
+    
+    
+    
+    
+    Usage-Based Pricing    
+We’re making a major shift to a usage-based model to permanently resolve the issues mentioned above and ensure fair, transparent billing. With this new approach, you’ll only be billed for your actual cloud usage at the end of each month, no more, no less.
+    A closer look at pricing on the new tiers    
+Users get a 14-day trial upon signing up, and after this period, they will be required to activate a subscription. With an active subscription, you can create servers on Nova or connect a cloud provider. 
+    
+The new subscription tiers:
+    
+ 
+Growth Tier ($10/user/month): 
+The Growth Tier is suitable for individual developers and startups with small teams (up to 4 members). At $10 per user per month, it offers access to essential PipeOps features ideal for building and managing your projects efficiently. 
+Subscribers can create multiple servers on PipeOps Nova, and get a $5 monthly usage credit, as well as create one server through a connected cloud provider. This plan is perfect for early &amp;#8211; mid stage teams.
+ 
+    
+ 
+Scale Tier ($150/month): 
+The Scale Tier is designed for growing teams that require advanced features and greater resources. At $150 per month, it includes up to five free team seats (additional seats available for purchase). Subscribers can create multiple servers on PipeOps Nova, and get a $50 monthly usage credit, and also create servers on up to five connected cloud providers. This tier also offers advanced alerting features, CLI access, and multiple environments. For more information, please refer to our pricing page.
+    
+Custom Tier (from $500/month): 
+The Custom Tier is ideal for larger organisations with specialised needs. Starting at $500 per month, this plan includes everything in the Growth and Scale tiers fully customised to perfectly match your organisation&amp;#8217;s unique requirements. It also includes priority support and additional tailored benefits. Please contact support to activate this plan.
+ 
+    
+For more detailed information on tiers, please refer to our pricing page.
+    Servers on PipeOps    
+Servers are at the core of everything you do on PipeOps, this is where your projects will be hosted. You can create a server on PipeOps either via PipeOps Nova or by connecting a supported cloud provider. 
+    
+Create a Nova Server: Your servers will be created by PipeOps on any supported cloud providers of your choice and you will be billed for resources based on usage at the end of your billing cycle. You will receive a usage discount based on your tier, which will be deducted from your usage bill.
+    
+Bring your own Cloud: Your servers are created on your connected cloud provider and you will not be billed for resource usage by PipeOps. You can connect multiple providers and create multiple servers across these providers based on your business needs. Learn more about connecting cloud providers.
+    Ensuring a smooth transition    
+Your current subscription remains unaffected, and you will continue to have access as usual until April 20, 2025. During this period, you would not be billed any additional cost, giving you time to explore the new changes and determine what tier best fits your needs.
+    
+If you are not quite sure how the new updates fit your business, feel free to reach our via our support channels, we’d love to hear from you.
+    We remain committed to you    
+We understand that the cost of cloud services remains a concern and that reducing these costs while maintaining performance and increasing team efficiency is a top priority for businesses.
+    
+These updates provide more transparency into your cloud cost, and this aligns with our goal to help businesses of all sizes optimise their cloud infrastructure and reduce expenses. 
+    
+If you have any questions or would like to share feedback please contact us here</content>
+  </entry>
+  <entry>
+    <title type="html">Dev Wars: Serverless vs Server-side deployment</title>
+    <published>2024-10-01T14:30:07+00:00</published>
+    <updated>2024-10-01T14:30:07+00:00</updated>
+    <id>https://blog.pipeops.io/dev-wars-serverless-vs-server-side-deployment/</id>
+    <link rel="alternate" type="text/html" href="https://blog.pipeops.io/dev-wars-serverless-vs-server-side-deployment/"/>
+    <author>
+      <name>admin</name>
+    </author>
+    <content type="html">Table of Contents 						 															Hide 							 											 				 				
+Introduction
+Serverless
+So what could go wrong?
+Server Side
+Concerns with Server-Side
+The Sweet spot
+			
+ 		 Introduction    
+Cloud deployment has become the go-to approach for hosting projects, mainly because of its accessibility and flexibility, but developers across the world are split into two camps.&amp;nbsp;
+    
+The Server-Side Camp believes in making deployments directly to servers they control, favoring full control over the infrastructure. This approach allows developers to fine-tune performance, security, and scaling based on specific needs. They tend to favor monolithic architectures or containerized systems that run on dedicated hardware or virtual machines.
+    
+The Serverless Camp believes that deployments should be abstracted from server management. This camp prefers automatic scaling, where developers focus on code, and infrastructure is managed by third-party services like AWS Lambda, Vercel, or Netlify. They value speed, simplicity, and cost-efficiency but may sacrifice some control.
+    
+This divide sparks key discussions around cost, efficiency, scalability, and complexity, all of which are critical when developers, founders, or executive teams make decisions about deployment strategies. In this article, I’ll provide insights into both server-side and serverless deployment, highlighting their core differences and advantages, while referencing recent news and trends along the way.
+    
+    Serverless    
+Serverless refers to cloud computing models where developers focus solely on writing code, without managing the underlying servers. In a serverless environment, cloud providers (like AWS Lambda, Google Cloud Functions, etc.) handle resource provisioning, scaling, and maintenance automatically. Developers only pay for the exact resources they use, making it cost-efficient for many applications.
+    
+What makes serverless so attractive to developers is its simplicity, scalability, and time-saving benefits. By eliminating the need to manage infrastructure, developers can focus on coding, which speeds up development cycles and reduces operational overhead. The automatic scaling feature also ensures that applications can handle sudden spikes in traffic without manual intervention.
+    So what could go wrong?    
+The conversation about the pitfalls of serverless has made headlines across developer communities on Twitter/X, Hacker News, Reddit, and others with multiple developers citing sudden huge spikes in their bills. With comments like;
+     
+vercel is great to deploy your portfolio and show it to no one. but it&amp;#8217;s terrible for getting actual traffic &amp;#8211; X User
+     
+And multiple stories, $120k within 24h, an empty S3 bucket ($1,300), $72K testing Firebase + Cloud Run
+    
+    
+Challenges like unpredictable costs, cold start delays, and potential vendor lock-in are important considerations. Despite these, many developers love serverless for its flexibility, enabling them to deploy and scale quickly without worrying about infrastructure complexity.
+    Server Side    
+Server-side deployment refers to hosting applications on servers that the developer or organization directly manages. This approach involves deploying applications on physical servers, virtual machines, or containers that developers configure and maintain. Unlike serverless, where infrastructure is abstracted, server-side deployments give developers full control over the environment, which can be optimized for performance, security, and specific project needs.
+    
+Developers appreciate server-side deployment for its predictability, control, and customization, especially for long-running processes, specialized applications, or when handling sensitive data. Amazon Prime Video switched from a microservices approach (which used serverless functions) to a monolithic architecture. By running all processes on a single server, they reduced overhead and significantly cut costs by eliminating the complexity and inefficiencies tied to distributed services.
+    Concerns with Server-Side    
+It requires more effort to manage scaling, updates, and security compared to serverless setups. Some concerns include:
+    
+ 
+Scalability: Manual effort is needed to scale infrastructure up or down as demand fluctuates, making it less flexible for high-traffic or spiky workloads.
+    
+Maintenance: Managing servers requires ongoing attention for updates, security patches, and hardware failures.
+    
+Cost: While predictable, running dedicated servers can be more expensive, especially if resources are underutilized.
+    
+Complexity: Developers must manage the full stack, from hardware to application, increasing complexity and requiring more specialized knowledge.
+ 
+    The Sweet spot    
+The ideal solution would combine the best of both worlds: the simplicity and scalability of serverless without the unpredictability and lack of control, and the customization and reliability of server-side without the complexity and management overhead. Platforms like PipeOps address this balance by offering server-side deployments that handle infrastructure complexity for you, allowing developers to maintain control while simplifying the management process and reducing costs. This approach bridges the gap, providing flexibility and ease of use.
+    
+To gain a deeper understanding of this conversation, join our upcoming webinar on October 10th, 2024, where industry leaders from both serverless and server-side deployment fields will discuss the topic in detail. You’ll get all the insights needed to make the best decision for your specific needs, potentially saving your business thousands of dollars in infrastructure costs. Don’t miss this opportunity—Register Now to secure your spot!</content>
+  </entry>
+</feed>
