@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One Click - Stellar Ecosystem</title>
+    <link>https://oneclick.fi</link>
+    <description>Latest articles about One Click in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/one-click.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why Care About Stellar?</title>
+      <link>https://medium.com/oneclickfi/why-care-about-stellar-f64b97084602</link>
+      <pubDate>Wed, 07 May 2025 17:01:02 GMT</pubDate>
+      <author>One Click Team</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*wkLCQ34pIb8Assya2ycN6g.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Why Care About Stellar?
+
+#### Learn how Stellar is empowering global access to finance
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*wkLCQ34pIb8Assya2ycN6g.png)
+
+Stellar is a blockchain network which has garnered significant attention for its mission to provide access to [financial services for the unbanked and underbanked](https://stellar.org/use-cases) populations worldwide. This mission is crucial for reducing poverty and promoting economic growth, as it empowers individuals to participate in the global economy through low-cost and efficient financial solutions.
+
+### Financial Inclusion
+
+Stellar’s focus on financial inclusion is driven by its ability to offer low-cost financial services that are accessible via mobile devices. This commitment to financial inclusion can enhance corporate social responsibility initiatives while opening new customer segments for businesses. By leveraging blockchain technology, Stellar provides a platform for individuals without bank accounts to access essential financial services, including savings, loans, and remittances, which are often unavailable to them.
+
+### Cross-Border Payments and Remittances
+
+Stellar’s ability to facilitate [cross-border payments](https://www.bscapitalmarkets.com/an-introduction-to-stellar-and-its-application-in-cross-border-payments.html) and [remittances](https://stellar.org/use-cases/tokenization?utm_term=stellar%20network&utm_campaign=Search%3A%20Stellar%20Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8782384464&hsa_cam=16514771985&hsa_grp=142794767748&hsa_ad=586744659031&hsa_src=g&hsa_tgt=kwd-493032579578&hsa_kw=stellar%20network&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw-e6-BhDmARIsAOxxlxXkCUyJieCSBBBvX0lHlvEkVOb2QhBvlegNbz8A9EbtPYXmT8q4bG0aAmx5EALw_wcB) is particularly significant, offering a faster and cheaper alternative to traditional methods, which can be slow and expensive. Transactions on the Stellar network are processed in seconds, significantly faster than traditional banking systems, which can take days to settle cross-border payments. The low transaction fees on Stellar reduce operational costs, making it an attractive option for remittances and [cross-border transactions](https://stellar.org/learn/cross-border-payments).
+
+![Image](https://cdn-images-1.medium.com/max/1012/0*39N_9iI88I-fcKEg)
+
+### Scalability and Interoperability
+
+The [Stellar network](https://developers.stellar.org/) is designed to handle a high volume of transactions efficiently, making it suitable for scalable applications. It uses the Stellar Consensus Protocol (SCP), which ensures fast transaction validation without the need for energy-intensive mining. Additionally, Stellar’s interoperability features allow different financial systems to connect seamlessly, enabling smooth transactions across various currencies and platforms. This capability is essential for businesses looking to expand their reach and tap into new markets, as it reduces the friction associated with currency conversions and enhances financial accessibility.
+
+### Role of the Stellar Development Foundation (SDF)
+
+The [Stellar Development Foundation (SDF)](https://stellar.org/foundation/2023-roadmap) plays a crucial role in promoting the network’s growth through partnerships, funding, and open-source tools. This supportive environment fosters collaboration among developers and entrepreneurs, driving the creation of new financial applications and services. The SDF’s efforts help ensure that Stellar remains a leader in the blockchain space, particularly for those interested in financial inclusion and scalable DeFi solutions.
+
+### Why Care About Stellar?
+
+Stellar’s native token, [Lumens (XLM)](https://stellar.org/learn/lumens), serves multiple purposes within the network, including paying transaction fees and acting as a bridge currency for multi-currency transactions. This versatility positions Stellar as a leader in the blockchain space, particularly for those interested in financial inclusion and scalable DeFi solutions. By exploring the Stellar ecosystem, using its dApps, and contributing by building your own applications, you can be part of a movement that enhances global financial accessibility and promotes economic growth.
+
+This expanded text highlights Stellar’s mission, its role in financial inclusion, and its capabilities in cross-border payments, making it clear why Stellar is an important player in the blockchain and DeFi space.]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/oneclickfi/why-care-about-stellar-f64b97084602</guid>
+    </item>
+    <item>
+      <title>Stellar Ecosystem Overview</title>
+      <link>https://medium.com/oneclickfi/stellar-ecosystem-overview-1771059c478c</link>
+      <pubDate>Thu, 24 Apr 2025 10:19:24 GMT</pubDate>
+      <author>One Click Team</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*C_ie1KvCYuGG_YwTSuuJUg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Stellar Ecosystem Overview
+
+#### An entire overview of Stellar’s Ecosystem and its various projects
+
+![Stellar ecosystem image](https://cdn-images-1.medium.com/max/1024/1*C_ie1KvCYuGG_YwTSuuJUg.png)
+
+Stellar has a [growing ecosystem](https://weareblox.com/en-eu/stellar) of projects building the future of DeFi, including infrastructure providers, bridges, protocols, and wallets The ecosystem is built around its native cryptocurrency, Lumens (XLM), and is designed to facilitate cross-border transactions and improve financial inclusion.
+
+The focus of its dApps cover remittances, payment processing, and asset tokenization. They also have partnerships with financial institutions and non-profits. Stellar’s unique features, such as the Stellar Consensus Protocol (SCP), ensure fast and secure transactions without relying on mining or staking power.
+
+![Image](https://cdn-images-1.medium.com/max/1024/0*csfex6zyMLkPhC2F)
+
+### Statistics
+
+*   [TVL](https://defillama.com/chain/Stellar): $62.24M
+
+Target TVL: $1.5B is the target in the Stellar Development Foundation [roadmap](https://stellar.org/foundation/strategy).
+
+*   TPS: 200
+
+Latest Upgrade: Pull Mode (introduced in protocol release 19.7.0) improves transaction propagation efficiency, shortening ledger closure times and preparing for increased capacity.
+
+*   Transaction Costs:<**$0.01** per transaction
+
+The Stellar ecosystem fosters innovation and growth, empowering developers to create impactful financial solutions and with its focus on speed and cost, it is on course to be a go-to blockchain.
+
+*   [Market Cap](https://coinmarketcap.com/currencies/stellar/):$9.37B (15th Largest)
+
+The Stellar ecosystem fosters innovation and growth, empowering developers to create impactful financial solutions and with its focus on speed and cost, it is on course to be a go-to blockchain.
+
+*   Users and tokens
+
+≈28M users, with 30B XLM in circulation and [55.44B tokens burned](https://cryptonary.com/stellar-foundation-burn-50-of-total-xlm-tokens/), highlighting the token’s increasing scarcity.
+
+### Use Cases
+
+In the previous blog we covered ‘Why Stellar’ and everything related to the DeFi side of the production. Within this we discussed Stellar being built for asset tokenization. Not including this feature, Stellar has many uses in the world of DeFi, so now we’ll take a look at some of the top use cases for Stellar DeFi.
+
+### Cross-Border Payments and Remittances
+
+Cross border payments and remittances are slated as processes which take very long, cost high fees and have little support when something goes wrong. [$42B in cross border payments](https://www.statista.com/topics/11647/cross-border-payments/) involving North America alone in 2024. The number goes much higher when accounting for LCOL countries. Sending money back home can be expensive and time consuming, stellar is nearly instantaneous and very low cost.
+
+![Image](https://cdn-images-1.medium.com/max/1024/0*CI3s_D6crSv7AgYU)
+
+Transactions are processed in seconds, for fractions of a penny, which is significantly faster than traditional banking systems. This is why the integrations and partnerships with organizations like MoneyGram and [IBM](https://www.ibm.com/think/topics/cross-border-payments-blockchain) enhance its role in cross-border payments by providing seamless on/off ramps for fiat currencies.
+
+### Microtransactions
+
+Similar to not having enough gas to facilitate a payment, clear a wallet, microtransactions for ‘dust’ amounts of currency is a problem. [Stellar’s minimal transaction fees](https://scopuly.medium.com/traveling-the-world-of-crypto-on-a-single-xlm-a-micro-economic-adventure-57e3bf508a21) make it suitable for microtransactions, which are often not viable on traditional payment systems due to high fees.
+
+Similar to remittance, which can often be smaller amounts, they are often ignored and unable to be facilitated due to their size. With XLM being low cost, this enhances financial inclusion by enabling small transactions that can be crucial in underbanked regions.
+
+### Central Bank Digital Currencies (CBDCs)
+
+As CBDCs rise in popularity so will the demand for them. For them to be realized and actualized, the payment rails supporting them must be equipped to handle the demand for TPS and speed.
+
+Stellar’s blockchain architecture is well-suited for issuing and [managing CBDCs](https://stellar.org/resources/stellar-for-cbdcs) due to its efficiency, scalability, and compliance features. The design aligns with regulatory requirements, making it a viable option for institutions seeking to issue CBDCs. Known for its interoperability, Stellar’s ability to integrate with existing financial systems and other blockchain networks enhances the potential reach and usability of CBDCs.
+
+The built-in compliance, which Stellar is noted for, helps ensure that CBDCs can be issued and managed in alignment with regulatory requirements, such as anti-money laundering (AML) and know-your-customer (KYC) laws.
+
+![Image](https://cdn-images-1.medium.com/max/1012/0*3A29XciozTHqF1jE)
+
+### Aid and Assistance Programs
+
+Traditional aid distribution often faces several challenges, including inefficiency, high costs, and lack of transparency. These issues can lead to delays and misallocation of funds, reducing the effectiveness of aid programs.
+
+Stellar’s technology offers a solution to these challenges by providing a transparent, efficient, and cost-effective way to distribute aid as all transactions on the Stellar network are recorded on a public ledger, ensuring that aid distribution is transparent and accountable.
+
+The majority of Stellar Network use cases work to bridge the gap between institutions coming onchain and works to fix issues for the every day person and user of DeFi. Being equipped to handle both sides of these issues are what gives Stellar pole position in the race for winning in the world of Decentralized finance.
+
+### Bonus points about the Stellar Ecosystem
+
+*   **Decentralized Network:** Operates on a network of nodes, reducing the risk of a single point of failure.
+*   **Anti-Spam Mechanism:** A small amount of XLM is required to prevent spam accounts and transactions on the network.
+*   **Integration with TradFi:** Anchors are financial institutions that issue fiat currencies and other cryptocurrencies on the Stellar network, bridging traditional financial systems with blockchain technology.
+*   **Energy Efficiency:** SCP is more energy-efficient compared to traditional proof-of-work (PoW) or proof-of-stake (PoS) systems, as it relies on trusted nodes rather than computational power.
+*   **Autonomous Fault Tolerance and Safety:** SCP ensures that the system remains operational even if some nodes fail or misbehave, maintaining the integrity of transactions.
+
+By understanding these core elements about the Stellar ecosystem, you’re better equipped to explore the opportunities and innovations within Stellar!
+
+### To keep up to date follow us on [X](https://x.com/OneClickFi), sign up to the early list [HERE](http://www.oneclick.fi/) and join us in [Discord](https://discord.com/invite/oneclickfi)!
+
+![Image](https://cdn-images-1.medium.com/max/992/0*kChVoPC_5V5YGHWX.png)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/oneclickfi/stellar-ecosystem-overview-1771059c478c</guid>
+    </item>
+    <item>
+      <title>Introduction to Stellar DeFi</title>
+      <link>https://medium.com/oneclickfi/why-stellar-defi-d0c6bd080387</link>
+      <pubDate>Mon, 14 Apr 2025 10:12:56 GMT</pubDate>
+      <author>One Click Team</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*fHea4WL8ruuNYnUke7Jcpw.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Introduction to Stellar DeFi
+
+#### Why should you care about Stellar and the network’s ecosystem
+
+![image](https://cdn-images-1.medium.com/max/1024/1*fHea4WL8ruuNYnUke7Jcpw.png)
+
+On the Stellar network, DeFi applications leverage the platform’s capabilities for fast, low-cost transactions and asset tokenization. Stellar allows the creation of tokens representing various assets, such as fiat currencies, commodities, or securities, facilitating new investment opportunities. Through this, Stellar is known to be the solution to these 3 key areas:
+
+Interoperability, scalability and [low cost, fast transactions](https://developers.stellar.org/docs/learn/fundamentals/fees-resource-limits-metering).
+
+![image](https://cdn-images-1.medium.com/max/1024/0*FeY7zbmlM0FFwUCM)
+
+### Interoperability
+
+The network seamlessly connects with traditional financial systems and other blockchains, making it a hub for cross-chain DeFi dApps. Stellar is ahead of the curve and anticipated institutional involvement from its inception. They have focused on allowing for seamless integration with existing banking systems. This interoperability facilitates cross-border payments and asset transfers between different financial systems. They currently have a partnership with [Moneygram](https://stellar.org/ecosystem) which has rails between USDC and fiat by providing a smooth, seamless on and offramping.
+
+[Interoperability](https://stellar.org/policy-hub/interoperability) extends across the cryptocurrency space also. Stellar supports transactions across multiple blockchain platforms, enabling cross-chain dApps. This feature allows for various blockchain networks to communicate with each other, thus enhancing the reach and versatility of DeFi solutions.
+
+### Scalability
+
+The more a project can scale, the more traffic it can handle and thus the more transactions it can handle and more users it can obtain. Stellar is designed to handle a high volume of transactions efficiently which makes it perfect for transfers such as cross-border payments and remittances. [Scalability](https://www.sgforge.com/stellar-network-stablecoin/#:~:text=High%20Scalability%3A%20Stellar%20architecture%20allows,for%20real%2Dtime%20financial%20applications.) is a common problem within crypto, however Stellar built with this in mind. The following are the main contributing factors as to why they are solving the scaling problem.
+
+*   Stellar processes transactions in ≈2–5 seconds, significantly faster than traditional banking systems, compared to cross-border transactions taking multiple days/weeks.
+*   Stellar is also capable of processing thousands of operations per second, ensuring it can handle high transaction volumes without significant performance degradation.
+*   Transactions costs are ≈0.00001 USD per transaction, Stellar encourages frequent use and makes transactions accessible and affordable.
+
+### Architecture
+
+#### Stellar Consensus Protocol
+
+Taking a look at the mechanism behind Stellar, you will find that Stellar uses the [Stellar Consensus Protocol (SCP)](https://stellar.org/learn/stellar-consensus-protocol), a Federated Byzantine Agreement System, which allows for quick transaction confirmations without the need for energy-intensive mining. This mechanism supports a high volume of transactions while maintaining network security and reliability.
+
+Also, Stellar implements state archival, which helps manage data storage efficiently by archiving inactive accounts and storing them off-chain. This approach maintains the network’s overall health and efficiency.
+
+![image](https://cdn-images-1.medium.com/max/1012/0*R8TrNLcPsT7y4T5Q)
+
+#### Soroban
+
+Stellar provides a robust smart contract architecture called ‘Soroban’. [Soroban](https://stellar.org/soroban) was created to enhance and support Stellar’s mission of being scalable and secure. Soroban is built with the goal of providing a developer-friendly environment that supports languages like Rust, making it easier for developers to build on the Stellar network. It is built with the goal of providing a developer-friendly environment that supports languages like Rust, making it easier for developers to build on the [Stellar network](https://stellar.org/learn/intro-to-stellar).
+
+Soroban is optimized for scalability, ensuring that smart contracts can handle a high volume of transactions efficiently. This scalability is crucial for dApps which require fast and reliable execution. It also emphasizes security, providing mechanisms to protect user funds and ensure the integrity of the smart contracts.
+
+![image](https://cdn-images-1.medium.com/max/1012/0*p8UnOHO3-oKIT5dl)
+
+As Soroban underpins everything, here’s some use cases for the technology. Soroban can be used to build DEXes which offer fast and secure trading experiences. Developers can also create lending platforms which allow users to borrow and lend assets in a decentralized manner and these platforms can offer more flexible terms and better interest rates compared to traditional lending systems. This works to further improve the world of DeFi with higher yields compared to TradFi options.
+
+### Asset Tokenization
+
+The future is onchain. As [real world assets](https://www.coinbase.com/en-gb/learn/crypto-glossary/what-are-real-world-assets-rwa) (RWAs) and stablecoins grow, so too will the ways they are issued and distributed. Stellar has built their network to allow for this process without the need for any smart contract involvement.
+
+#### How to tokenize an asset on Stellar (Guide)
+
+1.  Set up a primary account to issue the asset. This account is the origin of the asset and is forever linked to its identity.
+2.  Establish a secondary account to receive and distribute the asset. This account is the first recipient of the asset and is used to manage its distribution.
+3.  The distribution account must establish a trustline with the issuing account to hold and trade the asset. This trustline signifies trust in the issuing account and its assets.
+4.  The issuing account transfers the asset to the distribution account, which can then distribute it further to other users.
+
+![image](https://cdn-images-1.medium.com/max/1012/0*1JqFWbKYAA2xmUB_)
+
+Tokenization comes with compliance risk and procedures to follow. There are many such historical cases in which this has been a problem and outlawed entire projects from seeing the light of day. By recognizing this, Stellar has built-in compliance features which help issuers manage assets in accordance with regulatory requirements.
+
+Features such as asset control access, limiting supply and publishing information about the asset natively, allow those to adhere to regulations such as [AML and KYC](https://www.idnow.io/regulation/aml-kyc-overview/), thus eliminating this potential risk for those who build and issue on Stellar.
+
+### Financial Inclusion
+
+Stellar’s focus on financial inclusion is driven by its ability to offer low-cost financial services that are accessible via mobile devices. This commitment to financial inclusion can enhance corporate social responsibility initiatives while opening new customer segments for businesses. By leveraging blockchain technology, Stellar provides a platform for individuals without bank accounts to access essential financial services, including savings, loans, and remittances, which are often unavailable to them.
+
+### Cross-Border Payments and Remittances
+
+Stellar’s ability to facilitate [cross-border payments](https://www.bscapitalmarkets.com/an-introduction-to-stellar-and-its-application-in-cross-border-payments.html) and [remittances](https://stellar.org/use-cases/tokenization?utm_term=stellar%20network&utm_campaign=Search%3A%20Stellar%20Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8782384464&hsa_cam=16514771985&hsa_grp=142794767748&hsa_ad=586744659031&hsa_src=g&hsa_tgt=kwd-493032579578&hsa_kw=stellar%20network&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw-e6-BhDmARIsAOxxlxXkCUyJieCSBBBvX0lHlvEkVOb2QhBvlegNbz8A9EbtPYXmT8q4bG0aAmx5EALw_wcB) is particularly significant, offering a faster and cheaper alternative to traditional methods, which can be slow and expensive. Transactions on the Stellar network are processed in seconds, significantly faster than traditional banking systems, which can take days to settle cross-border payments. The low transaction fees on Stellar reduce operational costs, making it an attractive option for remittances and [cross-border transactions](https://stellar.org/learn/cross-border-payments)
+
+![image](https://cdn-images-1.medium.com/max/1012/0*39N_9iI88I-fcKEg)
+
+### Scalability and Interoperability
+
+The [Stellar network](https://developers.stellar.org/) is designed to handle a high volume of transactions efficiently, making it suitable for scalable applications. It uses the Stellar Consensus Protocol (SCP), which ensures fast transaction validation without the need for energy-intensive mining. Additionally, Stellar’s interoperability features allow different financial systems to connect seamlessly, enabling smooth transactions across various currencies and platforms. This capability is essential for businesses looking to expand their reach and tap into new markets, as it reduces the friction associated with currency conversions and enhances financial accessibility.
+
+### Role of the Stellar Development Foundation (SDF)
+
+The [Stellar Development Foundation (SDF)](https://stellar.org/foundation/2023-roadmap) plays a crucial role in promoting the network’s growth through partnerships, funding, and open-source tools. This supportive environment fosters collaboration among developers and entrepreneurs, driving the creation of new financial applications and services. The SDF’s efforts help ensure that Stellar remains a leader in the blockchain space, particularly for those interested in financial inclusion and scalable DeFi solutions.
+
+Stellar positions itself as a leader in the DeFi space, offering developers a robust infrastructure to build innovative financial solutions that enhance global financial inclusion and accessibility for the everyday DeFi user(s) and institutions who hold trillions of assets. A blockchain for everyone.
+
+### To keep up to date follow us on [X](https://x.com/OneClickFi), sign up to the early list [HERE](http://www.oneclick.fi/) and join us in [Discord](https://discord.com/invite/oneclickfi)!
+
+![image](https://cdn-images-1.medium.com/max/992/0*Lj1lUba_1BPAWLhv.png)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/oneclickfi/why-stellar-defi-d0c6bd080387</guid>
+    </item>
+  </channel>
+</rss>

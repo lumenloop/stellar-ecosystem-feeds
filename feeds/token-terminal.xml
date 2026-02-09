@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Token Terminal - Stellar Ecosystem</title>
+    <link>https://tokenterminal.com</link>
+    <description>Latest articles about Token Terminal in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/token-terminal.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The silent winners of 2025: Paxos &amp; Steakhouse Financial</title>
+      <link>https://tokenterminal.com/resources/newsletter/the-silent-winners-of-2025-paxos-steakhouse-financial</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Token Terminal</author>
+      <enclosure url="https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/637e69eb-c694-4331-80d1-e3322d4f226a/landscape_Snapshot_-_Blog_post_cover_-_Updated.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Each week in The Snapshot, we share data-driven insights, highlight new listings, and showcase our latest product updates.**  
+
+Read on for the latest edition 👇
+
+### **Vault curators emerge as a new DeFi business category**
+
+![Chart](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/a818421b-60ad-4f22-a80e-16630a1ccc35/download__2_.png?t=1768501720)  
+
+[View dashboard](https://tokenterminal.com/explorer/studio/dashboards/928b2a19-a4e6-4c13-a1c5-ab682c49abf3?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial)
+
+- **Vault curators have emerged as a distinct layer in DeFi, with Steakhouse Financial alone managing ~$1.8b in deposits on Morpho.** Curators allocate capital across multiple lending markets, handling strategy design, and ongoing risk monitoring on behalf of depositors.
+- **Vault curators emerged because Morpho's modular design enables strategies that traditional lending protocols cannot easily support.** Protocols like Aave set supply caps and market parameters through governance. Morpho allows curators to build tailored multi-market strategies and, through active management, potentially capture demand that governance-constrained protocols leave unmet.
+- **Vault curation is becoming a meaningful DeFi business category.** Steakhouse's ~$1.8b in deposits exceeds the ecosystem TVL of major chains like Aptos (~$1.7b). At a 10% performance fee on an assumed 5% average yield, that deposit base would imply roughly $9m in annual revenue for the curator, which reportedly employs less than 20 people.
+
+### **Paxos: the infrastructure behind PYUSD and USDG**
+
+![Chart](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/1f1b44ec-6a61-400d-9609-3109fee0e0f0/download__3_.png?t=1768501739)
+
+[View dashboard](https://tokenterminal.com/explorer/metrics/outstanding-supply?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial)
+
+- **The total market cap of assets issued by Paxos has grown from ~$1b to ~$6.7b since January 2025.** Paxos is the regulated issuer behind PayPal's PYUSD, the Global Dollar Network's USDG, and the tokenized gold product PAXG. While partners like PayPal handle distribution, Paxos provides issuance infrastructure and regulatory compliance.
+- **Paxos has positioned itself as the trusted backend for partners who want stablecoin products without building blockchain infrastructure.** PayPal and the Global Dollar Network consortium (Kraken, Robinhood, Galaxy Digital, etc.) chose Paxos because of its regulatory credentials, including an OCC national trust charter in the U.S., MAS license in Singapore, and MiCA compliance in Europe.
+- **However, Paxos' infrastructure-first model means limited economics at the issuer level.** Both USDG and PYUSD pass on a majority of the reserve yield to their users. As a result, Paxos earns a smaller percentage of the reserve yield, but is better positioned to scale through enterprise partnerships, where the customers have more control over the economics.
+
+### **Solana's stablecoin landscape is diversifying**
+
+![Chart](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/283327b6-bdcc-4c06-a0e5-a2de62b04cb7/download__4_.png?t=1768501749)
+
+[View dashboard](https://tokenterminal.com/explorer/studio/dashboards/928b2a19-a4e6-4c13-a1c5-ab682c49abf3?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial)
+
+- **Non-USDC/USDT stablecoins now account for ~20% of Solana's total stablecoin supply, up from ~3% a year ago.** Beyond USDC, Solana now hosts PYUSD, USDG, USD1, EURC, FDUSD, and over a dozen other deployments, including non-dollar stablecoins like the Swiss franc (VCHF) and Euro (EURC).
+- **Solana-native applications are also launching their own stablecoins.** Phantom (the leading Solana wallet) launched CASH; Jupiter launched jupUSD. This signals that Solana's app ecosystem is mature enough for native teams to expand their offerings to multiple financial products.
+- **For Solana, this diversification reduces concentration risk and signals issuer confidence.** A year ago, a regulatory issue affecting Circle (USDC issuer) would have threatened Solana's entire stablecoin base. Today, a diversified issuer set makes the network more resilient, and the fact that new issuers are choosing Solana is a vote of confidence in the ecosystem.
+
+### **Ethereum L1 hits record transactions at record-low fees**
+
+![Chart](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/6a777b41-8c7b-4b56-b8a7-9a2c6117c04c/download__5_.png?t=1768501757)
+
+[View dashboard](https://tokenterminal.com/explorer/studio/dashboards/928b2a19-a4e6-4c13-a1c5-ab682c49abf3?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial)
+
+- **Ethereum L1 transaction counts have reached all-time highs, while median transaction fees remain near all-time lows.** Weekly transactions recently surpassed 12m, with median transaction fees below $0.02 - a stark contrast to 2021-2022 when fees regularly exceeded $20.
+- **Ethereum's recent scaling upgrades have materially reduced L1 fee pressure, restoring mainnet usability at scale.** The introduction of blobspace via EIP-4844, alongside continued rollup adoption, has shifted the most price-sensitive activity off L1. This has reduced congestion on mainnet, allowing transaction volumes to reach new highs without the fee spikes that historically constrained L1 usage.
+- **More predictable and consistently low L1 fees are making Ethereum mainnet attractive again for application builders.** As the cost differential between L1 and L2 execution narrows, teams that benefit from Ethereum's native liquidity, composability, and security are reassessing mainnet deployment. This dynamic is beginning to show up in builder behavior, including L2-native applications exploring or announcing expansions to Ethereum L1 as the economic trade-offs change.
+
+Access the charts [here](https://tokenterminal.com/explorer/studio/dashboards/66a1fc7f-dab5-4193-9b2e-004099c7682c?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial).
+
+### **Project updates:**
+
+- Listed [Fathom](https://tokenterminal.com/explorer/projects/fathom?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), a DeFi protocol on XDC Network. Fathom issues [FXD](https://tokenterminal.com/explorer/projects/fathom/fxd?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), an over-collateralized stablecoin with XDC and tokenized real-world assets accepted as collateral.
+
++6 basic project listings: [Rootstock](https://tokenterminal.com/explorer/projects/rootstock?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), [Aquarius](https://tokenterminal.com/explorer/projects/aquarius?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), [Soroswap.Finance](https://tokenterminal.com/explorer/projects/soroswap?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), [Blend](https://tokenterminal.com/explorer/projects/blendfinance?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), [Neverland](https://tokenterminal.com/explorer/projects/neverland?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), and [Quai Network](https://tokenterminal.com/explorer/projects/quai-network?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial).
+
+Interested in getting listed? Read more [here](https://tokenterminal.com/get-listed/apps?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial).
+
+### **Asset updates:**
+
+- Listed 143 new assets on the [Tokenized assets](https://tokenterminal.com/explorer/tokenized-assets?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial) page across 12 issuers, increasing coverage by 11%. Highlights include:
+  - [BENJI](https://tokenterminal.com/explorer/projects/franklintempleton/benji?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), Franklin Templeton's tokenized money market fund, now migrated to several chains, plus [sgBENJI](https://tokenterminal.com/explorer/projects/franklintempleton/sgbenji?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial) and [gBENJI](https://tokenterminal.com/explorer/projects/franklintempleton/gbenji?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial) on Stellar.
+  - [FRNT](https://tokenterminal.com/explorer/projects/wyoming/frnt?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), the first fiat-backed stablecoin issued by a U.S. public entity (Wyoming Stable Token Commission).
+  - [syrupUSDT](https://tokenterminal.com/explorer/projects/maple-finance/syrupusdt?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial) and [syrupUSDC](https://tokenterminal.com/explorer/projects/maple-finance/syrupusdc?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), yield-bearing stablecoins from Maple.
+  - [iUSD](https://tokenterminal.com/explorer/projects/infinifi/iusd?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), a stablecoin from InfiniFi.
+  - [jupUSD](https://tokenterminal.com/explorer/projects/jupiter/jupusd?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), a stablecoin from Jupiter.
+  - [CASH](https://tokenterminal.com/explorer/projects/phantom/cash?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), a stablecoin from Phantom.
+
+### **Platform improvements:**
+
+Recent updates to [Studio](https://tokenterminal.com/explorer/studio/dashboards?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial):
+
+- Added bulk actions for managing hundreds of charts or dashboards at once.
+  - For example, users can now select several saved dashboards in Studio's list view and delete them with a single click.
+- Search now includes dashboard and chart descriptions.
+  - For example, users can now find a specific chart by searching for the description under its title.
+- Added grouping by market sector and chain together for more granular analysis.
+  - For example, users can now select the "Stablecoin issuers" market sector and "Ethereum" chain filters to analyze stablecoins on Ethereum.
+
+Get started with Studio [here](https://tokenterminal.com/explorer/studio/dashboards?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial).
+
+### **Token Terminal x Nansen**
+
+![Nansen](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b9478a6f-2242-4af6-b4f4-be10e6552112/Nansen.png?t=1767961645)
+
+Token Terminal's onchain data is now integrated into [Nansen](https://www.nansen.ai/?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial), including Nansen AI, an agentic app that allows investors to trade and manage portfolios using real-time onchain insights.
+
+Through this partnership, Token Terminal provides standardized, institutional-grade metrics like application revenue and earnings to power Nansen's analytics and AI-driven workflows. This enables Nansen users to identify which applications have real, paying customers and how activity trends over time.
+
+> **"Reliable onchain data is critical for turning activity on permissionless blockchains into actionable intelligence. Token Terminal's standardized methodology and rigorous data curation allow us to integrate onchain fundamentals directly into Nansen's AI-powered analytics workflows. Their transparent methodologies and audit trails ensure that insights generated on our platform are both trustworthy and comparable across protocols."**
+> 
+> — **Aaron Chi, Director of Marketing, Nansen**
+
+This partnership underscores a broader trend: leading AI-powered analytics platforms are increasingly relying on Token Terminal as a specialized data vendor for reliable, standardized onchain financial metrics.
+
+Read the full announcement [here](https://tokenterminal.com/resources/newsletter/token-terminal-x-nansen?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial).
+
+Check out [Token Terminal](https://tokenterminal.com/explorer?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial) for data-driven market insights.
+
+Want API access? Schedule a [demo](https://calendly.com/token-terminal/intro-call?month=2025-10&utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial) or explore our [documentation](https://tokenterminal.com/docs/api-reference/introduction?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=the-silent-winners-of-2025-paxos-steakhouse-financial).]]></content:encoded>
+      <guid isPermaLink="true">https://tokenterminal.com/resources/newsletter/the-silent-winners-of-2025-paxos-steakhouse-financial</guid>
+    </item>
+    <item>
+      <title>Circle’s second act is already here</title>
+      <link>https://tokenterminal.com/resources/newsletter/circle-s-second-act-is-already-here</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
+      <author>Token Terminal</author>
+      <enclosure url="https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/637e69eb-c694-4331-80d1-e3322d4f226a/landscape_Snapshot_-_Blog_post_cover_-_Updated.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[Each week in The Snapshot, we share data-driven insights, highlight new listings, and showcase our latest product updates.
+
+Read on for the latest edition 👇
+
+![Snapshot_title_-_Charts_of_the_week.png](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/08603125-4c42-424e-8643-95fa22e4c6f9/Snapshot_title_-_Charts_of_the_week.png?t=1763664261)
+
+## What is Circle?
+
+Circle is a publicly listed fintech company best known as the issuer of USDC, the world's second-largest stablecoin with a market cap of $77.3 billion.
+
+Circle's business has historically been defined by USDC, raising the question of whether the company has meaningful growth vectors beyond its flagship product.
+
+The following charts show that Circle is expanding into *transaction-based revenues (CCTP), yield-bearing assets (USYC), and new geographic markets (EURC).*.
+
+## 1) With the CCTP bridge, Circle is making a push into transaction-based revenues
+
+![circle_1.png](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/7f8fbc08-55c5-425d-9b34-5691c0d848c1/circle_1.png?t=1765463218)
+
+[CCTP transfer volume: the total value of tokens transferred through Circle's CCTP.](https://tokenterminal.com/explorer/projects/circle/metrics/transfer-volume?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here)
+
+1. **Native USDC bridge.** CCTP is Circle's cross-chain transfer protocol that burns USDC on the source chain and mints native USDC on the destination chain, unifying USDC liquidity across 15+ blockchains.
+2. **Fixes bridge fragmentation.** CCTP removes wrapped-USDC bridges and external liquidity pools, reducing bridge risk, capital lockups, and operational complexity for exchanges, wallets, and applications that move USDC between chains.
+3. **Fee-based volume growth.** CCTP V2 charges onchain Fast Transfer fees at mint and is already processing $28.9 billion in quarterly transfer volume, up 6.3x YoY, turning cross-chain USDC movement into a growing transaction-revenue line for Circle.
+
+## 2) With the USYC TMMF, Circle is making a push into yield-bearing assets
+
+![circle_2.png](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/54e4cd9f-130d-4721-8104-aa2a231a8fe2/circle_2.png?t=1765463500)
+
+[Market cap: the total value that has been tokenized onchain for USYC.](https://tokenterminal.com/explorer/projects/circle/usyc/metrics/asset-market-cap-circulating?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here)
+
+1. **Tokenized MMF shares.** USYC is the onchain representation of the Hashnote International Short Duration Yield Fund, a tokenized money market fund that invests in short-term U.S. government-backed securities and reverse repos.
+2. **Onchain yield access.** USYC gives eligible non-U.S. institutions 24/7, USDC-settled access to institutional Treasury yields with programmable, near-instant subscriptions and redemptions, solving for slow and operationally heavy traditional fund rails.
+3. **Recurring fee engine.** USYC charges a 10% performance fee on yield plus subscription and redemption fees, and has scaled to more than $1 billion in assets, creating a growing stream of fee-based revenue for Circle as tokenized money market funds gain share.
+
+## 3) With the EURC stablecoin, Circle is making a push into the EU market
+
+![circle_3.png](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/dcfdde71-9e0d-42ab-adf8-6ee411019eb1/circle_3.png?t=1765463717)
+
+[Market cap: the total value that has been tokenized onchain for EURC.](https://tokenterminal.com/explorer/projects/circle/eurc/metrics/asset-market-cap-circulating?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here)
+
+1. **Euro stablecoin.** EURC is Circle's fully reserved, MiCA-compliant euro stablecoin, issued on Avalanche, Base, Ethereum, Solana, and Stellar and redeemable 1:1 for euro.
+2. **Solves euro liquidity gap.** EURC provides regulated euro liquidity for payments, FX, and DeFi in Europe, giving businesses a compliant alternative to unregulated euro tokens and extending Circle's stablecoin model beyond USD.
+3. **Interest and fee upside.** EURC adds euro reserves and fiat–stablecoin conversion flows to Circle's interest and transaction-fee revenue base, and its market cap has grown 150% YTD to $367.4 million, making it the largest euro stablecoin and a fast-growing contributor to Circle's stablecoin economics.
+
+Access the charts [here](https://tokenterminal.com/explorer/studio/dashboards/0af92a69-f2c1-410b-97f1-49f374af6748?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).
+
+![Snapshot_title_-_New_on_TT.png](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e70f138-1594-45d4-a99d-07963ab7c2ab/Snapshot_title_-_New_on_TT.png?t=1763661587)
+
+### Project updates:
+
+* Listed [Starknet](https://tokenterminal.com/explorer/projects/starknet?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), an L2 smart contract platform for scaling Ethereum using STARK proofs for secure, decentralized computation.
+* Listed [Deliswap](https://tokenterminal.com/explorer/projects/bmx/deliswap?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), a DEX on Base, as a product of [BMX](https://tokenterminal.com/explorer/projects/bmx?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).
+* Listed [Stargate](https://tokenterminal.com/explorer/projects/layerzero/stargate?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), a composable cross-chain liquidity bridge, as a product of [LayerZero](https://tokenterminal.com/explorer/projects/layerzero?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).
+
+**+ 79 basic project listings**, including [dTRINITY](https://tokenterminal.com/explorer/projects/dtrinity?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [Stable](https://tokenterminal.com/explorer/projects/stable?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [Stream](https://tokenterminal.com/explorer/projects/stream?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), and 56 gaming projects in the [Sei Network ecosystem](https://tokenterminal.com/explorer/projects/sei-network/ecosystem/projects?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).
+
+Interested in getting listed? Read more **[here](https://tokenterminal.com/get-listed/apps?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here)**.
+
+### Asset updates:
+
+* Listed 25 [stablecoins](https://tokenterminal.com/explorer/tokenized-assets?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), including [Angle Staked EURA](https://tokenterminal.com/explorer/projects/angle/steura?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [Ethena Staked USDe](https://tokenterminal.com/explorer/projects/ethena/susde?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [f(x) USD Saving](https://tokenterminal.com/explorer/projects/fxprotocol/fxsave?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [Savings Dai](https://tokenterminal.com/explorer/projects/makerdao/sdai?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), and [Staked Frax USD](https://tokenterminal.com/explorer/projects/frax-finance/sfrxusd?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).
+
+### Metric updates: 
+
+* Added an asset off peg metric for dollar-based stablecoins, tracking deviations from the $1 peg. *This metric is available for stablecoins like [USDT](https://tokenterminal.com/explorer/projects/tether/usdt/metrics/asset-off-peg?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [USDC](https://tokenterminal.com/explorer/projects/circle/usdc/metrics/asset-off-peg?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), [USDS](https://tokenterminal.com/explorer/projects/makerdao/usds/metrics/asset-off-peg?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), and [USDe](https://tokenterminal.com/explorer/projects/ethena/usde/metrics/asset-off-peg?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).*
+* Added [Venus](https://tokenterminal.com/explorer/projects/venus?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here) breakdowns to [Queries](https://tokenterminal.com/explorer/studio/queries?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here). *Users can now use SQL to access granular data on metrics like active loans, TVL, and more for BNB Chain's largest lending project.*
+
+### Platform improvements:
+
+* [Studio](https://tokenterminal.com/explorer/studio/dashboards?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here): **Create charts featuring any asset on the tokenized assets page.** *For example, users can create charts featuring tokenized stocks like TSLAX with metrics such as asset price, asset holders, and circulating asset market cap.*
+* [Studio](https://tokenterminal.com/explorer/studio/dashboards?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here): **Create ratio charts with flexible units to better compare multiples across projects or market sectors.** *For example, users can now view the ratio between Ethereum's FDV and ecosystem TVL as a standard ratio, number, or percentage.*
+* [Market overview](https://tokenterminal.com/explorer/market-overview?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here): **Improved treemap readability in smaller environments, making it easier to scan at a glance.** *For example, users can quickly access information like Tether's share of stablecoin supply or Aave's share of lending fees.*
+
+![Snapshot_title_-_Product_updates.png](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/50368972-ce68-4112-b349-b1a9180a70fc/Snapshot_title_-_Product_updates.png?t=1763661596)
+
+# Queries: SQL access to Token Terminal's data warehouse
+
+![queries.jpg](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c2018bd1-c749-4a44-a5a7-8f31833aa057/queries.jpg?t=1765465268)
+
+In October, we launched [Queries](https://tokenterminal.com/resources/articles/expanding-the-frontier-of-onchain-analytics?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here), a SQL interface providing direct access to Token Terminal's underlying data warehouse. Queries lets analysts move beyond standardized metrics to query raw blockchain data, decoded smart contract events, market primitives, and more across 100+ chains.
+
+Since launch, we've added several new capabilities: users can now reference existing Queries to build on previous work, access Query results via API endpoints, and use the redesigned AI Query editor for faster analysis. The tool unlocks ~1,000x more granular data than our standard reporting, enabling teams to break down high-level KPIs into detailed transaction-level drivers.
+
+Interested in building with Queries? Reach out to us on [Telegram](https://t.me/TokenTerminalHQ?utm_source=tokenterminal.beehiiv.com&utm_medium=newsletter&utm_campaign=ripple-s-rlusd-surpasses-1b-market-cap&_bhlid=5342d0ccf337dbc833711baa18f4198da570b749) or schedule a demo call [here](https://calendly.com/token-terminal/intro-call?month=2025-11&utm_source=tokenterminal.beehiiv.com&utm_medium=newsletter&utm_campaign=ripple-s-rlusd-surpasses-1b-market-cap&_bhlid=23f26b72416e60ff805e130a3ab07aa28a3aaa14).
+
+Check out [Token Terminal](https://tokenterminal.com/explorer?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here) for data-driven market insights.
+
+Want API access? Schedule a [demo](https://calendly.com/token-terminal/intro-call?month=2025-10&utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here) or explore our [documentation](https://tokenterminal.com/docs/api-reference/introduction?utm_source=tokenterminal.beehiiv.com&utm_medium=referral&utm_campaign=circle-s-second-act-is-already-here).]]></content:encoded>
+      <guid isPermaLink="true">https://tokenterminal.com/resources/newsletter/circle-s-second-act-is-already-here</guid>
+    </item>
+  </channel>
+</rss>

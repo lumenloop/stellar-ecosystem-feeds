@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Litemint - Stellar Ecosystem</title>
+    <link>https://litemint.com</link>
+    <description>Latest articles about Litemint in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/litemint.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Shipping the Wallet-First NFT Marketplace</title>
+      <link>https://blog.litemint.com/posts/wallet-first-nft-marketplace-live/</link>
+      <pubDate>Mon, 19 Jan 2026 15:00:00 GMT</pubDate>
+      <author>Fred Kyung-jin Rezeau</author>
+      <enclosure url="https://cdn.litemint.com/static/blog/nfts-stellar.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Shipping the Wallet-First NFT Marketplace
+
+We just shipped a major **wallet-first** redesign of the [Litemint NFT Marketplace](https://market.litemint.com). This post covers what changed, why, and a bit of the tech under the hood.
+
+<blockquote class="twitter-tweet" data-twitter-extracted-i1769994837600885086="true"><p lang="en" dir="ltr">Our redesigned wallet-first NFT marketplace is here <a href="https://t.co/7rGo3OvOt1">https://t.co/7rGo3OvOt1</a><br><br>No registration. No logins.<br><br>⚡ Blazing fast 1-click minting (images, music, video, 3D)<br>📈 Trade in 50+ <a href="https://twitter.com/hashtag/Stellar?src=hash&amp;ref_src=twsrc%5Etfw">#Stellar</a> markets incl. StellarExpert Top50<br>🔗 Instant domain + TOML setup, fully SEP-1 compliant… <a href="https://t.co/sVOr6C40xA">pic.twitter.com/sVOr6C40xA</a></p>— Litemint (@LitemintHQ) <a href="https://twitter.com/LitemintHQ/status/2013611821152755981?ref_src=twsrc%5Etfw">January 20, 2026</a></blockquote>
+
+## Wallet-First
+
+I was never fully satisfied with the accounts model on the Litemint marketplace. We built it for onboarding convenience (Google, Facebook, email…) but it always felt like a web2 compromise. So we rebuilt it.
+
+> No registration. No logins. Simply connect, mint and trade.
+
+With this release, we decided to embrace this open approach that fits the blockchain paradigm better where the marketplace now operates entirely through wallet signatures.
+
+## One-Click Minting
+
+Minting NFTs on Stellar is deceptively simple. Assets are **first-class** on chain — but there are a million ways to mess it up. So we built the tool that handles it for you.
+
+### Understanding Stellar NFTs
+
+Stellar provides recommendations through [SEP-39](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0039.md), which I co-authored. And a formal standard ([SEP-50](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0050.md)) by team OpenZeppelin is currently in draft status, though in my view it requires more work before being viable for adoption. You can join the discussion in the [Stellar Dev Discord](https://discord.com/invite/stellardev) *#soroban-itself > NFT SEP via OpenZeppelin channel*.
+
+Unlike account-based ledger models like Ethereum, Stellar treats all assets — both native and user-defined — as first-class abstractions. This includes NFTs. We model non-fungibility through asset properties: a single stroop supply and no additional signers. No smart contract required.
+
+![NFTs on Stellar](https://cdn.litemint.com/static/blog/nfts-stellar.png)
+
+*On Stellar, an NFT is just a regular asset with constrained supply*
+
+These assets have full access to Stellar's interoperability layer: the Layer 1 decentralized exchange (SDEX), cross-currency payments, liquidity pools. They're compatible with any Stellar wallet out of the box.
+
+In this ecosystem, smart contracts for NFT issuance or trading aren't a prerequisite — avoiding the complexities and hurdles other ecosystems have met.
+
+### The Tool
+
+This design effectively brings to mind the question posed by Mara Bos, Rust team lead, about the necessity of a Rust standard — [do we need one](https://blog.m-ou.se/rust-standard/)?
+In tech, late arrivals frequently improve upon existing models. They bring effective solutions that simply work. Stellar is a perfect example of this.
+
+*Standards* discussions may be *nice* but shipping is **better** and the best proof that no standard committee is required for NFTs on Stellar is a working tool.
+
+> Select your file — image, music, video, 3D model. **Click Create** and sign the transaction. Done.
+
+The asset is issued, IPFS metadata generated, TOML is configured, and your listing is tradable from any SDEX platform and wallet. Fully [SEP-1](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0001.md) compliant out of the box. For creators who want full control, point your domain to your own TOML. For everyone else, we handle it.
+
+Over **28,000 NFTs** have been issued this way on `*.litemint.store` domains already.
+
+![Total NFTs on Litemint](https://cdn.litemint.com/static/blog/total-nfts.png)
+
+*Source: BigQuery on Stellar ledger data*
+
+It's that simple, don't take my word for it. [Try it live](https://market.litemint.com/create).
+
+## Universal Interoperability
+
+Another advantage of first class assets is that NFTs minted anywhere on Stellar just work on Litemint. Just set `anchor_asset_type` to `nft` in your TOML and the marketplace will recognize and index it.
+
+The marketplace also dynamically supports the [StellarExpert Top 50](https://stellar.expert/explorer/public/asset) curated list for trading. This means collectors can bid and buy in whatever currency they hold — and sellers receive exactly what they ask for.
+
+It's the power of Stellar native infrastructure.
+
+## Under the Hood: SDEX Price Limits
+
+Selling a single stroop (0.0000001) for more than ~214 of any asset hits the SDEX INT32 price ceiling due to Stellar Core internally using INT32 ([see Stellar-ledger-entries.x](https://github.com/stellar/stellar-xdr/blob/0a621ec7811db000a60efae5b35f78dee3aa2533/Stellar-ledger-entries.x#L70)) for the representation of prices. We solved this using a synthetic asset method that bypasses the limitation entirely — sellers can list at any price without worrying about protocol constraints.
+
+For the technical details, see [NFT on Stellar – Solution to Pricing Limitations on the SDEX](https://blog.litemint.com/posts/sdex-pricing-nft-stellar/).
+
+## Try It
+
+The marketplace is live at [market.litemint.com](https://market.litemint.com).
+
+Questions or feedback? Join us on [Discord](https://litemint.gg).]]></content:encoded>
+      <guid isPermaLink="true">https://blog.litemint.com/posts/wallet-first-nft-marketplace-live/</guid>
+    </item>
+    <item>
+      <title>Cyberbrawl on Google Play: What It Unlocks</title>
+      <link>https://blog.litemint.com/posts/cyberbrawl-googleplay-unlocks/</link>
+      <pubDate>Sun, 14 Dec 2025 15:09:35 GMT</pubDate>
+      <author>Fred Kyung-jin Rezeau</author>
+      <content:encoded><![CDATA[# Google Play: A Bigger Arena
+
+We have been here since the early days, and seeing Cyberbrawl arrive on [Google Play](https://play.google.com/store/apps/details?id=com.litemint.cyberbrawl) marks a real shift for us.
+
+Back in 2020, I spent nearly an hour on the phone with Apple Review trying to explain what we were building. The conversation went nowhere. A few days later, our app was removed from the store. Anything touching blockchain was treated as radioactive.
+
+Fast forward to July 2023: Google Play [updated its policy](https://android-developers.googleblog.com/2023/07/new-blockchain-based-content-opportunities-google-play.html) to permit blockchain-based digital content, including NFTs, within apps and games. Ownership models are no longer assumed to be extractive by default!
+
+I have written before about [how blockchain can serve game design honestly](https://kyungj.in/posts/blockchain-game-design-cyberbrawl-stellar/) with efficient infrastructures like [Stellar](https://developers.stellar.org/) — and Google’s policy change is a step toward this future where blockchain can coexist with mainstream game distribution.
+
+For Cyberbrawl, more players mean stronger competition, deeper ranked ladders, and importantly more feedback for balancing.
+
+Yet, Google Play does more than give games visibility; it provides an infrastructure that scales, plus native notifications for tournaments and events. This is where web distribution hits its ceiling.
+
+It changes how our game lives.
+
+# What It Unlocks
+
+Cyberbrawl’s arrival on Google Play unlocks two reward tracks.
+
+## Early Access
+
+Pre-registration is now live on Google Play in most regions. Players who pre-register will receive early access ahead of the official launch.
+
+Everyone who joins early access through Google Play will unlock a special card back, along with ION and SHARD packs to get started.
+
+**→ [Pre-register on Google Play](https://play.google.com/store/apps/details?id=com.litemint.cyberbrawl)**
+
+## The Vanguard Tournament
+
+The **Vanguard Tournament** registration is now open on [Discord](https://litemint.gg).
+
+**Registration closes December 31st at midnight.** Post your battle ID in the `#vanguard-tournament` channel to enter.
+
+Participants will receive a **Competitor Pack**, including ION for crafting, and a badge for the arena.
+
+The tournament includes a $1,000 prize pool for top competitors.
+
+Once registration closes, tournament details—seeding, brackets, and rewards—will be available in the **Battle Nexus** in-game. All matches will be replayable, just like our previous tournament.
+
+You can start preparing now: practice vs AI and build your arena decks.
+
+**Join the Discord. Mark your calendar. The arena opens soon.**
+
+In the meantime, check out the last [Cyberbrawl Grand Finals](https://www.youtube.com/watch?v=BPIWHTJ0FjQ) and study how the best players do it.
+
+See you in the arena.
+
+*Cyberbrawl Grand Finals | Marlo vs Tarakanalada*]]></content:encoded>
+      <guid isPermaLink="true">https://blog.litemint.com/posts/cyberbrawl-googleplay-unlocks/</guid>
+    </item>
+    <item>
+      <title>Fun Does Not Need Finality: Blockchain Game Design with Cyberbrawl on Stellar</title>
+      <link>https://blog.litemint.com/posts/blockchain-game-design-cyberbrawl-stellar/</link>
+      <pubDate>Sat, 22 Nov 2025 15:09:35 GMT</pubDate>
+      <author>Fred Kyung-jin Rezeau</author>
+      <enclosure url="https://kyungj.in/img/zcj-data.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Fun Does Not Need Finality: Blockchain Game Design with Cyberbrawl on Stellar
+
+Regardless of scale, shipping a game is always a challenge that requires a precise balance of art and engineering. Over time, I have come to think that game design is to software what storytelling is to language.
+
+[Cyberbrawl](https://cyberbrawl.io), my latest project, was no exception. It pushed me at *every turn*, even more so with the extra layer of building on [Stellar](https://developers.stellar.org/) where onchain experimentation rarely comes with a blueprint.
+
+However, I strongly believe that while blockchain adds intriguing possibilities, it doesn’t alter how a game’s core is actually built.
+
+*Cyberbrawl: Build Your Tournament Decks, Enroll & Compete!*
+
+## Hype Is Not a Game Loop
+
+I still see many blockchain games treating the chain itself as source of meaningful participation with teams obsessing over tokens, mint schedules and economies before they have anything playable. That mindset has produced a whole ecosystem of onchain (*sic, vanity*) metrics.
+
+This approach may help create the initial burst of hype. But the truth is that working backward from hype into a coherent game is extremely hard. A few manage it (e.g., the [No Man's Sky](https://www.nomanssky.com/) turnaround miracle) but those are the exception.
+
+Hype-first design is a huge bet; and I would rather know the game before going all in.
+
+## The Core Loop Is Still the Only Layer That Matters
+
+A game reveals its core early; that’s why I always start with the simplest prototypes. They help in two important ways:
+
+- The creative process constantly tempts you with illusions: another clever mechanic, another cool feature. Scoping discipline helps, but the real shortcut is trusting prototypes over ideas.
+- Once you have a playable prototype, you begin to notice the things that matter like tension, resolution, depth. When the core loop works, every other layer (graphics, content, effects…) becomes leverage.
+
+And this applies to any project size. In fact, the smaller the loop, the harder the craft because tension lives in thinner margins. Just a small gravity tweak in [Flappy Bird](https://flappybird.io/), an increased spawn rate in a tower defense, can completely break the game.
+
+My projects have always reminded me that the core loop is nonnegotiable.
+
+In my first game, a loop tweak brought back the fast-paced tension players wanted; feedback and ratings reflected it immediately, helping the game reach #1 in the Windows Phone Store paid strategy charts.
+
+![Cover](https://kyungj.in/img/zcj-data.png)
+
+*Ranking on Windows Phone Store. Source data.ai (Appannie)*
+
+My second game only found real depth once I abandoned a *visually cool* mechanic that only looked great on paper; the game later received a [$40K prize](https://www.marketscreener.com/news/latest/Tizen-App-Challenge-Announces-Winners-of-4-Million-in-Prizes-17988033) in a major competition.
+
+Every breakthrough came from **respecting and refining the loop.**
+
+Cyberbrawl also started with a simple prototype, no fancy graphics, no effects, no blockchain. If the core loop doesn’t work, no amount of production or extra layers can fix it.
+
+## Play Transcends Layer Zero
+
+Play is not a universal language because it resonates differently based on the audience. That’s why my first question is always: **who is this game for?**
+
+Most of my design choices for Cyberbrawl were shaped by the answer to this question. The game sits inside a TCG framework, a genre that typically appeals to midcore or hardcore players—but I wanted it closer to casual-midcore, a space that feels more web-native and less niche.
+
+As a longtime [Hearthstone](https://hearthstone.blizzard.com/) fan, I am familiar with the genre rituals: long turns, meta knowledge, punishing Legend rank grinding. Those hardcore elements are engaging for most TCG players but none survive a casual audience. Knowing your players is not optional.
+
+I was in a meeting with a major Korean game publisher looking to move into blockchain, and they asked me which chain players prefer, or why I picked Stellar. The truth is, ETH vs Solana vs Immutable is merely noise. It does nothing to define your target audience because the heart of a game experience never lives on layer zero. And in fact, no amount of onchain polish can replace knowing what players come for.
+
+I actually think major publishers are the best positioned to push this space forward precisely because they deal with real games, real players.
+
+## Play Is Crafted, Not Minted
+
+Cyberbrawl was forged from day one for that casual-midcore, web-native audience.
+
+The first requirement was: no broken decks. I wanted players to be able to jump into a match without needing *meta* knowledge or spreadsheets, right after clicking the *Play* button. So, the [shuffle algorithm](https://github.com/litemint/cyberbrawl-community-resources/blob/master/deck-shuffle.md) was built to avoid clumping and enforce functional curves.
+
+The energy system came from the same mindset. In Cyberbrawl, energy creates a natural pressure curve instead of leaning on the usual mana tax. It is transient. You can drain it, coalesce it, redistribute it. That fluidity gives all cards built-in comboability (e.g., Barricade can convert Biohazard Damage into Armor) and turns the hand into an *energy surface*. Casual players can read this system very easily, while midcore players find plenty of tactical depth in the flows.
+
+It is easy for blockchain games to lean too heavily on tokens and onchain mechanics, but that rarely aligns with what a real game audience wants. When engagement is built around tokens and transactions rather than a crafted play experience, the result speaks to crypto users rather than players.
+
+## Do Not Gas Your Game Out
+
+Flow is fragile. And blockchain adds a lot of friction via consensus delays, security requirements, *ad hoc* UX. Even 5 second finality on Stellar is too disruptive inside a core loop. That’s why, when designing Cyberbrawl, I made sure the loop never needed blockchain.
+
+And this extends beyond games. Take the hype around the [x402 protocol](https://www.x402.org/), it’s easy to imagine an army of x402-enabled AI agents stuck waiting on micropayment confirmations. That design (or lack of) also assumes that agents can’t simply decouple payment from execution. Honestly, simple recurring subscriptions give you proper encapsulation: more flexible, more secure, more scalable, and with no latency.
+
+In my experience, crossing layer boundaries without proper encapsulation tends to cause problems. Essentially, if you drag consensus into your game loop, the experience will suffocate.
+
+Now I believe that when blockchain is kept at the right layer, properly encapsulated, it strengthens and enables use cases never possible before: ownership, permanence, identity, provability, payments.
+
+And practically, platforms like [Stellar](https://developers.stellar.org/), with their focus on cost-efficiency and speed, allow us to achieve this *quietly in the background*.
+
+## Players Want Fun
+
+As players, we remember fun. That’s why the cycle of tension and resolution is so important in games.
+
+In Cyberbrawl, the entire roster is shaped around it. Overload cards create explosive tempo spikes, Biohazard and Shockwave deliver the big-number bursts players love (or hate), drain cards punish greed, Overclock expands the *energy surface* for late-game swings. Every component is there to support the emotional peaks that make a match stay with us.
+
+By contrast, I have seen plenty of blockchain reward models trying to atomize fun into micro-ticks. They confuse frequency with tension. What keeps me jumping back, seasons after seasons, into the PvP madness of rated Arena in World of Warcraft, is uncertainty, anticipation, the surge.
+
+*PvP Rated Arena, Season 3*
+
+Fun doesn’t require finality. Minting cards before the game is like printing Olympic medals before deciding the discipline and the rules.
+
+## Blockchain Is the Continuity Layer
+
+Now blockchain finality can preserve what fun produces, as long as it does not disrupt the loop that orchestrates fun in the first place.
+
+I believe that blockchain shines when it quietly extends the player’s experience beyond the game:
+
+- letting achievements, progress, skill, and reputation cross over to new experiences.
+- giving players decentralized ownership over the items they earn, craft, or discover.
+
+Used at this layer, the chain does not alienate play. On the contrary, it gives players a kind of continuity they never had before: a sense of persistence, that what they build, earn, collect does not reset with every patch or sequel.
+
+This is exactly the layer where I use blockchain in my games.
+
+If you are curious and want to learn more, [catch the latest](https://www.youtube.com/watch?v=BPIWHTJ0FjQ) Cyberbrawl Grand Finals, try the game and join the next tournament.
+
+Most of all, have fun! See you in the arena.
+
+*Cyberbrawl Grand Finals | Marlo vs Tarakanalada*
+
+Thanks for reading!]]></content:encoded>
+      <guid isPermaLink="true">https://blog.litemint.com/posts/blockchain-game-design-cyberbrawl-stellar/</guid>
+    </item>
+  </channel>
+</rss>

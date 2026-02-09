@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synced - Stellar Ecosystem</title>
+    <link>https://synced.to</link>
+    <description>Latest articles about Synced in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/synced.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Synced Developer Log (Febuary 2023) - Dashboards &amp; Bounties</title>
+      <link>https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log-Feb-23/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
+      <author>Tejas</author>
+      <enclosure url="https://blog.synced.to/images/2023-02-28-Synced-Dashboards-Bounties-Dev-Log-Feb-23-1.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[Here’s Febuary 2023’s development log for Synced’s dashboards and bounty features.
+
+![_config.yml](https://blog.synced.to/images/2023-02-28-Synced-Dashboards-Bounties-Dev-Log-Feb-23-1.jpg)
+
+*artwork by [DALL-E](https://openai.com/dall-e-2)*
+
+### Progress in Feb 2023
+
+* Initial dashboard merge has been performed on development web app.
+  ![_config.yml](https://blog.synced.to/images/2023-02-28-Synced-Dashboards-Bounties-Dev-Log-Feb-23-2.png)
+* Familiarity with Stellar’s Soroban smart contract platform, through entering Hacka-Soroban-athon.
+
+### Aims for March 2023
+
+* Add description and chat functionality to dashboards
+* Complete web redesign on dev web-app incorpoating dashboards
+* Release initial dashboard release to live web-app
+
+### Additional Aims
+
+* Migrate away from MongoDB
+
+Thanks for reading
+
+[ - Tejas](https://twitter.com/syncedto)]]></content:encoded>
+      <guid isPermaLink="true">https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log-Feb-23/</guid>
+    </item>
+    <item>
+      <title>Synced Developer Log (December 2022) - Dashboards &amp; Bounties</title>
+      <link>https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log-Dec/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+      <author>Tejas</author>
+      <enclosure url="https://blog.synced.to/images/2022-12-01-Synced-Dashboards-Bounties-Dev-Log-Dec-1.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[Here’s December’s development log for Synced’s new dashboards and bounty features. Watch this space to follow our progress.
+
+![_config.yml](https://blog.synced.to/images/2022-12-01-Synced-Dashboards-Bounties-Dev-Log-Dec-1.jpg)
+*artwork by [DALL-E](https://openai.com/dall-e-2)*
+
+### Aims for December 2022
+
+* Release dashboards on Development web app
+* Learn Rust and Soroban
+* Write a simple DAO contract test
+
+### Progress (will be updated as we go)
+
+* Figured out how to merge dashboards into main product while allowing old and new versions to co-exist
+* Read Rust book, now comfortable in Rust.
+  * Turns out Soroban smart contracts make very little use of Rust, way less complicated than Rust.
+
+Thanks for reading
+
+[ - Tejas](https://twitter.com/syncedto)]]></content:encoded>
+      <guid isPermaLink="true">https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log-Dec/</guid>
+    </item>
+    <item>
+      <title>Synced Developer Log - Dashboards &amp; Bounties</title>
+      <link>https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 GMT</pubDate>
+      <author>Tejas</author>
+      <enclosure url="https://blog.synced.to/images/2022-10-09-Synced-Dashboards-Bounties-Dev-Log-1.jpeg" type="image/jpeg"/>
+      <content:encoded><![CDATA[Here’s the development log for Synced’s new dashboards and bounty features. Watch this space to follow our progress.
+
+![_config.yml](https://blog.synced.to/images/2022-10-09-Synced-Dashboards-Bounties-Dev-Log-1.jpeg)
+*artwork by [Stable Diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion)*
+
+### Week ending 18th Nov 2022
+* Experimenting with Stellar Soroban smart contracts
+* Merging dashboards into core
+
+### Week ending 11th Nov 2022
+* Preparing for final of China（Shenzhen）Innovation & Entrepreneurship International Competition entry
+* Presentation at final of China（Shenzhen）Innovation & Entrepreneurship International Competition
+* Experimenting with Stellar Soroban smart contracts
+
+### Week ending 4th Nov 2022
+* Experimenting with Stellar Soroban smart contracts
+
+### Week ending 28th Oct 2022
+* Merging dashboards into core
+* Experimenting with Stellar Soroban smart contracts
+* Preparing China（Shenzhen）Innovation & Entrepreneurship International Competition entry
+
+### Week ending 21st Oct 2022
+* Merging dashboards into core
+* Preparing China（Shenzhen）Innovation & Entrepreneurship International Competition entry
+
+### Week ending 14th Oct 2022
+* Stellar Meridian conference
+
+### Week ending 7th Oct 2022
+* Continued simplifying existing codebase pre-dashboard code merge
+* Early test of [Soroban](https://soroban.stellar.org/docs) functionality, to see if we can use DAOs from the start for bounty payouts.
+
+Thanks for reading
+
+[ - Tejas](https://twitter.com/syncedto)]]></content:encoded>
+      <guid isPermaLink="true">https://blog.synced.to/Synced-Dashboards-Bounties-Dev-Log/</guid>
+    </item>
+  </channel>
+</rss>

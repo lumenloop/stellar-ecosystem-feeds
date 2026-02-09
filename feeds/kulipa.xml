@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kulipa - Stellar Ecosystem</title>
+    <link>https://kulipa.xyz</link>
+    <description>Latest articles about Kulipa in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/kulipa.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Authentication in blockchains - a layman’s guide</title>
+      <link>https://kulipa.xyz/post/authentication-in-blockchains</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
+      <author>Michael Shynar</author>
+      <enclosure url="https://cdn.prod.website-files.com/65bd95349dcf5b3bba12c805/6881fd5ecada1d8ee367bc80_Cadenas%20et%20cle%CC%81%20dore%CC%81e.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[As the blockchain ecosystem matures, better and more diversified ways of authenticating for blockchain transactions have emerged. This can be quite overwhelming to newcomers, and so this post aims to put order in the following terms:
+
+* EOA
+* MPC
+* Account abstraction
+* Paymaster
+* Relay
+* Key abstraction
+
+# EOA
+
+EOA stands for Externally Owner Account. This is typically the simplest and original form of authentication: An end user creates a unique, secret, private key which can be held in an app (such as [Metamask](https://metamask.io/) *and* [Solflare](https://www.solflare.com/)) or better secured on a hardware wallet (such as [Ledger](https://www.ledger.com/)). With that private key the user derives or creates an account on the blockchain. All transactions submitted to the that blockchain account, must be signed with the private key.
+
+EOA private keys are often stored as a “seed phrase”: A series of words from which the private key can be derived.
+
+EOA authentication is the only built-in authentication mechanism which most blockchains (including Ethereum) recognize. All the other methods detailed below build on top or around the EOA method in order to provide additional benefits.
+
+![image](https://cdn.prod.website-files.com/65bd95349dcf5b3bba12c805/688200fc3ecb84b6879e3fbc_image%20(27).png)
+
+# MPC
+
+MPC stands for Multi Party Computation. It is a technology that allows a private key to be split up into parts (shards) such that the holders of several shards can together produce a valid signature of the private key, regardless of which shards are being used. For example, a private key could be split into 5 shards such that any 2 shards could sign a transaction. This would be annotated a 2/5 scheme - 2 signers needed out of a total of 5. Any 2 shards could be used to sign a transaction with the private key.
+
+MPC has many uses - in this article we will consider the case that a private key is sharded and used to control an EOA. This can be very useful for a variety of cases:
+
+1. The account is owned by more than one person (e.g. a company) and every transaction needs to be validated by several people
+2. A user is worried about losing access to their account; they could store additional shards as backups, such that even if one shard is compromised, it will not risk the account being compromised
+3. One or more of the signing shards would be owned by an automated service that would enforce policies on the account. For example, if an account has $1m in assets, the policy could prevent sending all of that amount, instead allowing only $10k to be sent out on any given day
+
+Examples of MPC-based platforms include [Fireblocks](https://www.fireblocks.com/), a wallet infrastructure service, and [Zengo](https://zengo.com/), a non-custodial wallet.
+
+While MPC is very useful for securing accounts, it still requires all related users to hold a shard with a very specific and technically involved signing scheme. For instance, each of these shards would likely require a “seed phrase” to be memorized and input into an app, in order to sign payloads.
+
+![image](https://cdn.prod.website-files.com/65bd95349dcf5b3bba12c805/6882011816810855866dbf4e_image%20(28).png)
+
+# Account Abstraction
+
+The best user experience for authentication should resemble the one users are already accustomed to. Users typically use usernames and passwords, sign in with Google/Apple, have 2FA (2-factor authentication) methods set up, and more recently leverage passkeys. Account abstraction aims to allow users to continue using all of these options.
+
+Instead of using an EOA account that must use a specific signature, the user could deploy a smart contract that would serve as their account. The smart contract is set up to validate a given authentication, such as sign-in with Google.
+
+Sign-in with Google (and all the other authentication methods) can be used to sign transactions. The smart contract will accept any transaction, verify its signature, and if valid - will execute it.
+
+This greatly improves authentication experience for end-users. However, blockchains like Ethereum do not have a concept of calling externally into a smart contract. There always needs to be an initial signed transaction from an EOA. That EOA also needs to pay the computation fee (”gas”) of the transaction - so account abstraction transactions cannot be submitted from outside the blockchain.
+
+To solve that, we need some service to submit these transactions on our behalf, which we call a **relay**.
+
+## Relay & Paymaster
+
+A relay accepts a transaction and executes it on behalf of another party. Typically, relays will ask for a small fee for that service. The relay usually also want to claim back gas fees, which can be paid back to them by the user, or the user might have a service they top up with gas to be used by the relay for the execution, called a **Paymaster**.
+
+Two important notes about the operation of relays:
+
+1. **A relay cannot change the user's transaction**. There is very little risk giving the transaction to the relay, since it is signed by the user. Any attempt to change the transaction will invalidate the signature, and the relay is not able to authenticate with the user's credentials in order to re-sign the transaction. The only risk a relay can pose is by not submitting the transaction (often called censoring the user).
+2. **A relay can use any EOA** to submit this transaction. The EOA itself does not need to be known to the user's account abstraction contract. That smart contract will accept a call from anyone, as long as a signed payload is provided.
+
+![image](https://cdn.prod.website-files.com/65bd95349dcf5b3bba12c805/6882013d419816d3948f82d9_image%20(29).png)
+
+# Key abstraction
+
+A lesser-known concept, but important to understand, is key abstraction. It is an alternative to account abstraction.
+
+While account abstraction is an immense improvement in the UX, it is not very efficient because more processing happens onchain, consuming more gas. Furthermore, some on-chain services, especially on Ethereum, do not work well with account abstraction contracts for technical reasons.
+
+It would have been nice if there was a way to use sign-in with Google (or any other auth method) in order to operate an EOA account. Some newer blockchains actually allow that, but even for the existing ones, there is a solution in the form of key abstraction platforms.
+
+A key abstraction platform will securely store an EOA private key, and only allow access to it via another authentication method (such as sign-in with Google). This means the user authenticates the way they want, and under the hood that signature could be replaced with an EOA-compatible signature in order to submit the transaction.
+
+But how can the a platform “securely store” the EOA private key without risking it falling in the wrong hands?
+
+One way to do that is to use TEE (trusted execution environments). These are containers hosted in a very specific way (such as Amazon Nitro containers) that verify that they match exactly some pre-vetted container image and cannot be changed. The user can then push a private key into such a container as well as whichever other authentication methods they wish to use, and the container, if set up correctly, will perform this service for them, without leaking any other data outside.
+
+Such platforms already exist - such as [Privy](https://www.privy.io/) or [Turnkey](https://www.turnkey.com/).
+
+Side note: key abstraction is closely related to the terms *embedded wallet* and *wallet as a service.* We plan to explore these terms and clarify them in a future post.
+
+![image](https://cdn.prod.website-files.com/65bd95349dcf5b3bba12c805/6882014c138bf5b738252d63_image%20(30).png)
+
+# Final word
+
+We hope this article helped clarify the different components from which a blockchain account system could be built. Do notice that these are not “either-or” solutions. In some cases different components can be used together in one solution.
+
+For instance, MPC and key abstraction can be combined in different ways to create different types of products. The shards of an MPC can each be stored in a key abstraction platform, so that the result is an MPC account, but the authentication is done in whatever method the users want. This can be desirable when operating a shared wallet, or when operating a single-user wallet but not wanting to trust a single TEE with a full signing key.
+
+This space keeps evolving and blockchains are building better authentication primitives to allow for better solutions. We will continue to follow the trends and update you!]]></content:encoded>
+      <guid isPermaLink="true">https://kulipa.xyz/post/authentication-in-blockchains</guid>
+    </item>
+    <item>
+      <title>Crypto Compass - Week 8</title>
+      <link>https://kulipa.xyz/post/crypto-compass-week-8</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 GMT</pubDate>
+      <author>Axel Cateland</author>
+      <enclosure url="https://cdn.prod.website-files.com/65bd95349dcf5b3bba12c805/65e0b8ea5e504e53d62c0933_Kulipa%20-%20Weekly%20Crypto%20Compass%20Visuals.avif" type="image/jpeg"/>
+      <content:encoded><![CDATA[### Regulation Roundup: From Stablecoins to CBDCs ⚖️
+
+#### 🇬🇧 UK Eyes Stablecoin and Staking Legislation:
+
+The UK is aiming to pass stablecoin and staking regulations within the next six months, signaling a proactive approach to embracing crypto innovation while managing potential risks. This is a positive development for the industry, providing much-needed clarity and fostering a stable environment for growth. [Read more](https://blockworks.co/news/uk-upcoming-staking-stablecoin-legislation)
+
+#### 🇭🇰 Hong Kong Pushes for Licensing Bills:
+
+Across the pond, Hong Kong is pushing for licensing bills for stablecoins and OTC crypto trading. This follows their earlier announcement on regulating stablecoins, indicating a commitment to creating a well-defined regulatory framework for the industry. [Read more](https://cryptonews.com/news/hong-kong-government-pushes-for-licensing-bills-on-stablecoin-and-otc-crypto-trading.htm)
+
+#### 🇪🇺 ECB and Crypto: A Love-Hate Relationship?
+
+The European Central Bank's (ECB) recent disparaging comments about Bitcoin drew the ire of the crypto community. While it's important to have open discussions about the risks and limitations of crypto, overly negative rhetoric can hinder constructive dialogue and innovation. [Read more](https://cryptonews.com/news/ecbs-disparaging-comments-on-bitcoin-draw-the-ire-of-crypto-community.htm)
+
+#### 🇮🇳 India Optimistic on CBDC Efforts:
+
+The National Payments Corporation of India expressed optimism about the Reserve Bank of India's Central Bank Digital Currency (CBDC) efforts. This indicates growing interest in CBDCs as a potential alternative to traditional fiat currencies. [Read more](https://cryptonews.com/news/indian-national-payments-corporation-exec-optimistic-on-rbis-cbdc-efforts.htm)
+
+#### 🇳🇬 Binance Implements Price Cap in Nigeria:
+
+Following ban on crypto exchanges by the Nigerian government, Binance implemented a price cap for USDT on its Nigerian P2P platform to comply with local regulations. This highlights the challenges of navigating diverse regulatory landscapes for global crypto platforms. [Read more](https://cryptonews.com/news/binance-implements-price-cap-for-usdt-on-nigerian-p2p-platform-to-comply-with-local-regulations.htm)
+
+#### 🛑 Circle Discontinues USDC on Tron Network:
+
+Circle, the issuer of USDC, a popular stablecoin, announced it will no longer support USDC on the Tron network. This decision is primarily driven by compliance considerations, as Tron's founder faces accusations from the US SEC. Tron remains the dominant stablecoin on its own network, and Circle emphasizes that it is not endorsing these accusations. [Read more](https://blockworks.co/news/circle-discontinues-usdc-on-tron)
+
+### Adoption on the Rise: From Singapore to Turkey 
+
+#### 🇸🇬 Finance-Savvy Singaporeans Embrace Crypto:
+
+A recent study revealed that a significant portion of Singaporeans own crypto and view it as the future of finance. This highlights the growing interest in crypto among tech-savvy populations and its potential to disrupt traditional financial systems. [Read more](https://cryptonews.com/news/finance-savvy-singaporeans-own-crypto-view-it-as-future-of-finance-coinbase.htm)
+
+#### 🇹🇷 Turkish Legislators Meet Crypto Stakeholders:
+
+Turkish lawmakers met with crypto stakeholders, pledging security and innovation in their draft crypto law. This engagement is crucial for crafting regulations that foster a healthy and responsible crypto ecosystem. [Read more](https://cryptonews.com/news/turkeys-legislators-meet-crypto-stakeholders-pledges-security-and-innovation-in-draft-law.htm)
+
+#### 🏤 Swiss Postfinance Offers Crypto:
+
+In a surprising move, Swiss Postfinance partnered with Sygnum to offer crypto trading services to its customers. This mainstream adoption by a traditional financial institution is a significant step forward for crypto's integration into the wider economy. [Read more](https://cryptonews.com/news/switzerlands-postfinance-starts-offering-crypto-in-partnership-with-sygnum.htm)
+
+#### 🇿🇦 South Africa Embraces Digital Payments and Crypto:
+
+South Africa's recent budget review signals a progressive stance on digital payments and crypto assets. The country plans to leverage stablecoins and blockchain technology to promote financial inclusion and boost digital payment adoption. This move positions South Africa as a potential leader in financial innovation and responsible crypto integration. [Read more](https://cryptonews.com/news/south-africas-budget-review-signals-embrace-of-digital-payments-and-crypto-assets.htm)
+
+### Other noteworthy developments
+
+#### 🚧 Security and Costs: Hurdles on the Road to Web3 Adoption 
+
+A recent survey by Web3Auth reveals that security concerns remain a significant obstacle to Web3 adoption, with nearly half of respondents citing it as a major barrier. High transaction costs and lack of user-friendly interfaces further hinder mainstream adoption. However, there are ongoing efforts to improve the user experience, such as implementing mobile-friendly features and simplifying signup processes. [Read more](https://cryptonews.com/news/security-concerns-and-high-costs-top-obstacles-in-web3-adoption.htm)
+
+#### ⛓️ Vitalik Buterin Raises Concerns about Complex Layer-2 Solutions:
+
+Ethereum co-founder Vitalik Buterin expressed concerns about the complexity of layer-2 scaling solutions, highlighting the need for simpler and more user-friendly options. [Read more](https://cryptonews.com/news/vitalik-buterin-voices-concern-about-complex-layer-2-solutions.htm)
+
+#### 🛡️ MetaMask Beefs Up Security with Real-Time Alerts
+
+MetaMask, a popular crypto wallet, has introduced real-time security alerts to help users identify and avoid scams. These alerts are available across various blockchains and can warn users about suspicious activity or potential phishing attempts. This feature is a positive step towards enhancing user security and building trust in the crypto ecosystem. [Read more](https://cryptonews.com/news/metamask-launches-real-time-security-alerts-on-major-chains.htm)
+
+#### 💸 Understanding Crypto Taxes in the US: A Primer
+
+Cryptocurrency holders in the US are subject to taxes on various events, including buying and selling crypto, converting between different cryptocurrencies, using crypto for purchases, and mining or staking crypto. It's important to note that there is currently no minimum threshold for reporting crypto earnings, so even small transactions may be taxable. [Read more](https://blockworks.co/news/taxable-crypto-events-usa-2024)
+
+#### 🚀 Smart Contracts Go Live on Stellar: A New Dawn?
+
+This article discusses the recent launch of smart contracts on the Stellar network, marking a significant milestone in its development. Smart contracts enable the creation of more complex applications and functionalities on the Stellar blockchain, potentially opening doors for new use cases and wider adoption. [Read more](https://cryptonews.com/news/smart-contracts-go-live-on-stellar-kicking-off-a-new-era-for-the-network.htm)]]></content:encoded>
+      <guid isPermaLink="true">https://kulipa.xyz/post/crypto-compass-week-8</guid>
+    </item>
+  </channel>
+</rss>

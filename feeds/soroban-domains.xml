@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soroban Domains - Stellar Ecosystem</title>
+    <link>https://sorobandomains.org</link>
+    <description>Latest articles about Soroban Domains in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/soroban-domains.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Say hello to NFDs: Non-Fungible Domains tokens</title>
+      <link>https://sorobandomains.org/blog/v2-registry-and-nfts</link>
+      <content:encoded><![CDATA[# Say hello to NFDs: Non-Fungible Domains tokens
+
+SorobanDomains was one of the first public contracts deployed in Soroban. At that time, there was no standard for Soroban NFTs nor projects looking to build one... But it's the end of 2025, and we have [SEP-0050](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0050.md), which was proposed by the OpenZeppelin team.
+
+So, to finish this year, we have decided to create our own implementation of the standard and make SorobanDomains an NFT protocol! Say hello to Non-Fungible Domains! This update will make it easier to transfer, trade, and interact between protocols, wallets, and other systems with SorobanDomains.
+
+## Registry v2
+
+The first thing is: We are making a brand new Registry contract with new logic and are ready to mint NFDs to users. Let's go into detail about this new protocol:
+
+### Why making a new Registry contract?
+
+The first registry was based on one key premise: collateral. This was good because it prevented the registration of domains in bulk by bad actors while allowing them to not pay anything for the domain in reality... But now that each domain will be its own NFD and token holders can just transfer them, trade them, or even approve others to move the tokens, the collateral at the Registry will be an issue. Because of this, the new Registry won't require locking collateral and instead will just implement a regular yearly fee like domain registries in other chains work.
+
+Another reason to create a new Registry is to introduce Soroban Events to make the process of finding registered domains easier with the help of indexers. When the first Registry was made, we thought that most users would just keep one or two domains, so it would be easy to remember them. But to our surprise, many users registered multiple domains, and so it was hard for them to remember the domains they had. With proper events and our indexer keeping the record of new domains saved, you won't need to remember them and instead just check a list of your domains.
+
+### First year free for the OGs
+
+We understand that the change from the collateral-based protocol to a fee-based NFT protocol is a big one, and so, to give old domain users enough bandwidth to decide if they want to keep their domains, the new registry will allow the migration of old domains for free.
+
+How much time do we have to migrate? It will be 90 days after the new Registry is deployed, and during that same period, no one will be able to register a domain that is currently registered in the old Registry. Once this 90-day period has finished, the new Registry will allow the registration of domains that were not migrated before the deadline.
+
+## Domain Tokens
+
+The new kid in the block is the NFD contract, and you can check the code [here](https://github.com/Creit-Tech/sorobandomains-sc/tree/main/contracts/non-fungible-domain). Domains Tokens are just SEP-0050 NFTs, and the good thing with this is that wallets and marketplaces compatible with that standard will automatically be compatible with these domain tokens.
+
+Users will be able to freely send and receive an NFD as long as the domain representing the token has not expired.
+
+## Soroban Governor
+
+For the governance of the protocol, we will deploy a Soroban Governor contract, and all the fees collected by the new Registry will go there, we will also send the remaining PSD that has been sitting in the asset distributor for more than a year.
+
+## WEN?
+
+We plan to deploy this new protocol during this month once we have deployed the Soroban Governor contract and it is set up and ready to control the Registry contract.]]></content:encoded>
+      <guid isPermaLink="true">https://sorobandomains.org/blog/v2-registry-and-nfts</guid>
+    </item>
+    <item>
+      <title>A &quot;localstorage&quot; on Soroban</title>
+      <link>https://sorobandomains.org/blog/a-localstorage-on-soroban</link>
+      <content:encoded><![CDATA[# A "localstorage" on Soroban
+
+*October 20, 2024* · One min read
+
+SorobanDomains is a simple protocol: you have a domain and that domain targets an address... But what if we can add more values? What if we want to add details like the place where we are hosting a [SEP-01 TOML file](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0001.md)? What if we want to tie our domain to an IPFS CID where our dApp is hosted (like what the blend team is doing [here](https://ipfs.io/ipfs/bafybeia6facp6biyex644cwxmnq6j2xul2un3wipgejwtq2juw275opogy))?
+
+Well, for such cases, we now have something new: A Key-Value storage contract. This contract acts like a simple "database" that developers can use to add values that their domains own, something like the IPFS CID of a website the domain should point to. Something like this can be used by projects like [xlm.sh](https://xlm.sh/) or by [Tansu](https://tansu.xlm.sh) (which is already using xlm.sh).
+
+Contract is already available on [mainnet](https://stellar.expert/explorer/public/contract/CDH2T2CBGFPFNVRWFK4XJIRP6VOWSVTSDCRBCJ2TEIO22GADQP6RG3Y6) and can be used by anyone who owns a SorobanDomain, the key registration fee is $PSD 100.]]></content:encoded>
+      <guid isPermaLink="true">https://sorobandomains.org/blog/a-localstorage-on-soroban</guid>
+    </item>
+    <item>
+      <title>Airdrop has been deployed</title>
+      <link>https://sorobandomains.org/blog/airdrop-has-been-deployed</link>
+      <content:encoded><![CDATA[# Airdrop has been deployed
+
+March 31, 2024 · 2 min read
+
+It's the end of March and as we mentioned in our latest [article](/blog/getting-ready-for-the-dao) we are moving in the direction of a DAO with the announcement of an airdrop of the protocol token...
+And we just did that! We sent a claimable balance with the share of the supply to all of the early adopters and super adopters in the proportion mentioned in that article.
+
+We will give 1 month to claim the airdrop (deadline: April 30th at 23:59:59 UTC), after the deadline is completed we will claim back the unclaimed supply and send it to the DAO treasury.
+
+Let's remember that the total supply of the protocol token is 64 million tokens, and a total of 28.8 million tokens (45% of the total supply) were just distributed to the early adopters with a boost to those being the super adopters.
+We also distributed the rest of the tokens as specified in the article and a total of 25.6 million tokens are currently waiting to be distributed to the protocol itself, in the next few days we will deploy the protocol treasury contract where we will send this remaining supply and all token holders will be able to decide what to do with it through a regular DAO voting process.
+
+You might be asking yourself "Why would I want to claim this airdrop?" Well, as you might know, the protocol doesn't charge a fee when registering a domain... However future features like buying/selling or liquidations will indeed have fees, these fees will be distributed to the DAO treasury and voters can decide what to do with these fees, it's important that the community cares about it and participates in deciding!
+
+So, without anything else to say... Check your wallet, it's possible there is an airdrop waiting for your approval ;D
+
+> Remember: The DAO will never sell its token, so be aware of scams and check the real issuer of the protocol token [here](/docs/dao#token-psd-soroban-domain-protocol)]]></content:encoded>
+      <guid isPermaLink="true">https://sorobandomains.org/blog/airdrop-has-been-deployed</guid>
+    </item>
+  </channel>
+</rss>

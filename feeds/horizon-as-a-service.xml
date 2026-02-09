@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Horizon-as-a-Service - Stellar Ecosystem</title>
+    <link>https://withobsrvr.com</link>
+    <description>Latest articles about Horizon-as-a-Service in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/horizon-as-a-service.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Obsrvr Deploys 3 Full Validator Nodes, Aims for Tier 1 Status on Stellar Network</title>
+      <link>https://withobsrvr.com/post/obsrvr-aims-for-tier-1</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[# Obsrvr Deploys 3 Full Validator Nodes, Aims for Tier 1 Status on Stellar Network
+
+We're excited to announce that Obsrvr has taken a significant step towards becoming a Tier 1 organization on the Stellar network by deploying three full validator nodes. This move demonstrates our commitment to enhancing the decentralization, security, and reliability of the Stellar ecosystem.
+
+Our three validator nodes, OBSRVR Validator 1, 2, and 3, are now live and actively participating in the Stellar Consensus Protocol. Each node is geographically dispersed to ensure redundancy and maintain network stability even in the event of localized issues.
+
+**Key details about our validators:**
+
+1. Home Domain: stellar.withobsrvr.com
+2. Node Addresses:
+   * core-live-1.nodeswithobsrvr.co:11625
+   * core-live-2.nodeswithobsrvr.co:11625
+   * core-live-3.nodeswithobsrvr.co:11625
+3. Public Keys:
+   * GDRCZ4IPJR7V3HK4GR45CRTE72SDAOZUF2TDBQ5E5IGWC4KM5TSKU2LS
+   * GA2PU4UGMLSFUXGZATHPTDXXX7FOHBAQC57RSJCQUN72WFKTD6CEPQSF
+   * GACM6GIRMLXBBZIYJXBDTAEYZ2GJP3JJP5G5K4WDPBS6QFHPJNK6S2FB
+
+Each validator also maintains its own history archive, further contributing to the network's resilience and data availability.
+
+By running these validators, we aim to:
+
+1. Strengthen the Stellar network's decentralization
+2. Enhance network security and reliability
+3. Contribute to the robust quorum intersection necessary for network health
+4. Support the growth and development of the Stellar ecosystem
+
+We invite other Stellar validators to consider adding our nodes to their quorum sets. You can find detailed information about our organization and validators on StellarBeat: [https://stellarbeat.io/organizations/341fdc78bd09a5c0f0f421e5bb643882](https://stellarbeat.io/organizations/341fdc78bd09a5c0f0f421e5bb643882)
+
+As we work towards Tier 1 status, we're committed to maintaining high uptime, staying responsive to network updates, and actively participating in the Stellar validator community. We believe that by increasing the number of trusted validators, we can collectively build a stronger, more resilient Stellar network for all users and developers.
+
+Stay tuned for more updates as we continue our journey towards becoming a Tier 1 organization on Stellar!
+
+‍]]></content:encoded>
+      <guid isPermaLink="true">https://withobsrvr.com/post/obsrvr-aims-for-tier-1</guid>
+    </item>
+    <item>
+      <title>Guide for Soroban RPC server on Kubernetes with DigitalOcean</title>
+      <link>https://withobsrvr.com/post/guide-for-soroban-rpc-server-on-kubernetes-with-digitalocean</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[# Guide for Soroban RPC server on Kubernetes with DigitalOcean
+
+## Prerequisites
+
+- A fully registered domain name with an available A record
+  - Example: rpc.your_domain.com
+  - You can purchase a domain from Namecheap or any domain registrar
+  - This domain will be used to create a custom endpoint for your RPC server
+- An API testing client.
+  - Recommended: [https://httpie.io/](https://httpie.io/)
+  - Alternative: Postman or curl
+  - This will be used to verify the functionality of your RPC server
+
+### Introduction
+
+This tutorial will guide you through the process of deploying your own Soroban RPC (Remote Procedure Call) server on DigitalOcean's Kubernetes platform. Soroban is Stellar's smart contract platform, and having your own RPC server allows you to interact with the Stellar network for smart contract operations without relying on public infrastructure.
+
+Benefits of deploying your own Soroban RPC server:
+
+- Increased reliability and uptime
+- Control over server resources and configuration
+- Potential for better performance compared to public endpoints
+
+By the end of this tutorial, you'll have a fully functional Soroban RPC server accessible via your custom domain.
+
+### Target audience
+
+This tutorial is designed for developers with:
+
+- Intermediate knowledge of Kubernetes
+- Basic familiarity with DigitalOcean's cloud platform
+- Interest in Stellar blockchain development
+
+While prior experience with these technologies is helpful, we'll provide detailed explanations for each step.
+
+### Step by Step Instructions
+
+#### Step - Create Kubernetes Cluster in DigitalOcean
+
+A Kubernetes cluster on DigitalOcean has one or more node pools. Each node pool consists of a group of identical worker nodes. Worker nodes are built on Droplets. For this tutorial, we can build a cluster with two worker nodes in one node pool.
+
+##### Create Kubernetes cluster in DigitalOcean
+
+[https://docs.digitalocean.com/products/kubernetes/how-to/create-clusters/#create-a-cluster-using-the-control-panel](https://docs.digitalocean.com/products/kubernetes/how-to/create-clusters/#create-a-cluster-using-the-control-panel)
+
+a. Log into your DigitalOcean account and navigate to the Kubernetes section.
+
+b. Click "Create Cluster" and choose the following settings:
+
+- Cluster capacity: 2 GB RAM / 1 vCPU per node
+- Node count: 2 nodes (minimum for basic redundancy)
+- Datacenter region: Choose the closest to your target users
+- Cluster name: e.g., "soroban-rpc-cluster"
+
+c. Click "Create Cluster" and wait for provisioning (this may take several minutes).
+
+*Rationale: This cluster configuration provides a balance between cost and reliability for a personal RPC server.*
+
+*If you want to create a single node cluster, you will have to select a larger node size.*
+
+#### Step - Follow Getting Started with Kubernetes guide under the Overview Tab
+
+While the cluster is being provisioned, we can follow along with the rest of the setup instructions that appear under the Overview tab by clicking on Get Started
+
+![Getting Started](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949ea1_65abfe5cafe9cc253fc84878_Screenshot%25202024-01-20%252010.56.38%2520AM.png)
+
+##### Connecting to Kubernetes
+
+The first step in connecting to Kubernetes requires additional applications:
+
+###### Install doctl
+
+[https://docs.digitalocean.com/reference/doctl/how-to/install/](https://docs.digitalocean.com/reference/doctl/how-to/install/)
+
+###### Install kubectl
+
+[https://kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
+
+###### Install Helm
+
+[https://helm.sh/docs/intro/install/](https://helm.sh/docs/intro/install/)
+
+#### Verify connectivity to Kubernetes
+
+- In the DigitalOcean dashboard, go to your cluster's "Overview" tab
+- Click "Get Started" and copy the provided `doctl` command
+- Run this command in your terminal to configure kubectl
+
+*Rationale: These tools are essential for managing your Kubernetes cluster and deploying applications.*
+
+![Connect to Kubernetes](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e9c_65abfe8633e26490b9d80c58_Screenshot%25202024-01-20%252011.07.26%2520AM.png)
+
+##### Connect to Your Newly Provisioned Cluster Using doctl
+
+##### Verify Connectivity
+
+```bash
+kubectl cluster-info
+```
+
+Display addresses of the control plane and cluster services
+
+```bash
+doctl kubernetes cluster list
+```
+
+Displays a variety of commands that help manage your cluster via DigitalOcean's API
+
+![Verify connectivity](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e91_65abfeb443d996851a8d5761_Screenshot%25202024-01-20%252011.44.21%2520AM.png)
+
+#### Step - Add SDF Helm Chart Repository
+
+Stellar Development Foundation (SDF) provides Helm charts for easy deployment of Stellar applications.
+
+##### Add SDF Helm Chart Repository to Your System:
+
+We will first need to add the Helm Chart repository to our system using the following helm commands:
+
+The helm repo add command adds the chart repository to your local Helm registry
+
+```bash
+helm repo add stellar https://helm.stellar.org/charts
+```
+
+The helm repo update command updates the information of available charts locally from the chart repositories you have added to your Helm registry.
+
+```bash
+helm repo update
+```
+
+![Add and update Helm repo](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e7b_65abfedbcf24d57ccae053a5_Screenshot%25202024-01-20%252011.28.56%2520AM.png)
+
+*Rationale: This step allows you to easily install and manage Stellar applications on your Kubernetes cluster.*
+
+#### Step - Deploy Soroban RPC Workload
+
+Now that we have added the SDF chart repository to our local registry and updated the charts that are available to us, we can now deploy a workload using one of the charts available.
+
+a. Create a local deployment configuration file:
+
+- Start with the testnet configuration: [https://github.com/stellar/helm-charts/blob/main/charts/soroban-rpc/testnet-values.yaml](https://github.com/stellar/helm-charts/blob/main/charts/soroban-rpc/testnet-values.yaml)
+- Save this as `soroban-rpc-values.yaml` on your local machine
+
+Since we will be connecting our RPC server to testnet, we can uncomment update Soroban RPC image tag to the latest version
+
+> sorbanRpc:  
+>   ....  
+>     tag: latest
+
+![Update config](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949ea4_65abff1305de675192785248_Screenshot%25202024-01-20%252011.32.29%2520AM.png)
+
+For the ingress section in the configuration file, add your fully registered domain name for the host value
+
+- host: rpc.your_domain
+
+We also want to uncomment and update the Ingress class name
+
+- ingressClassName:nginx
+
+![Update config](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949eb9_65abff829a0af346aded583f_Screenshot%25202024-01-20%252011.39.27%2520AM.png)
+
+After we have finished with our configuration file, we can use that to install Soroban RPC into our Kubernetes cluster
+
+```bash
+helm install my-soroban-rpc stellar/soroban-rpc --values=testnet-values.yaml
+```
+
+![Helm install of Soroban RPC](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e82_65abffce9a0af346aded8195_Screenshot%25202024-01-20%252011.46.04%2520AM.png)
+
+*Rationale: This configuration sets up your RPC server to use the latest version and prepares it for public access via your domain.*
+
+#### Step - Verify the Service Is Up and Running
+
+Check the status of your service
+
+```bash
+kubectl get service
+```
+
+![Service status](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e78_65ac00520650b3f8087aae0c_Screenshot%25202024-01-20%252011.46.37%2520AM.png)
+
+Check the status of your pods
+
+```bash
+kubectl get pods
+```
+
+You should see pods related to Soroban RPC in a "Running" state.
+
+#### Step - Installing the Kubernetes Nginx Ingress Controller
+
+[https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-on-digitalocean-kubernetes-using-helm](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-on-digitalocean-kubernetes-using-helm)
+
+Even though we have verified that our service is running on our cluster in the previous step, we still cannot access the service from the outside. For that we will need to create an ingress, an ingress is a way for us to expose our service to the outside world. We will use the nginx ingress and we will first need to add the Nginx Helm Chart Repository to our system.
+
+The Nginx Ingress Controller manages external access to your services.
+
+Add Nginx Ingress Helm Chart Repository to Your System:
+
+```bash
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
+```
+
+We can now install the nginx ingress into our Kubernetes cluster
+
+```bash
+helm install nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+```
+
+![Install Nginx ingress](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e99_65ac000b93a3bcb23757bc20_Screenshot%25202024-01-20%252011.50.51%2520AM.png)
+
+Run this command to watch the load balancer become available. This process creates a load balancer in the cluster resource group in DigitalOcean.
+
+```bash
+kubectl --namespace default get services -o wide -w nginx-ingress-ingress-nginx-controller
+```
+
+![Watch for ingress creation](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e8b_65ac00bd43d996851a8e4904_Screenshot%25202024-01-20%252011.53.20%2520AM.png)
+
+![Load balancer ready](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949eb5_65ac00e47aa1e2b14f652f29_Screenshot%25202024-01-20%252011.54.33%2520AM.png)
+
+*Rationale: The Ingress Controller allows external traffic to reach your RPC server securely.*
+
+#### Step - Update DNS records to point to DigitalOcean loadbalancer
+
+a. Go to your domain registrar's DNS management page.
+
+b. Create an A record:
+
+- Name: rpc (or your chosen subdomain)
+- Value: The External-IP from the previous step
+
+c. Save the changes and wait for DNS propagation (can take up to 48 hours, but often much faster).
+
+*Rationale: This step connects your domain name to the DigitalOcean load balancer, allowing access to your RPC server.*
+
+![DNS record](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e87_65ac00f26243c546ecdc81e1_Screenshot%25202024-01-20%252011.58.30%2520AM.png)
+
+## Step - Verify You Can Connect to RPC Service Through Your Fully Qualified Domain
+
+Once DNS has propagated, test your RPC server:
+
+```bash
+http POST https://rpc.your_domain jsonrpc="2.0" id=867 method="getHealth"
+```
+
+![RPC test](https://cdn.prod.website-files.com/6375f3c2da1781687ae82d52/66a77a6848f4fdb617949e94_65ac00fe62a76b13adb5f8a8_Screenshot%25202024-01-20%252012.00.23%2520PM.png)
+
+## Step - Cleanup
+
+If you need to remove the deployment:
+
+1. Delete Helm releases
+
+```bash
+helm uninstall soroban-rpc
+helm uninstall nginx-ingress
+```
+
+2. Delete the Kubernetes cluster in the DigitalOcean dashboard.
+3. Remove the DNS A record from your domain registrar.
+
+## Maintenance Tips
+
+- Regularly update your Soroban RPC server:
+
+```bash
+helm repo update
+helm upgrade soroban-rpc stellar/soroban-rpc -f soroban-rpc-values.yaml
+```
+
+- Monitor cluster health using DigitalOcean's dashboard or kubectl commands.
+- Set up log aggregation for easier troubleshooting.
+
+##### Additional Resources:
+
+1. [https://docs.digitalocean.com/products/kubernetes/how-to/create-clusters/#create-a-cluster-using-the-control-panel](https://docs.digitalocean.com/products/kubernetes/how-to/create-clusters/#create-a-cluster-using-the-control-panel)
+2. [https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-on-digitalocean-kubernetes-using-helm](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-on-digitalocean-kubernetes-using-helm)
+3. [https://docs.digitalocean.com/products/kubernetes/getting-started/operational-readiness/enable-https/](https://docs.digitalocean.com/products/kubernetes/getting-started/operational-readiness/enable-https/)
+4. [https://github.com/stellar/helm-charts/](https://github.com/stellar/helm-charts/)
+5. [https://soroban.stellar.org/docs](https://soroban.stellar.org/docs)]]></content:encoded>
+      <guid isPermaLink="true">https://withobsrvr.com/post/guide-for-soroban-rpc-server-on-kubernetes-with-digitalocean</guid>
+    </item>
+    <item>
+      <title>Obsrvr Empowers Businesses with Stellar Blockchain Infrastructure Solutions</title>
+      <link>https://withobsrvr.com/post/obsrvr-empowers-businesses</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[# Obsrvr Empowers Businesses with Stellar Blockchain Infrastructure Solutions
+
+<div class="label cc-blog-date">December 5, 2023</div>
+
+## Introduction
+
+Blockchain technology has revolutionized the way businesses operate and has unleashed a new wave of innovation across various industries. As organizations strive to leverage the benefits of blockchain, Obsrvr emerges as a leading provider of blockchain infrastructure solutions tailored for Stellar.org and the Soroban smart contracts platform. Obsrvr's cutting-edge technologies and comprehensive offerings enable businesses to seamlessly integrate with the Stellar blockchain, empowering them to unlock new opportunities and drive innovation.
+
+## Simplifying Blockchain Adoption
+
+One of the key challenges faced by businesses looking to adopt blockchain technology is the complexity associated with its implementation. Obsrvr addresses this challenge by providing a range of robust solutions that simplify the development process and enhance security measures.
+
+## Obsrvr Gateway: A Secure Bridge to Stellar Blockchain and Soroban
+
+The Obsrvr Gateway is a managed offering that combines the Horizon API server and Soroban RPC server. By seamlessly integrating these components, businesses gain a secure and hassle-free experience when accessing and interacting with the Stellar blockchain and Soroban's smart contract capabilities. The Obsrvr Gateway acts as a secure bridge, providing businesses with the necessary tools to effectively harness the power of Stellar.org.
+
+## Obsrvr Nodes: Customizable Solutions for Enhanced Control
+
+For organizations that require enhanced control, scalability, and customization options, Obsrvr offers Obsrvr Nodes. These dedicated instances of the Horizon API and Soroban RPC Server provide businesses with the flexibility to tailor their blockchain infrastructure to meet their unique requirements. With Obsrvr Nodes, organizations can optimize their performance and control over their blockchain operations.
+
+## Enabling Businesses to Maximize the Potential of Stellar.org and Soroban
+
+By partnering with Obsrvr, businesses can focus on their core competencies while leveraging the full potential of Stellar.org and Soroban. The comprehensive range of solutions offered by Obsrvr simplifies blockchain adoption, facilitating seamless integration and driving innovation. With Obsrvr's robust infrastructure solutions, businesses can confidently explore new opportunities and create tangible value across various industries.
+
+## Conclusion
+
+As businesses increasingly recognize the benefits of blockchain technology, Obsrvr stands at the forefront, delivering cutting-edge blockchain infrastructure solutions for Stellar.org and the Soroban smart contracts platform. Through its Obsrvr Gateway and Obsrvr Nodes, Obsrvr empowers businesses to leverage the power of the Stellar blockchain and Soroban smart contracts, while simplifying the development process and enhancing security measures. By partnering with Obsrvr, businesses can embrace blockchain technology and unlock new opportunities for growth and innovation.
+
+To learn more about Obsrvr and its blockchain infrastructure solutions for Stellar.org, visit withobsrvr.com.]]></content:encoded>
+      <guid isPermaLink="true">https://withobsrvr.com/post/obsrvr-empowers-businesses</guid>
+    </item>
+  </channel>
+</rss>

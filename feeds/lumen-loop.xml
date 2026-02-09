@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lumen Loop - Stellar Ecosystem</title>
+    <link>https://lumenloop.com</link>
+    <description>Latest articles about Lumen Loop in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/lumen-loop.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Your Guide to SCF Growth Hack and January Stellar Promos</title>
+      <link>https://x.com/lumenloop/article/2014895004062187702</link>
+      <pubDate>Sat, 24 Jan 2026 02:56:18 GMT</pubDate>
+      <author>@lumenloop</author>
+      <enclosure url="https://pbs.twimg.com/media/G_ZXtOTWwAAtHPz.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Your Guide to SCF Growth Hack and January Stellar Promos
+
+The Stellar Community Fund (SCF) Growth Hack is currently in full swing! This competition-style program is designed to support companies already live on the Stellar mainnet, helping them accelerate their go-to-market strategies and find "product-market fit" through funded user acquisition campaigns.
+
+For you, this is an opportunity to try out Stellar projects and be rewarded for doing so. From prize pools and weekly raffles to direct cashback, these projects are incentivizing early adopters.
+
+Here is exactly how to participate in the active promos today.
+
+## Payments & Remittances
+
+**ROZO (@ROZOai)**  
+The Promo: Reward Wave 3 is live with a $1,000 prize pool. Every participant gets a piece of the pie based on their activity volume.
+How to earn: Boost your score by using ROZO Earn (deposits/withdrawals), sending P2P via the ROZO Wallet, or bridging assets via ROZO Intent.
+Pro Tip: Secure a Top 10 spot for rank multipliers (up to 2x your score) and get a 20% bonus from your invitees' volume.
+
+**Myaza (@myazahq)**  
+The Promo: Effortless USDC movement with a direct cashback incentive.
+How to earn: Deposit $100 or more in USDC via the Stellar network into your account and receive 1% cashback.
+Get Started: Download the app at [myaza.co](https://myaza.co).
+
+**Seevcash (@seevcash)**  
+The Promo: Focused on the US-Ghana corridor, Seevcash is rewarding users for expanding their network.
+How to earn: Download the app (iOS or Android) and use the referral loop to invite friends.
+Update: Check out the new "Pocket" feature to track your expenses and rewards more easily.
+
+## Yield & DeFi
+
+**Soroswap Earn (@SoroswapFinance)**  
+The Promo: Weekly raffles for real usage, with a special focus on users moving over from the Base network.
+How to earn: Deposit into the USDC vault via [app.soroswap.finance/earn](https://app.soroswap.finance/earn). You’ll earn your standard yield plus an entry into the weekly raffles.
+Check the Raffle: See winners and rules at [raffle.soroswap.finance](https://raffle.soroswap.finance).
+Note: Thanks to the ROZO partnership, bridging from Base to Stellar is now frictionless and often sponsored to reduce gas costs.
+
+## Infrastructure & Bridges
+
+**Allbridge (@Allbridge_io)**  
+The Promo: Tiered rewards for bridging and providing liquidity, totaling over $3,000 in prize pools.
+Bridge Rewards: 
+- Bridge $50+ 👉 $10
+- Bridge $100+ 👉 $10
+- Bridge $500+ 👉 $20
+- Bridge $1,000+ 👉 $50
+
+LP Rewards: Stake USDC in the Stellar LP (tiers from $50 to $1,000) to earn between $10 and $50 extra.
+How to Claim: You must complete the quests on their Galxe Page by the Feb 1 deadline.
+
+Whether you are looking to earn passive yield or just want to save on your next cross-border transfer, these campaigns are the perfect entry point into the Stellar ecosystem.]]></content:encoded>
+      <guid isPermaLink="true">https://x.com/lumenloop/article/2014895004062187702</guid>
+    </item>
+    <item>
+      <title>Stellar Ecosystem Highlights - July 2025</title>
+      <link>https://x.com/lumenloop/article/1955011634197565839</link>
+      <pubDate>Mon, 11 Aug 2025 21:01:10 GMT</pubDate>
+      <author>@lumenloop</author>
+      <enclosure url="https://pbs.twimg.com/media/GyGXSWraEAA_Ckt.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[July was a month of major milestones and forward momentum for the Stellar ecosystem! From celebrating its 11th birthday to welcoming new top-tier leadership and securing massive integrations with giants like Visa. This month showcased significant growth in defi, developer tooling, and global community engagement, setting the stage for an exciting second half of the year.
+
+## New Leadership to Catapult Growth
+
+The Stellar Development Foundation (SDF) made two powerhouse additions to its C-suite, signaling a renewed focus on aggressive growth and marketing.
+
+Jose Fernandez da Ponte joins as the President of Growth. With extensive experience leading blockchain initiatives at major financial institutions like PayPal and BBVA, Jose brings invaluable expertise in scaling real-world financial services on-chain. The community is excited to see his focus on developing economies and unlocking "dead capital" applied to the Stellar network.
+
+Jason Chicola steps in as the new Chief Marketing Officer (CMO). Jason is already shaking things up with a fresh, competitive energy. His initial "man on the street" video was a hit with the community, and his leadership is expected to bring a new spin to SDF's marketing and communications strategy, further elevating Stellar's presence in the ever-evolving blockchain landscape.
+
+## Major Integrations & Ecosystem Wins
+
+July saw a flurry of significant partnerships and technical advancements that expand Stellar's utility and interoperability.
+
+### Visa Expands Stablecoin Settlement with Stellar
+
+In a landmark move for TradFi adoption, Visa added support for Stellar to its Visanet settlement network. This integration will facilitate the use of stablecoins like EURC and the forthcoming PYUSD (PayPal USD) on Stellar, further cementing the network's role as a premier platform for compliant, low-cost digital payments.
+
+### Boundless Unveils "The Signal" for Cross-Chain Communication
+
+Privacy and interoperability took a major leap forward with the launch of "The Signal" by Boundless. This innovative tool creates Zero-Knowledge (ZK) proofs of Ethereum's finalized blocks that can be verified directly on Stellar. This allows Stellar dApps to trustlessly read Ethereum's state in real-time without relying on traditional oracles or multi-sig bridges, paving the way for more secure and sophisticated cross-chain applications.
+
+## DeFi, RWAs, and Wallet Enhancements
+
+The ecosystem continued its rapid pace of innovation:
+
+**Figure Teases Major RWA Integration:** In a low-key but massive development, Figure, a leader in on-chain finance, revealed it is working on a Stellar integration for its loan products. After placing $800 million in debt on-chain via the Provenance blockchain, bringing this capability to Stellar could be a game-changer for hitting Real-World Asset (RWA) targets.
+
+**Blend Comes to the US:** The popular lending protocol Blend has removed its geoblock for US users, opening up access to its high-yield DeFi opportunities. Users are reminded to migrate any liquidity from V1 to V2 pools to continue earning rewards.
+
+**Gas-Free is the Future:** Decaf and Hot Wallet both rolled out gas-free transactions on Stellar. By covering transaction fees, these wallets significantly lower the barrier to entry for new users and make DeFi interactions, like swapping on Blend, more seamless.
+
+**Hardware Wallet Support Grows:** Security-conscious users can now celebrate! XLM is officially supported on Trezor hardware wallets, and AirGap now allows users to turn an old phone into a secure, air-gapped cold wallet for their Stellar assets.
+
+**Protocol 23 Preparations:** Kale completed a successful stress test on Futurenet, hammering the network with transactions to prepare for the Protocol 23 upgrade. The validator vote is currently scheduled for September 3rd.
+
+## 🎂 Happy 11th Birthday, Stellar!
+
+On July 31st, the Stellar network celebrated its 11th birthday! Launched in 2014, Stellar has proven its resilience and relevance, consistently ranking as a top blockchain network. Cheers to 11 years of building a more equitable and accessible financial system! 🎉
+
+## Global Community & Hackathons
+
+The Stellar community was more active than ever, with events, grants, and hackathons spanning the globe.
+
+**SCF #36 Winners Announced:** The Stellar Community Fund (SCF) awarded over 2 million $XLM to 23 innovative projects in its 36th round.
+
+**LATAM Summits Shine:** The Mexico LATAM Summit was a huge success, connecting participants with mentors at Meta and Google offices. Next up is the Argentina LATAM Summit from August 10-17, hosted in collaboration with the SDF Give program.
+
+**New "Stellar Community Launch" Grant:** A new grant program through Giveth now offers up to $5,000 for community members to host events and workshops in regions without an official Ambassador chapter, using quadratic funding to maximize community impact.
+
+**Hackathon Fever:** July was packed with hackathons, including the Blend Hackathon, the Stellar Ireland Hackathon, and the ongoing Stellar UK AI Hackathon (August 2-16) and 1inch Hackathon (ending August 6).
+
+## Upcoming Events
+
+Mark your calendars for these key events in August and beyond:
+
+- **Tellus Cooperative Ideaton (Aug 7-9):** Get rewarded for your ideas and content creation.
+- **Argentina LATAM Summit (Aug 10-17):** Panels, workshops, and a hackathon in Buenos Aires.
+- **Protocol 23 Validator Vote (Sep 3):** The network vote for the next major protocol upgrade.
+- **Meridian 2025 in Rio (Sep 17-18):** Stellar's flagship annual conference is heading to the Copacabana Palace in Rio de Janeiro, Brazil. Don't miss it!]]></content:encoded>
+      <guid isPermaLink="true">https://x.com/lumenloop/article/1955011634197565839</guid>
+    </item>
+    <item>
+      <title>Announcing the Stellar Community Launch on Giveth</title>
+      <link>https://x.com/lumenloop/article/1947359624857800860</link>
+      <pubDate>Mon, 21 Jul 2025 18:14:49 GMT</pubDate>
+      <author>@lumenloop</author>
+      <enclosure url="https://pbs.twimg.com/media/GwZikqxW8AAzan2.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Get funding for your next Stellar event!
+
+In a strategic move to foster global adoption, [@StellarOrg](https://x.com/StellarOrg) has partnered with crypto fundraising platform [@Giveth](https://x.com/Giveth) to launch a new community-focused grant program with a clever twist on event funding.
+
+The initiative, dubbed the "Stellar Community Launch," earmarks a $50,000 matching pool for individuals and teams looking to host Stellar-focused educational events around the world. But unlike traditional grant programs that often favor established entities, this one is aimed squarely at uncovering new, passionate community leaders.
+
+The program uses a funding mechanism called Quadratic Funding (QF), a model popularized in the Ethereum ecosystem for its democratic approach. In simple terms, the number of unique contributors to a project matters more than the total amount of capital they donate. A project with 100 small donations will receive significantly more in matching funds than a project that gets the same total amount from just one or two large donors.
+
+This method does two things effectively: it ensures the matching funds are allocated to projects with broad community support, and it serves as a powerful signal for the SDF. The foundation has been transparent that this initiative is not just about funding events... it’s a talent scouting mission. They are actively looking to identify potential leaders for their global Stellar Ambassador Program, particularly in regions where the network currently has little to no presence.
+
+## What Makes a Great Event Submission?
+
+The initiative is broadly focused on community education, local engagement, and ecosystem growth. According to the program details, the Stellar Development Foundation is encouraging a wide range of creative proposals. Examples of projects that align with the program's goals include:
+
+* **Stellar Workshops & Developer Onboarding**: Technical sessions designed to teach developers how to build applications on the Stellar network, including its smart contract platform, Soroban.
+* **Community Meetups**: Local gatherings for Stellar users and enthusiasts to network, share ideas, and learn from one another, fostering a durable local presence.
+* **Hackathons**: Competitive events that challenge participants to build innovative, real-world solutions using Stellar's technology in a condensed timeframe.
+* **Localized Content and Events**: Projects aimed at translating documentation or hosting sessions in local languages to improve accessibility and lower the barrier to entry for non-English speaking communities.
+
+In essence, any project with a clear and impactful plan to introduce the Stellar ecosystem to a new audience is eligible for consideration.
+
+## Key Details for Potential Applicants
+
+For those looking to build a Stellar community in their area, the opportunity is now open. Here are the essential details:
+
+* **Matching Pool**: $50,000 USDGLO (USD stablecoin)
+* **Max matching per project**: 5,000 USDGLO
+* **Application Deadline**: August 6, 2025
+* **Funding Round Dates**: August 19 – September 2, 2025
+* **Platform**: Applications and donations are managed through Giveth.
+* **Events Must Take Place**: Between mid-September and October 31, 2025
+
+Applications just went live and this is your chance to lead the way.
+
+**Apply now:**
+[https://giveth.typeform.com/StellarQFRound](https://giveth.typeform.com/StellarQFRound)
+
+**More info:**
+[https://giveth.notion.site/stellar-community-launch-qf-round-guide](https://giveth.notion.site/stellar-community-launch-qf-round-guide)]]></content:encoded>
+      <guid isPermaLink="true">https://x.com/lumenloop/article/1947359624857800860</guid>
+    </item>
+  </channel>
+</rss>

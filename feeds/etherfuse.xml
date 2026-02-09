@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etherfuse - Stellar Ecosystem</title>
+    <link>https://etherfuse.com</link>
+    <description>Latest articles about Etherfuse in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/etherfuse.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Etherfuse and Shinhan Securities Partner to Advance Tokenized Sovereign Debt Access Across Asia</title>
+      <link>https://etherfuse.com/blogs/etherfuse-and-shinhan-securities-partner-to-advance-tokenized-sovereign-debt-access-across-asia</link>
+      <author>Etherfuse</author>
+      <enclosure url="https://cdn.prod.website-files.com/66c70739956b910a7e5bd476/696e64a3f9fa93a5b5f62487_KTB-Stablebond-09qwufj.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[#### FOR IMMEDIATE RELEASE - Los Angeles, CA - January 19th, 2026
+
+Etherfuse has entered into a strategic partnership with [**Shinhan Securities**](https://open.shinhansec.com/new_eng/), one of Asia's leading securities firms, to support the expansion and institutional distribution of tokenized sovereign debt in Korea and across Asia. The partnership between [Etherfuse](https://www.etherfuse.com/) and Shinhan Securities reflects growing institutional interest in applying high-performance blockchain infrastructure, including [Monad](https://www.monad.xyz/), [Solana](https://solana.com/) and [Stellar](https://stellar.org/), to established government bond markets in a way that complements existing financial frameworks.
+
+Sovereign bonds remain a core component of global capital markets, particularly in Asia, where they play a central role in long-term allocation, liquidity management, and capital preservation. As financial institutions assess the next phase of market infrastructure, attention is shifting toward digital systems that improve access, settlement, and transparency without altering the economic foundations of these instruments.
+
+This partnership focuses on facilitating institutional access to sovereign debt represented onchain. Through Etherfuse's stablebond framework, government bonds can be accessed in tokenized form while maintaining predictable interest mechanics, verifiable backing, and alignment with regulatory and market standards across Asian jurisdictions.
+
+**_David Taylor, CEO of Etherfuse_**, *commented: "Asia represents one of the most important regions for the future of digital finance. Institutions across the region are exploring how blockchain infrastructure can enhance efficiency and transparency in traditional markets. Partnering with Shinhan Securities allows us to extend tokenized sovereign debt in a way that aligns with institutional expectations and existing market structures."*
+
+As capital markets continue to evolve, institutions are increasingly seeking operational efficiency alongside portfolio diversification. Tokenized sovereign debt offers a framework that supports these objectives by combining government-backed yield with onchain transparency and streamlined settlement.
+
+**_Jeseok Hong of Shinhan Securities_** *said the collaboration demonstrates how trusted traditional financial infrastructure can work with blockchain to broaden efficient cross-border access to Korean government bonds. He added that Shinhan Securities is committed to supporting global partners like Etherfuse as they scale institutional-grade digital finance across Asia, while continuing to help establish a transparent and compliant framework for on-chain issuance and distribution.*
+
+By working with Shinhan Securities, Etherfuse extends its sovereign bond tokenization infrastructure to a broader Asian investor base. The partnership reflects a shared focus on building institutional-grade digital finance systems that integrate seamlessly with traditional capital markets.
+
+### **About Etherfuse**
+
+Etherfuse builds blockchain infrastructure for tokenized sovereign debt across emerging and developed markets. Through its stablebond framework, Etherfuse represents government bonds onchain while preserving their economic structure, interest mechanics, and regulatory alignment. Each Stablebond is backed by underlying sovereign debt and designed to provide transparent, yield-bearing exposure for institutional and professional investors.
+
+### **About Shinhan Securities**
+
+Shinhan Securities is one of Asia's leading securities firms, offering a comprehensive range of financial services including investment banking, brokerage, asset management, and institutional solutions. As part of Shinhan Financial Group, the firm plays a central role in regional capital markets, supporting institutional investors with deep market expertise, robust risk management, and a long-standing commitment to financial innovation across Asia.
+
+‍]]></content:encoded>
+      <guid isPermaLink="true">https://etherfuse.com/blogs/etherfuse-and-shinhan-securities-partner-to-advance-tokenized-sovereign-debt-access-across-asia</guid>
+    </item>
+    <item>
+      <title>Etherfuse FAQs, UPDATED!</title>
+      <link>https://etherfuse.com/blogs/etherfuse-faqs</link>
+      <author>Estuardo Polanco</author>
+      <enclosure url="https://cdn.prod.website-files.com/66c70739956b910a7e5bd476/68c3164c72e6372616ed6575_FAQs-Blog-post%20(2).jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[Etherfuse is a blockchain-powered platform that makes it easy for anyone to access and invest in traditional fixed-income products like government bonds directly 'on-chain' (on the blockchain itself). Below you will find some of our most common frequently asked questions (FAQs).
+
+### General Questions
+
+**What are government bonds, and who buys them?**
+
+Bonds are essentially loans you give to governments in return for repayment plus interest at a later date.
+
+Who buys them? Large institutions like banks, pension funds, and insurance companies are major buyers. Regular individuals can also invest in bonds directly or through funds. However, currently only around 1.3% of US households directly own bonds, a number that is likely smaller in emerging markets.
+
+Etherfuse seeks to address this issue. By simplifying access, we enable more people to invest in bonds, improving financial inclusion and allowing a broader population to share in the benefits of a nation's primary revenue-creation vehicle.
+
+**What are Stablebonds?**
+
+Stablebonds are real government bonds tokenized on the blockchain. When you purchase them on Etherfuse, you still own sovereign debt, but in a more accessible, tradable, and digital format.
+
+Bonds are considered more secure than stock or crypto investments as they are government-backed and provide you with a largely predictable return.
+
+Etherfuse currently offers CETES, GILTS, TESOURO, USTRY, and EUROB, with more Stablebonds coming soon. You can see the details (including estimated APY) for each stablebond on our [dashboard](https://app.etherfuse.com/dashboard).
+
+Or read our [Whitepaper](https://stablebonds.s3.us-west-2.amazonaws.com/neon.pdf).
+
+**What are Sovereign Coins?**
+
+Sovereign Coins are a new class of digital currencies offered by Etherfuse, which combine the utility of stablecoins with the security of stablebonds.
+
+Like Stablecoins (e.g. USDC, USDT), they are linked to the national currency of the issuing country and can be used for fast, low-cost remittances, reliable payroll systems, and stable daily transactions.
+
+Unlike Stablecoins, however, they are not backed by FIAT but rather government-issued bonds (Stablebonds). This ensure the coin's value remains stable and pegged to the national currency of the issuing country.
+
+MXNe is our flagship Sovereign Coin. It is pegged to the Mexican peso and is backed by Mexican government bonds. Our clients use it to support on-chain payments, remittances, and payroll in Mexico.
+
+To learn more, visit [https://www.etherfuse.com/sovereign-coins](https://www.etherfuse.com/sovereign-coins)
+
+And read our [Whitepaper](https://stablebonds.s3.us-west-2.amazonaws.com/black.pdf).
+
+**Why buy bonds on the blockchain instead of through a bank or broker?**
+
+Buying bonds on the blockchain offers several advantages over traditional banks and brokers.
+
+Transactions are faster because blockchain removes intermediaries and associated fees, allowing almost instant settlement. Ownership is fully transparent and verifiable on the blockchain, so investors always know exactly what they hold and can track changes in real time.
+
+Fractional investing allows anyone to start with very small amounts, even as little as US$1, making bonds accessible to retail investors while still supporting institutional-scale transactions. Finally, the entire investment lifecycle, from purchase to tracking to redemption, is managed digitally, giving investors full control and convenience without the need for paperwork or intermediaries.
+
+### Buying & Selling on Etherfuse
+
+**How do I buy bonds on Etherfuse?**
+
+Easy. The full process should take no more than 3 minutes.
+
+**1. Connect a Compatible Crypto Wallet** Visit the [Etherfuse Dashboard](https://app.etherfuse.com/dashboard). At the top right-hand corner, you will see an option to connect your wallet. Use a wallet such as Phantom (for Solana) or any wallet that supports the Stellar network.
+
+**2. Complete KYC** Next, you will be required to go through a Know‑Your‑Customer process to prove identity and comply with regulatory standards.
+
+**3. Choose Your Bond Option** Browse the available Stablebonds, such as Mexican CETES or U.S. Treasury Stablebonds. Each option clearly displays key details like annual percentage yield (APY) and maturity date.
+
+**4. Purchase With USDC (On Everychain) + XLM (On Stellar)** Complete your purchase using USDC across all supported blockchains. If you're buying on Stellar, you'll also need XLM to cover network transaction fees.
+
+**5. Done! Earn APY!**
+
+**What are my likely returns on Etherfuse bonds?**
+
+Returns are earned according to the bond you select. Each bond accrues interest until maturity, which is reflected in its Annual Percentage Yield (APY) and is automatically updated on your token balance by the platform. This allows you to track your returns in real time without manual calculations.
+
+You can see typical APYs and buy stablebonds on our [dashboard](https://app.etherfuse.com/dashboard).
+
+**Do I need a Solana-compatible wallet to buy Stablebonds on other blockchains?**
+
+Yes, but only as a first step to mint the Access NFT. Once you have the NFT, you can use other wallets compatible with Stellar, Base, or Polygon to purchase Stablebonds on those chains. The Solana wallet is required solely for identity verification and platform access.
+
+**What makes Etherfuse different from other platforms?**
+
+Etherfuse combines the benefits of traditional government bonds with the advantages of blockchain technology. Unlike platforms that provide only synthetic exposure, Etherfuse offers real tokenized bonds fully backed by regulated custodians, giving investors direct access to sovereign debt with full transparency.
+
+Key differentiators include:
+
+Real bonds, not synthetic tokens: Investments are tied to actual government securities rather than derivatives, ensuring legal protections and expected returns are preserved.
+
+Fractionalized investments: Anyone can invest with as little as US$1, while institutional investors can also deploy capital efficiently.
+
+Safety and transparency: Bonds are held with regulated custodians and ownership is immutably recorded on the blockchain, giving investors a verifiable record of their holdings.
+
+Digital convenience: Everything from buying to tracking to redemption is managed online, including automatic rollovers and purchase orders for upcoming issuances.
+
+Expanding global offerings: Etherfuse continuously adds new government bonds across multiple jurisdictions and blockchains, allowing investors to diversify their fixed-income portfolios.
+
+**How do I sell bonds, and what if I sell early?**
+
+On Etherfuse, bonds are tokenized on the blockchain and can be sold either through the platform's marketplace or using a compatible wallet that supports the specific blockchain of the bond. Selling before maturity is possible, but the price you receive may differ from the original purchase price because it depends on current market conditions, including interest rates and investor demand. Selling early could result in a gain or a loss compared to the expected yield if held to maturity. For investors seeking predictable returns, it is generally recommended to hold bonds until maturity to ensure full interest payments and principal repayment.
+
+**What if a bond has no supply?**
+
+Occasionally, certain Stablebonds may be fully subscribed, especially for popular issuances or bonds with limited availability. Etherfuse provides a Purchase Order feature that allows you to reserve allocations in upcoming issuances. Once the new supply becomes available, your order is automatically processed, so you can secure your investment without constantly monitoring availability.
+
+**What are Etherfuse's fees?**
+
+The APY we show on our platform is the APY that users will earn on our platform. For example, if you see 13% APY on Tesouro that is the rate you will get. No fees are taken from this amount.
+
+Instead, Etherfuse takes its fee before this step, based on the actual price of government bonds at the time. We employ a tiered fee structure for its Stablebonds, ranging from 0.25% for low-yield bonds (≤4.5% APY) and 1.5% for high-yield bonds (≥10% APY).
+
+Additional costs: You might also pay small blockchain transaction fees (e.g., SOL for Solana), which are separate from Etherfuse's fees. Furthermore, tax withholdings may apply. For example, in Mexico, financial entities withhold 0.5% of the interest earned on investments in financial assets.
+
+For further information, see [How does Etherfuse Generate Revenue](https://www.notion.so/24d4252a813a806599abfd8a03ac6686?pvs=21).
+
+### Security and Compliance
+
+**How safe are my investments?**
+
+The safety of your investment primarily depends on the creditworthiness of the bond issuer (e.g. the government), not Etherfuse itself. Since government bonds are issued by sovereign authorities, they are generally considered lower risk than stocks or cryptocurrencies.
+
+At a technical level, it is important to understand that bonds purchased on Etherfuse are held with regulated custodians not with Etherfuse itself. For example, CETES is held by BBVA, Actinver, Kuspit and Cas de Bolsa BASE. Your underlying investment is separate from Etherfuse's operational health. Even in the unlikely event that Etherfuse were to face operational issues, your bonds would remain secure with the custodian, and you would retain full ownership of the underlying government debt.
+
+Finally, Etherfuse enhances security by recording ownership on the blockchain, creating a transparent and tamper-proof record of your holdings.
+
+For further information, see our page on [Asset Security](https://app.etherfuse.com/legal/asset-security).
+
+**What security and compliance audits has Etherfuse undergone?**
+
+Etherfuse has completed several independent reviews and attestations to strengthen trust and compliance:
+
+CNBV Statement of Fact (Mexico): Confirms Etherfuse Tokens do not require regulatory approval from CNBV.
+
+Swiss Legal Opinion: Explains how Stablebonds are recognized under Swiss law.
+
+Proof of Reserves: Independent audits verify holdings match what's reported on-chain.
+
+AML Audit: Conducted by BHR ENW México Group, S.C., confirming adherence to anti–money laundering standards.
+
+Rust Smart Contract Audit: Performed by OtterSec on Etherfuse's Solana-based contracts.
+
+For full documentation and reports, see: [Etherfuse Compliance & Audits](https://app.etherfuse.com/legal/compliance-and-audits?utm_source=chatgpt.com)
+
+**Is Etherfuse regulated?**
+
+Etherfuse itself is not a bank or brokerage but operates in compliance with financial regulations in each jurisdiction it serves. This includes KYC (Know Your Customer) and AML (Anti-Money Laundering) procedures. Bonds are held with regulated custodians such as INDEVAL for Mexican CETES, ensuring that all investments remain within a regulated financial framework.
+
+**What if I have a specific legal question?**
+
+That's great. See our legal [FAQs here](https://app.etherfuse.com/legal/legal-qa).]]></content:encoded>
+      <guid isPermaLink="true">https://etherfuse.com/blogs/etherfuse-faqs</guid>
+    </item>
+    <item>
+      <title>Etherfuse® Introduces Real MXN (MXNe) Stablecoin on Solana, Base and Stellar</title>
+      <link>https://etherfuse.com/blogs/etherfuse-r-introduces-real-mxn-mxne-stablecoin-on-solana-base-and-stellar</link>
+      <author>Estuardo Polanco</author>
+      <enclosure url="https://cdn.prod.website-files.com/66c70739956b910a7e5bd476/66f40fbf7243f5b7a01e8ead_Capture-2024-09-25-152657.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[At Etherfuse, we are dedicated to enhancing financial accessibility and efficiency through innovative blockchain solutions. Today, we are proud to present Real MXN (MXNe), a stablecoin supported with Stablebonds. MXNe is now live on Solana, Base and Stellar, set to transform on-chain payments, remittances, and payroll.
+
+![Image](https://cdn.prod.website-files.com/66c70739956b910a7e5bd476/66f40faa7e0e94e81f800403_https%253A%252F%252Fsubstack-post-media.s3.amazonaws.com%252Fpublic%252Fimages%252F33c5307d-693b-436c-a4e1-35548adad050_1200x1200.jpeg)
+
+### **A New Era for Mexican Finance**
+
+MXNe is more than just a stablecoin; it's a gateway to economic empowerment for the Mexican community. With MXNe, individuals and businesses can enjoy the benefits of blockchain technology, including low transaction fees, fast settlement times, and enhanced security. This stablecoin aims to provide a reliable and stable financial tool for everyday use.
+
+"The MXNe stablecoin has the potential to revolutionize the way we transact and capture value. This is a significant step forward, benefiting the communities who create, develop, promote, and use it. We look forward to creating a platform that allows anyone, anywhere in the world, to develop a stablecoin in any currency," said David Taylor, Founder & CEO of Etherfuse.
+
+#### **Empowering Local Economies**
+
+MXNe is designed to stimulate local economic growth by enabling seamless transactions that keep more value within the community. Mexico, one of the world's largest recipients of remittances, can greatly benefit from a stablecoin that reduces the costs and complexities of cross-border payments. By using MXNe, merchants and consumers can transact with significantly lower fees, making everyday commerce more efficient and affordable.
+
+### **Benefits for Liquidity Providers**
+
+Providing liquidity for MXNe offers an array of attractive benefits. Liquidity providers can enjoy high rewards opportunities backed with CETES bonds, which add an extra layer of stability and security. MXNe is designed to deliver returns compared to traditional stablecoins, ensuring that liquidity providers can benefit of the ecosystem created/from a consistent and attractive reward.
+
+By being secured with BBB+ rated bonds, MXNe minimizes exposure to market volatility, providing a stable and low-risk environment. This bond-backed mechanism ensures an environment of reliability and consistency. 
+
+Moreover, MXNe operates with complete transparency and security, cryptographically secured by Solana's blockchain. This partnership ensures that all operations are transparent and reliable, providing peace of mind to all liquidity providers.
+
+#### **How to Get MXNe**
+
+To acquire MXNe, users can [onboard directly with Brale](https://brale.xyz/stablecoins/MXNe) to mint new tokens. As we continue to expand, MXNe will soon be available on the Etherfuse platform, along with additional listings on local exchanges and more on/off ramp options.
+
+### **Building the Future with MXNe**
+
+We invite developers and businesses to integrate MXNe into their applications using our robust Brale API. The potential for MXNe as an alternative to remittance services, merchant point-of-sale systems, and other financial applications is immense. With instant settlement and ultra-low fees, MXNe is poised to become a cornerstone of the digital economy and beyond.
+
+![Image](https://cdn.prod.website-files.com/66c70739956b910a7e5bd476/66f40fabeba111eb3eb89fa8_https%253A%252F%252Fsubstack-post-media.s3.amazonaws.com%252Fpublic%252Fimages%252Fe27c0e5c-a363-41f5-b7ca-408a10acc9f5_1920x1080.png)
+
+This marks the beginning of a new chapter in financial innovation. Join us in leveraging the power of blockchain to create a more inclusive and dynamic financial landscape.
+
+For more information, visit [Etherfuse](https://etherfuse.com/) and[Brale](https://brale.xyz/).
+
+‍]]></content:encoded>
+      <guid isPermaLink="true">https://etherfuse.com/blogs/etherfuse-r-introduces-real-mxn-mxne-stablecoin-on-solana-base-and-stellar</guid>
+    </item>
+  </channel>
+</rss>

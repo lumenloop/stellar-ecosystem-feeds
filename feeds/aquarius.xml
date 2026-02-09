@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aquarius - Stellar Ecosystem</title>
+    <link>https://aqua.network</link>
+    <description>Latest articles about Aquarius in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/aquarius.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aquarius AMMs — Updates and plans for 2024</title>
+      <link>https://medium.com/aquarius-aqua/aquarius-amms-updates-and-plans-for-2024-f390e9d06b15</link>
+      <pubDate>Tue, 16 Jan 2024 10:00:00 GMT</pubDate>
+      <author>Aquarius</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*26uC5dh3848a5mlw-nsntg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Aquarius AMMs — Updates and plans for 2024
+
+### Aquarius AMMs — Updates and plans for 2024
+
+#### Discover how we are using Soroban smart contracts to create a new AMM ecosystem on Stellar
+
+![Soroban image](https://cdn-images-1.medium.com/max/1024/1*26uC5dh3848a5mlw-nsntg.png)
+
+Today, if you browse through any Stellar-focused social media channel, you’ll find that Soroban is the predominant topic of discussion. Soroban — is an upcoming Rust-based smart contracts platform that seamlessly integrates with the existing Stellar blockchain.
+
+This new technology is expected to go live on January 30, 2024, and the Stellar community looks forward to trying it out. If you follow us on [**Discord**](https://discord.gg/w5WvrnrUgv) or [**X**](https://twitter.com/aqua_token), you may notice that Aquarius has been a part of this journey from the beginning. In this article, we aim to share our experiences with Soroban, highlighting the milestones we achieved in 2023 and giving you a look at our exciting plans for 2024.
+
+### Soroban: New chapter for Aquarius.
+
+2023 was a landmark year for us in exploring and advancing our capabilities with the help of Soroban. While we developed and improved our existing functionality and interfaces, our focal point was undeniably centered on developing smart contracts around Aquarius.
+
+Since 2021, Aquarius has been actively helping improve liquidity on Stellar DEX and AMMs. We incentivized Stellar users to provide liquidity to hundreds of markets and [distributed](https://stellar.expert/explorer/public/account/GBU44GPNHLW5GSGE4HDOEFLSSF5A6TF4BAPQ7ZWPB7YTZ2F4I4L22DOM) more than 6B of AQUA as rewards to market makers and liquidity providers. We received a ton of positive feedback from asset issuers who used the Aquarius platform to attract market liquidity.
+
+Merging new capabilities of Soroban smart contracts with our existing experience enabled us to come up with a bigger vision for Aquarius, and we’ve been busy building the way forward.
+
+We have set the following goals for the upcoming Soroban release:
+
+*   ***Create and oversee our own Aquarius Liquidity pool;***
+*   ***Build and launch Aquarius’ own AMMs engine and support liquidity providers with AQUA rewards;***
+*   ***Rewrite some existing Aquarius modules using smart contracts to decentralize the protocol further.***
+
+Let’s look at the progress of our plans together and what we have already accomplished.
+
+### Building AMM engines on Soroban
+
+During the last few months, we have built a set of Automated Market Maker (AMM) smart contracts running on the Soroban futurenet and testnet. We’ve experimented with various AMM design ideas and are currently focused on building smart contracts to manage these AMMs and use them depending on user needs. In Aquarius, we’ve integrated two AMM models, drawing inspiration from the top AMM platforms on Ethereum — Curve and Uniswap. We’ve adopted Uniswap’s Constant Product Market Maker (CPMM) model, which is effective for a broad range of assets, and Curve’s Stable Swap, known for its efficiency with correlated assets.
+
+Curve’s Stable Swap model stands out in the decentralized finance sector for its efficiency in handling stablecoins and other asset swaps with minimal price variance. This cost-effective approach results in significantly lower slippage for trades, which is particularly beneficial for large transactions where even a minor percentage of slippage can lead to substantial value differences. Focus on stable or correlated assets also means a reduced risk of impermanent loss for liquidity providers, enhancing its appeal as a secure option in the DeFi landscape. We’re excited about bringing Stable Swaps to the Stellar network!
+
+Also, we’ve implemented a smart contract that manages **AQUA rewards distribution** based on the user’s pool share. AQUA rewards will incentivize users to provide liquidity to the new Aquarius Soroban AMMs. The distribution engine runs as a set of Soroban smart contracts that will calculate and distribute liquidity rewards to LPs accordingly. This goes in line with our goals to further decentralize Aquarius. This is something that was not possible before on Stellar.
+
+We still have a few smart contracts that need to be developed, like the Aquarius Swap Router. This smart contract provides a single interface method for performing swaps and identifying the best pool to execute a swap. This Router will be integrated into our [front-end interface](https://aqua.network/) and be available for external applications such as AMM aggregators or wallets. These applications can use the Router to get quotes and preview the swap results, enhancing user experience and platform utility.
+
+We’re focused on the security and reliability of our codebase, involving comprehensive testing, code reviews, and documentation. Additionally, we’ll conduct a security audit in collaboration with the Stellar Development Foundation (SDF) to address any vulnerabilities. Scalability testing is also planned to ensure efficient real-world performance. These steps represent our commitment to delivering a secure, scalable, and user-friendly platform, paving the way for a more efficient and reliable DeFi ecosystem on the Stellar network.
+
+### New UI for new AMMs
+
+![UI image](https://cdn-images-1.medium.com/max/1024/1*_Poszt1QyOFMhztYXWnc7w.png)
+
+In our upcoming developments, we plan to unveil a new front-end interface for Aquarius to enhance the user experience significantly. This future update is set to include a user-friendly platform for asset swapping through the Aquarius AMM. It will also allow straightforward management of liquidity positions and LP tokens, with users able to view and claim their AQUA rewards directly within the interface.
+
+Additionally, the interface will offer comprehensive analytics, providing insights into Total Value Locked (TVL), volume, key stats like APY, and detailed information on various AMM pools. The creation of new AMM pools will be streamlined, with functionalities to assist in setting parameters and preventing the duplication of pools.
+
+Finally, we plan to expand our voting dashboard to support more inclusive governance, particularly for pools with over two tokens, ensuring our platform remains user-friendly and engaging.
+
+### What’s under the hood?
+
+![Contracts image](https://cdn-images-1.medium.com/max/1024/1*_mRhf-8qjbdPvNPkdgHgCw.png)
+
+We currently have four ready Soroban smart contracts: Liquidity Pool Router, AMM Token, and two AMM pools — CPMM and StableSwap.
+
+For those with a technical background, our smart contracts are available for review on the [**Aquarius GitHub**](https://github.com/AquaToken/soroban-amm) repository.
+
+Here is a short description of our existing smart contracts:
+
+[**Liquidity Pool Router contract**](https://github.com/AquaToken/soroban-amm/tree/master/liquidity_pool_router)
+
+This is an entry point for Aquarius AMMs. The Router contains all general information about AMM pools and creates new pools on demand. This smart contract stores information about different AMM models. The Router controls how multiple types of AMM will work for the same market pair. Currently, we have two AMM models, and more models will be added soon.
+
+[**AMM Token contract**](https://github.com/AquaToken/soroban-amm/tree/master/token)
+
+Implements the [Token Soroban interface](https://soroban.stellar.org/docs/tokens/token-interface). Its purpose is to store pool shares. The new contract deploys automatically for every new AMM pool.
+
+[**CPMM pool contract**](https://github.com/AquaToken/soroban-amm/tree/master/liquidity_pool)
+
+This is the smart contract of the Constant Product Market Maker (CPMM) pool. We automatically create a new CPMM smart contract for every new CPMM pool. Swap fees are configurable and can be set for any new AMM pool contract.
+
+[**StableSwap AMM pool contract**](https://github.com/AquaToken/soroban-amm/tree/master/liquidity_pool_stableswap)
+
+The StableSwap AMM model allows for two or more assets of similar value to be placed into a pool to be exchanged against each other with very low slippage, allowing users to exchange between the assets in the pool freely. Across blockchains, you can find many assets that can represent the same real-world asset. For example, you can create a StableSwap pool on Stellar with USDC, USDT, and yUSDC assets, representing real-world USD assets.
+
+### Launch timeline.
+
+As we approach the final stages of development, we’re confident that Aquarius AMMs will be fully prepared for the Soroban release. We’re excited about the significant progress we’ve made and are eagerly anticipating the upcoming launch. This milestone marks the culmination of our dedicated efforts and the beginning of a new chapter in decentralized finance on the Stellar network.
+
+We anticipate significant liquidity within our AMMs, and we’ve seen a lot of interest in our AMMs from ecosystem wallets, exchanges, and other DeFi products. Projects utilizing our AMMs will gain significant advantages, as their users will enjoy immediate access to diverse markets, benefit from competitive exchange rates, and tap into a greater pool of usable liquidity, thanks to the innovative design of Aquarius AMMs. We are in touch with several key ecosystem participants to get the new DeFi swaps powered by Aquarius integrated and readily available in multiple products.
+
+Stay tuned for the big reveal, where we will showcase the power and potential of Aquarius AMMs on the Soroban platform.
+
+[**Website**](https://aqua.network/)| [**Twitter**](https://twitter.com/aqua_token)| [**Discord**](https://discord.gg/MBVypfnHgZ)| [**Reddit**](https://www.reddit.com/r/AquariusAqua/)| [**Telegram**](https://t.me/aquarius_official_community)| [**GitHub**](https://github.com/AquaToken)|[**YouTube**](https://www.youtube.com/@aqua.network)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/aquarius-aqua/aquarius-amms-updates-and-plans-for-2024-f390e9d06b15</guid>
+    </item>
+    <item>
+      <title>SCF round 15: Aquarius &amp; Soroban</title>
+      <link>https://medium.com/aquarius-aqua/scf-round-15-aquarius-soroban-5d55e30d81b3</link>
+      <pubDate>Thu, 13 Jul 2023 23:44:23 GMT</pubDate>
+      <author>Aquarius</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*HnMJ1_c4O_VVf0s6unuyYw.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# SCF round 15: Aquarius & Soroban
+
+#### Driving liquidity on Stellar with Soroban-powered AMMs
+
+![Soroban smart contracts](https://cdn-images-1.medium.com/max/1024/1*HnMJ1_c4O_VVf0s6unuyYw.png)
+
+Soroban smart contracts bring a host of opportunities to the Stellar network, opening the doors for an improved, feature-filled network. As such, at Aquarius, we are harnessing this new powerhouse to rebuild the Automated Market Maker (AMM) landscape on Stellar, helping further our mission to expand liquidity across the Stellar network.
+
+**To help accelerate our progress, we are thrilled to announce Aquarius is participating in** [**Stellar Community Fund (SCF #15)**](https://communityfund.stellar.org/projects/soroban--aquarius-scf-15)**, with our first deliverable already achieved!** By leveraging the capabilities of Soroban, we aim to make Aquarius the first decentralized AMM protocol on Stellar, revolutionizing the way users trade and access liquidity.
+
+#### ♒️ What is Aquarius?
+
+So let us remind you about Aquarius and our achievements since the projects launch in 2021. Aquarius is a unique liquidity layer built on the Stellar network, designed to bring liquidity to Stellar's layer one DEX and native AMMs by incentivizing liquidity providers.
+
+The ecosystem is entirely powered by on-chain governance systems that employ Aquarius' AQUA and ICE tokens. AQUA is held by over 120K wallets and is the core asset for Aquarius, whereas ICE is the frozen equivalent. Those who freeze AQUA into ICE can gain increased voting power and boosted hourly rewards when providing liquidity.
+
+AQUA and ICE holders use their tokens to vote on [governance proposals](https://aqua.network/governance) and also decide which Stellar [DEX & AMM markets](https://aqua.network/vote) receive hourly incentivization rewards. Rewards are delivered to liquidity providers of top-voted markets, establishing a robust system for earning extra rewards when contributing towards liquid markets on Stellar.
+
+**To date, we have delivered 4 billion AQUA tokens in rewards to liquidity providers. At today's price, that's the equivalent of $2,250,000!**
+
+#### 🤝 Our vision with SCF support
+
+With the support of the SCF, we have ambitious milestones to foster the growth and development of Soroban, Stellar, and Aquarius:
+
+1.  **Soroban-Powered AMMs:** Our initial aim is to create a suite of Uniswap v2 style AMM smart contracts running on the futurenet of Soroban and a simple demo interface to show their capabilities. More advanced research can also result in the development of complex AMM builds. **This includes potential new AMM types for Stellar, such as stable swaps, multi-asset (MAMM), and concentrated liquidity (CLMM).**
+2.  **AQUA Rewards for LPs on Soroban**: Our second goal is to build upon our reward distribution engines, allowing them to run independently on Soroban. These engines will operate as a set of Soroban smart contracts on futurenet, calculating and distributing AQUA rewards to LPs. This aligns with our goal of further decentralizing Aquarius.
+3.  **Introducing Stellar Smart Contracts to Users:** With over 120,000 AQUA token holders, Aquarius stands as one of the most actively used DeFi ecosystems on Stellar. As such, we will strive to familiarize our user base with Soroban and encourage ecosystem projects who use our protocol to experiment and explore Soroban-powered solutions. Additional blog posts and various social media content dedicated to Soroban will help educate the ever-growing Stellar community.
+
+#### 👷 Let the building commence!
+
+In conclusion, we at Aquarius are committed to bringing innovation and growth to the Stellar ecosystem. By leveraging Soroban's smart contract capabilities to design new AMMs, we aim to increase concentrated, useable liquidity on Stellar, creating a better trading experience for everyone.
+
+As we enter the Smart Contract Era, the combination of our liquidity incentivization system, Soroban, and advanced AMMs is poised to create an exciting base for liquidity growth on Stellar, bringing us one step closer to a decentralized financial system.
+
+We want to express our gratitude to the Stellar Community Fund for considering our project. We also want to thank our fantastic community, especially our AQUA token holders, for their continued support and belief in our mission.
+
+Stay tuned for updates as we progress with our roadmap!
+
+To learn more about Aquarius, visit our website:  
+[**https://aqua.network**](https://aqua.network/)
+
+To view our SCF #15 submission, please visit:  
+[**https://communityfund.stellar.org/projects/soroban--aquarius-scf-15**](https://communityfund.stellar.org/projects/soroban--aquarius-scf-15)
+
+[**Website**](https://aqua.network/)| [**Twitter**](https://twitter.com/aqua_token)| [**Discord**](https://discord.gg/MBVypfnHgZ)| [**Reddit**](https://www.reddit.com/r/AquariusAqua/)| [**Telegram**](https://t.me/aquarius_official_community)| [**GitHub**](https://github.com/AquaToken)|[**YouTube**](https://www.youtube.com/@aqua.network)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/aquarius-aqua/scf-round-15-aquarius-soroban-5d55e30d81b3</guid>
+    </item>
+    <item>
+      <title>ICE. The next stage of Aquarius</title>
+      <link>https://medium.com/aquarius-aqua/ice-the-next-stage-of-aquarius-810edc7cf3bb</link>
+      <pubDate>Fri, 27 May 2022 17:24:01 GMT</pubDate>
+      <author>Aquarius</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/0*PUB00fWWjBUW6K7W.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# ICE. The next stage of Aquarius
+
+#### Freeze AQUA into ICE, enabling boosted liquidity rewards and increased voting flexibility & power.
+
+![Image](https://cdn-images-1.medium.com/max/1024/0*PUB00fWWjBUW6K7W.png)
+
+What an incredible first year we have had here at Aquarius! We’ve enjoyed every moment, from the first protocol ideas & minting of AQUA on Stellar to the launch of liquidity rewards & governance. It’s been quite the journey so far, and we’re excited to bring you in on our next plans for the Aquarius ecosystem.
+
+**Aquarius has always had one main goal, to bring more liquidity to Stellar.**
+
+A jump towards this goal started when we launched AQUA liquidity rewards. Our rewards engines distribute AQUA hourly to market makers & liquidity providers who bring assets to Stellar and increase liquidity on specific markets.
+
+With the [liquidity voting tool](https://vote.aqua.network/), AQUA holders can choose markets that qualify for the reward zone and earn additional liquidity rewards. Alternatively, holders can use their AQUA inside [Aquarius Governance](https://gov.aqua.network/) to vote on proposals that can change how Aquarius functions.
+
+Although participation in both liquidity & governance voting is high, holders need to either allocate AQUA towards liquidity or governance voting without a way to do both simultaneously. We believe it’s time to lift AQUA’s limitations, giving loyal AQUA holders more flexibility & greater benefits** **
+
+**Today, we are introducing ICE tokens, an upcoming way for AQUA holders to increase yield earned through AMM & SDEX rewards and boost their voting flexibility & power throughout Aquarius.**
+
+![Image](https://cdn-images-1.medium.com/max/1024/0*uyYqveLpSBJ_GG8w.png)
+
+### 🧊 ICE tokens
+
+So what are ICE tokens?  
+ICE tokens work similarly to veCRV on the Curve platform, with users locking the main CRV token in exchange for veCRV. This secondary token allows for voting in governance and boosts CRV liquidity rewards on Curve.
+
+We will be taking this core idea and revamping it for use inside the Stellar ecosystem. **Users who lock (freeze) AQUA will receive four additional non-transferable tokens inside their Stellar wallets, specifically for use in the Aquarius universe.**
+
+These tokens are:
+
+*   **ICE**
+*   **upvoteICE**
+*   **downvoteICE**
+*   **governICE**
+
+All four tokens are minted on the Stellar network and use the *aqua.network* domain name. These are non-transferable tokens, so they can’t be bought, sold, or transferred to another Stellar wallet. They will only be obtainable by locking AQUA via the [Aquarius locker tool](http://locker.aqua.network/), so beware of fakes! **These tokens do not exist yet** and can’t be bought or swapped on the SDEX. We will announce further updates about the launch only through our official social media channels ([Twitter](https://twitter.com/aqua_token), [Telegram](https://t.me/aquarius_HOME), [Discord](https://discord.gg/MBVypfnHgZ), and Medium).
+
+Although four new tokens may sound daunting, all our products will guide and help you understand which of these tokens you will use in any specific case. Each of the new ICE tokens brings additional features & benefits to those who decide to freeze AQUA. So how does the process work and what are the benefits?
+
+### ❄️ Freezing AQUA
+
+Thanks to airdrop #2, we already have a way for users to freeze AQUA for up to three years through the locker tool. To build upon this further, we will expand the locker tool’s functionality, allowing it to distribute the new ICE tokens to users when they lock AQUA.
+
+The process is quick and easy, with the tool helping create trustlines and distribute all four ICE tokens to users when they freeze their AQUA. Freezing is done via claimable balances on Stellar, ensuring immutability and transparency.
+
+**Those who have previously locked AQUA tokens using the locker tool will be able to claim all four ICE tokens upon launch, giving their locked AQUA a boost and making them usable again inside of the Aquarius ecosystem.**
+
+So why bother freezing AQUA in exchange for the new utility tokens?
+
+Once users freeze their AQUA into ICE, they immediately get access to increased yields from SDEX & AMM rewards, boosted power for liquidity & governance voting, and expanded freedom within the Aquarius ecosystem.
+
+Keep reading below to discover how this works.
+
+### 🧑‍🌾 Increased Liquidity Rewards
+
+We believe increased participation in Aquarius deserves increased AQUA liquidity rewards. **So first and foremost, freezing AQUA immediately boosts your yield earning capability when market-making & liquidity providing on** [**reward zone markets**](https://aqua.network/rewards)** **
+
+The main benefit of ICE is the ability to boost your rewards on provided liquidity. The higher a user’s ICE balance, the higher their boost for liquidity rewards.
+
+Currently, your AQUA liquidity rewards don’t depend on your AQUA balance. After the ICE launch, those who do hold AQUA can choose to freeze them into ICE to earn vastly increased SDEX & AMM liquidity rewards.
+
+### 🤸 Voting Flexibility
+
+The three remaining ICE tokens all contribute toward voting flexibility, with each used for a specific voting function within Aquarius. Although non-transferable, they can still be placed inside claimable balances, allowing for their voting functionality.
+
+**upvoteICE & downvoteICE will work inside** [**vote.aqua.network**](https://vote.aqua.network/), where they are used to select markets that will receive AQUA liquidity rewards. downvoteICE will be used to downvote markets in liquidity voting. Additionally, both of these tokens are only subject to a 1 hour minimum voting period. Swap and change your votes anytime to your heart’s content!
+
+**governICE will work inside** [**gov.aqua.network**](https://gov.aqua.network/), where they are used to vote for or against active governance proposals. governICE is not affected by the Vote Lock Periods introduced in [gov v2.0](https://medium.com/aquarius-aqua/launching-governance-v2-0-79c81fa6b639) and is available to reclaim 1 hour after a proposal vote ends.
+
+**The best part is that you can use all three simultaneously!** There’ll be no more hard decisions on whether to stop voting for your favourite markets to participate in governance or vote against any other market pair.
+
+### 🏋️‍♂️ Increased Voting Power
+
+A crucial advantage of freezing AQUA is the **vast increase in voting power across governance & liquidity voting!**
+
+The longer AQUA is frozen, the more of each ICE token is given. The longest possible lock is three years. For every 1 AQUA locked for a maximum period you will receive:
+
+*   10 ICE tokens
+*   10 governICE tokens
+*   10 liquidity voting tokens (8 upvoteICE + 2 downvoteICE)
+
+**Upvote, downvote, and govern ICE all have the same voting power as AQUA.** So a user locking 1 Million AQUA for the max of three years would receive:
+
+*   10 million ICE
+*   10 million governICE
+*   8 million upvoteICE
+*   2 million downvoteICE
+
+That means their voting power increased 10 times compared to their state before freezing AQUA. ICE tokens distribute immediately when a user locks AQUA, instantly allowing for boosted votes across Aquarius products.
+
+### 🔥 Melting ICE
+
+**As the unfreezing date of AQUA gets closer, ICE tokens melt!** The action of melting means voting power decreases over time unless a user freezes more AQUA.
+
+Melting occurs through Stellar’s native clawback operation. Aquarius can scan Stellar addresses & claimable balances for all four ICE tokens daily and burn a percentage of them. This mechanic allows Aquarius to reduce a user’s ICE holdings and any votes made, as AQUA tokens get closer to their unlock date.
+
+As a simple example, a user locks 1000 AQUA into ICE for a max of three years, giving them 10,000 ICE. These ICE tokens will melt linearly over time as the AQUA unlock date approaches.
+
+Every year, the user’s ICE holdings will reduce by 3000 until the amount of ICE tokens reaches 1000. So if the lock was made on 01/08/2022 for three years:
+
+*   The user would start with 10,000 ICE
+*   On 01/08/2023, they’ll have 7000 ICE
+*   On 01/08/2024, they’ll have 4000 ICE
+*   On 01/08/2025, they’ll have 1000 ICE
+
+Once AQUA reaches the unlock date, and the amount of ICE tokens is equal to the number of AQUA tokens locked, the user can unlock their AQUA. At this time the user can claim the AQUA, and their ICE tokens will be burned immediately.
+
+### 🚀 Launch & Smart Contracts
+
+Over the last few months, we have been planning various Aquarius updates and releases. Some plans had to be changed — due to the huge changes coming to the Stellar network itself. With the native smart contracts arriving soon, we know they will play a core role in what lies ahead for Aquarius. Our team is closely following the SDF’s progress and exploring the WASM and Rust stack.
+
+Since day one, Aquarius’s goal was to build a safe, resilient, and decentralized platform promoting liquidity and bringing value to users and ecosystem projects. The addition of smart contracts will help us finally achieve our goals in a decentralized fashion. Smart contracts will undoubtedly be the biggest change to the Stellar network itself, and while we don’t know all the details yet on how it will affect Aquarius, we are thrilled to see what comes next.
+
+We’re excited for the community to start using ICE, changing how they use & interact with AQUA & Aquarius. We plan to launch ICE tokens in July 2022, so there’s not long to wait!
+
+### 🗞 Subscribe & Follow
+
+You can learn more and keep up to date with the team & community using the following links:
+
+*   [Website](https://aqua.network/)
+*   [Locker Tool](https://locker.aqua.network)
+*   [Liquidity Voting](https://vote.aqua.network/?sort=top)
+*   [Aquarius Governance](https://gov.aqua.network/)
+*   [Twitter](https://twitter.com/aqua_token)
+*   [Discord](https://discord.gg/MBVypfnHgZ)
+*   [Reddit](https://www.reddit.com/r/AquariusAqua/)
+*   [Telegram](https://t.me/aquarius_HOME)
+*   [GitHub](https://github.com/AquaToken)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/aquarius-aqua/ice-the-next-stage-of-aquarius-810edc7cf3bb</guid>
+    </item>
+  </channel>
+</rss>

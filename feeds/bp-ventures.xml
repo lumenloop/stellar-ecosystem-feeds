@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BP Ventures - Stellar Ecosystem</title>
+    <link>https://bpventures.us</link>
+    <description>Latest articles about BP Ventures in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/bp-ventures.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>BPVentures &amp; LightEcho Launch Stellar Soroban Chainlink-Compatible Randomness Oracle, Readable via SEP-40 RANDOM Symbol for Games</title>
+      <link>https://bpventures.us/blog/bpventures-lightecho-launch-stellar-soroban-chainlink-compatible-randomness-oracle-readable-via-sep-40-random-symbol-for-games</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/mKoUccKv7S0OmtbWbEuauJFxjU.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Paris, France — October 23, 2025** — BPVentures and LightEcho today announced the availability of a new randomness feed in their oracle network that is **Chainlink-compatible** and SEP-40 compliant, enabling game developers to consume verifiable 32-byte random “words” through a single, standard interface. The feed is exposed under the **SEP-40 SYMBOL: RANDOM** identifier, so any Soroban smart contract that speak SEP-40 can read it without custom glue code.
+
+> “Games need simple, unbiased, and interoperable randomness,” said a spokesperson for BPVentures. “By speaking both Chainlink's uint256 [ ] word format and SEP-40's Oracle Consumer Interface, we help teams plug in fast—on Soroban today, for EVM titles plan to port and already expect VRF-style data.” 
+
+> “Our goal is developer ergonomics with strong security guarantees,” added a LightEcho representative. “RANDOM as a standard symbol keeps contracts clean, while our oracle network focuses on reliability, throughput, and transparent proofs.”
+
+## What's New
+
+- **Chainlink-compatible output**: Each “word” is a **32-byte** unsigned integer (uint256), matching the format most EVM based games already expect for loot tables, rarity rolls, raffles, and mints.
+- **SEP-40 compliant consumption**: Read randomness via the **Oracle Consumer Interface** using Asset::Other(Symbol::from_str("RANDOM")). No bespoke adapters required.
+- **Game-ready UX**: Batch “words” for multi-roll mechanics; deterministic, ABI-friendly layout makes mapping to ranges straightforward.
+
+## How It Works (At a Glance)
+
+- **On Soroban (SEP-40):**
+  Contracts call the oracle's lastprice(env, asset) (or history methods) with asset = Asset::Other(Symbol("RANDOM")).
+
+  ◦ price carries the **256-bit** word as an integer payload.
+  ◦ timestamp lets consumers enforce freshness/slippage windows.
+  ◦ Decimals are defined to preserve the full 256-bit space without loss; treat the value as a raw uint256 “word” in consumer logic.
+
+## Developer Notes
+
+- **Symbol**: RANDOM (SEP-40 Asset::Other)
+- **Word format**: 32-byte big-endian uint256 (one or many words per request)
+- **Typical usage:**
+  ◦ **Uniform mapping**: Use rejection sampling to avoid modulo bias when mapping uint256 to small ranges (e.g., 1–100).
+  ◦ **Freshness checks**: Compare the timestamp in PriceData vs. the current ledger time to avoid stale reads.
+  ◦ **Batching**: For multi-draw features, request/consume multiple words in a single call.
+
+## Soroban (Rust) Sketch
+
+```rust
+use soroban_sdk::{contractimpl, Address, Env, Symbol, Vec as SVec}; 
+pub fn read_random_word(env: Env, oracle: Address) -> (i128, u64) { 
+  // asset = Other(Symbol("RANDOM")) 
+  let asset = Asset::Other(Symbol::short("RANDOM")); 
+  // lastprice returns Option<PriceData> { price: i128, timestamp: u64 } 
+  if let Some(pd) = PriceFeedClient::new(&env, &oracle).lastprice(&asset) { 
+   // Interpret pd.price as a raw 256-bit word carried losslessly in i128/decimals scheme per 
+  oracle docs. 
+   return (pd.price, pd.timestamp); 
+  } 
+  panic!("No randomness available"); 
+}
+```
+
+## Availability
+
+The randomness feed is live on the LightEcho oracle network and available to partners integrating **game mechanics, mints, raffles, and procedural generation**. Documentation, SDKs, and sample contracts are provided for both Soroban (SEP-40) and Soroban consumers.
+
+## About BPVentures
+
+BPVentures builds compliant, production-grade blockchain infrastructure—wallets, payments rails, and oracle services—for real-world and gaming applications.
+
+## About LightEcho
+
+LightEcho operates a high-reliability oracle network focused on simple developer interfaces, verifiable data delivery, and multi-chain compatibility.
+
+### Media & Developer Inquiries
+
+Visit [lightecho.io](https://lightecho.io) for documentation, integration guides, or email [sales@bpventures.us](mailto:sales@bpventures.us) for support options.
+
+*Trademarks and brands are the property of their respective owners. This announcement does not imply endorsement by third parties.*]]></content:encoded>
+      <guid isPermaLink="true">https://bpventures.us/blog/bpventures-lightecho-launch-stellar-soroban-chainlink-compatible-randomness-oracle-readable-via-sep-40-random-symbol-for-games</guid>
+    </item>
+    <item>
+      <title>BPV Releases Open Source Digital Asset Wallets for Stellar Blockchain</title>
+      <link>https://bpventures.us/blog/bpv-releases-open-source-digital-asset-wallets-for-stellar-blockchain</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/eZbZFwpWW7UQZN5w7oDrexiBdQ.png?width=703&amp;height=462" type="image/jpeg"/>
+      <content:encoded><![CDATA[BP Ventures, a leading digital asset direct custody solution provider, has announced it has launched three new open source crypto wallets, to help companies integrate with the Stellar Blockchain.
+
+This open sourcing demonstrates BP Ventures' commitment to supporting the growth and development of open blockchain networks. "These tools will help companies connect with Stellar - we believe in the potential for blockchain technology to make a positive impact on the world," said Anthony Barker, founder of BPV.
+
+### White Label Digital Retail Wallet for Stellar:
+
+The white label retail wallet is an open source tool that supports SEP 24, SEP 6, swapping, and Android (APK available) written in NextJS.
+
+![image](https://framerusercontent.com/images/qPaCh4HRo9e5NSFmKw3tib6XGoU.png?width=624&height=351)
+
+Watch a Demonstration:  [https://player.vimeo.com/video/718698694](https://player.vimeo.com/video/718698694).
+
+Our Github Repo:  [https://github.com/bp-ventures/retail-wallet](https://github.com/bp-ventures/retail-wallet).
+
+### Compact Command Line Wallet:
+
+The command line wallet is an open source python based script that aids in integration into Stellar SEP 1, SEP 10, and SEP 24. This includes a rewrite of our stcli.py wallet to support the updated Stellar base sdk.
+
+![image](https://framerusercontent.com/images/eZbZFwpWW7UQZN5w7oDrexiBdQ.png?width=703&height=462)
+
+Stcli is a simple command line crypto wallet for Stellar, easily auditable on one file with less than 1000 lines of code. As the first crypto REPL wallet, it can be used for testing federation, deposit, withdrawal, and remittance. Stcli supports any platform that uses Python: Linux (x86 or Arm), Windows, Mac, or Android.
+
+Our Github repo:[https://github.com/bp-ventures/stcli](https://github.com/bp-ventures/stcli).
+
+### Stellar Anchor Documentation and Testing Repo:
+
+The third repo contains documentation and support for testing and integrating into Stellar Django Polaris, a popular Anchor solution. The repo includes Stellar API documentation for sending using SEP 6, SEP 24 and SEP 31. The simple example code is available in Python.
+
+![image](https://framerusercontent.com/images/aISoLqIHI1jar0yVjqXJ3XmbMQ.png?width=697&height=512)
+
+Our Github Repo: [https://github.com/bp-ventures/stellar-payment-api](https://github.com/bp-ventures/stellar-payment-api).
+
+
+Over the next few months, BPV will be releasing additional open source software and tools in its commitment to open payments networks, enabling individuals and businesses everywhere to leverage Blockchain technologies.]]></content:encoded>
+      <guid isPermaLink="true">https://bpventures.us/blog/bpv-releases-open-source-digital-asset-wallets-for-stellar-blockchain</guid>
+    </item>
+    <item>
+      <title>BPV Announces Sponsorship of Public Node&apos;s Stellar Hosting</title>
+      <link>https://bpventures.us/blog/bpv-announces-sponsorship-of-public-node-s-stellar-hosting</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/3wCBh9VjkuDEHoxJLEk3RCYf7KY.png?width=442&amp;height=210" type="image/jpeg"/>
+      <content:encoded><![CDATA[# BPV Announces Sponsorship of Public Node's Stellar Hosting
+
+BPV, a leading digital asset direct custody solution provider, has announced it will sponsor and monitor the uptime of The Lyra node at Public Node. Public Node is a 501(c)(3) nonprofit open-membership organization that supports and brings a trusted public voice to open and inclusive blockchain networks.
+
+This sponsorship demonstrates BPV' commitment to supporting the growth and development of open blockchain networks. The funding provided by BPV will help Public Node with its important mission and support the healthy growth of the Stellar network.
+
+> "We believe in the potential for blockchain technology to make a positive impact on the world," said Anthony Barker, founder of BPV "and we're proud to support Public Node's mission to bring a trusted and meaningful public voice to an open and inclusive blockchain network."
+
+Public Node works to achieve its mission through public education, infrastructure development, awareness, advocacy, and other areas of engagement. The organization believes that public participation is important for open and inclusive blockchain networks to fulfill their goal of providing undiscriminating access and benefit to all.
+
+> "We're thrilled to have BPV as a sponsor of our Stellar Public Node," said Public Node spokesperson Daniel Fisher, "Their support will help us continue our mission to bring the benefits of blockchain technology to the public. This partnership is a step towards a more open, inclusive, and trustworthy future for everyone."
+
+For more information about BPV and its sponsorship at Public Node, please contact [support@bpventures.us](mailto:support@bpventures.us)
+
+Information regarding the validating node can be found at stellarbeat:
+[https://stellarbeat.io/nodes/GCIXVKNFPKWVMKJKVK2V4NK7D4TC6W3BUMXSIJ365QUAXWBRPPJXIR2Z](https://stellarbeat.io/nodes/GCIXVKNFPKWVMKJKVK2V4NK7D4TC6W3BUMXSIJ365QUAXWBRPPJXIR2Z)
+
+#### About BPV
+
+BPV is a US-based blockchain services and consulting firm. Founded by two fintech entrepreneurs with extensive Web3 experience, the company helps financial institutions increase efficiency, security, and market reach by integrating blockchain digital asset management solutions into their workflows.
+
+BPV’s areas of expertise include development and implementation of secure institutional wallets, white-label, non-custodial retail wallets, regulatory compliance, and the Stellar ecosystem.
+
+[https://bpventures.us](https://bpventures.us)
+
+#### About Public Node
+
+Public Node is a 501(c)(3) nonprofit open-membership organization that supports and brings a trusted and meaningful public voice to open and inclusive blockchain networks. The organization works to achieve its mission through public education, infrastructure, awareness, advocacy, and other areas of engagement. Public Node believes that public support is important for open and inclusive blockchain networks so that they can forever do what they were designed to do – provide undiscriminating access and benefit to all people.
+
+[https://publicnode.org/](https://publicnode.org/)]]></content:encoded>
+      <guid isPermaLink="true">https://bpventures.us/blog/bpv-announces-sponsorship-of-public-node-s-stellar-hosting</guid>
+    </item>
+  </channel>
+</rss>

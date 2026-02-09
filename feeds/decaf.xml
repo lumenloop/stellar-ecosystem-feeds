@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decaf - Stellar Ecosystem</title>
+    <link>https://decaf.so</link>
+    <description>Latest articles about Decaf in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/decaf.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Case Study: Revolutionizing Scholarship Disbursements at IAS Conference 2025 with Stellar and Decaf</title>
+      <link>https://decaf.so/en/blog/case-study-revolutionizing-scholarship-disbursements-at-ias-conference-2025-with-stellar-and-decaf</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 GMT</pubDate>
+      <author>Decafpay</author>
+      <enclosure url="https://cdn.prod.website-files.com/67a30203fe637582a298f381/6887d2e78b3c79a896db6877_Screenshot%202025-07-21%20at%203.37.55%E2%80%AFp.m..png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Case Study: Revolutionizing Scholarship Disbursements at IAS Conference 2025 with Stellar and Decaf
+
+## Executive Summary
+
+The International AIDS Society (IAS), a Geneva-based NGO, hosts annual conferences worldwide to advance HIV research and advocacy. For the IAS Conference 2025 in Kigali, Rwanda, IAS partnered with the Stellar Disbursement Platform (SDP) and Decaf wallet to distribute daily living allowances to 248 scholarship recipients from over 50 countries.
+
+This marked a significant shift from traditional cash-based methods to a blockchain-powered digital solution using USDC stablecoins. The result? Seamless, secure, and efficient payments that eliminated long queues, reduced logistical burdens, and ensured 100% delivery success.
+
+With:
+
+* **425** individual payments
+* Recipients from **>50** countries
+* **100%** successful delivery rate
+* **$49,480** total disbursed
+
+this initiative demonstrates how organizations can modernize global disbursements, saving time and resources while enhancing sender and recipient experiences.
+
+## Background: IAS and the Scholarship Program
+
+IAS is a leading global organization dedicated to mobilizing the scientific community, policymakers, and civil society in the fight against HIV/AIDS. Each year, IAS awards scholarships to enable participation from low- and middle-income countries, covering travel, accommodation, and daily living expenses. **In 2025, the conference in Kigali welcomed 248 scholarship recipients from more than 50 nations**, highlighting the program's international reach and the challenges of cross-border payments.
+
+Historically, disbursing funds to such a diverse group posed significant hurdles. As Martina, an IAS organizer, shared in an interview: "For a few decades, **our process was to basically withdraw a lot of cash in Geneva... and then divide the cash in envelopes.** The staff would need to travel with these envelopes in their backpacks wherever they were going in the world." This method not only involved high security risks but also led to operational inefficiencies, with **recipients queuing for hours—or even days—at conference desks to collect their allowances.**
+
+![Decaf & IAS members at the conference](https://cdn.prod.website-files.com/67a30203fe637582a298f381/6887d2e78b3c79a896db6877_Screenshot%202025-07-21%20at%203.37.55%E2%80%AFp.m..png)
+
+## The Challenge: Inefficiencies of Traditional Cash Disbursements
+
+Prior to adopting digital solutions, IAS relied on physical cash handling, which created multiple pain points:
+
+* **Logistical Complexity**: Withdrawing large sums in Geneva and transporting cash internationally.
+* **Scalability Issues**: Scholarship numbers vary annually, from a few hundred to over 1,000, making envelope preparation and distribution labor-intensive.
+* **Recipient Inconvenience**: Long queues at the scholarship desk disrupted conference participation, causing frustration for both staff and attendees.
+* **Preparation:** No availability to get cash before the event for travel expenses.
+* **Global Variability**: Recipients from diverse countries faced challenges converting cash or accessing funds without reliable banking infrastructure.
+
+Martina noted, "**People would queue at our scholarship desk for hours if not for days to get their daily living allowance and their reimbursement in cash.**" These inefficiencies were exacerbated in remote or developing regions like Kigali, where cash handling added to the administrative burden.
+
+‍
+
+## **The Solution: Stellar Disbursement Platform and Decaf Wallet**
+
+To address these challenges, IAS transitioned to the Stellar blockchain for secure, low-cost global transfers using USDC stablecoins, with Decaf serving as the user-friendly recipient wallet. This digital approach enabled instant, borderless disbursements without the need for physical cash.
+
+### How It Works: A Streamlined Process for Organizations and Recipients
+
+The Stellar Disbursement Platform (SDP) and Decaf make onboarding and execution straightforward, requiring minimal technical expertise. Here's the step-by-step process IAS followed:
+
+1. **One-Time Onboarding to USDC**: Organizations like IAS are guided to select a trusted USDC provider, complete Know-Your-Business (KYB) verification, and purchase USDC. Subsequent transactions are simple—funds are sent to a provided bank account for automatic conversion to USDC, with no repeated verifications needed.
+2. **Prepare Recipient Data**: IAS created a simple spreadsheet listing each recipient's email, the disbursement amount, and a unique PIN code.
+3. **Upload and Submit Disbursement**: IAS uploaded the spreadsheet to the SDP dashboard, and initiated the disbursement. The platform handled the blockchain transactions efficiently, also showing real time tracking of each payment.
+4. **Recipient Activation**: Each of the scholarship recipients received an email notification with a secure link. Clicking it prompted them to download the Decaf wallet app, complete a one-time verification process, and claim their funds. The USDC landed directly in their wallet.
+5. **Flexible Withdrawals**: Once funded, recipients could convert and withdraw in their preferred method—cash pickup (e.g., via MoneyGram in Kigali or their home country) or bank transfer—tailored to local availability.
+
+Martina highlighted the ease: "We did digital payments in different tranches for them, and they were able to cash out either sending the money to their bank account or to withdraw at MoneyGrams here in Kigali or in their own country."
+
+## Results: Measurable Impact and Success
+
+![Scholarship recipient](https://cdn.prod.website-files.com/67a30203fe637582a298f381/68897c86cf8ea0e94dbdd141_Screenshot%202025-07-21%20at%203.39.19%E2%80%AFp.m..png)
+
+The implementation at IAS Conference 2025 yielded impressive outcomes, proving the superiority of this digital model:
+
+* **Total Payments Processed**: 425
+* **Success Rate**: 100% of payments were successfully delivered, with no failures or delays.
+* **Funds Disbursed**: $49,480 in total.
+* **Individuals Served**: 233 unique recipients
+
+Beyond numbers, the solution transformed operations:
+
+* **Eliminated Queues**: As Martina stated, "We're very happy because we avoided these long queues—these excruciating hours for both us and the scholarship recipients."
+* **Enhanced Security and Efficiency**: No more cash transportation risks; blockchain ensured tamper-proof transfers.
+* **Positive Feedback**: Recipients appreciated the convenience. "The feedback has been very positive—they were able to use their wallet to withdraw here in Kigali, and some of them have already withdrawn in their own country," Martina shared.
+* **Global Accessibility**: With recipients from over 50 countries, the system supported seamless cross-border access, even in areas with limited banking.
+
+## Testimonials
+
+Martina's insights underscore the real-world benefits: "I had no idea what stablecoins were before January 2025... We very much appreciated the support from Decaf." She emphasized how the shift allowed recipients to "have their local currency ready for them to use here in Kigali," freeing up time for conference engagement.
+
+## Conclusion: Why Other Organizations Should Adopt Stellar and Decaf
+
+The IAS Conference 2025 case illustrates how the Stellar Disbursement Platform and Decaf wallet outperform traditional methods, offering speed, security, and scalability for global payments. By reducing administrative burdens, minimizing risks, and improving recipient satisfaction, this solution is ideal for NGOs, conferences, and aid organizations handling international disbursements.
+
+For organizations disbursing payments worldwide, the one-time setup yields ongoing efficiencies. IAS's success shows that embracing blockchain isn't complex; it's transformative.
+
+### Supporting Guides:
+
+1. [Part 1: How to disburse a payments using SDP to global recipients](https://youtube.com/shorts/BKdVuCsgADY)
+2. [Part 2: How to receive Disbursement to the Decaf Wallet & cash it out](https://youtube.com/shorts/KB3e4udBQio)]]></content:encoded>
+      <guid isPermaLink="true">https://decaf.so/en/blog/case-study-revolutionizing-scholarship-disbursements-at-ias-conference-2025-with-stellar-and-decaf</guid>
+    </item>
+    <item>
+      <title>Transforming Your NGO’s Global Payments with Stellar’s Disbursement Platform &amp; Decaf Wallet</title>
+      <link>https://decaf.so/en/blog/transforming-your-ngos-global-payments-with-stellar-s-disbursement-platform-decaf-wallet</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://cdn.prod.website-files.com/67a30203fe637582a298f381/67e19e3ebd1abf5f29a88559_1*rtC21qfrG6boKPN8N45Kfw.jpeg" type="image/jpeg"/>
+      <content:encoded><![CDATA[In today’s rapidly globalizing world, non-governmental organizations (NGOs) and humanitarian groups face the constant challenge of securely, quickly, and cost-effectively sending money across borders. Traditional methods like cash delivery and prepaid cards often come with numerous challenges, including high operational costs, significant risks of fraud and abuse, lack of transparency, and delayed payments. Blockchain-based stablecoin solutions like [Stellar’s Disbursement Platform (SDP)](https://stellar.org/products-and-tools/disbursement-platform?utm_term=disbursement+platform&utm_campaign=Search%3A+SDP&utm_source=adwords&utm_medium=ppc&hsa_acc=8782384464&hsa_cam=21383163781&hsa_grp=165119779604&hsa_ad=702353685557&hsa_src=g&hsa_tgt=kwd-420878192831&hsa_kw=disbursement+platform&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxkkweyZFHBwD6vrQQdQ932q1qCtM1JsCa4Pk3iQvhNxen76KfCJBv4aAitMEALw_wcB), combined with the [Decaf Wallet](https://www.decaf.so/), provide a far more efficient and innovative solution.
+
+![It’s time to innovate on how we do humanitarian aid — blockchain is ready](https://cdn.prod.website-files.com/67a30203fe637582a298f381/67e19e3ebd1abf5f29a88559_1*rtC21qfrG6boKPN8N45Kfw.jpeg "Cash is good in the last mile, but not when it is exchanged through many hands.")
+
+## Issues with Traditional Cash Delivery and Prepaid Cards
+
+* **High Costs:** Managing and distributing cash or prepaid cards involves substantial administrative and logistical expenses.
+* **Risk of Fraud and Abuse:** Physical cash and prepaid cards are susceptible to theft, loss, and misuse, increasing vulnerability and operational risk. We’ve heard of fraud north of 20%.
+* **Inefficiency and Delays:** Traditional methods often involve lengthy processes, leading to significant delays in payments reaching beneficiaries.
+* **Lack of Transparency:** Limited tracking capabilities make it difficult to ensure funds are used as intended.
+
+## What is Stellar’s Disbursement Platform (SDP)?
+
+Stellar’s SDP is designed to simplify global payments, offering organizations the ability to send digital dollars ([USDC](https://www.circle.com/usdc)) instantly to recipients worldwide. NGOs can leverage this technology to ensure funds reach the intended recipients directly and transparently.
+
+## Why Use Decaf Wallet?
+
+Decaf is a non-custodial, blockchain-based wallet available on Stellar and Solana blockchains, ensuring only the wallet owner controls their funds. It provides an accessible, reliable bridge between digital currency and local currencies via a global network, including MoneyGram locations in over 180 countries.
+
+## Step-by-Step Guide to Sending and Receiving Disbursements
+
+Here’s how your NGO can utilize Stellar’s SDP and Decaf Wallet to streamline global payments:
+
+### Step 1: Download and Set Up Decaf Wallet
+
+* **Download** the Decaf Wallet app from [https://www.decaf.so/](https://www.decaf.so/).
+* **Create a new account** using your email address.
+* **Log in and set up** a secure PIN to protect your wallet.
+
+### Step 2: Fund and Manage Your SDP Instance
+
+* **Access** Stellar’s Disbursement Platform dashboard.
+* **Create a new disbursement** by specifying the total payment amount.
+* **Bulk upload recipients** easily by importing a pre-prepared spreadsheet with recipients’ details.
+
+### Step 3: Receive Payments Directly in Decaf Wallet
+
+* Recipients will receive USDC instantly in their Decaf Wallet.
+* Payments are traceable, transparent, and secure, leveraging blockchain technology.
+
+### Step 4: Convert USDC to Local Currency at MoneyGram
+
+* Recipients can quickly cash out their USDC at MoneyGram’s extensive network of locations available in over 180 countries.
+* This ensures funds can be efficiently converted into local currency without high fees or lengthy processing times.
+
+### Step 5: Send USDC Effortlessly Between Wallets
+
+* Users can easily transfer USDC between wallets using Stellar blockchain addresses or simply by searching usernames within Decaf Wallet.
+* This enhances flexibility for recipients to manage their funds according to their needs.
+
+![This is a tutorial on how to send and receive disbursement payments with Stellar’s SDP platform to a Decaf Wallet.](https://cdn.prod.website-files.com/67a30203fe637582a298f381/67e19e3ebd1abf5f29a88559_1*rtC21qfrG6boKPN8N45Kfw.jpeg)
+
+## Why Adopt This Solution Now?
+
+Blockchain-based stablecoin solutions are already in use by major global institutions, revolutionizing payments, aid delivery, and cross-border transactions. Examples include:
+
+* **United Nations & Stellar:** UNHCR leverages blockchain to distribute aid securely and efficiently ([Learn more](https://stellar.org/case-studies/unhcr)).
+* **Wyoming State:** The state government launched its own stable token initiative ([Learn more](http://stabletoken.wyo.gov/)).
+* **Payments to Freelancers:** Stablecoins are transforming freelancer payments globally, from the US to Colombia ([Watch Story](https://www.youtube.com/watch?v=aaClTluc3AU&t=0s)).
+* **Healthcare Payments in Venezuela:** USDC supports critical healthcare worker payments across borders ([Learn more](https://www.circle.com/stories/using-usdc-for-ngo-cross-border-payments)).
+
+## Embrace the Future of Global Payments
+
+At Decaf, we believe combining stablecoins and Stellar’s SDP represents a transformative approach to global financial inclusion, remittances, and humanitarian aid payments. Join us in transforming global transactions, ensuring your funds reach recipients efficiently, safely, and transparently.
+
+**Learn more and start today at [**Decaf.so**](https://www.decaf.so/)**.]]></content:encoded>
+      <guid isPermaLink="true">https://decaf.so/en/blog/transforming-your-ngos-global-payments-with-stellar-s-disbursement-platform-decaf-wallet</guid>
+    </item>
+    <item>
+      <title>Guide for Disbursing Funds via Decaf</title>
+      <link>https://decaf.so/en/guide-for-disbursing-funds-via-decaf</link>
+      <enclosure url="https://cdn.prod.website-files.com/679da7d3d636ece8c3d1cd40/693682b5b86a13d02f1f40a8_image.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Guide for Disbursing Funds via Decaf
+
+**Guide for Disbursing Funds via Decaf**
+
+Learn how to run fast, low-cost USDC disbursements using Decaf and Stellar. This guide walks organizations through setup, onboarding, bulk payment creation, and the full recipient experience—ideal for NGOs, financial service providers, and teams managing large-scale global payouts, especially in hard-to-reach or challenging regions.
+
+## Guide Sections
+
+1. **[Overview](/en/guide/overview)**
+2. **[Setup Process](/en/guide/setup-process)**
+   - 2.1 Setting Up the SDP Account
+     Before funding or creating disbursements, the organization must have its own SDP account. Decaf manages this setup to ensure a smooth onboarding process.
+3. **[Create Disbursement](/en/guide/create-disbursement)**
+4. **[Monitor and review](/en/guide/monitor-and-review)**
+
+### Guide for recipients
+
+1. **[Recipient Experience](/en/guide/recipient-experience)**]]></content:encoded>
+      <guid isPermaLink="true">https://decaf.so/en/guide-for-disbursing-funds-via-decaf</guid>
+    </item>
+  </channel>
+</rss>

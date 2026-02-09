@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trustless Work - Stellar Ecosystem</title>
+    <link>https://trustlesswork.com</link>
+    <description>Latest articles about Trustless Work in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/trustless-work.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>2025 in Review — Trustless Work</title>
+      <link>https://trustlesswork.com/escrow-times/news-2025-Year-In-Review</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 GMT</pubDate>
+      <author>Trustless Work</author>
+      <enclosure url="https://www.trustlesswork.com/images/blog/2025-year-recap.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# 2025 in Review — Trustless Work
+
+2025 started in the best way possible.
+
+We began the year finishing **[Draper University's / Stellar Embark program](https://draperuniversity.com/stellar)** — the last stretch of an experience that, looking back now, feels much further away than it actually is.
+
+It's a little surreal to see how much has changed since then.
+
+Being part of Draper's ecosystem, alongside the Stellar Development Foundation, didn't just give us momentum or credibility. It gave us **clarity**.
+
+The key insight was simple, but powerful:
+
+**If stablecoins are going to power real economic activity, escrow cannot remain bespoke, custodial, or inaccessible.**
+
+That insight shaped everything that followed.
+
+---
+
+## Built in the Open, Tested Through Exposure
+
+2025 was a year of constant movement and exposure.
+
+We took Trustless Work on the road — not to sell, but to listen, stress-test, and learn. Through roadshows, deep conversations, open-source campaigns, and repeated pitching across the US and Latin America, we refined both the product *and* our understanding of the problem we're solving.
+
+Hackathons played a central role in this process. Each one pushed the system in a different direction and revealed new possibilities — technically and conceptually. Just as importantly, many of them allowed us to work side-by-side with open-source contributors who we hope will stay close as we enter this next phase.
+
+Some highlights:
+
+* **Stellar Casa Builders (Mexico)**  
+  We built *Pacto*, a P2P DEX using escrow for buyer–seller protection.
+* **Crecimiento + Stellar Hackathon (Argentina)**  
+  Our team connected with some of the most important figures in the Stellar ecosystem across Latin America.
+* **Solana Colosseum Hackathon**  
+  We built V1 of a Solana version of Trustless Work, proving the model is truly chain-agnostic.
+* **Meridian / Blockchain Jungle Hackathon**  
+  We explored escrows combined with yield-bearing strategies, stress-testing how programmable trust interacts with capital efficiency.
+* **Avalanche Hackathon (Blockchain Jungle)**  
+  We won the hackathon by building an EVM version of Trustless Work together with an open-source contributor.
+* **DevConnect / Stellar House Hackathon**  
+  We built an early tokenization and private credit platform — a template we'll continue iterating on in the short term.
+
+None of these were about prizes.
+
+They were about **pressure**.
+
+Different chains. Different assumptions. Different builders.
+
+In these environments, we met builders actively trying to use Trustless Work for their own products. We learned about their questions, frictions, and blockers — and sharpened the product because of it.
+
+---
+
+## Shipping Real Infrastructure
+
+Not all of 2025 was travel and hackathons.
+
+Alongside all of that, we shipped a **baseline escrow infrastructure layer**:
+
+* A production-ready **Escrow API**
+* A full **developer SDK**
+* **Escrow Blocks** — pre-built UI components for faster integration
+* AI-assisted tooling:
+  * Vibe-coding guides
+  * **MCP**, providing full product context to coding engines
+* Multiple smart-contract iterations
+* A **publicly published audit**
+* And finally: **mainnet usage**
+
+This wasn't about shipping for shipping's sake.
+
+It was about laying foundations solid enough to scale — including real-world requirements like **indexation, auditability, and reliability**.
+
+Publishing the audit was a major milestone for us. It marked the transition from experimentation to production-grade infrastructure.
+
+---
+
+## Builders, Everywhere
+
+One of the most rewarding surprises of 2025 was seeing *where* people were building with Trustless Work.
+
+Builders from Africa, Asia, Argentina, Mexico, Costa Rica, Europe, New York, San Francisco — and many places in between — started experimenting, shipping, and integrating.
+
+Some community-born projects went on to receive grants, including:
+
+* **[GrantFox](/escrow-times/new-grantfox-scf-grant)**
+* **[Boundless](/escrow-times/news-boundless-scf-grant)**
+* **[KindFi](/escrow-times/news-kindfi-scf-grant)**
+
+Others won hackathons, launched MVPs, or are preparing for mainnet.
+
+Supporting builders — from early hackers to serious startups — remains central to our strategy.  
+If they move faster, the ecosystem moves faster.
+
+We're equally grateful for the startup network we've built through Draper University and the Stellar community. The relationships formed with founders, mentors, and investors have been some of the most valuable outcomes of the year.
+
+---
+
+## Enterprise Pilots & New Financial Primitives
+
+2025 also marked our first sustained exposure to enterprise-grade use cases.
+
+We successfully built and supported pilots for:
+
+* **[Mirai-X — Real Estate Tokenization](https://www.mirai-x3.com/)**  
+  Spanning the Middle East and Japan.
+* **Private credit and capital allocation** products across Latin America.
+
+These pilots helped us understand:
+
+* how escrow interacts with private credit
+* how capital flows behave at larger ticket sizes
+* what enterprises actually require to adopt this technology
+* and where programmable trust enables entirely new financial primitives
+
+This work directly shaped our roadmap for tokenization, private credit, and enterprise abstractions.
+
+---
+
+## 2025 Was Also a Breakout Year for Stellar
+
+We chose Stellar for a reason.
+
+And 2025 reinforced that decision.
+
+Throughout the year, Stellar continued maturing into an institutional-grade network — not just for payments, but as a serious foundation for **stablecoins, tokenized assets, yield, and interoperability**.
+
+Some ecosystem milestones that stood out:
+
+* PayPal launching **PYUSD** on Stellar
+* 21X advancing regulated tokenized capital markets
+* RedSwan Digital tokenizing $100M+ in real estate
+* Mercado Bitcoin announcing $200M in tokenized assets
+* Centrifuge expanding decentralized RWA infrastructure
+* Ondo Finance scaling yield-bearing assets like USDY
+* MoneyGram building next-generation consumer finance apps
+* Circle launching **CCTP V2**
+* LayerZero strengthening cross-chain interoperability
+
+As more capital moves on-chain, the need for **neutral, programmable escrow infrastructure** becomes unavoidable.
+
+**Stellar solved how money moves.  
+Trustless Work is solving how it waits.**
+
+2025 reaffirmed our conviction that we're building on the right rails, at the right time.
+
+---
+
+## Community Efforts
+
+Alongside product development, we invested intentionally in community:
+
+* Monthly blockchain after-office events in Costa Rica
+* Speaking at regional and international events
+* Mentoring hackathons and bootcamps
+* Creating spaces for builders to connect and collaborate
+
+This wasn't accidental.
+
+We've been very intentional about building community, attracting builders, and helping them succeed with their products — and we're grateful to do so.
+
+---
+
+## What 2025 Proved
+
+2025 made a few things clear:
+
+* Escrow is infrastructure, not a feature
+* Open source is a real go-to-market strategy
+* Builders are the strongest distribution channel
+* Programmable trust is essential for the stablecoin economy to scale
+
+---
+
+## Looking Ahead to 2026
+
+If 2025 was about foundations, **2026 is about acceleration**.
+
+More integrations.  
+More volume.  
+More templates.  
+More tokenized private credit.  
+More multichain execution.  
+More partnerships.  
+More builders reaching mainnet — faster.
+
+We're entering the new year with:
+
+* A live, audited product
+* Enterprise learnings
+* A growing ecosystem
+* Momentum earned the hard way
+
+We're now preparing to raise capital to accelerate what's already working.
+
+👉 **[Learn more about investing in Trustless Work](/invest)**
+
+Let's make 2026 even bigger.
+
+**Pura Vida.**]]></content:encoded>
+      <guid isPermaLink="true">https://trustlesswork.com/escrow-times/news-2025-Year-In-Review</guid>
+    </item>
+    <item>
+      <title>GrantFox Receives a Stellar Community Fund Build Award</title>
+      <link>https://trustlesswork.com/escrow-times/new-grantfox-scf-grant</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+      <author>Trustless Work</author>
+      <enclosure url="https://trustlesswork.com/images/blog/grantfox-stellar-grant.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[🎉 **We're very happy to share that GrantFox has received a Stellar Community Fund Build Award.**
+
+This is an important milestone — not just for GrantFox, but for how open-source collaboration is evolving across the Stellar ecosystem.
+
+GrantFox is on the way to becoming **the platform for open-source collaboration on Stellar**, and potentially a foundation other ecosystems can learn from as well.
+
+---
+
+## A real ecosystem moment
+
+Before GrantFox, most open-source collaboration in Stellar was happening through **OnlyDust**.
+
+OnlyDust played a meaningful role in the ecosystem. It enabled developer discovery and provided the tools and reward mechanisms that allowed projects like Trustless Work to be discoverable, maintained, and improved by open-source contributors. For a long time, it was the primary place where builders and projects found each other.
+
+But after a series of setbacks, OnlyDust decided to step back from Web3.
+
+That decision left a real gap.
+
+Not because collaboration stopped — builders were still there — but because the **infrastructure for discovery, coordination, and incentives disappeared**. Platforms that relied on OnlyDust to stay visible to contributors felt that impact immediately.
+
+And that's where GrantFox stepped in.
+
+The GrantFox team didn't wait for the ecosystem to slowly reorganize itself. They pivoted fast, adapted what they were already building, and focused on filling that void with something pragmatic: **a community-built platform, designed specifically for Stellar, at exactly the moment it was needed**.
+
+This wasn't about replacing the past.
+It was about continuity.
+
+---
+
+## From pivot to proof
+
+What followed was execution.
+
+In a very short timeframe, GrantFox:
+
+* Shipped a working pilot
+* Onboarded real Stellar projects
+* Launched what we now call **open-source waves**
+* Tested collaboration, discovery, and reward flows in the open
+
+We participated directly in these pilots.
+
+They worked.
+
+Projects found contributors.
+Contributors shipped real, scoped work.
+Progress was visible, attributable, and easy to follow.
+
+That feedback loop — discovery → contribution → recognition → reward — is what open source needs to scale beyond goodwill and heroics.
+
+---
+
+## More than the next OnlyDust
+
+GrantFox isn't here just to become the next OnlyDust.
+
+It's here to become a **better version**.
+
+By leveraging **Trustless Work** for payouts, GrantFox introduces something that didn't exist before at this level:
+
+* Non-custodial, trustless payouts
+* On-chain auditability of rewards
+* Clear linkage between work completed and funds released
+
+This raises the bar for open-source collaboration.
+
+Instead of opaque reward processes and manual reconciliation, contributors and projects get **transparency by default**.
+
+We're genuinely excited — and curious — to see how GrantFox continues to experiment with Trustless Work to design fairer, more accountable reward mechanisms for open-source contributors.
+
+This is where infrastructure starts shaping behavior.
+
+---
+
+## Built by the community, for the community
+
+There's also a strong human story here.
+
+GrantFox is built by a **Costa Rican team**, and Joel — one of the co-founders of Trustless Work — is also part of the GrantFox team. It's a great example of how open source compounds over time:
+
+Contributors become builders.
+Builders become founders.
+Teams overlap, learn, and ship together.
+
+No hype. Just momentum.
+
+---
+
+## What the Build Award unlocks
+
+The Stellar Community Fund Build Award is a signal that:
+
+* This problem matters
+* The timing is right
+* The execution is real
+
+With this support, GrantFox can:
+
+* Continue refining collaboration workflows
+* Run more open-source waves
+* Support more projects and contributors
+* Strengthen Stellar's open-source backbone
+
+We're excited to keep supporting GrantFox as **the open-source collaboration layer for Stellar** — and to learn alongside them as this evolves.
+
+---
+
+## Learn more & follow the journey
+
+* 👉 Website: [https://www.grantfox.xyz/](https://www.grantfox.xyz/)
+* 👉 Follow on X: [https://x.com/itsgrantfox](https://x.com/itsgrantfox)
+
+Huge congratulations to the GrantFox team on this well-deserved milestone 🚀
+We can't wait to see what gets built next.
+
+Pura Vida 🌱]]></content:encoded>
+      <guid isPermaLink="true">https://trustlesswork.com/escrow-times/new-grantfox-scf-grant</guid>
+    </item>
+    <item>
+      <title>Boundless Wins Stellar Community Fund Build Award | Trustless Work</title>
+      <link>https://trustlesswork.com/escrow-times/news-boundless-scf-grant</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+      <author>Trustless Work</author>
+      <enclosure url="https://www.trustlesswork.com/images/blog/boundless-stellar-grant.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Boundless Wins Stellar Community Fund Build Award
+
+🎉 **More great news from the Stellar ecosystem.**
+
+**Boundless** has received a **Stellar Community Fund Build Award** to support the development of its milestone-based funding and collaboration platform on Stellar.
+
+This isn't just a grant announcement.
+It’s a signal.
+
+A signal that the ecosystem is aligning around a hard, persistent problem in Web3 and open innovation:
+
+> **Funding without accountability doesn't scale.**
+
+---
+
+### The problem Boundless is solving
+
+Grants, hackathons, bounties, and crowdfunding all suffer from the same structural flaw:
+
+* Funds are paid **upfront**
+* Oversight is **manual**
+* Accountability is **off-chain**
+* Reporting is often **retroactive and opaque**
+
+This creates misaligned incentives on all sides:
+
+* Funders lack visibility into execution
+* Builders face trust barriers
+* Organizers rely on process instead of infrastructure
+
+Boundless was built to change that.
+
+---
+
+### How Boundless works
+
+Boundless introduces a simple but powerful primitive to funding flows: **milestone-based escrow**.
+
+By leveraging **Soroban smart contracts on Stellar** together with **Trustless Work's escrow infrastructure**, Boundless enables:
+
+* Funds to be **escrowed**, not prepaid
+* Work to be structured into **clear, verifiable milestones**
+* Payouts to occur **only when milestones are completed and validated**
+* Every action to be **publicly verifiable on-chain**
+
+No custodians.
+No manual reconciliation.
+No opaque trust assumptions.
+
+Just **programmable trust**.
+
+This transforms grants, bounties, and crowdfunding from administrative processes into scalable, verifiable infrastructure.
+
+---
+
+### An open-source origin story
+
+One detail that makes this milestone especially meaningful for us:
+**0xDevCollins**, founder of Boundless, is an **early contributor to Trustless Work**.
+
+This is exactly why we invest so deeply in open source.
+
+People don't just submit pull requests — they learn the system, understand the primitives, and start imagining what else can be built on top.
+
+In this case, a contribution turned into:
+
+* Deep product understanding
+* A new idea
+* A new team
+* And now, a funded platform building real infrastructure on Stellar
+
+Seeing contributors grow into founders — and founders grow into ecosystem partners — is the compounding effect of open source done right.
+
+We're incredibly proud of the growth of 0xDevCollins and the Boundless team, and grateful that a simple contribution helped kick-start what we hope becomes a long-term partnership.
+
+---
+
+### From MVP to mainnet
+
+The Stellar Community Fund Build Award validates both:
+
+* The **problem** Boundless is tackling
+* The **infrastructure-first approach** they're taking to solve it
+
+With this support, the Boundless team is moving forward with:
+
+* Testnet and mainnet deployment
+* Builder and ecosystem partner onboarding
+* Establishing Stellar as a foundation for **fair, transparent, and scalable funding**
+
+Importantly, Boundless is starting from **Africa**, where access to reliable funding infrastructure can unlock real economic opportunity for builders and communities.
+
+---
+
+### Learn more and support the team
+
+If you want to follow what Boundless is building and get involved early:
+
+* 👉 Learn more: [https://www.boundlessfi.xyz/blog/boundless-wins-stellar-community-fund-40](https://www.boundlessfi.xyz/blog/boundless-wins-stellar-community-fund-40)
+* 👉 Join the waitlist: [https://www.boundlessfi.xyz/waitlist](https://www.boundlessfi.xyz/waitlist)
+* 👉 Follow on X: [https://x.com/boundless_fi](https://x.com/boundless_fi)
+
+Congratulations to the Boundless team on this well-deserved milestone 🚀
+Pura Vida!]]></content:encoded>
+      <guid isPermaLink="true">https://trustlesswork.com/escrow-times/news-boundless-scf-grant</guid>
+    </item>
+  </channel>
+</rss>

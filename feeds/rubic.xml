@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubic - Stellar Ecosystem</title>
+    <link>https://rubic.exchange</link>
+    <description>Latest articles about Rubic in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/rubic.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Rubic Weekly Report 01/29/2026</title>
+      <link>https://rubic.exchange/blog/rubic-weekly-report-01-29-2026/</link>
+      <pubDate>Thu, 29 Jan 2026 11:47:02 GMT</pubDate>
+      <enclosure url="https://rubic.exchange/blog/wp-content/uploads/2026/01/telegram-cloud-photo-size-2-5465400649747992360-y-1024x800.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Summary:**
+
+1. 🔷 Sui Is Live on Rubic
+2. 🚀 MegaETH Integration From Day One
+3. ✨ Stellar Expanded Integration 
+4. 🔊 Relay Support Expanded
+5. 🤝 Rubic × Stellar Campaign
+
+**Development**
+
+1. **Sui Is Live on Rubic**
+
+Sui has surpassed 13.3 billion transactions, with over 238 million active wallets on-chain, and now Sui is available on Rubic.
+
+Explore Sui on Rubic Best Rate Finder and swap to and from it via Exolix, Near Intents, Quickex with the best rates & zero Rubic fees for swaps under $100! To make it more convenient, we added support for Suiet and Slush Wallet.
+
+![Sui on Rubic](https://rubic.exchange/blog/wp-content/uploads/2026/01/telegram-cloud-document-2-5463126004543296156-1024x583.png)
+
+2. **MegaETH Integration On Day 1**
+
+As MegaETH's public mainnet launch approaches, we're preparing to go live with full Day 1 integration. Rubic will support both cross-chain and on-chain swaps via Warp Exchange and Relay Protocol, with more integrations to follow.
+
+Just as with the testnet, Rubic will serve as a gateway for early users of the MegaETH mainnet.
+
+Besides, Rubic's API will give dApps Day 1 access to MegaETH as well.
+
+3. **Stellar Expanded Integration **
+
+We've received the Stellar Community Fund grant to implement the integration.
+
+With our tech partner Rock'N'Block, we'll bring Stellar to Rubic's Best Rate Finder, with SimpleSwap, Changelly, ChangeNow and Exolix for cross-chain swaps. Plus, Rubic's Stellar API provider for both on-chain and cross-chain transactions. 
+
+Powered by Rubic's Stellar API, we enable cross-chain swaps for a broader range of tokens, with exclusive routes on Rubic, including multihop transactions between Tron and BNB Chain, Arbitrum, Optimism, Polygon, Avalanche, and Ethereum.
+
+Besides, we've integrated two Stellar wallets: LOBSTR and Freighter. 
+
+4. **Relay Support Expanded**
+
+We're enhancing our Relay integration, adding it as a cross-chain provider for Bitcoin, HyperEVM, Scroll, Tron, and zkSync Era. This gives you more options for swaps across chains and adds an additional decentralized route for non-EVM networks like Tron and Bitcoin.
+
+**Marketing**
+
+1. **Rubic × Stellar Campaign**
+
+Following the successful Stellar re-integration on Rubic, we'll be joining a Galxe campaign on Stellar hosted by Allbridge. 
+
+Stay tuned for more details!]]></content:encoded>
+      <guid isPermaLink="true">https://rubic.exchange/blog/rubic-weekly-report-01-29-2026/</guid>
+    </item>
+  </channel>
+</rss>

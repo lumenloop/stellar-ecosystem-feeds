@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MYKOBO - Stellar Ecosystem</title>
+    <link>https://mykobo.co</link>
+    <description>Latest articles about MYKOBO in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/mykobo.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MYKOBO EURC Transitioning to Circle EURC</title>
+      <link>https://medium.com/@myk0b0/mykobo-eurc-transitioning-to-circle-eurc-dd170af34bd2</link>
+      <pubDate>Thu, 04 Jul 2024 14:24:16 GMT</pubDate>
+      <author>MYKOBO</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1012/1*vePnjaVnp2CJrOtxrimWdA.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# MYKOBO EURC Transitioning to Circle EURC
+
+4th of July 2024. Vilnius, Lithuania.
+
+![image](https://cdn-images-1.medium.com/max/1012/1*vePnjaVnp2CJrOtxrimWdA.png)
+
+MYKOBO recently announced [SEPA support for Euro deposits and withdrawals of the Circle EURC Stablecoin](https://medium.com/@myk0b0/sepa-rails-for-circles-eurc-on-stellar-0f0f07c71946) on the [Stellar blockchain](https://stellar.org/).
+
+> Now, MYKOBO is excited to announce that the MYKOBO EURC Stablecoin issued on the Stellar blockchain will be transitioning to Circle EURC issued on the Stellar blockchain.
+
+MYKOBO will transition over 25K [MYKOBO EURC](https://stellar.expert/explorer/public/asset/EURC-GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM) asset holders to [Circle EURC](https://stellar.expert/explorer/public/asset/EURC-GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2) asset holders on the Stellar blockchain. MYKOBO EURC asset holders bridged to the Polkadot blockchain via the [Pendulum Spacewalk bridge](https://pendulumchain.org/spacewalk) will also be transitioned to Circle EURC via the Spacewalk bridge.
+
+![image](https://cdn-images-1.medium.com/max/1012/1*C1hK4u6RjaoAvPuTSx6uMw.png)
+
+> MYKOBO will expand it’s services to provide support for Circle EURC across the Ethereum, Avalanche and Solana blockchains.
+
+The MYKOBO on/off ramps and cross border payment services will be expanded to all the blockchains on which Circle EURC is currently issued.
+
+![image](https://cdn-images-1.medium.com/max/1024/1*fXfrNgwK7KPI5GvLHnY5IQ.jpeg)
+
+> Transitioning MYKOBO EURC to Circle EURC will allow MYKOBO to expand it’s services in line with the Markets in Crypto Assets Regulation (MiCAR) for an Electronic Money Token (EMT).
+
+Circle has obtained the [necessary licenses](https://www.circle.com/en/pressroom/circle-is-first-global-stablecoin-issuer-to-comply-with-mica-eus-landmark-crypto-law) to make Circle EURC a MiCAR-compliant EMT.
+
+Over the coming months, MYKOBO will be working with all our customers and partner platforms to transition MYKOBO EURC asset holders to Circle EURC asset holders.
+
+All current MYKOBO services will continue to operate as normal during the transition phase with no disruptions.
+
+**For more information, please contact us at: support@mykobo.co**
+
+![image](https://cdn-images-1.medium.com/max/1024/1*X8X2Rj0kLrsihb9VHwr8wA.png)
+
+[MYKOBO](https://mykobo.co/) provides a bridge connecting the European financial infrastructure to the blockchain using Euro Stablecoins that are pegged 1:1 with the Euro.
+
+There are currently over 25K asset holders utilising the [EURC](https://stellar.expert/explorer/public/asset/EURC-GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM) Stablecoin on the Stellar blockchain through platforms such as [Clickpesa](https://clickpesa.com/), [Beans](https://www.beansapp.com/), [LOBSTR](https://lobstr.co/), [Pendulum](https://pendulumchain.org/), [xBull](https://xbull.app/), [LINK](https://www.linkio.world/), [Empowch](https://www.empowch.com/) and [Honeycoin](https://honeycoin.app/) in addition to the MYKOBO apps on [iOS](https://apps.apple.com/us/app/mykobo/id1491690533) and [Android](https://play.google.com/store/apps/details?id=com.mykobo).
+
+[Circle](https://www.circle.com/en/) has embraced a regulation-first approach in promoting the use of fully-reserved, fiat-backed digital currencies to empower businesses, promote financial inclusion, and drive fast, cost-effective global payments.
+
+Circle issues EURC with over €35M in circulation and USDC with over $32B in circulation as of July 4, 2024.]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@myk0b0/mykobo-eurc-transitioning-to-circle-eurc-dd170af34bd2</guid>
+    </item>
+    <item>
+      <title>SEPA Rails for Circle’s EURC on Stellar</title>
+      <link>https://medium.com/@myk0b0/sepa-rails-for-circles-eurc-on-stellar-0f0f07c71946</link>
+      <pubDate>Tue, 26 Mar 2024 15:31:09 GMT</pubDate>
+      <author>MYKOBO</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*pfDJwj79Tr5VxAWDaAWoKA.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# SEPA Rails for Circle’s EURC on Stellar
+
+![](https://cdn-images-1.medium.com/max/1024/1*pfDJwj79Tr5VxAWDaAWoKA.png)
+
+[MYKOBO](https://mykobo.co/) is thrilled to announce support for Euro deposits and withdrawals of Circle’s euro-backed stablecoin, EURC, on the Stellar blockchain
+
+**What does this new service mean for users?**
+
+This means that European users with Stellar wallets will be able to make Euro deposits and withdrawals with Circle’s EURC using the Single Euro Payments Area (SEPA) network.
+
+**Where can users access this service?**
+
+This exciting new service is now accessible via the [LOBSTR](https://lobstr.co/) wallet, renowned for its simplicity and security, and widely used on the Stellar blockchain.
+
+[Click here](https://lobstr.co/deposit/EURC:GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2/) to start a EUR deposit with EURC
+
+[Click here](https://lobstr.co/withdraw/EURC:GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2/) to start a EUR withdrawal with EURC
+
+Or download the LOBSTR [iOS](https://itunes.apple.com/us/app/lobstr-stellar-wallet/id1404357892?mt=8) or[Android](https://play.google.com/store/apps/details?id=com.lobstr.client) app today to start your EURC journey.
+
+![](https://cdn-images-1.medium.com/max/1024/1*YlPW0S7xI7enhaZF_UKWjw.jpeg)
+
+**Why support Circle’s EURC Stablecoin?**
+
+MYKOBO believes in the potential of Circle’s EURC as the leading Euro stablecoin for crypto capital markets, EURC is fully reserved so that it’s always redeemable 1:1 for Euro.
+
+Circle’s EURC Stablecoin is currently issued on the Ethereum, Solana, Avalanche and Stellar blockchains.
+
+MYKOBO believes users will benefit from the trust, transparency, and security of Circle as the issuer of the USDC stablecoin with over $31B in circulation as of March 2024.
+
+**What does this mean for MYKOBO’s EURC Stablecoin?**
+
+MYKOBO will continue to provide full support for the MYKOBO EURC Stablecoin as the partnership with Circle continues expanding with the objective of building a trusted and interoperable Euro Stablecoin.
+
+**What is MYKOBO?**
+
+MYKOBO provides a bridge connecting the European financial infrastructure to the blockchain using Euro Stablecoins that are pegged 1:1 with the Euro.
+
+There are currently over 20K users utilizing the [EURC](https://stellar.expert/explorer/public/asset/EURC-GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM) Stablecoin on the Stellar blockchain through platforms such as [Beans](https://www.beansapp.com/), [LOBSTR](https://lobstr.co/), [xBull](https://xbull.app/), [LINK](https://www.linkio.africa/), [Empowch](https://www.empowch.com/) and [Honeycoin](https://honeycoin.app/) in addition to the MYKOBO apps on [iOS](https://apps.apple.com/us/app/mykobo/id1491690533) and [Android](https://play.google.com/store/apps/details?id=com.mykobo).
+
+**What is Stellar?**
+
+Stellar is a blockchain where blockchain technology meets the real world by providing real world utility with solutions like the disbursement of aid or cheaper and faster cross border payments.
+
+**What is SEPA?**
+
+The SEPA network allows users to send and receive cashless Euro bank payments via transfer and direct debit to anywhere in the European Union (EU), as well as a number of non-EU countries.
+
+![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=0f0f07c71946)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@myk0b0/sepa-rails-for-circles-eurc-on-stellar-0f0f07c71946</guid>
+    </item>
+    <item>
+      <title>AMA March Recap With CEO &amp; Co-Founder: Seyi Akin-Olugbemi</title>
+      <link>https://medium.com/@myk0b0/ama-march-recap-with-ceo-co-founder-seyi-akin-olugbemi-52cf62200157</link>
+      <pubDate>Thu, 06 Apr 2023 12:23:01 GMT</pubDate>
+      <author>MYKOBO</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*0VF_KCOuewFTt85Q64qY9g.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# AMA March Recap With CEO & Co-Founder: Seyi Akin-Olugbemi
+
+#### **Q. Who is Seyi?**
+
+I am a hacker at heart. I enjoy building things and watching them come to life.
+
+I studied Mathematics and Software Engineering and have 10 years of experience in the Fintech space working in payments, banking and microfinance.
+
+I worked for 16 years in technology starting with tech support and ending up as the IT Director for Technology and Infrastructure with the Richemont Group.
+
+Today, I run MYKOBO, the EURC Stablecoin issuer providing a bridge connecting European consumers and businesses to the blockchain using Stellar.
+
+#### **Q. What does MYKOBO mean?**
+
+The “kobo” is the smallest unit of the Nigerian currency, similar to the way the cent is the smallest unit of the USD or indeed the EUR currency.
+
+*MYKOBO means MYCOIN.*
+
+#### **Q. What motivated you to start MYKOBO and a Euro stablecoin.**
+
+MYKOBO was born one fateful day when Kwabena (CTO) and I got into a passionate discussion about sending money to Nigeria and Ghana.
+
+We went deep, touching on topics like financial inclusion and blockchain technology and knew instantly we had to build what we were trying to articulate.
+
+#### **Q. Why Stellar?**
+
+Stellar is built at a protocol level to support the storage and movement of money i.e “value”.
+
+This is exactly why we started MYKOBO so Stellar was a natural fit.
+
+Stellar also has a great community and support structure for companies building on Stellar.
+
+#### **Q. What is EURC?**
+
+The EURo Coin (EURC) is an asset-backed stablecoin pegged 1:1, issued by MYKOBO UAB and built on Stellar.
+
+#### **Q. What coins are supported on MYKOBO?**
+
+Currently, within the MYKOBO app, we support the holding of the following coins: EURC, USDC, XLM and AQUA.
+
+#### **Q. Can I hold coins from other networks?**
+
+At present, all of the supported coins are connected to the Stellar blockchain network.
+
+It is not possible to hold other coins from other networks in the app.
+
+#### **Q. What Liquidity Pools are available?**
+
+Pairs that are supported by MYKOBO in our app are: — XLM/EURC — EURC/USDC (coming soon) — AQUA/EURC (coming soon)
+
+#### **Q. Does Circle manage the treasury?**
+
+Circle do not manage our treasury. They are a partner that enables us to use their infrastructure for USDC.
+
+MYKOBO is building the most active fiat-backed Euro stablecoin [EURC](https://twitter.com/search?q=%24EURC&src=cashtag_click) on [Stellar](https://twitter.com/StellarOrg).
+
+**MYKOBO** issues the EURC stablecoin pegged 1:1 with the Euro, providing a bridge connecting the European financial infrastructure to the blockchain using Stellar.
+
+For more information on MYKOBO and EURC visit the [MYKOBO website](https://www.mykobo.co/).]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@myk0b0/ama-march-recap-with-ceo-co-founder-seyi-akin-olugbemi-52cf62200157</guid>
+    </item>
+  </channel>
+</rss>

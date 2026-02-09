@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Balanced - Stellar Ecosystem</title>
+    <link>https://balanced.network</link>
+    <description>Latest articles about Balanced in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/balanced.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Roadmap update | Q3 2025</title>
+      <link>https://blog.balanced.network/q3-2025/</link>
+      <pubDate>Thu, 17 Jul 2025 01:25:15 GMT</pubDate>
+      <author>Balanced Official</author>
+      <enclosure url="https://blog.balanced.network/content/images/size/w2000/2025/07/q3-2025-roadmap.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[In May, ICON announced their plan to merge with the Balanced protocol to become [SODAX](https://news.sodax.com/posts/introducing-sodax), a unified liquidity layer on the Sonic blockchain. Meanwhile, the Balanced app will become an independent product owned by PARROT9. All parties spent Q2 working through the transition, which requires extensive changes to both the app and tech stack.
+
+Here’s how PARROT9 spent their time since the last roadmap update:
+
+### App
+* Added support for intent-based trades on Stellar
+* Designed a money market interface for Balanced v2
+* Helped SODAX finalise their SDKs so Balanced can use them
+* Began integrating SODAX intents into the Trade page
+
+#### Bug fixes and enhancements
+* Fixed numerous Stellar transaction issues
+* Improved handling for intent-based trades
+* Added estimated time to pending transactions
+* Fixed some display issues on the Stats page
+
+### Marketing
+* Published marketing pages for [Stellar](https://balanced.network/stellar/), [Sui](https://balanced.network/sui/), and [Arbitrum](https://balanced.network/arbitrum/)
+* Began work on Balanced v2 updates for the marketing site
+* Prepared content for a design-focused social media push
+* Supported the Stellar Summer Rewards campaign (spearheaded by the SODAX team), which saw Balanced come first in phase one of Stellar’s user acquisition program
+
+The core backend and smart contract work are now covered by SODAX, so you can read about their progress from [news.sodax.com](https://news.sodax.com/).
+
+---
+
+## Balanced’s direction
+
+As discussed in the [last roadmap update](https://blog.balanced.network/q2-2025/), the Balanced protocol will merge with ICON to become SODAX. Governance will be removed in the coming months, and the app and brand direction is now up to PARROT9.
+
+In June, the DAO approved [PARROT9’s request for funding](https://app.balanced.network/vote/proposal/169), which gives them a year of runway to enact their plan for Balanced.
+
+Their first step is to integrate the SODAX tech stack, which includes intent-based trades on every chain and a money market to replace bnUSD loans.
+
+The money market will make it easy to borrow bnUSD and many other assets on supported chains, and you’ll finally get to earn interest for the assets you supply. The money market design is almost complete, so look out for a public demo in the coming weeks.
+
+After the transition, they’ll move on to the next phase: widgets.
+
+Implemented correctly, widgets will make Balanced the most useful cross-chain DeFi app on the market. They’ll start off simple, focused on Balanced and general market utilities, then optimise the tasks you perform through other DeFi protocols. Whether you want to track the price of a specific coin, calculate risk scenarios, or stake, trade, and monitor your crypto in a single place, widgets will make it easy to build your DeFi experience around you.
+
+![The type of widgets you can expect to see on Balanced in the coming months.](https://blog.balanced.network/content/images/2025/07/balanced-widget-promo.png)
+
+---
+
+## Plans for Q3 2025
+
+During Q3, PARROT9 will complete the transition from protocol to frontend:
+
+* **Begin building in public:** Share more about our design process and work in progress to build Balanced’s reputation as a design-focused product.
+* **Ship money market demo:** Complete the interaction design for the Balanced money markets and share with the community.
+* **Support intent-based trades on every chain:** Use the SODAX intents SDK to trade across every chain at speed. The Bridge tab will be folded into Swap, and there’ll be an easier way to view your recent transactions. The Archway and Havah connections will be removed, as will ICON community tokens, but they’ll remain accessible through a separate URL.
+* **Build, test, and ship Balanced v2:** Includes money markets, improved visual design, new reward & Savings Rate sections, extensive changes to the website, and an easy way to move between v1 and v2. Expected to ship by early Q4.
+
+Additional updates related to the transition, like removing governance, distributing the DAO Fund, and converting BALN > SODA will be announced as ready.
+
+To stay up to date as these changes unfold, follow Balanced on [X/Twitter](https://x.com/BalancedDeFi), join the [Balanced Discord channel](https://discord.com/invite/7z2vKaj7pj), or subscribe to receive new blog posts via email:]]></content:encoded>
+      <guid isPermaLink="true">https://blog.balanced.network/q3-2025/</guid>
+    </item>
+    <item>
+      <title>Roadmap update | Q2 2025</title>
+      <link>https://blog.balanced.network/q2-2025/</link>
+      <pubDate>Thu, 08 May 2025 07:53:47 GMT</pubDate>
+      <author>Balanced Official</author>
+      <enclosure url="https://blog.balanced.network/content/images/size/w2000/2025/05/Q2-2025-Balanced-Roadmap-Update.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[> During Q1 2025, the Balanced contributors continued to extend Balanced's cross-chain functionality, increased blockchain support for intent-based trades, and worked on large-scale upgrades to Balanced's technology stack to support ICON's move from blockchain to DeFi app platform.
+
+Here's what the contributors accomplished since the last roadmap update:
+
+### Smart contracts
+- Upgraded the contracts to support cross-chain Savings Rate, liquidity pools, and rewards
+- Shipped updates for intents & the ICON solver, including support for ICON, Polygon, Stellar, and an `exact_out` feature to specify the amount to receive (rather than just the amount to swap)
+- Upgraded all blockchain connections to the new cluster relay setup
+- Prepared for ICON's transition to SODAX
+  - Deployed new relay infrastructure
+- Deployed new asset manager contracts
+- Deployed money market contracts on Sonic
+- Built SDKs to support front-end integrations
+
+### Front-end / back-end
+- Launched cross-chain liquidity pools
+- Launched the cross-chain Savings Rate
+- Launched cross-chain rewards
+- Launched Balanced on Polygon
+- Added support for intent-based trades on ICON and Polygon
+- Added USDC on Solana and Stellar
+- Added support for a new ICX/sICX liquidity pool
+- Began work on improved transaction handling
+
+### Quality of life & code improvements
+- Added a blockchain filter to asset selectors on the Trade page
+- Improved handling for withdrawal limits on the Trade page
+- Added the option to clear searches across the app
+- Removed old code from the ICX-only queue
+- Added trustline handling for Stellar wallets (required to hold assets on Stellar)
+- Improved intent fee handling
+- Pushed a range of bug fixes and stability improvements
+
+### Marketing initiatives
+- Published [Liquidity pools, Savings Rate, and rewards go cross-chain](https://blog.balanced.network/cross-chain-liquidity-savings/)
+- Published [Balanced connects to Polygon](https://blog.balanced.network/polygon-connection/)
+- Added a [privacy policy](https://balanced.network/privacy/)
+- Made the [Balanced demo](https://balanced.network/demo) fully interactive across chains
+- Worked on blockchain-specific marketing pages
+- Worked on Balanced's content & distribution strategy
+- Assisted with ICON's co-marketing efforts
+
+---
+
+## Cross-chain expansion
+
+Balanced extended its cross-chain functionality in March with the release of the Savings Rate, liquidity pools, and rewards on 11 blockchains. You can now deposit bnUSD into the Savings Rate and/or supply liquidity on your favourite chain(s), and earn rewards for it.
+
+Support for Polygon arrived a few days later to bring the total number of blockchains to 13. Unlike previous connections, Polygon launched with no liquidity available for its native token, POL, but thanks to the power of intent-based trades, we didn't need it.
+
+Intents are now available for Arbitrum, ICON, Polygon, and Sui, so you can make 5-second swaps between a wider range of assets. Support for Stellar will ship within the coming days, then it's time to integrate a new version of intents that supports all connected chains.
+
+---
+
+## Co-marketing campaigns
+
+A few weeks ago, the ICON team finished a co-marketing campaign with Studio Mirai, who have one of the largest communities in the Sui ecosystem.
+
+Over 1,300 wallets participated in the 6-week Mirai Season campaign, which saw the SUI and mSUI collateral held on Balanced increase from $50k to a peak of ~$320k, despite the turbulent market conditions. Now over a month post-campaign, the SUI + mSUI collateral sits at $118k.
+
+Preparations for new initiatives are underway, including a bnUSD/USDC pool on [Steamm](https://steamm.fi/pool/0x135cf78d3c6b59980c9c2f3832bb3a4b401aacb0e5687da8f18a6a5b42001531-bnUSD-USDC-CPMM-1) within the Sui ecosystem, and an exclusive user acquisition pilot program on Stellar.
+
+---
+
+## The SODAX strategy: a new direction for Balanced and ICON
+
+Earlier this week, ICON announced their plan to transition from a blockchain into a cross-chain DeFi platform based on Sonic. ICON's cross-chain technology will merge with the Balanced protocol to become SODAX, and the SODAX infrastructure will be available for others to use.
+
+Balanced will continue to operate as a front-end for SODAX, but it will no longer be its own protocol. Governance will be removed, and PARROT9 will assume full ownership over the app and brand direction. Their goal: make Balance self-sustainable through transaction fees.
+
+The transition is expected to take several months, and systems will be put in place to help people:
+- Convert bnUSD to a newer version of the token
+- [Convert BALN to SODA](https://gov.balanced.network/t/sodax-announcement-next-steps/1193#token-upgrade-3) (the SODAX governance token)
+- Migrate loan and liquidity positions
+
+After the transition is complete, PARROT9 will be free to enact their own vision for Balanced, which will include support for additional protocols to unify the cross-chain DeFi experience.
+
+We'll release additional details about the transition over the coming weeks to keep the community informed. Until then, read these posts to get up to speed:
+- [ICON's SODAX announcement](https://forum.icon.community/t/soda-xchange-sodax-icon-s-next-chapter/3992)
+- [Benny Options' proposed next steps for Balanced](https://gov.balanced.network/t/sodax-announcement-next-steps/1193)
+- [PARROT9's vision for Balanced](https://gov.balanced.network/t/our-vision-for-balanced/1194)
+
+It's a significant change to digest, so if you have any questions, comments, or concerns, add them to the forum posts or start a discussion in the [Balanced Discord channel](https://discord.com/invite/7z2vKaj7pj).
+
+And make sure to tune in to ICON's [AMA session](https://x.com/i/spaces/1YqKDZAyXpLJV/peek) this Thursday at 9pm UTC.
+
+---
+
+## Governance updates
+
+Most of the contact work in Q1 involved the new Sonic infrastructure, so governance slowed to just 6 proposals:
+- [BIP 107](https://app.balanced.network/vote/proposal/159): Support the cross-chain Savings Rate, add Solana USDC, upgrade Solana & Optimism to the cluster relay setup, borrow bnUSD for intent-based trades, and change the voting quorum from 30% to 25%
+- [BIP 108](https://app.balanced.network/vote/proposal/160): Add BALN to Polygon and upgrade Arbitrum & Injective to the cluster relay setup
+- [BIP 109](https://app.balanced.network/vote/proposal/162): Optimise reward queries, upgrade Archway & Polygon to the cluster relay setup, and borrow liquidity for intent-based trades on Solana, Stellar and ICON
+- [BIP 110](https://app.balanced.network/vote/proposal/163): Support Stellar UDSC and upgrade Base & Stellar to the cluster relay setup
+- [BIP 111](https://app.balanced.network/vote/proposal/165): Upgrade Avalanche & Sui to the cluster relay setup
+- [DFP 14](https://app.balanced.network/vote/proposal/166): Use $10k of BALN to incentivise a bnUSD/USDC pool on [Steamm](https://steamm.fi/pool/0x135cf78d3c6b59980c9c2f3832bb3a4b401aacb0e5687da8f18a6a5b42001531-bnUSD-USDC-CPMM-1)
+
+---
+
+## DAO performance
+
+Over the last 3 months, Balanced earned $50,955 from fees:
+- 1,841 bnUSD from loans
+- $30,089 from swaps
+- $19,025 from Stability Fund swaps
+
+$7,643 of that was distributed to bBALN holders, which gives BALN a 30-day trailing APR of 4.56%.
+
+$25,477 was used to buy and burn ICX, fulfilling Balanced's role in the economic enshrinement. Balanced's net profit for the quarter was $17,834.
+
+![Balanced's income and expenses over the past 6 months.](https://blog.balanced.network/content/images/2025/05/earnings-1.png)
+
+*The amount Balanced held in the DAO Fund, Reserve Fund, and as protocol-owned liquidity compared to January 31.*
+
+![The amount Balanced held in the DAO Fund, Reserve Fund, and as protocol-owned liquidity compared to January 31.](https://blog.balanced.network/content/images/2025/05/holdings-1.png)
+
+12,960,384 BALN have been locked in 825 wallets. There's a total of 6,052,839 bBALN, giving an average lock-up time of 1.86 years.
+
+![The current bBALN stats, taken from the Vote page.](https://blog.balanced.network/content/images/2025/05/bBALN-1.png)
+
+### Enshrinement
+
+In the 14 months that have passed since the [economic enshrinement](https://blog.balanced.network/economic-enshrinement/) was enacted:
+- Balanced has burned 812k ICX
+- ICON has supplied ~$5.45M of liquidity for AVAX, BNB, BTC, ETH, ICX, INJ, sICX, SUI, & SOL
+- ICON has provided ~636,160 sICX of incentives for the Savings Rate
+
+![The liquidity ICON has supplied and the ICX Balanced has burned to fulfil the enshrinement.](https://blog.balanced.network/content/images/2025/05/enshrinement.png)
+
+---
+
+## Plans for Q2 2025
+
+During Q2, the contributors plan to:
+- Add intent-based trades to every connected chain
+- Continue contract upgrades for SODAX & Sonic
+- Work on front-end updates for SODAX + Sonic
+- Publish blockchain-specific marketing pages
+
+---
+
+If you have any questions or want to discuss these updates, join the [Balanced Discord channel](https://discord.com/invite/DCa53m9wPq).]]></content:encoded>
+      <guid isPermaLink="true">https://blog.balanced.network/q2-2025/</guid>
+    </item>
+    <item>
+      <title>Roadmap update | Q1 2025</title>
+      <link>https://blog.balanced.network/q1-2025/</link>
+      <pubDate>Thu, 30 Jan 2025 22:34:25 GMT</pubDate>
+      <author>Balanced Official</author>
+      <enclosure url="https://blog.balanced.network/content/images/size/w2000/2025/01/Q1-2025---Roadmap-update.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[During the fourth quarter of 2024, the Balanced contributors launched BALN cross-chain, connected to Stellar, Solana, and Optimism, and released intent-based trades between Arbitrum and Sui. They also completed a second smart contract audit for Sui, added support for external liquidity rewards, and prepared for the release of cross-chain liquidity and Savings Rate.
+
+Here’s what the contributors accomplished since the [Q4 roadmap update](https://blog.balanced.network/q4-2024/):
+
+### Smart contracts
+* Completed a second Sui [smart contract audit](https://docs.balanced.network/security#smart-contract-audits) with Hashlock
+* Deployed intent contracts for Arbitrum and Sui
+* Deployed a Proof of Liquidity contract to support external liquidity rewards
+* Added afSUI, haSUI, vSUI, and mSUI as collateral types
+* Deployed intent-based trades between Arbitrum and Sui
+* Began work on intents for ICON, Polygon, Base, Solana, and Stellar
+* Began work on an exact_out feature for intents
+* Launched BALN and sICX cross-chain
+* Upgraded the DEX contract to support cross-chain liquidity
+* Updated the Rewards contract to support cross-chain rewards
+* Deployed contract upgrades for the cross-chain Savings Rate
+
+### Front-end / back-end
+* Launched Balanced on Stellar
+* Launched Balanced on Solana
+* Launched Balanced on Optimism
+* Launched intent-based trades
+* Launched BALN and sICX cross-chain
+* Added support for the new ICX/sICX liquidity pool
+* Added support for external liquidity rewards via the Proof of Liquidity contract
+* Added the USD value to currency input fields on the Trade page
+* Added USDC on Sui
+* Added afSUI, haSUI, and vSUI collateral types
+* Finalised the design for cross-chain liquidity and rewards
+* Began implementing cross-chain liquidity and rewards
+* Added trading support for afSUI, haSUI, vSUI, tBTC, weETH, and wstETH via intents
+
+### Quality of life & code improvements
+* Added the ability to activate new Stellar wallets for free
+* Fixed an issue with the XLM trend line
+* Updated public packages on npm
+* Updated the BNB Chain connection to work with the new cluster relay
+* Added an empty state to the wallet dropdown
+* Removed METX and FIN from the token list
+* Added all core pools to the Liquidity Pools section (instead of just incentivised ones)
+* Fixed formatting and decimal issues for various tokens
+* Fixed an issue that prevented JitoSOL transfers from Solana to ICON
+* Improved the cross-chain loan experience
+* Enhanced a range of details on the Trade page
+* Added handling for SOL sent to new Solana wallets
+
+### Website & marketing initiatives
+* Published [Balanced connects to Stellar](https://blog.balanced.network/stellar-connection/)
+* Published [Balanced connects to Solana](https://blog.balanced.network/solana-connection/)
+* Published [BALN and sICX: now available cross-chain](https://blog.balanced.network/cross-chain-baln-sicx/)
+* Published [Balanced connects to Optimism](https://blog.balanced.network/optimism-connection/)
+* Published [Trade across chains with Balanced Intents](https://blog.balanced.network/intent-based-trades/)
+* Published [Balanced 2024: A year in review](https://blog.balanced.network/2024-in-review/)
+* Updated the Balanced X/Twitter handle from BalancedDAO > BalancedDeFi
+* Continued regular social media posting
+* Prepared for the launch of cross-chain liquidity and rewards
+
+---
+
+## Cross-chain progress
+
+During the last quarter of 2024, Balanced launched on Stellar, Solana, and Optimism. The number of connected chains now stands at 12.
+
+BALN and sICX are now available on 10 blockchains. It started with Arbitrum, Avalanche, Base, BNB Chain, Optimism, and Stellar in December, and Injective, Solana, and Sui followed in January. This release unlocks cross-chain rewards, which will launch alongside cross-chain liquidity pools and Savings Rate this quarter.
+
+Cross-chain governance is currently on pause due to the complexity of the smart contracts, but will be resumed later this year.
+
+Work has begun to connect Balanced to Polygon, which will launch in a few weeks. Stacks and Nibiru are also incoming, but their launch timeline is not yet clear.
+
+---
+
+## Intent-based trades
+
+In December, Balanced launched a proof of concept for intent-based trades. Initially, it offered the ability to trade between Arbitrum ETH and SUI, thanks to connections to Uniswap and Cetus, respectively. Last week, we unlocked the ability to trade afSUI, haSUI, vSUI, tBTC, weETH, and wstETH – tokens which until then, were only available to use as collateral.
+
+Intent-based trades are a major focus of 2025, with connections to ICON, Polygon, Base, Solana, and Stellar currently underway. Each of these connections will improve trading times and unlock the ability to trade a wide array of tokens which aren't available via Balanced's liquidity pools.
+
+Balanced will use intent-based trades to connect to a range of decentralised exchanges, including big players like LI.FI. The goal:** become a cross-chain aggregator that always provides you with the best price and settles trades in an average of 5 seconds.**
+
+---
+
+## Governance updates
+
+Governance continued at a regular pace over the last 3 months, with 12 proposals submitted to a vote:
+
+* [BIP 98](https://app.balanced.network/vote/proposal/145): Update rate and deposit limits, and fix an issue with Sui token addresses
+* [DFP 11](https://app.balanced.network/vote/proposal/146): Send $50k from the DAO Fund to a community member who reported a critical bug in the Balanced protocol
+* [BIP 99](https://app.balanced.network/vote/proposal/146): Take BALN cross-chain and fix an issue with bnUSD on Stellar and Optimism
+* [BIP 100](https://app.balanced.network/vote/proposal/148): Add Mirai Staked SUI (mSUI) as a collateral type
+* [BIP 101](https://app.balanced.network/vote/proposal/149): Increase the deposit limit for assets in the Stability Fund
+* [DFP 12](https://app.balanced.network/vote/proposal/150): Fund 6 months of work on the Balanced app and website
+* [BIP 102](https://app.balanced.network/vote/proposal/151): Enable cross-chain liquidity and rewards, and upgrade the router to support swaps for cross-chain tokens like BALN and sICX
+* [BIP 103](https://app.balanced.network/vote/proposal/152): Borrow $10k of ETH and SUI liquidity to fund intent-based trades and configure various limits
+* [BIP 104](https://app.balanced.network/vote/proposal/153): Add a Proof of Liquidity contract to incentivise pools with external rewards
+* [BIP 105](https://app.balanced.network/vote/proposal/154): Add BALN to Injective, Solana, and Sui; introduce a cluster connection for BNB Chain
+* [BIP 106](https://app.balanced.network/vote/proposal/154): Update withdrawal/deposit limits for several tokens, and allow cross-chain transfers from the DEX, Rewards, and Savings Rate contracts
+* [DFP 13](https://app.balanced.network/vote/proposal/157): Use $18k of sICX and $3.5k of BALN to fund a marketing campaign on Sui (in progress)
+
+---
+
+## DAO performance
+
+Over the last 3 months, Balanced earned $82,053 from fees:
+
+* 4,750 bnUSD from loans
+* $56,990 from swaps
+* $20,313 from Stability Fund swaps
+
+$12,308 of that was distributed to bBALN holders, which gives BALN a 30-day trailing APR of 3.58%.
+
+$41,027 was used to buy and burn ICX, fulfilling Balanced's role in the economic enshrinement. Balanced's net profit for the quarter was $28,719.
+
+![Balanced's income and expenses over the past 6 months.](https://blog.balanced.network/content/images/2025/01/earnings.png)
+
+*Balanced's income and expenses over the past 6 months.*
+
+Balanced's holdings decreased by $265,941. The DAO Fund saw an increase of $140,348, but protocol-owned liquidity fell by $406,290 due to DFP 12 (which funded 6 months of Balanced work) and the price performance of BALN and sICX.
+
+![The amount Balanced held in the DAO Fund, Reserve Fund, and as protocol-owned liquidity compared to October 31.](https://blog.balanced.network/content/images/2025/01/holdings.png)
+
+*The amount Balanced held in the DAO Fund, Reserve Fund, and as protocol-owned liquidity compared to October 31.*
+
+13,143,004 BALN have been locked in 820 wallets. There's a total of 6,611,130 bBALN, giving an average lock-up time of 2.01 years.
+
+![The current bBALN stats, taken from the Vote page.](https://blog.balanced.network/content/images/2025/01/BALN.jpeg)
+
+*The current bBALN stats, taken from the Vote page.*
+
+### Enshrinement
+
+In the 11 months that have passed since the [economic enshrinement](https://blog.balanced.network/economic-enshrinement/) was enacted:
+
+* Balanced has burned 538,093 ICX
+* ICON has supplied ~$5.5M of liquidity for AVAX, BNB, BTC, ETH, INJ, sICX, SUI, and SOL
+* ICON has provided ~498,180 sICX of incentives for the Balanced Savings Rate
+
+![The liquidity ICON has supplied and the ICX Balanced has burned to fulfil the enshrinement.](https://blog.balanced.network/content/images/2025/01/enshrinement.png)
+
+*The liquidity ICON has supplied and the ICX Balanced has burned to fulfil the enshrinement.*
+
+Keep an eye on the enshrinement stats from [burn.icon.community](https://burn.icon.community/?ref=blog.balanced.network) and the [ICON enshrinement section](https://stats.balanced.network/?ref=blog.balanced.network#enshrinement) on the Stats page.
+
+---
+
+## Plans for Q1 2025
+
+During Q1, the Balanced contributors plan to:
+
+* Launch cross-chain liquidity pools, Savings Rate, and rewards
+* Support alternative stablecoin deposits via the Savings Rate
+* Launch support for intent-based trades on ICON, Polygon, Base, Solana, and Stellar
+* Support additional tokens via intent-based trades
+* Launch Balanced on Polygon
+
+---
+
+If you have any questions or want to discuss these updates, start a discussion on the [Balanced forum](https://gov.balanced.network/) or in the [Balanced Discord channel](https://discord.com/invite/DCa53m9wPq).]]></content:encoded>
+      <guid isPermaLink="true">https://blog.balanced.network/q1-2025/</guid>
+    </item>
+  </channel>
+</rss>

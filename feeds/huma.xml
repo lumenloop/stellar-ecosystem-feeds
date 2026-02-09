@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Huma - Stellar Ecosystem</title>
+    <link>https://huma.finance</link>
+    <description>Latest articles about Huma in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/huma.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introducing $HUMA: Powering the Future of PayFi</title>
+      <link>https://blog.huma.finance/introducing-huma-powering-the-future-of-payfi</link>
+      <pubDate>Wed, 21 May 2025 18:51:27 GMT</pubDate>
+      <author>Huma Finance</author>
+      <enclosure url="https://blog.huma.finance/hubfs/Introducing%20$HUMA%20(3).png" type="image/jpeg"/>
+      <content:encoded><![CDATA[The Huma Foundation is proud to unveil the comprehensive tokenomics of the Huma Protocol, marking another step forward in redefining the future of PayFi.  The upcoming **Season 1 airdrop** marks a pivotal milestone in our collective journey and establishes the groundwork for a sustainable, community-driven ecosystem.
+
+At the heart of this ecosystem is **$HUMA**, the native utility and governance token, carefully designed to align long-term incentives across all users, liquidity providers, partners, builders, and stakeholders. $HUMA aims to enable decentralized governance over the optimization of protocol parameters and value distribution mechanisms.
+
+In the following sections, we outline the token utilities and strategic allocation of $HUMA to foster enduring growth, maintain robust liquidity, and ensure strong community alignment.
+
+---
+
+### **$HUMA Token Utilities**
+
+$HUMA is the native utility and governance token of the Huma ecosystem, with the following core utilities:
+
+**Governance**  
+$HUMA token holders can stake their tokens to participate in protocol governance. The duration of the stake determines the voting power, encouraging long-term alignment with the protocol. Stakers are eligible to vote on key decisions, including the allocation of liquidity and ecosystem incentives, adjustments to protocol parameters, and the distribution of protocol incentives.
+
+**LP & Ecosystem Rewards**  
+The $HUMA token plays a pivotal role in the incentive program to bootstrap adoption and drive growth across the Huma protocol ecosystem.
+- **Liquidity providers** (LPs) are rewarded with $HUMA for committing capital to the protocol, with higher rewards granted for greater and longer-term liquidity commitments.
+- **$HUMA stakers** receive rewards through the staking multiplier and receive an additional boost to their LP positions.
+- **Ecosystem partners** earn $HUMA relative to their contributions to critical KPIs such as transaction volume and protocol revenues. 
+- **Community contributors** are also eligible to receive $HUMA in recognition of efforts that support community engagement, development, and overall ecosystem health.
+
+**Value Accrual Mechanisms**  
+We believe in shared prosperity, and the Huma Foundation is actively exploring sustainable mechanisms for effectively utilizing protocol revenue to strengthen the PayFi movement. These mechanisms will be publicly designed with the community to align incentives, enhance long-term protocol value generation, and reward active participation in the ecosystem.
+
+**Ecosystem Currency**  
+While Huma Protocol will continue to adopt stablecoin settlements for real-world transactions, the $HUMA token will serve as a utility token to enable advanced protocol features introduced in the future, such as real-time redemption. The range of $HUMA-powered functionalities will continue to grow as the protocol evolves.
+
+---
+
+### **$Huma Tokenomics Breakdown**
+
+![CleanShot 2025-05-21 at 11.35.40@2x](https://blog.huma.finance/hs-fs/hubfs/CleanShot%202025-05-21%20at%2011.35.40@2x.png?width=2930&height=1634&name=CleanShot%202025-05-21%20at%2011.35.40@2x.png)
+
+The initial total supply of $HUMA is 10,000,000,000, and will be capped at 10,000,000,000. 
+
+1. **Initial Airdrop (5%)**
+   - Rewarding loyal users and partners who drove liquidity, transaction, and revenue growth for Huma protocol, as well as contributors who helped create a vibrant community and pushed the broader PayFi movement forward. We will cover the key principles and the design of the airdrop in more detail in a separate article dedicated to the initial airdrop. 
+
+2. **Liquidity Provider (LP) & Ecosystem Incentives (31%)**
+   - Driving the growth of the Huma ecosystem by rewarding the two critical pillars of Huma protocol: LPs & PayFi asset originators. 
+   - LP & Ecosystem incentives are combined into a single aggregated bucket, since their relationship needs to be balanced through fair and market-dependent incentive allocations. 
+   - Deflationary quarterly releases. Protocol governance can adjust the release schedule through voting. 
+
+3. **CEX Listings & Marketing (7%)**
+   - Dedicated to securing listings on top-tier centralized exchanges (CEXs) and executing global marketing campaigns.
+   - Partnerships, collaborations, and community-driven initiatives will amplify Huma's and PayFi's reach.
+
+4. **Market Maker & On-chain Liquidity (4%)**
+   - Stabilizing token volatility and maintaining healthy market dynamics through strategic partnerships with institutional market makers.
+   - Ensuring deep liquidity on DEXs and CEXs to enable seamless swaps and reduce slippage.
+
+5. **Pre-Sales (2%)**
+   - Early-stage allocations to strategic backers and contributors who supported PayFi's foundational development.
+
+6. **Investors (20.6%)**
+   - Reserved for Seed and Series A investors, subject to multi-year vesting schedules to align with long-term success.
+
+7. **Team & Advisors (19.3%)**
+   - Compensating core contributors and advisors critical to developing the best PayFi network, subject to multi-year vesting schedules. 
+
+8. **Protocol Treasury (11.1%)**
+   - Fueling future development, grants, partnerships, and protocol-owned liquidity. 
+
+---
+
+### **Initial Circulating Supply**
+
+The initial circulating supply is 17.33%. The first four entries in the table below have been explained in the previous section. The final entry is reserved for a potential token swap with a strategic partner. 
+
+|                |         |
+|--------------- |---------|
+| **Initial Airdrop** | **5%** |
+| **CEX & Marketing** | **7%** |
+| **MM & On-chain Liquidity** | **4%** |
+| **Protocol Treasury** | **1%** |
+| **Token swap with a strategic partner** | **0.33%** |
+
+---
+
+### **Vesting Schedule**
+
+### The vesting schedule for the Huma token is structured to support long-term commitment and ecosystem growth. 
+
+- **Team & Advisors**, and **Investors** are subject to a 12-month lock-up period, followed by a linear quarterly release over three years.
+- **LP and Ecosystem** allocations will follow a deflationary quarterly release model designed to reward LPs and ecosystem partners who drive protocol revenue and transaction volume, as well as initiatives that enhance community engagement. The **second airdrop** is planned in about 3 months after TGE for **2.1% of the total supply**. After the second airdrop, the LP and Ecosystem release schedule will decay by a rate of 7% every quarter. The scheduled decay rate may be adjusted by protocol governance based on protocol momentum and market conditions.
+- The **Protocol Treasury** will have 1% of its allocation unlocked at TGE, with the remaining distributed through eight quarterly linear releases.
+
+![CleanShot 2025-05-21 at 11.35.49@2x](https://blog.huma.finance/hs-fs/hubfs/CleanShot%202025-05-21%20at%2011.35.49@2x.png?width=2928&height=1640&name=CleanShot%202025-05-21%20at%2011.35.49@2x.png)
+
+---
+
+### **Commitment to Transparency**
+
+- Our smart contracts are audited by top blockchain security firms
+  - Huma 2.0 for [Solana by Halborn](https://drive.google.com/file/d/1oNR2XdhOoW28ac7j_qCUfyka2fQspDfd/view?usp=drive_link).
+  - Huma Institutional for [Solana by Halborn](https://www.halborn.com/audits/huma-finance/solana-programs-060022), for [EVM by Spearbit](https://github.com/00labs/huma-contracts-v2/blob/develop/audit/spearbit.pdf), for [Stellar Soroban by Certora](https://drive.google.com/file/d/17dpsdO8k2OwbArJ7TvaZVTWAv60EzAAR/view?usp=drive_link).
+- Real-time token supply and allocation metrics will be publicly accessible.
+- Governance tools and processes will be announced within a few months after TGE, empowering $HUMA holders to steer the future of PayFi.
+
+---
+
+### **Next Steps**
+
+1. Join our [Discord](https://discord.gg/29zVxZ6kCN)and follow [@humafinance](https://x.com/humafinance) on X for real-time updates.
+2. Check your airdrop eligibility when it goes live on https://claim.huma.finance.
+
+---
+
+**_Disclaimer:_** _$HUMA is a utility and governance token intended solely for use within the Huma ecosystem. This document is provided for informational purposes only and does not constitute an offer to sell, solicitation to buy, or financial, legal, or investment advice. Participation in the Huma protocol and any interaction with the $HUMA token involves risk and should be undertaken only after careful consideration. Regulatory frameworks governing digital assets vary by jurisdiction and are subject to change. You are solely responsible for ensuring compliance with all applicable laws and regulations in your region. Always conduct your independent research and consult with qualified professionals before making any financial or investment decisions._
+
+**It's time to join the next era of the PayFi movement.**
+
+**— Huma Foundation **]]></content:encoded>
+      <guid isPermaLink="true">https://blog.huma.finance/introducing-huma-powering-the-future-of-payfi</guid>
+    </item>
+  </channel>
+</rss>

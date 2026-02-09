@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AssetDesk - Stellar Ecosystem</title>
+    <link>https://assetdesk.xyz</link>
+    <description>Latest articles about AssetDesk in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/assetdesk.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AssetDesk Secures R&amp;D Grant from Stellar Community Fund</title>
+      <link>https://medium.com/@assetdesk/assetdesk-secures-r-d-grant-from-stellar-community-fund-464b2a6f2a02</link>
+      <pubDate>Tue, 12 Sep 2023 10:09:07 GMT</pubDate>
+      <author>AssetDesk</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*vuRgQYDO3GeLI6ISXqkLpg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# AssetDesk Secures R&D Grant from Stellar Community Fund
+
+*We are excited to announce that we have received a research and development grant from Stellar Development Foundation to start development of the AssetDesk protocol — a new money markets protocol that provides capital efficiency to the wider DeFi ecosystem on Stellar Soroban.*
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*vuRgQYDO3GeLI6ISXqkLpg.png)
+
+#### **Soroban Network**
+
+A developer-friendly, Rust-based smart contracts platform designed for scale and sensibility. Currently live on the test network dubbed Futurenet, Soroban seamlessly integrates with and works alongside the existing Stellar blockchain.
+
+Soroban boosts Stellar’s capabilities as a borderless payments network. Since its [launch in 2015](https://www.wired.com/2015/04/stanford-prof-builds-algorithm-internet-money/), the Stellar network has been laser-focused on worldwide access to cheap and near-instant payments. It makes it easy to issue stablecoins, connect them to traditional financial infrastructure, and convert them using built-in markets that allow for seamless, universal asset exchange.
+
+The introduction of Soroban creates a new surface area for innovation that allows developers to create novel financial products and services, specifically decentralized applications (dApps), that take advantage of Stellar’s global access to do something that other networks like Avalanche and Solana can’t: allow users to cash into DeFi.
+
+#### **Stellar Community Fund Grant for AssetDesk**
+
+In order to bring P2P money markets features to the Stellar Soroban network without sacrificing the network’s efficiency, AssetDesk proposes to launch borrowing and lending protocol as one of the core primitives in any DeFi ecosystem.
+
+AssetDesk on Soroban is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.
+
+#### Unlimited Opportunities for Stellar Soroban Users
+
+AssetDesk features empover capabilities ensuring users can maximize their financial potential in a secure environment by bringing on the market not only basic lending and borrowing functions, but also:
+
+*   Margin and Limit position directly inside lending protocol.
+*   Flash loans features.
+*   NFT lending markets.
+*   Stablecoin markets.
+
+#### Stay tuned!
+
+We’ve just finalized the first scope of features, a web application and smart contracts went into testing and we have other important news coming up shortly. Follow AssetDesk’s social media channels to be up-to-date on all latest developments:
+
+Twitter: [@assetdesk](https://twitter.com/AssetDesk)Medium: [AssetDesk](https://medium.com/u/444cc4f7fd91)ithub: [https://github.com/AssetDesk](https://github.com/AssetDesk)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@assetdesk/assetdesk-secures-r-d-grant-from-stellar-community-fund-464b2a6f2a02</guid>
+    </item>
+  </channel>
+</rss>

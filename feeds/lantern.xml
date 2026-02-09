@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lantern - Stellar Ecosystem</title>
+    <link>https://lantern.finance</link>
+    <description>Latest articles about Lantern in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/lantern.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meet Lantern Finance, a better alternative to Nexo</title>
+      <link>https://lantern.finance/blog/meet-lantern-finance-a-better-alternative-to-nexo</link>
+      <author>Lantern Finance</author>
+      <enclosure url="https://images.ctfassets.net/5tr465aw07j6/1nGqWVaHVbwRlvfxhLOvhw/262a0986993676afb300e51cef8bb752/Lantern_Finance_vs_Nexo.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Meet Lantern Finance, a better alternative to Nexo
+
+*Compare supported currencies, security, interest rates, fees, and customer service.*
+
+**By Lantern Finance** | 26 Jan 2026
+
+In this article, we will be exploring the difference between Lantern Finance and Nexo.
+
+- **Currencies supported**
+- **Security**
+- **Interest Rates and Fees**
+- **Customer Service**
+
+| | Lantern Finance | Nexo |
+|---|---|---|
+| **CURRENCIES** | | |
+| Bitcoin (BTC) | ✅ | ✅ |
+| Ethereum (ETH) | ✅ | ✅ |
+| Solana (SOL) | ✅ | ✅ |
+| Litecoin (LTC) | ✅ | ✅ |
+| Ripple (XRP) | ✅ | ✅ |
+| Dogecoin (DOGE) | ✅ | ✅ |
+| Stellar (XLM) | ✅ | ✅ |
+| Cardano (ADA) | ✅ | ✅ |
+| Hedera (HBAR) | ✅ | ✅ |
+| Bitcoin Cash (BCH) | ✅ | ✅ |
+| Chainlink (LINK) | ✅ | ✅ |
+| Sui (SUI) | ✅ | ✅ |
+| **SECURITY** | | |
+| Custody Partner | BitGo Trust Company | Ledger Vault + Firebloks |
+| Encryption for data | AES-256 | ISO 27001: Information Security Management<br>ISO 27017: Cloud Security<br>ISO 27018: Cloud Privacy and Protection of Personally Identifiable Information |
+| 2FA | SMS verifications, email verifications | SMS verifications, email verifications, and authenticator app support |
+| Headquartered | 1810 E Sahara Ave STE 75004<br>Las Vegas, NV 89104 | Zug, Switzerland, at 15 Grafenaustrasse |
+| Collateral Management | We never lend out borrower collateral.<br>We don't take speculative risks with your crypto.<br>We share the wallet address where the collateral is stored with borrowers for maximum transparency.<br>We store all assets with BitGo's insured cold storage (coverage up to $250 million). | Ledger Vault: Leverages hardware security modules (HSMs) and multi-signature protocols to safeguard private keys. Assets are stored in geographically distributed cold wallets, insulated from remote attacks.<br>Fireblocks: Utilizes MPC-CMP (Multi-Party Computation with Key Management) technology to eliminate single points of failure. Its infrastructure is SOC 2 Type 2 certified and integrates with Nexo’s collateral management systems.<br>Bakkt: Offers regulated custody through its Bakkt Warehouse, combining warm and cold storage tiers. Warm wallets are rebalanced dynamically to minimize exposure, while cold wallets reside in air-gapped, military-grade vaults. |
+| **INTEREST RATES AND FEES** | | |
+| Annual Interest Rates | ETH & SOL: 10%<br>BTC, LTC, XRP, DOGE, XLM, ADA, HBAR, BCH, LINK, SUI: 13% | 18.9%, 30% LTV and if you don't hold NEXO tokens<br>2.9%, 20% LTV, total portfolio must be at least $5,000, AND at least 10% of your total portfolio value must be held in NEXO tokens.<br>If your portfolio drops below $5000, you have 7 days to add more before the interest rate jumps back up to 18.9% |
+| Max Loan-to-value (LTV) | BTC, ETH, SOL: 50%<br>XRP, LTC: 40%<br>XLM, ADA, HBAR, BCH, LINK, SUI: 33%<br>DOGE: 25% | BTC & ETH: 50%<br>SOL, XRP, LTC, XLM, ADA, HBAR, BCH, LINK, SUI, DOGE: 30% |
+| Margin Call(s) | 65% LTV | #1: 71.4% LTV<br>#2: 74.1% LTV<br>#3: 76.9% LTV |
+| Grace Period to add Collateral | 72 Hours | No grace period. Loan auto liquidates when it reaches maximum LTV |
+| Liquidation Fees | 0% | No liquidation fees, but a flat 0.26% fee applies to all crypto repayments (excluding fiat and stablecoins) |
+| Liquidation LTV | 75% LTV | 83.33% LTV |
+| Origination Fees | 2% | 0% |
+| Late Repayment Fees | $10 per day | No late repayment fees, but a flat 0.26% fee applies to all crypto repayments (excluding fiat and stablecoins) |
+| Loan Disbursement Duration | Within 24 hours of receiving collateral | Within 24 hours of receiving collateral |
+| Repayment Options | Repayments can be made in either fiat USD or USDC stablecoin | Repayments can be made in either fiat USD or crypto |
+| Early Repayment Penalties | No fees or penalties | No fees or penalties |
+| Fixed Term | 12-months | 12-months |
+| Number of active loans | No limit | No limit |
+| Minimum loan amount | $1,000 | $50 if withdrawn in stablecoins<br>$500 if withdrawn in fiat |
+| **CUSTOMER SERVICE** | | |
+| Call Hotline | ✅ | ✅ |
+| Email | ✅ | ✅ |
+| SMS | ✅ | ✅ |
+
+## FAQ
+
+### Interest Rates & Loan Terms
+
+**What's the interest rate for Bitcoin loans at Lantern Finance vs Nexo?** Lantern Finance offers BTC loan rates at 13% APR compared to Nexo's 18.9%, but provides transparency with upfront fee disclosure and insured cold storage.
+
+**Does Lantern Finance or Nexo offer better ETH loan interest rates?** Lantern Finance offers significantly better ETH loan interest rates starting at just 10% APR versus Nexo's standard 18.9% rate.
+
+**What's the LTV ratio for Bitcoin at Lantern Finance?** Lantern Finance's 50% LTV ratio for Bitcoin provides the perfect balance between borrowing power and reduced liquidation risk.
+
+**Does Nexo have early repayment penalties?** Neither platform charges early repayment penalties.
+
+**How long is the loan term at Lantern Finance?** Both Lantern Finance and Nexo offer 12-month fixed terms.
+
+**What's the minimum loan amount at Nexo?** Nexo offers lower minimum loan amounts at $50-500, while Lantern's minimum amount is $1,000.
+
+**Which has better Solana loan terms, Lantern or Nexo?** Lantern Finance offers better Solana loan terms with 50% LTV and interest rates starting at just 10% APR versus Nexo's 30% LTV and 18.9% rate.
+
+**How much can I borrow against my Bitcoin on Lantern vs Nexo?** Lantern Finance maintains conservative 50% LTV ratios to protect borrowers from market volatility, while Nexo's complex token requirements increase costs.
+
+### Currencies & Support
+
+**Does Nexo support Litecoin?** Like Nexo, Lantern Finance proudly supports Litecoin loans, giving borrowers more options for their crypto portfolio.
+
+**Can I use Dogecoin as collateral for a loan?** Yes, both Lantern Finance and Nexo accept Dogecoin as collateral.
+
+**Does Lantern Finance support XRP loans?** Both Lantern Finance and Nexo support XRP loans, making them both good choices for Ripple holders.
+
+### Security & Regulatory
+
+**Is Lantern Finance available in California?** Lantern Finance welcomes customers from all states while maintaining proper regulatory registration as an MSB with FinCEN.
+
+**Which states is Nexo not available in?** Both platforms welcome customers nationwide, with Lantern Finance operating as a properly registered MSB with FinCEN.
+
+**Who is the custody partner for Lantern Finance?** Lantern Finance partners with industry-leading BitGo for custody services, providing insured cold storage up to $250 million.
+
+**Is my crypto insured with Lantern Finance?** Lantern Finance offers clear insurance protection up to $250 million through its partnership with BitGo.
+
+**What security measures does Nexo use?** Lantern Finance clearly states its use of AES-256 encryption, while Nexo uses various ISO certifications across multiple partners.
+
+### Liquidation & Risk Management
+
+**What is the liquidation threshold for ETH loans at Nexo?** Lantern Finance provides a more conservative 75% liquidation threshold for ETH compared to Nexo's higher 83.33% threshold.
+
+**How long is the grace period after a margin call at Lantern Finance?** Lantern Finance gives borrowers 72 hours to respond to margin calls versus Nexo's instant repayment requirement.
+
+**Does Nexo charge liquidation fees?** Lantern Finance charges zero liquidation fees compared to Nexo's 0.26% repayment fee.
+
+**What happens if my collateral drops in value with Lantern Finance?** Lantern Finance gives borrowers more protection with a 3-day grace period and transparent margin call thresholds.
+
+**Which platform gives more time to respond to margin calls?** Lantern Finance gives borrowers significantly more time to respond to margin calls with a generous 72 hour grace period versus Nexo's instant requirement.
+
+**At what LTV ratio does Lantern issue margin calls?** Lantern Finance issues margin calls at 65% LTV.
+
+### Customer Service
+
+**Does Nexo offer customer support by phone?** Both platforms offer phone support, but Lantern Finance provides the additional convenience of SMS support.
+
+**Can I contact Lantern Finance via SMS?** Both Lantern Finance and Nexo offer convenient SMS support for quick customer service inquiries.
+
+**Which lending platform has better customer service options?** Both platforms offer equivalent customer service with phone, email, AND SMS support.
+
+**How quickly can I get a loan from Lantern Finance?** Both Lantern Finance and Nexo disburse loans within 24 hours, but Lantern's transparent pricing means no surprises.
+
+**Does Nexo process loans on weekends?** Both platforms' multiple communication channels, including SMS allow for faster weekend support.
+
+### Fees & Penalties
+
+**What are the late repayment fees at Nexo?** Lantern Finance charges just $10 per day for late repayments while Nexo imposes a 0.26% fee on repayments.
+
+**Does Lantern Finance charge for early loan repayment?** Neither platform charges for early loan repayment, but Lantern Finance's dramatically lower standard rates make it the smarter choice.
+
+**Which platform has lower origination fees?** While Nexo's origination fee is 0% lower, Lantern Finance's substantially lower interest rates for ETH and SOL, plus $0 liquidation fees, provide much better overall value.
+
+**How much is the late payment penalty at Lantern Finance?** Lantern Finance charges just $10 per day for late payments, while Nexo imposes a 0.26% fee on crypto repayments.
+
+**Can I repay my loan with USDC on Nexo?** Both platforms accept crypto for repayments.
+
+### Comparison Questions
+
+**Which is better for Bitcoin loans, Lantern Finance or Nexo?** Lantern Finance is superior for Bitcoin loans with transparent fee structures, insured cold storage, and zero liquidation fees.
+
+**Should I choose Lantern or Nexo for my ETH-backed loan?** Lantern Finance is dramatically better for ETH-backed loans with interest rates as low as 10% APR versus Nexo's 18.9%.
+
+**What are the main differences between Lantern Finance and Nexo?** The main differences show Lantern Finance's clear advantages with better LTV ratios for SOL, lower interest rates, longer grace periods, and zero liquidation fees.
+
+**Which crypto lending platform has the best security measures?** Lantern Finance offers superior security with AES-256 encryption, BitGo's insured cold storage up to $250 million, and transparent collateral address sharing.
+
+**Is Lantern Finance or Nexo better for long-term loans?** Lantern Finance is better for long-term loans with lower standard interest rates, significantly lower late payment fees, and a more generous 72 hour grace period.]]></content:encoded>
+      <guid isPermaLink="true">https://lantern.finance/blog/meet-lantern-finance-a-better-alternative-to-nexo</guid>
+    </item>
+    <item>
+      <title>Meet Lantern Finance, a better alternative to Arch Lending</title>
+      <link>https://lantern.finance/blog/meet-lantern-finance-a-better-alternative-to-arch-lending</link>
+      <author>Lantern Finance</author>
+      <enclosure url="https://images.ctfassets.net/5tr465aw07j6/1sreNwxnEUbVc9qxcz3D0G/3ea3f40c7a8e4311c27e6190e949f4f7/Lantern_Finance_vs_Arch_Lending.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Meet Lantern Finance, a better alternative to Arch Lending
+
+*Compare supported currencies, security, interest rates, fees, and customer service.*
+
+In this article, we will be exploring the difference between Lantern Finance and Arch Lending.
+
+- **Currencies supported**
+- **Security**
+- **Interest Rates and Fees**
+- **Customer Service**
+
+| | **Lantern Finance** | Arch Lending |
+|---|---|---|
+| **CURRENCIES** |  |  |
+| Bitcoin (BTC) | ✅ | ✅ |
+| Ethereum (ETH) | ✅ | ✅ |
+| Solana (SOL) | ✅ | ✅ |
+| Litecoin (LTC) | ✅ | ❌ |
+| Ripple (XRP) | ✅ | ❌ |
+| Dogecoin (DOGE) | ✅ | ❌ |
+| **Stellar (XLM)** | ✅ | ❌ |
+| Cardano (ADA) | ✅ | ❌ |
+| Hedera (HBAR) | ✅ | ❌ |
+| Bitcoin Cash (BCH) | ✅ | ❌ |
+| Chainlink (LINK) | ✅ | ❌ |
+| Sui (SUI) | ✅ | ❌ |
+| **SECURITY** |  |  |
+| Custody Partner | BitGo Trust Company | Anchorage Digital |
+| Encryption for data | AES-256 | Not stated |
+| 2FA | SMS verifications, email verifications | Authenticator apps |
+| Headquartered | 1810 E Sahara Ave STE 75004<br>Las Vegas, NV 89104 | 595 Broadway, Floor 4, New York, NY 10012, United States |
+| Collateral Management | We never lend out borrower collateral.<br>
+
+We don't take speculative risks with your crypto.<br>
+
+We share the wallet address where the collateral is stored with borrowers for maximum transparency.<br>
+
+We store all assets with BitGo's insured cold storage (coverage up to $250 million). | Arch Lending emphasizes their commitment to never rehypothecating client assets (not lending out or trading collateral). All assets remain in secure cold storage with their custody partner. |
+| **INTEREST RATES AND FEES** |  |  |
+| Annual Interest Rates | ETH & SOL: 10%<br>
+
+BTC, LTC, XRP, DOGE, XLM, ADA, HBAR, BCH, LINK, SUI: 13% | BTC, ETH, SOL: 10.35% |
+| Max Loan-to-value (LTV) | BTC, ETH, SOL: 50%<br>
+
+XRP, LTC: 40%<br>
+
+XLM, ADA, HBAR, BCH, LINK, SUI: 33%<br>
+
+DOGE: 25% | BTC: 60%<br>
+
+ETH: 55%<br>
+
+SOL: 45% |
+| Margin Call(s) | 65% LTV | BTC: 70% LTV<br>
+
+ETH: 65% LTV<br>
+
+SOL: 55% LTV |
+| Grace Period to add Collateral | 72 Hours | No grace period. Loan auto liquidates when it reaches maximum LTV |
+| Liquidation Fees | 0% | 2% |
+| Liquidation LTV | 75% LTV | BTC: 80% LTV<br>
+
+ETH: 75% LTV<br>
+
+SOL: 65% LTV |
+| Origination Fees | 2% | 1.49% |
+| Late Repayment Fees | $10 per day | Up to 2.5% |
+| Loan Disbursement Duration | Within 24 hours of receiving collateral | Within 24 hours of receiving collateral |
+| Repayment Options | Repayments can be made in either fiat USD or USDC stablecoin | Repayments can be made in either fiat USD or USDC stablecoin |
+| Early Repayment Penalties | No fees or penalties | No fees or penalties |
+| Fixed Term | 12-months | 12-months |
+| Number of active loans | No limit | No limit |
+| Minimum loan amount | $1,000 | $1,000 |
+| **CUSTOMER SERVICE** |  |  |
+| Call Hotline | ✅ | ✅ |
+| Email | ✅ | ✅ |
+| SMS | ✅ | ❌ |
+
+## FAQ
+
+### Interest Rates & Loan Terms
+
+**Does Lantern Finance or Arch Lending offer better ETH loan interest rates?** Lantern Finance offers better ETH loan interest rates starting at just 10% APR versus Arch Lending's  10.35% rate.
+
+**Which crypto lending platform has lower origination fees, Lantern or Arch?** While Arch's origination fee is 0.51% lower, Lantern Finance provides much better value through substantially lower interest rates on ETH and SOL, plus insurance coverage up to $250 million.
+
+**What's the LTV ratio for Bitcoin at Lantern Finance?** Lantern Finance's 50% LTV ratio for Bitcoin provides the perfect balance between borrowing power and reduced liquidation risk.
+
+**Does Arch Lending have early repayment penalties?** Neither platform charges early repayment penalties, but Lantern Finance's dramatically lower late payment fees make it the smarter choice for borrowers.
+
+**How long is the loan term at Lantern Finance?** Both Lantern Finance and Arch Lending offer 12-month fixed terms, but Lantern provides superior flexibility with multiple cryptocurrency options.
+
+**What's the minimum loan amount at Arch Lending?** Both platforms offer the same $1,000 minimum loan amount, but Lantern Finance's superior currency support gives borrowers more options.
+
+**How much can I borrow against my Bitcoin on Lantern vs Arch?** Lantern Finance maintains conservative 50% LTV ratios to protect borrowers from market volatility, while Arch's higher ratios increase liquidation risk.
+
+**Do Lantern Finance interest rates include origination fees?** Lantern Finance's transparent approach clearly displays the 2% origination fee in their total APR, providing borrowers with better clarity on their actual costs.
+
+### Currencies & Support
+
+**Does Arch Lending support Litecoin?** Unlike Arch Lending, Lantern Finance proudly supports Litecoin loans, giving borrowers more options for their crypto portfolio.
+
+**Which cryptocurrencies can I use as collateral with Lantern Finance?** Lantern Finance supports twice as many cryptocurrencies as collateral with 12 options (BTC, ETH, SOL, LTC, XRP, DOGE, XLM, ADA, HBAR, BCH, LINK, SUI) compared to Arch's limited three.
+
+**Can I use Dogecoin as collateral for a loan?** Yes, Lantern Finance uniquely accepts Dogecoin as collateral while Arch Lending does not support this popular cryptocurrency.
+
+**Does Lantern Finance support XRP loans?** Only Lantern Finance supports XRP loans, making it the clear choice for Ripple holders.
+
+**Which platform accepts more cryptocurrency types as collateral?** Lantern Finance accepts twice the cryptocurrency types as collateral compared to Arch Lending, providing superior flexibility for diverse crypto portfolios.
+
+### Security & Regulatory
+
+**Is Lantern Finance available in California?** Unlike Arch Lending which explicitly prohibits California residents, Lantern Finance welcomes customers from all states while maintaining proper regulatory registration.
+
+**Which states is Arch Lending not available in?** Arch Lending is unavailable in 20 states for residents and 11 states for businesses, while Lantern Finance welcomes customers nationwide as a properly registered MSB with FinCEN.
+
+**Who is the custody partner for Lantern Finance?** Lantern Finance partners with industry-leading BitGo for custody services, providing insured cold storage up to $250 million.
+
+**Does Arch Lending use cold storage for collateral?** Lantern Finance uses insured cold storage with BitGo providing coverage up to $250 million, offering substantially better protection than Arch Lending.
+
+**Does Lantern Finance rehypothecate collateral?** Neither platform rehypothecates collateral, but only Lantern Finance provides transparent wallet address sharing and insurance coverage.
+
+**Is my crypto insured with Lantern Finance?** Only Lantern Finance offers insurance protection up to $250 million through their partnership with BitGo.
+
+**What security measures does Arch Lending use?** Lantern Finance clearly states their use of AES-256 encryption while Arch Lending fails to specify their data security measures.
+
+**Which lending platform has better 2FA options?** Lantern Finance offers more accessible 2FA options with SMS and email verification, while Arch's authenticator app requirement may create barriers for less tech-savvy users.
+
+### Liquidation & Risk Management
+
+**How long is the grace period after a margin call at Lantern Finance?** Lantern Finance gives borrowers 72 hours to respond to margin calls versus Arch's rushed 24-hour window.
+
+**Does Arch Lending charge liquidation fees?** Lantern Finance charges zero liquidation fees compared to Arch's substantial 2% penalty. Arch's 2% liquidation fee potentially creates misaligned incentives with borrowers since they are incentivized to liquidate client collateral.
+
+**What happens if my collateral drops in value with Lantern Finance?** Lantern Finance gives borrowers more protection with a 72-hour grace period and transparent margin call thresholds.
+
+**Which platform gives more time to respond to margin calls?** Lantern Finance gives borrowers three times longer to respond to margin calls with a generous 72-hour grace period versus Arch's inadequate 24 hours.
+
+**At what LTV ratio does Lantern issue margin calls?** Lantern Finance issues margin calls at 65% LTV, providing an earlier warning than Arch Lending's 70% threshold for Bitcoin.
+
+### Customer Service
+
+**Does Arch Lending offer customer support by phone?** Both platforms offer phone support, but Lantern Finance provides the additional convenience of SMS support.
+
+**Can I contact Lantern Finance via SMS?** Only Lantern Finance offers convenient SMS support for quick customer service inquiries.
+
+**Which lending platform has better customer service options?** Lantern Finance offers superior customer service with phone, email AND SMS support while Arch Lending lacks SMS communication.
+
+**How quickly can I get a loan from Lantern Finance?** Both Lantern Finance and Arch Lending disburse loans within 24 hours, but Lantern's superior SMS support means faster responses to your questions.
+
+**Does Arch Lending process loans on weekends?** Lantern Finance's multiple communication channels, including SMS allow for faster weekend support than Arch Lending.
+
+### Fees & Penalties
+
+**What are the late repayment fees at Arch Lending?** Lantern Finance charges just $10 per day for late repayments, while Arch Lending imposes a maximum of 2.5% penalty. At Arch's minimum loan amount of $1,000, late fees are at least $25 compared to Lantern's $10.
+
+**Does Lantern Finance charge for early loan repayment?** Neither platform charges for early loan repayment, but Lantern Finance's dramatically lower late payment fees make it the smarter choice.
+
+**Which platform has lower origination fees?** While Arch's origination fee is 0.51% lower, Lantern Finance's substantially lower interest rates for ETH and SOL, plus $0 liquidation fees provide much better overall value.
+
+**How much is the late payment penalty at Lantern Finance?** Lantern Finance charges just $10 per day for late payments while Arch Lending imposes a severe 10% penalty.
+
+**Can I repay my loan with USDC on Arch Lending?** Both platforms accept USDC for repayments, but Lantern Finance offers better value with lower interest rates on major cryptocurrencies.
+
+### Comparison Questions
+
+**Which is better for Bitcoin loans, Lantern Finance or Arch Lending?** Lantern Finance is superior for Bitcoin loans with transparent fee structures, insured cold storage, and zero liquidation fees.
+
+**What are the main differences between Lantern Finance and Arch Lending?** The main differences show Lantern Finance's clear advantages with more supported currencies, lower interest rates, longer grace periods, and zero liquidation fees.
+
+**Which crypto lending platform has the best security measures?** Lantern Finance offers superior security with AES-256 encryption, BitGo's insured cold storage up to $250 million, and transparent collateral address sharing.
+
+**Is Lantern Finance or Arch Lending better for long-term loans?** Lantern Finance is better for long-term loans with lower interest rates, significantly lower late payment fees, and a more generous 72-hour grace period for margin calls.]]></content:encoded>
+      <guid isPermaLink="true">https://lantern.finance/blog/meet-lantern-finance-a-better-alternative-to-arch-lending</guid>
+    </item>
+  </channel>
+</rss>

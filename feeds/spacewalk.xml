@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spacewalk - Stellar Ecosystem</title>
+    <link>https://pendulumchain.org/spacewalk</link>
+    <description>Latest articles about Spacewalk in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/spacewalk.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Next Frontier: Unlocking the Potential of Non-USD Stablecoins with OnChain FX</title>
+      <link>https://medium.com/pendulum-chain/the-next-frontier-unlocking-the-potential-of-non-usd-stablecoins-with-onchain-fx-ac3257665b5b</link>
+      <pubDate>Mon, 16 Sep 2024 17:25:55 GMT</pubDate>
+      <author>Pendulum</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*73FxSBcEzDP0mcr07OZ9fQ.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# The Next Frontier: Unlocking the Potential of Non-USD Stablecoins with OnChain FX
+
+![](https://cdn-images-1.medium.com/max/1024/1*73FxSBcEzDP0mcr07OZ9fQ.png)
+
+The dominance of USD stablecoins in the DeFi world is obvious, but the crypto ecosystem is expanding, and non-USD stablecoins are beginning to take their place on center stage. As EVM-compatible chains, such as Ethereum and Avalanche, continue to grow, they offer a platform for the tokenization of off-chain assets, including foreign currencies. These developments mark the next step in blockchain’s maturity, presenting massive potential for global financial inclusion and efficiency.
+
+### Non-USD Stablecoins: A Growing Need
+
+In the global financial landscape, USD continues to play a dominant role. However, for blockchain to become a truly global financial tool, it must accommodate the realities of the world’s varied currencies. Tokenizing non-USD currencies offers a significant opportunity to address the growing demand for cross-border financial services, reduce reliance on the USD, and provide better access for developing economies.
+
+Data shows that while USD stablecoins still make up [99% of the market](https://res.cloudinary.com/drw/image/upload/v1686158824/comm-cumberland/uploads/Cumberland-Research-The-Growth-Potential-of-Non-USD-Stablecoins_wzlijy.pdf), this leaves significant room for growth in non-USD currencies. As developing countries adopt blockchain-based financial solutions, non-USD stablecoins offer a path forward for users and businesses looking for local currency stability in a globalized world.
+
+### The Role of EVM Chains in FX and Non-USD Stablecoin Adoption
+
+EVM-compatible chains such as Ethereum, Polygon, Base Chain and more provide the infrastructure needed for global adoption of non-USD stablecoins. These chains are more accessible and flexible, thanks to their decentralized nature, scalability, and developer-friendly tools.
+
+EVM chains enable the creation of dApps that facilitate cross-border payments, FX trading, and remittances. Projects like Curve, Aave, and others have leveraged the liquidity of USD stablecoins to build decentralized financial instruments. The next frontier is to integrate non-USD stablecoins and create more diverse FX markets.
+
+By using automated market makers (AMMs) and concentrated liquidity market makers (CLMMs), on-chain protocols can provide a way to trade non-USD stablecoins, offering the possibility of better liquidity, tighter spreads, and faster settlement times compared to traditional financial systems.
+
+![](https://cdn-images-1.medium.com/max/1024/0*PoCbU4MvT1QXcqQu)
+
+### Spacewalk & Vortex: Building the Bridge for Non-USD Stablecoins
+
+Spacewalk, a bridge linking [Polkadot](https://polkadot.network/) and [Stellar](https://stellar.org/) ecosystems, is opening the door for non-USD stablecoins to flow freely across blockchains. By connecting different blockchain networks, Spacewalk enhances liquidity and drives cross-border transactions.
+
+[Vortex](https://www.vortexfinance.co/) is designed to simplify the conversion of crypto assets into fiat currencies, making it easier for users and businesses to interact with both traditional and decentralized financial systems. By integrating these tools with non-USD stablecoins, Vortex and Spacewalk present new opportunities for users to engage in cross-border commerce, hedge against currency volatility, and gain access to new DeFi applications.
+
+These platforms aim to democratize access to financial tools, allowing users from different regions to benefit from the efficiencies of blockchain while maintaining the familiar use of local currencies.
+
+![](https://cdn-images-1.medium.com/max/1024/0*AD7KrzpOcn_YQfbF)
+
+### Real-World Applications: Cross-Border Payments and Beyond
+
+The promise of non-USD stablecoins lies not just in their ability to be a hedge against local currency instability but also in their potential to streamline cross-border transactions. Countries in Latin America, Africa, and Southeast Asia can use these stablecoins to conduct trade, send remittances, and stabilize local economies.
+
+Several EVM-compatible dApps have begun leveraging these technologies to facilitate everything from cross-border payments to sophisticated trading mechanisms. For instance, dApps like [Uniswap](https://uniswap.org/) and [SushiSwap](https://www.sushi.com/swap) on Ethereum have integrated non-USD stablecoins into their liquidity pools, allowing users worldwide to swap currencies with minimal slippage.
+
+Non-USD stablecoins could help reduce transaction costs for small and medium-sized businesses engaged in international trade, providing them with better access to global markets. Additionally, individuals working abroad can use blockchain to remit funds home more efficiently, bypassing traditional banking systems that often charge exorbitant fees.
+
+By reducing reliance on traditional FX markets, on-chain FX protocols and dApps on EVM-compatible chains can create competitive alternatives to systems like SWIFT and Western Union. This can significantly [reduce remittance fees by as much as 80%](https://uniswap.org/OnchainFX.pdf) compared with traditional instruments.
+
+![](https://cdn-images-1.medium.com/max/1024/0*ZbUzW7-fRt1_GMIk)
+
+### The Future of On-Chain FX and DeFi Integration
+
+The future of on-chain FX will be driven by the development of more sophisticated financial instruments, including derivatives and synthetic assets that leverage the liquidity of non-USD stablecoins. These tools will enable individuals and institutions to hedge against currency risks and make it easier to engage in global trade.
+
+As blockchains continue to evolve, more dApps will integrate FX and DeFi services, allowing users to tap into new liquidity pools, trade international currencies, and gain access to cross-border financial tools. The goal is to create a more inclusive financial ecosystem that empowers individuals and businesses, regardless of their geographical location.
+
+![](https://cdn-images-1.medium.com/max/1024/0*Zf0rrzUyA8NGfvZT)
+
+### Conclusion: A New Financial Landscape
+
+The integration of non-USD stablecoins and FX markets on-chain represents a monumental step forward for blockchain technology. By leveraging EVM-compatible chains, Spacewalk, Vortex, and other platforms, the global financial system is becoming more accessible, efficient, and inclusive. As adoption continues to grow, these innovations promise to reshape the financial landscape, making it easier for individuals and businesses to engage in international trade, manage currency risks, and access the benefits of decentralized finance. The future is here, and it’s more connected than ever.
+
+### About Amplitude
+
+Pioneering the internet of fiat. Amplitude is the sister network of Pendulum on Kusama. It will act as a testing ground for Pendulum applications and network parameters and be powered by the AMPE token.
+
+### About Pendulum
+
+Building the missing link between fiat and DeFi through a fiat-optimized smart contract blockchain based on Polkadot’s Substrate. Allowing traditional finance fiat services to integrate with DeFi applications such as specialized forex AMMs, lending protocols, or yield farming opportunities. Developed by SatoshiPay.
+
+### Keep your eyes on the Pendulum!
+
+[Twitter](https://twitter.com/pendulum_chain) | [Telegram Announcements](https://t.me/pendulum_chain) | [Telegram Community](https://t.me/pendulum_community) | [Discord](https://discord.gg/KJybDMtfXt) | [Reddit](https://www.reddit.com/r/Pendulum_Chain)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/pendulum-chain/the-next-frontier-unlocking-the-potential-of-non-usd-stablecoins-with-onchain-fx-ac3257665b5b</guid>
+    </item>
+    <item>
+      <title>Bridging the Divide: Banks and Crypto Payments</title>
+      <link>https://medium.com/pendulum-chain/bridging-the-divide-banks-and-crypto-payments-a0aaae1f7117</link>
+      <pubDate>Fri, 06 Sep 2024 00:38:18 GMT</pubDate>
+      <author>Pendulum</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*uD1TcA_uVbx_kBYZ0TWuFw.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Bridging the Divide: Banks and Crypto Payments
+
+The divide between DeFi and traditional banking systems presents both challenges and opportunities.
+
+This creates a growing trend for new solutions that bridge blockchain technology closer with traditional banking, thus enhancing financial inclusivity and efficiency globally.
+
+This article discusses the need for innovative approaches that improve user experience and propel the widespread adoption of crypto payments in everyday transactions.
+
+### The Need for Crypto-Fiat Integration
+
+The digital economy demands a framework where digital assets can move freely between crypto and fiat realms without friction. This will leverage cryptocurrencies for everything from e-commerce to remittances, demanding a fluid exchange between their digital and traditional monetary assets.
+
+The potential for more crypto adoption revolves around stablecoins that take away the volatility of cryptocurrencies like BTC and ETH and focus the price on fiat currencies. The current stablecoin market supply is [around $150 billion](https://www.coindesk.com/policy/2024/05/06/less-than-10-of-stablecoin-transaction-volume-coming-from-real-users-report/) and the user base for stablecoins stands at [27.5 million monthly users](https://www.coindesk.com/policy/2024/05/06/less-than-10-of-stablecoin-transaction-volume-coming-from-real-users-report/) across all chains.
+
+![](https://cdn-images-1.medium.com/max/1008/0*ao2sY7f5_VSjBzJz)
+
+Currently, the process of converting crypto to fiat is cumbersome, often involving multiple intermediaries and incurring high fees and delays. This barrier significantly hampers the potential for cryptocurrencies to be used in everyday transactions and limits their broader adoption.
+
+The aim is to dismantle these barriers by providing a direct and regulated bridge between cryptocurrencies and bank accounts, ensuring that digital assets can be as liquid and accessible as traditional currencies, but there is work to be done.
+
+### Seamless Integration Solutions
+
+Technological solutions like blockchain-based payment gateways or smart contract systems designed to streamline crypto-to-fiat conversions can bridge the often complex gap between cryptocurrencies and traditional banking systems.
+
+As the digital economy evolves, seamless integration between cryptocurrencies and traditional banking systems becomes crucial. Platforms like [Polkadot](https://polkadot.network/) and [Stellar](https://stellar.org/) are at the forefront of this integration, each offering unique mechanisms to bridge the gap between decentralized finance (DeFi) and traditional finance.
+
+### Polkadot
+
+[Polkadot](https://polkadot.network/) facilitates a multi-chain network where various blockchains can interoperate efficiently. This capability is essential for financial institutions that need to interact with different blockchain networks or require a secure way to engage with DeFi applications.
+
+By leveraging Polkadot’s cross-chain transfer protocol, financial institutions can securely and seamlessly connect their existing systems with emerging crypto networks, enabling features like cross-chain transactions and interoperability between different financial services.
+
+### Stellar
+
+[Stellar](https://stellar.org/) specializes in enabling fast and low-cost cross-border transactions, which is vital for traditional banks that handle international transfers. Through its network, Stellar provides direct integration with traditional banking infrastructures via anchors — trusted entities that issue or redeem digital assets on the Stellar network.
+
+This setup allows for quick conversion between fiat and cryptocurrencies, facilitating smoother transitions for banks into the digital currency space.
+
+Better integration of blockchain platforms with traditional financial systems offers several additional benefits like reduced transaction costs and times, enhanced security, and increased accessibility.
+
+### Use Cases and Real-World Application
+
+More crypto-fiat integration will simplify transactions across various sectors, enhancing both consumer and business experiences:
+
+**Individuals** can benefit from an effortless method to convert cryptocurrency holdings to fiat currency directly in their bank accounts, ideal for immediate cash needs or investment liquidity.
+
+**Merchants** can utilize the platform to accept crypto payments while receiving fiat settlements, expanding their customer base without exposure to crypto volatility.
+
+**Сross-border transactions** are made seamless, making the dApp invaluable for businesses dealing with international suppliers or clients by reducing transaction times and bypassing hefty banking fees.
+
+**Freelancers and small businesses** in the gig economy can benefit from the new functionality and can now receive payments in various cryptocurrencies and convert them directly to local currency.
+
+There is huge potential for a broader range of use cases in different sectors such as retail, manufacturing, and services that could benefit from better integrated crypto payment solutions.
+
+### The Future of Crypto Payments
+
+The trajectory of crypto payments points towards a transformative impact on global finance. Experts predict an increase in their adoption could fundamentally alter traditional banking by simplifying international money transfers and enhancing financial inclusivity.
+
+As of June 2024, USD-denominated stablecoins have a total market capitalization of $161 billion, while non-USD stablecoins account for under 0.5% of the market. This highlights the overwhelming dominance of USD stablecoins. The dollar’s diminishing dominance in the world, this can open up a window of opportunity for non-USD stablecoins.
+
+![](https://cdn-images-1.medium.com/max/749/0*yV9AHA9v6sZcexuJ)
+
+Blockchain researcher [Chris Burniske](https://u.today/crypto-chatgpt-style-revolution-in-2025-predicted-by-top-analyst) predicts that by 2025 crypto apps will have their ChatGPT moment and will be flooded by hundreds of millions of users.
+
+As crypto payments become more integrated into daily transactions, they offer the potential to streamline global trade processes, making financial operations more efficient and accessible.
+
+This shift could democratize financial services, enabling seamless, borderless, and cost-effective transactions that are not bound by the constraints of conventional financial systems. This would lead to a surge in global commerce efficiency, where transactions are as straightforward and rapid as sending an email.
+
+### Conclusion
+
+Integrating cryptocurrencies with traditional fiat systems holds transformative potential, enhancing user experience, market efficiency, and economic inclusivity. This evolution paves the way for a more fluid financial landscape where transactions are not only faster and more secure but also universally accessible, breaking down barriers to economic participation.
+
+As these technologies continue to advance, staying informed about the latest developments in blockchain technology and evolving financial regulations will be crucial for anyone looking to navigate this new terrain effectively.
+
+### About Pendulum
+
+Building the missing link between fiat and DeFi through a fiat-optimized smart contract blockchain based on Polkadot’s Substrate. Allowing traditional finance fiat services to integrate with DeFi applications such as specialized forex AMMs, lending protocols, or yield farming opportunities. Developed by SatoshiPay.
+
+### Keep your eyes on the Pendulum!
+
+[Website](https://pendulumchain.org/) | [Twitter](https://twitter.com/pendulum_chain) | [Telegram Announcements](https://t.me/pendulum_chain) | [Telegram Community](https://t.me/pendulum_community) | [Discord](https://discord.gg/KJybDMtfXt) | [Docs](https://pendulum.gitbook.io/pendulum-docs/learn/readme) |]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/pendulum-chain/bridging-the-divide-banks-and-crypto-payments-a0aaae1f7117</guid>
+    </item>
+    <item>
+      <title>Pendulum Q2 2024 Ecosystem Roundup</title>
+      <link>https://medium.com/pendulum-chain/pendulum-q2-2024-ecosystem-roundup-d9362b15287a</link>
+      <pubDate>Fri, 05 Jul 2024 12:27:29 GMT</pubDate>
+      <author>Pendulum</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*kly9VZpODQVo0HW5Frd70w.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Pendulum Q2 2024 Ecosystem Roundup
+
+![](https://cdn-images-1.medium.com/max/1024/1*kly9VZpODQVo0HW5Frd70w.png)
+
+As Q2 concludes, our Forex AMM powered by Nabla technology launch begins on Testnet! Pendulum has also made significant progress in uniting the Stellar and Polkadot ecosystems through the Spacewalk bridge. From enhanced bridge capacity to streamlined offramping solutions, we drive our ecosystem forward and make DeFi more accessible.
+
+### 💡 Ecosystem Highlight
+
+#### **Enhancing Cross-Chain Liquidity with vDOT Collateral**
+
+Our Polkadot treasury proposal to loan 50k DOT was a great success! This DOT will be staked on Bifrost to generate vDOT, strengthening the collateral for our Spacewalk bridge and expanding cross-chain liquidity between Stellar and Polkadot.
+
+![](https://cdn-images-1.medium.com/max/1024/1*Twpp5P1TJ--rtXGQGbludQ.png)
+
+#### Offramping Stablecoins to Your Bank Account
+
+The early version of the prototype enables automated offramping of stablecoins from Polkadot to bank accounts in Europe or Brazil. This solution automates and streamlines the offramping process — watch the demo to see how easy it is!
+
+<https://medium.com/media/554f719bade9e43e9fb9b04c8ee801c5/href>
+
+#### Spacewalk bridge integrated on Soroswap Finance
+
+Soroswap has integrated the Spacewalk bridge into its platform, providing users with a seamless cross-chain asset transfer between Stellar and Polkadot.
+
+[Test it out for yourself!](https://soroswap.finance/)
+
+![](https://cdn-images-1.medium.com/max/1024/1*iusBm1CVyfODFEJXi_pICw.png)
+
+#### Pendulum on Subscan
+
+Pendulum is now integrated with [Subscan](https://pendulum.subscan.io/), giving the community enhanced transparency in transactions and activities.
+
+![](https://cdn-images-1.medium.com/max/1024/1*8tlcFJ_3tHvaIV53DdL2jw.png)
+
+#### LPs Pools on Zenlink
+
+Pendulum and Amplitude have launched 7 liquidity pools on Zenlink, creating earning opportunities for LPs. This marks the first chance for Stellar holders to earn rewards with XLM tokens. The pools include:
+
+*   On Pendulum: [XLM/DOT](https://pendulum-chain.medium.com/step-by-step-guide-to-providing-liquidity-to-the-dot-xlm-pool-on-zenlink-7e166e353f02), [XLM/PEN](https://pendulum-chain.medium.com/step-by-step-guide-to-providing-liquidity-to-the-pen-xlm-pool-on-zenlink-acb00b9dfc77), [PEN/DOT](https://medium.com/pendulum-chain/step-by-step-guide-to-providing-liquidity-to-the-pen-dot-pool-on-zenlink-5ef0a49bb981), [PEN/GLMR](https://medium.com/pendulum-chain/step-by-step-guide-to-providing-liquidity-to-the-pen-glmr-pool-on-zenlink-f984e9876797)
+*   On Amplitude: [XLM/KSM](https://medium.com/pendulum-chain/step-by-step-guide-to-providing-liquidity-to-the-ksm-xlm-pool-on-zenlink-12936743ec59), [KSM/AMPE,](https://medium.com/pendulum-chain/amplitudes-ampe-token-is-listed-on-zenlink-for-trading-81d780b9c7f2) [XLM/AMPE](https://medium.com/pendulum-chain/step-by-step-guide-to-providing-liquidity-to-the-ksm-xlm-pool-on-zenlink-12936743ec59)
+
+![](https://cdn-images-1.medium.com/max/1024/1*hHlizsKbSgW3FojUp-Fcaw.png)
+
+### 🏦 Governance Referendum
+
+*   [**Register USDC.axl asset on Moonbeam**](https://pendulum.polkassembly.io/referendum/41)
+*   [**Registering Circle’s EURC (Stellar) on Pendulum**](https://pendulum.polkassembly.io/referendum/41) and updating the MultiLocation of the XLM.s asset in the asset registry.
+*   [**Pendulum Release 16**](https://pendulum.polkassembly.io/referendum/28)set up the fee_per_second parameter to calculate and apply fees appropriately when assets are transferred.
+*   [**Registering XLM & EURC**](https://x.com/pendulum_chain/status/1786348460658106538) as XC-20 assets on Astar network.
+*   [**Bifrost HRMP Channel Accepted**](https://pendulum.polkassembly.io/referendum/35)to enable vDOt as collateral for Spacewalk.
+
+### ☎️ Community Engagement
+
+#### Pendulum Forex AMM powered by Nabla Testnet Campaign
+
+We’re thrilled to announce the launch of our [Forex AMM Testnet campaign on Airlyft](https://airlyft.one/pendulum/spacewalk-product-pioneers-1706078974093), powered by Nabla! Test our Forex AMM, provide valuable feedback, and have a chance to win a share of $2000 worth of PEN tokens.
+
+This is your opportunity to shape cross-chain Forex trading and be rewarded for your input!
+
+Key Features to Test:
+
+*   Swapping stablecoins
+*   Adding liquidity to pools
+*   Interacting with backstop pools
+
+<https://medium.com/media/984e847f24671cbc58a9771807625f04/href>
+
+We’re incredibly excited about our progress in Q2 and the opportunities that lie ahead. Join us as we build a more connected and accessible financial future for all. Stay tuned for more updates.
+
+### About Amplitude
+
+Pioneering the internet of fiat. Amplitude is the sister network of Pendulum on Kusama. It will act as a testing ground for Pendulum applications and network parameters and be powered by the AMPE token.
+
+### About Pendulum
+
+Building the missing link between fiat and DeFi through a fiat-optimized smart contract blockchain based on Polkadot’s Substrate. Allowing traditional finance fiat services to integrate with DeFi applications such as specialized forex AMMs, lending protocols, or yield farming opportunities. Developed by SatoshiPay.
+
+### Keep your eyes on the Pendulum!
+
+[Twitter](https://twitter.com/pendulum_chain) | [Telegram Announcements](https://t.me/pendulum_chain) | [Telegram Community](https://t.me/pendulum_community) | [Discord](https://discord.gg/KJybDMtfXt) | [Reddit](https://www.reddit.com/r/Pendulum_Chain)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/pendulum-chain/pendulum-q2-2024-ecosystem-roundup-d9362b15287a</guid>
+    </item>
+  </channel>
+</rss>

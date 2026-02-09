@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glo Dollar - Stellar Ecosystem</title>
+    <link>https://glodollar.org</link>
+    <description>Latest articles about Glo Dollar in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/glo-dollar.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Coala Pay becomes a Glo Funding Recipient</title>
+      <link>https://glodollar.org/articles/coala-pay-funding-recipient</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+      <author>Bram Voets</author>
+      <enclosure url="https://cdn.prod.website-files.com/622c49f66ed2912f4cef75cc/679b5984726f248c69f800c4_Frame%20376.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[Coala Pay is the first recipient of funding from our new ‘Strengthen Humanitarian Aid' Cause Area, supported by The Stellar Development Foundation following their $250,000 donation to The Glo Foundation.
+
+Coala Pay is a last mile money movement and management platform purpose-built for the international aid sector. They help INGOs, foundations, corporate, and government donors to reduce inefficiencies and make good on the promise of localisation.
+
+## Use Glo Dollars on Stellar to improve aid funding, at no cost to you as a Glo Dollar user
+
+Thanks to the Stellar Development Foundation (SDF), we've added [Coala Pay](https://coalapay.org/) as a recipient for Glo Dollar funds. 
+
+Now, **Glo Dollars on Stellar are powering international aid efforts and supporting a better future for all**.
+
+![Image](https://cdn.prod.website-files.com/622c49f66ed2912f4cef75cc/679b76f1fb5ada9697133c9d_679b76e6cd0c84a491236b96_Frame%2520344.png)
+
+### Glo donates 100% of its profits. How that works on Stellar:
+
+1. You [buy Glo Dollars](https://www.stellarx.com/swap/USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN/USDGLO:GBBS25EGYQPGEZCGCFBKG4OAGFXU6DSOQBGTHELLJT3HZXZJ34HWS6XV)
+2. The fiat backing Glo Dollar is invested and earns revenue
+3. The Glo Foundation uses its portion of the revenue to support Coala Pay
+4. **Glo Dollar users on Stellar can make aid funding better for everybody automatically, without having to make an additional donation**
+
+Coala Pay will be the default funding option if you buy Glo Dollars on Stellar. With [the Glo Dollar app](https://app.glodollar.org/), you can choose to change your cause area to address a wide range of critical issues, such as fighting extreme poverty, combating climate change, or funding Web3 public goods.
+
+If you're using Glo Dollars on another chain, you can also select Coala Pay to be the Funding Recipient of your Glo Dollar holdings:
+
+1. Go to app.glodollar.org and connect your wallet. 
+2. You'll automatically see your Glo Dollar holdings and the expected funding generated with your Glo Dollars.
+3. Click on the Cause Area shown next to the ⚙️ symbol.
+
+## Why supporting Coala Pay makes a difference
+
+Sending money to a local aid organization halfway around the world should be as easy as donating to a crowdfunding campaign.
+
+Legacy financial systems weren't built for international aid. They make it harder to help during crises and slow down the aid process.
+
+Coala Pay is changing that. Its tools help aid organizations deliver faster, cheaper support. By leveraging Web3, Coala Pay directs more funds to grassroots organizations working locally.
+
+**International aid should feel like mutual aid.** And with anticipated shortfalls in aid funding, Glo holders have an opportunity to step in—helping bridge critical gaps and ensure frontline organizations get the support they need.]]></content:encoded>
+      <guid isPermaLink="true">https://glodollar.org/articles/coala-pay-funding-recipient</guid>
+    </item>
+  </channel>
+</rss>

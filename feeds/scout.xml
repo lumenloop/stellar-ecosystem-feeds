@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scout - Stellar Ecosystem</title>
+    <link>https://coinfabrik.com</link>
+    <description>Latest articles about Scout in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/scout.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ATHR: Descriptive Statistics for Crypto Asset Rankings</title>
+      <link>https://coinfabrik.com/blog/athr-descriptive-statistics-for-crypto-asset-rankings/</link>
+      <author>Do-yoon Kang</author>
+      <content:encoded><![CDATA[# ATHR: Descriptive Statistics for Crypto Asset Rankings
+
+We present a crypto all-time high ranking: an original approach to evaluating crypto assets by analyzing their ranking movements instead of their individual values to better capture their highly interrelated nature.
+
+Several sport rankings use this approach. For example, you can see the career high rank and historical movements of tennis players such as Diego Schwartzman [here](https://www.atptour.com/en/players/diego-schwartzman/sm37/rankings-history?year=all) and Novak Djokovic [here](https://www.atptour.com/en/players/novak-djokovic/d643/overview). We use ATHR for All-Time High Ranking.
+
+Stock investors are used to descriptive statistics values including market capitalization, price-to-earnings, record highs among others. Investing in [crypto is different](https://www.coinfabrik.com/blog/the-science-of-crypto-asset-investing-a-ranking-analysis-strategy/) and investors are used to values such as [all-time-high (ATH) and all-time-low (ATL)](https://www.coinbase.com/es-la/learn/crypto-glossary/what-is-the-difference-between-a-crypto-all-time-high-ath-and-all-time-low-atl#:~:text=The%20All%2DTime%20High%20(ATH,its%20time%20on%20the%20market.) for every crypto asset. The main sites for looking into these values are CoinMarketCap and CoinGecko. Both of them provide historical data for rankings, prices, volume, and supply but don't provide [descriptive values based on rankings](https://www.coinfabrik.com/blog/the-science-of-crypto-asset-investing-a-ranking-analysis-strategy/). Providing this information makes perfect sense because crypto assets are interrelated. The main observable pattern is Bitcoin, and you can clearly see that when Bitcoin goes up and down significantly it impacts other assets down in the ranking. Again, this is why a ranking analysis makes total sense, because beyond the price, it is important to get hypotheses about how assets can go up and down in the rankings beyond a statistical part of the price that will move in tandem with other crypto assets.
+
+What follows is a chart with 1,939 assets, based on weekly historical data from [CoinMarketCap Cryptocurrency Historical Data Snapshot](https://coinmarketcap.com/historical/). It is important to note that while the information has a weekly precision, it continues to capture significant information about ranking movements. It is also important to highlight that we analyzed the top 200 crypto asset ranking snapshots, thus, leaving aside information below that threshold. Again, this doesn't neglect the main point of this article, which is focusing on ranking information, and other investors and researchers can contribute with more insights.
+
+| Token | Symbol | ATHR | Last Year HR | Last 3-month HR |
+|-------|--------|------|--------------|-----------------|
+| Bitcoin | BTC | 1 | 1 | 1 |
+| Ethereum | ETH | 2 | 2 | 2 |
+| Tether | USDT | 3 | 3 | 3 |
+| BNB | BNB | 3 | 4 | 4 |
+| Solana | SOL | 4 | 4 | 5 |
+| USD Coin | USDC | 4 | 6 | 6 |
+| XRP | XRP | 2 | 4 | 7 |
+| Dogecoin | DOGE | 4 | 7 | 8 |
+| Toncoin | TON | 8 | 8 | 8 |
+| Cardano | ADA | 3 | 7 | 10 |
+| Avalanche | AVAX | 9 | 9 | 11 |
+| Shiba Inu | SHIB | 9 | 10 | 11 |
+| TRON | TRX | 8 | 10 | 11 |
+| Chainlink | LINK | 5 | 10 | 13 |
+| Polkadot | DOT | 4 | 11 | 13 |
+| Bitcoin Cash | BCH | 3 | 13 | 13 |
+| Polygon | MATIC | 8 | 11 | 17 |
+| Dai | DAI | 11 | 12 | 17 |
+| Uniswap | UNI | 8 | 16 | 17 |
+| NEAR Protocol | NEAR | 16 | 17 | 17 |
+| Litecoin | LTC | 2 | 11 | 18 |
+| Internet Computer | ICP | 8 | 16 | 18 |
+| UNUS SED LEO | LEO | 11 | 18 | 18 |
+| Pepe | PEPE | 19 | 19 | 19 |
+| Kaspa | KAS | 23 | 23 | 23 |
+| Ethereum Classic | ETC | 4 | 21 | 24 |
+| Aptos | APT | 22 | 22 | 24 |
+| First Digital USD | FDUSD | 24 | 24 | 24 |
+| Render Token | RNDR | 24 | 24 | 24 |
+| Stacks | STX | 25 | 25 | 25 |
+| Hedera | HBAR | 25 | 25 | 25 |
+| Mantle | MNT | 27 | 27 | 27 |
+| [Fetch.ai](http://fetch.ai) | FET | 27 | 27 | 27 |
+| Monero | XMR | 4 | 24 | 28 |
+| Bittensor | TAO | 28 | 28 | 28 |
+| Cosmos | ATOM | 15 | 20 | 29 |
+| Filecoin | FIL | 12 | 21 | 29 |
+| Immutable | IMX | 22 | 22 | 29 |
+| Cronos | CRO | 9 | 28 | 30 |
+| Stellar | XLM | 4 | 19 | 31 |
+| Arbitrum | ARB | 29 | 29 | 32 |
+| Arweave | AR | 33 | 33 | 33 |
+| OKB | OKB | 22 | 22 | 34 |
+| dogwifhat | WIF | 29 | 29 | 34 |
+| VeChain | VET | 13 | 32 | 36 |
+| The Graph | GRT | 30 | 32 | 38 |
+| Maker | MKR | 16 | 34 | 39 |
+| Optimism | OP | 26 | 26 | 40 |
+| Injective | INJ | 26 | 26 | 41 |
+| Sui | SUI | 41 | 41 | 41 |
+| FLOKI | FLOKI | 42 | 42 | 42 |
+| Theta Network | THETA | 9 | 42 | 47 |
+| Lido DAO | LDO | 28 | 30 | 48 |
+| Fantom | FTM | 26 | 43 | 49 |
+| Notcoin | NOT | 49 | 49 | 49 |
+| Core | CORE | 49 | 49 | 49 |
+| THORChain | RUNE | 29 | 29 | 50 |
+| Celestia | TIA | 30 | 30 | 51 |
+| Bonk | BONK | 51 | 51 | 51 |
+| Ondo | ONDO | 51 | 51 | 51 |
+| Bitget Token | BGB | 52 | 52 | 52 |
+| JasmyCoin | JASMY | 52 | 52 | 52 |
+| Sei | SEI | 42 | 42 | 56 |
+| Brett (Based) | BRETT | 56 | 56 | 56 |
+| Ethena | ENA | 56 | 56 | 56 |
+| Jupiter | JUP | 54 | 54 | 57 |
+| Pendle | PENDLE | 57 | 57 | 57 |
+| Aave | AAVE | 14 | 39 | 58 |
+| Neo | NEO | 6 | 52 | 59 |
+| Algorand | ALGO | 15 | 44 | 60 |
+| Beam | BEAM | 50 | 50 | 60 |
+| Pyth Network | PYTH | 61 | 61 | 61 |
+| Gala | GALA | 41 | 53 | 63 |
+| Strike | STRK | 57 | 57 | 63 |
+| Akash Network | AKT | 63 | 63 | 63 |
+| Flow | FLOW | 29 | 53 | 64 |
+| Worldcoin | WLD | 64 | 64 | 64 |
+| Bitcoin SV | BSV | 5 | 43 | 65 |
+| MultiversX | EGLD | 24 | 43 | 67 |
+| Flare | FLR | 52 | 52 | 68 |
+| BitTorrent(New) | BTT | 13 | 56 | 68 |
+| SingularityNET | AGIX | 68 | 68 | 68 |
+| ORDI | ORDI | 50 | 50 | 70 |
+| KuCoin Token | KCS | 34 | 65 | 70 |
+| Wormhole | W | 66 | 66 | 70 |
+| Quant | QNT | 29 | 37 | 71 |
+| Ethereum Name Service | ENS | 71 | 71 | 71 |
+| Chiliz | CHZ | 30 | 67 | 73 |
+| dYdX | DYDX | 65 | 65 | 75 |
+| Nervos Network | CKB | 66 | 75 | 75 |
+| Axie Infinity | AXS | 23 | 45 | 76 |
+| USDD | USDD | 46 | 46 | 76 |
+| eCash | XEC | 34 | 64 | 77 |
+| EOS | EOS | 4 | 49 | 79 |
+| The Sandbox | SAND | 31 | 46 | 80 |
+| Ronin | RON | 63 | 63 | 80 |
+| Tezos | XTZ | 10 | 48 | 82 |
+| MANTRA | OM | 82 | 82 | 82 |
+| Gnosis | GNO | 16 | 83 | 83 |
+| Synthetix | SNX | 21 | 53 | 86 |
+| Conflux | CFX | 45 | 59 | 87 |
+| Mina | MINA | 54 | 54 | 89 |
+| AIOZ Network | AIOZ | 89 | 89 | 89 |
+| GateToken | GT | 72 | 81 | 91 |
+| Tether Gold | XAUt | 66 | 66 | 93 |
+| Decentraland | MANA | 23 | 52 | 94 |
+| Helium | HNT | 35 | 53 | 94 |
+| Safe | SAFE | 94 | 94 | 94 |
+| Nexo | NEXO | 54 | 88 | 95 |
+| BOOK OF MEME | BOME | 95 | 95 | 95 |
+| LayerZero | ZRO | 95 | 95 | 95 |
+| Oasis Network | ROSE | 67 | 75 | 96 |
+| Aevo | AEVO | 96 | 96 | 96 |
+| Echelon Prime | PRIME | 72 | 99 | 99 |
+| ApeCoin | APE | 29 | 54 | 100 |
+| IOTA | IOTA | 57 | 57 | 100 |
+| Axelar | AXL | 71 | 71 | 100 |
+| Mog Coin | MOG | 100 | 100 | 100 |
+| DeXe | DEXE | 100 | 100 | 100 |
+| Klaytn | KLAY | 14 | 73 | 101 |
+| zkSync | ZK | 101 | 101 | 101 |
+| Kava | KAVA | 54 | 64 | 102 |
+| PancakeSwap | CAKE | 25 | 72 | 102 |
+| Dog (Runes) | DOG | 103 | 103 | 103 |
+| Livepeer | LPT | 91 | 104 | 104 |
+| Theta Fuel | TFUEL | 31 | 105 | 105 |
+| SATS | 1000SATS | 45 | 45 | 106 |
+| Blur | BLUR | 69 | 69 | 107 |
+| TrueUSD | TUSD | 20 | 20 | 110 |
+| Bitgem | BTG | 5 | 108 | 110 |
+| FTX Token | FTT | 19 | 41 | 111 |
+| Terra Classic | LUNC | 29 | 54 | 112 |
+| dYdX (ethDYDX) | ETHDYDX | 74 | 74 | 112 |
+| Ribbon Finance | RBN | 108 | 108 | 112 |
+| WEMIX | WEMIX | 55 | 55 | 113 |
+| Astar | ASTR | 61 | 61 | 116 |
+| Osmosis | OSMO | 70 | 70 | 116 |
+| 1inch Network | 1INCH | 64 | 90 | 117 |
+| Radix | XRD | 117 | 117 | 117 |
+| Golem | GLM | 105 | 115 | 118 |
+| ConstitutionDAO | PEOPLE | 118 | 118 | 118 |
+| WOO Network | WOO | 82 | 82 | 119 |
+| Rocket Pool | RPL | 43 | 62 | 120 |
+| PAX Gold | PAXG | 63 | 67 | 120 |
+| Dymension | DYM | 65 | 65 | 122 |
+| [ether.fi](http://ether.fi) | ETHFI | 122 | 122 | 122 |
+| XDC Network | XDC | 43 | 43 | 123 |
+| Curve DAO Token | CRV | 57 | 61 | 123 |
+| Ocean Protocol | OCEAN | 60 | 75 | 124 |
+| Manta Network | MANTA | 72 | 72 | 125 |
+| IoTeX | IOTX | 73 | 108 | 125 |
+| APENFT | NFT | 91 | 91 | 126 |
+| Jito | JTO | 126 | 126 | 126 |
+| Raydium | RAY | 93 | 123 | 128 |
+| ssv.network | SSV | 93 | 128 | 128 |
+| Arkham | ARKM | 128 | 128 | 128 |
+| Compound | COMP | 20 | 67 | 129 |
+| Trust Wallet Token | TWT | 38 | 71 | 129 |
+| [io.net](http://io.net) | IO | 129 | 129 | 129 |
+| Ankr | ANKR | 80 | 117 | 130 |
+| MX TOKEN | MX | 100 | 101 | 132 |
+| SuperFarm | SUPER | 42 | 117 | 132 |
+| PayPal USD | PYUSD | 132 | 132 | 132 |
+| SKALE | SKL | 97 | 122 | 133 |
+| BinaryX | BNX | 72 | 133 | 133 |
+| Memecoin | MEME | 115 | 133 | 133 |
+| STEPN | GMT | 46 | 92 | 135 |
+| cat in a dogs world | MEW | 137 | 137 | 137 |
+| 0x Protocol | ZRX | 22 | 92 | 138 |
+| Biconomy | BICO | 130 | 130 | 138 |
+| Enjin Coin | ENJ | 39 | 100 | 139 |
+| SafePal | SFP | 99 | 99 | 140 |
+| Altlayer | ALT | 117 | 117 | 140 |
+| Terra | LUNA | 7 | 90 | 142 |
+| Aragon | ANT | 35 | 130 | 144 |
+| Qtum | QTUM | 11 | 103 | 145 |
+| aelf | ELF | 56 | 99 | 146 |
+| ZetaChain | ZETA | 111 | 111 | 147 |
+| Celo | CELO | 37 | 113 | 147 |
+| Kusama | KSM | 24 | 127 | 149 |
+| Zcash | ZEC | 11 | 72 | 150 |
+| Zilliqa | ZIL | 23 | 95 | 150 |
+| Blast | BLAST | 151 | 151 | 151 |
+| MetisDAO | METIS | 106 | 106 | 153 |
+| Ravencoin | RVN | 33 | 121 | 154 |
+| Holo | HOT | 27 | 123 | 155 |
+| Galxe | GAL | 141 | 141 | 155 |
+| Reserve Rights | RSR | 64 | 155 | 155 |
+| EthereumPoW | ETHW | 63 | 127 | 156 |
+| Siacoin | SC | 13 | 82 | 157 |
+| JUST | JST | 87 | 115 | 159 |
+| Arcblock | ABT | 90 | 159 | 159 |
+| Frax Share | FXS | 59 | 72 | 161 |
+| Polymesh | POLYX | 132 | 132 | 161 |
+| OriginTrail | TRAC | 120 | 152 | 162 |
+| SPACE ID | ID | 113 | 113 | 163 |
+| Centrifuge | CFG | 140 | 140 | 164 |
+| Dash | DASH | 3 | 91 | 166 |
+| Saga | SAGA |  | 166 | 166 |
+| Convex Finance | CVX | 56 | 99 | 168 |
+| Illuvium | ILV | 102 | 102 | 169 |
+| BatCoin | BAT | 22 | 98 | 170 |
+| Gas | GAS | 27 | 82 | 172 |
+| GMX | GMX | 66 | 77 | 173 |
+| UMA | UMA | 24 | 121 | 173 |
+| Pixels | PIXEL | 132 | 132 | 173 |
+| Casper | CSPR | 65 | 77 | 175 |
+| Threshold | T | 98 | 128 | 175 |
+| GuildFi | GF |  | 175 | 175 |
+| Tellor | TRB | 107 | 107 | 176 |
+| Loopring | LRC | 46 | 102 | 178 |
+| Highstreet | HIGH |  | 179 | 179 |
+| NEM | XEM | 4 | 107 | 180 |
+| Chia | XCH | 58 | 109 | 181 |
+| Yield Guild Games | YGG | 160 | 163 | 182 |
+| RSS3 | RSS3 |  | 183 | 183 |
+| Decred | DCR | 11 | 124 | 184 |
+| Ontology | ONT | 17 | 150 | 184 |
+| Mask Network | MASK | 87 | 106 | 187 |
+| Flux | FLUX | 105 | 150 | 191 |
+| HyperSpace | AMP | 8 | 164 | 194 |
+| Chromia | CHR | 139 | 153 | 196 |
+| Harmony | ONE | 42 | 156 | 197 |
+| Waves | WAVES | 9 | 129 | 199 |]]></content:encoded>
+      <guid isPermaLink="true">https://coinfabrik.com/blog/athr-descriptive-statistics-for-crypto-asset-rankings/</guid>
+    </item>
+  </channel>
+</rss>

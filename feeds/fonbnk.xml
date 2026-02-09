@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fonbnk - Stellar Ecosystem</title>
+    <link>https://fonbnk.com</link>
+    <description>Latest articles about Fonbnk in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/fonbnk.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cointelegraph: Here&apos;s what&apos;s happening in Web3 across Africa</title>
+      <link>https://fonbnk.com/blog/heres-whats-happening-in-web3-across-africa</link>
+      <author>Michael Kimani</author>
+      <enclosure url="https://storage.googleapis.com/fonbnk-blog-images/36b0552d-39a4-4ffa-9f26-c42dcc0c4f8e.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[Leading blockchain protocols and other actors jockey for position in the race to build and mold Africa's emerging Web3 economy.
+
+Whatever you prefer to call it — crypto, blockchain or Web3 — this new segment of the digital economy is booming across Africa. If you've been sleeping on the sector, now's a good time to wake up.
+
+Why? Well for one, [according](https://blog.chainalysis.com/reports/africas-grassroots-cryptocurrency-adoption/) to analytics firm Chainalysis, Africa's crypto market increased in value by more than 1,200% between July 2020 and June 2021. Led by especially high adoption rates in Kenya, South Africa, Nigeria and Tanzania, Africa had the third-fastest growing cryptocurrency economy worldwide during that period. And that's not all. Chainalysis also found that Africa leads the world in the share of overall crypto transaction volume coming from peer-to-peer, an indication that African consumers in crypto-unfriendly jurisdictions are increasingly finding workarounds to explicit and implicit bans.
+
+![Peer-to-peer share of all transaction volume by country](https://storage.googleapis.com/fonbnk-blog-images/ca115c3c-879d-498b-accf-abdacbe084fa.png)
+
+Alongside the overall growth in cryptocurrency trading and transactions across Africa, the last 12 months have seen an accelerated pace of activity across the continent from blockchain networks/protocols, venture capital firms, grant funders, governments and more.
+
+## Blockchain networks/protocols
+
+It seems like every day now, leading blockchain networks are announcing new Africa-focused initiatives. Ethereum, Cardano, **Stellar**, Celo and others seem to be actively jockeying for position in the race to build and mold Africa's emerging Web3 economy in the last twelve months alone.
+
+The Ethereum Foundation committed resources to an [insurance program with over 6 million farmers](https://cointelegraph.com/news/etherisc-onboards-17k-kenyan-farmers-covered-by-blockchain-based-crop-insurance) in Kenya.
+
+The Stellar Development Foundation announced several initiatives [including](https://www.stellar.org/press-releases/dfs-lab-and-stellar-development-foundation-launch-second-blockchain-bootcamp-for-african-startups) a partnership with African unicorn Flutterwave to [launch](https://stellar.org/press-releases/flutterwave-enables-new-europe-africa-payment-corridors-via-stellar?locale=en) new Europe-Africa remittance corridors, an [investment in a Nigerian remittance platform](https://cointelegraph.com/news/stellar-development-foundation-invests-15m-in-mexico-crypto-exchange), blockchain boot camps for African startups and a $30 million matching fund, which has already [invested](https://www.stellar.org/press-releases/dfs-lab-and-stellar-development-foundation-launch-second-blockchain-bootcamp-for-african-startups) in Afriex, an Africa-focused company with users across Nigeria, Ghana, Kenya and Uganda.
+
+The Celo Foundation [announced](https://bitcoinke.io/2021/10/the-celo-wave-4-grant-program/) some initiatives of its own, such as a collaboration with a Burkinabe startup to [launch](https://medium.com/celoorg/celo-and-duniapay-the-next-chapter-of-banking-in-west-africa-9825ef6ecf16) a stablecoin that tracks the value of the CFA franc, a partnership with Mercy Corps Ventures on a pilot in Kenya to [drive](https://www.mercycorps.org/press-room/releases/mercycorps-celo-pilot-kenya) financial inclusion among gig workers, [equity-free](https://bitcoinke.io/2021/10/the-celo-wave-4-grant-program/) [grants](https://bitcoinke.io/2021/10/the-celo-wave-4-grant-program/) to a number of African projects as part of its Wave IV Grant Program, support of various early-stage African companies via the Celocamp boot camp, and a Founders in Residence program that [saw](https://medium.com/celoorg/meet-the-inaugural-founder-in-residence-cohort-thats-building-on-celo-f3108ef835a8) Africa-focused founders comprise 40% of the first cohort.
+
+**_Related_**: ['We don't like our money': The story of the CFA and Bitcoin in Africa](https://cointelegraph.com/news/we-don-t-like-our-money-the-story-of-the-cfa-and-bitcoin-in-africa)
+
+And Cardano was busy across the continent as well. Cardano chief Charles Hoskinson [completed](https://iohk.io/en/blog/posts/2021/10/26/africa-is-where-the-tough-get-going/) a tour of African countries from South Africa to Egypt and [outlined](https://youtu.be/BelJzA4Ihdo) Cardano's vision for the continent, Cardano's Africa-focused commercial arm EMURGO Africa was [established](https://www.prnewswire.com/news-releases/emurgo-establishes-emurgo-africa-in-kenya-to-support-100-local-startups-within-3-years-301392535.html) in Kenya with plans to invest $100 million in over 100 pre-seed blockchain startups within three years, EMURGO Africa announced investments in Adanian Labs and Adaverse, and Cardano announced a partnership with Kenya's Pezesha to build a “peer-to-peer financial operating system.”
+
+![Blockchain network activity in Africa](https://storage.googleapis.com/fonbnk-blog-images/3f2cfac6-9e8a-4022-bd16-cc1790990e3c.png)
+
+# Venture capital investment
+
+In addition to increased activity from blockchain protocols, the last twelve months also saw an uptick in fundraising by startups leveraging various blockchain protocols to help individuals, businesses and other entities participate in the Web3 economy.
+
+On/off-ramps that act as bridges between the traditional economy and the emerging Web3 economy were among those attracting investor attention. Fonbnk raised an oversubscribed seed round to build the easiest way for millions of Africans to access digital assets — simply by using prepaid airtime. And Canza Finance, an onramp powered by a network of physical agents, also raised funding recently.
+
+Exchanges and wallets that allow users to buy and sell cryptocurrencies also experienced increased fundraising over the last twelve months. Examples include VALR ($50 million Series B), Cowrie Exchange, Yellow Card, VIBRA (Africa Blockchain Lab), Busha, OVEX, Ejara, Bitmama and Revix.
+
+Infrastructure providers that make it easy for others to build crypto products also attracted investor attention. Among them were LazerPay, KotaniPay, Payourse, Flux, Emtech and others.
+
+Similarly, blockchain-enabled services that leverage blockchain technology across a variety of use cases also received their fair share of venture capital funding during the last twelve months. Examples here include fundraising rounds by Pravica, HouseAfrica, KappaPay, SunExchange, Chekkit, OneWattSolar, Seso Global and others.
+
+And lending-related services weren't to be left out with the likes of Goldfinch, NFTfi and others also raising risk capital over the last year.
+
+Finally, studios, super apps and other platforms with broad Web3 missions also caught the eyes of global investors over the last twelve months. See fundraises by Nestcoin, Africa Blockchain Center and Jambo as among the key examples here.
+
+**Related**: [Venture capital vs. crypto, blockchain, DAOs and Web3](https://cointelegraph.com/news/adapt-or-die-venture-capital-vs-crypto-blockchain-daos-and-web-3-0)
+
+In addition to the Web3-focused players above, some startups in other sectors also announced their intent to use proceeds from recent fundraises to deploy or explore Web3 related projects. For example, Carry1st, an African mobile gaming publisher, identified that “gaming content [is increasingly starting] to integrate with NFTs and cryptocurrencies,” [according](https://techcrunch.com/2022/01/19/a16z-avenir-and-google-back-south-african-mobile-games-publisher-carry1st-in-20m-round/) to its CEO and disclosed that it will, therefore, use part of the capital from its recent fundraising round to explore Web3 play-to-earn gaming.
+
+Another example is African fintech unicorn Chipper Cash, which recently closed a significant fundraising round that brought global cryptocurrency derivatives exchange FTX on board as an investor. FTX's CEO, Samuel Bankman-Fried [stated](https://techcrunch.com/2021/11/01/chipper-cash-gets-2b-valuation-with-150m-extension-round-led-by-ftx/) that part of the goal of FTX's investment in Chipper Cash is to “accelerate the adoption of crypto within Africa and beyond.”
+
+Based on the recent fundraising activity explored above, coupled with broader market trends, it's clear that exciting times lie ahead for Web3 founders and funders across the continent.
+
+# Partnerships and grants
+
+But blockchain networks and venture capital investors aren't the only ones attracted to the opportunity to shape Africa's emerging Web3 economy. Various NGOs are also eager to explore the opportunity Web3 presents for impact across the continent.
+
+For example, Mercy Corps, a not-for-profit humanitarian organization, recently [launched](https://www.mercycorps.org/press-room/releases/crypto-for-good-fund) a $1 million Crypto for Good fund to support blockchain-based projects that promote financial inclusion in Africa and other emerging markets. Similarly, the UNICEF Innovation Fund, a financial vehicle of the United Nations that's focused on technology for the world's next billion users, is [making](https://www.unicefinnovationfund.org/apply/blockchain-startups) equity-free cryptocurrency investments of up to $100,000 in startups across Africa (and other UNICEF programme countries) that develop blockchain-based solutions which “have the potential to benefit humanity.”
+
+Even former Twitter CEO [Jack Dorsey](https://cointelegraph.com/top-people-in-crypto-and-blockchain-2022/jack-dorsey) and global rap superstar Jay-Z [got](https://cointelegraph.com/news/jack-dorsey-plans-to-step-down-as-twitter-ceo-report) in on the action over the last twelve months. They established the Bitcoin Trust Fund, a 500 Bitcoin ([BTC](https://cointelegraph.com/bitcoin-price)) vehicle, and [appointed](https://africa.businessinsider.com/local/leaders/meet-the-4-africans-that-twitters-jack-dorsey-appointed-to-oversee-his-bitcoin-trust/7gw9xey) four Africans to its board to help define how the fund will be administered — presumably, this will include a significant focus on the African continent.
+
+Aside from grant funding, a variety of other indicators also point to the traction Web3 is experiencing across the continent. For example, Quidax became the first African cryptocurrency exchange to be listed on CoinMarketCap, arguably the leading authority of cryptocurrency data worldwide. And, in addition to its investment in Chipper Cash, cryptocurrency derivatives exchange FTX also [announced](https://azafinance.com/aza-ftx-partnership) a partnership with AZA Finance to much fanfare to build infrastructure connecting African markets to the global Web3 economy and more.
+
+## African governments and the Web3 economy
+
+While the potential impacts of corporate partnerships, NGOs, venture capitalists and Blockchain protocols aren't to be downplayed, the government remains an important actor that can stimulate or impede the emergence of Africa's Web3 economy. So far, however, governments across the continent seem to generally view cryptocurrencies with a healthy dose of skepticism.
+
+The Nigerian government is one example. In February 2021, the country's central bank sent out a memo — an act that created quite a bit of chaos in the country and undoubtedly drove users underground, away from formal cryptocurrency exchanges and into peer-to-peer transactions — [noting](https://www.cbn.gov.ng/out/2021/ccd/letter%20on%20crypto.pdf):
+
+> "Dealing in cryptocurrencies or facilitating payments to cryptocurrency exchanges is prohibited" for regulated financial institutions under its purview. The Central Bank of Nigeria further directed financial institutions to “identify persons and/or entities transacting in [cryptocurrency] … and ensure that such accounts are closed immediately.”
+> 
+> _Nigerian central bank_
+
+While Nigeria is illustrative, it's hardly unique. Indeed, [according](https://tile.loc.gov/storage-services/service/ll/llglrd/2021687419/2021687419.pdf) to the U.S. Library of Congress, as of November 2021, cryptocurrencies were banned, explicitly or implicitly, in approximately one-half of all countries in Africa.
+
+![Legal status of cryptocurrencies in Africa](https://storage.googleapis.com/fonbnk-blog-images/57d85398-8416-443f-af41-fa44a7a748d2.png)
+
+Worth [noting](https://www.brookings.edu/blog/africa-in-focus/2022/03/16/the-role-of-cryptocurrencies-in-sub-saharan-africa/) here are the words of acclaimed University of Nairobi professor of entrepreneurship Bitange Ndemo:
+
+> Blockchain technologies are the future, and any effort to ban them — or even excessively intervene in their operations — would meet the same fate as other state attempts to circumscribe behavior.
+> 
+> _Bitange Ndemo_
+
+Nevertheless, despite a somewhat hostile, or at least skeptical, attitude towards cryptocurrency trading and ownership in many countries across the continent, an increasing number of governments have been more open towards other applications of blockchain technology, particularly central bank digital currencies (CBDCs).
+
+![CBDCs' status in Africa, March 2022](https://storage.googleapis.com/fonbnk-blog-images/1524f0e1-c22a-4731-a714-ee93c8ec57b7.png)
+
+[Nigeria launched its e-Naira](https://cointelegraph.com/news/nigerian-president-to-unveil-enaira-central-bank-digital-currency) in October 2021, [South Africa is participating](https://cointelegraph.com/news/australia-singapore-malaysia-and-south-africa-launch-joint-cbdc-pilot) in the Bank for International Settlements' multi-CBDC experiment Project Dunbar, and Morocco, Tunisia, Ghana, Kenya, Rwanda, Madagascar, Mauritius and most recently, Uganda are all actively researching digital currencies backed by their respective central banks.
+
+As more governments across the continent explore blockchain-based solutions, even if just limited to CBDCs, one view is that they'll be increasingly likely to develop a more informed approach to the Web3 economy along with policy frameworks that are more in line with the needs of everyday users. While this remains to be seen, such optimism is welcome.
+
+## Web3 future for Africa
+
+Across the world, the new Web3 economy is giving birth to myriad opportunities and the implications for the African continent are massive. We're on a mission to leverage the latest blockchain technologies to provide real value to billions of unbanked, underbanked and underserved individuals across Africa and other emerging markets, and we're excited to see various blockchain protocols, startups, investors, grant funders and governments interested in doing the same. Given the current state of affairs and the pace of innovation across the continent, it's clear that the future of Web3 in Africa is bright.
+
+[This article is featured on Cointelegraph.](https://cointelegraph.com/news/here-s-what-s-happening-in-web3-across-africa)]]></content:encoded>
+      <guid isPermaLink="true">https://fonbnk.com/blog/heres-whats-happening-in-web3-across-africa</guid>
+    </item>
+  </channel>
+</rss>

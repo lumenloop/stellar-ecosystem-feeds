@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zkCross - Stellar Ecosystem</title>
+    <link>https://zkcross.network</link>
+    <description>Latest articles about zkCross in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/zkcross.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cross Power (xP): The Engine Behind zkCross Participation</title>
+      <link>https://zkcrossnetwork.medium.com/cross-power-xp-the-engine-behind-zkcross-participation-c3f512744928</link>
+      <pubDate>Fri, 11 Apr 2025 08:12:10 GMT</pubDate>
+      <author>zkCross Network</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*gkU5qFR9n-72I3EcU1UrHQ.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Cross Power (xP): The Engine Behind zkCross Participation
+
+![](https://cdn-images-1.medium.com/max/1024/1*gkU5qFR9n-72I3EcU1UrHQ.png)
+
+In most DeFi ecosystems, participation resets every time you close the tab.
+
+You trade, stake, test, and bridge and that contribution fades into a ledger that only counts transactions, not users. zkCross Network introduces Cross Power (xP) as a rewards system that remembers what platforms often ignore: you were here, and your presence mattered.
+
+Cross Power (xP) is not a token for speculation. It is the participation currency of the zkCross Network, designed to record, reward, and elevate every interaction made across the ecosystem. From staking to governance, from testing to liquidity routing, xP turns regular DeFi usage into something cumulative. It lives within the infrastructure not as an afterthought but as a layer that grows with you.
+
+This rewards system is already active across Stellar and Partisia through the zkCross Frontier Program. Whenever you trade, bridge, stake, or show up on zkCross, xP begins to track that path.
+
+### The Core of xP: A System That Measures Intent
+
+xP operates as a minted-on-use rewards mechanism. Each time you take part in the zkCross ecosystem, whether by executing swaps, connecting a wallet, or staking, you generate xP tokens via a built-in multiplier system. There are no dashboards to refresh or portals to manually claim from. xP runs quietly in the background, tallying what traditional ledgers overlook.
+
+It distinguishes between users who just visit and those who engage. It rewards interaction, not token holding. And because xP has no supply cap, it scales with real usage, minted and burned dynamically depending on how the network evolves.
+
+While $CROSSAI remains the core asset with a finite supply, xP is structured for flexibility. You do not need to own xP to benefit from it; you earn it by showing up.
+
+### One Program, All Connected
+
+The zkCross Frontier Program is the canvas for xP accumulation. Currently deployed across two chains, Stellar and Partisia, it brings together distinct user environments into one connected system.
+
+*   **On Stellar**, xP is tied to swaps, fiat onboarding, and token routing via zkCrossDEX.
+*   **On Partisia**, it tracks wallet connections, bridge usage, and other liquidity interactions (staking will be supported in a future phase).
+
+Even tools like MetaMask Snaps, Koala Wallet, or PartiWallet contribute to your xP score simply by being used. xP functions as a chain-agnostic layer that follows your actions across environments. Whether you’re bridging on one chain or trading on another, your xP grows. Passive involvement, like participating in a demo, joining a TG quiz, or giving feedback, will also be included in future updates.
+
+### Start earning xP
+
+There are multiple ways to accumulate xP, each designed to flow with natural DeFi interaction. You earn without needing to alter your path or complete quests only. Examples include:
+
+*   Performing on-chain or cross-chain swaps
+*   Bridging across chains
+*   Staking $CROSSAI and providing liquidity to DEX pools or bridges
+*   Interacting with connected wallets across zkCrossDEX
+*   Participating in demo days, submitting feedback, or completing community tasks
+
+Each action carries an xP multiplier. For instance, if you stake 100,000 $CROSSAI at 12% APY and the multiplier is 2x, you receive 24,000 xP over the year, credited as a reflection of your presence and value to the network.
+
+This process is seamless. There is no unlock required, no snapshot window, no form to fill. The interaction is the entry point.
+
+### What xP Unlocks: From Recognition to Utility
+
+xP is not about collecting badges. It is designed to have functional value inside zkCross Network:
+
+*   **Discount NFTs**: Redeem xP to mint fee-saving NFTs (Voyager, Explorer, Conqueror, Pioneer, Navigator), valid across zkCross tools.
+*   **Merchandise & Access**: Use xP to access branded drops, exclusive events, or private developer streams.
+*   **Governance**: Submit and vote on proposals by paying a governance tax in xP, ensuring that signal leads discussion.
+*   **Deflation Mechanics**: xP used in governance or minting is periodically burned to balance supply growth with system stability.
+
+Soon, xP tiers will be integrated into wallets. Frontier campaigns will scale rewards by xP, not just volume. Visibility will belong to users who actually engage, not those who arrived late but loud.
+
+**About zkCross Network**
+
+[zkCross Network](https://zkcross.network/) provides advanced chain abstraction infrastructure, enabling blockchains to streamline liquidity onboarding and user engagement.
+
+By tackling cross-chain liquidity challenges natively at the blockchain level, zkCross Network simplifies DeFi access. Our unique approach bridges emerging and established blockchain ecosystems, driving innovation and mass adoption in decentralised finance.
+
+Like Visa and Mastercard revolutionised the use of fiat by simplifying complex financial transactions, zkCross Network is transforming how you transact in DeFi.
+
+[Website](https://zkcross.network/) |[Twitter](https://twitter.com/zkCrossNetwork) | |[LinkedIn](https://www.linkedin.com/company/zkcrossnetwork/about/?viewAsMember=true) |[Telegram](https://t.me/zkcrossnetwork) |[Discord](https://discord.zkross.network/) |[Gitbook](https://docs.zkcross.network/)]]></content:encoded>
+      <guid isPermaLink="true">https://zkcrossnetwork.medium.com/cross-power-xp-the-engine-behind-zkcross-participation-c3f512744928</guid>
+    </item>
+    <item>
+      <title>Introducing Super Accounts on Stellar: Revolutionising Cross-Chain DeFi with zkCrossDEX and Chain…</title>
+      <link>https://zkcrossnetwork.medium.com/introducing-super-accounts-on-stellar-revolutionising-cross-chain-defi-with-zkcrossdex-and-chain-6424598b3e6b</link>
+      <pubDate>Wed, 16 Oct 2024 04:52:46 GMT</pubDate>
+      <author>zkCross Network</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*Srsq5LCiopphJ1EcAxPYBg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Introducing Super Accounts on Stellar: Revolutionising Cross-Chain DeFi with zkCrossDEX and Chain…
+
+### Introducing Super Accounts on Stellar: Revolutionising Cross-Chain DeFi with zkCrossDEX and Chain Abstraction
+
+![image](https://cdn-images-1.medium.com/max/1024/1*Srsq5LCiopphJ1EcAxPYBg.png)
+
+We are thrilled to announce a **game-changing innovation** that will redefine how users interact with decentralised finance (DeFi) and Web3 — **Super Accounts**. Powered by zkCross Network’s advanced **Chain Abstraction Layer**, Super Accounts offer an unparalleled solution for seamless cross-chain transactions, bringing simplicity and ease to the complexities of DeFi.
+
+As we prepare for the integration of **zkCrossDEX** on Stellar’s Soroban blockchain, this development marks not just a milestone, but a **transformative leap forward** in bridging fragmented blockchain ecosystems. Super Accounts unify user balances across both EVM and non-EVM chains, allowing for 1-click transactions without the need for manual swapping, bridging, or gas management. This revolutionary feature ensures that Web3 and DeFi interactions are as seamless as shopping online — setting a **new standard** in decentralised finance.
+
+In this article, we will delve into the technical intricacies of **zkCrossDEX** integration with Stellar, outline our phased development plan, and explain how **Super Accounts** will elevate Stellar’s DeFi ecosystem to unprecedented heights.
+
+### Table of Contents
+
+1.  Background: The Need for Cross-Chain Solutions
+2.  Why Stellar?
+3.  Our Involvement with Stellar Community Fund (SCF)
+4.  Super Accounts: The Future of Web3 Interaction
+
+*   Features and Benefits of Super Accounts
+
+5. Phase 1: Launching One-Click Cross-Chain Swap with Fiat-Onramp on Stellar
+
+*   Technical Overview
+*   Key Features
+*   Current Progress
+*   Future Development Phases
+
+6. Phase 2: AMM DEX and One-Click Token Launcher
+
+*   Phase 3: Cross-Chain Staking
+*   Phase 4: Cross-Chain Launchpad
+*   Phase 5: Perpetuals DEX with Market Order Book
+
+7. Technical Architecture
+8. Launch Plan and Milestones
+9. Conclusion
+10. Get Involved
+
+### Background: The Need for Cross-Chain Solutions
+
+As the DeFi landscape evolves, users are often constrained by the limitations of isolated blockchain ecosystems. The inability to seamlessly interact across different chains leads to fragmented liquidity, increased transaction costs, and a suboptimal user experience. zkCross Network is solving these challenges by providing a unified platform that enables cross-chain interactions without compromising on security or efficiency.
+
+### Why Stellar?
+
+Stellar is renowned for its fast, low-cost transactions and its robust infrastructure designed to connect financial systems worldwide. The Stellar blockchain offers unique capabilities such as:
+
+*   **Stellar Anchors:** Fiat onramps and offramps that bridge traditional finance with blockchain technology.
+*   **High Throughput:** Ability to handle thousands of transactions per second.
+*   **Low Fees:** Minimal transaction costs, making microtransactions feasible.
+
+By integrating with Stellar, zkCrossDEX can leverage these features to provide a more inclusive and efficient platform for users globally.
+
+### Our Involvement with Stellar Community Fund (SCF)
+
+Our journey with the [Stellar Community Fund (SCF)](https://communityfund.stellar.org/) began in March 2024, when we received a grant to support the development and deployment of the zkCrossDEX on Stellar. SCF has been instrumental in helping us build and grow, providing both financial backing and access to a vibrant community of developers and blockchain enthusiasts.
+
+Participating in the SCF program offered us the opportunity to deeply engage with the Stellar ecosystem. The grant enabled us to integrate **Stellar Anchors**, bridging fiat gateways with the Stellar blockchain to enhance cross-chain liquidity. The exposure gained through SCF allowed us to form invaluable connections with other innovators in the space, positioning zkCross for rapid growth and development.
+
+### Super Accounts: The Future of Web3 Interaction
+
+We are proud to announce the launch of **Super Accounts**, an innovation that will transform how users interact with Web3 and DeFi. Powered by zkCross’s **Chain Abstraction** technology, Super Accounts will allow users to **unify their balances across all EVM and Non-EVM chains**. For the first time, users will experience **1-click cross-chain transactions** without needing to manage multiple wallets, swap tokens, or worry about bridging assets.
+
+#### Features and Benefits of Super Accounts
+
+*   **Unified View of Assets**: Users will see all their assets across multiple chains in one unified dashboard.
+*   **1-Click Cross-Chain Transactions**: Instantly purchase any asset across multiple chains in one transaction, removing the need for manual bridging or swapping.
+*   **Gas Abstraction**: Users no longer need to hold multiple native tokens for gas fees. Transactions are executed seamlessly using any token from the unified balance.
+*   **Custom Spend Controls**: Users can pick and choose which assets to spend, with the flexibility to combine multiple assets across chains for one transaction.
+*   **Onboarding Powered by Account Abstraction**: Users can create an account using social sign-in (e.g., Gmail, Twitter) and receive crypto simply by sharing their email or social media ID — no need to manage multiple wallet addresses manually.
+
+With **Super Accounts**, zkCross is **upgrading Web3 and Crypto**, making it as simple as using a Web2 application. Whether you’re buying NFTs, trading assets, or engaging in DeFi protocols, Super Accounts ensure a frictionless, fully decentralised experience.
+
+### Phase 1: Launching One-Click Cross-Chain Swap Protocol with integrated Fiat-onramp on Stellar
+
+We are thrilled to announce that we have completed the development of the One-Click Cross-Chain swap with integrated Fiat-onramp for the zkCrossDEX on the Stellar blockchain. Our team has been internally testing the platform on the mainnet, and we are preparing for an imminent public launch.
+
+### Technical Overview
+
+The integration involves deploying our One-Click Cross-Chain swap protocol onto Stellar, allowing users to perform cross-chain swaps seamlessly and onboarding directly onto web3 using bank cards through the integrated Fiat-onramp. Key technical components include:
+
+*   **Arbitrary Messaging System:** Facilitates secure cross-chain communication for transaction validation and data transfer.
+*   **Unified Liquidity Access:** Aggregates liquidity from multiple chains to provide better rates and reduce slippage.
+*   **Decentralised Protocols:** zkCrossDEX is built on a foundation of decentralised protocols, ensuring that all transactions are secure, transparent, and resistant to censorship.
+
+### Key Features
+
+*   **Cross-Chain Swaps:** Instantaneous swapping of assets across supported blockchains.
+*   **Integrated Fiat-onramp:** Simplified liquidity and user-onboarding directly onto Web3 using bank cards.
+*   **User-Friendly Interface:** Intuitive UI/UX designed to cater to both novice and experienced users.
+*   **Security Audits:** Undergoing a comprehensive security audit by Halborn to ensure platform integrity.
+
+### Current Progress
+
+*   **Internal Testing:** Successfully executing cross-chain swaps on the mainnet within our team.
+*   **UI/UX Enhancements:** Finalising the user interface based on feedback to ensure a seamless user experience.
+*   **Security Audit:** Engaged Halborn for a full security review; the audit report will be published upon completion.
+
+### Future Development — Phased Launch Roadmap
+
+With Stellar Blockchain our main aim is to eliminate the complexities of DeFi while making user engagement as seamless as using Web2. Future phases of development will aim to integrate a Chain Abstraction Layer, Wallet Abstraction and Gas Abstraction as default technical foundations for the upcoming phases.
+
+*   **Chain Abstraction Layer:** Abstracts the underlying blockchain complexities, enabling seamless cross-chain interactions.
+*   **Wallet Abstraction:** Users can interact with multiple blockchains using a single wallet interface.
+*   **Gas Abstraction:** Eliminates the need for users to hold multiple native tokens for gas fees by enabling transactions with any supported token.
+
+To further enhance the capabilities of zkCrossDEX on Stellar and contribute to the DeFi ecosystem, we have outlined the following development phases:
+
+### Phase 2: AMM DEX and One-Click Token Launcher
+
+*   **AMM DEX Integration:** Develop a native Automated Market Maker (AMM) Decentralised Exchange (DEX) on Stellar, enabling liquidity providers to earn fees by contributing to liquidity pools.
+*   **One-Click Token Launcher:** Simplify the token creation process, allowing projects to launch their tokens on Stellar with minimal effort.
+
+### Phase 3: Cross-Chain Staking
+
+*   **Unified Staking Platform:** Enable users to stake assets across different chains from a single interface.
+*   **Reward Optimisation:** Implement algorithms to maximise staking rewards by automatically allocating assets to the most profitable staking opportunities.
+
+### Phase 4: Cross-Chain Launchpad
+
+*   **Project Incubation:** Provide a platform for new projects to raise funds and gain exposure across multiple blockchains.
+*   **Investor Access:** Offer users early access to promising projects, with streamlined participation processes.
+
+### Phase 5: Perpetuals DEX with Market Order Book
+
+*   **Advanced Trading Features:** Introduce perpetual futures contracts and a full-featured order book for sophisticated traders.
+*   **High-Speed Matching Engine:** Ensure low-latency trade execution to meet the demands of high-frequency trading strategies.
+
+This comprehensive plan aims to position Stellar at par with leading blockchains in the DeFi space, offering a wide array of financial services to a global audience.
+
+### Technical Architecture
+
+Our technical architecture is designed for scalability, security, and interoperability.
+
+*   **Modular Design:** Each component (swap engine, AMM, staking module) operates independently yet cohesively within the ecosystem.
+*   **Smart Contracts:** Leveraging Stellar’s smart contract capabilities to execute complex financial transactions securely.
+*   **Cross-Chain Bridges:** Utilising robust bridging solutions to enable asset transfers between Stellar and other blockchains.
+*   **Security Protocols:** Implementing multi-signature wallets, hardware security modules (HSMs), and rigorous code audits.
+
+### Launch Plan and Milestones
+
+To ensure a successful rollout, we have developed a strategic launch plan comprising several key milestones:
+
+1.  **UI/UX Finalisation**
+
+*   Complete the rectification of the user interface based on testing feedback.
+*   Status: Completed.
+
+**2. Demo Video Production**
+
+*   Create an in-depth demo showcasing platform features and functionality.
+*   Status: In production.
+
+**3. Community Engagement**
+
+*   Establish communication channels and begin messaging to the community.
+*   Status: Ongoing.
+
+**4. Security Audit Completion**
+
+*   Publish the Halborn audit report to demonstrate platform security.
+*   Status: In Progress.
+
+**5. Whitelist UI Development**
+
+*   Develop a user interface for whitelisting early adopters.
+*   Status: Nearing Completion.
+
+**6. Whitelist Launch**
+
+*   Open the whitelisting process for users to gain early access.
+*   Status: Upcoming.
+
+**7. Marketing Campaign Initiation**
+
+*   Roll out marketing efforts across social media, forums, and industry publications.
+*   Status: Planning phase.
+
+**8. User Engagement Programs**
+
+*   Launch quests, referral programs, and a whitelist leaderboard to incentivise user participation.
+*   Status: Under development.
+
+### Conclusion
+
+The integration of zkCrossDEX on Stellar represents a significant step forward in achieving a truly interoperable DeFi ecosystem. By addressing the challenges of cross-chain interactions, we aim to provide users with a seamless, secure, and efficient platform for all their DeFi needs.
+
+Our phased development approach ensures that we can deliver robust features incrementally while maintaining the highest standards of quality and security. We are committed to not only enhancing the Stellar ecosystem but also setting new benchmarks in the DeFi space.
+
+### Get Involved
+
+We invite developers, users, and stakeholders to join us on this journey.
+
+*   **Developers:** Build cross-chain DApps using our upcoming SDK and provide feedback.
+*   **Users:** Participate in our upcoming whitelisting process to gain early access.
+*   **Community Members:** Follow our progress on social media and participate in discussions.
+
+**For more information:**
+
+*   Visit our [SCF Project Page](https://communityfund.stellar.org/project/stellar-zkcrossdex)
+*   Explore our[Official Website](https://zkcross.network)
+*   Join our [Telegram Community](https://t.me/MyzkCrossNetwork)
+*   Follow us on[Twitter](https://twitter.com/zkCrossNetwork)
+
+By bringing zkCrossDEX to Stellar, we are not just launching a product — we are contributing to the evolution of decentralised finance. Together, let’s build a future where financial systems are open, interconnected, and accessible to all.]]></content:encoded>
+      <guid isPermaLink="true">https://zkcrossnetwork.medium.com/introducing-super-accounts-on-stellar-revolutionising-cross-chain-defi-with-zkcrossdex-and-chain-6424598b3e6b</guid>
+    </item>
+    <item>
+      <title>zkCross Network Raises the Bar with Oversubscribed Seed, Public Rounds</title>
+      <link>https://zkcrossnetwork.medium.com/zkcross-network-raises-the-bar-with-oversubscribed-seed-public-rounds-990a6d99e261</link>
+      <pubDate>Fri, 06 Sep 2024 11:13:46 GMT</pubDate>
+      <author>zkCross Network</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*8UHTt3-90ScUZV1KnTJERg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# zkCross Network Raises the Bar with Oversubscribed Seed, Public Rounds
+
+![](https://cdn-images-1.medium.com/max/1024/1*8UHTt3-90ScUZV1KnTJERg.png)
+
+Big News for the $CROSS Fam!
+
+We’re excited to share some thrilling developments as we move closer to our Public Sale. The momentum is building fast, and here’s where we stand:
+
+**1. Oversubscribed Strategic Round**
+
+We’ve successfully closed our Strategic Round with overwhelming support from leading investors like [**Blockchain Founders Fund**](https://twitter.com/BlockchainFF), [**NxGen**](https://twitter.com/nxgen_xyz), [**Master Ventures**](https://mvglobal.io/), [**Foundership**](https://foundershiphq.com/), [**MarsDAO**](https://daomars.com/), [**Mario Nawfal**](https://x.com/MarioNawfal), [**International Blockchain Consulting**](https://www.ibcgroup.io/), [**Green Light Equity**](https://gleq.eu/) and [**Cointelegraph**](https://cointelegraph.com/) have thrown their weight behind zkCross Network, recognising the potential to shake up the DeFi landscape.
+
+**2. Upcoming Public Sale — Get Ready!**
+
+The hype around our $2.6M Community Public Sale at $52.5M valuation is real. Interest is skyrocketing, and the public rounds are already fully subscribed across top IDO platforms like [Paid Network,](https://paid.network/zkCrossNetwork) [OpenPad](https://openpad.io/), [MOONSTARTER](https://moonstarter.net/), [BRC Starter](https://www.brcstarter.io/), and [Synapse Network](https://synapse.network/).
+
+This is your chance to be part of something huge, don’t miss this DeFi alpha!
+
+**3. Private Round — Filling up fast!**
+
+Our Private Sale round is currently in full swing, with allocations filling up fast, this is a prime opportunity for investors looking to get involved before our public sale. As we prepare for the final stages of our fundraising, we invite you to seize this chance to participate in zkCross Network’s journey to transform the DeFi landscape.
+
+### What Sets zkCross Network Apart ?
+
+Backed by **ICP**, **Partisia**, **Stellar**, and other blockchain giants, zkCross Network is on a mission to redefine how liquidity flows across blockchains. With advanced Chain Abstraction infrastructure, we’re simplifying interacting with DeFi making it easier for everyone — from crypto novices to seasoned traders. Our crowdfunding campaign with [**Paid Network’s Ignition launchpad**](https://paid.network/zkCrossNetwork) solidifies zkCross Network’s credibility, helping us win over industry giants and community believers alike.
+
+**Abstracting the Complexities of Defi through a Robust Infrastructure**
+
+Navigating the complexities in Defi can be daunting. From managing multiple blockchains to ensuring secure and efficient transactions, the challenges are significant. But there’s a way to simplify these complexities — an infrastructure that abstracts the intricacies of DeFi, making it more accessible and manageable. Here’s how it works:
+
+### 1. Messaging System
+
+The messaging system is key for smooth communication between different blockchains. Each blockchain has its own rules and processes. This system acts as a bridge, letting smart contracts on various chains work together safely and efficiently. It helps in cross-chain transactions, creating a seamless DeFi experience. Advanced cryptography keeps messages secure and authentic, cutting down on tampering or loss. The system is also built to handle lots of transactions, keeping things fast and reliable as the network grows.
+
+### 2. Liquidity Aggregation
+
+Liquidity aggregation brings together resources from different sources, like various blockchains and liquidity pools. This provides the best trading rates and reduces slippage. It’s crucial for smooth cross-chain transactions, which often suffer from fragmented liquidity. By combining resources, it ensures you get the best prices and minimal slippage. It also makes swapping assets between blockchains easy and efficient. Plus, it rewards users for adding liquidity, which strengthens the ecosystem.
+
+### 3. Decentralised Protocols
+
+Decentralised protocols are the foundation of zkCross Network. They enable interactions across blockchains without needing a central authority. Smart contracts handle all transactions, cutting out intermediaries and reducing fraud. Anyone can join the network without needing approval, which fosters innovation. Security is tight, thanks to cryptographic proofs and decentralised consensus, protecting your funds and data.
+
+These elements work together to make zkCross Network a powerful and integrated solution for cross-chain DeFi.
+
+### Solving Fragmented DeFi with zkCross Network
+
+Currently, 84.95% of DeFi value is concentrated in the top six blockchains, leaving liquidity and trading volume as major challenges. zkCross Network addresses this issue by providing DeFi chain abstraction infrastructure, unifying cross-chain DeFi and enhancing liquidity and user engagement.
+
+At zkCross Network, we have engineered robust infrastructure designed to unify cross-chain DeFi operations. Our network serves as the central hub, bringing together key components like messaging systems, liquidity aggregation, and decentralised protocols. This infrastructure integration enables the development of comprehensive and user-friendly cross-chain decentralised applications.
+
+**For developers**
+
+zkCross Network helps developers accelerate cross-chain development by offering a unified infrastructure, equipped with comprehensive SDK and enhanced security. Enabling quick and efficient integration of cross-chain functionalities and fiat gateway capabilities into their dApps.
+
+**For users**
+
+zkCross Network simplifies DeFi with a secure and one-click cross-chain experience with user-friendly platform, integrated fiat gateway, and efficient liquidity management, making DeFi easy and accessible.
+
+### zkCross Network’s Chain Abstraction and its Benefits
+
+* **Wallet Abstraction:** Simplifies management by allowing users to interact with DeFi protocols using Web2 credentials like Gmail or social media accounts. Meanwhile zkCross Network handles wallet management behind the scenes.
+* **Gas Abstraction:** Automates gas fee management, eliminating the need for users to worry about fluctuating fees and calculations.
+* **Universal Liquidity:** Provides seamless cross-chain transactions and unified balances across any blockchain through Modular Nodes and a Decentralised Messaging Network.
+* **Fiat On-Ramp:** Integrates with Transak to enable easy fiat-to-crypto conversion with a bank card, simplifying access to DeFi assets.
+* **Enhanced User Experience:** Abstracts blockchain complexities, making interaction with dApps and digital asset management as easy as using modern web browsers.
+* **zkCross SDK for Developers:** Offers a toolkit to streamline the integration of cross-chain functionality into DApps, improving interoperability and blockchain connectivity.
+
+### The Road Ahead
+
+We’re excited to share the progress of zkCross Network and the roadmap that lies ahead.
+
+![](https://cdn-images-1.medium.com/max/1024/0*dNrxgzXrzzzVGKBM)
+
+**Phase 1: Non-EVM Blockchains**  
+We’ve successfully launched zkCross Network on Hive, Tezos, and Partisia blockchains. During this phase, we implemented key features like gas abstraction, one-click swaps, and fiat on-ramps, reaching over 20,000 users.
+
+**Phase 2: EVM Blockchains Expansion**  
+We are now transitioning to expanding to major EVM blockchains such as Arbitrum, Avalanche, BNB, Optimism, Polygon, Blast, and Base. This phase will enhance user experience through account and chain abstraction. Our goal is to grow our user base to over 90,000.
+
+**Phase 3: Community Growth & Engagement**  
+Following our EVM expansion, this phase will kick off with engaging community initiatives. We will launch a clicker game, quests, and referral programs on Telegram, along with the introduction of the TON zkCross Exchange. This phase aims to increase our user base to 170,000+.
+
+**Phase 4: Bitcoin Ecosystem Expansion**  
+We will integrate the Bitcoin ecosystem by enabling one-click Bitcoin token purchases with both EVM and non-EVM tokens. This phase will also include integrating fiat on-ramps and chain abstraction into the Bitcoin network, targeting 370,000+ users.
+
+**Phase 5: Real-World Asset (RWA) Integration**  
+In this phase, we will focus on integrating Real-World Assets (RWAs) into our platform. We plan to launch RWA offerings with DeFi chain abstraction and open gateways for traditional assets in DeFi, aiming for 600,000+ users.
+
+**Phase 6: Community Blockchain Expansion**
+
+Finally, in Phase 6, we will deploy and reward efforts to expand zkCross Network across various blockchains. This will be governed by zkCrossDAO and is expected to bring our total user base to around 950,000.
+
+Stay tuned for these exciting developments as we continue to advance zkCross Network’s capabilities and community engagement!
+
+**About zkCross Network**
+
+[zkCross Network](https://zkcross.network/) provides advanced chain abstraction infrastructure, enabling blockchains to streamline liquidity onboarding and user engagement.
+
+By tackling cross-chain liquidity challenges natively at the blockchain level, zkCross Network simplifies DeFi access. Our unique approach bridges emerging and established blockchain ecosystems, driving innovation and mass adoption in decentralised finance.
+
+Like Visa and Mastercard revolutionised the use of fiat by simplifying complex financial transactions, zkCross Network is transforming how you transact in DeFi.
+
+[Website](https://zkcross.network/) |[Twitter](https://twitter.com/zkCrossNetwork) | |[LinkedIn](https://www.linkedin.com/company/zkcrossnetwork/about/?viewAsMember=true) |[Telegram](https://t.me/zkcrossnetwork) |[Discord](https://discord.zkross.network) |[Gitbook](https://docs.zkcross.network)]]></content:encoded>
+      <guid isPermaLink="true">https://zkcrossnetwork.medium.com/zkcross-network-raises-the-bar-with-oversubscribed-seed-public-rounds-990a6d99e261</guid>
+    </item>
+  </channel>
+</rss>

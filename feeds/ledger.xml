@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ledger - Stellar Ecosystem</title>
+    <link>https://ledger.com</link>
+    <description>Latest articles about Ledger in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/ledger.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Buying Crypto Through Ledger Wallet</title>
+      <link>https://ledger.com/academy/benefits-of-buying-crypto-through-ledger-live</link>
+      <enclosure url="https://www.ledger.com/wp-content/uploads/2023/01/10_Ledger-Ecosystem_Cover_Purple-1024x432.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Disclaimer:** this service is operated by third-party providers. Availability is subject to licensing applicable to our partners in each jurisdiction. If you encounter any transaction-related issues, please reach out to the provider.
+
+**KEY TAKEAWAYS:**
+— Buying crypto can be difficult; buying it on a centralized exchange means using a custodial wallet, and decentralized exchanges don't accept fiat currencies.
+
+— Ledger Wallet solves this problem, letting you buy crypto with either fiat or cryptocurrencies while allowing you full custody over your assets.
+
+— Ledger Wallet's Buy Section is like an aggregator of buy providers. Using these providers, you can buy crypto from the security of the Ledger ecosystem and its security model.
+
+Buying crypto: It's usually the first thing any crypto beginner will do. But in fact, it's not always as simple as it looks. The terms of buying crypto differs from platform to platform; including decentralized options, centralized options and a choice of which assets you want to buy cryptocurrencies with. The place you choose to buy crypto from may even influence the security of your assets.
+
+If you're buying your first crypto, the last thing you want is to lose it immediately. So understanding how platforms let you buy crypto in the first place is very important. Whether your focus is on ease-of-use or security, the Ledger Ecosystem has a perfect option to allow you to buy crypto.
+
+But before we get there, let's tackle the basics. In fact, how does buying crypto work exactly?
+
+## Buying Crypto
+
+If you want to buy crypto, you'll have to use a specific platform for that purpose. There are a few ways to do so, and each method has its advantages and disadvantages. Let's see the options you have:
+
+### On and Off Ramps
+
+Buying crypto from fiat currency, such as dollars or euros, involves using a crypto on-ramp service. To explain, on-ramp services allow you to buy crypto with your fiat currency—meaning you could buy bitcoin with your Euros, for example. Conversely, off-ramps let you sell crypto in return for fiat currencies.
+
+Today, centralized exchanges (CEXs) are the most popular [on and off-ramps](https://www.ledger.com/academy/crypto-on-and-off-ramps-say-what), since they are convenient and widely accessible. You're probably familiar with plenty of centralized exchanges that offer this option, such as Coinbase, Binance and Kraken. However, using a centralized exchange to on-ramp also comes with some drawbacks.
+
+To explain, using a CEX also means using their custodial wallet. Much like a bank holds your money and gives you access to it, a CEX retains ownership over the account you store your crypto in. That's because they don't allow you to manage your own private keys—keeping that benefit for themselves. In this case, each time you want access to your own funds, you must ask the CEXs permission. Like a bank, you need to wait until they process and approve your request. Simply put: You are not in control of your own funds.
+
+&nbsp;If there's any outage or issue with the exchange, this means that your cryptocurrencies are unreachable. You can imagine how catastrophic this could be. For instance, what if an exchange filed for bankruptcy? It's not the first time it has happened, with multiple popular exchanges having similar problems in the past. Any crypto veteran shudders at the mention of Mt. Gox, or even Celsius.&nbsp;&nbsp;&nbsp;
+
+### Swaps on Decentralized Exchanges
+
+Hearing that, you might think that your best option may be to use a decentralized exchange to buy crypto instead. Indeed, with this method, you can use your own [non-custodial wallet](https://www.ledger.com/academy/glossary/non-custodial-wallet), and that allows you to retain ownership of the crypto you buy.
+
+However, most decentralized exchanges don't allow you to buy crypto with fiat currencies such as dollars or euros. They expect you to buy crypto with other cryptocurrencies. This is more commonly known as a swap, rather than buying crypto, but it does allow you full custody over your assets.
+
+So, you may be wondering how you on-ramp while keeping custody of your crypto.&nbsp; Luckily, there's a simple answer: Ledger Wallet.
+
+## Buying Crypto in Ledger Wallet™
+
+As the Web3 app for self-custodians, Ledger Wallet™ offers you all the services you need to manage and secure your crypto & NFTs without forfeiting custody of your keys. Among them, the Buy feature enables you to purchase more than 80+ coins and to receive them right to the safety of your Ledger.
+
+Currently, Ledger works with a number of buy providers covering many different countries and payment methods. Using these you can buy [Bitcoin](https://www.ledger.com/buy-bitcoin/), [Ethereum](https://www.ledger.com/buy/ethereum/), [USDT](https://www.ledger.com/buy/usdt/), [Polkadot](https://www.ledger.com/buy/polkadot), [Litecoin](https://www.ledger.com/buy/litecoin), [Stellar](https://www.ledger.com/buy/stellar/), [Chainlink](https://www.ledger.com/buy/chainlink), [MakerDao](https://www.ledger.com/buy/makerdao), [Dogecoin](https://www.ledger.com/buy/dogecoin/), [Uniswap](https://www.ledger.com/buy/uniswap), and many more with your fiat currency, such as dollars or euros.
+
+The Buy feature doesn't just allow you to buy crypto, it also offers tools to help you make informed crypto purchases. To explain, you can compare quotes and prices from different providers, such as [Moonpay](https://www.moonpay.com/), Ramp, and Coinify, directly within Ledger Wallet. Much like an aggregator of buy providers, the Ledger Wallet Buy feature gives you the information you need to find the best deals.
+
+![Image](https://ledger-wp-website-s3-prd.ledger.com/uploads/2025/12/S6D.png)
+
+So now you know what the buy feature is for, let's see why it's so effective.
+
+## Why Buy Crypto in Ledger Wallet
+
+The Ledger Wallet Buy feature has countless advantages but here are the main benefits you should know about:
+
+### Ease-of Use and Flexibility
+
+When you buy crypto with the Buy feature, you will be able to manage it with your Ledger signer immediately. Instead of having to send your crypto from your exchange to the address that corresponds to your device, it's all automatic. Plus, Ledger Wallet acts like an aggregator for buy providers, allowing you to compare and then pick the best option for you. This can save you time and complexity when trying to watch prices on multiple platforms.
+
+### Self-Custody
+
+Another key benefit of buying crypto through Ledger Wallet is retaining custody of your private keys. While centralized exchanges do not give you true ownership over your funds, non-custodial wallets are only managed by their owners. Ledger signers are non-custodial, meaning you're in charge.
+
+When you buy crypto via Ledger Wallet, it will arrive in the account protected by your hardware wallet immediately—in that same wallet you control the keys of. You'll immediately have full ownership over your own crypto assets, rather than needing to leave them in the care of an exchange — even briefly.
+
+### Safe Access To Buy Providers
+
+Next, Ledger Wallet acts as a secure gateway to blockchain apps and platforms, including on and off-ramps. This means you can be confident you are accessing the official platform from whichever buy provider you choose.
+
+Not only that, every app and service available in Ledger Wallet benefits from clear-signing plugins. That means that you can understand the full details of any transaction before signing it—in human readable language.
+
+To clarify, [blind signing](https://www.ledger.com/academy/cryptos-greatest-weakness-blind-signing-explained)—meaning signing a transaction without being able to read its details— is one of the easiest ways to lose your crypto. So, to combat this attack vector, any app available via Ledger Wallet will clearly explain the details of each transaction. This helps you work out which transactions to accept and which you didn't mean to make, greatly reducing your chances of making mistakes.
+
+### Hardware Security
+
+Finally, using Ledger Wallet to buy crypto also means you benefit from the security of your ledger signer. For example, the [secure screen](https://www.ledger.com/academy/topics/ledgersolutions/ledger-wallets-secure-screen-security-model) allows you to verify the recipient address of a transaction to help you avoid being misled by any potential malware on your laptop or smartphone. Then, every transaction you make must be confirmed on the physical device using a unique PIN code. From there, your Ledger signer signs transactions offline, using the private key it stores in an isolated environment: The secure element.&nbsp; Then, the Ledger OS allows you to sign transactions offline and keep your apps separated from each other.
+
+Together, these features protect your funds from hacks. In fact, Ledger has never been hacked—a testament to these security features.
+
+## Ledger Wallet: The Easy and Secure Option For Buying Crypto
+
+So, if you want to buy crypto from fiat, or even swap one cryptocurrency to another, there are countless options on multiple different platforms. Luckily, you can access all of that and more through the Ledger Ecosystem.
+
+Firstly, it's&nbsp; extremely secure, offering users a way to safely access many different buy providers. Not only that, it works with these buy providers to guarantee that every transaction is understandable, benefiting from the Ledger Wallet clear signing plug-in.
+
+Most importantly though, buying crypto through the Ledger Ecosystem also allows you to on-ramp without forfeiting ownership of your assets. Plus, all of that while benefiting from the underlying security model of all Ledger signers.
+
+So what are you waiting for? Ledger Wallet offers the most secure and user-friendly way to interact with web3 while keeping your assets safe and in your possession. Put simply, with Ledger, the crypto you buy belongs to you—and stays that way. Because if not self-custody, why crypto?]]></content:encoded>
+      <guid isPermaLink="true">https://ledger.com/academy/benefits-of-buying-crypto-through-ledger-live</guid>
+    </item>
+  </channel>
+</rss>

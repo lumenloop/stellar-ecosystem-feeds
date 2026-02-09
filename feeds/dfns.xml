@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DFNS - Stellar Ecosystem</title>
+    <link>https://dfns.co</link>
+    <description>Latest articles about DFNS in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/dfns.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introducing BYOABI</title>
+      <link>https://dfns.co/article/introducing-byoabi</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Chris Sutton</author>
+      <enclosure url="https://cdn.prod.website-files.com/665eef502b52c00091a2a467/697769e6c96282ed0a3a3ec2_Annoucement%20feature%20%20%231.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Introducing BYOABI
+
+**Announcing BYOABI, making smart contracts first-class citizens in Dfns.**
+
+We’re introducing Bring Your Own ABI (BYOABI), a new capability that allows Dfns clients to import smart contracts schemas and interact with them directly from Dfns as a central operating system for onchain activity. An ABI (Application Binary Interface) is the contract’s public interface: it describes which functions exist, what parameters they take, and how to encode calls so wallets or apps can interact with the contract correctly.
+
+With BYOABI, wallets managed in Dfns can call smart contract functions natively. This includes actions such as minting, burning, pausing, transferring tokens, and managing the full lifecycle of onchain assets, as well as any other function exposed by a contract’s ABI. The management and registration of contract schemas is handled in the Dashboard, while invoking smart contract functions using the ABI can already be done via API today. All interactions inherit the same security model, governance controls, and auditability that apply to every transaction within a Dfns organization.
+
+This capability upgrades Dfns from a system that primarily managed wallets and transactions to one that now operates smart contracts, safely and at scale.
+
+## BYOABI is extending wallets to token operations
+
+Smart contracts define how blockchains work. They control how tokens behave, how assets are issued and settled, and how onchain governance is enforced. Yet for most organizations, using those contracts is still complex and limited to a small group of engineers.
+
+Today, teams rely on a mix of tools: block explorers for one-off actions, custom scripts built on blockchain libraries, ABIs copied by hand, and calldata encoded manually. Engineers execute transactions, while operations, treasury, risk, and compliance teams remain outside the process. Approvals and governance happen offchain, disconnected from execution. This creates blind spots, friction, and operational risk. As more financial institutions move onchain, this approach does not scale.
+
+BYOABI exists to close that gap and to bring Dfns to feature parity with tokenization engines offered by other custody and infrastructure providers. It allows Dfns wallets to interact with smart contracts in a structured, governed, and auditable way, without requiring customers to build custom tooling or rely on external interfaces. However, BYOABI is intentionally limited in scope.
+
+Dfns remains agnostic to the smart contract itself. BYOABI simply enables wallets to safely perform explicit contract actions (e.g., mint, burn, pause, calls functions) under strong security and governance controls. Contract logic stays external and remains owned by the customer or their tokenization provider. In this way, BYOABI reinforces Dfns’ role as the secure execution and control layer. It brings smart contract interactions into the same governance and audit model as wallets and transactions, while leaving business logic and managed services to the platforms best positioned to deliver them.
+
+## The new smart contract interactions BYOABI enables
+
+BYOABI lets customers register a smart contract in Dfns using its onchain address and ABI. Once registered, the contract becomes a first-class object in the organization, just like a wallet or a policy. In practice, BYOABI allows teams to:
+
+* Import and name smart contracts using their ABI and address
+* Automatically discover the contract's supported functions
+* Run read-only calls and state-changing transactions from Dfns wallets
+* Operate contracts through a native dashboard (API coming up)
+* [Soon] Apply policies, approvals, and permissions to specific contract actions
+
+The first release supports Ethereum and EVM-compatible networks. BYOABI is designed to be chain-agnostic, and any smart contract platform with a structured interface definition can be supported over time. We don't pick chains. We support how customers build.
+
+Onchain, a smart contract is deployed as bytecode at a public address. The ABI describes how to interact with that bytecode by defining the contract's functions and parameters in a human-readable way. With BYOABI, customers provide an ABI in JSON format through the Dfns UI or API. Dfns parses the ABI and generates a structured interaction model that is used consistently across the UI and APIs. Inputs are typed, validated server-side, and safely converted into onchain calls.
+
+BYOABI supports two interaction modes:
+
+1. **Read-only calls:** These calls read the onchain state without changing it. They do not require signing, are not broadcast to the network, and do not consume gas. They are typically used to read balances, ownership, configuration values, or contract metadata.
+2. **State-changing transactions:** These calls modify contract state. They are signed by a Dfns wallet, evaluated by the policy engine, broadcast to the network, and tracked through execution and confirmation. This is how teams mint tokens, pause contracts, update parameters, or trigger protocol logic.
+
+In both cases, teams no longer need to manually encode calldata or rely on external tools.
+
+### Uses cases that require token lifecycle management
+
+BYOABI enables teams to manage the full lifecycle of a token from a single control plane. Instead of relying on custom scripts or external tools, contract operations can be executed directly from Dfns, under the same policies and approval flows as any other transaction. Examples:
+
+* **Minting and burning supply:** Issuers can mint new tokens for issuance, redemption, or rebalancing, and burn tokens during redemptions or supply reductions. These actions are signed by Dfns wallets and governed by approval policies.
+* **Pausing and resuming transfers:** For tokens that support emergency controls, teams can pause transfers during incidents and resume them once resolved, with each action logged and auditable.
+* **Administrative and governance actions:** Contract owners can update parameters such as fees, limits, allowlists, or roles by calling the corresponding contract functions, without manually crafting transactions.
+* **Protocol-specific operations:** BYOABI exposes custom functions defined by the contract, such as upgrading modules, settling batches, distributing rewards, or triggering scheduled logic.
+
+These capabilities are especially important for stablecoins, tokenized assets, and internal settlement instruments, where execution must be controlled, traceable, and compliant. For example, a stablecoin issuer can restrict minting to a specific approval group, require multi-step validation for pauses, and keep a full audit trail of all administrative actions.
+
+Beyond tokens, the same model applies to broader smart contract operations. Teams can use BYOABI for protocol administration, treasury management, participation in onchain governance, and the day-to-day operation of complex contract-based systems, all from within Dfns.
+
+## Security and governance built into execution
+
+A central design principle of BYOABI is that smart contract calls should be governed in the same way as transactions. Contract registration, updates, and function invocations integrate directly with Dfns' policies and authorization model. This allows organizations to enforce rules such as:
+
+* Approval requirements for importing or deleting contracts
+* Multi-party approvals for sensitive or high-risk operations
+* Full audit trails for every interaction
+
+Next up: Restrictions on which wallets, roles, or environments can call specific functions thanks to ABI-aware policies and permissions.
+
+Smart contracts and their ABIs are managed through the same change-request model used across Dfns, ensuring visibility, traceability, and operational control. Over time, this will expand to include more granular permissions, function-level policies, and dedicated smart contract security controls.
+
+## Next: More networks, more security, more compliance
+
+The first BYOABI release focuses on Ethereum and EVM-compatible networks. The underlying design is built to support other smart-contract platforms over time, including ecosystems such as Solana, Stellar, Canton, and similar networks. Many non-EVM chains expose comparable contract or program interfaces, and BYOABI is designed to support them through appropriate abstractions and security models.
+
+Future versions will extend the feature set, including support for more complex contract and program types, stronger policy controls, and deeper security and permissioning capabilities. Smart contracts are now production infrastructure. With BYOABI, Dfns brings wallets, smart contracts, governance, and security into a single system. It allows organizations to move beyond simply signing transactions and toward operating and governing onchain systems in a controlled and reliable way. This is a foundational step toward making Dfns the operating system for institutional onchain activity.
+
+Learn more about BYOABI and get started: [app.dfns.io/get-started](https://app.dfns.io/get-started)]]></content:encoded>
+      <guid isPermaLink="true">https://dfns.co/article/introducing-byoabi</guid>
+    </item>
+    <item>
+      <title>Dfns Certified ISO 27001, ISO 27017 and ISO 27018 by KPMG and MSECB</title>
+      <link>https://dfns.co/article/dfns-certified-iso-27001-iso-27017-and-iso-27018-by-kpmg-and-msecb</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate>
+      <author>Thibault de Lachèze-Murel</author>
+      <enclosure url="https://cdn.prod.website-files.com/665eef502b52c00091a2a467/68a5b65a0e329805eb8dd7b9_ISO%2027001%2C%2027017%20and%2027018%20-(Compressify.io).jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Dfns Certified ISO 27001, ISO 27017 and ISO 27018 by KPMG and MSECB
+
+**Dfns achieves ISO 27001, 27017 and 27018 certifications, raising the bar on security, cloud assurance, and data privacy.**
+
+We’re proud to share that Dfns has earned ISO/IEC 27001, ISO/IEC 27017, and ISO/IEC 27018 certifications. The program was audited by KPMG, with certification issued by MSECB, an accredited certification body. These add to our SOC 2 Type I and Type II reports, which we have completed and renewed, and together they form a broader, deeper assurance story for clients who rely on Dfns for secure, programmable wallet infrastructure.
+
+## What ISO requires that SOC 2 doesn't spell out
+
+SOC 2 evaluates the design (Type I) and operating effectiveness (Type II) of controls against the Trust Services Criteria over a defined period. It's powerful evidence that the controls we say we run are actually running and producing the intended outcomes. ISO/IEC 27001 (2022) asks for more than effective point controls: it requires a living Information Security Management System (ISMS) including governance, risk, resources, policy, metrics, audits, and continual improvement that **tie security to business objectives**. And ISO/IEC 27017 and 27018 extend this with cloud-specific security and PII privacy obligations that SOC 2 does not explicitly prescribe.
+
+ISO 27001 starts earlier and higher in the stack. It asks us to understand our context and stakeholders, define the scope of our security program, and run it as a system that is planned, resourced, measured, and improved. It also requires a formal approach to threat intelligence. We must identify sources, collect and triage signals on a defined cadence, and feed what we learn into vulnerability management and incident workflows. ISO expects a clear acceptable use policy for information and assets, not just implied good practice. It also asks for a specific framework for how we select and use cloud services, including shared responsibility, configuration, and ongoing assurance. Finally, ISO requires forensic readiness. We must plan how logs and other artifacts will be preserved, how chain of custody will be maintained, and how evidence will be used during investigations. These elements go beyond what SOC 2 calls for and make investigations faster and more defensible. Examples:
+
+* **Threat intelligence as a formal practice:** ISO requires us to formally collect, analyze, and use threat intelligence. SOC 2 checks that risks are assessed and monitored, but it doesn't require a defined threat intel process. For Dfns, this means setting clear sources, frequency, triage steps, and ways to feed intel into our vulnerability and incident workflows.
+* **Clear rules for acceptable use:** ISO calls for explicit rules on how staff can use systems and data. SOC 2 implies this through general controls, but ISO requires a documented policy tied to onboarding, training, and enforcement.
+* **Cloud security and shared responsibility:** ISO adds a dedicated control for cloud services. It requires clarity on shared responsibility, provider selection, and ongoing assurance. SOC 2 tests outcomes in the cloud but doesn't require a specific "cloud use" framework.
+* **Forensic readiness and evidence collection:** ISO requires us to plan how we preserve logs, artifacts, and chain-of-custody so incidents can be investigated and defended. SOC 2 checks logging, but ISO demands an explicit evidence strategy.
+* **Technology readiness for business continuity:** ISO requires continuity planning to cover technology details such as RTO/RPO targets, failover, backups, and recovery rehearsals. SOC 2 covers availability broadly, while ISO enforces detailed, tech-driven continuity planning.
+
+## Remote vs. office work, physical security, and monitoring
+
+Dfns was founded in 2020 during the Covid pandemic, which shaped us as a remote-first company. ISO frameworks fit well with how modern teams operate, requiring specific controls for remote and hybrid work: secure endpoints, home office risks, split tunneling rules, screen privacy, and network posture checks.
+
+SOC 2 verifies that access and change controls work regardless of location. ISO goes further, asking us to design and document a dedicated remote-work framework. It also raises the bar on security culture. We now spell out screening, terms of employment, training, device enrollment, discipline, and post-termination steps. SOC 2 touches these areas, but ISO makes them role-based and backed by proof of effectiveness over time.
+
+Even as a remote-first company, we still maintain offices worldwide. SOC 2 checks that physical access controls exist and work, but ISO requires more. Physical security isn't just locks and badges, it also means continuous monitoring of facilities. It covers supporting utilities like power, HVAC, and other environmental factors that affect availability and integrity. These risks apply even with cloud or colocation providers, since the ISMS must show how we select, contract, and oversee them.
+
+## Additional technical controls where ISO is more explicit
+
+ISO provides a concrete catalog of technical controls and asks for explicit design and proof. Source code access must be governed with approvals, logging, and segregation. Capacity must be forecast and monitored so security does not degrade under load. Configuration management needs baselines, hardened images, and controlled drift. ISO also calls out information deletion, data masking in non production, and data loss prevention as named protections with chosen methods and verifiable processes.
+
+Monitoring is not only about having logs. ISO asks for defined monitoring objectives and synchronized time across systems so events correlate during investigations. Powerful administrative tools are treated as a special risk that must be restricted and monitored. Web filtering is required to lower malware and exfiltration risk. Cryptography must follow a documented policy that covers approved algorithms, key lengths, key generation and storage, rotation, archival, and destruction, with roles and responsibilities clearly assigned. Secure coding practices must be defined and taught, and audit or test activity must be controlled so it does not disrupt production or leak sensitive data. These expectations line up well with how Dfns builds software and runs infrastructure, and they add clarity for client due diligence.
+
+ISO 27001 is also a dense, practical catalog of technological controls:
+
+* **Access to source code:** ISO requires strict rules for who can read or change code, with approvals, logging, and separation of duties. SOC 2 checks that change controls work, but ISO asks for written policies and evidence.
+* **Capacity management:** ISO expects us to plan and monitor capacity to avoid outages or slowdowns. SOC 2 looks at uptime; ISO turns it into a measurable, proactive process.
+* **Configuration management:** ISO demands hardened baselines, controlled changes, and regular reviews. SOC 2 checks that changes are authorized; ISO requires formal baselines and audits.
+* **Data controls:** ISO explicitly calls out secure deletion, data masking, and data loss prevention (DLP). SOC 2 expects confidentiality, but ISO requires defined methods, tools, and proof these processes work.
+* **Monitoring and clock sync:** ISO requires clear monitoring objectives and synchronized clocks across systems so logs line up in investigations. SOC 2 checks logging; ISO adds structure and time discipline.
+* **Privileged tools:** ISO singles out admin utilities as a risk. We must restrict, monitor, and justify their use. SOC 2 expects least privilege, but ISO emphasizes these tools directly.
+* **Web filtering:** ISO requires control of outbound web traffic to block malware and prevent data leaks. SOC 2 doesn't cover this explicitly.
+* **Cryptography:** ISO requires a documented crypto policy: approved algorithms, key sizes, lifecycle (generation, storage, rotation, destruction), and assigned roles. This matches Dfns' key-management, MPC, and BYO-key practices, helping customers assess crypto posture quickly.
+* **Secure coding and audits:** ISO requires defined secure coding standards, developer training, and safeguards so audits and penetration tests don't harm production or leak data. SOC 2 checks SDLC outcomes; ISO requires explicit rules and protections.
+
+## Cloud-specific additions from ISO/IEC 27017
+
+ISO 27017 is written for cloud. The framework clarifies who does what in shared responsibility models, how we segregate customer environments in multitenant platforms, and how we review and change supplier services over time. It asks us to design for cloud risk and then keep that design current with evidence. In real terms, this means Dfns documents which controls sit with us and which sit with our cloud providers, how we select and monitor those providers, how we enforce network segregation, and how we verify that virtualized components remain isolated as we scale. SOC 2 will test that our controls worked, ISO 27017 requires we design for cloud risk and maintain that design with evidence.
+
+## Privacy protections from ISO/IEC 27018
+
+ISO 27018 sets the standard for protecting personal data (PII) in the public cloud. It requires clear rules on how data can be used, bans secondary use without consent, ensures transparency for customers, and provides mechanisms for individuals to exercise their rights. It also mandates structured breach notifications and full auditability. While SOC 2 can cover privacy through optional criteria, ISO 27018 makes these obligations specific and detailed for cloud environments. It also complements GDPR by turning many of its principles, like purpose limitation, transparency, and data subject rights, into auditable controls. For clients, this means stronger guarantees on how personal data is handled across our platform and support processes backed by documented limits, logs, and notifications.
+
+## How this makes Dfns and our clients stronger
+
+For Dfns, ISO turns good controls into a management system. Leadership commitment, policy and objectives, risk assessment and treatment, resources and competence, performance measurement, internal audit, management review, and corrective action and continual improvement create a closed loop. We are required to measure, review, and improve, not just maintain the status quo. SOC 2 Type II shows our controls operate effectively over time, but ISO shows the system that keeps them effective as threats and business needs change.
+
+For our clients, the benefits are practical. Procurement is faster because ISO is globally recognized and mapped to regulations worldwide. Cloud assurance is clearer because ISO 27017 and 27018 make shared responsibility and privacy obligations explicit. Due diligence is easier because clause-level requirements translate directly into RFP answers, control walkthroughs, and audit artifacts, threat intel procedures, remote work standards, forensic readiness, cryptographic policy, configuration baselines, and ICT continuity. Regulators and risk teams see not just that controls exist, but that they are governed, resourced, measured, and improved within a recognized international framework.
+
+Earning ISO/IEC 27001, 27017, and 27018 alongside renewed SOC 2 Type I and II is a milestone, not an endpoint. These certifications require ongoing internal audits, management reviews, corrective actions, and external surveillance audits. That cadence is by design and it keeps the bar moving up.
+
+If you're evaluating wallet infrastructure for regulated or enterprise contexts and want to review our ISO certificates (or our SOC 2 reports), we can share them under NDA. More importantly, we're happy to walk your teams through how the ISO clauses map to the controls you care about most so you can see exactly how this improves your security and trust posture with Dfns.
+
+‍]]></content:encoded>
+      <guid isPermaLink="true">https://dfns.co/article/dfns-certified-iso-27001-iso-27017-and-iso-27018-by-kpmg-and-msecb</guid>
+    </item>
+    <item>
+      <title>Announcing Keyrails</title>
+      <link>https://dfns.co/article/announcing-keyrails</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+      <author>Clarisse Hagège</author>
+      <enclosure url="https://cdn.prod.website-files.com/665eef502b52c00091a2a467/686e64d22e57b1a1943cf950_Annoucement%20client%20-%20Keyrails.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Announcing Keyrails
+
+**Keyrails, a stablecoin-based operating system for cross-border finance, has chosen Dfns to power their wallet infrastructure.**
+
+Keyrails is reshaping cross-border payments in emerging markets. Designed for the complexities of Africa, Asia, and Latin America, it helps businesses move money faster, more reliably, and at lower cost. The platform combines programmable stablecoin treasuries with direct links to the global financial system, enabling compliant and efficient money movement tailored to local needs.
+
+To power this infrastructure, Keyrails has chosen Dfns for its wallet system. With Dfns, Keyrails can securely manage digital assets, automate transactions, and scale across multiple blockchains all with industry-leading security and compliance. We're proud to support Keyrails as it builds the future of payments in the markets that need it most.
+
+## Rethinking global payments for the 99%
+
+Co-Founded by Raj Khangura and Berhan Kongel, also the co-founder of Arf, a USDC-based lender acquired in 2023, Keyrails is setting a new standard for cross-border payments in emerging markets. Built with deep operational insight and bold conviction, Keyrails was designed from the ground up for geographies where existing payment rails don't work. In regions like Lagos, Nairobi, or Dhaka, cross-border payments are riddled with friction: limited SWIFT access, fragile correspondent networks, capital controls, and multi-day settlement delays. The traditional workaround (i.e., pre-funding local accounts) traps millions in idle balances and adds operational complexity.
+
+Keyrails takes a radically different approach. Instead of pushing stablecoins all the way to the end recipient, they treat stablecoins as a global treasury layer, a programmable store of value that can be routed, settled, and converted dynamically, based on compliance and cost. This allows them to bypass local friction, eliminate pre-funding, and dramatically improve speed and efficiency.
+
+## Keyrails, the "quantum layer" of payments
+
+The "quantum layer" expands what stablecoins can do. By decoupling value from geography until the last mile, Keyrails unlocks real-time routing logic, automated compliance checks, and cost-aware FX execution. It is not just faster; it is programmable liquidity that adjusts in real-time to market conditions, regulatory requirements, and operational needs.
+
+Keyrails isn't a wallet—it's a programmable finance OS built on top of compliant stablecoin and fiat infrastructure.
+
+* Named USD accounts (onshore with access to ACH, Fedwire and SWIFT)
+* Programmable stablecoin treasuries for both payments & yield generation
+* Single-API access to SWIFT rails and on/off ramps
+* Full regulatory compliance and KYC/KYB coverage
+* Settlement into 170+ countries, including high-friction corridors
+
+Their flagship product "Stable OS" lets clients trigger high-value SWIFT payouts from stablecoin wallets with:
+
+* Ultra-Fast Settlements as Keyrails is a SWIFT member
+* Sender name shown on MT103
+* No intermediary obfuscation
+* Full traceability for customs, compliance, and audits
+
+This is a game-changer for emerging-market businesses importing goods, managing distributed workforces, or funding subsidiaries across jurisdictions. In real-world corridors such as "Nigeria → China" or "Kenya → Indonesia," Keyrails:
+
+* Cuts cross-border payment costs by up to 4×
+* Delivers settlement 10× faster than traditional banks
+* Eliminates the need for nostro accounts and pre-funded liquidity
+* Achieves ~$500K average payout size, showing strong institutional adoption
+
+And with 100% quarter-over-quarter growth and expanding usage across Africa, LATAM, and Southeast Asia, Keyrails is fast becoming the stablecoin infrastructure of choice in the Global South.
+
+**Tip:** Check out Berhan Kongel's latest interview on Stableminded.
+
+## Keyrails chose Dfns as their wallet infrastructure
+
+To deliver this kind of scale and security, Keyrails needed wallet infrastructure that could:
+
+* Secure USDC, USDT, and other stablecoins across Ethereum, **Stellar**, Solana, and Arbitrum
+* Orchestrate wallets programmatically at scale for different customers and use cases
+* Offer fine-grained control over address management, reconciliation, and audit logging
+* Integrate into a developer-first stack with minimal operational overhead
+
+Dfns was the clear choice. With our API-first architecture, multi-chain support, and enterprise-grade security (SOC 2, ISO 27001, encrypted backups, rate limiting, MFA enforcement, and more), we provide Keyrails with a robust, scalable foundation without slowing down their innovation.
+
+Together, we're also exploring upcoming capabilities such as token swaps, stablecoin yield automation, and support for onchain attestations to further enrich Keyrails' product offering.
+
+## A shared belief in programmable financial infrastructure
+
+Like Dfns, Keyrails is building towards a future where stablecoins are not just tools of speculation, but programmable, compliant rails for real-world financial use cases. From cross-border trade to treasury settlements, their model demonstrates that the next wave of payment innovation is being shaped outside of legacy markets. We're proud to support their mission. If you're building payment applications, stablecoin infrastructure, or cross-border products and need reliable wallet APIs, let's talk.
+
+* Start building: [https://app.dfns.io/get-started](https://app.dfns.io/get-started)
+* Contact us: [sales@dfns.co](mailto:sales@dfns.co)
+* Learn more about Keyrails: [keyrails.com](https://www.keyrails.com)
+
+### Authors
+
+**Clarisse Hagège**  
+CEO & Co-founder
+
+Clarisse Hagège is the CEO and Cofounder of Dfns. She has an extensive background as a Board Member of the MPC Alliance, Mentor at Techstars Web3 Launchpad, and crypto startup Advisor at Station F. With BSc and MSc degrees in Finance, Economics and Political Science from Sorbonne University, Sciences Po, and Dauphine University, her career spans a decade in investment banking and corporate treasury in Paris and New York, including roles at Goldman Sachs, Merrill Lynch, and Crédit Agricole CIB.]]></content:encoded>
+      <guid isPermaLink="true">https://dfns.co/article/announcing-keyrails</guid>
+    </item>
+  </channel>
+</rss>

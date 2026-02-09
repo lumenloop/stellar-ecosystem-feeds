@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untangled - Stellar Ecosystem</title>
+    <link>https://untangled.finance</link>
+    <description>Latest articles about Untangled in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/untangled.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>From value moved to value locked: an allocator’s view of DeFi on Stellar</title>
+      <link>https://x.com/UntangledFi/article/2016126853036093852</link>
+      <pubDate>Tue, 27 Jan 2026 12:31:14 GMT</pubDate>
+      <author>@UntangledFi</author>
+      <enclosure url="https://pbs.twimg.com/media/G_s23oUWAAAKfaf.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[OctoVault is a vault and risk management infrastructure that enables structured yield strategies across both RWA and crypto natives. Two current strategies illustrate how this structure translates into allocatable products. 
+
+Stellar has established itself as reliable infrastructure for moving value. Settlement is fast, costs are low, and regulated assets can be issued natively. For allocators, this has made Stellar a credible rail for payments, stablecoins, and tokenized real-world assets.
+
+The next question is whether capital on Stellar can be deployed productively, at scale, and within defined risk boundaries.
+
+DeFi provides the execution layer, but allocatability depends on structure. Until recently, deploying capital on Stellar required direct interaction with protocols, bespoke operational workflows, and fragmented risk management. That model does not scale for institutional capital.
+
+Vault infrastructure changes this.
+
+Vaults allow strategies to be expressed as products rather than transactions. Capital is deployed into a single onchain vehicle, governed by transparent rules, with execution handled programmatically. Users receive liquid vault tokens representing a claim on the strategy. Assets remain non-custodial. All positions, constraints, and flows are visible onchain.
+
+For allocators, this mirrors familiar structures: defined mandates, explicit risk limits, and automated execution - without reliance on off-chain intermediaries.
+
+From a curator’s perspective, Stellar now has the core premitives needed structured yield  strategies:
+
+• Spot liquidity via AMMs such as Aquarius
+• Lending via money markets such as Blend
+• Natively issued stablecoins including USDC and PYUSD
+• Institutional RWAs such as Franklin Templeton’s Benji, WisdomTree, and Ondo
+
+What has been missing is the layer that packages these primitives into investable products with enforceable controls. Vaults sit between protocols and distribution. They do not alter the underlying markets; they define how capital is allocated across them.
+
+Two current strategies illustrate how this structure translates into allocatable products.
+
+**USDyc: delta-neutral yield as a structured product**
+
+USDyc is a vault implementing a delta-neutral strategy, a structure widely used in mature DeFi ecosystems but newly available on Stellar.
+
+The strategy combines long yield bearing XLM exposure with a synthetic short XLM position constructed using  Untangled Loop adapter. Blend money markets and Aquarius spot liquidity are used to replicate a perpetual style hedge without reliance on centralised derivatives venues.
+
+The objective is to generate funding rate style returns while minimising directional market exposure.
+
+For allocators, the critical elements are not the trade mechanics but the controls: leverage limits, exposure caps, automated rebalancing, and unwind logic are enforced at the vault level. Execution is deterministic and observable. Risk parameters are encoded rather than discretionary.
+
+This turns what would otherwise be an operationally complex strategy into a single allocatable token.
+
+**Indentura: stablecoin yield with institutional governance**
+
+Indentura, a real world asset based credit protocol by Thaw Digital, is launching a vault focused to support stablecoin yield strategies supporting commercial finance and emerging markets portfolios.
+
+While credit origination and servicing occurs off-chain, the onchain component governs capital allocation, reporting, and structural risk mitigation. The vault is designed with MPC-based control with integration into portfolio servicing data to ensure compliance with portfolio covenants.
+
+From an allocator’s standpoint, this matters. Governance is explicit. Treasury control is transparent and auditable. Withdrawal rules and allocation constraints are enforced by code rather than policy.
+
+This structure allows off-chain credit exposure to be paired with onchain transparency and liquidity, without introducing opaque risk taking without visibility into how funds are deployed.
+
+**Why this matters for institutional capital on Stellar**
+
+For allocators, vaults are not experimental infrastructure. They are the interface that makes DeFi capital efficient, compliant, and repeatable.
+
+They enable:
+
+• Deployment of idle stablecoins into yield-bearing strategies
+• Integration of RWAs into onchain portfolios
+• Clear separation between strategy design and protocol risk
+• Enforcement of risk limits, governance, and reporting at the product level
+
+Other ecosystems have already demonstrated that curated vaults can attract sustained institutional capital when these conditions are met. Stellar now combines regulated assets, predictable execution, and vault-based structuring in a single environment.
+
+The transition from value moved to value locked is not about increasing risk. It is about making risk explicit, bounded, and programmable.
+
+For institutional allocators, vaults are how DeFi becomes allocatable on Stellar.
+
+*Note: This content is from a source known to be directly relevant to the Stellar blockchain ecosystem (including XLM, Stellar, Soroban, and related projects built on Stellar).*]]></content:encoded>
+      <guid isPermaLink="true">https://x.com/UntangledFi/article/2016126853036093852</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BlindPay - Stellar Ecosystem</title>
+    <link>https://blindpay.com</link>
+    <description>Latest articles about BlindPay in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/blindpay.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introducing Named Virtual Accounts</title>
+      <link>https://blindpay.com/blog/introducing-virtual-accounts</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+      <author>Bernardo Simonassi</author>
+      <enclosure url="https://pub-4fabf5dd55154f19a0384b16f2b816d9.r2.dev/virtual-accounts-business-blindpay.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Introducing Named Virtual Accounts
+
+*Named Virtual Accounts: Open US Bank Accounts in Your Customer's Name with USD Payments, Stablecoin Settlement, and Instant Local Payouts.*
+
+![Introducing Named Virtual Accounts](https://pub-4fabf5dd55154f19a0384b16f2b816d9.r2.dev/virtual-accounts-business-blindpay.webp)
+
+Businesses and individuals around the world still face barriers when trying to access the U.S. financial system, whether to receive payments in USD, reduce costs, or offer global financial services. Lengthy processes, requirements such as opening a company in the U.S., and the complexity of traditional banking make this expansion harder than it should be.
+
+Named Virtual Accounts from BlindPay change that. You can now create U.S. bank accounts in your end customer’s name with full access to ACH, Wire, RTP, and SWIFT. Every payment received in USD is automatically converted into stablecoins (USDC/USDT) across major blockchains such as Polygon, Base, Arbitrum, **Stellar**, and Tron, and funds can be instantly sent to other local currencies like BRL, MXN, COP, and ARS.
+
+This enables people and companies across different industries to receive USD more efficiently, pay suppliers or customers anywhere, reduce costs, and access the global financial system without relying on traditional banking infrastructure.
+
+## Benefits
+
+* Receive USD more efficiently
+* Pay suppliers or customers anywhere
+* Reduce costs in cross border operations
+* Access the global financial system without relying on traditional banking infrastructure
+
+## Key features
+
+* U.S. bank account in the end customer's name
+* Customer's name appears on ACH bank statements
+* Receive via ACH, Wire, RTP, and SWIFT
+* Automatic USD to stablecoin conversion (USDC/USDT) on Polygon, Base, Arbitrum, Stellar, and Tron
+* Instant payouts to local currencies (USD, BRL, MXN, COP, ARS)
+* Seamless integration via API or dashboard
+
+## Get started today
+
+Named Virtual Accounts are available now. [**Talk to our team**](https://cal.com/blindpay/demo-call-blindpay) and see how easily you can integrate global USD accounts into your operation.
+
+*Written by Bernardo Simonassi*]]></content:encoded>
+      <guid isPermaLink="true">https://blindpay.com/blog/introducing-virtual-accounts</guid>
+    </item>
+  </channel>
+</rss>

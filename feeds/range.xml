@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Range - Stellar Ecosystem</title>
+    <link>https://range.org</link>
+    <description>Latest articles about Range in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/range.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How USDC moves on Stellar: Stablecoin usage and growth across borders - Range Security</title>
+      <link>https://range.org/blog/how-usdc-moves-on-stellar-stablecoin-usage-and-growth-across-borders</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+      <author>Syed C., Daniel F.</author>
+      <enclosure url="https://framerusercontent.com/images/jwQQ21C9PkVi3Wmc77zZtL9Z4M.png?width=1200&amp;height=800" type="image/jpeg"/>
+      <content:encoded><![CDATA[# How USDC moves on Stellar: Stablecoin usage and growth across borders
+
+**Research**
+
+Stellar handles an average of 252k USDC transactions per day, totalling almost $50 million in volume. What do the usage patterns tell us?
+
+Stellar has long positioned itself as a blockchain for real-world money movement. But what does that actually look like onchain?
+
+In this second installment of our [Stablecoin Onchain Series](https://www.range.org/blog/usdc-via-cctp-how-institutions-and-retail-users-move-money-cross-chain) - a data-driven research series looking at stablecoin usage across web3 - we explore USDC usage patterns on Stellar, from high-frequency intrachain payments to cross-chain settlements via Decaf and Allbridge. With a dataset spanning over 90 million transactions and $17B in volume, this analysis breaks down who is using Stellar for stablecoin transfers, when those transfers happen, and how value enters and exits the network.
+
+Our findings highlight the unique role Stellar plays in global stablecoin adoption - supporting microtransaction use cases, institutional flows, and secure cross-chain bridges alike.
+
+## Stellar: A network for daily transfers
+
+Focusing on USDC activity, between September 2024 and September 2025, we observed:
+
+* 91.3 million USDC transactions
+* $17.9 billion total volume
+* Average of 252,216 transactions per day
+* Average transaction size: $196.71
+
+These numbers reveal that USDC is actively used as a day-to-day payment rail on Stellar, with relatively small transfers dominating the majority of onchain activity. Notably, the median transaction size is only 1.57 USDC, confirming that the network supports high-volume microtransactions alongside larger institutional flows.
+
+### Time-of-Day Patterns
+
+Usage patterns by time of day highlight distinct behaviors across user types and geographies. Transaction activity peaks around 14:00–15:00 UTC, a time consistent with the business hours of European and Middle Eastern regions. The lowest transaction volume is seen between 4:00 and 10:00 UTC, aligning with overnight hours across most EMEA regions.
+
+[Image 1](https://framerusercontent.com/images/8GWLSsdC7IwSy0Uc1q7fWtxXw.jpg?width=2916&height=1875) [Image 2](https://framerusercontent.com/images/Opc6H3yW1Y5pX6DtVFgVtnsJ0.jpg?width=2916&height=1875)
+
+While the number of transactions aligned with EMEA mid-day and evening (12-9 pm), volume tells a different story. 
+
+The largest USDC movements by value consistently occur around 7:00 UTC, during relatively quiet periods of transactions. This implies that wallets responsible for high-value transfers are not the same as those driving high-frequency transaction counts, and may operate on a different schedule (most likely East Asia) - likely corresponding to institutional or automated activity based in other regions.
+
+As with our earlier analysis of [overall USDC flows via CCTP](https://www.range.org/blog/usdc-via-cctp-how-institutions-and-retail-users-move-money-cross-chain), whale wallets account for the majority of activity on Stellar. Just **0.1% of transactions on Stellar were responsible for 64.5% of total USDC volume** - closely mirroring the 70.8% share held by the top 0.1% of CCTP transfers. In both cases, a small subset of whale transactions dominates the flow of funds.
+
+[Image 3](https://framerusercontent.com/images/AxDtieLiYLsXFyl4JXyffsMJo.jpg?width=2916&height=1875) [Image 4](https://framerusercontent.com/images/jrvUH70KG67ZApGhmUkfMxu6k.jpg?width=2916&height=1875)
+
+Unlike the [overall CCTP transaction analysis](https://www.range.org/blog/usdc-via-cctp-how-institutions-and-retail-users-move-money-cross-chain), we did not detect a 3-minute pattern in rhythmic spikes in transactions; however, there is a significant spike in transactions at minute 32 of every hour. It is unclear what might be driving this.
+
+[Image 5](https://framerusercontent.com/images/QNHQ4W5UNxfZK9616h9PDRvknGE.png?width=1600&height=1029)
+
+### Weekday vs Weekend
+
+While the number of transactions remains relatively steady across weekdays and weekends (a slight dip on weekends), the total volume transacted decreases significantly on weekends. 
+
+The data shows that **volume from Monday through Friday is 4.6 times higher than weekend volume**. This further supports the view that the most significant USDC flows on Stellar are institutionally driven, as they tend to follow traditional business hours and settlement cycles.
+
+[Image 6](https://framerusercontent.com/images/YZq9LFzk6KTwgCTze7tnDnDFmaU.jpg?width=2916&height=1875) [Image 7](https://framerusercontent.com/images/dHJx9knSJp1h22hS4fRBvTyRZjo.jpg?width=2916&height=1875)
+
+## Cross-Chain transfers: How USDC flows to and from Stellar
+
+Stellar's role as a standalone ecosystem is increasingly visible in USDC activity. From July 2025 onward, we tracked transfers of USDC into and out of Stellar, analyzing bridge usage, destination chains, and transaction patterns. This analysis confirms that much of Stellar's activity occurs within its network, with users transacting between Stellar apps or utilizing it for cross-border payments and dollarized remittance apps.
+
+The use case of real-world payments becomes clearer when examining the decimal precision of USDC transactions, with only 5% of transactions being whole numbers, indicating that users are likely settling in USDC after converting amounts from a fiat currency.
+
+[Image 8](https://framerusercontent.com/images/yyScflc84zV9CODyW67gPHliz8.png?width=1600&height=1066)
+
+Of the 91.3 million USDC transactions and $17.9 billion volume we monitored between Sep 2024-2025, just a few thousand transactions were cross-chain. However, with increasing support from cross-chain bridges in the past few months ([NEAR Intents](https://x.com/NEARProtocol/status/1957850218491207843), [Axelar](https://community.axelar.network/t/proposal-mainnet-deployment-of-stellar-connectivity-via-axelar-amplifier/3325) and others), we expect cross-chain activity on Stellar to increase in the coming period.
+
+Cross-chain transfers from Stellar primarily flow to Solana, while Solana and Base drive inflows. USDC remains the dominant stablecoin, and Decaf is the most frequently used bridge, followed by Allbridge.
+
+* Top outflow route: Stellar ⟶ Solana
+* Top inflow routes: Solana and Base ⟶ Stellar
+* Dominant asset: USDC
+* Dominant bridge: Decaf (52.7% of transactions), followed by Allbridge (40.9% of transactions)
+
+*You can monitor the cross-chain flows of Stellar in real-time on our [Stellar Explorer](https://stellar.range.org/).*
+
+### Solana vs Base as inflow networks
+
+We also compared the profiles of inbound transactions from Solana and Base. Despite similar transaction counts, the size and volume of transfers from Solana are significantly higher.
+
+| Metric                | Solana ⟶ Stellar | Base ⟶ Stellar |
+|-----------------------|------------------|----------------|
+| Total Volume (USD)    | 403,295          | 25,927         |
+| Total Tx Count        | 461              | 367            |
+| Average Tx Size       | $874             | $70.65         |
+| Median Tx Size        | $104             | $11            |
+| Volume Ratio (Solana/Base) | 15.55x      | -              |
+| Tx Count Ratio (Solana/Base) | 1.26x      | -              |
+
+This divergence suggests that Solana is preferred for large-value transfers, while Base supports a greater volume of small-value activity. 
+
+The distinction may reflect different user demographics, such as treasury movements from Solana versus user-level remittances from Base.
+
+## Onchain risk: Malicious address behavior on Stellar
+
+In parallel with usage trends, we examined how malicious actors interact with USDC on Stellar. We analyzed 12,971 addresses tagged as malicious on the network, focusing on their counterparties and behavioral patterns.
+
+From this dataset, 282 malicious addresses were identified as active in stablecoin transactions, involving a total of 1,524 counterparties. The vast majority of these counterparties (99.2%) were not tagged as malicious, highlighting a common tactic: using clean addresses to obfuscate flows and limit traceability.
+
+* Malicious-to-malicious connections: 0.8%
+* Malicious-to-non-malicious connections: 99.2%
+* Average counterparties per malicious address: 16.41
+* Maximum counterparties observed: 357
+
+This structure supports a common laundering pattern in which actors use multiple clean addresses to fragment and re-route funds. These address clusters can be fingerprinted using [Range Trail](https://app.range.org/trail), enabling real-time investigations, red flag monitoring, and anomaly detection.
+
+Additionally, our [Risk API](https://docs.range.org/reference/risk-introduction) and [Faraday](https://www.range.org/faraday) products can prevent malicious actors from interacting with your app in real-time. [Get in touch](https://www.range.org/get-in-touch) for a demo, or read how [Varnish Trade uses Range to ensure bad actors do not use its private trading](https://www.range.org/blog/vanish-trade-chooses-range-to-power-real-time-risk-screening-for-private-trading-on-solana) and shielded swaps app.
+
+## Scam tokens and lookalike asset abuse
+
+Token impersonation remains a significant issue on Stellar due to its open issuance model. By issuing assets with familiar tickers (e.g., BTC, ETH), scammers can exploit user trust and visual shortcuts, especially among less experienced users.
+
+We reviewed verified tokens on [Stellar.Expert](https://stellar.expert/asset-lists) and compared them against other assets using the same ticker but issued by unverified or malicious accounts. The results were striking:
+
+* DOGE: 99.06% of transfers involved unverified issuers
+* BTC: 92.43%
+* ETH: 81.68%
+* USDC: 9.67%
+
+However, it's important to contextualize these figures. Much of the activity with these unverified tokens appears to be spam or wash trading by scammers attempting to simulate legitimacy, often routing spoofed assets between their own wallets. These transfers are better understood as network misuse rather than successful fraud, and don't necessarily indicate that counterparties were victims or that the transfers had economic impact.
+
+Still, the presence of large volumes of spoofed activity creates friction and risk - especially for wallets, apps, or users that rely solely on asset tickers. Even in the case of USDC - despite rigorous verification - **nearly 1 in 10 transfers involve non-verified assets**. This highlights the ongoing need for wallet-level intelligence and token verification layers, particularly in wallets, DEXs, and payment apps that operate on Stellar.
+
+Range's risk tooling can automatically surface counterfeit tokens, detect clusters of scam issuers, and trace victims based on interaction history. [Get in touch](https://www.range.org/get-in-touch) to learn how we help teams monitor and act on scam activity before value is lost.
+
+## Stablecoins at the edge of real-world money movement
+
+The Stellar network presents a unique convergence of retail-grade microtransactions and institutional settlement flows - with both operating on the same rails. Our analysis reveals a consistent narrative: a small number of large-value transactions account for the majority of volume, while the network sustains a high baseline of small, frequent transactions across time zones and days of the week.
+
+This duality makes Stellar an attractive network for real-world financial applications. On one side, it supports cross-border payments, mobile-first wallets, and dollarized remittance apps. On the other, it handles institutional settlements, treasury movements, and cross-chain USDC transfers with the predictability and transparency expected by financial teams.
+
+These traits are increasingly visible onchain:
+
+* USDC remains the dominant stablecoin across both intrachain and interchain flows
+* Stellar serves as a bridge between ecosystems, including Base and Solana
+* Institutional flows follow weekday cycles, while high-frequency agents transact around the clock
+* Scam token activity remains high, but traceable and monitorable with the right tooling
+
+In short, Stellar is not just being used - it is being operationalized. Its core infrastructure, predictable costs, and verification layers make it one of the most effective blockchain environments for stablecoin-based money movement today.
+
+## Explore Stellar stablecoin flows with Range
+
+Range provides real-time intelligence across 100+ chains, helping you monitor stablecoin flows, flag high-risk actors, and investigate counterparties across networks.
+
+* Visit the [Range Stablecoin Explorer](https://stable.range.org/)
+* View real-time cross-chain transactions and analysis on our [Stellar Explorer](https://stellar.range.org/)
+* Investigate wallet behavior with [Range Trail](https://app.range.org/trail)
+
+If you're a Stellar protocol, wallet, or compliance team, [get in touch](https://www.range.org/get-in-touch) to integrate real-time security and monitoring into your product.
+
+*This article was written by Syed Choudhury, based on data and analysis conducted by Daniel Fiuza Dosil - Lead Data Scientist at Range.*
+
+*Also read our previous report: [USDC via CCTP: How institutions and retail users move money cross-chain](https://www.range.org/blog/usdc-via-cctp-how-institutions-and-retail-users-move-money-cross-chain). *]]></content:encoded>
+      <guid isPermaLink="true">https://range.org/blog/how-usdc-moves-on-stellar-stablecoin-usage-and-growth-across-borders</guid>
+    </item>
+    <item>
+      <title>Announcing our partnership with Margined Protocol - Range Security</title>
+      <link>https://range.org/blog/announcing-our-partnership-with-margined-protocol</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
+      <author>Range Team</author>
+      <enclosure url="https://framerusercontent.com/images/edfPl5eV1sSplU0bWRiOU1RGA.png?width=1680&amp;height=784" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Announcing our partnership with Margined Protocol
+
+**Range partners with Margined Protocol, one of the most innovative DeFi protocols, bringing on-chain perpetuals and vaults to Cosmos.**
+
+We’re pleased to announce our **long-term security partnership with Margined Protocol**, one of the most innovative DeFi protocols, bringing **completely on-chain perpetuals to the Cosmos space**. The mission of this partnership is to radically improve the security, observability, and risk management of Margined Protocol, leveraging Range’s first-in-class security infrastructure.
+
+The power perpetual platform built by Margined represents a zero-to-one innovation in the Cosmos ecosystem, being the first perpetual product with on-chain price discovery, leveraging Osmosis concentrated liquidity capabilities. Due to its novelty and its focus on safety, **Range’s security infrastructure is the perfect complement to make sure that DeFi innovation is coupled with top-tier security for end-users**.
+
+During this partnership, the Range team will build customized security monitoring adapted to Margined’s smart contracts, real-time analytics, risk dashboards for Margined traders, and trading simulation tooling. On top of that, the team will support incident response capabilities with native integrations to Range Trail and our newest security product: Range Transaction Security API.
+
+**
+
+**About Margined**
+
+Margined Protocol is building DeFi native perpetual products for CosmWasm networks. With their perpetual power product and the soon-to-be-released vaults, they are enabling end users to gain leveraged exposure to crypto assets without needing off-chain components or intervention, helping DeFi become the financial market infrastructure of the future.
+
+## About Range
+
+Range is the leading intelligence and risk platform for cross-chain stablecoin infrastructure, trusted by the Solana Foundation, Circle, Stellar, dYdX, Squads and more. We provide the compliance, risk, and routing systems behind the next generation of onchain payments and applications.
+
+Used by fintechs, protocols, and DeFi teams, [Faraday](../faraday) is our transaction engine that enables cross-chain routing, compliance enforcement, and real-time risk monitoring through a single API. Our Stablecoin Explorer at [explorer.money](http://explorer.money/) - the first of its kind - tracks almost 200 stablecoins across all chains and bridges.
+
+We also provide the security layer behind some of the most sensitive infrastructure on Solana. Our [Solana Transaction Security Standard](https://www.range.org/transaction-security), protects programs, accounts and treasuries worth over $30b, while our [Risk API](https://www.range.org/risk-compliance) and [Onchain Risk Verifier](https://www.range.org/blog/risk-intelligence-now-onchain-for-solana-programs) enable privacy-focused apps on Solana to stay compliant.
+
+Whether you're building programmable treasuries or privacy flows, Range helps ensure they're safe, compliant, and ready for scale.]]></content:encoded>
+      <guid isPermaLink="true">https://range.org/blog/announcing-our-partnership-with-margined-protocol</guid>
+    </item>
+    <item>
+      <title>Range in 2025: Becoming leaders in stablecoin payments infrastructure</title>
+      <link>https://range.org/blog/range-in-2025-becoming-leaders-in-stablecoin-payments-infrastructure</link>
+      <author>Syed C, Range</author>
+      <enclosure url="https://framerusercontent.com/images/wf0eMMvHaTYJI1iRykQZGQza4UQ.png?width=1200&amp;height=675" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Range in 2025: Becoming leaders in stablecoin payments infrastructure
+
+**General**
+
+A recap of how Range built the core infrastructure for stablecoin security, compliance, and cross-chain observability in 2025.
+
+2025 opened with a sobering reminder of crypto's risk landscape: the record-breaking [$1.5 billion Bybit hack](./bybit-hack-laundering-funds-from-the-largest-heist-in-history), the largest single theft in history - both on and off-chain. The stolen funds moved rapidly across chains and protocols, leveraging widely used apps without pre-execution risk screening and evading detection until it was too late. The attack exposed structural weaknesses in operational security, liquidity infrastructure, and industry-wide enforcement.
+
+This event – along with a string of supply chain attacks that followed across DeFi (and the rest of the tech industry) – underscored a pressing need for more resilient infrastructure: proactive transaction screening for payments, and real-time enforcement at the point of execution. At Range, these challenges directly shaped the evolution of our offerings in 2025.
+
+[Faraday](./faraday-the-transaction-engine-for-safe-scalable-and-compliant-stablecoin-payments) was designed to tackle exactly these moments - when stolen funds move quickly across chains and into widely used apps with little opportunity for intervention. By combining real‑time stablecoin routing, counterparty screening, and programmable enforcement logic, Faraday enables apps to block or flag high‑risk deposits and withdrawals before execution, rather than reacting after funds have already been disbursed.
+
+Our [Risk API](../risk-compliance) suite, including the [Onchain Risk Verifier](./risk-intelligence-now-onchain-for-solana-programs) and Faraday's [stablecoin transaction engine](./faraday-the-transaction-engine-for-safe-scalable-and-compliant-stablecoin-payments), enables the kind of pre‑execution control across wallets, bridges, and dApps need. Had these tools been deployed more broadly, much of the Bybit outflow could have been screened, flagged, or blocked before reaching popular endpoints. In parallel, our [Advanced Multisig Security Solution](./introducing-advanced-multisig-security-solution-for-solana), launched in partnership with Squads, addresses the root of many of these incidents - protecting high‑value teams not just onchain, but at the device level, where compromises like Bybit's began.
+
+But the story of 2025 wasn't just about mitigation. It was also a year of structural change. Against this backdrop of heightened security awareness and enforcement activity, stablecoins matured from niche DeFi assets into core financial rails, now powering payments, treasury flows, and institutional liquidity across ecosystems. Regulators globally took note. In the EU, MiCAR entered into force, setting a framework for [euro stablecoins](../reports/euro-2025); in the US and the UK, central banks and financial authorities began developing frameworks to integrate stablecoins into broader monetary systems.
+
+In the UK, Range's research, [BoE: Stablecoin Bull or Bear?](./boe-stablecoin-bull-or-bear), analyzed the Bank of England's consultation and its implications for classification, dual-oversight models, and liquidity backstops under the emerging regime. These developments reinforced the need for stablecoin infrastructure to meet the same standards of transparency, auditability, and compliance readiness as traditional financial systems - and our offerings at Range evolved accordingly.
+
+Together, our offerings reflect the broader industry shift: moving from passive post-incident forensics to active, real-time defense, making 2025 the year preemptive security and stablecoin risk infrastructure became essential to operating safely across chains.
+
+## Faraday: The unified transaction engine for stablecoin payments
+
+The centerpiece of Range's 2025 stablecoin roadmap was [Faraday](http://range.org/faraday) - a single API that handles cross-chain routing, risk screening, and compliance enforcement in one integrated call. Designed to abstract the complexity that has historically plagued stablecoin movement, Faraday supports stablecoins across major networks, including Solana, Arbitrum, Avalanche, Base, BNB Chain, Ethereum, and more, with deep integration with routing aggregators such as Li.fi, Skip GO, Squid, deBridge, Relay, and others. 
+
+Faraday's arrival reflected an industry demand: apply compliance directly at the rails of programmable money, rather than bolt it on retroactively. Built‑in screening against sanctions lists, risk signals, and counterparty intelligence enables fintechs, wallets, and payment providers to embed [safe stablecoin flows at scale](./faraday-the-transaction-engine-for-safe-scalable-and-compliant-stablecoin-payments) without stitching together point solutions. Check out our [comparison of Faraday against multi‑vendor architectures](./faraday-vs-point-solutions-a-comparison-for-handling-stablecoin-routing-compliance-and-integrations), highlighting the operational simplicity, compliance readiness, and performance gains of an integrated stack for routing, risk, and cross‑chain logic. 
+
+## From transaction engine to observatory: The Stablecoin Explorer
+
+In the second half of 2025, [we launched the Stablecoin Explorer](./meet-the-stablecoin-explorer-every-stablecoin-transaction-one-explorer) ([explorer.money](https://explorer.money/)) - the first unified explorer tracking every stablecoin payment across every chain and bridge. Our explorer brings together intra‑chain and cross-chain activity for assets such as USDC, USDT, FRAX, EURe, and more, with full lifecycle visibility of every stablecoin transaction from origin to destination - a capability critical for compliance, treasury operations, and research. 
+
+Unlike single‑chain explorers, the [Stablecoin Explorer](https://explorer.money/) tracks cross-chain transfers and bridge hops end-to-end and enriches transaction data with known-entity labels, [enabling developers to integrate a single authoritative view](./improve-your-wallet-dapp-or-bridge-or-app-with-range-stablecoin-explorer) in wallets and apps. This solves a real operational problem: traditional explorers split cross‑chain flows into isolated legs, increasing support overhead and obscuring the full transaction lifecycle.
+
+To maintain comprehensive stablecoin coverage, we added support for every major new stablecoin-related launch in 2025 - including [CCTP v2](./usdc-explorer-now-supports-circles-cctp-v2), USDT0, and [Tempo](./tempo-is-now-available-on-faraday-and-the-stablecoin-explorer) - across our platform, explorers, and APIs from day one.
+
+The Stablecoin Explorer also served as the analytical underpinning for our research series on stablecoins, which was also launched this year.
+
+## Stablecoin research, analysis, and insights
+
+In 2025, we published a series of comprehensive, data-driven research analyzing how stablecoins move across chains, how enforcement is applied onchain, and how regulators are shaping the next phase of stablecoin infrastructure. These findings directly informed the design of our explorers, APIs, and risk tooling. 
+
+* **[The State of Euro Stablecoins 2025](../reports/euro-2025)**  
+  The euro is the official currency for over 350 million people and a $19 trillion economy, and with MiCAR now in effect, euro stablecoins are gaining momentum. In this most comprehensive report on euro stablecoins to date, we analyzed the issuance, liquidity distribution, and growth factors of all the top euro-denominated stablecoins.
+
+* **[USDC via CCTP: How institutions and retail users move money cross‑chain](./usdc-via-cctp-how-institutions-and-retail-users-move-money-cross-chain)**  
+  Our analysis of Circle's interoperability layer looked at over 1.2 million cross-chain USDC transactions and showed a clear split between retail participation and institutional volume. The research identified predictable timing patterns and value concentration relevant to monitoring, risk thresholds, and cross‑chain UX design.
+
+* **[How USDC moves on Stellar](./how-usdc-moves-on-stellar-stablecoin-usage-and-growth-across-borders)**  
+  Stellar handles an average of 252k USDC transactions per day, but ours was the first in-depth analysis of these transactions. Our research identified payment‑driven usage, cross‑border corridors, and bridge‑based flows.
+
+* **[Onchain enforcement: A deep dive into stablecoin blacklisting](./onchain-enforcement-a-deep-dive-into-stablecoin-blacklisting)**  
+  This research analyzed onchain enforcement activity, tracking thousands of blacklisted addresses and frozen balances across stablecoins. It showed how enforcement actions propagate (or don't) through ecosystems and why real‑time sanctions screening is required at the transaction layer.
+
+* **[BoE: Stablecoin Bull or Bear?](./boe-stablecoin-bull-or-bear)**  
+  This analysis of the Bank of England’s stablecoin proposal focused on the UK's proposed classification of stablecoins, the dual oversight model, and liquidity backstop requirements. It seems to us that UK policy may treat stablecoins as systemic financial infrastructure rather than purely crypto assets.
+
+## Building secure rails across Solana and beyond
+
+Solana was one of the most active ecosystems in 2025, with over 2 million monthly active wallets, 33.1 billion total transactions, and $1.6 trillion in DEX volume. On Stablecoins, Solana currently has $16.7 billion in stablecoin supply and has processed $5 trillion in stablecoin transfer volume between Jan 1 - Dec 29, 2025. Range played a key role in supporting this growth - securing critical infrastructure, powering transaction screening, and providing real-time intelligence across the network.
+
+Early in the year, we launched the [Solana Transaction Security Standard](./announcing-the-solana-transaction-security-standard), enabling Solana programs, wallets, and multisigs to screen transactions before execution. With support from the Solana Foundation and adoption by teams like Squads, the standard introduced real-time transaction simulation, risk scoring, and smart contract intent previews, now securing over $20B in assets for almost all of Solana's top programs and treasuries.
+
+But code alone isn't enough. The Bybit hack, which began with compromised signer devices, proved that real-world attacks can bypass onchain logic. That's why we also introduced our [Advanced Multisig Security Solution](./introducing-advanced-multisig-security-solution-for-solana) – extending protection to the people behind the wallets. Teams using Squads now gain physical device protection, onchain monitoring, and proactive incident response support from Range.
+
+We also launched full support for the [Solana Attestation Service](./introducing-solana-attestation-service) (SAS) across our explorers and platform, bringing verifiable identity to wallets and allowing our users to create rules such as "only allow transfers to verified entities". Range was the first platform to index and expose SAS attestations across wallet views, simulations, and risk APIs.
+
+These foundations enabled new kinds of infrastructure to operate safely. Privacy-preserving protocols like [Vanish Trade](./vanish-trade-chooses-range-to-power-real-time-risk-screening-for-private-trading-on-solana) and [Umbra](./umbra-integrates-range-to-power-real-time-risk-and-compliance-for-private-transfers-on-solana) integrated Range's Risk API and [Onchain Risk Verifier](./risk-intelligence-now-onchain-for-solana-programs), allowing them to screen counterparties and detect abuse without compromising user privacy - critical for privacy apps navigating increasing enforcement and sanctions pressure.
+
+This year also marked Range's expansion into new networks, beyond simply indexing their assets on our public explorers:
+
+* For Stellar, we developed an explorer that tracks all transfers in/out of Stellar in real time, and we brought our wallet intelligence and forensic tooling to their ecosystem.
+* For [Polkadot](./introducing-the-polkadot-explorer), we rolled out our full explorer stack, including USDC tracking, bridge intelligence, transaction alerts, and monitoring for parachains like Acala, Moonbeam, and Phala.
+* For [THORChain](./thorchain-meets-range-full-explorer-cross-chain-intelligence-and-forensics), we developed a full network explorer, cross-chain intelligence, and forensic tooling for their ecosystem
+* For [ZIGChain](https://x.com/ZIGChain/status/1949510069520924763), we developed a custom suite of integrations to provide full network visibility and risk management - from IBC Rate Limits to using onchain risk telemetry to support apps launch on ZIGChain and limit their risk exposure.
+* Across IBC, we expanded our explorer to include [52 new Cosmos chains](./range-expands-ibc-explorer-52-chains-new-analytics-and-nearly-1b-in-monthly-volume), providing real-time visibility into over $1B in monthly cross-chain flows.
+* For [XRPL EVM](./range-x-peersyst-bringing-cross-chain-intelligence-to-xrpl-evm), we developed both a full network and cross-chain intelligence tooling, and joined the network as a validator.
+* We [partnered with zeroShadow](./making-threat-detection-faster-and-smarter-with-zeroshadow) to bring forensic-grade incident intelligence - from live investigations - directly into Range's security and intelligence platform.
+* We integrated with [Sui](./announcing-sui-integration-with-the-usdc-explorer), [Lava Network](./lava-network-on-ibc-explorer-track-ibc-transfers-in-real-time), [Injective](./injective-is-now-integrated-into-ranges-ibc-and-cross-chain-explorers), [Burnt Xion](./burnt-xion-is-now-integrated-into-ranges-explorers), [AllBridge Core](./allbridge-core-now-live-on-cross-chain-explorer), [Across Protocol](./across-protocol-is-now-integrated-into-range-crosschain-explorer), [Initia](./initia-is-now-live-in-range-cross-chain-explorer), [Union](./range-joins-union-mainnet-as-a-genesis-validator), [Near Intents](./near-intents-now-live-on-ranges-cross-chain-explorer), [Tempo](./tempo-is-now-available-on-faraday-and-the-stablecoin-explorer), and many more.  
+
+Each ecosystem integration shared a goal: give teams the tools to build securely, operate with visibility, and respond to threats fast – whether on Solana, Stellar, Polkadot, or Cosmos.
+
+## A year of transition…what's next?
+
+2025 confirmed what the past few years only hinted at: stablecoins are no longer experimental assets – *they are now eating finance*. The protocols moving them, the businesses integrating them, and the teams securing them all face new operational, regulatory, and reputational stakes.
+
+The hacks that bookended this year – from Bybit in January to Trust Wallet in December – reinforced that security, compliance, and observability must be built into the foundation of every chain, app, and asset movement.
+
+At Range, our focus remains unchanged: to provide real-time visibility, enforcement-grade infrastructure, and developer tooling for stablecoin payments. Whether you're routing payments with Faraday, securing your team's multisig, or tracing stablecoin flows across 100+ chains - we're building the systems you need to operate safely and at scale.
+
+If you're working on stablecoin integrations or building apps and business workflows that need to move stablecoins securely, [reach out](../get-in-touch).]]></content:encoded>
+      <guid isPermaLink="true">https://range.org/blog/range-in-2025-becoming-leaders-in-stablecoin-payments-infrastructure</guid>
+    </item>
+  </channel>
+</rss>

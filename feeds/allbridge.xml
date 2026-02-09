@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allbridge - Stellar Ecosystem</title>
+    <link>https://allbridge.io</link>
+    <description>Latest articles about Allbridge in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/allbridge.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Allbridge launches an On-Chain Campaign to Explore the Stellar Ecosystem</title>
+      <link>https://allbridge.medium.com/allbridge-launches-an-on-chain-campaign-to-explore-the-stellar-ecosystem-b5d5aad47754</link>
+      <pubDate>Thu, 18 Dec 2025 20:31:59 GMT</pubDate>
+      <author>Allbridge</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*nCEBFtxo3L5y-M20vWhjqw.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Allbridge launches an On-Chain Campaign to Explore the Stellar Ecosystem
+
+![](https://cdn-images-1.medium.com/max/1024/1*nCEBFtxo3L5y-M20vWhjqw.png)
+
+Allbridge is launching a multi-wave on-chain campaign designed to introduce users to the Stellar ecosystem through practical usage.
+
+In 2025, the **Stellar Development Foundation** updated its strategic mandate to reflect the network’s evolving use — with increased emphasis on DeFi, asset issuance, and real adoption, rather than speculative activity alone.
+
+This campaign offers direct rewards for completing simple on-chain actions such as bridging assets and interacting with ecosystem protocols, structured around a total reward pool **$10,000 + super perks.**
+
+**Campaign Structure**
+
+The campaign consists of five 2-weeks waves.. Every wave highlights different parts of the Stellar ecosystem and includes a $2,000 reward pool.
+
+Quests are hosted on Galxe and are refreshed at the beginning of each wave. Rewards are distributed after each wave ends, based on on-chain activity and quest completion.
+
+The first wave runs from December 22 to January 5.
+
+**Exploring the Stellar Ecosystem**
+
+The purpose of this campaign is to provide guided, hands-on exposure to the Stellar network and its growing ecosystem.
+
+Stellar’s core strengths include fast, low-cost transactions, robust asset issuance capabilities, and an expanding set of DeFi and payments integrations. Recent integrations — such as the expansion of the PYUSD stablecoin to Stellar and ongoing pilot programs with financial institutions — demonstrate the network’s relevance for real-world programmable money and cross-border use cases.
+
+The ecosystem also continues to show measurable growth in activity and adoption. Stellar reported strong on-chain performance and developer engagement, including record protocol usage and a growing community of builders contributing to DeFi and RWA infrastructure.
+
+**During the first wave, participants will:**
+
+• select and set up a wallet suitable for interacting with the Stellar network;
+
+• learn the mechanics of using a Stellar wallet;
+
+• bridge assets into Stellar using Allbridge.
+
+Subsequent waves will introduce additional infrastructure and applications built on Stellar, providing a broader view of how the ecosystem is evolving.
+
+**Participation Requirements**
+
+Participation does not require a large capital commitment. A Stellar-compatible wallet and a small number of transactions are sufficient to complete the quests.
+
+By keeping the entry threshold low, the campaign encourages a wider range of users to experience Stellar’s utility firsthand.
+
+**Reward Allocation**
+
+Each wave’s $2,000 reward pool is distributed across three participant categories.
+
+1st category: new Allbridge users who complete their first bridge transactions into Stellar.
+
+2nd category: participants with the highest transaction volumes bridged into Stellar via Allbridge during the wave.
+
+3rd category: users who complete quests across multiple leading platforms within the Stellar ecosystem, encouraging broader exploration beyond a single protocol.
+
+Exact allocations are determined after each wave based on objective on-chain criteria.
+
+**Distribution Process**
+
+Quests remain active throughout each two-week wave. After a wave concludes, eligible participants are evaluated, and rewards are distributed accordingly.
+
+Participants may join the campaign at any stage and are not required to have taken part from the beginning.
+
+This campaign would not be possible without the support of **Stellar Development Foundation** (SDF) and its ongoing commitment to real-world blockchain adoption. SDF’s updated 2025 mandate prioritizes ecosystem growth, developer support, and meaningful integrations that bridge blockchain technology with financial infrastructure — objectives that align closely with our shared goal of lowering barriers to entry and empowering users to interact with decentralized networks in a practical way.
+
+![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b5d5aad47754)]]></content:encoded>
+      <guid isPermaLink="true">https://allbridge.medium.com/allbridge-launches-an-on-chain-campaign-to-explore-the-stellar-ecosystem-b5d5aad47754</guid>
+    </item>
+    <item>
+      <title>Allbridge and Quarkslab Strengthen Partnership with Second Estrela Security Audit</title>
+      <link>https://allbridge.medium.com/allbridge-and-quarkslab-strengthen-partnership-with-second-estrela-security-audit-b42ed13d22ec</link>
+      <pubDate>Fri, 28 Feb 2025 13:58:20 GMT</pubDate>
+      <author>Allbridge</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*jfRJv-uVz87nJipA8f7kPw.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Allbridge and Quarkslab Strengthen Partnership with Second Estrela Security Audit
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*jfRJv-uVz87nJipA8f7kPw.png)
+
+Estrela, a decentralized exchange built on Soroban, has successfully completed its second round of security audits conducted by Quarkslab. The latest audit focused on ensuring the security and efficiency of its smart contracts, particularly the 3-pool implementation, confirming that the platform is well-prepared for its upcoming launch.
+
+Quarkslab conducted an in-depth review of Estrela’s smart contracts, assessing their resilience against potential vulnerabilities. The audit confirmed that Estrela has a strong security foundation, with no critical issues detected, ensuring a secure environment for users and liquidity providers.
+
+Quarkslab has previously audited Estrela, as well as another one of our projects deployed on Stellar, [Allbridge Core](http://core.allbridge.io). Their familiarity with our team and prior experience in auditing Estrela allowed them to conduct a highly efficient security review. Their thorough assessment was vital in ensuring that the smart contracts were correctly implemented, with a particular focus on the 3-pool mechanism.
+
+With the security audit now complete, we are getting ready for launch. Quarkslab’s review played a key role in ensuring everything was implemented correctly. The full audit report is available [here](https://allbridge.io/assets/docs/reports/25-01-1969-REP-V1.1-allbridge-estrela-delta-audit.pdf).
+
+For more details on Quarkslab, visit [https://www.quarkslab.com/](https://www.quarkslab.com/).
+
+**About Quarkslab**
+
+Quarkslab is a dedicated team of cyber-security engineers and developers.
+
+They aim at forcing the attackers, not the defender, to adapt constantly. Through QLab‘s consulting expertise and R&D, and their software QFlow and QShield, they share and scale their knowledge by making it accessible to everyone. They believe that security is everyone’s concern as there is no freedom if there is no security.
+
+Their expertise combines offensive and defensive security in application protection and helps organisations to adopt a new security posture.
+
+[**Website**](https://www.quarkslab.com/) **|** [**Twitter**](https://twitter.com/quarkslab) **|** [**LinkedIn**](https://www.linkedin.com/company/quarkslab/mycompany/) **|** [**Blog**](https://blog.quarkslab.com/) **|**]]></content:encoded>
+      <guid isPermaLink="true">https://allbridge.medium.com/allbridge-and-quarkslab-strengthen-partnership-with-second-estrela-security-audit-b42ed13d22ec</guid>
+    </item>
+    <item>
+      <title>Stellar Newsletter: Allbridge Launch, MGI Investment, and The Stellar Disbursement Platform</title>
+      <link>https://medium.com/@StellarOrg/stellar-newsletter-allbridge-launch-mgi-investment-and-the-stellar-disbursement-platform-ae7e3e983fc0</link>
+      <pubDate>Wed, 23 Aug 2023 13:29:21 GMT</pubDate>
+      <author>Stellar Development Foundation</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1000/1*0tW1tcWMqkyPwrrc8lFT-g.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Stellar Newsletter: Allbridge Launch, MGI Investment, and The Stellar Disbursement Platform
+
+### Executive Director’s Message
+
+Hello Stellar Ecosystem,
+
+I’m enjoying the calm of August before the craziness of Fall. Yep, I’m talking conferences (don’t forget to snag your ticket for [Meridian](https://meridian.stellar.org/)!), supporting ecosystem partners ([we made an investment in MGI](https://stellar.org/blog/sdfs-investment-in-moneygram-international), hooray!), and lots of exciting product developments.
+
+Speaking of products, did you hear? [The Stellar Disbursement Platform](https://stellar.org/products-and-tools/disbursements), the magic that makes our aid disbursements possible, is now live and open-source! What began as a tool built to power digital aid disbursements in Ukraine has become a turnkey payment solution available to anyone to use and build upon. Think payroll, contractor payments, and more… the possibilities are endless. I’m so proud of all the work our teams have poured into this product, and I can’t wait to see how builders choose to leverage the SDP.
+
+**denelle**
+
+### Allbridge Launch Connects Stellar Network to Ethereum, Solana, Celo, and Polygon
+
+Allbridge, a trusted bridge infrastructure provider, has introduced groundbreaking interoperability to the Stellar ecosystem through a new cross-chain bridge. The new bridge offers seamless digital asset transfer between Stellar and other prominent chains such as Ethereum, Solana, Celo, and Polygon. This integration marks a significant milestone; exemplifying the Stellar network’s utility for innovative development and opportunities within the decentralized finance landscape.
+
+[Learn more →](https://stellar.org/press-releases/allbridge-launch-connects-stellar-network-to-ethereum-solana-and-polygon)
+
+### The Stellar Development Foundation’s Investment in MoneyGram International
+
+During a go-private transaction with Madison Dearborn Partners, SDF invested in MGI from its own cash treasury, marking a first-of-its-kind investment. This investment also includes a seat on MGI’s[Board of Directors](https://www.prnewswire.com/news-releases/moneygram-announces-new-board-of-directors-to-support-next-chapter-of-growth-as-a-global-fintech-leader-301900337.html?tc=eml_cleartime) allowing SDF to contribute more to MGI’s digital ambitions and expansion in the financial tech sector. The alliance strengthens SDF’s vision of providing equitable access to financial services.
+
+[Learn more →](https://stellar.org/blog/sdfs-investment-in-moneygram-international)
+
+### **Join us for Meridian 2023**
+
+Meridian 2023 is set to take place in Madrid, Spain from September 26 to 28. For its 5th edition, we’re planning three unforgettable days exploring the theme *Unlocking Human Potential* — bringing together developers*,* founders, entrepreneurs, policymakers, and other leaders from decentralized and traditional finance for talks about unlocking access in innovative ways through blockchain technology and, by extension, empowering people to meet their potential in real, tangible ways. We expect to host 400+ global attendees and feature over 100 speakers, including award-winning actor, filmmaker, and UN Goodwill Ambassador, Idris Elba, who will headline the opening conference session. The deadline to purchase tickets is fast approaching — secure your spot before September 10!
+
+[Learn more →](https://stellar.org/press-releases/stellar-development-foundation-announces-meridian-2023-unlocking-human-potential)
+
+### Meridian 2023: Design Contest
+
+Stellar Development Foundation is set to host its annual Meridian event in Madrid, Spain, from September 26–28. In anticipation, SDF has announced the Meridian Design Contest, where participants are invited to craft a sticker design exclusively for conference attendees. The design must embody the event’s theme, “Unlocking Human Potential,” and resonate with SDF’s goal of promoting blockchain for global financial access.
+
+[Learn more →](https://stellar.org/blog/meridian-2023-design-contest)
+
+### Bridging the Financial Services Gap for the Unbanked: How Stellar Ramps Make Finance More Inclusive
+
+Globally, 1.4 billion people remain disconnected from traditional banking, limiting their economic potential. Our feature delves into how the Stellar network aims to bridge this gap, using blockchain-based solutions amidst challenges like distrust and prohibitive fees. Stellar’s mission is a clear call to reshape and democratize the financial landscape for all.
+
+[Learn more →](https://stellar.org/blog/bridging-the-financial-services-gap-for-the-unbanked-how-stellar-ramps-make-finance-more-inclusive)
+
+### **Stellar Development Foundation Q2 2023 in Review**
+
+Concluding the first half of 2023, and the Stellar Development Foundation made significant strides on its roadmap to further its strategy: utility is the growth exponent. To that end, SDF delivered on the three building blocks: make innovation easy and scalable, win over builders, and focus on utility to build trust.
+
+[Learn more →](https://stellar.org/blog/stellar-development-foundation-q2-2023-in-review)
+
+### Bigger is Better: Why Stellar is the Leader in Cash-to-Crypto On and Off-Ramps
+
+Stellar Development Foundation champions on and off-ramps to connect the fiat and digital economies. Research by The Block underscores Stellar’s dominance in global cash-to-crypto accessibility, especially in underserved regions. Stellar’s mission is to enhance real-world utility of digital assets for everyone.
+
+[Learn more →](https://stellar.org/blog/bigger-is-better-why-stellar-is-the-leader-in-cash-to-crypto-on-and-off-ramps)
+
+### Meta Anchors in Action: Arf’s Impact on Cross-Border Finance with Kazim Ozyilmaz
+
+In this episode of Tech Talks with Tomer, Kazim Ozyilmaz (Co-founder and Technical Lead at Arf) explains how. Arf, as a Swiss-regulated global settlement banking platform, uses the Stellar network to offer short-term liquidity and B2B financing. Kazim discusses Arf’s pivotal role as a “meta anchor,” facilitating smooth cross-border transfers for multiple financial institutions, with plans to integrate with DeFi platforms on the horizon.
+
+### **Airtm Completes Stellar USDC Integration to Power Global Last-Mile Payments**
+
+The Latin-America-based global payment provider has released a new global business payment service powered by the Stellar network as a part of its rebranding to Stellar USDC as its primary operating digital asset. [Airtm](https://airtm.com/en/), a longtime Stellar network off-ramp for Circle’s fully reserved digital dollar, USDC, is proud to transition its AirUSD to USDC for its over 5 million retail customers and over 60 enterprise customers. Now enterprise customers have access to Airtm’s ramps to instantly distribute and collect payments from over 100 countries without foreign exchange or local banking connections.
+
+[Read more — ->](https://airtm.com/en/blog/usdc-enterprise-payment-solution/)
+
+### For Developers:
+
+### Learn Soroban As Easy as 1–2–3 With Community-Made Tooling
+
+Whether you’re an experienced blockchain developer or a beginner using these tools to develop on Soroban, you’re part of an exciting, expanding world of decentralized innovation.
+
+[Learn more →](https://stellar.org/developers-blog/learn-soroban-as-easy-as-1-2-3-with-community-made-tooling)
+
+### How Soroban’s Fee Structure Contributes to the Stellar Network’s Scalability
+
+Soroban designers are making deliberate, well-thought-out decisions to support scalability. State expiration, resource fees, a finely-grained metering system, and resource limitations contribute to having valuable and efficient smart contracts and fair and predictable prices, ultimately leading to a sustainable and scalable blockchain network.
+
+[Learn more →](https://stellar.org/developers-blog/sorobans-fee-structure-contributes-stellar-network-scalability)
+
+### Beyond the Blockchain: Unlocking the Power of Analytics with Hubble
+
+The Stellar Development Foundation’s Hubble is a BigQuery dataset that offers a complete historical view of the Stellar blockchain. Streamlining large-scale data analysis, Hubble allows users to easily query data without storing it or using an API. This article will delve into Hubble’s capabilities, showcasing its potential for advanced blockchain analytics.
+
+[Learn more →](https://stellar.org/developers-blog/beyond-the-blockchain-unlocking-the-power-of-analytics-with-hubble)
+
+### Not All Data is Equal: How Soroban is Solving State Bloat
+
+Soroban is addressing blockchain’s state bloat issue with an innovative state expiration solution, differentiating between “Temporary” and “Persistent” data storage, and introducing a “rent” system for smart contract entries to maintain data on the ledger. This approach, shaped by extensive community feedback, ensures blockchain’s scalability and real-world application while preserving decentralization. The initial phase of Soroban’s state expiration is live, with more developments expected in the coming year.
+
+[Learn More →](https://stellar.org/developers-blog/not-all-data-is-equal-how-soroban-is-solving-state-bloat-with-state-expiration)
+
+### RPCiege: The Story Thus Far
+
+RPCiege is the given name for a series of small coding puzzles (called skirmishes) that teach the fundamentals of Rust and Soroban smart contract development. Each successfully completed skirmish earns the player a pack of digital collectible playing cards as proof of a battle won. RPCiege is a great place to get started or sharpen your skills with Soroban and delivers Rust basics in a bite-sized format.
+
+[Learn More →](https://stellar.org/developers-blog/soroban-rpciege-recap)
+
+### Building Soroban’s Minimum Viable Ecosystem — Pt. 2
+
+In February, the Stellar Development Foundation unveiled an ambitious vision for Soroban’s Minimum Viable Ecosystem (MVE), highlighting the crucial elements needed to welcome and empower new developers. Now, we’re thrilled to share our latest milestones and an evolved strategy.
+
+[Learn More →](https://stellar.org/developers-blog/building-sorobans-minimum-viable-ecosystem-pt-2)
+
+### The Essential Guide to Rust Development
+
+Rust is a developer’s dreamboat, balancing speed, safety, and concurrency without compromising performance. It’s a dynamic language, offering you the power and precision of low-level languages along with the ease and abstraction of high-level ones. Ever wondered what it’s like to code in Rust? Whether you’re an experienced dev or just getting started, this article is your roadmap into the world of Rust development.
+
+[Learn More →](https://stellar.org/developers-blog/essential-guide-rust-development)
+
+### A Developer’s Guide to Soroban Adoption Fund Programs Pt. 2
+
+It’s that time again. The time when there is a befuddling amount of programs providing opportunities for developers to get involved with and learn about Soroban. If you’re looking to get engaged but don’t know where to start, this guide will help you understand our current and upcoming programs, who they’re for, and what they offer.
+
+[Learn More →](https://stellar.org/developers-blog/developers-guide-soroban-adoption-fund-programs-pt-2)
+
+[See upcoming events](https://www.stellar.org/events)
+
+[We’re hiring. Check out our jobs.](https://boards.greenhouse.io/stellar)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@StellarOrg/stellar-newsletter-allbridge-launch-mgi-investment-and-the-stellar-disbursement-platform-ae7e3e983fc0</guid>
+    </item>
+  </channel>
+</rss>

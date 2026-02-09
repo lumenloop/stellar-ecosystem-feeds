@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Answerly - Stellar Ecosystem</title>
+    <link>https://answerly.app</link>
+    <description>Latest articles about Answerly in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/answerly.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>POV: You have an Answerly NFT</title>
+      <link>https://answerly.app/blogs/pov-you-have-an-answerly-nft</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 GMT</pubDate>
+      <author>Samual</author>
+      <enclosure url="https://answerly.app/storage/uploads/blog/images/pov-you-have-an-answerly-nft-image_1655123610.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# POV: You have an Answerly NFT
+
+**By Samual**
+
+Non-fungible tokens (NFTs) have positively taken the digital world by storm. Digital content creators now have an opportunity to change their lives, courtesy of a whole new audience in front of them. Creators and crypto audiences are engaging more than ever, at a scale that is expanding with every day passing. It is because these NFTs can be used to represent ownership of any unique asset. Tokens that offer added utility are selling like hotcakes; in particular, the Answerly NFT is a prime example. The Answerly NFTs went live in May and have been a popular topic of discussion in the NFT-verse since then.
+
+Answerly aims to build a Stellar-based ecosystem of knowledge lovers who benefit by sharing their insights about different fields. And while the normal members of the Answerly community are thriving and loving the idea, the platform experience becomes even more incredible for the Answerly NFT holders. They are entitled to several perks and privileges on the Answerly platform. These tokens qualify a holder for a lifetime pro-membership for the Answerly platform. Being a pro-member of the platform means that a user’s rewards increase automatically, as will the user’s questioning and answering limits on the platform. Also, ads won’t get in the way of the platform experience. The Answerly platform automatically determines eligibility once the user’s Stellar wallet is connected to the platform.
+
+A recent spike in interest for the Answerly NFT has been observed. The recent Answerly NFT airdrop, which benefitted many members of the Stellar family, is proof of that. The complete list of the Answerly NFT airdrop winners is available at Answerly’s Twitter handle. You can scroll through this list to learn more about the lucky winners of this airdrop. Until the next airdrop, we recommend buying ANSR tokens and using them to purchase the Answerly NFTs. ANSR tokens can be purchased from multiple sources, including Lumenswap, Scopuly, and Lobstr.
+
+A look across the horizon tells us that NFTs are here to stay for a long time, and digital content creators finally have a firm shoulder to lean on. Answerly, NFTs are transcending the new levels of popularity in the world of the non-fungible token; perhaps checking them out at Litemint is something you would like to put on your to-do list. Answerly’s mission is to incentivize knowledge sharing; thee Answerly NFTs are contributing massively to the accomplishment of this mission.]]></content:encoded>
+      <guid isPermaLink="true">https://answerly.app/blogs/pov-you-have-an-answerly-nft</guid>
+    </item>
+  </channel>
+</rss>

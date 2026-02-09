@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soroswap - Stellar Ecosystem</title>
+    <link>https://soroswap.finance</link>
+    <description>Latest articles about Soroswap in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/soroswap.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Monitor the Health of Soroswap on Alterscope</title>
+      <link>https://medium.com/soroswap/monitor-the-health-of-soroswap-on-alterscope-adfc1f965667</link>
+      <pubDate>Wed, 26 Mar 2025 16:23:22 GMT</pubDate>
+      <author>Jenny T.</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/960/1*QMOGJk3uk7PZORvudaAZ3A.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Monitor the Health of Soroswap on Alterscope
+
+[Alterscope](https://app.alterscope.org/projects/soroswap.finance/dex/soroswap.finance) is a risk infrastructure that monitors the health of DeFi protocols like Soroswap Finance, evaluating key metrics such as liquidity, volume, security, and community reputation. It enables risk management by analyzing metrics and providing tools for informed decision-making.
+
+![ ](https://cdn-images-1.medium.com/max/960/1*QMOGJk3uk7PZORvudaAZ3A.png)
+
+The decentralized finance (DeFi) ecosystem has experienced exponential growth in recent years, opening new opportunities for users and investors worldwide. However, this growth has also brought challenges, such as the need to manage risks and assess the strength of the protocols in which trust is placed. In this context, [Alterscope](https://app.alterscope.org/projects/soroswap.finance/dex/soroswap.finance#security) positions itself as an innovative solution, offering users the ability to monitor the status of various DeFi protocols in real-time, including those integrated within the Stellar ecosystem.
+
+**What Does Alterscope Do?**
+
+It is a real-time infrastructure that helps people understand and manage risks in the world of decentralized finance (DeFi). It analyzes and processes risks across chains, protocols, and liquidity pools, reviewing key aspects such as security, price stability, and changes in rules. This enables users to make more informed and secure decisions about where to invest or how to protect their assets. Essentially, it simplifies the complex information of DeFi so that anyone can operate with greater confidence and clarity.
+
+#### What Information Does Alterscope Provide About Soroswap?
+
+The **Score Chart** visualizes the value of the aggregated score and its subscore values for the Soroswap protocol over a specific period, which can be 7 days or one month. The green represents development, the red reflects the overall evaluation, the orange indicates liquidity, and the brown refers to the social aspect.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*nrpSCZVH6rr8V6lq7dVV4w.gif)
+
+The **General Security Parameters** shows no reported hacks, a stable non-upgradable system, no bounty program for vulnerabilities, and team transparency with public information.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*6RlNHY8vFQ3vP0pZb0eWQw.png)
+
+This graph illustrates **Development Activity** by showing the proportion of contributions from the lead contributor compared to others. This is important because excessive reliance on a single person could pose a risk to the project’s sustainability.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*-G8dSMxLXkYnlweWZL6jJw.png)
+
+Soroswap has been audited by two independent entities to assess its security.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*pGKP5nGAjhnz6Q4UP3RBYg.png)
+
+- [**OtterSec:**](https://app.alterscope.org/projects/soroswap.finance/dex/soroswap.finance/security/auditor/31/audit/674474fa2537fb0be8668172) Conducted an audit on December 27, 2023.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*yadY8EubugA3B97H679hAQ.png)
+
+- [**Runtime Verification Inc:**](https://app.alterscope.org/projects/soroswap.finance/dex/soroswap.finance/security/auditor/30/audit/6744964b2537fb0be8668178) Performed an audit on August 31, 2024, identifying and categorizing issues based on their severity (critical, high, medium, low, and informational).
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*v0azPoAJKzWTXqiyPma39w.png)
+
+In the **liquidity section**, the market dynamics of Soroswap are analyzed, focusing on asset price stability and the health of the liquidity pools. It includes the Total Value Locked (TVL), expressed in USD, which is updated daily at midnight. The TVL chart tracks changes over time, helping our users assess liquidity and market strength.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*Gq9WWp6va-_-6apf5Eim4w.gif)
+
+The **Markets** section displays key metrics of Soroswap, such as the Total Value Locked (TVL), 24-hour volume, generated fees, and liquidity score. These metrics allow users to assess the activity and stability of the protocol.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*2nx9fpzX4lZRWZ_kgy8axg.png)
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*rQGPrwvLldAlc2rATUeqPQ.png)
+
+The **Social** section shows how the Soroswap community interacts and views the project. The **Social Score** measures engagement and reputation based on daily activity and messages.
+
+![ ](https://cdn-images-1.medium.com/max/1024/1*BfDAzhV6sMR0x52W9akz-Q.png)
+
+We invite you to try [**Soroswap Finance**](https://soroswap.finance/)Make your first SWAP and discover a simple and reliable way to manage your digital assets.
+
+### About Soroswap.Finance 🪐
+
+[Soroswap.Finance](https://soroswap.finance) is the first decentralized exchange (DEX) on the Soroban Blockchain, setting a new benchmark in cryptocurrency trading. As a trailblazer in the [Stellar Development Foundation](https://medium.com/u/99518a49d085)***,*** provides an advanced platform for fast, cost-effective token swaps without intermediaries.
+
+Developed by [**Palta**labs](https://paltalabs.io/) 🥑, this open-source protocol ensures a secure and efficient trading experience, featuring minimal fees and a structure resistant to censorship. By using *Soroswap.Finance*, you gain access to an innovative solution in decentralized finance, optimizing both security and accessibility in managing your digital assets.
+
+### Join Us!
+
+[Website](https://soroswap.finance/) | [GitHub](https://github.com/Soroswap) | [Twitter](https://x.com/SoroswapFinance)| [Documentation](https://docs.soroswap.finance) | [Discord](https://discord.com/invite/A2rQ3cm9XG) |[Linkedin](https://www.linkedin.com/company/soroswap)  
+[PaltaLabs Website](https://paltalabs.io) | [PaltaLabs Twitter](https://twitter.com/PaltaLabs) | [PaltaLabs Linkedin](https://www.linkedin.com/company/paltalabs)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/soroswap/monitor-the-health-of-soroswap-on-alterscope-adfc1f965667</guid>
+    </item>
+    <item>
+      <title>USDX from the FxDAO protocol, is now available on Soroswap Finance</title>
+      <link>https://medium.com/soroswap/usdx-from-the-fxdao-protocol-is-now-available-on-soroswap-finance-9ab8df222910</link>
+      <pubDate>Wed, 13 Nov 2024 17:08:02 GMT</pubDate>
+      <author>Jenny T.</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*tIdj_WT3d8Tb3QyeHQvvRg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# USDX from the FxDAO protocol, is now available on Soroswap Finance
+
+**USDx from the FxDAO protocol** is now available on **Soroswap Finance!**  
+You can get USDx directly on Soroswap and swap it for any other token on our AMM. We have a **$190,000 TVL liquidity pool** for the **XLM/USDx pair.**  
+Through the FxDAO protocol, you can issue stablecoins by locking Lumens as collateral in “**Vaults**” giving you access to liquidity without selling your Lumens.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*tIdj_WT3d8Tb3QyeHQvvRg.png)
+
+**USDx from the FxDAO protocol**, is now available on **Soroswap Finance**, and we’re thrilled to explore what makes USDx so captivating and revolutionary! Curious about how to get involved with the FxDAO protocol? Want to learn how to navigate Soroswap’s interface? And what does this development mean for the Stellar community? Let’s dive into all of this in this article!Soroswap Has a $190,000 Liquidity Pool in the XLM/USDx Pair
+
+### Soroswap has a liquidity pool of $190,000 for the XLM/USDx pair.
+
+Soroswap offers various liquidity pools with a total **TVL (Total Value Locked) of $385.62k.** Within the platform, the **XLM/USDx** pair stands out as the largest liquidity pool, with a total of **$190,000** in locked value, provided by users who have deposited funds in the form of XLM and USDx.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*_qJdsYI7KhxfrliAdGaR3Q.png)
+
+### **What Makes USDx So Revolutionary?**
+
+USDx is an innovative stablecoin from the FxDAO protocol, a decentralised lending protocol that enables users to issue stablecoins by locking Lumens as collateral. This provides liquidity without the need to sell assets while allowing loans to be issued in multiple currencies (USD, EUR, GBP) with a minimum collateral ratio to prevent liquidation. FxDAO also empowers users by involving them in protocol governance.
+
+#### How Can I Get USDx?
+
+You can easily obtain USDx by purchasing it directly on Soroswap. Simply hold any token from our list, and swap it through our protocol. It’s that straightforward — get your USDx and start unlocking the potential of the Stellar ecosystem.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*TYRRY0BQDBTX7p96prC4Xw.png)
+
+#### **What Can I Do with My USDx Now?**
+
+With your USDx, you can do several things on Soroswap Finance:
+
+*   **Swap it**: Exchange your USDx for any other token available on Soroswap and take advantage of market opportunities.Maybe you can swap it for USDC and lend it on [Blend.Capital](https://www.blend.capital) to get a yield!
+*   **Provide liquidity**: Join the XLM/USDx pool and earn rewards through swap fees.
+*   **Hold it as a stablecoin**: Keep USDx as a stable option.
+
+**or Participate in the FxDAO protocol**
+
+#### **How to Participate in the FxDAO Protocol**
+
+**Access the Platform:** Visit the FxDAO website at [https://app.fxdao.io/](https://app.fxdao.io/) to start the process.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*mf4w5ITYWXma7HQx1MAHJw.png)
+
+Once you’re on the platform, **connect your wallet**. You have several options available: **Lobstr, xBull, Freighter,** and **Albedo**. If you’re unsure which to choose, check out our [Guide to Choosing a Wallet for the Stellar Network](https://dev.to/soroswap/guide-to-choosing-wallet-for-the-stellar-network-53k1).
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*g_IHzswdcdvNWRcF3lSSsg.png)
+
+**Select “Create USDx Vault”** to use your Lumens as collateral and issue USDx. Specify the amount of Lumens to lock and the USDx you wish to receive. You’ll see the collateralization ratio (minimum 115%) and platform fees, allowing you to access liquidity without selling your assets.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*Ri3vO_W8gO3-laT5obg8PQ.png)
+
+You need to confirm the transactions. The first is to establish the **trustline**, which adds the token to your wallet; the second is to approve the transaction. Make sure to review and approve both actions to proceed with the USDx issuance process.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*6MxjKfFso6KEIDr7JxP4Fg.png)
+
+In this section, you can view the details of your USDx vault. Total Debt shows the issued amount (100 USDx), and Total Collateral indicates the locked collateral (1,215.4539438 XLM). **The Collateral Rate** is 115.58%. From here, you can **Pay Debt** to reduce your debt, **Increase Collateral** to add more Lumens, or **Increase Debt** to issue more USDx.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*Uzo-ChjAXpWf6Uw3uXJLEQ.png)
+
+You’re all set! You now have your USDx in your wallet. You can use your stablecoins to make transactions and take advantage of opportunities within the Stellar ecosystem. Here, we’ll show you how to use Soroswap to get the most out of your USDx.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*Nhhg9VKkwdZJ7-49PDx70Q.png)
+
+### Now that you have your USDx, let’s do a SWAP on Soroswap.Finance 🪐
+
+With your USDx in hand, you’re ready to swap it for any token! Whether you want to convert back to XLM or trade it for USDC, the choice is yours.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*Stkvup2MshlS6LWWwK2rRA.png)
+
+**Set Protocol and Trustlines**: Soroswap automatically selects the best protocol, but you can choose between SDEX, Soroswap AMM, or Phoenix AMM. Be sure to set a trustline for USDx to manage assets in your wallet.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*ED1plFSOecrfUYgs-aH_6Q.png)
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*TQG5X5pMDtZcauOJxPd0IA.png)
+
+**Congratulations!** You have successfully completed your swap. Now you can verify and confirm your transaction on Stellar Explorer. Simply enter your wallet address or the transaction ID.
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*WT4uu3nWVTa9EiNcv2C3Ng.png)
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*R-mgu6Cy3653oru8dL9pig.png)
+
+We hope you can make your swaps and provide liquidity on Soroswap Finance, whether it’s with the XLM/USDx pair or any other you choose. Follow us to stay updated on the latest news and opportunities on our platform!
+
+### About Soroswap.Finance 🪐
+
+[Soroswap.Finance](https://soroswap.finance) is the first decentralized exchange (DEX) on the Soroban Blockchain, setting a new benchmark in cryptocurrency trading. As a trailblazer in the [Stellar Development Foundation](https://medium.com/u/99518a49d085)***,*** provides an advanced platform for fast, cost-effective token swaps without intermediaries.
+
+Developed by [**Palta**labs](https://paltalabs.io/) 🥑, this open-source protocol ensures a secure and efficient trading experience, featuring minimal fees and a structure resistant to censorship. By using *Soroswap.Finance*, you gain access to an innovative solution in decentralized finance, optimizing both security and accessibility in managing your digital assets.
+
+### Join Us!
+
+[Website](https://soroswap.finance/) | [GitHub](https://github.com/Soroswap) | [Twitter](https://x.com/SoroswapFinance)| [Documentation](https://docs.soroswap.finance) | [Discord](https://discord.com/invite/A2rQ3cm9XG) |[Linkedin](https://www.linkedin.com/company/soroswap)  
+[PaltaLabs Website](https://paltalabs.io) | [PaltaLabs Twitter](https://twitter.com/PaltaLabs) | [PaltaLabs Linkedin](https://www.linkedin.com/company/paltalabs)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/soroswap/usdx-from-the-fxdao-protocol-is-now-available-on-soroswap-finance-9ab8df222910</guid>
+    </item>
+    <item>
+      <title>Easily Swap Tokens on Soroswap from Your Mobile with Hana Wallet</title>
+      <link>https://medium.com/soroswap/easily-swap-tokens-on-soroswap-from-your-mobile-with-hana-wallet-54e74f4b223a</link>
+      <pubDate>Wed, 30 Oct 2024 19:42:06 GMT</pubDate>
+      <author>Jenny T.</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*MVzBs-bLNtIygNGElGpUrA.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Easily Swap Tokens on Soroswap from Your Mobile with Hana Wallet
+
+**Swap tokens on Soroswap from your mobile, available in the Hana Wallet DApps directory.** This integration makes ie easy to exchange ANY Stellar token like $XLM or $USDC. Discover how simple it is to manage your assets on the Stellar blockchain!
+
+![Hana Wallet](https://cdn-images-1.medium.com/max/1024/1*MVzBs-bLNtIygNGElGpUrA.png)
+
+Hana Wallet is a digital wallet designed for usability and security, enabling efficient management of Stellar blockchain assets across various devices. Its integrated browser facilitates seamless interaction with decentralized applications (dApps) within the Soroban ecosystem. Additionally, users can perform transactions without KYC, offering a streamlined and direct experience in decentralized finance.
+
+The combination of Hana Wallet and Soroswap enables users to quickly and securely exchange Stellar tokens, such as XLM or USDC, as well as other assets, right from their mobile device. With an intuitive interface, it’s easy for new users to make swaps without complications.
+
+### Installing Hana Wallet on Your Mobile
+
+Here’s a step-by-step guide to installing Hana Wallet on your mobile device:
+
+1. **Download the App**: Visit your device’s app store ([App Store for iOS](https://apps.apple.com/us/app/hana-wallet/id6447821572?utm_source=core&utm_medium=null&utm_campaign=%28not+set%29) or [Google Play for Android](https://play.google.com/store/apps/details?id=com.HanaTech.Wallet&utm_source=core&utm_medium=null&utm_campaign=%28not+set%29&pli=1)) and search for “**Hana Wallet**.” Download and install the app.
+
+![App Store](https://cdn-images-1.medium.com/max/750/1*Ib-SKS4ujCul_vqAXKQcgw.jpeg)
+
+**2. Create an Account:** Once the app is installed, open it and select the option to create a new account. Associate an email and follow the on-screen instructions to set up your wallet.
+
+![Create Account](https://cdn-images-1.medium.com/max/1024/1*JZXlkjLp-IIsacGYr_u16w.png)
+
+> **Security**: During the setup process, you’ll be prompted to establish security measures, such as a password or PIN. Be sure to choose something secure and easy to remember.
+
+**3. Select the Stellar Network:** Choose the Stellar network and ensure it is active. You can enable or disable it as needed.
+
+**4. Access Soroswap Finance:** Open the app directory in Hana Wallet, type “Soroswap Finance” in the search bar, and select it to access the platform. From there, you can start making swaps effortlessly!
+
+### Video guide on using Soroswap with Hana Wallet
+
+To enhance your experience with **Soroswap Finance**, we encourage you to check out CriptoRoberto’s video tutorial. In this video, you’ll learn how to use the Hana Wallet app and easily swap $XLM and $USDC on Soroswap directly from your mobile device. This is a great way to simplify your token exchanges right at your fingertips. The tutorial is in Spanish and is designed to be intuitive, making it easy for you to follow along. Don’t miss out!
+
+[Video Tutorial](https://medium.com/media/212eb85ebd732fb3ea5a96def6fa0927/href)
+
+Swapping tokens on **Soroswap.Finance** through Hana Wallet is a quick and user-friendly experience. By following our simple installation guide and exploring the intuitive features of Hana Wallet, you can effortlessly manage your assets on the Stellar blockchain from your mobile device. Take advantage of the simplicity and security of decentralized finance with Soroswap and take control of your digital assets today!
+
+### About Soroswap.Finance 🪐
+
+[Soroswap.Finance](https://soroswap.finance) is the first decentralized exchange (DEX) on the Soroban Blockchain, setting a new benchmark in cryptocurrency trading. As a trailblazer in the [Stellar Development Foundation](https://medium.com/u/99518a49d085), provides an advanced platform for fast, cost-effective token swaps without intermediaries.
+
+Developed by [Palta labs](https://paltalabs.io/) 🥑, this open-source protocol ensures a secure and efficient trading experience, featuring minimal fees and a structure resistant to censorship. By using *Soroswap.Finance*, you gain access to an innovative solution in decentralized finance, optimizing both security and accessibility in managing your digital assets.
+
+### Join Us!
+
+[Website](https://soroswap.finance/) | [GitHub](https://github.com/Soroswap) | [Twitter](https://x.com/SoroswapFinance)| [Documentation](https://docs.soroswap.finance) | [Discord](https://discord.com/invite/A2rQ3cm9XG) |[Linkedin](https://www.linkedin.com/company/soroswap)  
+[PaltaLabs Website](https://paltalabs.io) | [PaltaLabs Twitter](https://twitter.com/PaltaLabs) | [PaltaLabs Linkedin](https://www.linkedin.com/company/paltalabs)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/soroswap/easily-swap-tokens-on-soroswap-from-your-mobile-with-hana-wallet-54e74f4b223a</guid>
+    </item>
+  </channel>
+</rss>

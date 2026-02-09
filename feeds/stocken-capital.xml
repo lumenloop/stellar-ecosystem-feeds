@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STOCKen CAPITAL - Stellar Ecosystem</title>
+    <link>https://stockencapital.com</link>
+    <description>Latest articles about STOCKen CAPITAL in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/stocken-capital.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>STOCKen CAPITAL ha sido premiado en Stellar Community Fund #24</title>
+      <link>https://stockencapital.medium.com/stocken-capital-ha-sido-premiado-en-stellar-community-fund-24-7574248a852d</link>
+      <pubDate>Wed, 03 Apr 2024 11:01:43 GMT</pubDate>
+      <author>Stocken Capital</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*WFZWsAW-pA-t8j_xT9pb_Q.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# STOCKen CAPITAL ha sido premiado en Stellar Community Fund #24
+
+Estamos encantados de anunciar que STOCKen CAPITAL ha sido elegida y premiada en la convocatoria #24 de Stellar Community Fund, lo que marca un hito importante en nuestro viaje hacia la integración de nuevos servicios relacionados con el uso de Soroban, la nueva blockchain de Stellar.
+
+#### **El futuro de STOCKen CAPITAL**
+
+Esta alianza nos da acceso a la comunidad, financiación y recursos para mejorar en los siguientes aspectos:
+
+*   **Sistema de pagos por medio de criptomonedas:** Stellar es conocido por ser una red rápida pensada en la gestión de pagos, no solo de criptomonedas sino opciones de FIAT tokenizado. Cada usuario y empresa tendrán un wallet en esta red para gestionar pagos por el método tradicional o por el método más crypto.
+*   **Soroban:** Esta nueva blockchain nos da la posibilidad de transformar en smart contracts las diferentes evidencias que ya registramos en blockchain en la herramienta y la firma de contratos individualizada.
+*   **Oráculo:** Nuestro oráculo estará en permanente conexión con nuestro sistema y la blockchain medinate API para dar más seguridad a los procesos legales que ocurren dentro de cada empresa.
+
+![](https://cdn-images-1.medium.com/max/1024/1*WFZWsAW-pA-t8j_xT9pb_Q.png)
+
+*STOCKen CAPITAL te ayuda con la obtención de capital en todas las fases de un proyecto o empresa, además de ofrecer gobernanza digital de las empresas.*
+
+La tecnología blockchain nos ayuda a trazar las acciones dentro de la herramienta permitiendo eliminar intermediarios y, próximamente, poder tener pagos directamente en criptomoneda con la misma seguridad con la que hemos funcionado hasta ahora.
+
+Seguimos!!]]></content:encoded>
+      <guid isPermaLink="true">https://stockencapital.medium.com/stocken-capital-ha-sido-premiado-en-stellar-community-fund-24-7574248a852d</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tansu - Stellar Ecosystem</title>
+    <link>https://tansu.dev</link>
+    <description>Latest articles about Tansu in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/tansu.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tansu is now on Mainnet!</title>
+      <link>https://tansu.dev/blog/mainnet</link>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+      <author>Pamphile Roy</author>
+      <enclosure url="/assets/images/deployment_screenshot-7c5f0d54edeb742354ca7b6c4b32f39e.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Tansu is live on mainnet! 🚀
+
+We're excited to announce that Tansu is now officially deployed on Stellar's mainnet!
+
+![Mainnet deployment terminal output showing contract deployment with contract ID CDXINK2T3P46M4LWK35FVIXXHJ2XHAS4FOVCGVPJ63YV5OVTM24IY5BI](/assets/images/deployment_screenshot-7c5f0d54edeb742354ca7b6c4b32f39e.png)
+
+**Contract ID:** `CDXINK2T3P46M4LWK35FVIXXHJ2XHAS4FOVCGVPJ63YV5OVTM24IY5BI`
+
+You can view the contract on [Stellar Expert](https://stellar.expert/explorer/public/contract/CDXINK2T3P46M4LWK35FVIXXHJ2XHAS4FOVCGVPJ63YV5OVTM24IY5BI).
+
+**dApp:** [https://app.tansu.dev](https://app.tansu.dev)
+
+Register your project and start securing your software supply chain today!]]></content:encoded>
+      <guid isPermaLink="true">https://tansu.dev/blog/mainnet</guid>
+    </item>
+    <item>
+      <title>Anonymous Voting in Soroban</title>
+      <link>https://tansu.dev/blog/annonymous_voting</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+      <author>Pamphile Roy</author>
+      <enclosure url="https://tansu.dev/img/logo.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Anonymous Voting in Soroban
+
+Tansu now supports **anonymous voting** for proposals, allowing members to cast votes without revealing their choices on-chain. This post details the cryptographic protocol, smart contract interface, and how to interact with the feature manually.
+
+## (Super short) Primer on zero-knowledge
+
+Annonimity on-chain is synonym of zero-knowledge (ZK) schemes. The key concept is to be able to prove something without revealing enough information about it so that it would be compromised. The classic example is to prove your age without giving your birth date while still giving the verifier the certainty that the information your give as a proof is enough.
+
+Since protocol 22, Soroban gained some cryptographic primitives which can be used as building blocks to build ZK protocols. Specifically, the elliptic curve BLS12-381. This curve allows to generate a sort of hash called a point (we make a projection of a value to a point on a curve) and, this is the key part, we can do mathematical operations between points. These mathematical operations, like an addition, are called a homomorphic operations. Thanks to that extra property, we can do `a + b = c` without revealing the values or `a` nor `b` nor `c`. But what we can do is to project `a`, `b` and `c` and get the same points on the curve.
+
+In case this is not clear, this is not a trivial problem and there are a thousand ways you can make this go booooommm.
+
+## ZK and voting
+
+Back to Tansu and voting. We want to store vote on-chain for transparency. If we want to keep votes annonymous, we can map votes to a point on the curve and store that point instead. The issue is that someone can easily pre-compute that mapping. This is commonly called a Rainbow table attack. To this common problem, salting is often used.
+
+In the ZK + voting world, a version of that is a Pedersen commitment scheme. From each vote, we generate a hidden point on a curve which is called commitment and follow:
+
+$$C = G(v) \cdot H(r),$$
+
+- `G`, `H`: generator points, the magic part which maps a value to a point-on-a-curve,
+- `v`: the vote value, can be multiplied by a weighting factor,
+- `r`: a random seed, unique per vote to prevent Raibow table-like attacks.
+
+The vote commitments can be safely stored on-chain. We can only brute force its value. At the end of the voting period, we can sum individual commitments and compare the final commitment during the tally/reveal phase thanks to homomorphic encryption properties:
+
+$$\sum_i C_i = \sum_i {G(v_i) \cdot H(r_i)} = G\left(\sum_i v_i\right) \cdot H\left(\sum_i r_i \right),$$
+
+## Smart Contract Interface
+
+### 1. Setup
+
+Before using anonymous voting, a maintainer has to setup an asymmetric keypair. Then they have to share the public key as a contract data:
+
+```bash
+stellar contract invoke \
+  --source-account <ADMIN_G...> \
+  --network testnet \
+  --id <TANSU_CONTRACT_ID> \
+  -- \
+  anonymous_voting_setup \
+  --project_key <project_key> \
+  --public_key <public-key>
+```
+
+### 2. Creating a Proposal
+
+When creating a proposal, set `public_voting` to `false`:
+
+```bash
+stellar contract invoke \
+  --source-account <MAINTAINER_G...> \
+  --network testnet \
+  --id <TANSU_CONTRACT_ID> \
+  -- \
+  create_proposal \
+  --proposer <MAINTAINER_G...> \
+  --project_key <project_key> \
+  --title "Upgrade protocol" \
+  --ipfs <ipfs_cid> \
+  --voting_ends_at <timestamp> \
+  --public_voting false
+```
+
+### 3. Submitting a Vote
+
+Votes are submitted as `AnonymousVote` structs, which include:
+
+- `encrypted_seeds`: Encrypted random seeds (off-chain, using the DAO's public key),
+- `encrypted_votes`: Encrypted vote values (off-chain),
+- `commitments`: Commitments for each choice (Approve, Reject, Abstain).
+
+Call:
+
+```bash
+stellar contract invoke \
+  --source-account <VOTER_G...> \
+  --network testnet \
+  --id <TANSU_CONTRACT_ID> \
+  -- \
+  vote \
+  --voter <VOTER_G...> \
+  --project_key <project_key> \
+  --proposal_id <proposal_id> \
+  --vote '{"AnonymousVote": {"address": "<VOTER_G...>", "weight": <VOTER_WEIGHT>, "encrypted_seeds": ["..."], "encrypted_votes": ["..."], "commitments": ["...", "...", "..."]}}'
+```
+
+> **Generating commitments** You must handle encryption, decryption, and commitment calculation off-chain. You should use `build_commitments_from_votes` but only simulate the transaction. If you submit the transaction, the data would be publicly disclosed publicly.
+
+### 4. Tallying and Execution
+
+After the voting period, a maintainer calls:
+
+```bash
+stellar contract invoke \
+  --source-account <MAINTAINER_G...> \
+  --network testnet \
+  --id <TANSU_CONTRACT_ID> \
+  -- \
+  execute \
+  --maintainer <MAINTAINER_G...> \
+  --project_key <project_key> \
+  --proposal_id <proposal_id> \
+  --tallies '[<approve_sum>,<reject_sum>,<abstain_sum>]' \
+  --seeds '[<approve_seed_sum>,<reject_seed_sum>,<abstain_seed_sum>]'
+```
+
+The contract verifies the commitments using:
+
+```rust
+proof(env, project_key, proposal, tallies, seeds)
+```
+
+If the proof passes, the proposal is executed and the result is finalized.
+
+### Closing thoughts
+
+That's it! We have anonymous votes on Soroban! In the following weeks, we will focus on adding some UI components to make this usable to anyone.]]></content:encoded>
+      <guid isPermaLink="true">https://tansu.dev/blog/annonymous_voting</guid>
+    </item>
+    <item>
+      <title>Tranche 1 approved! | Tansu</title>
+      <link>https://tansu.dev/blog/build_award_tranche_1</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+      <author>Pamphile Roy</author>
+      <enclosure url="https://tansu.dev/assets/images/tansu_awarded-47c8dd2dace63b3f6e0954f52c902143.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[Tansu validated the deliverable for the first tranche of its Stellar Community Fund build Award!
+
+![Award illustration](/assets/images/tansu_awarded-47c8dd2dace63b3f6e0954f52c902143.png)
+
+As defined in our proposal we set ourselves to complete the following 3 milestones during that tranche. We have successfully delivered them.
+
+1. Decentralized organization backend: we added a DAO interface to our Soroban contract. Maintainers can create a new proposal, anyone can cast a vote and then maintainers can execute the vote at the end of the voting period. A suite of tests is covering the contract API.
+2. Decentralized organization frontend: we added three pages to manage the DAO. (i) lists proposals showing their status; (ii) create a new proposal; and (iii) view a proposal and its details. Once a proposal voting period ends, we can trigger custom outcomes by the mean of custom XDR transactions.
+3. Maintenance before Testnet tranche: we did a complete refactor of the contracts and frontend code to make it more maintainable; improved our CI/CD tooling; added better tools for testnet automatic deployment which is handy with the testnet resets; added support for Ledger wallets; and did a lot of small bug fixes.
+
+Additionally, we have been working on these extras-not part of the proposal:
+
+* IPFS integration: the dApp itself is also hosted on IPFS; DAO proposals are hosted on IPFS. All that in an effort to truly stay decentralized.
+* Design: we have a new logo and are working on a whole new UX with a design studio.
+* Anonymous votes: we are evaluating the use of the new BLS curve and homomorphic encryption as to preserve voters' anonymity.
+* GitHub dependency: we are also looking at ways to remove our dependency towards GitHub or any other external system in an effort to be as decentralized as possible.
+
+We have put in a lot of effort so far to not have a backend and will continue to do so. This is the only way to be truly decentralized, be able to host the dApp itself on IPFS, have everything running client side so that users can really trust our system. It would be far easier and faster for us to make use of a traditional backend but this to us is a compromise we are striving to avoid as much as we technically can. We need to fully embrace web3 and work our way out of web2 solutions.]]></content:encoded>
+      <guid isPermaLink="true">https://tansu.dev/blog/build_award_tranche_1</guid>
+    </item>
+  </channel>
+</rss>

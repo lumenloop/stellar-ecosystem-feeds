@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIA - Stellar Ecosystem</title>
+    <link>https://diadata.org</link>
+    <description>Latest articles about DIA in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/dia.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DIA Launches xReal: The First Oracle Suite Designed for Real-World Asset (RWA) Applications</title>
+      <link>https://diadata.org/blog/post/dia-launches-first-oracle-for-real-world-assets-rwas/</link>
+      <pubDate>Wed, 19 Feb 2025 22:41:18 GMT</pubDate>
+      <author>Mikel Garcia</author>
+      <enclosure url="https://cms3.diadata.org/wp-content/uploads/2025/02/cover-of-DIA-xREAL-announcement-oracles-for-RWAs.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# DIA Launches xReal: The First Oracle Suite Designed for Real-World Asset (RWA) Applications
+
+**DIA introduces the first oracle suite designed for Real-World Asset (RWA) applications on-chain. Explore now over 100+ price feeds for RWAs!**
+
+**By Mikel Garcia (Core-Team)** | **February 19, 2025** | **3 minutes read**
+
+![DIA Launches xReal: The First Oracle Suite Designed for Real-World Asset (RWA) Applications](https://cms3.diadata.org/wp-content/uploads/2025/02/cover-of-DIA-xREAL-announcement-oracles-for-RWAs-700x365.jpg)
+
+## Bridging TradFi and DeFi With the RWA Oracles
+
+In a major leap forward for the tokenized economy, **DIA is unveiling xReal**, the first comprehensive oracle suite tailored specifically for **Real-World Asset (RWA) applications on-chain**. This launch marks a pivotal step in the evolution of DeFi infrastructure, offering a powerful bridge between **traditional finance (TradFi) and decentralized finance (DeFi)**—a sector that is rapidly gaining traction with **$17.4 billion in tokenized RWAs on-chain** and forecasted to **exceed $10 trillion by 2030**, according to Coindesk.[[1]](https://app.rwa.xyz/) [[2]](https://www.coindesk.com/opinion/2025/02/07/rwa-tokenization-is-going-to-trillions-much-faster-than-you-think)
+
+With xReal, **DIA cements its position as the go-to oracle provider for RWA applications** across all major blockchain ecosystems. The suite comprises **two core offerings**:
+
+- **xReal Price Feeds** – Secure, transparent, and on-chain price oracles for RWA-powered dApps such as **options, futures, prediction markets, and tokenized index funds**. These feeds support **100+ real-world assets at launch**, spanning **stocks, commodities, ETFs, FX rates, and more**—with continuous expansion.
+- **xReal Custom Solutions** – A tailor-made oracle service for developers looking to **bring custom off-chain financial data on-chain**. This enables applications to integrate **real-world financial metrics** such as **physical reserves, bonds, inflation rates, and federal rates**, unlocking a new realm of possibilities for DeFi innovation.
+
+![DIA xReal oracle products for Real-World Assets (RWAs)](https://cms3.diadata.org/wp-content/uploads/2025/02/products-700x450.png)
+
+*DIA xReal oracle products for Real-World Assets (RWAs)*
+
+## RWA: The Next Big Wave in DeFi Innovation
+
+Tokenization of real-world assets is quickly emerging as the **most promising growth sector in DeFi**. **From stablecoins backed by treasuries to tokenized bonds and equities, on-chain RWAs represent the next frontier of blockchain adoption**. DIA is already a key player in this ecosystem, providing oracle services to leading RWA projects such as:
+
+- **Strategic partnerships with [Ripple](https://www.diadata.org/blog/post/dia-brings-price-oracles-to-xrpl/) & [Stellar](https://www.diadata.org/blog/post/soroban-stellar-oracle-dia/)**—both blockchains heavily focused on enabling RWA tokenization at scale
+- [[Fermion](https://www.diadata.org/blog/post/dia-fermion-revolutionize-rwa-fractionalization/)** – tokenization of real-world assets**
+- [[Denario](https://www.diadata.org/blog/post/dia-partners-with-denario-to-deploy-rwa-oracle-for-tokenized-silver/)** – precious metals on-chain**
+- **Azos** – CDP protocol using RWA collateral
+- [[Davos](https://www.diadata.org/blog/post/partnership-with-davos/)** – RWA Lending and Borrowing**
+- [[USDV](https://www.diadata.org/blog/post/partnership-with-verified-usd-usdv/)** – tokenized RWA backed stablecoin**
+
+With **xReal v1.0**, DIA sets the foundation for a **robust and scalable Oracle** **infrastructure for RWAs**. Meanwhile, **xReal v2.0 is** **already in development. ** It will integrate [[DIA](https://www.diadata.org/lumina/) Lumina**'s Zero-Knowledge Proof technology** to provide **trustless verifiability** for off-chain data, **pushing the security and reliability of RWAs** **to the next level**.
+
+![Data types of DIA xReal, Oracles for RWAs](https://cms3.diadata.org/wp-content/uploads/2025/02/Screenshot-2025-02-19-at-11.28.47-700x360.jpg)
+
+*xReal covers a variety of RWA classes, spanning from stocks, ETFs to FX rates.*
+
+## Powering a New Wave of On-Chain RWA Applications
+
+With xReal, developers can **eliminate the need for centralized brokerages** and empower users with **on-chain access to real-world financial assets**. Some of the **key use cases unlocked by xReal include**:
+
+- **RWA-Backed Stablecoins** – Launch stablecoins **pegged to fiat, T-bills, or bonds** with transparent, on-chain verification.
+- **Tokenized Stock Trading** – Enable users to **buy and sell tokenized equities on DEXs**, removing barriers to traditional stock markets.
+- **Bond Derivatives** – Facilitate **on-chain hedging and speculation** on bond market movements
+- **On-Chain Index Funds** – Allow investors to **track major stock indices** with a single tokenized asset.
+
+## Explore xReal – The Future of RWA Oracles
+
+A dedicated **xReal page is now live on the DIA App**, allowing users and developers to explore **all available data feeds** and begin integrating **the next era of RWA-powered dApps**.
+
+**The future of finance is on-chain. Welcome to xReal.**
+
+[learn more](https://www.diadata.org/real-world-asset-rwa-oracle/) [explore data](https://www.diadata.org/app/rwa/)]]></content:encoded>
+      <guid isPermaLink="true">https://diadata.org/blog/post/dia-launches-first-oracle-for-real-world-assets-rwas/</guid>
+    </item>
+  </channel>
+</rss>

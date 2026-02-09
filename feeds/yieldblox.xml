@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yieldblox - Stellar Ecosystem</title>
+    <link>https://yieldblox.finance</link>
+    <description>Latest articles about Yieldblox in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/yieldblox.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Blend V2: What to Expect</title>
+      <link>https://script3.medium.com/blend-v2-what-to-expect-4edcb08760c2</link>
+      <pubDate>Tue, 11 Mar 2025 20:28:01 GMT</pubDate>
+      <author>Script3</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*Q6920viwXyoZBF-ZAuj5VA.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Blend V2: What to Expect
+
+Whats up Blend Babies!  
+Blend V2 audits wrap up in a week, so let’s go over what to expect once the protocol is officially complete.
+
+### Migration Process:
+
+The Blend V2 migration is like a fork. The new Blend V2 protocol and its pools will be deployed and lenders, borrowers, and backstoppers can immediately start using Blend V2. **The BLND token will not change, and Blend V1 will remain operational so there’s no rush**. An emissions fork (or backstop swap) can be performed that moves BLND emissions from Blend V1 to Blend V2. This can be initiated once Blend V2 has more backstop deposits than Blend V1, then after a 31 day timelock, emissions will be sent to Blend V2 instead of Blend V1. To make this process smoother, Blend V2 will track up to 10m BLND in emissions it would have received during the migration period. If the emissions fork is successful, these emissions can then be claimed.
+
+### “Ok that all makes sense, but what does it mean for me?”
+
+#### Lender and Borrower Migration
+
+Lenders and borrowers can move to Blend V2 as soon as they deem it suitable. This will likely be when the pools and assets they use have been added to Blend V2. We should note — the level of insurance in Blend V1 will steadily decrease as backstop depositors migrate to the new protocol. In addition, once V1 pools start to drop below the minimum backstop requirement borrowing and depositing may be disabled in them **USERS ABILITY TO REPAY LOANS OR WITHDRAW FUNDS WILL NOT BE AFFECTED**. In addition, lenders and borrowers may see interest rate volatility as other lenders and borrowers migrate to V2.
+
+#### Backstop Migration
+
+Backstop depositors can queue their funds for withdrawal from V1 and deposit them in V2 as soon as they wish (likely whenever a pool they want to backstop appears in V2). Backstop depositors should be aware that once the majority of them migrate, and the emissions fork completes they will stop receiving emissions in V1, so they may want to migrate before that happens.
+
+#### Wallets and Integrators
+
+As we mentioned earlier, V1 will remain operational. So there’s no reason to rush your migration. I would suggest a migration strategy of adding a “Migrate to Blend V2 and receive x interest” call to action that allows your users to withdraw from Blend V1 and deposit into Blend V2 (2 separate transactions). This way the users get to decide when to migrate. From a technical perspective the integration won’t have changed at all — the interface to process user deposits and withdrawals is the same, you’ll just need to update the contract address.
+
+With the launch of Blend V2 wallets will now also finally have access to the Blend Fee Vault which allows integrators to earn a portion of interest from their user’s deposits in an entirely noncustodial fashion.
+
+See the github or reach out to Script3 for more information:  
+[https://github.com/script3/fee-vault](https://github.com/script3/fee-vault)  
+gm@script3.io
+
+### “How will I be able to Access Blend V2?”
+
+Both Blend V1 and V2 will be available via the Blend webapp. You can see what the post-v2 website will look like right now by visiting [https://testnet.blend.capital/](https://testnet.blend.capital/)
+
+### “What Actually Changed in Blend V2?”
+
+Very little! Let’s go over it:
+
+1.  Flash Loan Support:
+    Blend V2 adds flash loans! Flash loan consumers like arbitrage bots and DeFi protocols can now flash borrow from Blend by calling the flashloan() function. [https://github.com/blend-capital/blend-contracts-v2/blob/main/pool/src/contract.rs#L152](https://github.com/blend-capital/blend-contracts-v2/blob/main/pool/src/contract.rs#L152)
+2.  More Pool Parameters:
+    Pool creators can now add collateral caps, and have the ability to safely disable assets.
+3.  Easier Integrations:
+    Smart Contracts interacting with blend can now utilize the new submit_with_allowance()function to help them manage user positions and also have better access to internal data thanks to the get_reserve()function
+4.  More assets in pools:
+    Pool creators can now create pools with up to 50 assets!
+5.  Better Liquidations:
+    Liquidators now have more flexibility when creating liquidations in the pool, allowing them to create more competitive and safer liquidation auctions.
+6.  Optimizations:
+    Various improvements have been made to the protocol to help reduce fees and increase usability, like allowing leveraged positions to be unwound in a single transaction!
+
+### “Where Can I Learn More?”
+
+We’ll release V2 docs at some point, but for now you can check out the V2 Github here: [https://github.com/blend-capital/blend-contracts-v2](https://github.com/blend-capital/blend-contracts-v2) or join the discord here: [https://discord.gg/8EY6HZ97](https://discord.gg/8EY6HZ97)]]></content:encoded>
+      <guid isPermaLink="true">https://script3.medium.com/blend-v2-what-to-expect-4edcb08760c2</guid>
+    </item>
+    <item>
+      <title>Testnet Time: Will It Blend?</title>
+      <link>https://script3.medium.com/testnet-time-will-it-blend-8872245746fe</link>
+      <pubDate>Thu, 18 Jan 2024 19:35:30 GMT</pubDate>
+      <author>Script3</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*_S1Cwzljy-34kVtllBjqAw.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Testnet Time: Will It Blend?
+
+![](https://cdn-images-1.medium.com/max/1024/1*_S1Cwzljy-34kVtllBjqAw.png)
+
+### Taste Testing Blend 😋
+
+Hi 😎
+
+**Blend has been released to Testnet️**!  
+Go do some lending, some borrowing, some backstopping — you’ll be participating in the development of a global financial building block!
+
+Link: [testnet.blend.capital](https://testnet.blend.capital/)
+
+Docs: [https://docs.blend.capital/](https://docs.blend.capital/)
+
+Code: [https://github.com/blend-capital/blend-contracts](https://github.com/blend-capital/blend-contracts)
+
+### How to use the testnet:
+
+**1.** Make sure you have a Stellar browser wallet installed:  
+- Freighter: [https://www.freighter.app/](https://www.freighter.app/)  
+- xBull: [https://xbull.app/](https://xbull.app/)
+
+(All steps will be shown using Freighter.)
+
+**2.** Switch your wallet to the Stellar Testnet by clicking the selector in the upper right corner of the extension and selecting ‘Test Net’.
+
+![](https://cdn-images-1.medium.com/max/382/0*UVg2peE9SLK3rjHl)
+
+![](https://cdn-images-1.medium.com/max/377/0*2vMLIRNBxVP2ZmW0)
+
+**3.** Go to [https://testnet.blend.capital/](https://testnet.blend.capital/)
+
+**4.** Connect your wallet by clicking on the button or banner shown below and signing the prompted wallet message.
+
+![](https://cdn-images-1.medium.com/max/413/1*tC4l__HIkqFFHB3a4gBRFw.png)
+
+![](https://cdn-images-1.medium.com/max/1024/1*UN7tNbfB9haxd7PR43UcWw.png)
+
+**5.** If your testnet account is unfunded, the banner shown below will appear.
+
+![](https://cdn-images-1.medium.com/max/1024/1*rklaupM-CWhRlcTtC-5opw.png)
+
+Click on your browser wallet extension to fund your account on the Stellar test network. The message shown below will be shown. Click the ‘Fund with Friendbot’ button.
+
+![](https://cdn-images-1.medium.com/max/522/1*bGLR3Jwo-NGdhI2RK7LilA.png)
+
+**6.** Once your testnet account is funded, another banner will appear (shown below). Click this and sign the prompted wallet message. This will provide your account with Blend testnet assets.
+
+![](https://cdn-images-1.medium.com/max/1024/1*_LngLWCn9CdGu-TA75wO2g.png)
+
+The testnet assets you will receive are:  
+- 10,000 BLND  
+- 1,000 USDC  
+- 0.5 wETH  
+- 0.1 wBTC
+
+**7.** You’re ready to start Blending! 🎉
+
+**Help! I’m Still Confused 😭**
+
+Hop in the Blend discord, and we’ll try and help!  
+[https://discord.gg/5fhgCGEnUt](https://discord.gg/5fhgCGEnUt)
+
+### Why should I care about this?
+
+Well we’re proud of it — but regardless of our feelings, there’re a variety of factors that should excite anyone!
+
+### On-chain permissionless lending on Stellar!
+
+This is a very big deal — now the Stellar ecosystem can offer things such as:
+
+![](https://cdn-images-1.medium.com/max/1024/1*4koiP6S3d1ti8iXRPOlQ_A.png)
+
+Blend allows wallets to offer noncustodial interest and credit features, elevating their product offering to that of a full-service financial app!
+
+![](https://cdn-images-1.medium.com/max/1024/1*eJg8aY974jJRMbXB6Ix8vA.png)
+
+Trading interfaces can integrate with Blend to offer their users leverage!
+
+![](https://cdn-images-1.medium.com/max/1024/1*XgvUOcLAyvW1-PCb1kT_fw.png)
+
+Remittance companies (and other organizations that utilize Stellar as financial rails but rely on real-world lending) can move their borrowing and lending on-chain to improve transparency and capital efficiency!
+
+![](https://cdn-images-1.medium.com/max/1024/1*3xo11WXM8Ej2CHTW2VZNqg.png)
+
+DeFi protocols that utilize borrowing and lending as one of their components (i.e. CDP protocols) can build on top of Blend to leverage its security and liquidity, while focusing on the innovative, unique aspects of their app!
+
+### So What’s the Secret Recipe?
+
+Blend is the result of a grueling design process that would take too long to explain here (we’re saving it for future articles). Instead we’ll give a brief taster of its key ingredients:
+
+**1.** **Maximum Flexibility:** Blend was built as a primitive hyperstructure that [allows anyone to create new pools with whatever assets and parameters they require](https://docs.blend.capital/pool-creators/general). You can build literally ANY product or protocol that requires lending on top of Blend while still inheriting its security and capital efficiency.
+
+**2.** **Ruthless Capital Efficiency**: Blend utilizes a [reactive interest rate model](https://docs.blend.capital/whitepaper/blend-whitepaper#interest-rates) which maximizes capital efficiency by ensuring capital flows where it’s most useful. Additionally, [assets lent to one pool](https://docs.blend.capital/whitepaper/blend-whitepaper#lending-and-borrowing) can support a variety of loan-to-value ratios depending on their paired liability/collateral asset’s risk profile, significantly reducing liquidity fragmentation.
+
+**3.** Painless Liquidations: [Blend’s liquidations](https://docs.blend.capital/whitepaper/blend-whitepaper#liquidations) only liquidate the minimum amount required to return the account to a healthy position.
+
+**4.** **Oracle Risk Mitigation:** Blend only relies on oracles to trigger liquidations rather than allowing them to value collateral assets. This protects users from being unfairly liquidated due to oracle failures. Additionally, Blend’s utilization caps, combined with its reactive interest rates, minimize risk of overborrowing by minimizing the amount of idle capital available for borrowing during an oracle failure.
+
+**5.** Bad Debt Protection: Each Blend pool has a built-in [backstop module](https://docs.blend.capital/whitepaper/blend-whitepaper#backstop-module) which insures pools against bad debt. This efficient and transparent insurance mechanism protects lender funds in the most extreme scenarios.
+
+**6.** Insurance Requirements: Blend requires pools reach a [minimum backstop module deposit threshold](https://docs.blend.capital/whitepaper/blend-whitepaper#backstop-threshold) before they can be turned on. This prevents bad actors from easily creating unsafe pools, as they would also have to convince backstop users to insure said unsafe pool.
+
+### Ok I’m a user and I’m pumped — now what?
+
+Go check out the app! Suggest features! Participate in curating the leading lending and borrowing experience on Stellar!
+
+**Note:** There may (will) be some bugs at this time, and new features will be added.
+
+### Ok I’m a project and I’m pumped — now what?
+
+Go check out the app! Dig through the code! Demand features!
+
+Interested in integrating or building on Blend? Reach out to us! Additionally, **a portion of the initial BLND distribution is going to Stellar ecosystem organizations**, so let us know if you’re interested in getting added to that list!
+
+**Discord:** [https://discord.gg/5fhgCGEnUt](https://discord.gg/5fhgCGEnUt)
+
+![](https://cdn-images-1.medium.com/max/1024/1*vPFsS1XEtk-wuIQcnueK4A.png)]]></content:encoded>
+      <guid isPermaLink="true">https://script3.medium.com/testnet-time-will-it-blend-8872245746fe</guid>
+    </item>
+    <item>
+      <title>Introducing Blend</title>
+      <link>https://medium.com/script3/introducing-blend-95aaf66bdf41</link>
+      <pubDate>Mon, 03 Apr 2023 18:00:29 GMT</pubDate>
+      <author>Script3</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*hpKQZvIvclh7EEj-xvsFXg.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Introducing Blend
+
+#### A Liquidity Protocol Primitive for Stellar
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*hpKQZvIvclh7EEj-xvsFXg.png)
+
+Stellar is getting supercharged with Soroban — the new smart contract platform being added to the network. Access to smart contracts will completely change how assets get used on Stellar. Blend plays a key role in this evolution, providing Stellar-native lending and borrowing capabilities for asset issuers, DeFi protocols, DAOs, and financial institutions.
+
+![Image](https://cdn-images-1.medium.com/max/1024/0*zofyw1R2zwJRX2LD)
+
+Blend is a liquidity protocol primitive. It’s the foundation on which safe, efficient lending pools are created by anyone. An entity can create a lending pool to enable users to earn interest and borrow assets, all while being insured by a unique backstop module. Creators are given plenty of controls — from supported assets, collateral requirements, custom oracles, and immutability — such that almost no use case is left out.
+
+There are no requirements to deploy a Blend lending pool, anyone can utilize this tool to bring additional functionality to their Stellar based assets! However, there are requirements to enable interaction with pools, as permissionless deployment can lead to spam and attempted scams with fake pools. To combat this, lending pools need to have a minimum amount of funds in the backstop module before anyone can use them.
+
+After creation, Blend lending pools adapt to market conditions to ensure all capital is used efficiently. If assets aren’t being utilized effectively, interest rates will lower to entice more users to begin borrowing, and vice versa — no DAO proposal required!
+
+All of this occurs while suppliers to a Blend lending pool remain protected by the backstop module. In the event of bad debt, stolen funds, or other loss, backstop module funds are used to replace assets for suppliers. Further, Blend’s liquidation engine helps ensure that damage is limited in the event an oracle is exploited.
+
+To get a deep dive into the nuts and bolts of the Blend Protocol — please check out the whitepaper here: [https://github.com/blend-capital/blend-whitepaper](https://github.com/blend-capital/blend-whitepaper)
+
+### Stellar Ecosystem BLENDED
+
+The introduction of Blend has a variety of awesome implications for the Stellar ecosystem. Generally, it attracts on-chain capital, and improves market liquidity and efficiency.
+
+This improvement is driven by the exciting use cases Blend enables. These include:
+
+### Fintech BLENDED
+
+Stellar is already a great blockchain to build financial platforms on. Wallets can utilize the existing ecosystem to provide users with cheap payments and remittances, all while users retain custody of their assets. Wallets can create Blend lending pools (or integrate existing ones) to offer their users lending and borrowing capabilities, enabling them to generate interest or get liquidity. This results in an on-chain user experience that rivals the best centralized financial service platforms.
+
+### Trading BLENDED
+
+Blend provides Stellar DEX traders with borrowing capabilities, providing them with leverage and short selling capabilities. This completes the trading experience — allowing the Stellar DEX to act as a legitimate alternative to centralized exchanges.
+
+### DAOs BLENDED — a YieldBlox Case Study
+
+The YieldBlox DAO was created to bring lending and borrowing capability in a decentralized way to Stellar. They have decided using the Blend protocol as the backbone for their lending and borrowing features will allow them to bring a safer and more efficient product to market, while focusing on how to facilitate an Aave-like product on Stellar. Read more about their announcement here: [https://medium.com/@markus_0/kicking-off-the-yieldblox-dao-9e7cfdcca03e](https://medium.com/@markus_0/kicking-off-the-yieldblox-dao-9e7cfdcca03e)
+
+### DeFi BLENDED
+
+Much of DeFi is built on borrowing. CDP protocols like MakerDAO allow you to borrow their stablecoin against collateral, synthetics protocols like Synthetix allow you to enter synthetic positions by borrowing a synthetic stablecoin against their protocol token. Protocols like these could be built using Blend as a base layer to handle their accounting — improving security in a budding ecosystem.
+
+Ultimately, there’s a lot of ways to leverage Blend as a powerful addition to other products. If you’re interested in building an integration like this, hop in the discord and tell us about it!
+
+### Disclaimer — Token
+
+**At this moment, there is NO BLND TOKEN. The BLND token will ONLY exist once the protocol is live on mainnet.**
+
+### Things to look out for —
+
+For those of you that want additional insight into the decisions made while designing Blend, Script3 will be releasing a stream of blog posts covering everything from why there’s no DAO to what building this on Soroban was like.
+
+For those that just want a taste of liquidity protocols built with Soroban, a testnet version of the protocol will be released shortly after Soroban is released on testnet.
+
+For anyone with other questions or a desire to contribute, please join the Blend Capital discord!  
+[https://discord.gg/v2DPBwRyKB](https://discord.gg/v2DPBwRyKB)
+
+Blend Website: [https://www.blend.capital/](https://www.blend.capital/)
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*h1d3UYCRXHdFG8syk2dOow.png)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/script3/introducing-blend-95aaf66bdf41</guid>
+    </item>
+  </channel>
+</rss>

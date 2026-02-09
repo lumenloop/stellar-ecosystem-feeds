@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CHATS - Stellar Ecosystem</title>
+    <link>https://chats.cash</link>
+    <description>Latest articles about CHATS in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/chats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Everything You Need to Know for Humanitarian Campaigns</title>
+      <link>https://chats.cash/resources/everything-you-need-to-know-for-humanitarian-campaigns</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
+      <author>Chats Team</author>
+      <enclosure url="https://eu-west-2.graphassets.com/cm8629dzw0aqr07l1deso8s7l/cmetx01d60a9k07mg557anvhb" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Everything You Need to Know for Humanitarian Campaigns
+
+## Introduction
+
+CHATS is all about making humanitarian aid work better, faster, and with full transparency. Think of it as the ultimate tool for NGOs and donors to send cash and voucher assistance (CVA) directly to people who need it the most: refugees, displaced families, and vulnerable communities.
+
+What makes CHATS such a big deal is the fact that it's powered by [blockchain](https://www.investopedia.com/terms/b/blockchain.asp), which means everything is effective and secure. No middlemen, no sketchy accounting and just straight-up efficiency. With non-custodial smart contracts (basically, digital agreements that run automatically) and flexible ways to disburse funds, you've got a platform that tackles some of the biggest headaches in humanitarian aid: inefficiency, fraud, and lack of accountability.
+
+Let's explore how CHATS is flipping the script on aid distribution!
+
+## What is CHATS?
+
+Convexity Humanitarian Aid Transfer Solution (CHATS) is a digital platform designed to make transferring cash and voucher aid easier and more transparent.
+
+It helps organizations like NGOs and donors send support directly to people in need such as refugees, internally displaced persons (IDPs), and vulnerable communities, without worrying about funds getting misused.
+
+Using blockchain technology, CHATS ensures that donations go exactly where they're meant to. It provides a dashboard where donors can manage their contributions and track how recipients receive the funds or items.
+
+CHATS goes beyond delivering aid, it's about creating a secure, efficient, and fully digital ecosystem for humanitarian efforts. Whether it's donors, NGOs, field agents, vendors, or beneficiaries, everyone involved has a role, and the platform ensures transparency every step of the way.
+
+## Core Values of CHATS
+
+At CHATS, our team of passionate professionals are guided by core values that shape everything and ensure our work drives meaningful change:
+
+- **Transparency**: We believe in open and clear processes, ensuring every cash or voucher reaches its intended destination.
+- **Innovation**: By embracing cutting-edge technology like blockchain, we're redefining how aid is distributed.
+- **Trust**: Building trust among donors, NGOs, and beneficiaries is at the heart of our mission.
+- **Empowerment**: We aim to give vulnerable communities the tools and support they need to thrive.
+- **Impact**: Every action we take is focused on creating lasting, positive change for those in need.
+
+### Our Vision for the Future
+
+At CHATS, we're not just about solving today's problems, we're looking ahead. By equipping NGOs and donors with powerful, easy-to-use technology, we're transforming how humanitarian aid is delivered. Our vision is a world where aid is transparent, scalable, and effective, no matter where it's needed.
+
+Together, we can create a future where vulnerable communities are supported with dignity, efficiency, and care, one transparent transaction at a time.
+
+## Key Features of CHATS
+
+CHATS offers a range of features that make aid distribution seamless, secure, and accessible for everyone:
+
+1. ***Blockchain Transparency:*
+
+   Every transaction is permanently recorded on a blockchain, creating a transparent and tamper-proof system that ensures funds are used as intended. Donors and NGOs can track every step, building trust and accountability.
+
+2. ***Smart Contracts:*** These non-custodial and gasless contracts handle transactions automatically, reducing costs and errors. They're also flexible enough to adapt to the unique needs of different aid projects.
+
+3. ***Disbursement Options:*** Whether through smartphone apps, SMS/USSD codes, NFC cards, or paper vouchers, CHATS ensures beneficiaries can access aid in a way that works for them, regardless of their tech access or location.
+
+4. ***User-Friendly Dashboards***: Both NGOs and donors benefit from intuitive dashboards that provide real-time insights into campaigns, fund allocations, and impact, simplifying decision-making and monitoring.
+
+5. ***Offline Functionality:*** CHATS platform supports NFC cards, which work seamlessly with the CHATS NGO Field Agent App and Vendor App on affordable NFC-enabled phones. Transactions can occur offline, with encrypted data syncing once a connection is available. This ensures no one is excluded due to technology barriers.
+
+## Why NGOs Choose CHATS
+
+When it comes to data privacy, CHATS takes no shortcuts. It's fully compliant with NDPR (Nigeria's version of GDPR) and encrypts all beneficiary data, whether stored or in transit. Privacy and security are core to its design.
+
+CHATS also stands out with its gasless, upgradeable smart contracts. These keep costs low and ensure the platform evolves with future needs. Running on multiple blockchains such as Polygon and Stellar blockchain, it's efficient and reliable. Donations are processed in stablecoins using non-custodial escrow wallets, ensuring funds are either used as intended or refunded if unused.
+
+Beyond logistics, CHATS gives NGOs full visibility into how aid is distributed. They can track every beneficiary, knowing exactly who received support, where, and how. For campaigns with funded data, donors can even verify beneficiaries by name and location for added transparency.
+
+## How CHATS Works
+
+CHATS is designed to make distributing cash and voucher assistance easy, secure, and transparent for everyone involved. Here's how it works, step by step:
+
+### Registration Phase
+
+- ***KYC Verification:*** Every participant from donors, NGOs, field agents, and vendors goes through a thorough Know Your Customer (KYC) process to ensure they meet the platform's standards.
+- ***Beneficiary Onboarding:*** Field agents identify and verify beneficiaries before adding them to the platform. They also explain the project details and any important instructions. For tech-savvy beneficiaries with smartphones, self-registration is available through the beneficiary app.
+
+### Execution Phase
+
+- ***NGO Role:*** NGOs create campaigns on CHATS. Campaigns can either be public, allowing any donor to contribute, or private, if pre-funded or supported by specific donors. NGOs define campaign details, including target regions and beneficiary groups.
+
+NGOs also approve vendors to provide aid items like food, clothing, and medicine. They train field agents to onboard beneficiaries who lack smartphones using tools like NFC cards or paper vouchers.
+
+- ***Donor Participation:*
+
+  Donors can fund public campaigns and track how their money is used. They receive detailed reports at the end of each project, showing how funds were allocated, who benefited, and what items were distributed.
+
+- ***Beneficiary Transactions:*
+
+  Once funds are disbursed to beneficiaries, they can withdraw cash or use the platform to purchase items from approved vendors. Smartphone users can pay vendors directly through the app, while others use NFC cards, QR codes, or SMS tokens to complete transactions.
+
+- ***Vendor Role:*
+
+  Vendors are equipped with tools like NFC-enabled devices or QR code scanners to verify and process beneficiary transactions. They release aid items after the transaction is confirmed.
+
+### Transparency and Tracking
+
+CHATS records every transaction on an immutable blockchain, ensuring complete transparency. Donors can see how funds flow from beneficiaries to vendors and what aid items were purchased. This eliminates any concerns about misuse or inefficiency and allows for seamless campaign monitoring.
+
+## Benefits of Using CHATS for Each Stakeholder
+
+### 1. NGOs:
+
+- *Simplified Campaign Management:* NGOs can easily create and manage campaigns, customize disbursement based on individual or family needs, and oversee every step of aid distribution.
+- *Real-Time Monitoring:* The platform provides real-time insights into campaign progress and beneficiary impact, allowing NGOs to make data-driven decisions.
+- *Fraud Prevention:* Tools like biometric verification, machine learning, and blockchain records ensure aid goes to genuine beneficiaries, reducing fraud and misuse.
+- *Enhanced Efficiency:* By automating many manual processes, CHATS saves NGOs time and resources, enabling them to focus more on their core humanitarian mission.
+
+### 2. Vendors:
+
+- *Streamlined Transactions:* Vendors can efficiently process claims using NFC, QR codes, or SMS tokens, making the redemption process faster and smoother.
+- *Guaranteed Payments:* Vendors are assured payment for every transaction processed through the platform, increasing their confidence and participation in aid programs.
+- *Transparent Records:* The platform keeps detailed records of every transaction, giving vendors clarity and a reliable audit trail for their services.
+- *Broader Reach:* Partnering with NGOs through CHATS allows vendors to serve a wider range of beneficiaries and build trust within the community.
+
+### 3. Beneficiaries:
+
+- *Accessible Aid:* Beneficiaries can receive and use aid even without smartphones, thanks to tools like NFC cards, QR codes, and SMS tokens.
+- *Empowerment:* Tech-savvy individuals can self-register, reducing waiting times and allowing them to take control of their aid process.
+- *Flexibility:* The app acts as a digital wallet, enabling beneficiaries to withdraw cash or purchase specific items they need from approved vendors.
+- *Transparency and Dignity:* Beneficiaries can trust that aid will reach them securely, fostering a sense of fairness and respect in the process.
+
+### 4. Donors:
+
+- *Visibility and Control:* Donors can track every dollar they contribute, knowing exactly how it's spent and who benefits from their support.
+- *Transparent Reporting:* Detailed impact reports give donors confidence that their contributions are making a real difference, free of misuse or inefficiencies.
+- *Direct Impact:* CHATS eliminates middlemen, allowing donors to support campaigns directly and see tangible outcomes.
+- *Multiple Campaign Monitoring:* Donors can support several projects simultaneously, with clear oversight and insights into each one's progress.
+
+## Why CHATS is a Game-Changer in Humanitarian Aid
+
+Delivering aid effectively has always been full of challenges, but CHATS changes the narrative by using blockchain technology to ensure ease and efficiency. Below are some common challenges in traditional aid distribution and revolutionary solutions from CHATS.
+
+| **Challenges** | **CHATS Solutions** |
+| --- | --- |
+| **Lack of Transparency**<br>Traditional aid systems often suffer from unclear processes, making it difficult for donors to track where and how funds are spent. | **Transparency**<br>CHATS uses blockchain technology to provide a tamper-proof record of all transactions. Donors and NGOs can see exactly how funds are allocated and used, ensuring full accountability. |
+| **Corruption and Fraud**<br>Aid funds or items are sometimes mismanaged or diverted, leaving intended beneficiaries without support. | **Fraud Prevention**<br>By leveraging smart contracts and beneficiary verification processes, CHATS minimizes the risk of misappropriation, ensuring aid reaches the intended recipients. |
+| **Limited Access for Remote Populations**<br>People in underserved or rural areas often struggle to access aid due to connectivity issues or lack of infrastructure. | **Access for Remote Populations**<br>CHATS offers offline functionality and alternative disbursement methods like NFC cards, SMS tokens, and paper vouchers to ensure aid reaches even the most remote communities. |
+| **Inefficient Middlemen**<br>The involvement of multiple intermediaries slows down aid delivery and increases costs, leaving less for the beneficiaries. | **Streamlined Processes**<br>CHATS eliminates unnecessary intermediaries with a direct donor-to-beneficiary model, speeding up aid delivery and maximizing the impact of every contribution. |
+| **Inadequate Monitoring and Reporting**<br>Many traditional systems lack real-time data and accurate reporting, preventing stakeholders from assessing the impact of their contributions. | **Real-Time Monitoring and Impact Reports**<br>With user-friendly dashboards, CHATS provides donors and NGOs with real-time updates on project progress, fund allocation, and aid distribution, ensuring data-driven decision-making. |
+
+## CHATS Humanitarian Campaigns: Stories of Impact
+
+The impact of CHATS campaigns continues to leave a lasting impression on both donors and beneficiaries. Let's explore a few inspiring stories.
+
+### Supporting Pupils in Makoko
+
+A generous donor, Mr. Sasaki, funded a campaign to provide over 200 students at *Part of Solution School* in the floating community of Makoko, Lagos, with school bags and notebooks. These students, who study under challenging conditions, often lose their books to the water environment they live in, as polythene bags offer little protection.
+
+Mr. Sasaki, a founding investor in the Ethereum Foundation and co-founder of Cardano, has used CHATS for several philanthropic efforts in Makoko. He saw this campaign as essential to helping students protect their learning materials and ensure continued education. With the CHATS platform, every donation and its impact were fully traceable.
+
+### Feeding Communities During Ramadan
+
+Another campaign led by Mr. Adeshina Rafiu, FCA, utilized CHATS to provide meals to dozens of beneficiaries during Ramadan. Mr. Adeshina appreciated CHATS for its ease, transparency, and real-time updates. He could monitor the number of meals distributed and beneficiary details while ensuring funds were used efficiently.
+
+A vendor involved in the campaign shared her satisfaction with the instant, assured payment for her services. For beneficiaries who didn't redeem their vouchers, the unused funds were promptly refunded to the donor. Mr. Adeshina described CHATS as an innovation that eliminated the need for a middleman and ensured accountability throughout the campaign.
+
+### Engaging the Maje Community
+
+The CHATS team, led by Adedeji Owonibi, COO and Co-founder of Convexity, visited the Maje community in Abuja, Nigeria. Warmly welcomed by the community chief, Chief Adams Jato, the team introduced CHATS as a transparent solution for aid distribution.
+
+Community members were educated on how CHATS works and were onboarded to use the platform. Cash vouchers were distributed and redeemable at a vetted local vendor, demonstrating how aid programs could also stimulate local economic growth.
+
+#### *Feedback from the Maje Community*
+
+During this roadshow, the CHATS team received heartfelt feedback from the community. Below are some comments, names changed for privacy:
+
+- *"This solution should be introduced to government institutions and big NGOs. It will stop the fraud that often happens with aid distribution."* – Justina
+- *"I didn't know Nigerians could build such an innovative product to help people. This is amazing!"* – Uchenna
+- *"The cash will help me feed my family today. I'm so happy and grateful!"* – Ahmed
+- *"If the government adopts this platform, it will restore trust. This is exactly what we need after the COVID-19 challenges."* – Usman
+
+The stories from CHATS campaigns highlight how the platform directly tackles the long-standing challenges of traditional aid distribution. By leveraging its innovative solutions, CHATS has redefined how donors and NGOs operate, ensuring that aid reaches those who need it most without unnecessary delays or mismanagement.
+
+## Looking Into The Future
+
+At CHATS, we believe the journey has only just begun. With a proven track record of transforming aid distribution, the next step is to scale these solutions to reach even more people in need.
+
+***Expanding to New Regions***
+
+The success stories from communities like Makoko and Maje have motivated us to bring CHATS to more regions worldwide. From rural villages in Nigeria to underserved populations in Africa and beyond, our goal is to ensure that aid reaches the most vulnerable, no matter where they are. By collaborating with local organizations and understanding the unique challenges in each region, CHATS can tailor its approach to maximize impact.
+
+Imagine a future where a flood victim in a remote village in Southeast Nigeria or a farmer in the far North can access aid seamlessly, without worrying about fraud, inefficiencies, or delays. That's the vision we're working toward.
+
+***Potential Tech Upgrades***
+
+Technology has always been the backbone of CHATS, and we're committed to staying at the forefront of innovation. Integrating Artificial Intelligence (AI) into the platform can take CHATS to the next level. AI-powered analytics could predict aid needs based on data trends, ensuring that resources are allocated proactively rather than reactively.
+
+Combining these technologies with CHATS' blockchain foundation would create an even more robust system that inspires confidence among donors and NGOs.
+
+***Building Partnerships with Governments and NGOs***
+
+Collaboration is key to scaling the impact of CHATS. By partnering with governments, we can integrate CHATS into public welfare programs, ensuring that government aid reaches the right beneficiaries without leakage. We've already seen how CHATS has resonated with community leaders like Chief Adams in Maje, who expressed a desire for the platform to work with government institutions. By formalizing such partnerships, we can create a network of trust that bridges the gap between citizens, NGOs, and governments.
+
+***Empowering Local Economies***
+
+Beyond distributing aid, CHATS has the potential to stimulate local economic development. Partnering with local vendors for aid distribution ensures that funds circulate within communities, supporting small businesses and creating economic opportunities. This holistic approach ensures that the impact of CHATS extends far beyond immediate relief.
+
+## Conclusion
+
+In a world where aid distribution has long been plagued by inefficiencies, corruption, and lack of transparency, CHATS is rewriting the narrative. By leveraging blockchain technology, smart contracts, and innovative tools like NFC cards, CHATS ensures that every donation reaches its intended recipient, no matter how remote they are.
+
+You too can be part of this transformation. Whether you're a donor, an NGO, or simply someone passionate about making a difference, CHATS offers the tools to create real, measurable impact. Explore the platform, learn about the success stories, or join the movement by funding your own campaign. The future of CHATS is bright, let's build a more transparent and accountable system of aid solving one need at a time. [Join us today](https://chats.cash/).]]></content:encoded>
+      <guid isPermaLink="true">https://chats.cash/resources/everything-you-need-to-know-for-humanitarian-campaigns</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alterscope - Stellar Ecosystem</title>
+    <link>https://alterscope.org</link>
+    <description>Latest articles about Alterscope in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/alterscope.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Enhancing the Stellar Soroban Ecosystem with Alterscope</title>
+      <link>https://alterscope.org/insights/scf-featured-project-alterscope</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 GMT</pubDate>
+      <author>Benedikt Eikmanns</author>
+      <enclosure url="https://cdn.prod.website-files.com/65451bc620693761b5ef73de/667019430dd67f6f5ddca487_240521_Stellar%20KYP%20Blog%20Article_Header.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Enhancing the Stellar Soroban Ecosystem with Alterscope
+
+In the rapidly evolving landscape of decentralized finance (DeFi), risk management and transparency are paramount. Alterscope is at the forefront of this evolution, providing a comprehensive risk solution tailored for the Soroban ecosystem. Recently recognized by the Stellar Community Fund (SCF), our KYP - Risk Dashboard project is set to revolutionize how liquidity providers (LPs) and the community perform due diligence (DD) on protocols. Here's why dApps should integrate with Alterscope and the benefits we bring to the Stellar ecosystem.
+
+## **Real-Time Risk Overview and Transparency**
+
+Alterscope's mission is to create a real-time risk overview within the growing Stellar ecosystem. By highlighting dApp-specific risks and providing a risk-adjusted view of protocols, we ensure that liquidity is directed to the most trustworthy protocols with the best risk-return ratios. Our platform offers publicly accessible risk dashboards that allow anyone to conduct their own research, making the risk metrics of various protocols transparent and comparable. Moreover, our customizable risk frameworks enable users to create, share, and source over 400 risk parameters, fostering a collaborative and innovative community.
+
+## **Benefits for the Stellar Ecosystem**
+
+Integrating Alterscope into the Stellar ecosystem brings numerous benefits:
+
+* **Empower the Community**: The community is enabled to perform their own research with accessible and comparable risk metrics, leading to better-informed decisions.
+* **Facilitate Large Liquidity Provider Investments**: By providing detailed risk assessments and enhancing the understanding of protocol fundamentals, we help overcome obstacles for large LPs to invest.
+* **Promote Regulatory Compliance**: Demonstrating a commitment to transparency and regulatory standards fosters a healthy DeFi ecosystem.
+* **Attract and Retain Liquidity:** By improving the visibility and credibility of protocols, Alterscope helps attract and retain liquidity within the Stellar ecosystem.
+
+## **Overcoming Investment Obstacles as dApp**
+
+The DeFi space often intimidates liquidity providers due to perceived complexity and security concerns. Alterscope addresses these challenges by facilitating thorough and comparable research across different chains, protocols, and liquidity pools. By enhancing the understanding of protocol fundamentals, we provide detailed risk assessments that help LPs make informed investment decisions. Additionally, our commitment to transparency and regulatory standards is demonstrated, reassuring investors of the ecosystem's health.
+
+## **Comprehensive Metrics and Analysis**
+
+Alterscope's dashboards are designed with a focus on key risk categories, ensuring that every aspect of a protocol is scrutinized. In the security section, we provide information on the founder team, static smart contract analysis, and make conducted audits comprehensible. Our liquidity analysis offers detailed insights into TVL, transaction activity, liquidity pool stability, and the financial health of associated wallets. The community engagement section includes metrics on social channel activity, sentiment analysis, and community interaction patterns. For governance and tokenomics, we provide clarity on voting structures, token dynamics, and market behavior, including distribution metrics like the Gini coefficient.
+
+## **Boosting Credibility and Business Development for dApps**
+
+Integration with Alterscope offers significant advantages for dApps:
+
+* **Enhanced Credibility:** By displaying a commitment to risk management and transparency through an Alterscope risk dashboard, dApps can enhance their credibility.
+* **Accelerated Decision-Making:** Neutral, third-party metrics around security, liquidity, governance, and community engagement expedite investment decisions.
+* **Attracting Investments:** Showcasing the right metrics helps dApps attract substantial investments and fosters trust with large LPs.
+* **Improved Visibility:** Gaining exposure to a broader audience within the Stellar ecosystem and beyond positions dApps for greater adoption and success.
+
+## **Advanced Risk Tooling Rollout**
+
+Our platform provides advanced features and tooling for integrated protocols, enabling users to select and graph metrics, facilitating in-depth analysis over time and across different protocols. With these tools, users can create dashboards that combine off-chain and on-chain data, enhancing research capabilities in the web3 space. Looking ahead, we plan to develop and publicly release customizable risk frameworks that will be adjustable for community use, thus fostering innovation. Additionally, we aim to incorporate zk-proofs for enhanced privacy and more intelligent, flexible ecosystem protocols. Our ongoing commitment to advancing the Alterscope platform ensures that it remains a vital tool for both existing and new dApps, continually driving improvements and innovation within the Stellar ecosystem.
+
+## **Conclusion**
+
+Alterscope is dedicated to transforming the Stellar ecosystem by providing a transparent, reliable, and comprehensive risk management platform. By integrating with Alterscope, dApps can bolster their credibility, accelerate business development, and attract significant investments. Join us in building a safer, more transparent DeFi environment that benefits the entire community.
+
+For more information, visit our [website](https://www.alterscope.org/) and explore how Alterscope can enhance your dApp's journey in the Soroban ecosystem.]]></content:encoded>
+      <guid isPermaLink="true">https://alterscope.org/insights/scf-featured-project-alterscope</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goldsky - Stellar Ecosystem</title>
+    <link>https://goldsky.com</link>
+    <description>Latest articles about Goldsky in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/goldsky.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SimpleHash Alternative: Migrating to Goldsky After the Phantom Acquisition</title>
+      <link>https://goldsky.com/blog/simplehash-alternative-migrating-after-phantom-acquisition</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+      <author>Jeff Ling</author>
+      <enclosure url="https://goldsky.com/images/blog/covers/simplehash_to_goldsky.gif" type="image/jpeg"/>
+      <content:encoded><![CDATA[# SimpleHash Alternative: Migrating to Goldsky After the Phantom Acquisition
+
+Need a SimpleHash replacement following their acquisition? Hop in before services end on March 27. • 3.5 mins
+
+## SimpleHash’s acquisition and what it means for you
+
+If you’re reading this, you’ve likely heard the news that SimpleHash was acquired by Phantom and will be shutting down services on March 27, 2025. Huge congratulations to Olly and the team! It’s well-deserved recognition of the platform they’ve built.
+
+For customers, this means that there’s less than a month to migrate your infrastructure. You’re probably feeling a mix of stress and pressure to quickly find a SimpleHash alternative and you’re not alone — we’ve been getting a lot of messages from people looking for a replacement that’s reliable, scalable, and easy to transition to.
+
+The good news is that we’ve been a close partner of SimpleHash for over 2 years and can help get you what you need before the deadline. Our team is deeply familiar with their data, significantly easing your transition.
+
+Unexpected migrations are never easy. But they sometimes lead to discovering better solutions. We're here to help you not just replace what you're losing with SimpleHash, but potentially improve your infrastructure in the process.
+
+## Our SimpleHash migration support package
+
+Understanding the urgency of the situation, we've created a special onboarding process for SimpleHash customers:
+
+1. **Priority onboarding**: We’ll fast-track your implementation to meet the March 27th deadline.
+2. **White-glove support**: Our team will walk you through the process and ensure your services continue without disruption.
+3. **3 months of free service:** A welcome to give you breathing room as you settle in with us :)
+
+To get this package, fill out our quick [priority migration form](https://tally.so/r/w5pPRv).
+
+## Why we might be the right fit for you
+
+We've built Goldsky to excel in specific areas that matter most to teams requiring high-performance infrastructure. If these are top priority for you, you’re at the right place.
+
+* **Speed, scalability, and reliability.** Goldsky is battle-tested at scale by some of the most demanding products and chains. MetaMask, Polymarket, Arweave, Optimism, Rainbow, and Stellar all rely on our infrastructure for critical operations.
+* **Infrastructure that can handle serious volume.** Our systems currently process over 100M messages and transfer more than 36GB+ of data per minute without breaking a sweat.
+* **24/7 human support when you need it.** Our team provides genuine 24/7 support, so if issues arise, you’ll have real people helping you solve them.
+* **Specialized in token balance and transfer data.** If your primary needs revolve around tracking token balances and transfers, our systems are optimized specifically for these high-frequency operations.
+
+## Why we might NOT be the right fit
+
+We believe in being upfront about where we excel and fall short, and understand that we may not be the right fit for everyone.
+
+* **Limited chains (but increasing coverage).** We’ve been partnering with SimpleHash, meaning we can provide the exact same data you’ve been using. However, we don’t yet have the same chain support, but we’re getting full coverage across all chains.
+* **Custom solutions available.** That said, if you have specific needs that fall outside our current offering, or SimpleHash’s, we're open to discussing custom work to fill those gaps – especially for teams facing the March 27th deadline.
+
+## How long will it take to switch from SimpleHash to Goldsky?
+
+Depending on your existing usage pattern, teams can expect to migrate in under a day or two, but it depends on your specific implementation and needs.
+
+If you were using SimpleHash’s Kafka feature, you can switch to Goldsky in under a day depending on chain coverage. As an added bonus, you can use the data in any of our other [supported sinks](https://docs.goldsky.com/mirror/sinks/supported-sinks). We plan to have direct drop-in API support running soon.
+
+## Migrate today
+
+If you're facing the March 27th deadline, fill out our **[priority migration form](https://tally.so/r/w5pPRv)**.
+
+While we're confident in our ability to serve your needs, we understand that finding the right fit is important. If you have any questions about whether Goldsky is the right solution for your specific use cases, we're happy to have an honest conversation about it.]]></content:encoded>
+      <guid isPermaLink="true">https://goldsky.com/blog/simplehash-alternative-migrating-after-phantom-acquisition</guid>
+    </item>
+    <item>
+      <title>Goldsky Mirror is now generally available</title>
+      <link>https://goldsky.com/blog/mirror-ga</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+      <author>Hemanth Soni</author>
+      <enclosure url="https://goldsky.com/images/blog/covers/mirror-ga.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Goldsky Mirror is now generally available
+
+We're opening up access to web3's leading data streaming platform to everyone, no credit card needed. • 9 mins
+
+![Goldsky Mirror is now generally available cover image](/images/blog/covers/mirror-ga.png)
+
+![image of Hemanth Soni](/images/blog/contributors/hemanth.png)
+
+**Hemanth Soni**  
+Head of Growth
+
+## Goldsky was founded to make working with web3 data easy, and we're excited to take a meaningful step towards achieving this mission today: we're announcing _the General Availability of Goldsky Mirror_: the leading realtime crypto data streaming platform.
+
+![placeholder](/images/blog/mirror-ga/mirror-overview.png)
+
+## What is Goldsky Mirror?
+
+*“Realtime crypto data streaming platform”*... we're still figuring out how to communicate this.
+
+The TLDR: Mirror syncs data directly to your own database.
+
+By pushing data as soon as it is available instead of making you pull it through an API, Mirror ***significantly reduces querying costs and eliminates the engineering complexity of setting up ETL pipelines*** for more advanced use cases.
+
+* Combining onchain data directly with other information such as internal customer data or other product data
+* Use the right data store for the task at hand (eg. Elasticsearch for search, Timescale for time-series-optimized usage, etc.)
+* Colocating your data with other application services such as your front-end to minimize load times and provide a snappy experience (key to crypto gaming, trading, and more)
+* Giving you complete flexibility and control over database indexes, access patterns, caching, and the ability to change them on the fly with total autonomy
+
+Goldsky manages reorgs for you by directly updating + deleting data in your database, and allows you to transform data in-stream. This means that ***the data appearing in your destination sync is in exactly the shape you want it in***, and is continuously updated to reflect the reality of the chain, with no effort.
+
+## What does "GA" mean?
+
+Goldsky Mirror has been production-ready for years. In fact, it's already used in production by category leaders, across categories.
+
+![placeholder](/images/blog/mirror-ga/mirror-users.png)
+
+Whether you are building over a weekend hackathon or running infrastructure for 1M+ DAUs, Goldsky Mirror can scale to your workload seamlessly. “General Availability” is less about the performance/reliability of the core platform, and more about building out the surrounding feature-set to enable a low-friction self-serve experience.
+
+### Dataset integrations
+
+![placeholder](/images/blog/mirror-ga/mirror-datasets.png)
+
+You can use Mirror to stream a realtime feed of onchain activity (blocks, logs, traces, transactions) across 40+ networks today. We already support all of the major ones you know and love such as Ethereum and Base, fast-growing new networks like Blast and Berachain, and even several non-EVM networks such as Stellar.
+
+However, Goldsky Mirror does more than simple chain feeds - with our General Availability release, you can also use any subgraph you've deployed to Goldsky as a Mirror source as well. This means you can get a realtime replica of your subgraph data in your own infrastructure, seamlessly enabling advanced applications such as cross-chain subgraphs.
+
+In private beta and coming to GA soon, we also have off-chain datasets such as NFT metadata (images, floor prices, rarity & traits) as well as token prices for 60K+ token pairs.
+
+### Dual interface
+
+![placeholder](/images/blog/mirror-ga/dual-interface.png)
+
+Goldsky Mirror pipelines can be created in two ways: via our CLI tool or via our web app. This flexibility means that you can get data streaming with ease - only 3 screens to be exact: one to set up the data sources, one to set up some transformations, and one to define your sink. However, for advanced applications you can integrate more directly with our CLI. Beyond unlocking the full flexibility of the platform with our `.yaml` based definition files, you can also seamlessly integrate Goldsky into your CI/CD processes.
+
+This allows you to fully embed Goldsky into your infrastructure, enabling a fully automated “indexing as code” approach. Teams have already integrated this in ways we'd never imagine, eg. reverse-ETL'ing the data into Dune to power public dashboards for their community for networks that aren't supported there.
+
+### General platform enhancements
+
+![placeholder](/images/blog/mirror-ga/general-enhancements.png)
+
+We've spent the past several months slowly rolling out access to select teams, and learning from watching them use it. Through this process we've iterated on a surrounding suite of functionality to help guide users to a happy path and stay there. This includes team management features in a simple RBAC system, pipeline failure notification emails, self-serve logs, and more. Defining the line for these guardrails and “extra” features to be requisites for General Availability vs. not has been an ongoing challenge - with even one more week we'd be able to ship a number of QOL enhancements, but that begets another week and so on.
+
+We've brought down the average “time to value” by about 20x from our first release, the majority of which is now in setting up sink infrastructure to properly receive data from Goldsky. We hope you find the line we've drawn to be an acceptable one and have a smooth experience trying it out, but our support team is on standby at [support@goldsky.com](mailto:support@goldsky.com) to help if not.
+
+## How fast is it?
+
+Goldsky Mirror is ***_blazingly_*** fast. Because it is horizontally scalable, you can add more parallel Mirror workers to any task to scale it up. In tests, we've been able to backfill all of Ethereum in about 3 hours. A default Mirror pipeline writes about 2,000 rows a second, but you can scale up to 40 workers with an XXL Mirror pipeline. With that, you can see speeds of over 100,000 rows a second; backfilling the entire Ethereum blocks table in under 4 minutes.
+
+Synthetic benchmarks for indexing are deeply dependent on too many variables to be relevant for most teams' specific use cases: on the specs of the sink, the transformations applied to the pipeline, and more. But we know people are going to ask, so here's one anyways:
+
+* Indexing and decoding Rocket Pool ETH `transfer()` and `approval()` events
+* Starting on block `11446767` and ending on block `17576926`
+
+We'll let you build out non-Goldsky approaches to doing this (as we may not write the optimized code for other indexing solutions), but here's what that looks like in a Goldsky Mirror configuration file - 42 lines total (40 if you exclude comments):
+
+```yaml
+name: ethereum-raw-logs
+apiVersion: 3
+sources:
+  dataset_ethereum_raw_logs:
+    type: dataset
+    dataset_name: ethereum.raw_logs
+    version: 1.1.0
+    filter: 11446767 <= block_number <= 17576926
+transforms:
+  reth_decoded:
+    primary_key: id
+    # Fetch the ABI from Etherscan and decode data
+    sql: >
+      select 
+        `id`,
+        _gs_evm_decode(
+            _gs_fetch_abi('https://api.etherscan.io/api?module=contract&action=getabi&address=0xae78736cd615f374d3085123a210448e74fc6393', 'etherscan'), 
+            `topics`, 
+            `data`
+        ) as `decoded`, 
+        block_number, 
+        transaction_hash 
+      from dataset_ethereum_raw_logs
+      where address='0xae78736cd615f374d3085123a210448e74fc6393'
+  reth_clean:
+    primary_key: id
+    # Clean up the previous transform, unnest the values from the `decoded` object.
+    sql: >
+      select 
+        `id`, 
+        decoded.event_params as `event_params`, 
+        decoded.event_signature as `event_signature`,
+        block_number,
+        transaction_hash
+      from reth_decoded 
+      where decoded is not null
+sinks:
+  reth_events:
+    secret_name: CH_DEMO_INSTANCE
+    type: clickhouse
+    from: reth_clean
+    table: reth_test
+```
+
+End-to-end, incl. ~60 seconds for the pipeline worker to spin up and receive instructions, ***_this took less than two minutes with an S-sized pipeline._***
+
+How are we able to do this? The secret sauce is a bespoke hybrid storage and filtering backend that we've built to combine the best of both worlds: the lookup speeds of a traditional database with the flexibility of a streaming platform. We'll dive into the details of how this works in a separate blog post.
+
+## What can I actually DO with Goldsky Mirror?
+
+So it's fast, feature-rich, and a novel approach to indexing — but what specifically does Goldsky Mirror let you accomplish? Teams are using Mirror today to build...
+
+* **Natively multichain interfaces** (supporting Splits's harmonized UI that shows users their activity across chains in one place, without repetitive queries)
+* **Custom API servers on top of subgraph data** (unlocking higher levels of performance and stability for POAP across their global userbase)
+* **Fuzzy, tag-based search** (powering Arweave's search gateway encompassing the entire Arweave network's file metadata)
+* **Points, leaderboard, and airdrop campaigns** (enabling Mode to power the backend for it's points program that has driven almost 600M in TVL to the network)
+
+...the list goes on. Odds are if you have a problem with your web3 data stack, some combination of Goldsky's products can act as a meaningful upgrade over your current setup. If you're not sure exactly how, don't hesitate to reach out to our friendly support team via [support@goldsky.com](mailto:support@goldsky.com). That looks like a generic black-hole email inbox, but we're actually pretty responsive there.
+
+## What's next?
+
+We will continue pushing the time-to-value for Goldsky Mirror down, in every way we can think of. We want users to be able to build production-grade pipelines without errors and bugs as fast as humanly possible, and we're nowhere near that today.
+
+This will involve continued investments in product features and enhancements, expanded network support, documentation improvements, and real-life case studies to help illustrate and educate how Mirror can best be used.
+
+We're also working on enhancing accessibility through Goldsky's Startup Program: offering 50% discounts and up to $10,000 in usage credits to builders in approved partner programs such as OrangeDAO and Alliance. We'll continue to expand this program over the coming weeks.
+
+If you want to try Mirror today, sign up today and deploy a pipeline - no card , no beta waitlist, no "onboarding call" with a sales team needed.]]></content:encoded>
+      <guid isPermaLink="true">https://goldsky.com/blog/mirror-ga</guid>
+    </item>
+  </channel>
+</rss>

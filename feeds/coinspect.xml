@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coinspect - Stellar Ecosystem</title>
+    <link>https://coinspect.com</link>
+    <description>Latest articles about Coinspect in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/coinspect.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Critical Wallet Bugs Expose Users to Silent Crypto Drains</title>
+      <link>https://coinspect.com/blog/wallet-silent-drain/</link>
+      <pubDate>Fri, 11 Apr 2025 22:00:00 GMT</pubDate>
+      <author>Franco Riccobaldi</author>
+      <enclosure url="https://www.coinspect.com/_astro/silent-wallet-drain.BC1fgshe_Z26W1VL.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[We discovered critical vulnerabilities in browser wallets that let attackers drain your funds—no phishing, no social engineering, no approval required, you don’t even have to click "Connect Wallet". Simply visiting the wrong site could silently expose your recovery phrase, allowing attackers to drain your funds whenever they want. They could wait until your wallet has enough balance, making it hard to trace the breach.
+
+This isn’t some theoretical attack, it’s a set of vulnerabilities we’ve identified in wallets like Stellar Freighter, Frontier Wallet, and Coin98. We expect it’s only a matter of time before attackers begin integrating wallet exploits into drainer kits, especially as new wallets enter the ecosystem without relying on well-tested, open-source codebases.
+
+## How Browser Wallets Connect to dApps
+
+To understand the vulnerabilities described below, we will examine the common key components of a wallet extension’s architecture and their internal communication. These components operate in distinct security contexts. To bridge these contexts, they rely on message passing, which allows structured JSON data to be exchanged.
+
+To connect with a dApp, browser wallets inject code into each tab the user visits, establishing a communication channel. This channel allows the dApp to recognize the wallet and request access to key features, such as viewing the user’s account balance or initiating transaction approval requests, such as for transferring funds.
+
+The dApp initiates these interactions, which typically cause the wallet to display its UI, where the user can review and approve the requested action.
+
+![Browser extension wallet architecture showing communication between dApp, content script, background script, and wallet UI.](/_astro/wallet-silent-drain-1.BADtHs6-_OM1O0.webp)
+
+### Breaking Down Wallet Architecture
+
+The diagram above illustrates a generic architecture of a wallet extension and how its components communicate. A decentralized application (dApp) interacts with the wallet through a **Provider API** injected into the dApp site by the **Content Script**. This API allows the dApp to initiate actions such as connecting the wallet and requesting transaction signing. Messages are relayed to the **Background Script**, which processes these requests and also has access to the **private key**. The Wallet UI is used to display interactions or request user approval.
+
+**Practical Example: Connecting the Wallet**
+
+When a user wants to connect their wallet to a dApp, the flow typically works as follows:
+
+1. The dApp calls `window.ethereum.request({ method: 'eth_requestAccounts' })` to request the wallet address.
+2. The **Provider API**, injected by the **Content Script**, intercepts the request and forwards it to the **Background Script**.
+3. The **Background Script** processes the request and triggers the **Wallet UI** to prompt the user for approval.
+4. Once approved, the wallet address is sent back through the same chain: **Background Script → Content Script → Provider API → dApp**.
+
+## Real-World Wallet Flaws Enabling Silent Exploits
+
+As part of our ongoing research into [wallet security](/blog/wallet-security-score/) over the past several years, we’ve identified critical weaknesses in popular browser wallets. While there’s no evidence these vulnerabilities have been actively exploited yet, their presence significantly raises the risk of silent fund drains—potentially leaving users vulnerable without any interaction or awareness.
+
+### Silent Secret Seed Leak in Stellar Freighter Wallet
+
+**Silent Secret Seed Leak in Stellar Freighter Wallet**
+
+While the architecture described above is commonly used by wallet extensions, its implementation can introduce serious risks if not carefully managed. In Freighter, the official browser wallet for the Stellar blockchain, a significant flaw in how these principles were applied led to a critical vulnerability.
+
+![Wallet architecture with a single handler in the background script managing both provider API and UI logic, illustrating a flawed design.](/_astro/wallet-silent-drain-2.BkvzZOWu_Z2ecGFS.webp)
+
+As shown in the diagram above, the wallet implemented a **single handler** ([one-time request](https://developer.chrome.com/docs/extensions/develop/concepts/messaging#simple)) to process communications from both its Wallet UI and the Provider API. This design introduced a weakness, creating the risk of confusing messages from different sources. Unlike [long-lived connections](https://developer.chrome.com/docs/extensions/develop/concepts/messaging#connect), which create **distinct** **channels** for different parts of the extension, this approach lacked that separation.
+
+The attacker could force this confusion by sending a crafted message to the privileged `runtime.sendMessage()` API through the Content Script’s [message listener](https://github.com/stellar/freighter/blob/b23faa7b5c376bc75050c2eb2a61f69b227bb472/extension/src/contentScript/helpers/redirectMessagesToBackground.ts#L20). This listener, which handled messages from the Provider API, forwarded them directly to the background script, allowing the attacker to manipulate the messaging process from their own site.
+
+In the background script, the message handler forwarded messages to one of two listeners: `popupMessageListener` or  `freighterApiMessageListener`. This routing depended on the `request.type` parameter, which attackers could control from their site.
+
+As a result, an attacker site could send malicious messages mimicking legitimate requests from the Wallet UI. Since the wallet could not distinguish between a user interacting with its interface and a request from the malicious site, attackers could force the execution of an [internal function](https://github.com/stellar/freighter/blob/master/%40shared/constants/services.ts#L10) intended to display the recovery phrase for backup purposes on the Wallet UI. Due to the bidirectional message channel, the attacker could not only trigger the function but also receive the result — the user’s secret phrase.
+
+Reported via HackerOne, bounty awarded: $20,000. Fixed in version 5.3.1. [CVE-2023-40580](https://github.com/stellar/freighter/security/advisories/GHSA-vqr6-hwg2-775w).
+
+### Silent Mnemonic Phrase Leak in Frontier Wallet
+
+**Silent Mnemonic Phrase Leak in Frontier Wallet**
+
+Frontier wallet experienced a similar vulnerability. Although it used separate [ports](https://developer.chrome.com/docs/extensions/reference/api/runtime#type-Port) on [long-lived](https://developer.chrome.com/docs/extensions/develop/concepts/messaging#connect) connections for the UI and the Provider API, the Provider API exposed internal methods.
+
+One of these methods returned internal wallet state, including the encrypted secret wallet recovery phrase. As a result, a malicious site could steal the secret recovery phrase even when the wallet was locked and without requiring any user approval to connect.
+
+Although the secret recovery phrase was encrypted with the user’s wallet password, attackers could quietly obtain it and then conduct offline brute-force attacks indefinitely, or employ targeted phishing strategies to trick users into revealing their passwords.
+
+Additionally, the exposed data included the wallet’s address, allowing the attacker to evaluate in advance whether the wallet’s value made such efforts worthwhile.
+
+Reported to Frontier’s CTO on November 13, 2024. Fixed on November 22, 2024.
+
+### Silent Wallet Drain Vulnerability in Coin98 Wallet
+
+**Silent Wallet Drain Vulnerability in Coin98 Wallet**
+
+Despite using a different design, the Coin98 wallet also suffered from internal messaging vulnerability. By sending a specially crafted message to the Content Script with the parameter `isDev:true`, attackers could trigger actions that normally require user interaction, such as unlocking the wallet and modifying its preferences.
+
+This message would appear to the background script as if it came directly from the Wallet UI, making the wallet believe the user had authorized the action. As a result, attackers could force the wallet to sign and broadcast transactions to the blockchain, draining funds to an address under their control.
+
+Reported via HackenProof on July 12, 2023. Bounty awarded: $1,000.
+
+## Important Security Implications for Wallet Users
+
+Notice how these flaws put users at risk without any interaction. Here’s what makes them especially dangerous:
+
+* **Pre-Connection Risk**: These vulnerabilities allowed malicious sites to interact with the wallet even before the user accepted a connection, exposing users as soon as they visited the site.
+* **Silent and Stealthy Exploitation**: Attacks could occur silently in the background of any website, leaving no alerts or feedback, making detection extremely difficult for users.
+* **No User Interaction Required**: Victims didn’t need to visit a trusted dApp, click “Connect Wallet” or approve any requests. Simply visiting a malicious site could have exploited these vulnerabilities.
+* **Direct Access to Private Key**: Attackers could access the user’s secret recovery phrase directly, even with the wallet locked.
+* **Delayed Exploitation Risk**: Attackers didn’t need to act immediately. They could wait until the wallet was funded and then steal the assets, making it hard to correlate the attack with the initial breach.
+
+## Wallet Security: How to Stay Ahead of Threats
+
+The vulnerabilities we’ve uncovered highlight a critical truth: users can lose funds without any action on their part—no clicks, no approvals, just by visiting a malicious or compromised website. This underscores the necessity for wallets to implement robust security measures that protect users proactively.​
+
+As the Web3 ecosystem continues to evolve, so do the tactics of malicious actors. It’s imperative for [wallet vendors to stay ahead](/blog/crypto-wallet-security/) by implementing a secure development process and for users to remain informed about the tools they use.
+
+As wallet features become more complex and new wallets emerge without using hardened, open-source foundations, wallet exploits are likely to become standard tools in attackers’ arsenals.
+
+At Coinspect, we’re committed to raising the bar for wallet security and fostering a safer Web3 ecosystem. Our [Wallet Security Ranking](/wallets/) reflects this mission. Our goal is to guide users in choosing wallets that prioritize their safety and to encourage developers to adopt best practices in wallet security.​]]></content:encoded>
+      <guid isPermaLink="true">https://coinspect.com/blog/wallet-silent-drain/</guid>
+    </item>
+    <item>
+      <title>Soroban Source Code Audit - Tricorn Bridge</title>
+      <link>https://coinspect.com/blog/soroban-source-code-audit-tricorn/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 GMT</pubDate>
+      <author>Juliano Rizzo</author>
+      <enclosure url="https://coinspect.com/_astro/abacus.Y4gYZRWH_Z1ifWSy.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Soroban Source Code Audit - Tricorn Bridge**
+
+We’re excited to publish the first results of our recent [collaboration with the Stellar Development Foundation](https://stellar.org/blog/developers/the-soroban-audit-bank-fostering-a-secure-smart-contract-ecosystem). As part of this partnership, our experts conducted comprehensive security reviews of multiple projects built on Soroban, Stellar’s new smart contracts platform. The first detailed security audit report we publish today includes specific findings already addressed by the development teams and insights about Soroban security characteristics that contribute to the broader Soroban security community knowledge.
+
+In April 2024, [Coinspect](https://www.coinspect.com) started working with [Boosty Labs](https://boostylabs.com/) to review the security of the Stellar Soroban integration for the [Tricorn Bridge](https://tricorn.network/). Specifically, Coinspect reviewed the security of the smart contract’s Rust source code and their integration with Tricorn’s Golang backend.
+
+The Tricorn bridge contract reviewed facilitates token transfers between Soroban and any destination chain supported by Tricorn. It supports both Tricorn-managed tokens (minted/burned by the contract) and tokens not managed by Tricorn, which are held in the contract’s balance.
+
+Coinspect’s analysis identified 3 high-risk, 6 medium-risk, and 1 low-risk vulnerabilities. The most critical findings could have allowed an adversary to arbitrarily modify the commission collector’s address or steal funds via Bridge Out operations. Additionally, Coinspect reported a vulnerability that could have rendered the bridge unusable due to storage exhaustion.
+
+[Download the Tricorn Bridge Source Code Audit Report](/doc/Coinspect%20-%20Source%20Code%20Audit%20-%20Soroban%20Tricorn%20Bridge%20v240725.pdf)]]></content:encoded>
+      <guid isPermaLink="true">https://coinspect.com/blog/soroban-source-code-audit-tricorn/</guid>
+    </item>
+  </channel>
+</rss>

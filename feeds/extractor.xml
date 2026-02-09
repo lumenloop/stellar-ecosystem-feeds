@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extractor - Stellar Ecosystem</title>
+    <link>https://extractor.live</link>
+    <description>Latest articles about Extractor in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/extractor.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Extractor Approved In Native Risk Collective As Risk Mitigation Expert</title>
+      <link>https://extractor.live/blog/extractor-approved-in-native-risk-collective</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://cdn.prod.website-files.com/67335565a20877e02cbe3629/688359444cf238fd0cbd09d4_Blog%20Cover%20(2).png" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Hacken is proud to announce that Extractor has joined the [Native Risk Collective](https://www.native.inc/partnerships/risk-collective) — a first-of-its-kind insurance partnership and framework that rewards strong security practices. Recognised as a technical risk mitigation expert, Extractor is now an approved solution for reducing Cyber, Crime, and Technology Errors & Omissions (Tech E&O) risks in the digital asset space.**
+
+![Extractor x Native](https://cdn.prod.website-files.com/67335565a20877e02cbe3629/688359da198a9147f2bbf495_extractor%20x%20native.jpg)
+
+## About Native
+
+[Native](https://www.native.inc/) is a global insurance broker for digital assets and crypto businesses. Native helps crypto-native teams and regulated institutions access insurance products designed for the decentralised economy. From fully regulated cover to entirely onchain options.
+
+## The Importance of Joining Native Risk Collective
+
+The **Native Risk Collective** is a pioneering partnership between **Native**, leading crypto security tools, and Lloyd's of London underwriters — designed to reward proactive risk management. Through this framework, companies using recognised risk mitigation tools like Extractor may access:
+
+* **Premium discounts** on Crime, Cyber, and Tech E&O insurance
+* **Stronger underwriting outcomes** through reduced exposure
+* **Access to exclusive insurance products** tailored for digital asset operations
+
+Please note: Hacken is not an insurance provider or broker. For insurance-specific inquiries, eligibility, or programme participation, please contact **Native Broking** directly.
+
+## Backed by Lloyd's of London Underwriters
+
+Extractor's risk mitigation capabilities have been independently assessed and **recognised by underwriters in the Lloyd's of London insurance market**. This assessment confirms the measurable impact our technology has on reducing cyber and infrastructure-related risks for digital asset companies
+
+### Earning Our Place Among Trusted Experts
+
+Extractor now joins the ranks of other **approved technical risk mitigation experts** in the Native Risk Collective, including:
+
+* **Circuit** – Disaster recovery and key management
+* **BreachBits** – Ethical hacking and threat simulation
+* **Hypernative** – Onchain threat detection and automated response
+* **Station70** – Security for institutional and individual crypto investors
+
+## What Sets Extractor Apart
+
+[Extractor](https://www.extractor.live/) is an **all-in-one threat detection, prevention, and mitigation system** for Web3 projects, delivering real-time asset protection.
+
+Purpose-built for blockchain-native teams by Hacken, Extractor combines the power of a next-generation **SIEM** (Security Information and Event Management) with **SOAR** (Security Orchestration, Automation, and Response) to proactively identify and neutralize crypto-specific threats before they escalate.
+
+Key features include:
+
+* **Transaction Firewall** to block malicious activity before it reaches assets
+* **No-code automation** to pause vulnerable contracts and block suspicious activity in real time
+* **Cross-chain monitoring** across 20+ blockchain networks
+* **Integrated compliance tools** to support AML/CFT adherence and audit readiness
+
+With over 60 advanced threat detectors and a proven track record in preventing attacks, Extractor delivers measurable, regulator-recognised protection to some of the most complex blockchain ecosystems.
+
+## Raising the Bar for Web3 Security
+
+Extractor's inclusion in the Native Risk Collective reflects a broader shift in the industry — where **risk mitigation excellence is directly rewarded through better insurance terms and deeper trust** from regulators, institutions, and investors.
+
+Together with Native and other approved security partners, Hacken is committed to:
+
+* Making **security a competitive advantage**
+* Enabling **institutional confidence** in digital assets
+* Reducing the **total cost of risk** for Web3 builders
+
+By bridging technical innovation with traditional safeguards, we're helping to shape a safer, more resilient digital asset ecosystem.]]></content:encoded>
+      <guid isPermaLink="true">https://extractor.live/blog/extractor-approved-in-native-risk-collective</guid>
+    </item>
+  </channel>
+</rss>

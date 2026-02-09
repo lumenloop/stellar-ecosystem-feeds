@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>human.tech - Stellar Ecosystem</title>
+    <link>https://human.tech</link>
+    <description>Latest articles about human.tech in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/human-tech.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build with human.tech on Stellar</title>
+      <link>https://human.tech/blog/build-with-human-tech-on-stellar</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/BNFYNLevzlEdtzkHKiZCtueU2k.png?width=1200&amp;height=757" type="image/jpeg"/>
+      <content:encoded><![CDATA[*Privacy tech for builders to verify humans, simplify onboarding, and enable compliance.*
+
+Stellar is a blockchain built for real-world impact. At a time when nearly [1.4 billion people remain unbanked](https://digitalfinance.worldbank.org/) and international remittances cost an [average of 7%](https://messari.io/report/payfi-ecosystem-analysis), Stellar offers low-cost, high-speed infrastructure for stablecoin finance, cross-border transactions, tokenized assets, and transparent humanitarian aid. Beyond its robust technical stack, Stellar has forged high-impact partnerships to build last-mile distribution mechanisms by bridging formal finance with underserved populations such as refugees, informal workers, or those in unstable economies. Whether it's enabling people to convert local currencies into digital assets or allowing asset managers to tokenize financial products, Stellar sits at the intersection of public blockchains, traditional finance, and real-world cash access.
+
+Yet, access requires identity. More than [3.3 billion people](https://id4d.worldbank.org/global-dataset) around the world cannot securely conduct online transactions due to the absence of a government-recognized digital identity. Without a way to verify themselves, they're often excluded from aid, banking, credit, or meaningful participation in the digital economy.
+
+[human.tech](https://human.tech/) brings its open cryptographic framework for natural digital rights to the Stellar ecosystem, supported by [Stellar's Community Fund](https://communityfund.stellar.org/dashboard/submissions/recwlRoLYHglvvfbU). human.tech's suite of products, including privacy-preserving identity verification, wallets, and Sybil resistant distribution infrastructure, will help with fair and accessible distribution of services to reach real people without creating any barriers to inclusion. These tools establish a foundational identity layer that is modular and inclusive, supporting easier onboarding flows, verifiable coordination mechanisms, and safe data sharing of personal information through zero-knowledge proofs and digital signatures through [Human Key Infrastructure](https://human.tech/blog/human-key-infrastructure-eigenlayer).
+
+## Human ID live on Stellar
+
+[Human ID](https://docs.holonym.id/for-users/using-with-stellar) is now live on Stellar. Developed by the Holonym Foundation, Human ID offers a privacy-preserving way to verify that an account belongs to a real, unique person, without collecting or exposing personal data. Identity proofs are generated as zero-knowledge proofs, allowing users to demonstrate facts like uniqueness, age (e.g., over 18), or residency without revealing any sensitive information.
+
+These proofs are created instantly on the client side by verifying government-issued credentials from over 180 countries or by scanning an ePassport, with zero data exposure and no third-party involvement. The identity proofs are published on-chain as non-transferable Soulbound Tokens (SBTs) on the Stellar blockchain, enabling any application in the ecosystem to confirm a user's authenticity without storing or accessing personal data.
+
+These capabilities create new possibilities for trust, access and coordination in the Stellar ecosystem. The sections that follow explore how these tools enable new applications across the Stellar ecosystem.
+
+*"Billions are excluded from financial services because they don't have the 'right' ID. I'm excited to see teams like human.tech building privacy-preserving identity tools that open up access without compromising on safety. It's the kind of work that resonates deeply with our mission of equitable access to financial services."* – Anke Liu, Ecosystem Growth Lead at the Stellar Development Foundation
+
+User flow [here](https://docs.holonym.id/for-users/using-with-stellar).
+
+![Image](https://framerusercontent.com/images/77bE9S44EvMCCTc8hDkW8HPU7co.png?width=760&height=1200)
+
+## Modular Identity Tools for Builders on Stellar
+
+human.tech's full suite of products is being rolled out progressively, supported through Stellar's Community Funding, extending the privacy-preserving identity infrastructure on Stellar with additional tools for compliance, self custody, and sybil resistant distribution infrastructure.
+
+### **Proof of Clean Hands**
+
+[Proof of Clean Hands](https://human.tech/blog/proof-of-clean-hands), part of Human ID provides zero knowledge identity with transparent accountability. Users complete KYC in zero knowledge and encrypt their data under programmable decryption conditions, rules that define exactly when and how data can be decrypted, such as in the event of illicit activity. Decryption requires collaborative approval across a decentralized network ([Human Network](https://network.human.tech/)), an observer node (holding encrypted data), and on-chain contract logic.
+
+This approach eliminates the need for apps or institutions on Stellar to store user data, while still enabling regulatory compliance and audit trails when required.
+
+### **Human Passport**
+
+[Human Passport](https://passport.human.tech/), formerly Gitcoin Passport is a battle-tested Sybil resistance protocol, will now be integrated into Stellar. Built from years of experience protecting incentive systems on EVM networks, Human Passport brings a modular stack of [verification methods](https://passport.human.tech/blog/human-passport-proof-of-personhood-and-sybil-resistance-for-web3) to assess and prove user uniqueness, without revealing personal data.
+
+On Stellar, Human Passport will introduce native identity stamps, real-time behavioral models for detecting humanness on-chain, and custom stamp to import reputation from EVM ecosystems.
+
+Projects across the Stellar ecosystem can choose the identity model that fits their risk profile, incentive structure, and community norms. Human Passport provides the infrastructure to make verification modular, privacy-preserving, and adaptable to custom user experience flows.
+
+### **Human Wallet**
+
+[Human Wallet](https://wallet.human.tech/) is human.tech's self-custodial wallet built on [Human Keys](https://coinmarketcap.com/academy/glossary/human-keys?utm_source=chatgpt.com) and secured through Two-Party Computation (2PC), enabling one-click onboarding, seedless recovery, and programmable transaction security.
+
+Unlike traditional wallets that rely on fragile seed phrases, or social onboarding wallets that depend on centralized recovery flows or opaque custody, Human Wallet offers a more sovereign wallet infrastructure. Users onboard through Human Keys, generated from human-authenticated data such as biometrics, web accounts, or phone numbers, with key creation and recovery secured by the [Human Network](https://network.human.tech/), a decentralized threshold network.
+
+Transactions are fully authorized by the user and verified through [2PC](https://docs.wallet.human.tech/docs/architecture%20&%20security%20model/architecture), protecting against common attack vectors like malware, phishing, dApp compromise, or user negligence.
+
+## Built for RealWorld Impact
+
+Here are some potential applications to illustrate how Stellar and human.tech address real-world problems through high-impact infrastructure.
+
+### **Humanitarian Aid**
+
+Despite [hundreds of billions](https://www.oecd.org/en/about/news/press-releases/2025/04/official-development-assistance-2024-figures.html) allocated annually, humanitarian aid often fails to reach the people who need it most, slowed by [fragile environments](https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en.html), complex intermediaries, costly payment systems, and identity based access barriers. Funding flows remain largely top down, shaped by Global North donors who set conditions on how aid is distributed, what technologies are used, and which outcomes matter. [As that funding declines](https://www.thenewhumanitarian.org/analysis/2025/04/17/what-new-funding-data-tells-us-about-donor-decisions-2025), the need to decentralize delivery, increase transparency, and build adaptable infrastructure has never been more urgent.
+
+Stellar combines low cost network fees, fast and transparent aid delivery, and the right partners at every layer of the pipeline. From payment infrastructure providers like MoneyGram, enabling cash-to-crypto access at the last mile, to humanitarian agencies like UNHCR reaching people in crisis, Stellar's ecosystem connects funding sources to recipients efficiently. It doesn't operate as a parallel or siloed payment system, but rather as a bridge between formal and informal economies.
+
+When fully deployed on Stellar, human.tech strengthens this aid infrastructure by providing an open, verifiable identity layer for streamlined delivery. Human Wallet, built on Human Key Infrastructure, enables easier onboarding, private identity authentication, and anchors a design space for coordination through Human Keys, where users can verify roles, manage attestations, track impact or payments, and receive aid directly.
+
+### **Privacy-Preserving Compliance for Payments**
+
+Stellar connects a growing network of on/off-ramp providers like MoneyGram and other [PayFi](https://messari.io/report/payfi-ecosystem-analysis) apps. [Proof of Clean Hands](https://human.tech/blog/proof-of-clean-hands) offers a way to meet compliance standards without compromising user privacy. Instead of storing sensitive KYC data, platforms can rely on zero knowledge proofs, with conditional transparency only when necessary. This enables regulatory alignment, protects users from surveillance or data leaks, and strengthens trust across Stellar's financial ecosystem.
+
+### **Sybil Resistance Infrastructure through Human Passport**
+
+On-chain systems like airdrops, grants, and governance require trust in who is participating, not just how. Human Passport provides a modular framework for verifying that users are real and unique, without collecting sensitive personal data. Stellar projects can use it to gate access, weight participation, or prevent abuse of reward pool, ensuring that resources flow to real communities, not bots.
+
+Looking ahead, Human Passport will also support bridging reputation from EVM networks to Stellar. By issuing Stellar-native stamps based on EVM activity, users will be able to bring their on-chain identity context into the Stellar ecosystem, unlocking new ways to design trusted, human aware applications.
+
+**Start Building!**
+
+Developers, builders, and dApps building on Stellar can begin integrating Human ID today. Future product roll outs will be communicated via Stellar's Discord [here](https://discord.com/channels/897514728459468821/1382605549375455232).
+
+***About The Stellar Network***
+
+The Stellar network is a decentralized, fast, scalable, and uniquely sustainable blockchain built for financial products and services. It offers builders smart contracts functionality, and a protocol optimized for payments, with a design intended to keep fees low and to provide transaction speeds that can scale with increased adoption. Financial institutions and innovators worldwide issue assets and settle payments on the Stellar network, which has processed billions of operations with millions of accounts since the network was first launched.]]></content:encoded>
+      <guid isPermaLink="true">https://human.tech/blog/build-with-human-tech-on-stellar</guid>
+    </item>
+  </channel>
+</rss>

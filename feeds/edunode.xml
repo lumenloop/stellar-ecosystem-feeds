@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EduNode - Stellar Ecosystem</title>
+    <link>https://edunode.org</link>
+    <description>Latest articles about EduNode in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/edunode.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to issue assets on the Stellar Network</title>
+      <link>https://edunode.org/blog/How-to-issue</link>
+      <author>Olvis Gil</author>
+      <enclosure url="/static/media/issue.2e030c9c2af8f7a23735.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# How to issue assets on the Stellar Network
+
+![Header image](/static/media/issue.2e030c9c2af8f7a23735.png)
+
+One of the advantages of the Stellar network is that can be used to track, hold, and transfer any type of asset: dollars, euros, bitcoin, stocks, gold, and other tokens of value. Assets on the Stellar network represent a credit from a particular issuer of the asset.
+
+If you are planning to issue an asset on Stellar I have great news for you, creating an asset on the Stellar Network is as easy as performing a few operations, whether using the Stellar Laboratory, alternatively doing the calls directly using one of the currently available [libraries](https://www.stellar.org/developers/reference/).
+
+## Creating issuer and distribution accounts
+
+The first step when creating an asset is by generating a distribution account and an issuer account. You can achieve this using the [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test) , going to “Create Account” and by clickling on “generate keypair”.
+
+![Laboratory](/static/media/laboratory.b17b39fbbf201a1b3754.PNG)
+
+Once both accounts are created, make sure to fund the accounts with some lumens, since technically Stellar accounts does not exist until they have some lumens on it. If you are using the Stellar testnet, you can use the Friendbot, which will automatically generate 10,000 XLM so you can easily start performing test operations.
+
+## Creating an asset
+
+In order to create an asset, you need to open a trustline to the issuer account. To do this with the Laboratory, you will need to create a transaction coming from the "distribution account". You can leave out the “Base Fee” and Memo as default.
+
+![Issue 1](/static/media/issue1.9e51415963861e59c393.PNG)
+
+At the bottom, select the “Change Trust” in the Operation Type field. Select Asset 4 Alphanumeric and proceed to add the name of the asset (in our case we will create the test asset "XEDU"). Then add the Issuer Account in the "Issuer Account field".
+
+![Trust](/static/media/trust.5ffc4355cbb068b6299b.PNG)
+
+You can leave Trust Limit and Source Account fields as default and proceed to Sign in the transaction with the Transaction Signer.
+
+![Sign](/static/media/sign.6b173556b98c323e8734.PNG)
+
+Then Add the Secret Key of the Distribuitor Account and submit it with the Transaction Submitter.
+
+![Sign 2](/static/media/sign2.ca9bf97dc417874f98ea.PNG)
+
+![Signed](/static/media/signed.b3781591050eb4ba2803.PNG)
+
+Then proceed to post the transaction with the Transaction Post endpoint. Now the transaction should have been created.
+
+![Submitted](/static/media/submitted.351544037b6cae266b48.PNG)
+
+Now you need to add the Tokens created to the Distribution Account. To do this, you need to create a payment operation coming from the Issuer Account (you will need to fetch the “Transaction Sequence Number” once again).
+
+![Add](/static/media/add.9ee6907407e9b707eaec.PNG)
+
+Below you will need to add payment as Operation Type, then select the Distribution as the Destination, add the Asset name once again, the amount that you wish to "generate" and proceed to sign the transaction.
+
+![Add 2](/static/media/add2.83b7e51f4b44fddab794.PNG)
+
+![New sign](/static/media/newsign.44b8514650e35fb08013.PNG)
+
+![New sign 2](/static/media/newsign2.76363cba55af052e9133.PNG)
+
+Congratulations, you have succesfully created a new asset on the Stellar network. Almost instantly, you will be able to see the balance of the newly created asset on one of the Stellar Explorer. In this case, we will use [Stellar.Expert](https://stellar.expert/).
+
+![Expert](/static/media/expert.1f164a21f48477392b16.PNG)
+
+As you can see the new test asset named "XEDU" was created and is available on the distribution account.
+
+If you found this article useful, please share it and follow us on social media]]></content:encoded>
+      <guid isPermaLink="true">https://edunode.org/blog/How-to-issue</guid>
+    </item>
+    <item>
+      <title>Keybase the secure communication tool with Stellar native integration</title>
+      <link>https://edunode.org/blog/What-is-Keybase</link>
+      <author>Olvis Gil</author>
+      <enclosure url="/static/media/keybase-stellar.7310fd97.2975d663c27cf0dc8ae3.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[## Keybase the secure communication tool with Stellar native integration
+
+Many tech companies that offer messaging applications have realized that privacy is clearly a big concern for users, and that the implementation of mechanisms that allow them to be able to control and protect their personal data is key in order to create trust. However, most of them struggle to try to reach this goal, this is where Keybase excels.
+
+### Stellar built-in wallet
+
+Keybase is the best privacy-focused messaging tool, which also has a built-in wallet with native a integration of the Stellar network.
+
+Stellar is an internet protocol that works as a decentralized order book, and which facilitates the exchange without borders of any type of assets, and cryptocurrencies.
+
+This means that Keybase users does not only enjoy the benefits of encryption to securely communicate with friends and peers, but also allows them to move value borderless for a very small fraction of a penny.
+
+### Keybase installation
+
+Users are able to create an account by [downloading](https://keybase.io/download) the mobile or desktop app.
+
+Once the app is installed, users are able to login or to create a new account. Once logged in, they are able to enjoy of all the funtionalities that Keybase offers.
+
+For instance, user are able to link their own stellar account (by adding your private key) or to generate a new one.
+
+![Image](/static/media/kb1.42d590cf41a343bb57ea.png)
+
+### Crypto Feature
+
+Another cool feature is the one called "Crypto", which allows anyone to encrypt and sign any type of data (e.g text files). Keybase will generate a hash of the information that can be securely sent and which allows the receiver to securely verify and unencrypt the data using the Keybase app.
+
+![Image](/static/media/kb2.16ff4c31c6364422ac5e.png)
+
+### Keybase´s CLI
+
+If you are a tech savy you can check their built in CLI command lines with some useful commands that you can execute from your own terminal.
+
+[Here](https://book.keybase.io/docs/cli#basics) you can find more information.
+
+### Conclusion
+
+Keybase is without a doubt at the top when it comes to offering open source privacy-focused communication tools and thanks to this capabilities the company was recently acquired by Zoom, the world's leading video conferencing app, and this acquisition will surely help Zoom to improve the privacy of their services.]]></content:encoded>
+      <guid isPermaLink="true">https://edunode.org/blog/What-is-Keybase</guid>
+    </item>
+    <item>
+      <title>Stellarnomics: Monetary aspects of the Stellar Consensus Protocol</title>
+      <link>https://edunode.org/blog/Stellarnomics</link>
+      <author>Olvis Gil</author>
+      <enclosure url="/static/media/economics.fb524b9689072ee5f938.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Stellarnomics: Monetary aspects of the Stellar Consensus Protocol
+
+Since the invention of the Internet, our lives have started to experience radical changes in many areas such as; how we communicate, how we learn, and how we spend our free time. Back in the 16th century, when gold was still the most predominant commodity in the world, the system of commodity money eventually evolved into a system of representative money, where the first issuing banks appeared in northern Europe. Now with the invention of technologies like [Stellar](https://www.stellar.org/), the way we transact has radically changed. The system is slowly but steadily evolving into a decentralized system where trust is ensured by mathematics and cryptography.
+
+In order to grasp the economic aspects of the Stellar Consensus Protocol -or how I like to refer to it, the “Stellarnomic” aspects- proper analizes of how consensus work are fundamental. Decentralized consensus reigns all the actions that take place in cryptoeconomic systems. Consensus can be defined as a decision-making process in which participants of a particular system (in this case: Nodes) agree to support (or not) a decision, in order to reach an agreement (concensus).
+
+The underlying consensus mechanism in which [Bitcoin](https://bitcoin.org/) operates is called Proof-of-work (PoW), this consensus mechanism secures all transactions in the Bitcoin network and was the inspiration for the development of Stellar. The way it works is that users create cryptographically secure transactions and broadcast them to the network. Miners collect as many transactions as they can and fit them into a block, and then they have to solve highly complex mathematical algorithms which allows them to verify each block and move it to the list of historic blocks. This is key in order to make sure that there are not invalid or fraudulent transactions.
+
+![Nodes visualization](/static/media/nodes.2e5e4da0803d6635a5a7.PNG)
+
+Nodes visualization by [https://stellarbeat.io/](https://stellarbeat.io/)
+
+### "Understanding the behavior of the participants within decentralized systems (or networks) is vital not only for Stellar but for any blockchain or distributed ledger."
+
+On the other hand, the Stellar Consensus Protocol is a decentralized global consensus, differentiates itself from the other consensus mechanisms (like POW) because the nodes which validate the transactions work without mining. Each validator or node defines sets of other nodes that it needs to agree with. These sets are called quorum slices and when you look at the quorum slices of all validator nodes they define a global network of trust relationships between these nodes (above you can see how the current relationships look like). For example, if the configuration for a quorum set is (α, β, γ) with a threshold of 2, then either (α, β), (β, γ) or (γ, α) must agree before the node can proceed. (α, β), (β, γ) or (γ, α) are all quorum slices. In the article [“Intuitive Stellar Consensus Protocol”](https://medium.com/stellar-developers-blog/intuitive-stellar-consensus-protocol-d7fbf99a60ce) by Marta Lokhava, she mentions that “everything begins with statements” and that distributed systems “need a consensus mechanism in order to agree on different statements”. This in particular is achieved via federated voting. We can also describe these models of behavior as Game Theory of distribuded systems.
+
+If you would like to know more about the Stellar Concensus Protocol, check out the [Whitepaper](https://www.stellar.org/papers/stellar-consensus-protocol), which was designed by David Mazières. This academic research is fundamental and constitutes a hugh step towards adoption.]]></content:encoded>
+      <guid isPermaLink="true">https://edunode.org/blog/Stellarnomics</guid>
+    </item>
+  </channel>
+</rss>

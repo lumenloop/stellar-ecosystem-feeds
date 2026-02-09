@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TokenOps - Stellar Ecosystem</title>
+    <link>https://TokenOps.xyz</link>
+    <description>Latest articles about TokenOps in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/tokenops.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TokenOps Enhances Vesting with Live Partial Funding Option</title>
+      <link>https://tokenops.xyz/resources/partial-funding-is-live-on-tokenops-timelock-vesting</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/u9mxCWnsc1YzWCcwO3IK2RpJg.png?width=2000&amp;height=1280" type="image/jpeg"/>
+      <content:encoded><![CDATA[# TokenOps Enhances Vesting with Live Partial Funding Option
+
+**Jan 8, 2026**
+
+TokenOps Timelock Vesting Contracts now support Partial Funding across all supported chains, giving teams more control over when and how many tokens they deposit into on-chain vesting streams. This upgrade keeps recipient vesting behavior identical while dramatically improving treasury safety and operational flexibility.
+
+## What is Partial Funding?
+
+Partial Funding lets teams create a vesting stream first and fund it over time instead of depositing the full allocation upfront. This means vesting parameters (start, cliff, schedule, duration) are fixed on-chain, while funding happens progressively as needed.
+
+With this model:
+
+* Teams can start a single vesting contract and top it up as grants evolve, rather than over-funding on day one.
+* Recipients continue to interact with the same vesting stream, with no changes to their claim or withdrawal flow.
+
+## Why does Partial Funding matter?
+
+Partial Funding supports a more secure and capital-efficient approach to on-chain token vesting, all within one continuous contract:
+
+* **Add tokens anytime:** Handle bonuses, catch-ups, or expanded grants by increasing the funded amount in the existing stream.
+* **Lower treasury risk:** Move tokens from treasury only when cliffs or unlocks approach, reducing exposure in smart contracts and external wallets.
+* **Clean on-chain history:** Keep a single, auditable vesting stream per recipient instead of scattering allocations across multiple contracts.
+* **Simpler operations:** Avoid deploying multiple vesting contracts or fragmenting dashboards and reporting.
+* **No recipient friction:** Beneficiaries do not need to take any extra action; their withdrawals work as before.
+
+## Early use cases
+
+Teams and DAOs are already applying Partial Funding in common token distribution workflows, such as:
+
+* **Token payroll:** Paying employees and long-term contributors in tokens on a recurring basis while keeping vesting logic transparent and on-chain.
+* **Dynamic contributor grants:** Managing advisors, contributors, or DAO workstreams where allocations evolve over time without spinning up new contracts.
+
+## How it works with TokenOps Timelock Vesting
+
+Partial Funding is fully integrated into TokenOps Timelock Vesting Contracts and is available on all chains currently supported by TokenOps. Existing patterns for configuring schedules, beneficiaries, and withdrawal rules remain the same, with an additional ability to adjust funding over the life of the stream.
+
+Teams get:
+
+* A single vesting stream per recipient with configurable schedule and parameters.
+* The option to fund upfront, partially, or progressively as operational needs dictate.
+
+## Get started
+
+Partial Funding is live today for all TokenOps customers using Timelock Vesting Contracts. If your team needs a flexible, auditable way to manage on-chain token vesting while minimizing treasury risk, this upgrade is designed for you.
+
+Book a demo [here](https://tokenops.xyz/contact-us) to see Partial Funding in action and integrate it into your vesting workflows.]]></content:encoded>
+      <guid isPermaLink="true">https://tokenops.xyz/resources/partial-funding-is-live-on-tokenops-timelock-vesting</guid>
+    </item>
+    <item>
+      <title>TokenOps x Stellar: Technical-Grade Automation for Airdrops, Vesting, and TGEs</title>
+      <link>https://tokenops.xyz/resources/tokenops-x-stellar-technical-grade-automation-for-airdrops-vesting-and-tges</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/PeSp32gfBra4SQrh6YB8y2tVhPU.png?width=2000&amp;height=1200" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Stellar: Scalable, Low-Cost Layer 1 for Token Operations
+
+Stellar provides predictable transaction costs and rapid finality, with **3–5 second settlement** and fixed fees, making it ideal for complex token operations at scale. Using **Soroban smart contracts**, TokenOps can:
+
+* Execute **airdrops on Stellar** with batch verification
+* Automate **vesting on Stellar** with real-time tracking and claims
+* Run **TGEs on Stellar** with integrated treasury oversight
+
+Stellar's native XLM support eliminates the need for wrapped tokens, simplifying contract interactions and token flows.
+
+## How TokenOps Powers Token Operations on Stellar
+
+### 1. Real-Time Vesting on Stellar
+
+TokenOps enables automated **vesting schedules** with batch creation and immediate claim settlement. Contracts can be queried in real time via Soroban, allowing projects to:
+
+* Track release milestones on-chain
+* Monitor locked vs. vested balances
+* Provide audit-ready reports for investors
+
+Backend persistence stores wallet-to-vesting mappings and contract metadata, overcoming Stellar's 7-day Horizon event retention limitations.
+
+### 2. Automated Airdrops on Stellar
+
+Projects can execute **airdrops on Stellar** efficiently using TokenOps' SDK:
+
+* Batch token distribution to thousands of wallets
+* On-chain verification for complete accuracy
+* Configurable administrative controls to prevent misuse
+
+### 3. Seamless TGEs on Stellar
+
+TokenOps streamlines **TGEs on Stellar** with:
+
+* Automated minting and distribution
+* Integrated treasury management and reporting
+* Compliance-ready transaction logs
+
+All operations leverage Stellar's Soroban contracts and TokenOps' backend for robust state management, ensuring production-grade reliability.
+
+### 4. Developer-Friendly Integration
+
+TokenOps provides a single SDK for both read (simulation) and write operations:
+
+* **Query execution** for contract reads with `scValToNative()`
+* **Action execution** for writes with transaction preparation, signing, and submission
+* Full XDR support for struct encoding and batch operations
+
+This allows developers to integrate complex vesting, airdrops, or TGE logic without building custom tooling.
+
+![Image](https://framerusercontent.com/images/n6SW2kShdEzcY1CuTBGR4Xv1TH0.png?width=1357&height=95)
+
+## Technical Advantages of TokenOps on Stellar
+
+1. **Performance & Cost Predictability** - 3–5 second finality, fixed BASE_FEE, no gas estimation.
+2. **Full Automation** - Real-time vesting tracking, batch airdrops, and TGEs.
+3. **Backend-Enhanced Reliability** - Stores critical contract and wallet mappings beyond event limitations.
+4. **Investor Transparency** - Audit-ready reporting and treasury oversight for all token operations.
+5. **Security Features** - Auto-expiring approvals, transaction simulation, and configurable timeouts reduce operational risk.
+
+## Looking Ahead: Scaling Token Economies with TokenOps on Stellar
+
+TokenOps enables projects to **scale token operations on Stellar** while ensuring full transparency, reliability, and compliance. From **airdrops and vesting to TGEs**, TokenOps provides the technical infrastructure to manage complex token lifecycles efficiently. With real-time tracking, batch execution, and audit-ready reporting, projects can automate token distribution, monitor treasury activity, and maintain investor trust—all while leveraging Stellar's fast, low-cost network.
+
+### About TokenOps
+
+TokenOps is the leading platform for **automated token vesting, distribution, and treasury management**, helping Web3 protocols streamline operations, maintain compliance, and provide clear visibility to investors.
+
+### About Stellar
+
+Stellar is a decentralized Layer 1 blockchain delivering **fast, low-cost, and scalable infrastructure** for token operations. Its Soroban smart contracts offer a secure and programmable environment for **airdrops, vesting, and TGEs on Stellar**, enabling projects to execute token operations efficiently and reliably.
+
+🔗 Learn more at [TokenOps](https://www.tokenops.xyz/) and [Stellar](https://stellar.org/)
+
+## Contact Us
+
+Interested in learning more about TokenOps and how our solutions can help to manage and track your token distribution operations?
+
+* Schedule a Demo: [Book a personalized demonstration](https://calendly.com/fabio_mancini/) of our token distribution operations platform
+* Email: hello@tokenops.xyz
+* Visit: [tokenops.xyz](https://tokenops.xyz/)
+* Follow Us: Stay updated with our latest developments on [X](https://x.com/TokenOps_xyz) and [LinkedIn](https://www.linkedin.com/company/tokenops/)]]></content:encoded>
+      <guid isPermaLink="true">https://tokenops.xyz/resources/tokenops-x-stellar-technical-grade-automation-for-airdrops-vesting-and-tges</guid>
+    </item>
+    <item>
+      <title>TokenOps and Zyfi</title>
+      <link>https://tokenops.xyz/resources/tokenops-and-zyfi</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://framerusercontent.com/images/dOk9CxLRX1CLyJ1VOW39Z84nZ8E.png?width=1810&amp;height=1078" type="image/jpeg"/>
+      <content:encoded><![CDATA[# TokenOps and Zyfi
+
+**Feb 10, 2025**
+
+*A Partnership Driving Innovation in Token Management and Asset Oversight*
+
+![Banner](https://framerusercontent.com/images/dOk9CxLRX1CLyJ1VOW39Z84nZ8E.png?width=1810&height=1078)
+
+[TokenOps](https://docs.google.com/document/d/1aojKqz0CvP-l_ClNmqgZTjoz-pvjoBSCr5G2phd4Ql0/edit?tab=t.0#heading=h.888kvqddmfs) is delighted to congratulate [Zyfi](https://www.zyfi.org/) and its founder, Gauthier Vila, on the successful completion of their Token Generation Event (TGE). As a trailblazer in gas-free transactions within the Web3 ecosystem, Zyfi is redefining accessibility and scalability. TokenOps is proud to support Zyfi's mission by providing advanced tools for [token vesting](https://www.coinbase.com/learn/crypto-glossary/what-does-vesting-mean-in-crypto), **lifecycle management, and transparent asset oversight**.
+
+## Zyfi: Transforming Web3 with Gas-Free Transactions
+
+Zyfi is leading the charge in blockchain usability through its innovative **Paymaster-As-A-Service** model. By enabling gas-free transactions, Zyfi is removing barriers to adoption and delivering seamless experiences for both users and developers.
+
+### Key Features of Zyfi's Paymaster Service:
+
+- **Pay Gas with Any Token**: Offers flexibility by removing reliance on native tokens.
+- **Custom Gas Sponsorship Logic**: Enables tailored solutions for specific use cases.
+- **Third-Party Sponsorships**: Allows brands, NFT collections, and foundations to sponsor user transactions.
+
+With an **API-first approach**, Zyfi abstracts the complexities of gas payments, enabling protocols to focus on innovation and scalability.
+
+## Zyfis Milestones: Driving Web3 Adoption
+
+- **2.9M+ Transactions Processed**
+- **300K+ Users Onboarded** on **zkSync**
+
+These achievements highlight Zyfis dedication to improving user experiences and accelerating mainstream adoption in decentralized ecosystems.
+
+"Zyfis commitment to making blockchain UX more accessible with their paymaster is very inspiring," said Fabio Mancini, Founder and CEO of TokenOps. "We are honored to play a role in supporting their journey by streamlining their token management processes and enabling greater transparency."
+
+## How TokenOps Supports Zyfis Mission
+
+TokenOps equips Zyfi with tools designed to simplify and enhance token lifecycle management, ensuring operational efficiency and transparency.
+
+### 1. Transparent Token [Cap Table](https://carta.com/learn/startups/equity-management/cap-table/)
+
+- Simplifies tracking of vesting contracts, token streams, and schedules through a unified dashboard.
+
+### 2. Automated Lifecycle Management
+
+- **Vesting Automation**: Streamlines setup and execution of vesting schedules with no coding expertise required.
+- **On-Chain Deployment**: Compatible with wallets and multisig solutions for smooth operations.
+- **Flexible Adjustments**: Allows businesses to modify or pause vesting contracts as needed.
+
+### 3. Advanced Data Insights
+
+- Provides tagging features for better organization and tracking of tokens.
+- Facilitates data exports and integration with accounting and reporting tools.
+
+"The vesting platform has helped us bring more transparency and efficiency to our operations, allowing us to stay focused on building innovative solutions for the Web3 space" said Gauthier Vila, Founder of Zyfi.
+
+## Shaping the Future of Web3 Token Management
+
+The partnership between TokenOps and Zyfi reflects a shared commitment to simplifying token operations and fostering innovation in the Web3 ecosystem. With its focus on automation, transparency, and actionable insights, TokenOps empowers projects like Zyfi to thrive in an ever-evolving [blockchain](https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain) landscape.
+
+"Our partnership with Zyfi underscores the importance of combining innovation with operational efficiency," added Mancini. "We are excited to see how Zyfis pioneering solutions will shape the future of [Web3](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-web3) and are grateful to support their journey."
+
+## About TokenOps
+
+TokenOps provides powerful tools to streamline [token distribution](https://tokenomics-learning.com/en/token-allocation/) and lifecycle management, enabling businesses to enhance transparency and efficiency in blockchain operations.
+
+## About Zyfi
+
+Zyfi is a leader in gas-free transaction technology, delivering accessible and scalable solutions for developers and users through its innovative Paymaster-As-A-Service model.
+
+Find more information, visit [TokenOps](https://docs.google.com/document/d/1aojKqz0CvP-l_ClNmqgZTjoz-pvjoBSCr5G2phd4Ql0/edit?tab=t.0#heading=h.888kvqddmfs) and [Zyfi](https://www.zyfi.org/).
+
+[Contact us](https://calendly.com/fabio_mancini/) to explore our solutions today!]]></content:encoded>
+      <guid isPermaLink="true">https://tokenops.xyz/resources/tokenops-and-zyfi</guid>
+    </item>
+  </channel>
+</rss>

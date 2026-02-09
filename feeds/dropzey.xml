@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dropzey - Stellar Ecosystem</title>
+    <link>https://dropzey.com</link>
+    <description>Latest articles about Dropzey in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/dropzey.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why We Built Dropzey — Fixing Airdrops for Everyone</title>
+      <link>https://medium.com/@dropzeyofficial/why-we-built-dropzey-fixing-airdrops-for-everyone-26dd005c9679</link>
+      <pubDate>Sat, 10 May 2025 10:42:14 GMT</pubDate>
+      <author>Dropzey</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*cZbEXsAJINntSaW_M075PQ.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Why We Built Dropzey — Fixing Airdrops for Everyone
+
+![Image](https://cdn-images-1.medium.com/max/1024/1*cZbEXsAJINntSaW_M075PQ.png)
+
+Let’s be honest, Airdrops are usually a mess.
+
+If you’ve ever tried running one, you probably know how hard it is. You ask people to follow you on social media, share your links, join your Telegram… and then you have to figure out who actually did what.
+
+And after all that? You still have to send tokens one by one.
+
+It’s painful. It’s time-consuming. And most of the time, people don’t trust the process.
+
+That’s why we built **Dropzey**.
+
+### So, what is Dropzey?
+
+Dropzey is a simple tool that helps projects run airdrops in a smarter, more trusted way — using the **Stellar blockchain** and its **Soroban smart contracts**.
+
+That means the entire process is automated and transparent.
+
+### What problems are we solving?
+
+Let’s break it down.
+
+If you’re an **Airdrop Creator**, Dropzey helps you:
+
+✅ Check if people followed your Telegram, Discord, or YouTube  
+✅ Automatically send tokens only to the people who completed all steps  
+✅ Choose who can join (like only people from certain countries or interests)
+
+If you’re someone joining an airdrop, it helps you:
+
+✅ Know exactly what steps to complete  
+✅ Trust that you’ll get your tokens  
+✅ Avoid scams or fake promises
+
+### And why Stellar?
+
+Good question.
+
+We chose Stellar because it’s:
+
+⚡ **Super fast** — transactions settle in about 5 seconds  
+💸 **Super cheap** — transaction fees are almost nothing  
+✅ **Well-supported** — Dropzey is officially backed by the Stellar Community Fund (SCF)
+
+[https://communityfund.stellar.org/dashboard/submissions/recERxnKE8etaSrMs](https://communityfund.stellar.org/dashboard/submissions/recERxnKE8etaSrMs)
+
+That support helped us build the core features — and we’re just getting started.
+
+### What’s happening now?
+
+Our **presale is live until June 30**. That means you can grab $DROPZ tokens early — the token that powers everything in Dropzey.
+
+This isn’t a “maybe we’ll build something” type of token.
+
+We’re already building. The product works.  
+We’ve got real progress, not just promises.
+
+🛒 **Buy on Scopuly**:  
+[https://scopuly.com/trade/DROPZ-XLM/GAQ3GDB75NTR26JKXTR2QVLMHCPY5DGJ7C7USD3XTKAUYA7J4P2YT3K4/native](https://scopuly.com/trade/DROPZ-XLM/GAQ3GDB75NTR26JKXTR2QVLMHCPY5DGJ7C7USD3XTKAUYA7J4P2YT3K4/native)
+
+🛒 **Buy on Lobstr**:  
+[https://lobstr.co/trade/DROPZ:GAQ3GDB75NTR26JKXTR2QVLMHCPY5DGJ7C7USD3XTKAUYA7J4P2YT3K4](https://lobstr.co/trade/DROPZ:GAQ3GDB75NTR26JKXTR2QVLMHCPY5DGJ7C7USD3XTKAUYA7J4P2YT3K4)
+
+### Why it matters
+
+Airdrops are one of the best ways to grow a Web3 project. But doing it the wrong way just loses trust.
+
+With Dropzey, we’re making airdrops clean, fair, and easy.
+
+If you’re a project or a community builder — or just like being early to something real — now’s your chance.
+
+Because the best time to join is **before** the hype starts.
+
+Let’s build this the right way.]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@dropzeyofficial/why-we-built-dropzey-fixing-airdrops-for-everyone-26dd005c9679</guid>
+    </item>
+    <item>
+      <title>Innovating Airdrops: How Dropzey Empowers Creators and Participants</title>
+      <link>https://medium.com/@dropzeyofficial/innovating-airdrops-how-dropzey-empowers-creators-and-participants-eccfbb73b05f</link>
+      <pubDate>Tue, 20 Feb 2024 19:07:50 GMT</pubDate>
+      <author>Dropzey</author>
+      <enclosure url="https://cdn-images-1.medium.com/max/1024/1*-z-jkceEeJmgSYcoKj8AvQ.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Innovating Airdrops: How Dropzey Empowers Creators and Participants
+
+![](https://cdn-images-1.medium.com/max/1024/1*-z-jkceEeJmgSYcoKj8AvQ.png)
+
+Airdrops have long been a popular method for distributing tokens to engage with the crypto community. However, the process of organizing and participating in airdrops has often been plagued by inefficiencies, complexities, and trust issues. Enter Dropzey, an innovative platform that is transforming the airdrop landscape for both creators and participants. In this blog post, we’ll explore how Dropzey is addressing the challenges faced by airdrop creators and participants, revolutionizing the way airdrops are conducted.
+
+### Solving Problems for Airdrop Creators:
+
+#### Streamlined Airdrop Creation:
+
+Dropzey offers a user-friendly interface that simplifies the process of initiating and managing airdrop campaigns. With intuitive tools and automated features, creators can effortlessly set up and monitor their airdrops without technical expertise.
+
+#### Ensuring Eligibility and Verification:
+
+Dropzey leverages stringent verification mechanisms to ensure that only genuine individuals can participate in airdrops. By verifying phone numbers and linking social media accounts, creators can prevent fraudulent activities and build a community of verified users.
+
+#### Enhancing Token Utility and Transparency:
+
+Dropzey provides creators with the ability to showcase comprehensive project details, including social media profiles and websites. This transparency enables participants to assess the project’s credibility and value, fostering trust and increasing engagement.
+
+#### Automated Token Distribution:
+
+By integrating with Stellar and Soroban Smart Contracts, Dropzey automates the token distribution process, eliminating the need for manual distribution by creators. This streamlined approach reduces errors, delays, and operational costs, offering a seamless experience for participants.
+
+### Solving Problems for Airdrop Participants:
+
+#### Simplified Participation Process:
+
+With Dropzey, participants can easily discover and join airdrop campaigns through a centralized platform. The intuitive interface and clear eligibility criteria make it straightforward for users to engage with airdrops that align with their interests.
+
+#### Ensuring Fairness and Security:
+
+Dropzey’s verification mechanisms and transparent project information enable participants to trust the legitimacy of airdrop campaigns. By mitigating the risk of fraud and dishonest behavior, Dropzey fosters a secure environment for participants to engage confidently.
+
+#### Instant Reward Distribution:
+
+Upon meeting the requirements of an airdrop campaign, participants receive their rewards instantly from the reserve tokens wallet, thanks to Dropzey’s integration with Stellar and Soroban Smart Contracts. This ensures timely and efficient distribution of rewards, enhancing the user experience.
+
+![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=eccfbb73b05f)]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@dropzeyofficial/innovating-airdrops-how-dropzey-empowers-creators-and-participants-eccfbb73b05f</guid>
+    </item>
+    <item>
+      <title>Transforming Airdrops with Stellar Blockchain</title>
+      <link>https://medium.com/@dropzeyofficial/transforming-airdrops-with-stellar-blockchain-1d370652cac5</link>
+      <pubDate>Sat, 09 Dec 2023 18:21:50 GMT</pubDate>
+      <author>Dropzey</author>
+      <enclosure url="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=1d370652cac5" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Transforming Airdrops with Stellar Blockchain
+
+In the dynamic sphere of blockchain innovations, airdrops represent a compelling strategy to distribute tokens and engage crypto communities. Despite their potential, airdrops often grapple with complexities that impede their effectiveness. Enter Dropzey, an avant-garde platform poised to revolutionize the airdrop landscape, leveraging the robust Stellar blockchain.
+
+### Cracking the Airdrop Code
+
+Airdrops have long been recognized as an effective means to disseminate tokens and nurture community engagement. However, issues like eligibility verification, token utility, and seamless distribution have posed challenges for creators and participants alike.
+
+### Introducing Dropzey: Elevating Airdrop Experiences
+
+Dropzey arrives as a comprehensive solution, fusing the power of Stellar’s blockchain technology and Soroban’s smart contracts. With a vision to streamline airdrop processes, Dropzey brings a suite of features aimed at addressing these industry pain points.
+
+### Empowering Creators, Engaging Communities
+
+For creators, Dropzey heralds an era of simplified airdrop campaigns, automating verification processes and ensuring accurate token distribution. This translates to heightened project visibility and deeper engagement with a broader audience.
+
+### Unlocking Participant Benefits
+
+Participants, on the other hand, embark on a transparent and secure airdrop journey through Dropzey. With instant access to rewards upon meeting campaign criteria, trust and enthusiasm in the projects they support amplify significantly.
+
+### Embrace Dropzey: Pioneering Airdrop Evolution
+
+Dropzey stands as a catalyst reshaping conventional airdrop methodologies, delivering a seamless and rewarding experience for creators and participants alike. Dive into our platform, join the revolution, and witness the future of decentralized airdrops.
+
+### The Journey Ahead
+
+This is just the beginning for Dropzey. Keep abreast of our latest strides, success stories, and insights as we pave the way for a new paradigm in airdrop innovation.
+
+Visit our website to explore how Dropzey is reshaping airdrops and connect with us on social media for the latest updates. Step into the future of airdrops — welcome to Dropzey!]]></content:encoded>
+      <guid isPermaLink="true">https://medium.com/@dropzeyofficial/transforming-airdrops-with-stellar-blockchain-1d370652cac5</guid>
+    </item>
+  </channel>
+</rss>

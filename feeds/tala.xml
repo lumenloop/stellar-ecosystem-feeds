@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tala - Stellar Ecosystem</title>
+    <link>https://tala.co</link>
+    <description>Latest articles about Tala in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/tala.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How Stablecoins are Paving the Way for Global Financial Inclusion and Health</title>
+      <link>https://tala.co/blog/2025/04/17/stablecoins/</link>
+      <author>Ajay Rajani and Matt Gillham</author>
+      <enclosure url="https://tala.co/wp-content/uploads/2025/04/GL_Stablecoins_blog.png?w=1024" type="image/jpeg"/>
+      <content:encoded><![CDATA[**How Stablecoins are Paving the Way for Global Financial Inclusion and Health**
+
+> “Crypto is often associated with the global elite, but its greatest potential lies with the global majority.”
+
+*By Ajay Rajani and Matt Gillham*
+
+Our mission at Tala is to unleash the economic power of the Global Majority, and over the last 10 years, we have aimed to leverage best-in-class technology to meet the changing needs of our customers. Our tech stack started with Android technology and now includes AI and blockchain in pursuit of our mission.
+
+Last year, we launched the [Tala Crypto Wallet](https://tala.co/tala-crypto-announcement/) as a pilot program with Stellar's blockchain technology to test our hypothesis of stablecoins' benefits in emerging markets. After a successful start to this program, we wanted to share more about the efforts that led to this product and what the future holds.
+
+### Why Stablecoins
+
+As we started building our crypto wallet, we knew we wanted to focus on stablecoins because of their utility and benefits. Stablecoins are digital assets designed to maintain a stable value, usually by tying their price to a fiat currency like the U.S. dollar. They typically achieve this stability by maintaining a reserve of that same currency so the stablecoin can be redeemed 1:1 for the fiat equivalent. Because they are designed to maintain a consistent value, stablecoins are more suitable for transactions than volatile cryptocurrencies – particularly for our customers who have little margin for risk.
+
+Stablecoins also allow programmable and near-instant transactions – potentially across different fiat currencies – to occur 24/7, 365 days a year, without geographic restrictions and at a fraction of the cost of traditional financial institutions. This allows stablecoins to provide many of the benefits of blockchain technology, like speed, cost savings, and increased access, while limiting the drawbacks of price volatility. 
+
+While that might not sound like a revolutionary concept on the surface, the implications are substantial. This eliminates the need for many traditional intermediaries, like banks, which often charge high fees, take 2-3 days to process a single transaction, limit access to underserved populations, and are only open during specific time windows during the week – something people in emerging markets can't afford with both time and money.
+
+### Launching a Crypto Wallet
+
+When we examined what digital asset and blockchain technology could uniquely offer our customers, we focused on three areas: ***self-custody, reduced transaction costs***, and **interoperability.** 
+
+**Self-Custody**: One of our core principles at Tala is empowering individuals with financial autonomy through technology. Guided by that principle, we knew we wanted to give our customers complete control of their private keys through a self-custody (non-custodial) wallet to ensure the customer always retains ownership of his or her assets.
+
+However, one of the challenges of a non-custodial wallet is that it can be confusing and difficult to use, especially for someone new to digital currency. To solve this, we purposefully designed our wallet with a simplified user interface and built-in redundancies to provide recovery options for our customers in case a device is lost or stolen (something that is atypical with non-custodial wallets). Our goal is to keep the benefits of self-custody, while ensuring the wallet remains easy to use and understand.
+
+**Reducing Transaction Costs**: Historically, low-volume digital transactions involving small amounts of money have been cost-prohibitive, resulting in larger financial institutions avoiding offering such services – forcing individuals to deal in cash. With stablecoins and blockchain technology, transaction costs are significantly reduced and can now be viably facilitated digitally. This is especially true when it comes to cross-border payments and remittances. The potential benefits to financial inclusion are therefore substantial, as low-income individuals have access to digital finance and the digital economy, often for the first time.
+
+**Interoperability**: To ensure the product could scale to new markets and leverage new technology as the industry continues to evolve, we made interoperability a core focus. Interoperability not only allows our customers to access a stablecoin version of their local currency, but also convert it into other stablecoin currencies like the U.S. dollar (USDC) or the Euro (EURC). This is particularly useful for crossborder transactions, and individuals in emerging markets with highly volatile or devaluing currencies.
+
+### Bringing Blockchain to Latin America
+
+According to the World Bank Global Findex Database, Latin American countries have seen significant growth in individual ownership of an account at a bank or regulated institution such as a credit union, or a mobile money service provider. Despite this increase in account adoption, roughly half of Spanish-speaking South America – approximately 67 million adults – lack access to formal credit. We're addressing the region's unique financial challenges with an easy-to-use crypto wallet that provides access to affordable credit while enabling other useful digital wallet capabilities.
+
+Digital payments are a significant benefit of stablecoin and blockchain technology, but providing access to affordable credit is even more of a game-changer. The global majority uses short-term credit for a range of needs – from paying bills and school tuition to handling medical emergencies or starting businesses. So far, we're seeing customers use our crypto wallet to borrow and move money in and out of their accounts for day-to-day needs. They use stablecoins like any other currency in a digital wallet, but with the ability to access credit where they previously could not.
+
+Results from our pilot also show that many of our borrowers are micro-entrepreneurs using the capital we're originating on the blockchain to operate their small businesses. For those who transact primarily in cash, digital assets can also serve as a safer way to save and store money.
+
+### What's Ahead
+
+Crypto is often associated with the global elite, but its greatest potential lies with the global majority. As we continue to develop digital asset products in Latin America, we hope to bring them to other markets to expand global financial health and provide the underbanked with access to transformative technologies that have long been kept out of their reach.]]></content:encoded>
+      <guid isPermaLink="true">https://tala.co/blog/2025/04/17/stablecoins/</guid>
+    </item>
+  </channel>
+</rss>

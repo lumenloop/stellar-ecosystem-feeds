@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stables - Stellar Ecosystem</title>
+    <link>https://stables.money</link>
+    <description>Latest articles about Stables in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/stables.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Stables and Upside Join Forces with New Partnership</title>
+      <link>https://stables.money/blog/stables-and-upside-join-forces-with-new-partnership</link>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 GMT</pubDate>
+      <author>Ash Oddi</author>
+      <enclosure url="https://cdn.prod.website-files.com/647fe94790c0342077021665/654b0738cb00245ae80be66a_Header%20(4)%20(1).png" type="image/jpeg"/>
+      <content:encoded><![CDATA[In a strategic move by two rapidly growing Australian crypto companies, [Upside](https://www.upsidedao.com.au/) and [Stables](https://stables.money) are thrilled to announce their collaboration through an exciting new partnership that will deliver value to the Web3 community through education, events and content. It will also provide Stables an official home away from home in Melbourne at Upside HQ, with its primary office situated in Sydney.
+
+Stables is a digital wallet that allows users to spend, send and earn stablecoins, all on one balance. ​Founded in February 2021 and backed by leading global VCs, Stables has formed a stellar team in Australia and has recently expanded to the Philippines.
+
+They provide robust solutions to empower the Web3 business community operating and growing within the Upside ecosystem. Stables helps equip businesses within the DAO to manage their treasury efficiently, streamline payroll processes and facilitate fund transfers.
+
+*"At Stables, we want to help people debank themselves, making sending, spending and earning stablecoins even more seamless than using a traditional bank account. Since our launch in 2023, we've made enormous strides locally, with Australians loving their Stables Mastercards. We've also expanded internationally, opening off-ramps into Philippine Pesos and will be in even more markets by the year's end,"* said Erez Rachamim, CEO at Stables.
+
+*"Solidifying this partnership with Upside represents our continued support within the Australian crypto space - and it's the perfect time for both companies to cement this relationship as we grow into 2024,"* he continued.
+
+Upside is an Australian crypto hub located in Melbourne and a dedicated Web3 fund backed by Australian founders and builders to help shape the next iteration of the internet. Upside HQ is a melting pot for Web3 talent and startups. It also calls itself home to representatives from crypto companies such as Apollo Crypto, Fireblocks, Illuvium, Collective Shift, and now - Stables.
+
+*"We hit it off with the team at Stables a few months ago to bring together a high-energy evening and have been exploring ways to work together on a more permanent basis. Both of our organisations are very different, but we share the same commitment to champion the Australian Web3 scene and drive crypto adoption,"* said Greg Oakford, Head of Growth and Partnerships at Upside.
+
+*"Stables is a great product. I've used it myself and know so many others who enjoy using a crypto app in everyday life. It certainly flies in the face of the commentary around crypto not having enough real-world use cases. Over the coming months, we'll be delivering more high-quality events in conjunction with Stables and producing content to educate people on all things Web3 further, and with a recent shift in sentiment, there's no better time to get on the front foot."*
+
+To learn more:
+
+Stables: [https://stables.money](https://stables.money)
+
+Upside: [upsidedao.com.au](http://upsidedao.com.au)]]></content:encoded>
+      <guid isPermaLink="true">https://stables.money/blog/stables-and-upside-join-forces-with-new-partnership</guid>
+    </item>
+    <item>
+      <title>How Stablecoins Are Transforming Global Payments and Remittances</title>
+      <link>https://stables.money/blog/stablecoins-global-payments-remittances</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+      <author>Liam Thomson</author>
+      <enclosure url="https://cdn.prod.website-files.com/647fe94790c0342077021665/64f82c65aa4a07bb1ae44dc3_Thumbanil.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# How Stablecoins Are Transforming Global Payments and Remittances
+
+Traditional banking systems have struggled to keep pace with the ever-evolving demands of our globalised world. As individuals, companies and countries transition to accept and adopt digital currencies, stablecoins have emerged as a game-changer.
+
+Have you ever wondered how to send money across borders faster, cheaper, and more securely? Stablecoins provide practical solutions to the long-standing problems of high fees, sluggish transaction times, and limited accessibility in international payments and remittances.
+
+## What are Stablecoins?
+
+To understand how stablecoins are changing the landscape of global payments, it helps to know what they are and how they work.
+
+Stablecoins are a type of cryptocurrency designed to maintain a stable value by maintaining a “peg” with a reserve asset, typically a fiat currency like the US dollar. This stability is achieved through mechanisms such as collateralisation (think money in a bank account) or holding government treasuries.
+
+Stablecoins like USD Coin (USDC) and USDT (Tether) owe their existence to reputable issuers who play a critical role in ensuring the stability and reliability of these digital assets.
+
+If you want to know more about stablecoins, check out our [blog post](https://stables.money/blog/what-is-a-stablecoin) for more info.
+
+### What is USDC?
+
+USDC is issued by Centre, partially owned by cryptocurrency exchange Coinbase. USDC maintains a peg to the US dollar and is available across multiple blockchains, including Ethereum, Algorand, Solana, **Stellar**, and TRON, making it versatile.
+
+### What is USDT?
+
+USDT, issued by Tether, also aims to maintain its value close to that of the US dollar. USDT is available across an extensive list of blockchains, including Bitcoin, Ethereum, EOS, Tron, Algorand, and the OMG Network, highlighting its importance in facilitating quick transfers and hedging against crypto volatility.
+
+## How can stablecoins be used in global payments and remittances?
+
+There are many advantages of stablecoins over traditional methods of payments, including:
+
+1. **Low Transaction Fees**: Traditional cross-border transactions often come with exorbitant fees charged by banks and intermediaries. Stablecoins eliminate these intermediaries as the transaction is completed over a blockchain - resulting in significantly cheaper transaction costs.
+2. **Fast Cross-Border Transactions**: Conventional international transfers can take several days or even weeks to clear. With stablecoins, transactions are executed within seconds, irrespective of geographical boundaries, making them an ideal choice for time-sensitive payments and remittances.
+3. **Reduced Exchange Rate Risk**: Stablecoins are designed to maintain a steady value, shielding users from the volatility associated with cryptocurrencies like Bitcoin or Ethereum, or even local currencies that may experience inflation. This means recipients get the expected amount of value, without worrying about currency fluctuations.
+4. **Enhanced Security**: The blockchain technology underpinning stablecoins ensures transparency and security in every transaction. This reduces the risk of fraud and ensures that payments and remittances reach their intended recipients.
+5. **24/7 Availability**: Unlike traditional banks, stablecoins operate 24 hours a day, 365 days a year. This means you can send or receive money anytime without being constrained by banking hours or holidays.
+
+![Header image](https://cdn.prod.website-files.com/647fe94790c0342077021665/66b9c85a8630b32c3bd142e3_64f82d3cc0bf005c90d90a93_Header.png)
+
+## What are the top stablecoins?
+
+Several stablecoins have gained prominence in the world of international transactions. The top stablecoins by market capitalisation are:
+
+* USDC (issued by [Circle](https://www.circle.com/en/usdc))
+* USDT (issued by [Tether](https://tether.to/))
+* DAI (issued by the [MakerDAO Protocol](https://makerdao.com/en/))
+* TUSD (issued by [TrustToken](https://tusd.io/))
+
+These stablecoins each offer unique features and benefits, catering to different user preferences and needs.
+
+## Are there non-USD stablecoins?
+
+[Euro Coin](https://www.circle.com/en/euro-coin) (EUROC) is a recent addition to the stablecoin market, diversifying the currencies available. Like USDC, Euro Coin is issued by Circle and is backed by Euro reserves, offering users confidence in its stability.
+
+Its compatibility with the Ethereum and Avalanche blockchains enhances its accessibility and usability for international transactions and remittances, opening up the potential for a multi-currency digital finance ecosystem.
+
+As more stablecoins like Euro Coin enter the market, users can expect increased diversity and innovation in stable digital assets, further transforming the industry.
+
+## Could national currencies become stablecoins?
+
+Imagine a future where an increasing number of nations decide to issue their currencies as stablecoins, much like the USDT, USDC and EUROC. This scenario would likely have several profound implications for the world of finance and global transactions:
+
+* **Greater Accessibility and Inclusivity**: Stablecoin national currencies would empower individuals in underserved regions to participate in the global economy.
+* **Increased Efficiency in International Trade**: International trade could benefit, with businesses benefiting from faster settlement times, reduced currency conversion costs, and enhanced liquidity.
+* **Interoperability and Standardisation**: The emergence of stablecoin national currencies would catalyse the development of industry-wide standards and protocols for cross-chain and cross-currency transactions. This standardisation would simplify and streamline global finance, promoting interoperability among diverse blockchain networks.
+
+In fact, this is currently happening - with many reserve banks and governments around the globe exploring the use of local currencies on blockchains as Central Bank Digital Currencies, or CBDCs.
+
+CBDCs could give rise to new economic models and financial instruments, potentially reshaping the global financial landscape. More countries' adoption of stablecoin national currencies represents a fascinating and potentially transformative future for international finance.
+
+While it offers numerous benefits regarding accessibility, efficiency, and stability, it also poses challenges requiring careful regulation and oversight.
+
+## What's next for stablecoins?
+
+Stablecoins are rapidly reshaping the way we conduct international payments and remittances. They offer a reliable, cost-effective, and efficient alternative to traditional banking systems. As we move into the digital age, embracing stablecoins can unlock a world of possibilities for individuals and businesses alike, enabling seamless global transactions and financial inclusion on a scale never seen before.
+
+## Get started with Stables
+
+[Download the Stables app now](https://link.stables.money/goto/home?utm_source=blog&utm_medium=learn) - it's time to embrace the stablecoin revolution!]]></content:encoded>
+      <guid isPermaLink="true">https://stables.money/blog/stablecoins-global-payments-remittances</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soundness - Stellar Ecosystem</title>
+    <link>https://soundness.xyz</link>
+    <description>Latest articles about Soundness in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/soundness.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PQ-Chain: Before the locks fail, build the fence!</title>
+      <link>https://x.com/SoundnessLabs/article/2018651694821769341</link>
+      <pubDate>Tue, 03 Feb 2026 11:44:03 GMT</pubDate>
+      <author>@SoundnessLabs</author>
+      <enclosure url="https://pbs.twimg.com/media/HALuEJdWsAAAbiw.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[Quantum-safe. No forks. No address changes.
+
+Soundness Labs in collaboration with @Mysten_Labs team has developed **PQ-Chain**: a backward-compatible upgrade path that adds quantum resistance to EdDSA-chains (Solana, Sui, **Stellar**, Aptos and more) without requiring hard forks or address changes. The approach uses a hidden quantum-resistant anchor already present in every EdDSA keypair, the original seed, and uses PQ-NIZK proofs to prove ownership at the transaction level and account level. This provides immediate protection while chains migrate to native post-quantum signatures. Let's break down how it works.
+
+Imagine a city that each house in uses a well-designed lock. It has protected homes for decades. Ordinary thieves cannot break it, and the city has grown comfortable relying on it.
+Now imagine the city finds something unsettling: in the future, a new kind of gang will exist. They will not pick locks. They will simply open them.
+
+### This is the Quantum threat
+
+For blockchains, this is not science fiction. Large-scale quantum computers would be able to get classical signing keys from public keys. Once that happens, signatures that once meant “only the owner could have signed this” quietly lose that meaning.
+
+The obvious response is to replace every lock. Stronger locks, post-quantum locks, brand-new cryptography everywhere. In blockchain terms, that means new signature schemes, new public-keys, new addresses, migrations, hard forks, trusted upgrade paths, and users being asked to move their funds before some invisible deadline. Indeed, almost impossible to change locks door-by-door!
+
+### This is expensive, fragile, and socially dangerous. It assumes perfect coordination. It assumes the migration tools (lock changers) are honest. It assumes users do not make mistakes, while history suggests otherwise.
+
+## But there is another approach
+
+Instead of replacing every lock, the city can build a strong fence around itself and protect it with a gate. The fence does not care how good or bad the old locks are. It only checks something deeper: whether the person trying to enter can prove they are a real citizen, using a secret that only they possess.
+The crucial detail is that the fence still works with the same keys people already have. No door replacement. No locksmith monopoly and citizens protect themselves (all operation happen client-side). This is the intuition behind PQ-Chain.
+
+### The reason this works is hidden in a detail of EdDSA that is easy to overlook. In this case, a quantum adversary may be able to recover the signing key from the public key. But they still cannot reverse a cryptographic hash function to recover the original seed. Hash functions are believed to remain secure even against quantum attackers, aside from modest quadratic speedups.
+That means every EdDSA user already has a hidden, quantum-resistant anchor. They just have no way to use it today, while PQChain enables this for them.
+
+## PQ-Chain is about activating this anchor
+
+Instead of asking users to abandon their addresses or move funds, PQ-Chain allows them to prove, using post-quantum non-interactive zero-knowledge proofs, that they know the original EdDSA seed corresponding to an existing on-chain public key. The seed itself is never revealed. The address does not change. Ownership is demonstrated, not transferred.
+Crucially, this opt-in happens at the transactional level. There is no mass migration event. No trusted upgrader. No forced deadline. Each user can protect themselves, in self-custody, using cryptography alone.
+The analogy holds: the locks are still on the doors, but the city gate now checks something stronger.
+
+Post-quantum NIZKs play a key role here. They allow the chain to verify knowledge of the seed without learning anything about it. This is not a new signature scheme replacing EdDSA. It is a cryptographic shield layered around it, using battle-tested tools in a new configuration.
+From the outside, nothing breaks. Addresses remain valid. Transaction formats remain familiar. Applications do not need to rewrite their entire logic. The upgrade is structural, not cosmetic.
+
+This matters because quantum risk is not a switch that flips overnight. It is a long, uncertain slope. Systems that require everyone to jump at once tend to fail socially before they fail cryptographically. Systems that allow gradual, voluntary hardening tend to survive.
+
+## How It Works In Practice?
+
+When a user wants to send a quantum-protected transaction:
+
+**Proof Generation (off-chain):** Using their EdDSA seed s, they generate a zkSNARK proof π demonstrating knowledge of s corresponding to their on-chain public key pk.
+
+**Dual Verification (on-chain):** The chain verifies both:
+- The traditional EdDSA signature (for backward compatibility)
+- The zkSNARK proof π (for quantum resistance)
+Only if both pass does the transaction execute.
+
+**Gradual Adoption:** Transactions without zkSNARK proofs still work normally. Users opt into quantum protection transaction-by-transaction, with no forced migration.
+
+**The Long-Term Vision:** Transaction-level protection is immediate defense. The ultimate goal is account-level migration, once chains adopt approved post-quantum signatures (Falcon, Sphincs+), users can migrate their entire account using their proven seed ownership, no trusted migration tool required and all current addresses will be mapped to new pq-pk.
+Our goal is clear: the seed-based proof creates a quantum-resistant root of trust across chains. Prove ownership of your EdDSA seed once, control accounts on Solana, Sui, and **Stellar** simultaneously. This enables interoperable cross-chain identity that survives the quantum transition, unified accounts, not isolated addresses.
+
+## Back to the city
+
+The quantum gang can open doors. They can impersonate locks. They can cause havoc inside individual houses. But they still cannot pass the fence, because the fence does not trust the lock. It trusts something deeper that never left the owner’s hands.
+
+PQ-Chain is not claiming to magically solve post-quantum cryptography overnight. It does not replace the need for fully post-quantum signature schemes in the long run. What it does is buy time safely, without breaking the world we already rely on. Backward compatibility is often framed as a constraint. Here, it is the advantage.
+EdDSA-based chains already contain a quantum-resistant root of trust. PQ-Chain is about recognizing it, formalizing it, and using it, before the locks stop being locks. PQ-Chain is currently ready to use on all ed-chains @CantonNetwork, @solana, @SuiNetwork, @StellarOrg, @Aptos, @Polkadot, @Cardano_CF and more. Find more details here: 
+
+[Soundness.xyz](https://soundness.xyz)]]></content:encoded>
+      <guid isPermaLink="true">https://x.com/SoundnessLabs/article/2018651694821769341</guid>
+    </item>
+  </channel>
+</rss>
