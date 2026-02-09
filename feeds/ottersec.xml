@@ -4,7 +4,7 @@
     <title>OtterSec - Stellar Ecosystem</title>
     <link>https://osec.io</link>
     <description>Latest articles about OtterSec in the Stellar ecosystem</description>
-    <lastBuildDate>Mon, 09 Feb 2026 04:25:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/ottersec.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>How We Broke Exchanges: A Deep Dive Into Authentication And Client-Side Bugs</title>

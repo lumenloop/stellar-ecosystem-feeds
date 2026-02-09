@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Templar Protocol - Stellar Ecosystem</title>
+    <link>https://templarfi.org</link>
+    <description>Latest articles about Templar Protocol in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/templar-protocol.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Templar Protocol Launches on the Stellar Network Unlocking Multichain XLM and RWA Lending</title>
+      <link>https://templarfi.org/blog/stellar</link>
+      <enclosure url="https://a-us.storyblok.com/f/1023197/1233x500/bc4ac81b4e/templar-stellar-cropped-2.jpeg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Templar Protocol Launches on the Stellar Network Unlocking Multichain XLM and RWA Lending
+
+## Seamless Lending for Stellar Users
+
+Templar, the first Cypher Lending Protocol, is excited to launch on the Stellar network. Users can now deposit XLM to borrow stablecoins on Stellar, Ethereum, and more, using only a Stellar wallet. Using chain abstraction technology, Templar eliminates the need for multiple wallets, ensuring a smooth user experience. This integration provides borrow/lend utility to Stellar assets while adding high-quality collateral assets to Templar.
+
+## Chain Abstraction Powered by NEAR
+
+Templar abstracts blockchains using NEAR's multi-party computation (MPC) network and Chain Signatures. This allows users to deposit any supported Stellar asset directly from their wallet without wrapped tokens or bridging. Borrowers will be able to access stablecoins like USDC on Stellar, Ethereum, Solana, NEAR and more, with all cross-chain complexities abstracted away. This enables seamless liquidity flow across networks.
+
+## Expanding Stellar's RWA Potential
+
+This integration marks the start of a long-term collaboration between Templar and Stellar focused on tokenized real-world assets (RWAs) and beyond. Stellar has established itself as a leader in the RWA space, exemplified by tokenized assets like Franklin Templeton's onchain U.S. Government Money Fund (Benji). Recent announcements further reinforce this position, including Centrifuge's $20 million deRWA deployment, Mercado Bitcoin's $200 million tokenization program, PayPal's PYUSD launch, and Ondo's USDY on the network. 
+
+Templar looks forward to building on this momentum, adding Benji as a borrowing option and exploring additional assets from innovative RWA teams like [Centrifuge](https://centrifuge.io/). This unlocks liquidity for tokenized assets on Stellar in a trustless DeFi environment, reinforcing the network's position as the RWA hub, and expanding the selection of assets available on Templar Protocol. This is an important step towards realizing Templar's vision to allow anyone to permissionlessly borrow against any asset on any chain.]]></content:encoded>
+      <guid isPermaLink="true">https://templarfi.org/blog/stellar</guid>
+    </item>
+    <item>
+      <title>Roadmap | Templar</title>
+      <link>https://templarfi.org/blog/roadmap</link>
+      <enclosure url="https://a-us.storyblok.com/f/1023197/531x542/79e08542c6/photo_2025-04-15_15-06-09.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Roadmap
+
+## Cypher Lending for Bitcoin and Beyond
+
+Templar is the first Cypher Lending protocol enabling users to borrow against Bitcoin without relying on centralized intermediaries. Templar is redefining Bitcoin utility through a trust-minimized, privacy-first, and chain-agnostic lending platform. The roadmap below outlines our path to realizing our vision at scale.
+
+### Q2 2025
+
+**Laying the Foundation**
+
+In Q2 2025, Templar's journey began with a new website and deployment on Testnet. Our gated Mainnet Beta launched at BTC 2025 in May.
+
+**Chain Support:**
+* Bitcoin (BTC)
+* Ethereum (ETH + ERC20)
+* NEAR assets
+
+**Product Milestones:**
+* Launch of open Templar Testnet & gated Beta Mainnet.
+* Frontend V1 released
+* Completion of audits in preparation for Mainnet launch.
+
+**Privacy Features:**
+* No Personal information collection
+* UX groundwork for future privacy tooling
+
+**Ecosystem:**
+* Early fund and wallet partners onboarded
+* Early TVL commitments secured
+
+### Q3 2025
+
+**Full Mainnet Release**
+
+With the public Mainnet release planned for Q3 2025, Templar expands chain support, enhances wallet compatibility, and will publish complete protocol documentation. This quarter is about expanding accessibility.
+
+**Chain Support:**
+* ZCash (ZEC)
+* Stellar (XLM)
+* Solana (SOL + SPL)
+* Cardano (ADA)
+
+**Product Milestones:**
+* Support for flexible market parameters: rate curves, loan durations, origination fees, etc.
+* Additional wallet integrations: Compatibility with the leading wallets for BTC, ETH, SOL, and NEAR.
+* Complete public documentation
+
+**Privacy Features:**
+* Launch private lending support via ZCash (ZEC)
+
+### Q4 2025
+
+**More Chains, Vaults, Chain Abstraction & Privacy**
+
+Templar expands to many more blockchains, adds support for custom DeFi vault strategies with curators and abstracts lending across chains. With wallet-less onboarding and more privacy primitives, users gain greater control over how and where they borrow.
+
+**Chain Support:**
+* XRP
+* SUI
+* Litecoin (LTC)
+* Arbitrum (ARB)
+* BASE
+* Dogecoin (DOGE)
+
+**Product Milestones:**
+* Launch of curated vaults (inspired by Metamorpho)
+* Sponsored gas transactions for seamless onboarding
+* Templar JS SDK for streamlined developer integrations to other Dapps
+* Partial liquidations supported for better UX
+* Chain abstracted markets (borrow stables on any chain)
+
+**Privacy Features:**
+* Wallet-less usage (opt-out of address reuse)
+* Differential privacy to obfuscate liquidation triggers
+
+### 2026 (Q1–Q4)
+
+**Scaling Templar**
+
+In 2026, Templar will solidify its leadership in Bitcoin DeFi, scaling rapidly to power the growing onchain economy. The protocol will expand across new networks, integrate with DeFi yield primitives, and introduce advanced privacy architecture. These features will allow Templar to be the DeFi Lending Backend powering loans for any asset on any chain as the global financial system moves onchain.
+
+**Chain Support:**
+* Binance Smart Chain (BNB)
+* Polkadot (DOT)
+* Hyperliquid (HYPE)
+* Tron (TRX)
+* Telegram Chain (TON)
+* Stacks (STX)
+* Polygon (POL)
+* Berachain (BERA)
+* Avalanche (AVAX)
+* Aptos (APT)
+* MegaETH, Monad (pending mainnet)
+* Additional Bitcoin & Ethereum L2s
+
+**Product Milestones:**
+* Adapters to integrate external lending protocols
+* Fixed interest rate loan support - catering to traditional finance norms.
+* Yield Token and Positional Token integration
+* Enable yield accrual on collateral
+
+**Privacy Features:**
+* Shielded Assets via ZCash technology
+* Onchain Cash Markets
+* Zero-Knowledge Smart Contracts
+
+**Ecosystem:**
+* Partnering with institutional custody providers, miners, and liquidity desks
+* Public API for integrations
+
+### Templar's Vision
+
+**Cypher Lending for any asset on any chain**
+
+At scale, Templar allows anyone to borrow against any asset on any chain while preserving censorship resistance, security, and privacy. Through multi-party computation (MPC), we eliminate centralized custodians, while our chain-agnostic design enables seamless liquidity without bridges or wrapped assets. Modular vaults serve diverse lending needs, and our open-source, audited, immutable contracts maximize user trust. Privacy is fundamental—from wallet-less usage to shielded asset integration—embodying the cypherpunk ethos. Templar isn't just about borrowing Bitcoin; it's about giving users full financial sovereignty across assets and chains.
+
+The future of DeFi is here. Join the Cypher Lending Revolution.
+
+### Connect With Us
+
+Follow our journey on X at [@TemplarProtocol](https://x.com/TemplarProtocol)]]></content:encoded>
+      <guid isPermaLink="true">https://templarfi.org/blog/roadmap</guid>
+    </item>
+  </channel>
+</rss>

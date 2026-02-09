@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stellar Development Foundation - Stellar Ecosystem</title>
+    <link>https://stellar.org</link>
+    <description>Latest articles about Stellar Development Foundation in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/stellar-development-foundation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The interoperability imperative: how traditional payment networks and open protocols will (finally) work together</title>
+      <link>https://stellar.org/blog/foundation-news/the-interoperability-imperative-how-traditional-payment-networks-and-open-protocols-will-finally-work-together</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Denelle Dixon</author>
+      <enclosure url="https://cdn.sanity.io/images/e2r40yh6/production-i18n/f88d4049ad81d6569195599778fdef972259bf80-2048x1536.png?rect=0,192,2048,1153&amp;w=1224&amp;h=689&amp;auto=format" type="image/jpeg"/>
+      <content:encoded><![CDATA[# The interoperability imperative: how traditional payment networks and open protocols will (finally) work together
+
+**Foundation News**
+
+## The disruption narrative that wasn’t
+
+For over a decade, pundits have predicted that blockchain would kill legacy financial institutions. Some made it their mission. "Disrupt Swift." "Bypass the banks." "Make correspondent banking obsolete."
+
+The ideas were seductive. The logic seemed airtight. Faster, cheaper, trustless, borderless—how could legacy tech compete?
+
+But new technologies rarely obliterate what came before. Streaming didn't kill theaters. Mobile didn't kill desktop. The internet didn't end print.
+
+The reality is always messier, and more interesting. New systems force the evolution of older ones while carving out their own distinct purpose. That pattern is now playing out in global finance.
+
+This week at Davos, representatives from traditional payment networks and open blockchain protocols shared a stage—not to debate replacement, but to discuss coordination.
+
+The question isn't (and shouldn’t be) whether established payment systems or emerging protocols will "win." The question is how they will work together to serve a global economy that increasingly demands both institutional accountability and universal access.
+
+Consider the landscape: Swift connects more than 11,000 financial institutions across 200 countries. ACH processes billions of domestic transactions annually in the United States alone. Regional systems like SEPA in Europe and UPI in India serve hundreds of millions of users with remarkable efficiency.
+
+Meanwhile, open blockchain networks are quietly processing growing volumes of cross-border value transfer—often in corridors underserved by traditional rails.
+
+Each of these systems exists because it solves real problems for real users.
+
+The trillion-dollar question isn't which one prevails. It's how we build the bridges between them.
+
+## Two kinds of coordination
+
+At the most fundamental level, we're witnessing two different approaches to coordinating global value transfer: committee-based and code-based. Understanding both—their strengths and their limitations—is the strategic imperative of this decade.
+
+**Committee-based coordination** works through representation. Standards emerge through negotiation. Bilateral agreements. Working groups. Consensus-building across sovereign institutions.
+
+This is how Swift, ACH, SEPA, and others operate. Standards organizations, central banks, and correspondent banking networks have negotiated the rules over decades.
+
+The strengths are real: accountability, governance, legal certainty, dispute resolution.
+
+**Code-based coordination** works through execution. The protocol *is* the agreement. Compliance is computational, not contractual. Rules are encoded in software. Participation doesn't require negotiation.
+
+The strengths are different but equally real: speed, accessibility, predictability, permissionless innovation.
+
+For years, observers positioned these as competing visions. The blockchain industry, frankly, spent too much time talking about "disruption." That framing was always wrong.
+
+**Here's what's actually happening: code-based coordination is learning to encode the very properties that made committee-based coordination essential.**
+
+Accountability through on-chain records that no party can alter. Governance through protocol rules and foundation stewardship. Legal predictability through deterministic execution. Even dispute resolution—compliance-focused firms have built clawback functionality that satisfied regulatory requirements, encoded in protocol rather than negotiated in contracts.
+
+And now privacy. Financial institutions know what they need: balance obfuscation so competitors can't infer each other's positions, transfer obfuscation so transaction volumes stay confidential, and tools for regulators to maintain oversight.
+
+What's remarkable is that code can now help deliver all three simultaneously. That's convergence: compliant privacy solutions enabled by code.
+
+This isn't about one approach being "better." It's about recognizing that code-based coordination can increasingly deliver what committee-based systems provide while maintaining permissionless access that committees structurally cannot offer.
+
+## What traditional rails have built
+
+Let me be clear about what committee-based coordination has achieved.
+
+The coordination that an institution like Swift has built—connecting 11,000 institutions across more than 200 countries—didn't happen by accident. It represents decades of trust-building, standards development, and institutional alignment.
+
+The same is true for domestic systems. ACH moves trillions of dollars annually within the United States with remarkable reliability. It's faster than many people assume, and for domestic transactions, it works extraordinarily well.
+
+Regional systems like SEPA have transformed European payments. India's UPI has connected hundreds of millions of users who previously had limited access to formal payment systems.
+
+These successes matter. Each system solved specific coordination problems for specific markets. Western correspondent banking networks optimized for certain corridors. Regional systems optimized for others. Domestic systems serve their communities with deep integration into local banking infrastructure.
+
+Recent evolution signals recognition that the landscape is changing.
+
+Blockchain experiments—including successful multi-bank token transfer pilots—aren't defensive moves. They're a strategic acknowledgment that new coordination mechanisms matter.
+
+That's the posture of an institution thinking seriously about the future.
+
+Institutions that have built critical payment networks have a responsibility that extends beyond their current users. They're stewards of coordination mechanisms that billions depend on. That stewardship includes asking: how do we bridge to what comes next?
+
+## What open protocols enable
+
+In 2019, Franklin Templeton began building on open blockchain protocols—quietly. No partnership agreements. No vendor negotiations.
+
+By the time they announced their tokenized fund, they had years of private validation. That's what permissionless infrastructure enables: the freedom to experiment at the protocol layer without asking a central gatekeeper. The regulatory layer is a different matter—Franklin Templeton still needed every license and approval required to operate a fund. But they didn't need anyone's permission to start building.
+
+This pattern repeats across the industry. Standard Chartered building digital asset custody on open protocols. PayPal deploying stablecoins seeking guaranteed access that can't be revoked. MoneyGram implementing open standards once and gaining compatibility with dozens of wallet providers immediately.
+
+Why does this matter? Open protocols don't just reduce counterparty risk—they eliminate the counterparty entirely. When a network treats everyone the same by design, every participant can depend on it.
+
+That efficiency isn't available through committee-based coordination—not because committees are flawed, but because negotiated agreements inherently take time and create exclusivity.
+
+The structural point isn't about which approach is superior. It's about which approach serves which need.
+
+Institutional-grade privacy? Increasingly available through protocol.
+
+Accountability and governance? Built into well-designed open systems.
+
+Regulatory compliance? Firms are demonstrating that code can deliver what contracts traditionally required.
+
+Code can deliver what committees coordinate. Major institutions want access to both.
+
+## No single rail serves everyone
+
+Different rails serve different needs. That's not a bug in the system—it's a feature and the reflection of reality.
+
+The global economy isn't uniform. Corridors vary in liquidity, regulatory complexity, and institutional trust.
+
+For domestic payments in developed markets, existing rails often work remarkably well. Swift makes sense to continue to exist and to be successful in the areas where Swift excels. ACH serves its purpose. Regional systems optimize for their communities.
+
+**But the world has needs that no single system was designed to serve.**
+
+Remittance corridors where correspondent banking is expensive or unavailable. Markets where currency volatility makes traditional rails impractical. The emerging world of autonomous systems that execute transactions at machine speed—systems that can't pause for partnership agreements or wait for committee approval.
+
+The strategic question isn't whether to build bridges between coordination mechanisms. The bridges are being built regardless. The question is whether established institutions will participate in building them or watch from the sidelines while the architecture takes shape without their input.
+
+**In order for any new technology to really take root and take hold, it has to be better than the old one—at least for specific use cases.**
+
+Open protocols aren't better at everything. But they're increasingly better at specific things: permissionless access, instant finality, global availability. Traditional rails are better at others: institutional trust, regulatory relationships, deep banking integration.
+
+The winners won't be those who pick a side. They'll be those who recognize where coordination is converging and help build the connections.
+
+## Who builds what comes next?
+
+I spent my first months at the Stellar Development Foundation on Capitol Hill because I'd learned at Mozilla that engaging regulators early prevents the kind of hostile environment that stifles innovation.
+
+The same principle applies to incumbent institutions. The institutions that engage early with emerging coordination mechanisms—rather than waiting until market shifts force the question—will shape how bridging happens.
+
+We're not building competing networks. We're building coordination mechanisms for a world that needs both institutional accountability and permissionless access.
+
+Different transactions will use different rails, and that's exactly how it should be. Whichever rails make sense for a particular transaction should be chosen for that transaction.
+
+The sooner we stop treating this as a zero-sum competition, the sooner we can focus on what matters: moving value safely, efficiently, and accessibly across a connected world.
+
+Code-based coordination isn't here to replace what committees built. It's here to extend what's possible—to serve the users and corridors and use cases that existing systems weren't designed to reach.
+
+The invitation to every established institution isn't to compete with that future. It's to help build it.
+
+The coordination mechanisms of tomorrow will be built by those who show up today.]]></content:encoded>
+      <guid isPermaLink="true">https://stellar.org/blog/foundation-news/the-interoperability-imperative-how-traditional-payment-networks-and-open-protocols-will-finally-work-together</guid>
+    </item>
+    <item>
+      <title>Art 🤝 Smart Contracts: NFTs at Meridian 2025</title>
+      <link>https://stellar.org/blog/ecosystem/art-smart-contracts-nfts-at-meridian-2025</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Lindsay Poss</author>
+      <enclosure url="https://cdn.sanity.io/images/e2r40yh6/production-i18n/2ebf1f4d2085c9bd0160bb2b7186fcd047fa1ddb-4896x2756.png?w=1224&amp;h=689&amp;auto=format" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Art 🤝 Smart Contracts: NFTs at Meridian 2025
+
+Imagine walking into a conference and discovering you're not just an attendee, you're a collector, an explorer, and part of a living art experiment. At Meridian 2025, we turned that vision into reality, bringing together 24 artists from around the world to create 80 unique works of art over nine days. The result was an immersive experience that connected the physical and digital, through integrated art drops at sessions, collection points around the venue, and even a built in treasure hunt. We proved that blockchain is as much about building community as it is about building infrastructure.
+
+The Meridian NFT activation transformed the conference into an interactive experience where attendees scanned QR codes to collect proof-of-attendance tokens at sessions and a tap to collect process for hidden digital treasures throughout the venue. This was the first major showcase of smart wallet capabilities on Stellar, a meaningful collaboration with artists who've been building in this ecosystem for years, and a technical milestone that pushes the possibilities for smart wallet activations.
+
+## Smart Wallets Meet Real-World Experience
+
+At the heart of this activation was Meridian Pay, a smart wallet that made collecting NFTs as simple as scanning a code or tapping a card. QR codes at the end of each talk session and hidden throughout the venue allowed attendees to mint NFTs directly to their wallets, creating an immediate connection between showing up and owning a piece of the experience.
+
+What looked seamless on the surface required strong technical groundwork. This project marked the first major implementation of SEP-50, Stellar's new NFT standard by Open Zeppelin, in a real-world setting. SEP-50 brings NFT functionality in line with standards across other blockchain ecosystems, enabling richer metadata and more sophisticated smart contract interactions.
+
+The Freighter wallet team became the first Stellar wallet to implement full SEP-50 support in time for Meridian 2025. This meant attendees could collect NFTs during the event and then transfer them to Freighter in a few easy taps afterward, creating what we call a "flywheel of network activity," where one interaction leads naturally to the next, and users discover more of what the ecosystem can do.
+
+## Art That Travels: A Global Collaboration
+
+The technical infrastructure was half the story. The heart of this project was the art and the people who created it.
+
+This collaboration began where so many good things in crypto do: on Twitter. We connected with Brainfrog, a community-driven collective led by Dixie (known in the community as RockinFREEWorld). For years, Dixie has been one of those people who just makes things happen, whether it's onboarding newcomers, organizing fundraisers for charitable causes, or building a network of artists and creators who want to bring joy and creativity to web3.
+
+When we approached Brainfrog about Meridian 2025, they went above and beyond, and assembled 24 artists from around the world. Jesse Praiz shipped original paintings from Nigeria. Manson Keller sent work from Canada. The collection spanned styles, continents, and visions, all united by a connection to Stellar and a desire to show what's possible when art and technology work together. And all works corresponded to the theme of this year's Meridian, The Blueprint, to showcase what is possible when building on Stellar.
+
+A portion of the proceeds is supporting three causes the artists care about: the Baboon Sanctuary for wildlife preservation, the OvaryIt Foundation for women's safety and empowerment, and BlinkOASM scholarships for education in Pakistan. As is the Stellar way, real world impact played a huge part in this collaboration.
+
+## POAPs: The Engaging Digital Collectable
+
+Each piece of art had a unique function. For 70 of the pieces, they served as POAPs, or "Proof of Attendance," at each Meridian 2025 session. This became one of the most loved parts of Meridian.
+
+Each session on all three stages had a unique NFT assigned. A QR popped up for a few seconds at the end of the session. Attendees were literally waiting with their phones out at the end of each session so they didn't miss the NFT. It was always a surprise what they would get, but many of them were thematically tied to the session in some way.
+
+POAPs appeared in a gallery in their Meridian Pay wallet with details on the piece, artist, and corresponding session. People used this as a memento of their time at Meridian 2025. It was an easy way to look back on which sessions they attended.
+
+For the conference organizers, it gave us new data. We've never been able to track audience attendance or engagement at Meridian 2025. The number of NFTs claimed in each session (visible through on-chain data) was a good proxy to give us signal on which sessions were most popular and what resonated with attendees.
+
+## Blueprints for the Future
+
+We also introduced a special sub collection, Andrew Dixon's "Stellar Punks: The Blueprints." Andrew created 12 pieces: 10 hand-drawn architectural blueprints and 2 motion works that detail characters, ships, and settings for what could become Stellar's first on-chain comic universe.
+
+The pieces are technical plans, the kind an architect would draw, for a fictional world. It's a blueprint that could one day become a living, expanding story owned and shaped by the community. Andrew delivered the most direct expression of our conference theme: building the infrastructure for what comes next.
+
+Claims were limited to 50 people per piece, introducing an element of exclusivity. Attendees understood the mission, with some hustling around all corners of the venue to collect all 10. For those that put in the effort, they are the only people in the world that hold the blueprints to this comic universe.
+
+## What We Learned
+
+The Meridian 2025 NFT activation showed us that when technical infrastructure meets the creative community, magic happens. Smart wallets and modern NFT standards can create experiences that feel human, warm, and genuinely engaging.
+
+This project wouldn't have been possible without trust and partnership. Thank you to Dixie and the entire Brainfrog community for believing in this vision. Thank you to the Freighter team for building the wallet support we needed. Thank you to the Meridian Pay team that built the structure for NFT minting, claiming, display, and transfer. Thank you to our legal team for helping us navigate new territory safely. And thank you to every artist who contributed their work, their time, and their creativity to making Meridian 2025 more than just a conference.
+
+On Stellar, we're building culture, community, and connection. One scan, one NFT, one collaboration at a time.
+
+## Check out the art
+
+Below is a sampling of the 80 works featured at Meridian.
+
+![Love and Harmony by Jay C. Praiz](https://cdn.sanity.io/images/e2r40yh6/production-i18n/608e071ddb0a4328469d2a4b02c1ff57a9522faa-1067x1067.jpg)
+
+![The Human Blueprint by Muriel Lherm](https://cdn.sanity.io/images/e2r40yh6/production-i18n/4442b52f44dd7da963c04c3a955d2f81b868ef62-3000x3000.jpg)
+
+![Cosmic Horizon by Artstudio](https://cdn.sanity.io/images/e2r40yh6/production-i18n/a7e0cde5978b3fbe316e12394e2f89e9996e42d6-500x500.jpg)
+
+![A Normal Hike by Zato](https://cdn.sanity.io/images/e2r40yh6/production-i18n/2fc3023814e2c2bd00e163ee8e866c36adcf91eb-4000x4000.jpg)
+
+![FINDING RIO by RockinFREEWorld](https://cdn.sanity.io/images/e2r40yh6/production-i18n/cb861936beb82c83a8217a9701087f2c988180f8-500x500.png)
+
+![Sorcerer by Andrew Dixon](https://cdn.sanity.io/images/e2r40yh6/production-i18n/b08446cacfa2cc6e0c59e200cd33aa7d658d9ee6-1280x1707.jpg)
+
+![Rainforest Bean by Lumenator Jack](https://cdn.sanity.io/images/e2r40yh6/production-i18n/dfe7b0c0bb0788fadf4e7cf7d675e065df220ede-500x500.jpg)
+
+![Rooted in Vision by Ordinary Artist](https://cdn.sanity.io/images/e2r40yh6/production-i18n/fdaf5ee07855ff2337c45b2d1b2f353b53e17bbf-500x500.jpg)
+
+## Special thank you to all the artists who participated and provided works
+
+RockinFREEWorld  
+Andrew Dixon  
+RenegadeJPG  
+RDCrypto  
+Jay C. Praiz  
+Artstudio  
+Ordinary Artist  
+Logik  
+ZATO  
+Lukas Ersil  
+Muriel Lherm  
+Lord.iiiip.eth  
+Lumenator Jack  
+Big Breaux  
+S.R.Chappell  
+Nettie BellaTattoo   
+Nosnamutu  
+Authentic Atoms  
+MrsMetalcrazy22  
+Ben Lambo  
+Gateboy  
+Celestino Espinoza López  
+Robert Oz]]></content:encoded>
+      <guid isPermaLink="true">https://stellar.org/blog/ecosystem/art-smart-contracts-nfts-at-meridian-2025</guid>
+    </item>
+    <item>
+      <title>The Legal Case for Open Blockchain Networks</title>
+      <link>https://stellar.org/blog/policy/the-legal-case-for-open-blockchain-networks</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Candace Kelly</author>
+      <enclosure url="https://cdn.sanity.io/images/e2r40yh6/production-i18n/83822f3172ff03c3b44b97523cd1b970dce6ec5e-2048x1536.png?rect=0,192,2048,1153&amp;w=1224&amp;h=689&amp;auto=format" type="image/jpeg"/>
+      <content:encoded><![CDATA[# The legal case for open blockchain networks
+
+**Author**  
+Candace Kelly
+
+**Publishing date**  
+January 22, 2026
+
+## The outage: October 20, 2025
+
+On October 20, 2025, a DNS configuration error at Amazon Web Services cascaded into a 15-hour outage affecting 113 cloud services and over a thousand companies. For most businesses, this meant inconvenience. For institutions running critical financial operations on affected systems, it meant something more serious.
+
+The Base blockchain—a Layer 2 network processing billions in transactions—[saw block finalization times spike from 14 minutes to 78 minutes. Throughput dropped 40%.](https://www.metrika.co/blog/post-mortem-aws-outage-10-2025) Users couldn't complete transactions.
+
+During the same window, distributed blockchain networks continued operating without interruption. No degradation. No delays. The difference wasn't luck. It was architecture.
+
+For institutions evaluating blockchain technology for regulated assets, this incident crystallized a question that deserves more attention than it typically receives: What are the legal and risk management implications of your technology choice?
+
+## The question regulators will ask
+
+Today, many institutions are choosing blockchain technology based on relationships.
+
+Trust is obviously a critical component of any decision-making process, so it makes sense to start with known-entities and trusted individuals when exploring new solutions. The architecture of decentralized systems shifts that trust analysis from assessing an individual company or service provider to the technology itself.
+
+But regulators will ask harder questions. Not "who do you have a relationship with?" but "how did you assess the technology risk?" Not "is this blockchain popular?" but "what are the points of failure, and have you stress-tested them?"
+
+Financial regulators have spent decades pushing institutions to reduce concentration risk in critical systems. They will expect the same discipline applied to blockchain technology choices.
+
+**The five questions institutions should be prepared to answer:**
+
+1. How concentrated is power and risk on your chosen network?
+2. Who controls the network, and what happens if their interests diverge from yours?
+3. Can regulators and auditors verify on-chain data independently?
+4. What are the potential points of failure?
+5. How will you meet regulatory requirements and enforcement orders?
+
+These questions—drawn from standard risk management frameworks—all point toward the same architectural conclusion.
+
+## The concentration risk problem
+
+The October AWS outage exposed a specific vulnerability: Base operates with a single sequencer—the entity that orders transactions and proposes blocks. That sequencer is operated by Coinbase. Its systems run on AWS. When AWS failed, Base degraded. The same happened with [other Layer 2 networks](https://www.coindesk.com/news-analysis/2025/10/21/crypto-s-decentralized-illusion-shattered-again-by-another-aws-meltdown), like Optimism and Arbitrum.
+
+This is concentration risk in its purest form. A single operator. A single cloud provider. A single point of failure.
+
+Layer 2 networks are often described as "open" because they settle to public blockchains like Ethereum. But the transaction processing layer—where users actually interact—frequently recentralizes around a single sequencer. What starts as open technology ends with a configuration that reintroduces the concentration risks blockchain was supposed to eliminate.
+
+[Metrika's post-mortem](https://www.metrika.co/blog/post-mortem-aws-outage-10-2025) was direct: the incident "underlines the significant single point of failure risk inherent to L2 blockchains that rely on a centralized entity model."
+
+Private blockchains present a different form of concentration risk. When a network is controlled by a consortium or a dominant company, institutions building on that network are subject to the unilateral decisions of someone else. That company might become a competitor. That consortium might change its rules. And critically: regulators can only verify what the controllers allow them to see.
+
+For regulated institutions, concentration risk isn't just an operational concern. It's a governance question. Boards and risk committees will increasingly need to understand—and document—how technology choices align with their risk management frameworks.
+
+## The true definition of "open"
+
+The instinct to prefer "private" or "permissioned" over open networks is understandable. It maps to familiar corporate IT thinking: control access, limit exposure, own your environment.
+
+But this framing confuses two different ideas: control over the network versus control over the assets.
+
+**Open doesn't mean uncontrolled. Open means no single controller.**
+
+On open networks with distributed validators, no individual party can unilaterally change network rules. The network is neutral because no one owns it.
+
+But—and this is the point many observers miss—asset issuers are able to retain full control over their assets. They can determine who holds them, freeze them when required, execute clawbacks for fraud or regulatory enforcement. The openness is at the network layer; the controls exist at the asset layer.
+
+This distinction matters legally. Open networks provide the resilience and neutrality benefits of decentralization. Asset-level controls provide the compliance capabilities regulators require. These aren't in tension—they're complementary.
+
+The institutions that have moved furthest on tokenization—BlackRock, Franklin Templeton, Fidelity, U.S. Bank—have concluded that this combination represents the superior architecture for regulated assets.
+
+## Three legal advantages of open networks
+
+### **1. Superior auditability and regulatory access**
+
+On open networks, every transaction is permanently recorded and independently verifiable. Regulators don't need to request access from a private network operator—they can observe directly. Auditors can verify without relying on what a private network's controllers choose to disclose.
+
+This inverts the common compliance concern. Open networks don't evade regulatory oversight—they enable more comprehensive oversight than closed systems. The question isn't whether regulators can see what's happening. It's whether they're limited to seeing only what a private operator allows.
+
+For institutions subject to examination, this distinction has practical implications. Independent verifiability is a feature, not a bug.
+
+### **2. Competitive neutrality**
+
+Private blockchains create gatekeeping by design—that's their purpose. But gatekeeping in financial technology raises questions that legal and compliance teams should consider carefully.
+
+Who decides which institutions can access the network? On what terms? What happens when the consortium's interests diverge from the interests of the institutions building on their chain? What if the network operator becomes a competitor?
+
+Open networks sidestep these concerns structurally. When no one party controls access, no party can leverage that control.
+
+For institutions building critical financial operations, dependency on a competitor's technology—or a consortium where competitors have influence—creates exposures that merit board-level and regulatory attention.
+
+### **3. Operational resilience**
+
+October 20, 2025, demonstrated the operational case objectively. Distributed validator networks—where multiple independent organizations run nodes across different providers and geographies—continued operating when centralized systems failed.
+
+Networks with distributed validators maintained normal operations during the AWS outage. Networks dependent on single sequencers or concentrated cloud providers degraded or failed.
+
+For financial operations that must run continuously, architectural resilience isn't optional. The standard isn't "usually available." It's the 99.99% uptime that serious financial operations require—achieved through distributed architecture, not through hoping your cloud provider doesn't have a bad day.
+
+## The regulatory trajectory
+
+The regulatory landscape is moving toward technology neutrality. In the United States, recent executive action explicitly protects access to open public blockchains and mandates technology-neutral rulemaking.
+
+The Basel Committee's guidance on crypto exposures—which imposed higher capital requirements for assets on permissionless blockchains—is increasingly contested. Industry bodies have argued the framework fails to distinguish between networks where anonymous validators can buy their way in and networks where validators are known, trusted entities operating without financial incentives to manipulate transactions.
+
+And yes, this reality can exist on open blockchains that are not based on proof-of-work or proof-of-stake.
+
+The direction of travel is clear: regulators are converging on frameworks that assess your technology choices based on outcomes – how that technology mitigates risks, rather than how similar it is to familiar legacy systems. Institutions building on open networks today are aligned with that trajectory.
+
+## The real question
+
+Regulated assets worth billions of dollars settle on open networks daily. The SEC has approved funds operating on public blockchains. Major banks are piloting stablecoin issuance on open networks. The mechanisms work.
+
+The real question for legal and risk teams is different:
+
+**With today’s technology choices, can you continue to justify building critical financial operations on technology controlled by a single operator? Or dependent on a single cloud provider? Or subject to a competitor's decisions?**
+
+When the next outage occurs—and it will—what will you tell your board and regulators?
+
+## The shift already in progress
+
+The shift to open blockchain technology is underway. The largest asset managers have moved. Regulatory frameworks are adapting. The October outage underscored the operational stakes.
+
+What remains is helping institutions understand how open networks work in practice—how distributed validation provides resilience, how asset-level controls enable compliance, and how the architecture answers the questions regulators will ask.
+
+Failing to explore open networks to improve operational resilience and compliance is not merely complacency; it’s an omission that amounts to strategic risk. Because the case for open networks isn't just technical. It's legal, operational, and strategic.
+
+It's a powerful case that is overlooked at one's peril.]]></content:encoded>
+      <guid isPermaLink="true">https://stellar.org/blog/policy/the-legal-case-for-open-blockchain-networks</guid>
+    </item>
+  </channel>
+</rss>

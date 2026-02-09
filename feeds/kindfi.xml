@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KindFi - Stellar Ecosystem</title>
+    <link>https://kindfi.org</link>
+    <description>Latest articles about KindFi in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/kindfi.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introducing KindFi News: Updates from Our Team, Projects, and Causes</title>
+      <link>https://kindfi.org/news/kindfi-news-launch</link>
+      <enclosure url="https://kindfi.org/images/news/kindfi-news.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Introducing KindFi News: Updates from Our Team, Projects, and Causes
+
+We launched KindFi News—a fast, MDX-powered blog for product updates, impact stories, and milestone reports across LATAM.
+
+We’ve just shipped **KindFi News**—your new home for platform updates, product releases, and transparent stories from the projects and causes listed on KindFi.
+It’s fast, simple, and built to help more people discover verifiable impact across LATAM.
+
+- Visit the hub: **[KindFi News](/news)**
+- Discover active campaigns: **[Explore Projects](/projects)**
+
+## What’s included today {#whats-included-today}
+
+- **Platform updates & release notes**  
+  Roadmaps, UI improvements, and behind-the-scenes changes that make KindFi better.
+
+- **Project & cause posts**  
+  Listed projects can publish **impact stories, milestone reports, and updates** directly on KindFi—no extra tools required.
+
+- **Proof-friendly content**  
+  Posts can include references to **milestone-based escrow** and on-chain activity to back up claims with verifiable data.
+
+> **Transparent by design**  
+> KindFi integrates **escrow on Stellar**, enabling projects to report
+> milestones with links to on-chain references for donors to verify.
+
+## For projects: publish your first post {#for-projects-publish-your-first-post}
+
+1. Go to your project page and open **Updates**.
+2. Click **New Post**, add a clear title, a 1–2 sentence summary, and a cover image.
+3. Tag it by **category** (e.g., education, clean water) and **region**.
+4. Reference the **milestone** you’re reporting on—include any relevant on-chain links.
+
+> **Tip for better reach**  
+> Use specific, outcome-focused titles (e.g., “50 filters installed in
+> Puntarenas, Costa Rica”) and include costs, photos, and verification details.
+
+## For donors and supporters {#for-donors-and-supporters}
+
+- **Follow along in one place**: Read all updates on **[KindFi News](/news)** or on each project’s **Updates** tab.
+- **Subscribe via RSS**: Add **/news/rss** to your reader to get new posts.
+- **Share impact stories**: Posts include rich previews for X, LinkedIn, and WhatsApp.
+
+## Content you’ll see often {#content-youll-see-often}
+
+- **Impact stories**: People helped, before/after, and measurable outcomes.
+- **Milestone reports**: What was delivered, costs, and links to escrow releases.
+- **Product notes**: Small quality-of-life improvements that make KindFi faster and easier.
+- **Partner spotlights**: Collaboration across the Stellar ecosystem to unlock more good.
+
+---
+
+If you’re building for social impact in LATAM and want your work to be discoverable and verifiable, you’re in the right place.  
+Start reading on **[KindFi News](/news)** or head to **[Projects](/projects)** to follow a cause and get notified when new posts go live.]]></content:encoded>
+      <guid isPermaLink="true">https://kindfi.org/news/kindfi-news-launch</guid>
+    </item>
+    <item>
+      <title>See You in Rio: KindFi at Stellar Meridian 2025 — with Costa Rica’s Trustless Work Ecosystem</title>
+      <link>https://kindfi.org/news/kindfi-at-meridian-2025-rio</link>
+      <enclosure url="https://kindfi.org/images/news/kindfi-meridian.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[# See You in Rio: KindFi at Stellar Meridian 2025 — with Costa Rica’s Trustless Work Ecosystem
+
+We’re excited to share that **KindFi is attending Meridian 2025**—Stellar’s flagship conference—taking place **September 17–18, 2025 at the Copacabana Palace in Rio de Janeiro, Brazil**. The theme this year is **“The Blueprint”**, bringing together builders, founders, policymakers, and ecosystem partners focused on real-world finance and open blockchain innovation.
+
+> **Heading to Rio? Let’s connect**
+> 
+> If you’re building around **escrow, stablecoins, real-world impact, or
+> transparent crowdfunding**, we’d love to meet. We’ll be on site both
+> conference days and during the hackathon window.
+
+## Who’s traveling with us {#whos-traveling-with-us}
+
+We’re proud to highlight fellow Costa Rica projects from the **Trustless Work** ecosystem who will also be in the mix:
+
+- **Trustless Work** — Stellar-based **escrow infrastructure** powering milestone-based, non-custodial payments.
+- **GrantFox** — Open-source **grants & milestone payouts** platform using Trustless Work smart escrows.
+- **Pacto** — Local P2P trading and on/off-ramps where every trade is secured with **Trustless Work escrows**.
+
+These tools help us make **transparent, verifiable crowdfunding** possible across LATAM—exactly the kind of practical innovation Meridian celebrates.
+
+## Why Meridian matters for KindFi {#why-meridian-matters-for-kindfi}
+
+- **Real partnerships, faster shipping**: Two days of workshops, technical talks, and founder-to-founder conversations designed to move products from zero to one.
+- **HackMeridian**: Ahead of the main event, the official hackathon (Sept 15–16) is a great space to prototype integrations and form teams.
+- **Focus areas we care about**: stablecoins, tokenization, DeFi, compliance, smart contracts, payments, and interoperability—core to how we run escrow-first crowdfunding.
+
+## Find us in Rio {#find-us-in-rio}
+
+- **Dates**: Sept 17–18 (main conference)
+- **Venue**: Copacabana Palace, Rio de Janeiro
+- **Pre-events**: HackMeridian (Sept 15–16)
+
+Want to meet? Send us a note via **/contact**, or ping us on X/LinkedIn. If you’re a project operating in **education, clean water, disaster relief, animal welfare, or community development** and want **milestone-based funding** with on-chain references, come talk to us.
+
+> **Let’s collaborate**
+> 
+> Running a Stellar-powered product and want to add **milestone escrows** or
+> **verifiable updates** to your funding flow? We’ll be happy to whiteboard
+> ideas at the venue.
+
+See you in Rio.]]></content:encoded>
+      <guid isPermaLink="true">https://kindfi.org/news/kindfi-at-meridian-2025-rio</guid>
+    </item>
+    <item>
+      <title>Crowdfunding for Social Impact in LATAM: A Practical, Transparent Path</title>
+      <link>https://kindfi.org/news/crowdfunding-social-impact-latam</link>
+      <enclosure url="https://kindfi.org/images/news/latam-crowdfunding.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[Crowdfunding is one of the fastest ways to fund real-world impact across Latin America—but donors need **clarity, proof, and progress**.
+This guide outlines how projects can run **transparent, milestone-based campaigns** on KindFi to earn trust and convert supporters into long-term backers.
+
+## Why LATAM projects struggle with traditional crowdfunding
+
+- **High friction and fees** for international payments.
+- **Low donor confidence** due to vague outcomes and limited reporting.
+- **One-off campaigns** that don't build a repeatable funding engine.
+
+> **The KindFi approach**  
+> KindFi uses **milestone-based escrow on Stellar** (via Trustless Work) so
+> funds are released when specific milestones are verified. Donors see **what
+> was promised**, **what was delivered**, and **when funds moved**.
+
+## What donors actually want to see
+
+- A **clear problem statement** and who benefits.
+- **Specific milestones** with costs and timelines.
+- **On-chain or verifiable references** when funds are released.
+- **Photos, receipts, and short updates** proving delivery.
+
+## How to structure a LATAM-ready campaign
+
+### 1) Define milestones with budgets
+
+Break your goal into 2–5 milestones. Each milestone should have a deliverable, target date, and budget.
+
+| Milestone | Deliverable | Cost (USD) | Target Date | Proof |
+|-----------|-------------|------------|-------------|-------|
+| Water filters | Install 50 family filters in Puntarenas | 3,250 | 2025-10-15 | Photos, beneficiary list, GPS |
+| Training | Hygiene workshops for 50 families | 600 | 2025-10-20 | Attendance sheets |
+| Audit | Independent verification & report | 350 | 2025-10-25 | PDF report |
+
+### 2) Publish a short, outcome-focused story
+
+Lead with the **benefit**, not the tool.  
+"50 families get clean water for under $70 each" beats "We're raising money for equipment."
+
+### 3) Add transparent release criteria
+
+State how you'll prove completion (e.g., receipts, photos, reports, on-chain reference). Use the **Updates** tab to show progress.
+
+### 4) Use media that travels well
+
+- 1 cover image (1200×630) and 2–5 progress photos.
+- Short video (≤30s) for social.
+- Captions that mention **city, country, and outcome**.
+
+> **Copy-and-paste CTA for your socials**  
+> "Help us fund clean water for 50 families in Puntarenas, Costa Rica. Every
+> tranche is released on milestone completion, verified on-chain. Read the plan
+> and follow updates on KindFi: /projects"
+
+## Categories that perform well in LATAM
+
+- **Clean water** and sanitation
+- **Education** (equipment, connectivity, scholarships)
+- **Disaster relief** (rapid deployments)
+- **Animal rescue** and welfare
+- **Health access** (clinics, screenings, supplies)
+- **Community development** (lighting, parks, safety)
+
+## Your 7-day launch checklist
+
+- Write a **150–200 word** campaign overview with the outcome in the first sentence.
+- Define **2–5 milestones** with costs and proof.
+- Prepare **1 cover** + **3 progress photos**.
+- Publish your campaign on KindFi and add the **first update** (what's next, when, and how you'll verify).
+- Share the campaign link with a **city/country hashtag** for local discovery.
+- Schedule **weekly updates** (even if short) until all milestones are complete.
+
+## Why projects choose KindFi
+
+- **Milestone-based escrow** builds trust and increases completion rates.
+- **Friction-light cross-border** funding on Stellar.
+- **Built-in updates** and shareable previews for X, LinkedIn, and WhatsApp.
+- **Project pages** that grow with your results, not just one campaign.
+
+---
+
+Ready to launch a transparent campaign in LATAM?  
+Explore active causes on **[Projects](/projects)** or **[contact us](/contact)** to list your organization and publish your first milestone plan.]]></content:encoded>
+      <guid isPermaLink="true">https://kindfi.org/news/crowdfunding-social-impact-latam</guid>
+    </item>
+  </channel>
+</rss>

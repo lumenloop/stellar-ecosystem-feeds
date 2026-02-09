@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Space and Time - Stellar Ecosystem</title>
+    <link>https://spaceandtime.io</link>
+    <description>Latest articles about Space and Time in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/space-and-time.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Scan and Analyze Stellar Blockchain Data with Space and Time</title>
+      <link>https://spaceandtime.io/blog/scan-and-analyze-stellar-blockchain-data-with-space-and-time</link>
+      <author>Precious Emmanuel</author>
+      <enclosure url="https://cdn.prod.website-files.com/642d91209f1e77a2f740afa1/69136f03fe815319ecc68745_StellarBlockchain%20.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Scan and Analyze Stellar Blockchain Data with Space and Time
+
+Space and Time offers powerful data indexing tools that make it easy to scan and analyze data from the Stellar Network. In this guide, we'll walk through how to leverage SXT Studio to query, visualize, and interact with onchain Stellar data efficiently. Whether you're a developer, researcher, or simply exploring, this tutorial will help you get started with accessing and analyzing Stellar data using Space and Time.
+
+## An Intro to the Stellar Network
+
+Stellar is a decentralized, public blockchain network designed to make digital transactions as seamless and accessible as traditional cash payments. It provides tools for individuals, developers, and institutions to create fast, low-cost, and energy-efficient financial solutions.
+
+In essence, Stellar enables borderless payments, asset tokenization, and decentralized finance (DeFi) applications, empowering builders and innovators around the world to move money and value efficiently across borders.
+
+## Explore and Scan Stellar Data and Wallets with SXT Studio
+
+### Visualize the Stellar dataset
+
+It's super easy to see all the indexed Stellar data!
+Here’s how:
+
+* Head to the **Datasets** section in the main menu.
+* Click on **Stellar** — and that's it!
+
+![Stellar dataset visualization](https://cdn.prod.website-files.com/642d91209f1e77a2f740afa1/691370aded01b68b4bdc5492_bde51964.png)
+
+### Analyze and Scan Stellar  Data using Queries
+
+You don't have to be a developer to explore Stellar data with SXT. Since SXT keeps data in a format that supports both **SQL** and **natural language** queries, you can type your questions normally, and SXT will turn them into SQL automatically.
+
+This will give you access to the full set of onchain data across the Stellar  network, including wallet balances, transfers, and smart contract interactions.
+
+Steps to run a query:
+
+1. Log into the Studio
+2. Navigate to the Query Editor under the "Queries" tab
+3. Run a natural language query such as:
+
+> "Show me the top 10 stellar wallets with the highest balances"
+
+![Top Stellar wallets query](https://cdn.prod.website-files.com/642d91209f1e77a2f740afa1/691370aded01b68b4bdc5498_d2c3a5d9.png)
+
+or:
+
+> "Show me recent XLM transactions over $10,000"
+
+This lets you quickly identify large transfers, whale activity, or wallet trends on the Stellar network. 
+
+### Visualize Indexed Stellar Data with Dashboards
+
+Once you've written your queries, whether in SQL or plain language, you can quickly transform them into visual dashboards inside SXT Studio. This is one of the fastest ways to build Stellar analytics dashboards using indexed Stellar data.
+
+Whether you want to monitor wallet activity, subnet usage, or XLM staking trends, dashboards help you surface key insights at a glance.
+
+Here's how to get started:
+
+1. Log into SXT Studio.
+2. Navigate to the "Dashboards" tab.
+3. Click "New Dashboard" and choose from templates or start from scratch.
+4. Add a chart, paste your query, and choose how to visualize the data (e.g. bar chart, line chart, table).
+
+These dashboards make it easy to explore Stellar data visually and are especially useful if you're building tools that rely on real-time Stellar data for apps. For example, we're creating a dashboard based on our two previous queries.
+
+> Query 1: Show me the top 10 stellar wallets with the highest balances.
+
+> Query 2: Show me recent XLM transactions over $10,000
+
+1. Navigate to the "New Dashboard" button.
+   * under the "Dashboards" tab in the main menu
+2. Customize the layout and add your saved visualizations.
+3. Click on "Save" on the top right
+
+![Stellar dashboard](https://cdn.prod.website-files.com/642d91209f1e77a2f740afa1/691370aded01b68b4bdc5495_c0e1c9ea.png)
+
+### Build Your Custom Stellar Explorer
+
+By now, you've seen how to visualize indexed Stellar data, analyze wallet activity, and run natural language queries to explore the network. Space and Time combines all of this into a powerful tool for building your own custom Stellar explorer, fully aligned with your specific needs.
+
+Whether you're tracking wallet movements, scanning smart contracts, or monitoring transaction activity, SXT provides access to real-time Stellar data in a structured and searchable format.
+
+For example, you can run queries like:
+
+* Show transaction volume on Stellar in the last 24 hours
+* Identify most active smart contracts on Stellar by unique users
+
+These examples help you uncover usage trends, highlight key contracts, and monitor network performance. With SXT Studio, you're free to create a fully customized explorer experience that supports your app, your analytics, or your community.
+
+**Space and Time, Your Tool to Index Stellar Data**
+
+With Space and Time, accessing indexed Stellar data is now effortless for everyone and not just developers. From tracking wallets and exploring subnets to analyzing smart contract activity, SXT lets you do it all in seconds.
+
+[Click here to start querying Stellar data for free.](https://app.spaceandtime.io/)
+
+Get started with real-time Stellar data today and build the next generation of onchain tools, dashboards, and explorers.]]></content:encoded>
+      <guid isPermaLink="true">https://spaceandtime.io/blog/scan-and-analyze-stellar-blockchain-data-with-space-and-time</guid>
+    </item>
+    <item>
+      <title>Space and Time Enables New Sophisticated Financial Apps for the Stellar Ecosystem</title>
+      <link>https://spaceandtime.io/blog/space-and-time-enables-new-sophisticated-financial-apps-for-the-stellar-ecosystem</link>
+      <author>Space and Time Foundation</author>
+      <enclosure url="https://cdn.prod.website-files.com/642d91209f1e77a2f740afa1/68f8b8a55d417dc7bc68b3e8_SXTxStellar.webp" type="image/jpeg"/>
+      <content:encoded><![CDATA[**Product**
+
+# Space and Time Enables New Sophisticated Financial Apps for the Stellar Ecosystem
+
+We’re excited to announce that Space and Time is now indexing Stellar, the fast, low-cost blockchain built for cross-border payments and asset issuance. The integration of Space and Time’s blockchain indexing solution empowers developers across the Stellar ecosystem to build data-driven financial apps and smart contracts.
+
+## The Problem with Current Solutions
+
+Smart contracts don’t inherently have access to data beyond the current state of their own chain. On its own, a smart contract can’t reference historical onchain data, data from other chains, or data from offchain sources in a way that the end user can trust. When value is being secured onchain for asset tokenization, stablecoins, or other financial use cases, smart contracts need a way to verify that the data they’re using to execute actions is real, complete, and tamperproof.
+
+While other data infrastructure solutions have tried to solve pieces of the puzzle, like indexing historical blockchain data or providing offchain data feeds, they’re still fragmented, slow, and insecure. In order to realize the Stellar Development Foundation’s vision of creating equitable access to the global financial system through blockchain technology, we knew we needed to deliver a comprehensive, secure data solution to the Stellar ecosystem.
+
+## Space and Time’s Solution
+
+Space and Time indexes data from the Stellar blockchain and stores it as a continuously updated, verifiable, and queryable dataset. Developers and institutions can use Space and Time to track wallet activity, monitor token flows, build data-driven applications and financial services on Stellar faster, cheaper, and more easily. Additionally, Space and Time gives Stellar smart contracts access to terabytes of data from other major chains and offchain sources, enabling richer, more sophisticated financial use cases onchain.
+
+> “Space and Time's indexing solution brings a new level of verifiability and accessibility to data on Stellar. This integration bridges information in a way that can strengthen trust and enable developers to design more advanced, data-driven smart contracts and applications," said Tomer Weller, Chief Product Officer at the Stellar Development Foundation.
+
+The partnership between MakeInfinite Labs, the original creators of Space and Time, and Stellar Development Foundation opens the door for Stellar developers to leverage the suite of data tools provided throughout the Space and Time ecosystem. We’re excited to see what builders create with access to better, more complete, verifiable data.
+
+**Space and Time Foundation**
+
+The Space and Time Foundation is an independent organization dedicated to the advancement and adoption of Space and Time.]]></content:encoded>
+      <guid isPermaLink="true">https://spaceandtime.io/blog/space-and-time-enables-new-sophisticated-financial-apps-for-the-stellar-ecosystem</guid>
+    </item>
+  </channel>
+</rss>

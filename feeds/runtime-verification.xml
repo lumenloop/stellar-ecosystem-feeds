@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Runtime Verification - Stellar Ecosystem</title>
+    <link>https://runtimeverification.com</link>
+    <description>Latest articles about Runtime Verification in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/runtime-verification.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How We Build Formal Verification and Fuzzing Tools: Bridging the Gap Between Developers and Advanced Security Tooling with the K Framework</title>
+      <link>https://runtimeverification.com/blog/how-we-build-formal-verification-and-fuzzing-tools</link>
+      <author>Gregory Makodzeba</author>
+      <enclosure url="https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/blog11_c7417222b9.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# How We Build Formal Verification and Fuzzing Tools: Bridging the Gap Between Developers and Advanced Security Tooling with the K Framework
+
+*Posted on December 10th, 2024 by [Gregory Makodzeba](/blog/author/Gregory%20Makodzeba)*
+
+*Posted in [Tooling](/blog/category/Tooling), [Verification](/blog/category/Verification)*
+
+![blog11.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/blog11_c7417222b9.png)
+
+### **Introduction**
+
+In the rapidly evolving world of blockchain technology, the security and reliability of smart contracts have never been more critical. At Runtime Verification, we're deeply committed to enhancing the safety and robustness of smart contract ecosystems. Our mission is to empower developers to build more secure and efficient smart contracts without the steep learning curve traditionally associated with formal methods.
+
+To achieve this, we've leveraged the power of the [**K Framework**](https://kframework.org/), a tool that allows us to define the formal semantics of programming languages and virtual machines in a modular and reusable way. By building on this foundation, we've embarked on a journey to develop innovative solutions—including formal verification and advanced fuzzing tools—that integrate seamlessly into existing development practices.
+
+In this blog post, we'd like to share *how we build formal verification and fuzzing tools*, highlight some of the projects we've developed—such as [Kontrol](https://kontrol.runtimeverification.com/), [Kasmer](https://kasmer.runtimeverification.com/), and [Komet](https://komet.runtimeverification.com/) — and delve into what it takes to create a tool for formal semantics. Our goal is to provide insights for teams interested in using and developing similar tools for their smart contract languages or ecosystems.
+
+![pic 1.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/pic_1_1540fc35b0.png?theme=light)
+
+![picdark2.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/picdark2_2d09e1bb4a.png?theme=dark)
+
+### **The Importance of Fuzzing and Formal Verification of Smart Contracts**
+
+Two critical techniques for protecting smart contacts are *formal verification and fuzzing*. Formal verification involves mathematically proving that a system adheres to certain specifications, effectively eliminating entire classes of bugs. Fuzzing, on the other hand, is an automated testing technique that feeds random or unexpected inputs to a program to uncover edge cases and vulnerabilities.
+
+Despite their importance, it has been challenging to integrate these techniques into the development workflow. The complexity and specialized knowledge required to conduct this type of testing often create barriers for developers, security engineers and other stakeholders. Our goal is to bridge this gap by making advanced formal methods and fuzzing accessible and seamlessly integrated into the tools and languages developers already use.
+
+### **How We Build Formal Verification and Fuzzing Tools**
+
+*The K Framework* is the cornerstone of RVs formal testing tools. It enables us to define the formal semantics of a programming language in a way that is both executable and modular. This means we can create tools that understand smart contract languages at a fundamental level, providing precise and reliable analysis.
+
+![pic2new.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/pic2new_fbb73977ae.png?theme=light)
+
+![picdark.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/picdark_3b1f4d31cb.png?theme=dark)
+
+Our development process involves several key steps, each crucial in creating robust and developer-friendly tools.
+
+**1. Defining Formal Semantics**
+
+Every successful project begins with a deep understanding of the subject matter. For us, that means diving into the intricacies of the programming language or virtual machine we're targeting. We meticulously analyze the language's syntax and operational behavior, capturing the exact behavior of each construct through formal definitions written in the K language.
+
+This foundational work is essential. It requires not only expertise in the target language but also  understanding of formal methods. The formal semantics we define serve as an executable model of the language's behavior, which is crucial for building accurate tools.
+
+**2. Implementing the Execution Environement**
+
+In the context of smart contracts, the VM's execution environment is vital for simulating interactions with the blockchain environment. We identify the necessary functions based on the contract's operations and formally specify them within the K Framework. This ensures that we can accurately model how contracts interact with their environment, which is essential for both verification and testing.
+
+**3. Building the Tooling Infrastructure**
+
+With the formal semantics and host functions in place, we focus on building the tooling infrastructure. This includes developing execution engines, symbolic analyzers, and fuzzers.
+
+For example, we create interpreters that can execute programs according to our formal semantics. We enhance these interpreters to support symbolic execution, allowing them to reason about all possible inputs. We also incorporate fuzzing mechanisms to generate random or unexpected inputs, testing various execution paths within contracts.
+
+**4. Supporting Property-Based Testing and Fuzzing**
+
+We believe developers should be able to write property tests and perform fuzzing using the programming languages they're already familiar with. By supporting property-based testing and fuzzing in languages like Rust, we enable developers to specify properties or invariants that smart contracts should maintain and then automatically verify or test these properties.
+
+**5. Enhancing Capabilities and Coverage**
+
+Our tools are only as effective as their breadth and depth. We continuously expand host function support to cover more complex interactions, ensuring that our tools can handle a wide range of contracts and scenarios. Performance optimization is a constant focus, as we strive to make our tools efficient and scalable.
+
+Integration with developer workflows is another critical aspect. We ensure that our tools fit seamlessly into existing development environments, from continuous integration pipelines to popular IDEs and debuggers. Our goal is to minimize friction and encourage adoption by making our tools as user-friendly as possible.
+
+**6. Performing Formal Verification and Advanced Fuzzing**
+
+Using the K Framework's symbolic execution capabilities, we perform formal verification on smart contracts. This involves mathematically proving that specified properties hold for all possible inputs. If a property doesn't hold, we generate concrete counterexamples to aid debugging.
+
+Fuzzing complements formal verification by uncovering vulnerabilities that might not be detected through traditional testing methods. We employ advanced fuzzing techniques to generate random or unexpected inputs, testing various execution paths and identifying edge cases.
+
+**7. Optimization and User Experience Enhancements**
+
+Performance and usability are paramount. We optimize our tools to handle larger contracts and complex test cases efficiently. This involves enhancing algorithms, leveraging parallelism, and managing computational resources effectively.
+
+User experience is equally important. We develop intuitive interfaces, provide clear error messages and reports, and allow customization to meet developers' needs. Our aim is to reduce the need for manual intervention and make the verification and fuzzing processes as smooth as possible.
+
+**8. Documentation and Community Engagement**
+
+No tool can succeed without a supportive community and comprehensive documentation. We produce extensive user guides, API documentation, and tutorials to help users get started. We engage with the developer community through feedback channels, open-source collaboration, and educational events. This collaborative approach helps us gather valuable insights and continuously improve our tools.
+
+**Case Studies: Kontrol and Komet**
+
+Our journey has led to the development of several impactful tools. Two notable examples are Kontrol and Kasmer.
+
+**Kontrol.** One of the challenges in formal verification is lowering the barrier to entry for developers who may not have specialized expertise in formal methods. Kontrol addresses this by combining KEVM (the K Framework's Ethereum Virtual Machine semantics) with Foundry, a popular smart contract development toolchain.
+
+Kontrol enables developers to perform formal verification without learning a new language or tool. Developers can leverage existing Foundry test suites to use symbolic execution and increase their confidence in smart contracts. By working within the existing development environment, Kontrol makes formal verification more accessible and encourages broader adoption.
+
+**Komet: K-Powered Fuzzing and Formal Verification tool for WebAssembly.** Specifically designed for Soroban smart contracts, built on top of Runtime Verification's K Semantics framework. It allows developers to write property tests in Rust, the same language used for Soroban contracts, and then test these properties across a wide range of inputs using fuzzing. More importantly, Komet provides formal verification by symbolically executing the contracts, ensuring their correctness across all possible inputs, and providing the highest level of assurance for contract safety and functionality.
+
+### **Why Partner with Runtime Verification**
+
+At Runtime Verification, we offer more than just tools—we provide comprehensive solutions tailored to your needs. By partnering with us, you gain access to a team of experts dedicated to enhancing the security and reliability of your smart contracts and blockchain ecosystems.
+
+*_End-to-End Tooling Development and Maintenance_*
+
+We specialize in handling the entire lifecycle of tooling development, from initial concept to deployment and ongoing maintenance. Our deep expertise with the K Framework allows us to rapidly develop formal semantics and tools for a wide range of programming languages and platforms. We ensure that the tools we build are robust, efficient, and perfectly aligned with your project's requirements.
+
+*_Assisting with Developer Onboarding_*
+
+We understand that adopting new tools and methodologies can be challenging. That's why we provide comprehensive support to onboard your developers, ensuring they can effectively utilize the tools we develop. Through detailed documentation, tutorials, workshops, and direct communication channels on Discord and Telegram, we make the transition as seamless as possible. Our goal is to empower the ecosystems to leverage formal verification and advanced testing methods with confidence.
+
+---
+
+### **Get Involved**
+
+- **Explore Our Tools**: Visit our [GitHub organization](https://github.com/runtimeverification) or [Docs](https://docs.runtimeverification.com/) to discover our open-source tooling like **Kontrol**, **Komet and Kasmer**.
+- **Partner with Us**: [Reach out](https://t.me/gregorymakodzeba) to discuss how we can develop tailored tools and provide end-to-end solutions for your DSL or ecosystem.
+- **Join the Community**: Engage with us on [Discord](https://discord.gg/knJqwYyWRU) or [Telegram](http://t.me/rv_inc) to provide feedback and collaborate.
+- **Stay Updated**: Follow our [blog](https://runtimeverification.com/blog) for the latest news and developments.
+
+Thank you for being a part of our journey towards a more secure and reliable software ecosystem.]]></content:encoded>
+      <guid isPermaLink="true">https://runtimeverification.com/blog/how-we-build-formal-verification-and-fuzzing-tools</guid>
+    </item>
+    <item>
+      <title>Introducing Komet: Smart Contract Testing &amp; Verification Tool for Soroban, Created by Runtime Verification</title>
+      <link>https://runtimeverification.com/blog/introducing-komet-smart-contract-testing-and-verification-tool-for-soroban-created-by-runtime-verification</link>
+      <author>Runtime Verification</author>
+      <enclosure url="https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/1_B397382_8065_457_E_AE_2_E_FA_3692_A457_F8_43a882472f.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[![1B397382-8065-457E-AE2E-FA3692A457F8.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/1_B397382_8065_457_E_AE_2_E_FA_3692_A457_F8_43a882472f.png)
+
+At Runtime Verification, we have spent years developing tools and methods to enhance the security and correctness of blockchain systems. One of our core areas of expertise is WebAssembly (WASM) semantics, where we’ve worked on groundbreaking projects like [Kontrol](https://kontrol.runtimeverification.com), which brings formal verification to Solidity developers working with Foundry. Kontrol has enabled developers to symbolically execute their tests and ensure that their smart contracts behave as expected under all conditions. With this extensive background, we’re excited to introduce our latest tool: Komet, a formal verification and fuzzing tool designed specifically for Soroban smart contracts on the Stellar blockchain.
+
+Funded by the Stellar Community Fund, Komet is made possible through the generous support of the Stellar community. The grant has allowed us to kickstart development, but there’s still more work to be done. The next phase of Komet requires continued community backing to fully realize its potential. We’re calling on the Stellar community to help us push this tool forward, to ensure that developers building on Soroban have access to the highest level of security through formal verification and fuzzing.
+
+### Why Formal Verification Matters
+
+Blockchain systems, especially smart contracts, operate in a highly adversarial environment where any vulnerabilities can cause immediate loss of funds. With billions of dollars of value locked in smart contracts, thorough testing and verification methods are critical for the Soroban ecosystem to flourish. Formal verification offers a mathematical guarantee that smart contracts will behave as intended, eliminating vulnerabilities that traditional testing or auditing methods might miss. This added layer of security is vital for ensuring that smart contracts, which are often responsible for managing and securing vast amounts of assets, are safe from attacks. For more information, see some of our blog posts on [Why Formal Verification Matters](https://runtimeverification.com/blog/warning-code-can-be-explosive) and [Intro Lore on Formal Verification](https://runtimeverification.com/blog/formal-verification-lore).
+
+### What is Komet?
+
+Komet is a tool specifically designed for Soroban, enabling developers to verify and fuzz their smart contracts. Komet’s current capabilities are based on Runtime Verification’s work in auditing specific Soroban functions. While only a limited set of functions are currently supported, the next release of Komet will include fuzzing and formal verification for the entire set of Soroban host functions. This will allow developers to fully verify their smart contracts, making them more secure and reliable in the ever-challenging landscape of blockchain development.
+
+In the coming months, we will continue to expand Komet’s functionality, and we look forward to sharing updates with the community. To learn more about Komet or to get involved, visit Komet’s website, where you’ll find more information on how the tool works, a demo of what the tool can do, and how you can support its ongoing development.
+
+### Support Komet for a more secure Stellar ecosystem
+
+The Stellar ecosystem has a unique opportunity to benefit from the cutting-edge formal verification technology that Komet offers. We want to extend our deepest thanks to the Stellar Community Fund (SCF) for supporting the initial research and development of this tool. Komet has the potential to revolutionize how Soroban smart contracts are secured, and with continued community support, it can become a cornerstone of trust and security for Stellar-based projects.
+
+We encourage developers to try Komet for themselves by following our detailed instructions [in the documentation](https://docs.runtimeverification.com/komet), and to spread the word on Twitter to help grow awareness. Your feedback is invaluable—please don’t hesitate to reach out with your thoughts and suggestions. Let’s work together to ensure Soroban smart contracts remain secure and resilient as the Stellar ecosystem continues to grow.]]></content:encoded>
+      <guid isPermaLink="true">https://runtimeverification.com/blog/introducing-komet-smart-contract-testing-and-verification-tool-for-soroban-created-by-runtime-verification</guid>
+    </item>
+    <item>
+      <title>How to get started with Komet - Property Testing and Formal Verification for Soroban</title>
+      <link>https://runtimeverification.com/blog/how-to-get-started-with-komet-property-testing-and-formal-verification-for-soroban</link>
+      <enclosure url="https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/E6_B83973_A395_4089_BDB_0_34_CEA_8_DCDDF_3_4be993d3eb.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# How to get started with Komet - Property Testing and Formal Verification for Soroban
+
+![E6B83973-A395-4089-BDB0-34CEA8DCDDF3.png](https://strapi-rv-bucket-01.s3.us-east-2.amazonaws.com/E6_B83973_A395_4089_BDB_0_34_CEA_8_DCDDF_3_4be993d3eb.png "E6B83973-A395-4089-BDB0-34CEA8DCDDF3.png")
+
+At Runtime Verification, we're dedicated to pushing the boundaries of software verification and analysis. Our new tool, Komet, is tailored for developers working with Soroban. Soroban is the smart contract platform on the Stellar blockchain. Komet is supported by the Stellar Foundation and aims to offer enhanced verification capabilities using formal methods to help developers secure their smart contracts.
+
+## Why We're Building Komet
+
+With the increasing complexity of DeFi and other blockchain applications, the need for secure smart contracts has become critical. Hacks on smart contracts in the past have shown that vulnerabilities can lead to major lost funds. Komet was developed to equip developers with the testing and formal verification tools needed to build safer, more resilient dApps.
+
+Soroban is Stellar's platform, where smart contracts are written in Rust and compiled to WebAssembly (Wasm). Komet is built on top of KWasm—a WebAssembly formal semantics framework developed in K. It provides Soroban developers with two powerful techniques for ensuring the correctness of their contracts: fuzzing and symbolic execution.
+
+Komet's seamless integration with the Rust ecosystem is one of its key advantages. Developers can write property-based tests in Rust, using the same language they already use for Soroban smart contract development. Then, they can execute the tests using fuzzing to explore a wide variety of possible inputs, and symbolic execution to formally verify the contract's behavior across all inputs. This combination ensures that Soroban contracts are thoroughly tested and verified, making them more secure.
+
+## Understanding Property Testing and Verification
+
+Traditional testing relies on manually crafted test cases with fixed inputs. However, this approach often fails to explore the full range of possible inputs a program might encounter. In contrast, property-based testing shifts the focus from specific inputs to the broader behaviors the system should exhibit. Instead of trying to guess which inputs might cause failures, developers define the properties of the system, and tests are automatically run with randomized inputs. This approach uncovers edge cases that manual tests could miss, and ensures that the system's properties hold across a wide range of scenarios, offering a more thorough and dynamic testing process.
+
+With Komet, you have the flexibility to run your property tests using either fuzzing or symbolic execution. While fuzzing tests the contract with randomized inputs, providing a probabilistic level of confidence, symbolic execution is far more powerful. To learn more about symbolic execution, you can check out [Raoul Schaffranek's presentation on formal methods](https://www.youtube.com/watch?v=PIS3v9LPPdU). To summarize, formal verification uses symbolic inputs representing all possible values, allowing Komet to verify that the contract meets the specified properties across every potential input. This guarantees a higher degree of confidence in the correctness of the contract by ensuring no edge cases are missed.
+
+## Installation
+
+The easiest way to install Komet is via the kup package manager. Follow the steps below to install kup and then Komet:
+
+1. Install `kup` by running the following command:
+
+```bash
+bash <(curl https://kframework.org/install)
+```
+
+2. Once `kup` is installed, you can install Komet with this command:
+
+```bash
+kup install komet
+```
+
+3. After the installation is complete, verify it by checking the help menu:
+
+```bash
+komet --help
+```
+
+## Case Study: Testing the `adder` Contract
+
+(Source: [https://github.com/runtimeverification/komet-demo](https://github.com/runtimeverification/komet-demo))
+
+To illustrate how Komet can be used to test Soroban contracts, let's look at a simple example. We'll be working with a basic contract called adder, which features a single function that adds two numbers and returns their sum. In Komet, we write our tests as contracts that interact with the contract we want to test. For this example, we will create a test_adder contract to verify the behavior of the adder contract.
+
+The project structure for this example looks like this:
+
+```
+.
+├── contracts
+│   ├── adder
+│   │   ├── src
+│   │   │   └── lib.rs
+│   │   └── Cargo.toml
+│   └── test_adder
+│       ├── src
+│       │   ├── lib.rs
+│       │   └── komet.rs
+│       ├── Cargo.toml
+│       └── kasmer.json
+├── Cargo.toml
+└── README.md
+```
+
+### The `adder` Contract
+
+The adder contract is a simple, stateless contract with a single endpoint, add. This function takes two numbers as input and returns their sum. The result is returned as a u64 to avoid overflows. Since the contract doesn't maintain any internal state or use storage, its behavior is straightforward and purely based on the inputs provided.
+
+```rust
+#![no_std]
+
+use soroban_sdk::{contract, contractimpl, Env};
+
+#[contract]
+pub struct AdderContract;
+
+#[contractimpl]
+impl AdderContract {
+   pub fn add(_env: Env, first: u32, second: u32) -> u64 {
+      first as u64 + second as u64
+   }
+}
+```
+
+### Writing the Test Contract
+
+Test contracts typically have an init function for setting up the initial state, such as deploying contracts or preparing the blockchain environment. They also include functions with names starting with test_ to define properties and run test cases against the contract being tested. Test contracts have special abilities that normal contracts do not, provided by our framework through custom WebAssembly hooks. These hooks, declared as extern functions in komet.rs, enable advanced operations like contract creation and state manipulation.
+
+### Setting the Initial State: The init Function
+
+In the context of testing the adder contract, the init function is specifically responsible for deploying the adder contract and saving its address within the test contract's storage.
+
+```rust
+#[contract]
+pub struct TestAdderContract;
+
+#[contractimpl]
+impl TestAdderContract {
+   pub fn init(env: Env, adder_hash: Bytes){
+      let addr_bytes = b"adder_ctr_______________________";
+      let adder = komet::create_contract(&env, &Bytes::from_array(&env, addr_bytes), &adder_hash);
+      env.storage().instance().set(&ADDR_KEY, &adder);
+   }
+   // other functions
+}
+```
+
+We are using the create_contract function from komet.rs for deploying a contract with a specified address and a Wasm hash. The hash represents the Wasm code of the target contract (in this case, the adder contract). The Wasm hash provided to the init function is derived from the kasmer.json file, which contains a relative path to the compiled adder contract. This file enables Komet to locate the WFasm file, register the Wasm module, and pass its hash to the init function.
+
+```json
+{
+  "contracts":["../../target/wasm32-unknown-unknown/release/adder.wasm"]
+}
+```
+
+Once the init function has successfully completed, all subsequent test cases are executed based on this predefined initial state, ensuring consistency and allowing tests to be performed under controlled conditions.
+
+## Defining Contract Properties: Test Endpoints
+
+In Komet, test cases are defined as contract endpoints with names starting with the test_ prefix. These endpoints specify properties of the contract being tested, and return a boolean to indicate whether the test passed or failed.
+
+For instance, in the test_adder contract, the test_add function verifies the adder contract's behavior by using its address—set up in the init function—to invoke the add method and check whether the adder contract correctly computes the sum of two numbers.
+
+```rust
+impl TestAdderContract {
+   // Initialization code..
+  
+   pub fn test_add(env: Env, x: u32, y: u32) -> bool {
+       // Retrieve the address of the `adder` contract from storage
+      let adder: Address = env.storage().instance().get(&ADDR_KEY).unwrap();      
+       // Create a client for interacting with the `adder` contract
+      let adder_client = adder_contract::Client::new(&env, &adder);
+       // Call the `add` endpoint of the `adder` contract with the provided numbers
+      let sum=adder_client.add(&x, &y);      
+       // Check if the returned sum matches the expected result
+      sum== x as u64 + y as u64
+   }}
+```
+
+## Running Tests
+
+Once the test contract is written, the next step is to compile and run it. Here's how you can execute the tests using Komet.
+
+### 1. Compile the Project
+
+Before running any tests, compile the project from the workspace's root directory:
+
+```bash
+soroban contract build
+```
+
+This command will build both the `adder` and `test_adder` contracts.
+
+### 2. Navigate to the Test Contract Directory
+
+After compiling the project, change directories into the `test_adder` contract folder:
+
+```bash
+cd contracts/test_adder/
+```
+
+### 3. Running Tests with Fuzzing
+
+To run the tests using fuzzing (which generates random inputs for testing), use the following command:
+
+```bash
+komet test
+```
+
+After some compilation logs, you should see an output like this:
+
+```bash
+Processing contract: test_adder
+Discovered 1 test functions:
+	- test_add
+  Running test_add...
+	Test passed.
+```
+
+This indicates that Komet discovered the `test_add` function and successfully executed the test using randomized inputs.
+
+### 4. Running Tests with Symbolic Execution (Proving)
+
+To run tests with symbolic execution, which verifies the contract's behavior for all possible inputs, use the following command:
+
+```bash
+komet prove run
+```
+
+This method will run the proof for all test functions in the contract. It ensures that the property being tested holds true across all input combinations, providing thorough verification of the contract's correctness.
+
+Additionally, you can explore more proving options by using the `--help` flag to see available commands and arguments:
+
+```bash
+$ komet prove --help
+usage: komet prove [-h|--wasm WASM|--proof-dir PROOF_DIR|--id ID] COMMAND
+
+positional arguments:
+  COMMAND            Proof command to run. One of (run, view)
+
+options:
+  -h, --help         show this help message and exit  --wasm WASM        Prove a specific contract wasm file instead
+  --proof-dir PROOF_DIR
+                     Output directory for proofs
+  --id ID            Name of the test functionin the testing contract
+```
+
+After running the proof with the `--proof-dir` option, you can use the `view` command to inspect the proof tree and examine the details of symbolic execution.
+
+## Conclusion
+
+Komet brings formal verification directly into the existing Soroban development workflow, allowing developers to ensure the correctness of their contracts with both broad, randomized testing through fuzzing, and deep, exhaustive verification using symbolic execution. Since all testing is done in Rust using existing Soroban APIs, it's easy for developers to adopt the tool without needing to learn a new language or system.
+
+By using Komet, developers can focus on building innovative solutions for the Stellar ecosystem while ensuring their contracts are rigorously verified.]]></content:encoded>
+      <guid isPermaLink="true">https://runtimeverification.com/blog/how-to-get-started-with-komet-property-testing-and-formal-verification-for-soroban</guid>
+    </item>
+  </channel>
+</rss>

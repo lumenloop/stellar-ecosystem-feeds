@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certora - Stellar Ecosystem</title>
+    <link>https://certora.com</link>
+    <description>Latest articles about Certora in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/certora.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Guarding Growth - How Certora Secured DeFi in 2025</title>
+      <link>https://certora.com/blog/momentum-for-2026</link>
+      <author>Seth Hallem</author>
+      <content:encoded><![CDATA[DeFi has entered its next phase - an era when security is written into the DNA of every chain, protocol and exchange.
+
+The industry reached $2.5 trillion in onchain value in 2025. But success breeds risk. New vulnerabilities, attack vectors, and gaps were exposed in the security posture across the blockchain ecosystem. In this critical moment, companies have recognized that security isn’t just about identifying bugs before launch - it’s about ensuring that systems remain secure as they evolve and scale to support the ever-changing needs of their users.
+
+Certora hasn’t simply kept pace. We’ve proven ourselves to be the partner that DeFi demands.
+
+Last year our security footprint expanded across new chains, languages, and infrastructure layers.
+
+Our security research team quadrupled in size.
+
+And our work drove home the importance of long-term security partnerships.
+
+The numbers below tell that story: not just what we secured in 2025, but the momentum that’s carrying Certora and DeFi as a whole into a safe new world.
+
+### We’re Trusted at the Top. Where Do You Land?
+
+In 2025, we expanded our role as the security partner for the majority of DeFi’s most important protocols. Fourteen of the top 20 protocols by TVL and seven of the top 10 rely on us not just for one-off audits, but for continuous, long-term security engagement.
+
+**70% of the top 20** DeFi protocols by TVL are Certora customers.  
+**70% of the top 10** work with Certora on a continuous, long-term basis.
+
+Which platforms work with us continually?
+
+**[**[Aave](https://app.aave.com/)**]:** 5+ years  
+**[**[Compound](https://compound.finance/)**]:** 5+ years  
+**[**[Sky](https://sky.money/)**]:** 4+ years  
+**[**[Morpho](https://morpho.org/)**]:** 4 years  
+**[**[Silo](https://silo.finance/)**]:** 4 years  
+**[**[Safe](https://safe.global/)**]:** 3+ years  
+**[**[EigenLayer](https://app.eigenlayer.xyz/)**]:** 3+ years  
+**[**[Lido](https://lido.fi/)**]:** 3 years  
+**[**[Stellar](https://stellar.org/)**]:** 2 years  
+
+And that’s just the top of the list. Dozens of others rely on us to secure their platforms. In 2025 alone, **44 new protocols** entered security engagements with Certora, including [**[Fluid](https://fluid.io/)**], [**[Jito](https://www.jito.network/)**], [**[Navi](https://naviprotocol.io/)**], [**[Polygon](https://polygon.technology/)**], [**[Suilend](https://suilend.fi/)**], and many more.
+
+That’s why we protected **$196.5 billion** in assets last year.
+
+### Security at Scale
+
+Modern protocols don’t live on a single chain or language. In 2025, we reviewed hundreds of thousands of lines of code (LOC) across the entire web3 landscape:
+
+* **EVM:** 200,700 LOC
+* **Solana:** 206,600 LOC
+* **Sui:** 33,000 LOC
+* **Aptos:** 16,300 LOC
+* **NEAR:** 6,000 LOC
+* **Blockchain Infrastructure:** 90,000 LOC
+* **Mobile Applications:** 14,000 LOC
+* **Off-Chain Systems:** 36,000 LOC for [**[EigenLayer Hourglass](https://github.com/Layr-Labs/hourglass-monorepo)**], [**[SafeNet](https://docs.safe.global/safenet/introduction)**], [**[Cork](https://cork.tech/)**], [**[Lido](https://lido.fi/)**] tooling, and more
+
+We’ve tackled every environment and every execution model. We’ve corrected failure modes and developer pitfalls. That’s because security means understanding how systems behave under stress regardless of the particular chain, language, or timeframe.
+
+### What Value Really Means
+
+TVL doesn’t tell the full story. Certora’s work spans across infrastructure layers, governance systems, and user-facing applications.
+
+* **$90B** of the assets we secured were through design review and formal verification of protocol invariants, meaning correctness was mathematically proven and not assumed
+* **150 audits** were completed across chains, execution environments, and system layers
+* **720+ vulnerabilities** were identified and prevented before deployment
+* **99% of all findings** were fixed by teams prior to launch
+* **11 protocols** were paused before deployment after uncovering severe risks
+
+Security in 2025 wasn’t about checking boxes. It was about changing outcomes.
+
+### The Hacks That Never Happened
+
+In 2025, Certora identified:
+
+* **80** critical vulnerabilities
+* **180** high-severity vulnerabilities
+* **360** medium-severity vulnerabilities
+
+These weren’t just cosmetic issues. They included bugs that could have caused:
+
+* Insolvency without an exploit
+* Permanent freezing of user funds
+* Unliquidatable debt positions
+* Governance capture
+* Silent economic drift that only manifests months later
+
+In one case, a single protocol contained up to 80 distinct issues, highlighting just how fragile complex systems can be under real-world conditions.
+
+Certora also uncovered **10 live bugs in already-deployed systems**. Another reminder that security doesn’t end at launch, but requires ongoing scrutiny as markets, usage, and chains evolve.
+
+### The Shifting Frontier
+
+In 2025, we repeatedly uncovered failures that weren’t rooted in syntax but economics, assumptions, and cross-system interactions.
+
+We protected our customers from:
+
+* A math error that could inflate effective interest rates by up to 2,000×
+* A subtle liquidation failure mode introduced by Ethereum’s Fusaka upgrade, where per-transaction gas limits could create unliquidatable positions
+* Rounding errors that violated core invariants such as share rate monotonicity
+
+These were not bugs that could be caught with pattern matching. They required deep protocol understanding, economic reasoning, and awareness of chain-level changes.
+
+### Built to Last
+
+In 2025, much of our work focused on ensuring the economic solvency of our customers over time. Our goal is to help our customers build protocols that last - for years, decades, and beyond - and our audits take into account the long-term implications of each calculation. Through our work, we uncovered multiple accounting flaws that would only manifest in the distant future, eventually triggering disasters that include:
+
+* Overpaying interest
+* Breaking solvency invariants without an exploit
+* Accumulating “ghost debt” that permanently distorts system economics
+
+Although these protocols appeared correct at a snapshot in time, they failed when state transitions were examined across time.
+
+### Why Formal Verification is a Guarantee
+
+Protocols need proof of correctness, not just confidence. In 2025, our formal verification processes moved beyond checking functions in isolation and came to include system-wide invariants (i.e. properties that must always hold).
+
+Here are just some of the properties that we proved:
+
+**[**[Aave v4](https://aave.com/docs/aave-v4)**]:**  
+**•** Share rate is monotonic  
+**•** User actions cannot make healthy accounts unhealthy  
+**•** No collateral implies no debt  
+
+**[**[Euler Earn](https://docs.euler.finance/user-guide/euler-earn/)**] & [**[Kamino](https://kamino.com/)**]:**  
+**•** Protocol solvency is formally proved  
+
+**[**[Silo](https://silo.finance/)**]:**  
+**•** Consistency is balanced across supply and withdrawal queues  
+
+**[**[Stellar](https://stellar.org/)**]:**  
+**•** Expired allowances cannot be reused  
+
+### The Biggest Brains in the Business
+
+Our work is only as good as our talent, and we’ve built a deep bench of expertise. In 2025, that bench became a lot wider.
+
+We quadrupled our security research team to 40 experts, including 25 PhDs across formal methods, cryptography, and systems.
+
+And we now have four dedicated research teams.
+
+Every Certora audit is conducted by best-in-class researchers under team-lead supervision, and their work is supported by formal verification, automated analysis, and repeated manual review. Our researchers build deep partnerships with our customers - working together across multiple audits, versions, and projects. Our auditors stick with our customers through deployment and beyond - reviewing every aspect of protocol launch, initialization, and on-going governance.
+
+Security at this level isn’t incidental, it’s engineered.
+
+### The Path Ahead
+
+The protocols that succeeded in 2025 didn’t just move fast. They partnered with us early, verified deeply, and treated security as foundational infrastructure, not just a checkbox.
+
+Certora is proud to be the security partner behind those companies, and we’re even more excited about what comes next.]]></content:encoded>
+      <guid isPermaLink="true">https://certora.com/blog/momentum-for-2026</guid>
+    </item>
+    <item>
+      <title>Insights from Certora’s first contests for securing Rust smart contracts</title>
+      <link>https://certora.com/blog/bringing-formal-verification-to-rust</link>
+      <author>Shane Runquist, Chandrakana Nandi</author>
+      <enclosure url="https://images.prismic.io/certora/aBjdY_IqRLdaB4Eu_Screenshot2025-05-05184606.jpg?auto=format,compress" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Inside Certora’s First Soroban Contests
+
+## Bringing Formal Verification to Rust
+
+**Authors:** Shane Runquist, Chandrakana Nandi  
+**Editor:** Uri Kirstein
+
+Certora recently organized the first-ever formal verification contest for Rust using Certora’s [open source Prover](https://github.com/Certora/CertoraProver). We hosted two community contests for [Soroban](https://stellar.org/soroban) smart contracts with a combined prize pool of 40,000 USDC with audit platforms [Code4rena](https://code4rena.com/) and [Cantina](https://cantina.xyz/). These introduced formal verification to the Soroban developer community and demonstrated its applicability to Rust-based smart contracts. We will dive into examples from our community.
+
+[Formal verification](https://www.certora.com/blog/white-paper) is a rigorous method based on mathematical logic for ensuring that a program behaves according to a specification. It is an effective technique for securing smart contracts. At Certora, we have developed tools to secure smart contracts for EVM, Solana, and Stellar with research underway for even more chains.
+
+While the Certora Prover has been at the center of many past Solidity EVM [formal verification contests](https://www.certora.com/contests), we have now held the first two contests for code written in Rust, specifically Soroban smart contracts for the [Stellar blockchain](https://stellar.org/). Teams writing decentralized finance (DeFi) smart contracts in Rust, as described in [our recent blog post](https://www.certora.com/blog/writing-verification-friendly-smart-contracts-in-rust), should consider design and coding choices that both reduce the likelihood of logic errors and also make the code easier to formally verify.
+
+We invited all members from the Web3 security community to use our formal verification tool, [Sunbeam](https://www.certora.com/blog/formally-verifying-webassembly), that targets Stellar smart contracts written with the Soroban framework. These contracts are written in Rust and deployed as WebAssembly bytecode on Stellar. Users write formal specifications expressing security and correctness-related properties using Certora’s Rust library called [CVLR](https://crates.io/crates/cvlr) which has [macros](https://crates.io/crates/cvlr-soroban-macros) [dedicated](https://crates.io/crates/cvlr-soroban) [for](https://crates.io/crates/cvlr-soroban-derive) [Soroban](https://crates.io/crates/cvlr-log). Sunbeam compiles the CVLR specifications and smart contract source code to generate WebAssembly bytecode and then formally verifies the bytecode, proving whether or not the code complies with properties in the specification.
+
+## Evaluating Specifications
+
+We use [mutation testing](https://www.certora.com/blog/gambit) to evaluate contest participants' work by assessing the quality of their formal specification. Traditionally, mutation testing injects small, atomic faults in code and runs a test suite to see if the faults are caught. This can be used to improve the test suite coverage by adding test cases that the developer missed. At Certora, we extend this idea to formal verification: we assess the coverage and quality of specifications by applying mutations (individually) to the original smart contract source code and running the Sunbeam prover to see which specifications catch the mutations.
+
+For Solidity, we built [Gambit](https://www.certora.com/gambit), a mutant generator that automatically creates mutated variants of a smart contract. For Rust-based smart contracts like Soroban, we use both manually-created mutants and some generated by the Gambit-like tool, [universalmutator](https://github.com/agroce/universalmutator).
+
+For both contests, we created a set of mutants based on domain knowledge and used them to grade the specifications written by the participants. A specification earned more of the contest rewards by catching more of the mutations. The value of each caught mutation was weighted inversely to the number of participants that caught it, so higher rewards went to specifications with more unique coverage. In addition, participants got significantly more rewards by creating a specification that catches a real vulnerability in the protocol code, as confirmed by the Code4rena and Cantina audit contest judges.
+
+## Blend v2 Contest
+
+Our [Blend protocol](https://www.blend.capital/) contest was the first ever Rust-based formal verification contest in the DeFi space! We teamed up with Code4rena to organize it during their [community audit of Blend v2](https://code4rena.com/audits/2025-02-blend-v2-audit-certora-formal-verification) smart contracts from February 24 to March 17, 2025.
+
+With the short contest timeline, we narrowed the scope to key files implementing the `Backstop` contract. We chose this contract due to its importance for the protocol's solvency since a Backstop insures every Blend lending pool. For this contest, 21 participants created 996 rules in total, 229 of which caught at least one mutant. A report is available [here](https://github.com/code-423n4/2025-02-blend-fv/blob/main/Report.md) highlighting some of those rules including this one by [@ZacW369](https://x.com/ZacW369) that caught 3 mutations of the `pool.rs` file:
+
+```rust
+#[rule]
+pub fn deposit_withdraw_equal(e: &Env, pool_balance: &mut PoolBalance, tokens: i128, shares: i128){
+    let pool_tokens_before = pool_balance.tokens;
+    let pool_shares_before = pool_balance.shares;
+    pool_balance.deposit(tokens, shares);
+    pool_balance.withdraw(e, tokens, shares);
+    let pool_tokens_after = pool_balance.tokens;
+    let pool_shares_after = pool_balance.shares;
+    cvlr_assert!(pool_tokens_after == pool_tokens_before);
+    cvlr_assert!(pool_shares_after == pool_shares_before);
+}
+```
+
+The code above is a CVLR rule that states a simple but important property for many DeFi protocols: a deposit by any user to any pool followed by an equal withdrawal results in no gain nor loss of pool assets. The `cvlr_assert!()` macro tests a condition and the Prover tries to find any counterexample in which the condition is false. If found, the calltrace of the counterexample can be investigated to see if the behavior indicates a bug in the contract logic. On the other hand, if the Prover completes without finding a counterexample, then the property is proven to be true. In the Blend contest, this rule passed with the original Blend source code but failed when we mutated the `pool.rs` source, thereby catching the mutations and showing this rule's value in securing this aspect of the protocol.
+
+## Aquarius Contest
+
+Our [second contest](https://github.com/Certora/aquarius-cantina-fv) for formal verification of Rust smart contracts was a joint effort with [Cantina's audit](https://cantina.xyz/competitions/990ce947-05da-443e-b397-be38a65f0bff) of [Aqua Network's](https://aqua.network/) protocol for Soroban, [Aquarius](https://docs.aqua.network/aquarius-amms/what-are-aquarius-amms), from May 7 to June 18, 2025.
+
+Aquarius is a decentralized liquidity management platform for Stellar. It supports exchange of tokens with two types of liquidity pools: volatile assets using [Uniswap](https://app.uniswap.org/#/swap?chain=mainnet)'s pioneering constant product market maker, and stable (or "highly correlated") assets using [Curve's Stable Swap](https://docs.curve.finance/stableswap-exchange/overview/) model for minimal slippage. The [scope](https://github.com/Certora/aquarius-cantina-fv?tab=readme-ov-file#scope) for formal verification included the `fees_collector` and `access_control` contracts, which implement the administration of the protocol including upgrades and ownership transfer. We had 26 participants who altogether wrote specifications with 1627 rules for the contest. Of these, 456 caught at least one mutant. A report of contest results is available [here](https://github.com/Certora/aquarius-cantina-fv/blob/main/Report.md) and this is one of the highlighted properties in the report. It was written by [AsafDov](https://www.asafslaboratory.com/) and caught 4 mutations of `fees_collector` `contract.rs` file.
+
+```rust
+#[rule]
+pub fn only_admin_transfers_roles_or_upgrades(e:Env){
+    let acc_ctrl = unsafe{&mut*& &raw mut ACCESS_CONTROL}.as_ref().unwrap();
+    // Execute any operation, then restrict to those that require Admin
+    let action = nondet_func(e.clone());
+    cvlr_assume!(        action == Action::CommitTransfer        || action == Action::ApplyTransfer        || action == Action::RevertTransfer        || action == Action::CommitUpgrade        || action == Action::ApplyUpgrade        || action == Action::RevertUpgrade    );
+    let admin: Option<Address>=
+        e.storage().instance().get(&acc_ctrl.get_key(&Role::Admin));
+    match admin {  // If there is an Admin, he must be the sender.
+        Some(admin)=>cvlr_assert!(is_auth(admin)),
+        // Otherwise, the action requiring Admin should have reverted.
+        None=>cvlr_assert!(false),
+    }}
+```
+
+The CVLR rule above tests a common DeFi governance property: critical actions can only be taken by the administrator. And it does so in a way that allows this one rule to cover the security of multiple actions. The `nondet_func()` [implemented here](https://github.com/Certora/aquarius-cantina-fv/blob/main/Example_Submissions/AsafDov/fees_collector/src/certora_specs/utils_ext.rs#L47C1-L82C2) chooses randomly from a list of functions. This lets the Prover explore all those possible execution paths while evaluating this rule. The rule then limits the search space to only functions that require the Admin role (i.e. transfer or upgrade actions). It gets the current administrator's address and verifies that any chosen function that executes successfully must be called by the admin. Or, if no admin has been set then execution must revert, preventing `cvlr_assert!(false)` from being reached.
+
+Similar to the earlier Blend example, this rule passed with the original Aquarius source code but failed when we injected bugs in the `contract.rs` source file, showing that this rule catches such vulnerabilities if introduced to the governance logic.
+
+## Conclusion
+
+Blend and Aquarius are cornerstone protocols for the Stellar chain built with an emphasis on security. These teams engaged Certora, Code4rena, Cantina and the wider DeFi security community for formal verification contests. Certora commends all contest participants for their work and congratulates the top performers, [@alexzoid_eth](https://x.com/alexzoid_eth) and [@PositiveWeb3](https://x.com/PositiveWeb3), on their [rewards earned in the Blend v2](https://x.com/code4rena/status/1942660010456256972) and [Aquarius](https://x.com/cantinaxyz/status/1948793181161804132) contests respectively. With over 20 competitors in each and a 24% increase from the 1st to 2nd contest, our community of security auditors is up to the challenge of securing Rust smart contracts. We hope this encourages others to organize formal verification contests as well.
+
+Community audits harnessed the knowledge and skills of many to secure the Blend and Aquarius protocols. Adding Certora's formal verification also leveraged the community's skills at writing high level properties (over 2600!) into specifications that can rule out the existence of bugs and, when integrated into a project's development pipeline, automatically block the introduction of bugs in the future.
+
+All smart contract developers should consider formal verification to harden code security, and the Certora Sunbeam prover is a powerful tool for securing Rust smart contracts on the Stellar blockchain.
+
+## Acknowledgements
+
+We would like to thank the Stellar Development Foundation, Code4rena, Cantina, the Blend team, the Aquarius team, all the participants, and our developers for their combined efforts in making these contests possible.
+
+## References
+
+**Blend Documentation:**
+- [https://docs.blend.capital/users/general-faq](https://docs.blend.capital/users/general-faq)
+- [https://docs.blend.capital/blend-whitepaper#backstop-module](https://docs.blend.capital/blend-whitepaper#backstop-module)
+
+**Aquarius Documentation:**
+- [https://docs.aqua.network/](https://docs.aqua.network/)
+- [https://medium.com/aquarius-aqua/aquarius-amms-updates-and-plans-for-2024-f390e9d06b15](https://medium.com/aquarius-aqua/aquarius-amms-updates-and-plans-for-2024-f390e9d06b15)]]></content:encoded>
+      <guid isPermaLink="true">https://certora.com/blog/bringing-formal-verification-to-rust</guid>
+    </item>
+    <item>
+      <title>We have released Certora Prover Version 8.1.0 that includes new features and breaking changes.</title>
+      <link>https://certora.com/blog/prover_v8_1_0</link>
+      <author>Uri Kirstein</author>
+      <enclosure url="https://images.prismic.io/certora/aJoXPKTt2nPbaK9P_share_dropdown.png?auto=format,compress" type="image/jpeg"/>
+      <content:encoded><![CDATA[# Prover Version 8.1.0
+
+This release introduces breaking changes that may require updates to your specs, configs, or workflows
+
+## Breaking Changes in This Release
+
+**Important:** This release introduces breaking changes that may require updates to your specs, configs, or workflows. Please review the changes below before upgrading.
+
+### **Minimum Java Version Increased to 19**
+
+**What changed:**
+
+The Certora Prover now requires **Java Runtime Environment (JRE) version 19 or higher**.
+
+**Impact:**
+
+If you use an older JRE (18 or below), the Prover will fail to start.
+
+**Action needed:**
+
+Update your Java installation to **version 19 or later** before running the new release.
+
+[**Java installation instructions**](https://www.java.com/en/download/help/download_options.html)
+
+### **Minimum Python Version Increased to 3.9**
+
+**What changed:**
+
+Python 3.8 has reached end-of-life, and `certora-cli` will no longer explicitly support this version.
+
+**Impact:**
+
+If you're using Python 3.8, you may encounter compatibility issues or installation errors when using newer versions of `certora-cli`.
+
+**Action needed:**
+
+Upgrade your Python installation to **version 3.9 or higher**.
+
+[**Python installation instructions**](https://realpython.com/installing-python/)
+
+### **Sanity Checks Now Run by Default (Including Invariant Base Cases)**
+
+**What changed:**
+
+The Prover now runs **basic sanity checks by default**, including checks for vacuity and trivial conditions. This change is equivalent to setting `“rule_sanity”: “basic”` in earlier versions.
+
+As part of this update, we fixed a bug: the vacuity check for the **base case of invariants** is now properly executed. Previously, this check was silently skipped.
+
+**Impact:**
+
+Jobs may take slightly longer to run, and some rules that previously passed may now **fail** due to failing a sanity check. This ensures the rules are meaningful and not trivial or vacuously satisfied.
+
+**Action needed:**
+
+Review your rules and check the **Rule Notification** tab if you encounter new violations. We explain sanity check failures in more detail in the documentation.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/prover/checking/sanity.html)
+
+### **New Semantics for requireInvariant**
+
+**What changed:**
+
+The semantics of requireInvariant have been updated to **fix an unsoundness issue**. Previously, it was treated as a shortcut for `require(<invariant expression>)`, which could incorrectly assume that the invariant holds at arbitrary points, even when that wasn't guaranteed.
+
+With this release, `requireInvariant` only assumes the invariant **before a rule starts**, where its truth is proven.
+
+**Impact:**
+
+This change makes invariant assumptions sound by default. If your spec relied on the old behavior, you may now see new failures or changes in results.
+
+**Action needed:**
+
+Review uses of requireInvariant and ensure it appears only where the invariant should hold before the rule begins.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/cvl/invariants.html#requiring-invariants)
+
+[**Example**](https://github.com/Certora/Examples/blob/master/CVLByExample/Invariant/RequireInvariantArray/README.md)
+
+### **Solana and Soroban Verifications Must Use Dedicated Commands**
+
+**What changed:**
+
+Running Solana and Soroban jobs using `certoraRun` is no longer supported. These targets now require their dedicated CLI entry points:
+
+* Use `certoraSolanaProver` for Solana jobs
+* Use `certoraSorobanProver` for Soroban jobs
+
+**Impact:**
+
+Attempts to run Solana or Soroban contracts using `certoraRun` will now result in an error.
+
+**Action needed:**
+
+Update your workflows and scripts to use the appropriate command for Solana or Soroban verification.
+
+### **Default Report Links Are Now Private**
+
+**What changed:**
+
+By default, all newly generated verification report links are now **private**, meaning they are only accessible to you. In continuous integration (CI) runs, report links will continue to be **public by default** to avoid breaking existing workflows.
+
+The Verification Report UI has been updated with a **dropdown menu** next to the Share Link button. This menu lets you:
+
+* Copy a **private** or **public** link
+* Optionally preserve the current report view state (e.g., open tabs, scroll position, highlighted lines) when copying the link
+
+![Screenshot](https://images.prismic.io/certora/aJoXPKTt2nPbaK9P_share_dropdown.png?auto=format,compress)
+
+A new `url_visibility` option lets you control the link type when running jobs, either via the command line or in a configuration file.
+
+**Impact:**
+
+If your current workflow relies on **public links**, you will now need to explicitly set `url_visibility public` to preserve the old behavior.
+
+**Action needed:**
+
+Update your configs or CLI commands if public links are required for your use case.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/prover/cli/options.html#url-visibility)
+
+### **Revert Handling for CVL Functions**
+
+**What changed:**
+
+CVL functions now support explicit revert behavior:
+
+* Use the `revert` keyword within CVL functions to model failure scenarios.
+* CVL functions can now be called with the `@withrevert` postfix to reason about both success and revert cases.
+
+**Impact:**
+
+Previously, the Prover did not reason about CVL functions reverting, even when used to summarize Solidity functions called with `@withrevert`. This led to incorrect verification results, as possible reverts in the CVL summary were silently ignored.
+
+With this update, the Prover checks whether a CVL function may revert, and rules that previously passed may now fail due to missing revert modeling.
+
+**Action needed:**
+
+If you call a Solidity function with `@withrevert` and summarize it with a CVL function, make sure the CVL function properly accounts for both success and failure paths. Use the `revert` keyword as needed to accurately capture revert conditions.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/cvl/statements.html#revert)
+
+[**Example**](https://github.com/Certora/Examples/blob/master/CVLByExample/RevertKeyWord/README.md)
+
+### **Deprecated CLI Options Removed**
+
+**What changed:**
+
+Several CLI options that previously printed warnings are **no longer supported**. These options were gradually phased out and, in most cases, replaced by newer alternatives. If you encounter errors after upgrading, check your config files or scripts for unsupported flags and replace them accordingly.
+
+You can find the full list of supported CLI options in the docs.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/prover/cli/options.html)
+
+### **adaptiveSolverConfig false Replaced by backendStrategy singlerace**
+
+**What changed:**
+
+The Prover no longer accepts the `-adaptiveSolverConfig false` option as a `prover_arg`. It has been replaced by a new option: `-backendStrategy singlerace`.
+
+**Impact:**
+
+Using the old option will now result in an error.
+
+**Action needed:**
+
+Update your configuration file `prover_args` to use `-backendStrategy singlerace` instead.
+
+## **New Prover Updates**
+
+### **CVL Specification Formatter**
+
+A new command-line tool is now available to format CVL specification files. You can run it from the terminal with:
+
+```shell
+certoraCVLFormatter <SPEC_FILE> --overwrite
+```
+
+This automatically reformats your CVL code for consistency and readability.
+
+The formatter is also available as a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=Certora.evmspec-lsp).
+
+[**Docs**](https://docs.certora.com/en/latest/docs/cvl/lsp.html)
+
+### **Re-Routing Summaries**
+
+You can now summarize internal functions that take storage parameters by rerouting the call to a custom Solidity function. This unlocks new use cases where expression summaries weren't previously possible.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/cvl/methods.html#rerouting-summaries)
+
+[**Example**](https://github.com/Certora/Examples/blob/master/CVLByExample/ReroutingSummaries/README.md)
+
+### **Transient Storage Hooks**
+
+CVL now supports **hooks on transient storage fields**, enabling precise reasoning about reads (`TLOAD`) and writes (`TSTORE`). You can define hooks with named storage variables for these opcodes and access the corresponding fields directly in CVL, just like regular storage fields.
+
+Note: `ALLTSTORE` and `ALLTLOAD` hooks are only supported when storage splitting is disabled, which is consistent with regular storage hook behavior.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/cvl/hooks.html#notes-on-transient-storage)
+
+[**Example**](https://github.com/Certora/Examples/blob/master/CVLByExample/TransientStorage/TransientFields/README.md)
+
+### **Foundry Remappings Support**
+
+You can now use **Foundry's built-in remapping resolution** when compiling contracts. The Prover automatically runs `forge remappings` to collect all package mappings defined in your foundry.toml and its dependencies. This feature is active when **packages is not explicitly provided**, allowing for simpler setups and better compatibility with Foundry-based projects.
+
+[**Docs**](https://docs.certora.com/en/latest/docs/prover/cli/packages_and_remappings.html)
+
+[**Example**](https://github.com/Certora/Examples/blob/master/FoundryIntegration/SimpleDappTest/README.md)
+
+## **Upgrade to Version 8.1.0**
+
+Access these updates by ensuring your software is up-to-date with the latest version. To upgrade to v8.1.0, simply run `pip install --upgrade certora-cli`.
+
+As always, we welcome and appreciate your feedback.]]></content:encoded>
+      <guid isPermaLink="true">https://certora.com/blog/prover_v8_1_0</guid>
+    </item>
+  </channel>
+</rss>

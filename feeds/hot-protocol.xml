@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Protocol - Stellar Ecosystem</title>
+    <link>https://hot-labs.org</link>
+    <description>Latest articles about HOT Protocol in the Stellar ecosystem</description>
+    <lastBuildDate>Mon, 09 Feb 2026 05:11:34 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/lumenloop/stellar-ecosystem-feeds/main/feeds/hot-protocol.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to Receive and Send USDC on Stellar: Step-by-Step Guide in HOT Wallet</title>
+      <link>https://hot-labs.org/blog/how-to-receive-and-send-usdc-on-stellar-step-by-step-guide-in-hot-wallet</link>
+      <author>Mykola</author>
+      <enclosure url="https://storage.herewallet.app/upload/6802a926e2a5e6a129336f42548578005d776099699e76f88d795ce9d00a556b.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# How to Receive and Send USDC on Stellar: Step-by-Step Guide in HOT Wallet
+
+![HOT Wallet – the easiest way to receive and transfer USDC on Stellar in 2026. Mobile app dashboard with $794.23 balance, Stellar network selected and USDC token overview](/images/blog/1.png)
+
+In this article, we'll show you how to conveniently receive and send USDC, XLM, EURC, and other tokens on the Stellar blockchain using **HOT Wallet**. We'll break down every step in the simplest way possible so even a complete beginner can quickly get it. Special attention will be given to the advantages of **HOT Wallet**: free asset activation, protection against fund loss, full support for claimable balances, built-in swaps, staking, and much more - that's why **HOT Wallet** remains the best choice for working with Stellar.
+
+### **What is Stellar and how is it related to USDC?**
+
+[**Stellar**](https://stellar.org/) is a decentralized blockchain platform built specifically for fast, cheap, and reliable cross-border payments. It enables near-instant transfers of fiat currencies, stablecoins, and other assets with minimal fees - often less than a cent. Stellar is perfect for everyday transfers, remittances, and integration with traditional finance.
+
+USDC (USD Coin) is one of the most popular stablecoins, issued by Circle. [**On Stellar, USDC**](https://www.circle.com/blog/usdc-for-stellar-coming-to-circle) is a native asset issued directly by the issuer, ensuring maximum speed and low costs. Recently, [**Circle also launched the euro stablecoin EURC on Stellar **](https://www.coindesk.com/tech/2023/09/26/circle-seeks-to-boost-crypto-payments-by-expanding-eurc-stablecoin-to-stellar-network) - it's currently one of the fastest-growing assets in the network.
+
+### **How to Receive USDC in HOT Wallet**
+
+Receiving USDC (or any other token on Stellar - XLM, EURC, etc.) in [**HOT Wallet**](https://download.hot-labs.org/blog_hot_stellartransfers_eng) is very easy and takes just a few seconds. **HOT Wallet** is available in three formats: mobile app (Android/iOS), browser extension (Chrome and others), and Telegram Mini App. Currently the main focus is on the mobile app and browser extension - they provide maximum speed, convenience, and full functionality. Telegram Mini App remains a handy option for quick access without installation.
+
+![How to deposit USDC to HOT Wallet on Stellar: show wallet address, activate USDC token, scan QR code or copy address – simple deposit guide for Stellar network in 2026](/images/blog/2 після 1 абзаца.png)
+
+On the main page, tap the "Deposit" button, then "Show My Wallet Addresses." In the list of networks, select Stellar. Then find USDC (or EURC, XLM, etc.) in the list of assets. If the asset isn't in your wallet yet, the system will offer to activate it - in **HOT Wallet** this is completely free, with no need to hold extra XLM for reserve (unlike most other wallets).
+
+After activation, tap "Copy Address." You'll get the public address of your Stellar account. Send USDC to it from any exchange, another wallet, or via bridge. For receiving in **HOT Wallet**, no memo is required - the system automatically processes incoming transactions without extra fields.
+
+For even faster access - the **HOT Wallet** main page has quick entry to your Stellar account. Just tap the Stellar balance, select the desired token - the address copies in one click. Everything is intuitive with no extra steps.
+
+![How to Quickly Copy Your Stellar Address in HOT Wallet](/images/blog/2 підз в кінці.png)
+
+### **Activate USDC for Free in Hot Wallet**
+
+On Stellar, storing any asset (except XLM) requires creating a trustline - a special relationship between your account and the token issuer. This is needed so the network knows you trust that issuer and are ready to receive their assets. Each trustline reserves 0.5 XLM (base account reserve - 1 XLM + 0.5 XLM per trustline and other sub-entries). These funds are frozen and not spent, but in regular wallets you have to hold them yourself. Full details on trustlines and reserves in the official Stellar documentation: [**Manage Trust | Stellar Docs.**](https://developers.stellar.org/docs/build/apps/example-application-tutorial/manage-trust)
+
+**HOT Wallet** makes activation completely free for the user. The team covers all costs for creating the trustline and reserve - you pay nothing and don't freeze any extra XLM. This is one of the key advantages of **HOT Wallet**: in other wallets activating USDC or EURC can cost 1-2 XLM, sometimes more for new accounts. In **HOT Wallet** you just select the token - and it's instantly ready to receive.
+
+Another big plus - no memo needed for receiving. Many users lose funds by sending to exchanges without a memo or vice versa. **HOT Wallet** prevents such mistakes at the interface level.
+
+### **How to Send Tokens on the Stellar Network**
+
+![Step-by-step USDC transfer on Stellar in HOT Wallet: select token, enter amount 0.359 USDC, review transaction details and confirm transfer with low network fee – fast & secure 2026](/images/blog/4 підз початок.png)
+
+Sending tokens on Stellar through [**HOT Wallet**](https://download.hot-labs.org/blog_hot_stellartransfers_eng) is fast, secure, and convenient. Open **HOT Wallet**, tap "Transfer." Select the Stellar network, then the token - USDC, XLM, EURC, or any other. Enter the recipient's address (paste from clipboard or scan a QR code). Specify the amount and tap "Review".
+
+Important note: if you're sending to an exchange (Binance, Bybit, OKX, etc.), you must include a memo (Memo). Without it, funds can be lost forever - this is one of the most common issues on Stellar. **HOT Walle**t protects users by blocking the "Transfer" button if the address belongs to an exchange and no memo is entered. The system automatically checks the address type and requires the field to be filled - a unique protection not found in most wallets.
+
+Fees are minimal - usually 0.00001 XLM per transaction.
+
+### **Claimable Balances on Stellar**
+
+One of the most useful features of Stellar is the claimable balances mechanism. If someone sends you tokens (e.g. USDC) to an unactivated account or an address without a trustline, the network doesn't reject the transaction - it creates a claimable balance. These funds stay "frozen" until the recipient creates and activates the account and sets up the trustline. Detailed explanation in the official Stellar documentation: [**Claimable balances | Stellar Docs.**](https://developers.stellar.org/docs/build/guides/transactions/claimable-balances)
+
+![HOT Wallet mobile app showing 0.12 USDC claimable balance on Stellar network with 'Claim' button highlighted – easy one-tap claiming of USDC in 2026](/images/blog/5 підз після 1 абзаца.png)
+
+**HOT Wallet** is the only wallet that fully supports claimable balances. If tokens were sent to an empty address, they'll appear in the section labeled "Claimable." You can claim them for free with one click - **HOT Wallet** automatically creates the required trustlines and handles the reserve with no extra cost to you.
+
+If you sent tokens to another Stellar wallet and the recipient can't see them (account empty or no trustline), advise them to import the seed phrase or private key into **HOT Wallet**. After import, claimable balances will appear immediately and can be claimed for free. This saves thousands of dollars that would otherwise remain "stuck" forever.
+
+### **Conclusion**
+
+**HOT Wallet** is the most functional and secure wallet for Stellar. Thanks to free asset activation, built-in protection against loss without memo, full claimable balances support, instant swaps, XLM/USDC/EURC staking, cross-chain bridges, and Telegram integration, it outperforms all alternatives. The MPC architecture provides decentralized security with no single point of failure, and the partnership with the Stellar Foundation ensures reliability and up-to-date features.
+
+**HOT Wallet** is perfect for both beginners and experienced users: simple interface, zero hidden fees on Stellar, high privacy, and support for over 100 chains. If you work with Stellar - this is your best choice.
+
+* We also recommend reading the article "[**HOT Wallet - Best Stellar XLM Wallet**](https://hot-labs.org/blog/hot-wallet-best-stellar-wallet)", which covers all additional features in detail.
+
+[**Download HOT Wallet right now**](https://download.hot-labs.org/blog_hot_stellartransfers_eng) - and see for yourself how convenient and secure it is to work with USDC and other assets on Stellar!
+
+Join the **HOT Wallet** community! Discuss, share your experience, and get fast answers:
+
+* Discuss on Reddit →
+* Watch video guides on YouTube → [**https://www.youtube.com/@hot-labs**](https://www.youtube.com/@hot-labs)
+* Follow news on X → [**https://x.com/hotdao**](https://x.com/hotdao)
+* Reels and quick tips on Instagram → [**https://www.instagram.com/hot_labs**](https://www.instagram.com/hot_labs)
+* Get updates on Telegram → [**https://t.me/hotonnear**](https://t.me/hotonnear)
+* Read full articles on Medium → [**https://hot-labs.medium.com/**](https://hot-labs.medium.com/)
+
+We look forward to your comments and questions! 🔥]]></content:encoded>
+      <guid isPermaLink="true">https://hot-labs.org/blog/how-to-receive-and-send-usdc-on-stellar-step-by-step-guide-in-hot-wallet</guid>
+    </item>
+    <item>
+      <title>From L0 to L3: What’s the Difference Between L1, L2, and Modern Blockchains</title>
+      <link>https://hot-labs.org/blog/from-l0-to-l3-whats-the-difference-between-l1-l2-and-modern-blockchains</link>
+      <author>It&apos;tai</author>
+      <enclosure url="/images/blog/image_2026-01-26_20-57-19.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# From L0 to L3: What’s the Difference Between L1, L2, and Modern Blockchains
+
+![Infographic showing the layers of Web3 blockchain architecture: Layer 0, Layer 1, Layer 2, and Layer 3, with examples of popular networks that illustrate their classification and alignment with specific layers.](https://hot-labs.org/images/blog/image_2026-01-26_20-57-19.png)
+
+Modern blockchain is a **multi-layer Web3 architecture** made up of **Layer 0, Layer 1, Layer 2, and Layer 3**. These layers emerged due to the limitations of a single chain: no network can be fast, cheap, and fully decentralized at the same time. As a result, the blockchain ecosystem split responsibilities across layers - core security and consensus remain at the base, while scalability and user-facing applications are built on top, making Web3 more scalable and practical to use.
+
+## Layer 0: the foundation for creating blockchains
+
+Layer 0 is the **foundation of the blockchain architecture**, responsible for core infrastructure. It provides a ready-made set of tools needed to launch and operate other networks, including consensus mechanisms, security frameworks, programming languages, SDKs, and bridges that enable interoperability between future blockchains.
+
+Because of this, developers don’t need to build everything from scratch. The core logic is already embedded at the L0 level, which significantly simplifies and accelerates the creation of new Layer 1 networks. In practice, Layer 0 acts like a modular framework that allows teams to build custom blockchains with their own configurations.
+
+There are only a few Layer 0 networks in practice. The most well-known examples are [Cosmos](https://cosmos.network/technology) and [Polkadot](https://polkadot.com/tech). A similar approach also exists in [Avalanche](https://build.avax.network/docs/primary-network), though it is used less extensively compared to the first two. Blockchains built on top of this infrastructure typically have their own native tokens and independently define how transaction fees are paid.
+
+As a result, Layer 0 lays the foundation for large-scale blockchain ecosystems where multiple networks can evolve in parallel while remaining interoperable with each other.
+
+## Layer 1: The main type of blockchains
+
+The first blockchains, including **Bitcoin**, were designed as decentralized ledgers for recording transactions. They relied on mechanisms like **Proof of Work**, which provided strong security but came with clear drawbacks - low throughput and high transaction fees.
+
+With the launch of [Ethereum](https://ethereum.org/), blockchain gained a new dimension through **smart contracts**, enabling decentralized applications, DeFi protocols, and NFTs. However, this innovation introduced new challenges: as the number of users and applications grew, scaling the network without sacrificing efficiency became increasingly difficult.
+
+Today, **Layer 1** includes networks such as [Ethereum](https://ethereum.org/), [BNB Smart Chain](https://www.bnbchain.org/en/bnb-smart-chain) (BSC), [Solana](https://solana.com/), [NEAR](https://www.near.org/), [Sui](https://www.sui.io/), [Aptos](https://aptosnetwork.com/), [SEI](https://www.sei.io/), [Monad](https://www.monad.xyz/), [Polygon](https://polygon.technology/), and others.
+
+![Infographic of Layer 1 blockchains divided into EVM and non-EVM networks, including Ethereum, BNB Smart Chain, Polygon, Bitcoin, Solana, NEAR, TON, and other L1 blockchains.](https://hot-labs.org/images/blog/image_2026-01-25_01-05-11.png)
+
+All Layer 1 networks have their own **native token** used to pay transaction fees (gas), but they can differ significantly from one another.
+
+#### **Key differences between L1 networks include:**
+
+* the consensus mechanism
+* the level of decentralization
+* transaction finality speed
+* transaction fees
+
+For example, [Ethereum](https://ethereum.org/) is considered one of the most decentralized networks, but it lags behind in terms of speed and cost. [BNB Smart Chain](https://www.bnbchain.org/en/bnb-smart-chain) (BSC), on the other hand, operates much faster, largely due to a smaller number of validators controlling the network.
+
+In this sense, **Layer 1 is the heart of the blockchain**. It is where the balance between security, decentralization, and performance is defined - and that choice ultimately shapes how the entire ecosystem evolves.
+
+## Layer 2: when speed matters
+
+Layer 2 emerged to solve a simple problem: **Layer 1 networks can't handle the load on their own**. [Ethereum](https://ethereum.org/) remains one of the most battle-tested and secure blockchains, but at the base layer it was never designed for mass adoption. Significantly increasing its speed would require a complete architectural overhaul. Instead of changing the foundation, the ecosystem adopted a different approach - **Layer 2 scaling solutions**.
+
+Layer 2 networks process transactions **off the main blockchain**, batch them together, and periodically submit the results to [Ethereum](https://ethereum.org/) for final settlement. As a result:
+
+* transaction fees drop dramatically
+* confirmations become much faster
+* the security of the base layer is preserved
+
+Even though user interactions take place on **Layer 2**, final settlement still happens on [Ethereum](https://ethereum.org/), which is why transaction fees are ultimately paid in ETH. At the same time, these operations usually cost users just a few cents.
+
+Some of the most popular **Layer 2** solutions include [Optimism](https://www.optimism.io/), [Arbitrum](https://arbitrum.io/), [Linea](https://linea.build/), [Base](https://www.base.org/), [zkSync](https://www.zksync.io/), [Metis](https://www.metis.io/), and others. These networks have already become the foundation for many DeFi protocols and applications.
+
+Interestingly, the Layer 2 concept is no longer limited to [Ethereum](https://ethereum.org/). Other blockchains are beginning to adopt similar approaches, aiming to combine base-layer security with high performance and low transaction costs.
+
+## Layer 3: Specialization and Better UX
+
+Layer 3 gives developers the ability to build products on top of **Layer 1 and Layer 2 infrastructure** without being constrained by their standard configurations. L3 enables the creation of environments with custom logic, economics, and rules, optimized for specific use cases.
+
+At this level, highly specialized solutions emerge - blockchains and protocols designed for gaming, trading, NFTs, or decentralized exchanges. This approach shifts the focus away from general-purpose design toward maximum usability and performance for a particular application.
+
+Examples of Layer 3 networks include [APE Chain](https://apechain.com/), [Superposition](https://superposition.so/), and [Xai](https://xai.games/) - ecosystems built for specific use cases where user experience comes first. In this way, **Layer 3 represents the specialization layer**, making blockchain not just technically powerful, but practical and tailored to real user needs.
+
+## Conclusion:
+
+In practice, users don't need to understand all the technical differences between blockchain layers if the wallet handles that complexity for them. [HOT Wallet](https://download.hot-labs.org/blog_hot_L0L1L2L3_eng) **supports over 140 blockchains** and provides access to all key layers of the blockchain ecosystem:
+
+* **L0**, including [Avalanche](https://build.avax.network/docs/primary-network);
+* **L1** networks such as [Ethereum](https://ethereum.org/), [BNB Smart Chain](https://www.bnbchain.org/en/bnb-smart-chain) (BSC), [Solana](https://solana.com/), [NEAR](https://www.near.org/), [TON](https://ton.org/en), [Stellar](https://stellar.org/), and others;
+* **L2 solutions** like [Optimism](https://www.optimism.io/), [Arbitrum](https://arbitrum.io/), [Linea](https://linea.build/), [Base](https://www.base.org/), [zkSync](https://www.zksync.io/), [Metis](https://www.metis.io/), and more;
+* **L3 networks**, including [APE Chain](https://apechain.com/), [Superposition](https://superposition.so/), and [Xai](https://xai.games/).
+
+With built-in **cross-chain bridges**, users can move assets between networks quickly and with minimal fees. The **gas refuel** feature makes it possible to obtain the native token needed to pay transaction fees on a new network without relying on third-party services. As a result, interacting with different blockchain layers happens in a single interface - fast, secure, and without unnecessary technical steps.
+
+**One wallet. Many networks. Maximum possibilities.**
+
+**Get started in 30 seconds:**
+⬇️ [Download HOT Wallet](https://download.hot-labs.org/blog_hot_L0L1L2L3_eng)
+
+**Join Our Community:**
+[X](https://x.com/hotdao_) | [Telegram](https://t.me/hotonnear) | [Instagram](https://www.instagram.com/hot_labs/)]]></content:encoded>
+      <guid isPermaLink="true">https://hot-labs.org/blog/from-l0-to-l3-whats-the-difference-between-l1-l2-and-modern-blockchains</guid>
+    </item>
+    <item>
+      <title>HOT Wallet - Best Stellar XLM Wallet</title>
+      <link>https://hot-labs.org/blog/hot-wallet-best-stellar-wallet</link>
+      <author>Pasha</author>
+      <enclosure url="/images/blog/image_2026-01-08_12-26-46.png" type="image/jpeg"/>
+      <content:encoded><![CDATA[# HOT Wallet - Best Stellar XLM Wallet
+
+![HOT Wallet image](/images/blog/image_2026-01-08_12-26-46.png)
+
+[HOT Wallet](https://download.hot-labs.org/blog_hot_stellarwallet_eng), developed by HOT Labs, delivers the most intuitive and powerful Stellar cryptocurrency experience. Available as a mobile app, browser extension, and Telegram Mini App, it allows you to **swap tokens**, **bridge assets**, and **earn or stake XLM, USDC and EURC** directly on the Stellar network.
+
+## What is Stellar
+
+[Stellar](https://stellar.org/) is a decentralized protocol for fast, low-cost cross-border payments. Its native token, **Stellar lumens (XLM)**, is used for transaction fees and activating accounts and assets. Stellar connects financial institutions, stablecoins, and users through one of the most efficient blockchain networks.
+
+## How to Activate a Stellar Account
+
+![activate stellar](/images/blog/activate stellar.png)
+
+Before sending USDC, EURC, or other **Stellar crypto** assets from an exchange, you must activate the token on your wallet by covering the minimum reserve fee - 0.1 **XLM**. Without this, most exchanges won't let you withdraw.
+
+HOT Wallet removes all the hassle by activating accounts and tokens **for free**. Just tap:
+
+**Deposit → Stellar → Activate Account or Token**
+
+## How to Swap on Stellar
+
+[HOT Wallet](https://download.hot-labs.org/blog_hot_stellarwallet_eng) lets you swap **XLM**, **USDC**, **EURC**, and other tokens on the **Stellar lumens** network at the best available prices:
+
+* Go to the **Swaps** section in HOT Wallet
+* Select the **Stellar** network
+* Choose the token pair
+* On the **Review** screen, adjust settings and confirm the trade
+
+### Swap Settings Explained
+
+* **Provider**: HOT Wallet routes swaps through [Aquarius](https://aqua.network/) (AMM DEX on Stellar) and [Soroswap](https://app.soroswap.finance/), the main Stellar DEX aggregator.
+* **Slippage**: Adjust depending on token volatility. Use a higher value for meme coins or illiquid assets.
+
+## How to Bridge to Stellar
+
+1. Open the **Bridge** section in [HOT Wallet](https://download.hot-labs.org/blog_hot_stellarwallet_eng)
+2. Choose source network and token
+3. Set **Stellar** as the destination chain
+4. Enter amount and complete the transaction
+
+HOT Wallet is the **only wallet** with a native **bridge to Stellar**. Powered by HOT Bridge, it supports bridging from the most popular blockchains to Stellar - fast, cheap, and secure.
+
+## Why Choose HOT Wallet for Stellar and XLM
+
+* **MPC Wallet**  
+Military-grade key security with 2FA and rotatable seed phrases
+* **Best-rate swaps**  
+Aggregated Stellar liquidity with minimal slippage
+* **Built-in bridge**  
+Native support for bridging to and from Stellar
+* **Free account & token activation**  
+No upfront cost to start using Stellar crypto assets
+* **Multi-platform**  
+Android, iOS, Browser Extension, Telegram Mini App
+* **XLM staking & lending**  
+HOT Wallet is the **only wallet** offering **staking/lending of XLM, USDC, and EURC** on Stellar
+* **Web3 browser**  
+Access Stellar dApps directly from the wallet
+* **Multi-chain hub**  
+EVM and non-EVM assets in one place
+* **Ledger support**
+* **Support for Claimable Balances**
+* **24/7 live support**  
+Real human agents - not bots
+
+## Conclusion
+
+Most wallets treat Stellar as an afterthought. [HOT Wallet](https://download.hot-labs.org/blog_hot_stellarwallet_eng) **is built around it.** With full support for Stellar crypto assets, free account activation, built-in swaps, and the only working Stellar bridge on the market - HOT Wallet is the best Stellar lumens wallet available today.
+
+If you're using Stellar, there's no reason to settle for less.
+
+**Get started in 30 seconds:**  
+⬇️ [Download HOT Wallet](https://download.hot-labs.org/blog_hot_stellarwallet_eng)
+
+**Join Our Community:**  
+[X](https://x.com/hotdao_) | [Telegram](https://t.me/hotonnear) | [Instagram](https://www.instagram.com/hot_labs/)
+]]></content:encoded>
+      <guid isPermaLink="true">https://hot-labs.org/blog/hot-wallet-best-stellar-wallet</guid>
+    </item>
+  </channel>
+</rss>
